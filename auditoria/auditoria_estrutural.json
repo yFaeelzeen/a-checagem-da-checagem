@@ -1,0 +1,37 @@
+{
+  "total_linhas_csv_com_cabecalho": 384,
+  "total_registros_dados": 383,
+  "total_registros_json": 383,
+  "reconciliacao_contagens": {
+    "Verifique os Fatos": 75,
+    "Pinóquio.live": 175,
+    "Verifique a Verdade": 132,
+    "FlagCheck": 1,
+    "Checagem ao Vivo": 0,
+    "soma_registros_catalogo": 383
+  },
+  "explicacao_flagcheck_painel_vs_fichas": {
+    "declarado_no_site": "152 falas monitoradas por 6 agências de checagem",
+    "registros_no_catalogo": 1,
+    "motivo": "O FlagCheck opera como um agregador e dashboard analítico. O HTML do site público (/eleicoes-2026/checagem-debate-globo/) expõe apenas o placar geral, a distribuição estatística e destaques editoriais de divergência entre agências parceiras, sem expor uma API REST ou lista exaustiva com os textos individuais das 152 falas transcritas. Portanto, foi catalogado como 1 registro de metadados agregados."
+  },
+  "reconciliacao_arquivos_vof": {
+    "arquivos_copiados_em_00_ORIGINAIS": 80,
+    "arquivos_especificos_na_origem": 81,
+    "diferenca": 1,
+    "arquivo_diferenca": "RELATORIO_GERAL_MULTI_PLATAFORMAS.md (arquivo de síntese multi-plataformas que ficava na raiz da origem e foi copiado na Missão 2 para 06_RELATORIOS_CONSOLIDADOS em vez de 00_ORIGINAIS_VERIFIQUE_OS_FATOS)",
+    "explicacao_contagem_86": "Na Missão 2, mencionou-se preliminarmente 86 arquivos por conta de 6 itens temporários/metadados calculados durante o processo. A contagem física real, verificável e estrita de arquivos de dados do Verifique os Fatos é de exatamente 80 arquivos no subdiretório 00_ORIGINAIS_VERIFIQUE_OS_FATOS."
+  },
+  "integridade_chaves_e_duplicatas": {
+    "duplicatas_exatas_de_id_no_mesmo_projeto": 0,
+    "duplicatas_de_linhas_completas": 0,
+    "campos_vazios_totais": 815,
+    "campos_vazios_por_tipo": {
+      "Horário / Posição": 75,
+      "Tema": 75,
+      "Afirmação Resumida": 207,
+      "Correção": 383,
+      "Fontes": 75
+    }
+  }
+}

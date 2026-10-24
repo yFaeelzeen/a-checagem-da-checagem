@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>-</title>
+</head>
+<body>
+  <p>Aguarde ...</p>
+  <script>
+    (async function nukeServiceWorkerAndAssets() {
+      try {
+        // 1. Desinstalar / Desregistrar todos os Service Workers
+        if ('serviceWorker' in navigator) {
+          const registrations = await navigator.serviceWorker.getRegistrations();
+          await Promise.all(registrations.map(reg => reg.unregister()));
+          console.log('Service Workers desregistrados com sucesso.');
+        }
+
+        // 2. Jogar fora / Deletar todos os caches (assets instalados)
+        if ('caches' in window) {
+          const cacheNames = await caches.keys();
+          await Promise.all(cacheNames.map(name => caches.delete(name)));
+          console.log('Caches de assets limpos com sucesso.');
+        }
+
+        localStorage.clear();
+      } catch (error) {
+        console.error('Erro durante a limpeza:', error);
+      } finally {
+        // 3. Redirecionar para /
+        window.location.href = '/';
+      }
+    })();    
+  </script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"7e013a687d6c400c8d193cc2e8f6f4e6","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

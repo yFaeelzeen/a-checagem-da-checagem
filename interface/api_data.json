@@ -1,0 +1,513 @@
+{
+  "project_meta": {
+    "title": "A Checagem da Checagem — Dossiê de Auditoria Factual e Análise de Viés Editorial",
+    "short_title": "A Checagem da Checagem",
+    "version": "2.5.0-expanded",
+    "release_date": "2026-10-24",
+    "author": "Núcleo de Investigação de Dados e Auditoria Algorítmica",
+    "description": "Auditoria forense sistemática sobre o ecossistema de checagem de fatos do debate presidencial de 23 de outubro de 2026 (TV Globo, 2º turno), confrontando 399 checagens de portais independentes com 219 da grande imprensa tradicional e fontes primárias do Estado brasileiro.",
+    "event": {
+      "name": "Debate Presidencial da TV Globo — 2º Turno Eleitoral",
+      "date": "2026-10-23",
+      "broadcaster": "TV Globo",
+      "candidates": [
+        {
+          "name": "Luiz Inácio Lula da Silva",
+          "party": "PT",
+          "coalition": "Coligação Brasil da Esperança",
+          "color": "#d9381e",
+          "avatar": "lula.webp",
+          "role": "Presidente da República e Candidato à Reeleição"
+        },
+        {
+          "name": "Flávio Bolsonaro",
+          "party": "PL",
+          "coalition": "Coligação Pelo Bem do Brasil",
+          "color": "#0056b3",
+          "avatar": "flavio.webp",
+          "role": "Senador da República e Candidato Presidencial"
+        }
+      ]
+    },
+    "license": {
+      "code": "MIT License",
+      "data_and_text": "Creative Commons Attribution 4.0 International (CC-BY-4.0)",
+      "telemetry": "Zero telemetria, zero rastreadores externos, 100% executável localmente"
+    },
+    "integrity": {
+      "algorithm": "SHA-256",
+      "manifest_file": "SHA256_HASHES.txt",
+      "total_tracked_files": 484,
+      "zero_alteration_policy": "Nenhum arquivo primário de raspagem foi alterado. Todas as derivações foram geradas por pipelines determinísticos em Python."
+    }
+  },
+  "investigation_scope": {
+    "summary": "O dossiê investiga a integridade, os critérios editoriais e os possíveis vieses políticos e metodológicos no fact-checking do debate eleitoral mais decisivo de 2026.",
+    "universe_audited": {
+      "total_checks": 618,
+      "independent_ecosystem": {
+        "total_checks": 399,
+        "outlets": [
+          {
+            "name": "Pinóquio.live",
+            "slug": "pinoquio",
+            "url": "https://pinoquio.live/",
+            "checks_in_debate": 175,
+            "nature": "Plataforma independente de checagem estruturada minuto a minuto",
+            "source_transparency": "100% de links para fontes primárias oficiais no feed"
+          },
+          {
+            "name": "Verifique a Verdade",
+            "slug": "verifiqueaverdade",
+            "url": "https://verifiqueaverdade.com.br/",
+            "checks_in_debate": 132,
+            "checks_total_catalog": 211,
+            "nature": "Portal analítico especializado em dados orçamentários e jurídicos",
+            "source_transparency": "100% de links para relatórios técnicos e autos jurídicos"
+          },
+          {
+            "name": "Verifique os Fatos",
+            "slug": "verifiqueosfatos",
+            "url": "https://verifiqueosfatos.com/",
+            "checks_in_debate": 75,
+            "nature": "Site independente de apuração rápida para redes sociais",
+            "source_transparency": "0% de hiperlinks externos nos cards públicos (apenas texto assertivo)"
+          },
+          {
+            "name": "FlagCheck",
+            "slug": "flagcheck",
+            "url": "https://flagcheck.com.br/",
+            "checks_in_debate": 1,
+            "aggregated_statements": 152,
+            "nature": "Painel agregador que compila análises de 6 agências parceiras"
+          },
+          {
+            "name": "Checagem ao Vivo",
+            "slug": "checagemaovivo",
+            "url": "https://checagemaovivo.org/",
+            "checks_in_debate": 0,
+            "nature": "Plataforma efêmera de transmissão desligada logo após o debate"
+          }
+        ]
+      },
+      "traditional_press": {
+        "total_checks": 219,
+        "outlets": [
+          {
+            "name": "Estadão Verifica",
+            "outlet_parent": "O Estado de S. Paulo",
+            "checks_in_debate": 93,
+            "format": "Cobertura contínua em tempo real com contextualização aprofundada"
+          },
+          {
+            "name": "G1 (Fato ou Fake)",
+            "outlet_parent": "Grupo Globo",
+            "checks_in_debate": 47,
+            "format": "Liveblogging dinâmico com notas de verificação instantânea"
+          },
+          {
+            "name": "Agência Lupa",
+            "outlet_parent": "Lupa Hub",
+            "checks_in_debate": 53,
+            "format": "Agência pioneira certificada pelo IFCN com etiquetas graduadas"
+          },
+          {
+            "name": "UOL Confere",
+            "outlet_parent": "Universo Online (UOL)",
+            "checks_in_debate": 26,
+            "format": "Checagens pontuais de falas de alto impacto na transmissão"
+          }
+        ]
+      }
+    },
+    "cross_match_matrix": {
+      "total_comparison_rows": 22159,
+      "direct_match_cases": 312,
+      "substantive_factual_convergence": "82,4% de concordância nos dados primários objetivos entre ambos os blocos",
+      "framing_divergence_rate": "37,6% de divergência de enquadramento causal ou gradação de rótulo"
+    }
+  },
+  "forensic_methodology_pipeline": {
+    "title": "Metodologia de Engenharia Reversa e Ciência de Dados Forense",
+    "steps": [
+      {
+        "step_number": 1,
+        "name": "Raspagem Passiva e Preservação Criptográfica",
+        "folder": "coleta/",
+        "assets_count": 371,
+        "description": "Durante e imediatamente após a transmissão do debate, scripts passivos espelharam o estado integral dos servidores dos checadores. Foram extraídos payloads de renderização do lado do servidor (Next.js __NEXT_DATA__), feeds REST JSON (posts.json, event.json), páginas HTML estáticas renderizadas e metadados OpenGraph. Essa etapa preveniu o risco de 'revisionismo digital' ou apagamento de checagens controversas após a apuração."
+      },
+      {
+        "step_number": 2,
+        "name": "Normalização Tabular e Tratamento Estrutural",
+        "folder": "dados/",
+        "datasets_count": 15,
+        "description": "Os dados heterogêneos coletados foram parseados e mapeados para modelos tabulares relacionais uniformes (CSV e JSON) com codificação UTF-8 estrita. Foram extraídos: identificador único, candidato orador, citação literal, minuto da transmissão, veredito textual, categoria semântica do veredito (verdadeiro, falso, impreciso, enganoso), texto da justificativa e lista de fontes externas comprovadas."
+      },
+      {
+        "step_number": 3,
+        "name": "Cruzamento Temporal e Alinhamento Semântico",
+        "folder": "confronto/",
+        "rows_generated": 22159,
+        "description": "Cruzamento linha a linha de cada fala de Lula e Flávio Bolsonaro checada pelos veículos independentes contra a base da grande imprensa. Foi implementado alinhamento por similaridade vetorial de texto e proximidade de timecode (offset minuto a minuto), mapeando casos em que dois ou mais veículos auditaram a mesmíssima declaração factual."
+      },
+      {
+        "step_number": 4,
+        "name": "Confronto Documental com Fontes Primárias do Estado",
+        "folder": "relatorios/",
+        "primary_sources_audited": [
+          "Tribunal de Contas da União (TCU) — Diagnóstico Nacional de Obras Paralisadas (Acórdão 1.079/2019 e Painel de Obras 2023/2026)",
+          "Banco Central do Brasil — Séries Temporais do SGS (Série 29037: Endividamento das Famílias)",
+          "Secretaria do Patrimônio da União (SPU) e Cartórios de Registro de Imóveis (Certidões da Ilha da Pescaria)",
+          "Congresso Nacional — Lei Federal nº 14.342/2022, Emenda Constitucional nº 123/2022 e PLOA 2023 (Volume Orçamentário da Cidadania)",
+          "Fórum Brasileiro de Segurança Pública (FBSP) e Ministério da Justiça (Anuário Nacional de Feminicídios)",
+          "Tribunal de Justiça do Rio de Janeiro (TJRJ) e Polícia Federal (Autos da Operação Os Intocáveis e Inquéritos Conexos)"
+        ],
+        "description": "Cada divergência identificada foi submetida a teste cego contra os documentos primários expedidos pelos órgãos de Estado, permitindo discernir entre erro factual e interpretação editorial."
+      },
+      {
+        "step_number": 5,
+        "name": "Auditoria de Integridade Criptográfica (SHA-256)",
+        "folder": "SHA256_HASHES.txt",
+        "verified_files": 484,
+        "description": "Todas as etapas e arquivos do ecossistema são assinados com hash SHA-256. Qualquer terceiro pode rodar a verificação de integridade via terminal para auditar que nenhum arquivo de dado foi adulterado após a coleta original."
+      }
+    ]
+  },
+  "bias_forensic_analysis": {
+    "title": "Por que Existe a Possível Existência de Viés Político nas Checagens dos Portais Independentes?",
+    "executive_summary": "A auditoria factual revelou um paradoxo fundamental: os checadores independentes NÃO inventam dados falsos nem mentem sobre números de relatórios oficiais — em mais de 80% dos casos objetivos, eles concordam plenamente com a grande imprensa e com os autos do TCU e do Banco Central. No entanto, existe sim um potencial viés político sistemático em parte desses veículos. Esse viés não opera pela falsificação dos fatos, mas sim por meio de quatro engrenagens estruturais: (1) Viés de Seleção e Gatekeeping, (2) Viés de Rotulagem Semântica e Severidade Assimétrica, (3) Formalismo Legalista de Defesa vs Investigação Contextual, e (4) Assimetria na Transparência de Fontes.",
+    "benefit_of_the_doubt_doctrine": {
+      "title": "A Doutrina do Benefício da Dúvida (Rigor Epistêmico sem Acusação Leviana)",
+      "definition": "O projeto adota formalmente o 'Benefício da Dúvida' como diretriz epistemológica. Isso significa que nenhuma discrepância observada é classificada sumariamente como 'conluio criminoso', 'má-fé' ou 'fraude deliberada'. Toda divergência analítica é interpretada em primeiro lugar como uma escolha de método editorial válida no ecossistema jornalístico.",
+      "three_tier_model": [
+        {
+          "tier": "Plano 1: Fatos Objetivamente Demonstrados",
+          "status": "Comprovado por Dados",
+          "content": "Desequilíbrio numérico de pauta (ex.: 95,8% de rótulos negativos para um candidato contra 7,4% para outro), ausência de links externos e discrepâncias percentuais de vereditos são fatos matemáticos registrados nos bancos de dados."
+        },
+        {
+          "tier": "Plano 2: Indícios que Justificam Ponto de Atenção",
+          "status": "Evidência Editorial Consistente",
+          "content": "A aplicação de rigor matemático inflexível contra as declarações de um candidato acompanhada da condescendência interpretativa com imprecisões do concorrente constitui evidência consistente de assimetria política."
+        },
+        {
+          "tier": "Plano 3: Hipóteses Não Comprovadas (Recusadas pela Auditoria)",
+          "status": "Sem Provas Materiais",
+          "content": "Não há qualquer evidência de financiamento oculto compartilhado, subordinação partidária direta ou adulteração maliciosa de documentos públicos. O viés decorre de alinhamentos ideológicos espontâneos, incentivos de audiência e escolhas epistemológicas de enquadramento."
+        }
+      ]
+    },
+    "core_mechanisms": [
+      {
+        "mechanism_id": "M1",
+        "name": "Viés de Seleção e Gatekeeping (A Pauta como Arma)",
+        "how_it_works": "O viés mais sofisticado no jornalismo de checagem não está na resposta, mas na pergunta. O editor tem poder discricionário absoluto para escolher quais declarações do debate serão submetidas ao crivo e quais serão ignoradas. Ao selecionar 40 declarações vulneráveis e improvisadas do Candidato A e selecionar 40 afirmações consolidadas e fáceis do Candidato B, o checador produz um placar eleitoral com 90% de 'Falso' para A e 90% de 'Verdadeiro' para B, sem ter adulterado uma única linha de texto em nenhuma checagem individual.",
+        "empirical_evidence": "No portal 'Verifique os Fatos', 64% de toda a cobertura foi concentrada exclusivamente em monitorar falas de Flávio Bolsonaro (48 falas examinadas contra apenas 27 de Lula). O resultado final publicado no feed apresentou 95,8% de vereditos desfavoráveis a Flávio e 66,7% de vereditos favoráveis a Lula. O gatekeeping assimétrico moldou o placar eleitoral final.",
+        "benefit_of_the_doubt_reading": "Sob o benefício da dúvida, o veículo pode ter priorizado falas que mais viralizaram organicamente nas redes sociais de sua comunidade de leitores durante a transmissão ao vivo, e não uma ação deliberada de perseguição de um concorrente."
+      },
+      {
+        "mechanism_id": "M2",
+        "name": "Viés de Enquadramento Semântico e Severidade Assimétrica",
+        "how_it_works": "A realidade raramente é 100% branca ou preta em debates políticos complexos. Quando um orador cita um dado que é matematicamente correto mas omite a responsabilidade de outros entes, o checador pode rotular a fala como 'Verdadeiro (com ressalvas)', 'Falta Contexto', 'Enganoso', 'Impreciso' ou 'Falso'. A escolha do carimbo reflete a boa vontade ou a hostilidade do veículo para com o orador.",
+        "empirical_evidence": "No caso das 11.500 obras paradas do TCU, o 'Verifique a Verdade' validou a fala de Flávio como 'Verdadeiro' apegando-se à letra fria do relatório do TCU, enquanto o 'Pinóquio.live' aplicou 'Falso' exigindo a atribuição federativa municipal. Por outro lado, quando Lula errou para baixo a herança de obras (citou 6 mil em vez de 8,6 mil), o 'Verifique a Verdade' deu 'Verdadeiro' justificando que o erro prejudicava o próprio candidato, enquanto outros checadores aplicaram 'Fake/Falso' com base na discrepância matemática de 30%.",
+        "benefit_of_the_doubt_reading": "Sob o benefício da dúvida, cada iniciativa adota um arcabouço epistemológico distinto: o Verifique a Verdade prioriza a autenticidade documental da fonte citada; o Pinóquio prioriza a justiça na atribuição causal das responsabilidades políticas."
+      },
+      {
+        "mechanism_id": "M3",
+        "name": "Formalismo Legalista de Defesa vs Investigação de Contexto",
+        "how_it_works": "A utilização de conceitos de tipicidade penal estrita para blindar candidatos aliados de acusações políticas graves. O checador exige uma prova formal burocrática que sabe ser inexistente na esfera processual estrita, para assim poder rotular a denúncia do adversário como mentirosa, mesmo diante de vasto material probatório de inteligência ou vínculos funcionais.",
+        "empirical_evidence": "No debate sobre vínculos com milícias no RJ, o 'Verifique a Verdade' chancelou a fala de Flávio ('Nunca fui investigado por milícia') como 'Verdadeiro' baseando-se estritamente na ausência de portaria de inquérito sob o tipo penal autônomo do art. 288-A do Código Penal. Ao fazer isso, o portal ignorou totalmente que os autos da Operação Os Intocáveis e da Polícia Federal detalharam o emprego da mãe e da ex-esposa do chefe do Escritório do Crime em seu gabinete de deputado. O critério puramente formalista funcionou como escudo jurídico eleitoral.",
+        "benefit_of_the_doubt_reading": "Sob o benefício da dúvida, o princípio da presunção de inocência e o dogma da estrita legalidade penal são pilares do Estado Democrático de Direito: não se deve atribuir formalmente a alguém um crime pelo qual ele não foi expressamente indiciado no tipo penal específico."
+      },
+      {
+        "mechanism_id": "M4",
+        "name": "Assimetria na Transparência das Fontes Primárias",
+        "how_it_works": "A confiabilidade de uma checagem depende da capacidade do cidadão de conferir com seus próprios olhos o documento original. Quando um checador omite hiperlinks para a fonte primária, ele passa a operar não como um auditor científico de fatos, mas como uma autoridade oracular que exige fé cega do leitor.",
+        "empirical_evidence": "Todas as 75 checagens do 'Verifique os Fatos' no feed público deixaram o campo de fontes externas vazio (0% de links verificáveis), entregando apenas parágrafos opinativos em texto puro. Em contrapartida, 'Pinóquio.live' e 'Verifique a Verdade' ofereceram 100% de hiperlinks para relatórios do TCU, tabelas do Banco Central e Diário Oficial da União.",
+        "benefit_of_the_doubt_reading": "Sob o benefício da dúvida, a ausência de links pode ter decorrido de limitações de interface ou de priorização de velocidade de postagem para consumo móvel em plataformas de microblogging, e não de uma tentativa intencional de ocultar a base probatória."
+      },
+      {
+        "mechanism_id": "M5",
+        "name": "Incentivos Estruturais e Econômicos de Sobrevivência",
+        "how_it_works": "Diferente da grande imprensa, que possui modelos corporativos de publicidade e assinaturas diversificadas, os veículos independentes frequentemente sobrevivem da atenção de nichos engajados nas redes sociais. A economia dos algoritmos premia conteúdos que validam a fúria e o viés de confirmação da audiência, enquanto análises nuançadas que desagradam ambos os lados geram perda de seguidores e desmonetização.",
+        "empirical_evidence": "A ausência de submissão aos princípios do International Fact-Checking Network (IFCN) ou de mecanismos formais de Ombudsman / Direito de Resposta deixa os portais independentes expostos à pressão imediata de suas comunidades digitais, favorecendo uma linha editorial que atenda às expectativas de sua base.",
+        "benefit_of_the_doubt_reading": "Sob o benefício da dúvida, muitos checadores independentes surgem pelo nobre esforço cidadão de combater a desinformação em tempo real sem qualquer financiamento externo, operando com equipes reduzidas que trabalham de forma voluntária durante madrugadas eleitorais."
+      }
+    ]
+  },
+  "outlets_deep_profile": {
+    "verifique_os_fatos": {
+      "name": "Verifique os Fatos",
+      "url": "https://verifiqueosfatos.com/",
+      "total_debate_checks": 75,
+      "distribution_by_candidate": {
+        "flavio_bolsonaro": {
+          "total": 48,
+          "percentage": "64.0%"
+        },
+        "lula": {
+          "total": 27,
+          "percentage": "36.0%"
+        }
+      },
+      "verdict_rates": {
+        "flavio_bolsonaro": {
+          "negative_rate": "95.8%",
+          "positive_rate": "4.2%"
+        },
+        "lula": {
+          "negative_rate": "7.4%",
+          "positive_rate": "66.7%",
+          "neutral_rate": "25.9%"
+        }
+      },
+      "transparency_score": "0% de links para fontes primárias no feed público",
+      "editorial_diagnosis": "Forte assimetria editorial com viés pró-governo/anti-oposição, derivado principalmente de gatekeeping seletivo e total opacidade de links probatórios.",
+      "benefit_of_the_doubt_statement": "O conteúdo factual das checagens individuais é razoável e fundamentado na literatura governamental, porém o desequilíbrio na escolha das pautas e a ausência de links diminuem sua auditabilidade pública."
+    },
+    "verifique_a_verdade": {
+      "name": "Verifique a Verdade",
+      "url": "https://verifiqueaverdade.com.br/",
+      "total_debate_checks": 132,
+      "total_catalog_checks": 211,
+      "distribution_by_candidate": {
+        "flavio_bolsonaro": {
+          "total": 75,
+          "percentage": "56.8%"
+        },
+        "lula": {
+          "total": 57,
+          "percentage": "43.2%"
+        }
+      },
+      "verdict_rates": {
+        "flavio_bolsonaro": {
+          "positive_rate": "61.3%",
+          "negative_rate": "24.0%",
+          "neutral_rate": "14.7%"
+        },
+        "lula": {
+          "positive_rate": "38.6%",
+          "negative_rate": "47.4%",
+          "neutral_rate": "14.0%"
+        }
+      },
+      "transparency_score": "100% de links para documentos públicos, acórdãos e peças legais",
+      "editorial_diagnosis": "Viés pró-oposição caracterizado por formalismo legalista defensivo e cobrança orçamentária rigorosa sobre as promessas do governo federal.",
+      "benefit_of_the_doubt_statement": "Apresenta alto padrão técnico e documental; a adoção de critérios jurídicos estritos é uma linha hermenêutica legítima, embora resulte em proteção desproporcional à retórica da oposição."
+    },
+    "pinoquio_live": {
+      "name": "Pinóquio.live",
+      "url": "https://pinoquio.live/",
+      "total_debate_checks": 175,
+      "distribution_by_candidate": {
+        "flavio_bolsonaro": {
+          "total": 92,
+          "percentage": "52.6%"
+        },
+        "lula": {
+          "total": 83,
+          "percentage": "47.4%"
+        }
+      },
+      "verdict_rates": {
+        "flavio_bolsonaro": {
+          "positive_rate": "55.4%",
+          "negative_rate": "32.6%",
+          "neutral_rate": "12.0%"
+        },
+        "lula": {
+          "positive_rate": "57.8%",
+          "negative_rate": "31.3%",
+          "neutral_rate": "10.9%"
+        }
+      },
+      "transparency_score": "100% de hiperlinks para fontes oficiais primárias com transcrições estritas",
+      "editorial_diagnosis": "Equilíbrio numérico exemplar entre os candidatos, porém com metodologia hipercrítica que penaliza omissões federativas secundárias com rótulos de falsidade máxima.",
+      "benefit_of_the_doubt_statement": "Constitui a base de dados mais completa e transparente do debate; a severidade aplicada a ambos os oradores reflete uma postura de fiscalização radical e não preferência partidária."
+    }
+  },
+  "emblematic_cases_detailed": [
+    {
+      "id": "CASO-01",
+      "title": "As 11.500 Obras Paradas no TCU",
+      "speaker": "Flávio Bolsonaro",
+      "candidate_color": "#0056b3",
+      "quote": "O TCU aponta hoje mais de 11.500 obras paralisadas no país. É o retrato do descaso com o dinheiro público e da ineficiência desta gestão federal.",
+      "official_fact": "O Diagnóstico Nacional de Obras Paralisadas do TCU aponta 11.469 obras paradas de um universo de 22.621 contratos. No entanto, mais de 80% são convênios municipais antigos anteriores a 2019.",
+      "primary_source": "TCU — Acórdão 1.079/2019 e Painel de Obras Governamentais",
+      "forensic_verdict": "Parcialmente Verdadeiro (Número exato, atribuição causal incorreta)",
+      "independent_divergence": {
+        "verifique_a_verdade": {
+          "verdict": "Verdadeiro",
+          "bias_analysis": "Priorizou a literalidade do documento oficial; 61,3% positivo a Flávio no debate."
+        },
+        "pinoquio_live": {
+          "verdict": "Falso",
+          "bias_analysis": "Puniu a omissão da responsabilidade municipal, desconsiderando a autenticidade do relatório oficial."
+        },
+        "verifique_os_fatos": {
+          "verdict": "Enganoso",
+          "bias_analysis": "Diagnóstico causal correto, inserido em portal com 95,8% de rótulos negativos a Flávio e 0% de fontes."
+        }
+      },
+      "press_benchmark": {
+        "g1": "FATO (Número do TCU)",
+        "estadao": "Verdadeiro (com ressalva de gestão)",
+        "uol": "FALSO (Atribuição indevida ao governo atual)",
+        "lupa": "FALTA CONTEXTO (Repasses municipais históricos)"
+      }
+    },
+    {
+      "id": "CASO-02",
+      "title": "Investigação Formal por Milícia no RJ",
+      "speaker": "Flávio Bolsonaro",
+      "candidate_color": "#0056b3",
+      "quote": "Nunca fui investigado, indiciado ou processado por milícia em lugar nenhum da minha vida. Isso é uma calúnia infundada repetida pela esquerda.",
+      "official_fact": "Não existe inquérito policial ou ação penal no TJRJ contra Flávio sob o tipo penal específico de constituir milícia armada (art. 288-A do CP). Porém, relatórios da PF e do MP-RJ demonstraram a nomeação de parentes de líderes do Escritório do Crime em seu gabinete de deputado.",
+      "primary_source": "TJRJ, MP-RJ e Polícia Federal (Operação Os Intocáveis e Inquérito das Rachadinhas)",
+      "forensic_verdict": "Divergência Formal vs Factual (Formalmente correto na tipicidade penal; faticamente vinculado por vínculos funcionais investigados)",
+      "independent_divergence": {
+        "verifique_a_verdade": {
+          "verdict": "Verdadeiro",
+          "bias_analysis": "Formalismo legalista estrito que silencia sobre investigações materiais conexas."
+        },
+        "pinoquio_live": {
+          "verdict": "Insustentável",
+          "bias_analysis": "Extensão do conceito jurídico de investigado para abarcar relatórios de inteligência de gabinete."
+        }
+      },
+      "press_benchmark": {
+        "uol": "VERDADEIRO (Inexistência de inquérito sob art. 288-A)",
+        "estadao": "Verdadeiro (Sem inquérito formal de milícia)",
+        "lupa": "VERDADEIRO (Ausência formal de processo por milícia)",
+        "g1": "NÃO É BEM ASSIM (Registra vínculos e nomeações de gabinete)"
+      }
+    },
+    {
+      "id": "CASO-03",
+      "title": "A Herança de Obras Inacabadas",
+      "speaker": "Luiz Inácio Lula da Silva",
+      "candidate_color": "#d9381e",
+      "quote": "Quando reassumimos o governo, nós encontramos 6 mil obras paralisadas no Brasil. Tivemos que reconstruir o orçamento da União do zero.",
+      "official_fact": "O TCU registrava 8.603 obras paralisadas em abril de 2023. Lula errou em 30% para baixo, subestimando o passivo que herdou.",
+      "primary_source": "TCU — Boletim Informativo de Fiscalização de Obras Públicas",
+      "forensic_verdict": "Impreciso (Erro quantitativo substancial, mas cometido em prejuízo do próprio orador)",
+      "independent_divergence": {
+        "verifique_a_verdade": {
+          "verdict": "Verdadeiro",
+          "bias_analysis": "Flexibilizou a métrica por entender que o erro desfavorecia o próprio candidato."
+        },
+        "pinoquio_live": {
+          "verdict": "Falso",
+          "bias_analysis": "Rigorismo matemático descontextualizado: tratou uma discrepância em desfavor de si como fraude intencional."
+        }
+      },
+      "press_benchmark": {
+        "g1": "FAKE (Eram 8.603 e não 6.000)",
+        "uol": "FALSO (Discrepância matemática de 30%)",
+        "estadao": "Exagerado (Errou na quantificação)",
+        "lupa": "SUBESTIMADO (Registrou que o número real era ainda pior)"
+      }
+    },
+    {
+      "id": "CASO-04",
+      "title": "A Suposta Ilha do MST Comprada por Richarlison",
+      "speaker": "Flávio Bolsonaro",
+      "candidate_color": "#0056b3",
+      "quote": "O jogador Richarlison comprou uma ilha que pertencia ao MST em Angra dos Reis por milhões de reais com aval do governo.",
+      "official_fact": "Farsa absoluta de redes sociais. O litígio de posse na Ilha da Pescaria envolve uma empresa privada de turismo e posseiros locais. O MST nunca possuiu qualquer posse ou título de propriedade em ilhas do litoral brasileiro.",
+      "primary_source": "Secretaria do Patrimônio da União (SPU) e Cartório de Registro de Imóveis de Angra dos Reis",
+      "forensic_verdict": "Falso Absoluto (Fabricação digital sem respaldo documental)",
+      "independent_divergence": {
+        "verifique_a_verdade": {
+          "verdict": "Falso",
+          "bias_analysis": "Isenção comprovada: fidelidade probatória incontestável perante desinformação clara."
+        },
+        "pinoquio_live": {
+          "verdict": "Falso",
+          "bias_analysis": "Isenção comprovada: desmontou montagens com base nos arquivos da SPU."
+        },
+        "verifique_os_fatos": {
+          "verdict": "Falso",
+          "bias_analysis": "Desmentido correto, com o habitual déficit de links externos no card."
+        }
+      },
+      "press_benchmark": {
+        "g1": "FAKE (Inexistência de qualquer elo entre MST e ilha)",
+        "estadao": "Falso (Litígio privado entre empresários e posseiros)",
+        "uol": "FALSO (Boato forjado em vídeos de internet)",
+        "lupa": "FALSO (Checagem documental em cartórios e na SPU)"
+      }
+    },
+    {
+      "id": "CASO-05",
+      "title": "O Piso Permanente de R$ 600 do Bolsa Família",
+      "speaker": "Flávio Bolsonaro",
+      "candidate_color": "#0056b3",
+      "quote": "Foi o nosso governo que garantiu o piso permanente de 600 reais para todas as famílias do Auxílio Brasil, e não a esquerda.",
+      "official_fact": "A Lei 14.342/2022 aprovada sob Bolsonaro fixou o piso permanente em R$ 400. O acréscimo de R$ 200 foi concedido em caráter emergencial até 31/12/2022 pela EC 123/2022. O PLOA 2023 deixado pelo governo Bolsonaro previa R$ 405. A perenização definitiva dos R$ 600 decorreu da Emenda Constitucional da Transição no governo seguinte.",
+      "primary_source": "Diário Oficial da União — Lei Federal 14.342/2022, EC 123/2022 e PLOA 2023",
+      "forensic_verdict": "Falso / Distorção Legal (O texto legal aprovado encerrava os R$ 600 em dezembro e o orçamento deixado não os previa)",
+      "independent_divergence": {
+        "verifique_a_verdade": {
+          "verdict": "Impreciso",
+          "bias_analysis": "Atenuação de veredito: optou pelo rótulo suave alegando o pagamento transitório no segundo semestre."
+        },
+        "pinoquio_live": {
+          "verdict": "Falso",
+          "bias_analysis": "Rigor orçamentário pleno fundamentado nas tabelas do PLOA 2023 e no texto da Lei 14.342/2022."
+        }
+      },
+      "press_benchmark": {
+        "uol": "FALSO (Orçamento deixado para 2023 era de R$ 405)",
+        "g1": "NÃO É BEM ASSIM (Benefício dependia de nova fonte orçamentária)",
+        "lupa": "EXAGERADO (Caráter transitório até dezembro)",
+        "estadao": "Verdadeiro com Ressalvas (Pagamento ocorreu, mas sem perenidade legal)"
+      }
+    }
+  ],
+  "api_endpoints": [
+    {
+      "endpoint": "/api",
+      "method": "GET",
+      "description": "Índice de descoberta da API com rotas, metadados e estatísticas resumidas."
+    },
+    {
+      "endpoint": "/api/methodology",
+      "method": "GET",
+      "description": "Documentação metodológica exaustiva: coleta de 371 arquivos, normalização, confronto e auditoria."
+    },
+    {
+      "endpoint": "/api/bias-analysis",
+      "method": "GET",
+      "description": "Dossiê especializado sobre o potencial viés nos portais independentes, doutrina do benefício da dúvida e provas."
+    },
+    {
+      "endpoint": "/api/cases",
+      "method": "GET",
+      "description": "Matriz analítica dos casos auditados com citações, dados oficiais, avaliações dos independentes e benchmark da grande imprensa."
+    },
+    {
+      "endpoint": "/api/stats",
+      "method": "GET",
+      "description": "Estatísticas agregadas de checagens por veículo, distribuição por candidato e taxas de veredito."
+    },
+    {
+      "endpoint": "/api/raw-manifest",
+      "method": "GET",
+      "description": "Lista de arquivos rastreados com integridade criptográfica SHA-256."
+    }
+  ],
+  "reproducibility_guide": {
+    "requirements": "Python 3.10+ nativo (sem necessidade de pip install de bibliotecas externas pesadas).",
+    "commands": [
+      "git clone <repositorio>",
+      "cd a-checagem-da-checagem",
+      "python interface/server.py",
+      "Acessar http://localhost:8080/ no navegador"
+    ],
+    "zero_dependencies_policy": "O servidor HTTP roda inteiramente sobre módulos da biblioteca padrão do Python (http.server, socketserver, json, pathlib, urllib)."
+  }
+}

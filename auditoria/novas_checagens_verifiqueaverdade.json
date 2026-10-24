@@ -1,0 +1,252 @@
+[
+  {
+    "id": "b1-51",
+    "candidato": "Flávio",
+    "horario": "0:19:15",
+    "tema": "Economia e contas públicas",
+    "veredito": "Verdadeiro",
+    "alegacao": "O Brasil tem \"uma das maiores taxas de juros do mundo\"",
+    "justificativa": "A Selic está em 13,75% ao ano desde o corte de setembro de 2026. Descontada a inflação, o Brasil tem o maior juro real entre 40 economias no ranking privado da MoneYou de setembro de 2026: 8,45% ao ano, à frente de Rússia (6,79%) e Colômbia (6,33%).",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b1-51.png",
+      "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json",
+      "https://moneyou.com.br/ranking-mundial-de-juros-reais-set26/",
+      "/og/checagem/globo-2026-10-23/b1-51.png"
+    ]
+  },
+  {
+    "id": "b1-52",
+    "candidato": "Flávio",
+    "horario": "0:19:24",
+    "tema": "Economia e contas públicas",
+    "veredito": "Impreciso",
+    "alegacao": "Por causa dos juros, a dúzia de ovos \"virou dez\", o sabão em pó de 1 kg virou 800 g, o chocolate de 120 g tem 80 g e o papel higiênico de 40 m tem 20 m",
+    "justificativa": "A redução de embalagens existe: o Procon de Santa Catarina cita em 2025 a \"dúzia\" com 10 ovos, o sabão em pó de 1 kg para 800 g e o chocolate de 150 g para 120 g. Os números do chocolate (120 g para 80 g) e do papel (40 m para 20 m) não aparecem nas fontes oficiais, e a prática já era registrada em 2022, no governo Bolsonaro, pelo Procon de Santo André. \"Legado do atual governo\" é opinião.",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b1-52.png",
+      "https://www.procon.sc.gov.br/mesmo-preco-menor-quantidade-entenda-o-que-e-a-reduflacao-e-como-denunciar/",
+      "https://portais.santoandre.sp.gov.br/procon/2022/10/24/procon-santo-andre-alerta-consumidores-sobre-reduflacao/",
+      "/og/checagem/globo-2026-10-23/b1-52.png"
+    ]
+  },
+  {
+    "id": "b1-53",
+    "candidato": "Lula",
+    "horario": "0:39:43",
+    "tema": "Programas sociais",
+    "veredito": "Impreciso",
+    "alegacao": "Quando assumiu, o Nordeste era a região \"mais pobre\", \"mais analfabeta\", com mais evasão escolar e menos universidades, doutores e mestres",
+    "justificativa": "Pobreza e analfabetismo conferem: a PNAD 2003 do IBGE mostra o Nordeste com a maior fatia de domicílios com renda de até 1 salário mínimo (25,9%, contra 12,9% no país) e analfabetismo de 8,1% entre 10 e 14 anos, contra 0,8% a 1,3% no Sul, Sudeste e Centro-Oeste. Mas a desnutrição infantil era maior no Norte urbano (6,7% das crianças com menos de 5 anos com déficit de peso, contra 5,4% no Nordeste, na POF 2002-2003), e o Norte e o Centro-Oeste tinham menos pesquisadores no CNPq em 2002 (2.640 e 4.038, contra 9.818 no Nordeste).",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b1-53.png",
+      "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/12832-asi-pnad-2003-aponta-reducao-de-desigualdades-queda-no-rendimento-aumento-na-desocupacao-e-mais-empregados-com-carteira-assinada",
+      "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/13131-asi-em-30-anos-menos-criancas-desnutridas-e-mais-adolescentes-acima-do-peso",
+      "https://antigo.mctic.gov.br/mctic/opencms/indicadores/detalhe/Recursos_Humanos/RH_3.6.12.html",
+      "/og/checagem/globo-2026-10-23/b1-53.png"
+    ]
+  },
+  {
+    "id": "b1-54",
+    "candidato": "Lula",
+    "horario": "0:42:33",
+    "tema": "Saúde",
+    "veredito": "Não verificável",
+    "alegacao": "\"Nós fizemos 14 novos hospitais\" no Nordeste",
+    "justificativa": "Não há contagem pública oficial de hospitais construídos no Nordeste nos governos Lula que confirme ou desminta o número.",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b1-54.png",
+      "/og/checagem/globo-2026-10-23/b1-54.png"
+    ]
+  },
+  {
+    "id": "b2-36",
+    "candidato": "Lula",
+    "horario": "1:06:33",
+    "tema": "Economia e contas públicas",
+    "veredito": "Impreciso",
+    "alegacao": "Herdou a taxa de juro \"com 13%\", e ela \"está 13,75%\" com o Banco Central independente",
+    "justificativa": "A Selic que Lula herdou em 1º/1/2023 era de 13,75%, a mesma de hoje. Ela subiu até 15% em 2025 e voltou a 13,75% em setembro de 2026. O número herdado está errado, e a taxa não subiu em relação ao início do governo.",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b2-36.png",
+      "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=01/12/2022",
+      "/og/checagem/globo-2026-10-23/b2-36.png"
+    ]
+  },
+  {
+    "id": "b2-37",
+    "candidato": "Lula",
+    "horario": "1:09:15",
+    "tema": "Saúde",
+    "veredito": "Impreciso",
+    "alegacao": "Bolsonaro \"optou\" por deixar morrer 716 mil pessoas na Covid em vez de seguir os cientistas",
+    "justificativa": "O número confere: o total oficial de mortes por Covid era de 715.295 em mar/2025, e as mortes a partir de 2023 cabem no arredondamento. Mas a frase apresenta como fato que Bolsonaro escolheu deixar essas pessoas morrerem, o que nenhuma fonte oficial registra.",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b2-37.png",
+      "https://www.poder360.com.br/poder-saude/5-anos-apos-decreto-de-pandemia-brasil-tem-715-mil-mortes-por-covid/",
+      "/og/checagem/globo-2026-10-23/b2-37.png"
+    ]
+  },
+  {
+    "id": "b2-38",
+    "candidato": "Lula",
+    "horario": "1:12:24",
+    "tema": "Saúde",
+    "veredito": "✕Falso",
+    "alegacao": "O escolhido de Flávio para a Saúde \"disse que vai privatizar o SUS\" e \"vai cobrar o SUS\"",
+    "justificativa": "Não há registro de Claudio Lottenberg nem de Flávio dizendo que vai privatizar ou cobrar pelo SUS. A fala pública de Lottenberg é de 2019: não poria dinheiro a mais antes de melhorar a gestão (ver▶1:08:38).",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b2-38.png",
+      "https://atarde.com.br/eleicoes/futuro-ministro-de-flavio-bolsonaro-defende-travar-recursos-ao-sus-1406376",
+      "/og/checagem/globo-2026-10-23/b2-38.png"
+    ]
+  },
+  {
+    "id": "b2-39",
+    "candidato": "Flávio",
+    "horario": "1:14:19",
+    "tema": "Saúde",
+    "veredito": "Não verificável",
+    "alegacao": "\"Cada vez é menor o percentual que o governo federal coloca\" na saúde",
+    "justificativa": "A fatia da União no gasto público com saúde caiu de 44,2% em 2010 para 37,5% em 2022, segundo o Ipea, mas essa queda é anterior ao governo atual. Não há série oficial consolidada da fatia federal para 2023 a 2026.",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b2-39.png",
+      "https://repositorio.ipea.gov.br/server/api/core/bitstreams/f267ac79-415e-4491-890d-079f5f546438/content",
+      "/og/checagem/globo-2026-10-23/b2-39.png"
+    ]
+  },
+  {
+    "id": "b2-40",
+    "candidato": "Lula",
+    "horario": "0:56:01",
+    "tema": "Programas sociais",
+    "veredito": "Impreciso",
+    "alegacao": "\"Milhões de trabalhadores se acidentam\" por irresponsabilidade patronal",
+    "justificativa": "Em 2025, foram registrados 806.011 acidentes de trabalho, recorde da série, e 3.644 mortes, segundo a Inspeção do Trabalho. Milhões só somando vários anos: 6,4 milhões de 2016 a 2025. Os números contam só os acidentes comunicados ao INSS. \"Irresponsabilidade patronal\" é opinião.",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b2-40.png",
+      "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/canpat-2/canpat-2025/acidentes-de-trabalho-2016-a-2025.pdf/",
+      "/og/checagem/globo-2026-10-23/b2-40.png"
+    ]
+  },
+  {
+    "id": "b3-28",
+    "candidato": "Flávio",
+    "horario": "1:22:37",
+    "tema": "Economia e contas públicas",
+    "veredito": "Não verificável",
+    "alegacao": "A Caixa tem \"mais de 11 milhões de contratos imobiliários\", com \"mais de 30 milhões de pessoas atingidas\"",
+    "justificativa": "A Caixa divulga o saldo da carteira habitacional (R$ 1,005 trilhão no 2º trimestre de 2026), mas não o número de contratos nem de pessoas.",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b3-28.png",
+      "https://ri.caixa.gov.br/informacoes-financeiras/destaques-financeiros/",
+      "/og/checagem/globo-2026-10-23/b3-28.png"
+    ]
+  },
+  {
+    "id": "b3-29",
+    "candidato": "Lula",
+    "horario": "1:25:30",
+    "tema": "Economia e contas públicas",
+    "veredito": "Verdadeiro",
+    "alegacao": "O Brasil tem \"17,5 milhões\" de MEIs",
+    "justificativa": "O Ministério da Fazenda informou em outubro de 2026 que há 17,6 milhões de microempreendedores individuais cadastrados.",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b3-29.png",
+      "https://www.gov.br/fazenda/pt-br/assuntos/noticias/governo-encaminha-ao-congresso-nacional-proposta-para-trabalhadores-por-conta-propria",
+      "/og/checagem/globo-2026-10-23/b3-29.png"
+    ]
+  },
+  {
+    "id": "b4-22",
+    "candidato": "Flávio",
+    "horario": "1:46:51",
+    "tema": "Programas sociais",
+    "veredito": "✕Falso",
+    "alegacao": "\"Eu vou criar a Casa da Mulher Brasileira\", onde a mulher agredida vai ser acolhida",
+    "justificativa": "A Casa da Mulher Brasileira já existe: foi criada pelo Decreto 8.086/2013, do governo Dilma, e mantida pelo governo Bolsonaro, que renomeou o programa em 2019. Em agosto de 2026, o Ministério das Mulheres contava 13 unidades em funcionamento, e outras estão em obras.",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b4-22.png",
+      "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d8086.htm",
+      "https://www.gov.br/mulheres/pt-br/central-de-conteudos/noticias/2026/agosto-defeso-eleitoral/casa-da-mulher-brasileira-como-funciona-o-atendimento-e-onde-encontrar-uma-unidade",
+      "https://www.gov.br/mulheres/pt-br/transparencia-e-prestacao-de-contas-1/obras/PPA_CMB_Situacao_CRs_em_17_03_2026.pdf/@@display-file/file",
+      "/og/checagem/globo-2026-10-23/b4-22.png"
+    ]
+  },
+  {
+    "id": "b4-23",
+    "candidato": "Flávio",
+    "horario": "1:53:07",
+    "tema": "Segurança pública",
+    "veredito": "Impreciso",
+    "alegacao": "O fim da marcação das balas veio de uma emenda de deputado na Câmara, \"não tem nada a ver\" com ele, senador, e \"sequer foi aprovado\"",
+    "justificativa": "O texto original do governo Bolsonaro (PL 3.723/2019) não tirava a marcação das munições; a revogação entrou no substitutivo do relator, deputado Alexandre Leite. Mas a Câmara aprovou esse texto em 5/11/2019, por 283 a 140, e ele espera o Senado desde então, sem virar lei. Na CCJ do Senado, em 9/3/2022, Flávio defendeu votar logo o projeto (ver0:34:11 do debate da Band).",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b4-23.png",
+      "/debates/band-2026-10-18/#b1-40",
+      "https://www.planalto.gov.br/ccivil_03/Projetos/Ato_2019_2022/2019/PL/pl-3723.htm",
+      "https://www.camara.leg.br/noticias/609913-plenario-aprova-substitutivo-do-relator-a-projeto-sobre-armas",
+      "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2209381",
+      "https://www12.senado.leg.br/noticias/materias/2022/03/09/novo-pedido-de-vista-adia-votacao-de-projeto-que-amplia-acesso-a-armas",
+      "/og/checagem/globo-2026-10-23/b4-23.png"
+    ]
+  },
+  {
+    "id": "b4-24",
+    "candidato": "Flávio",
+    "horario": "1:55:44",
+    "tema": "Corrupção e investigações",
+    "veredito": "Verdadeiro",
+    "alegacao": "Lula recebeu R$ 30 milhões \"por fora\", que, \"segundo o áudio\", foram para o Instituto Lula fazer o filme dele",
+    "justificativa": "Flávio cita o áudio de Vorcaro. O áudio existe, e a defesa confirmou a voz em 12/10; o relato publicado cita R$ 30 mi por fora e repasse ao Instituto Lula. PF e PGR dizem que o tema não está em delação.",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b4-24.png",
+      "https://www.poder360.com.br/poder-justica/vorcaro-financiou-filme-de-lula-em-troca-de-acesso-a-fundos-diz-revista/",
+      "https://claudiodantas.com.br/defesa-de-vorcaro-confirma-que-audio-sobre-lula-e-do-banqueiro/",
+      "https://mais.opovo.com.br/jornal/politica/2026/10/10/audio-de-vorcaro-fala-de-dinheiro-em-filme-de-lula-pf-e-pgr-negam-que-esteja-em-delacao.html",
+      "/og/checagem/globo-2026-10-23/b4-24.png"
+    ]
+  },
+  {
+    "id": "b4-25",
+    "candidato": "Flávio",
+    "horario": "2:02:30",
+    "tema": "Trajetória, votos e eleição",
+    "veredito": "Verdadeiro",
+    "alegacao": "Lula \"prometeu que não ia indicar seus amigos pro Supremo e indicou\"",
+    "justificativa": "Em 2022, Lula disse ser contra \"colocar amigo\" na Suprema Corte e que a escolha deveria ser \"por competência\" e \"não por amizade\". Em 2023, indicou Cristiano Zanin, seu advogado na Lava Jato, aprovado pelo Senado em 21/6/2023.",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b4-25.png",
+      "https://www12.senado.leg.br/radio/1/noticia/2023/06/21/ccj-aprova-indicado-para-stf",
+      "/og/checagem/globo-2026-10-23/b4-25.png"
+    ]
+  },
+  {
+    "id": "b4-26",
+    "candidato": "Flávio",
+    "horario": "2:03:46",
+    "tema": "Corrupção e investigações",
+    "veredito": "Não verificável",
+    "alegacao": "\"Quem tá sustentando Lulinha é a Roberta\" Luchsinger",
+    "justificativa": "Uma CPMI do Congresso apura pagamentos ligados a Roberta Luchsinger, como R$ 300 mil a uma empresa dela com a menção \"o filho do rapaz\", mas não há registro público de que ela sustente Lulinha.",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b4-26.png",
+      "https://www12.senado.leg.br/noticias/materias/2026/02/25/cpmi-vota-quebra-de-sigilo-de-filho-de-lula-e-ouve-paulo-camisotti-na-quinta",
+      "/og/checagem/globo-2026-10-23/b4-26.png"
+    ]
+  },
+  {
+    "id": "b4-27",
+    "candidato": "Flávio",
+    "horario": "2:03:49",
+    "tema": "Corrupção e investigações",
+    "veredito": "Verdadeiro",
+    "alegacao": "Lula chamou Roberta Luchsinger de \"pilantra\" várias vezes e disse que não a conhecia",
+    "justificativa": "Em 27/08/2026, em entrevista à TV Globo, Lula disse \"eu não conheço essa moça, nunca vi essa moça na minha vida\" e a chamou de \"pilantra\". Repetiu o termo em outubro, no Flow Podcast: \"ela é uma pilantra muito grande\". Fotos publicadas por Roberta mostram os dois juntos em 2022 e 2023.",
+    "fontes": [
+      "/og/checagem/globo-2026-10-23/b4-27.png",
+      "https://g1.globo.com/politica/noticia/2026/08/28/lula-afirma-nao-conhecer-roberta-luchsinger-redes-sociais-da-empresaria-mostram-registros-dos-dois-juntos.ghtml",
+      "https://www.cnnbrasil.com.br/politica/a-cnn-roberta-luchsinger-rebate-lula-se-sou-pilantra-eles-tambem-sao/",
+      "/og/checagem/globo-2026-10-23/b4-27.png"
+    ]
+  }
+]

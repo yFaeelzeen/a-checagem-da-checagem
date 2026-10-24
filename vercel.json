@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "functions": {
+    "api/*.js": {
+      "includeFiles": "interface/*.json",
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    { "source": "/metodologia", "destination": "/interface/metodologia.html" },
+    { "source": "/metodologia.html", "destination": "/interface/metodologia.html" },
+    { "source": "/", "destination": "/interface/index.html" },
+    { "source": "/index.html", "destination": "/interface/index.html" },
+    { "source": "/styles.css", "destination": "/interface/styles.css" },
+    { "source": "/app.js", "destination": "/interface/app.js" },
+    { "source": "/declarations_data.js", "destination": "/interface/declarations_data.js" },
+    { "source": "/declarations.json", "destination": "/interface/declarations.json" },
+    { "source": "/api_data.json", "destination": "/interface/api_data.json" },
+    { "source": "/lula.webp", "destination": "/interface/lula.webp" },
+    { "source": "/flavio.webp", "destination": "/interface/flavio.webp" },
+    { "source": "/interface/(.*)", "destination": "/interface/$1" }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type" },
+        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=3600" }
+      ]
+    },
+    {
+      "source": "/(.*).(webp|png|jpg|jpeg|svg|css|js)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}

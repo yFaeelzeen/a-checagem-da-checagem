@@ -1,0 +1,2086 @@
+[
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-1",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "1",
+    "horario_alegacao": "0:05:35",
+    "candidato_original": "Flávio",
+    "tema": "Segurança pública",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Lei antifacção deixa líderes \"até 80 anos presos\"",
+    "justificativa_verificacao": "A pena pode somar 80 anos, mas o Código Penal limita a prisão a 40. Flávio votou a favor do projeto, que é do Executivo.",
+    "fontes_texto": "Lei 15.358/2026;Código Penal, art. 75",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15358.htm",
+      "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-2",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "2",
+    "horario_alegacao": "0:06:47",
+    "candidato_original": "Lula",
+    "tema": "Segurança pública",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Mandou a PEC da Segurança em 25 de março do ano passado",
+    "justificativa_verificacao": "Foi enviada em 24/4/2025; no Senado ainda aguarda o Plenário.",
+    "fontes_texto": "Câmara – PEC 18/2025",
+    "fontes_urls": [
+      "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2500080"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-3",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "3",
+    "horario_alegacao": "0:09:20",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Em 2003 o país devia US$ 30 bi ao FMI e não tinha reservas; ele deixou 270 bi e crescimento de 7%",
+    "justificativa_verificacao": "Devia cerca de US$ 21 bi (US$ 30 bi era o acordo) e havia US$ 37,8 bi de reservas. Elas chegaram a US$ 288,6 bi, e o PIB cresceu 7,5% só em 2010.",
+    "fontes_texto": "FMI;BCB – SGS 3546",
+    "fontes_urls": [
+      "https://www.imf.org/external/np/fin/tad/exfin2.aspx?memberKey1=90&date1key=2002-12-31",
+      "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json&dataInicial=01/12/2002&dataFinal=31/12/2010"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-4",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "4",
+    "horario_alegacao": "0:10:00",
+    "candidato_original": "Flávio",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "O PT governa há 20 dos últimos 24 anos",
+    "justificativa_verificacao": "Cerca de 17 anos.",
+    "fontes_texto": "Senado Notícias",
+    "fontes_urls": [
+      "https://www12.senado.leg.br/noticias/materias/2016/08/31/dilma-rousseff-perde-o-mandato-e-temer-e-confirmado-presidente"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-5",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "5",
+    "horario_alegacao": "0:10:37",
+    "candidato_original": "Flávio",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Terminou o 1º turno na frente, com 56 milhões de votos",
+    "justificativa_verificacao": "56,1 milhões (47,03%) contra 53,9 milhões de Lula (45,16%).",
+    "fontes_texto": "TSE",
+    "fontes_urls": [
+      "https://tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-6",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "6",
+    "horario_alegacao": "0:10:45",
+    "candidato_original": "Flávio",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Com a virada dele, os juros futuros caíram 2%",
+    "justificativa_verificacao": "Pelos dados do Tesouro Direto, os prefixados longos caíram de 1,1 a 1,4 ponto entre 2 e 5/10. A queda é real; o tamanho, não.",
+    "fontes_texto": "Tesouro Transparente (CSV)",
+    "fontes_urls": [
+      "https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a59-8184-7676580c81e3/resource/796d2059-14e9-44e3-80c9-2d9e30b405c1/download/precotaxatesourodireto.csv"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-7",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "7",
+    "horario_alegacao": "0:10:54",
+    "candidato_original": "Flávio",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Dívida de R$ 11 trilhões, \"mais um recorde negativo\"",
+    "justificativa_verificacao": "A dívida bruta do governo geral chegou a R$ 11,05 trilhões em ago/2026, o maior valor em reais da série do Banco Central.",
+    "fontes_texto": "BCB – SGS 13761",
+    "fontes_urls": [
+      "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados?formato=json&dataInicial=01/01/2018&dataFinal=19/10/2026"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-8",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "8",
+    "horario_alegacao": "0:12:37",
+    "candidato_original": "Lula",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Em 2009, Flávio foi o único da Alerj a votar contra ampliar a licença-maternidade",
+    "justificativa_verificacao": "Reportagens relatam aprovação por 45 a 1, com o único voto contrário de Flávio.",
+    "fontes_texto": "Projeto #Colaboraimprensa",
+    "fontes_urls": [
+      "https://projetocolabora.com.br/artigo/no-brasil-de-flavio-quem-protegera-as-mulheres/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-9",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "9",
+    "horario_alegacao": "0:13:14",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Lula disse que não conhecia Roberta Luchsinger",
+    "justificativa_verificacao": "Na sabatina da TV Globo (27/8/2026), Lula disse \"Eu não conheço essa moça\".",
+    "fontes_texto": "Poder360imprensa",
+    "fontes_urls": [
+      "https://www.poder360.com.br/poder-governo/lula-chama-lobista-roberta-luchsinger-de-pilantra-na-globo/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-10",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "10",
+    "horario_alegacao": "0:14:03",
+    "candidato_original": "Lula",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "Roberta é parceira do \"sócio\" de Flávio, o Careca, e Flávio mantém escritório com ele",
+    "justificativa_verificacao": "Não há sociedade entre Flávio e o Careca do INSS. O que existe: a administradora do escritório de advocacia de Flávio é irmã de um sócio do Careca, e as empresas dividem o endereço fiscal de um coworking. Roberta recebeu R$ 1,5 mi do Careca, segundo a PF.",
+    "fontes_texto": "Terra/ICLimprensa;ICL Notíciasimprensa",
+    "fontes_urls": [
+      "https://www.terra.com.br/noticias/brasil/politica/empresa-de-flavio-bolsonaro-e-negocios-do-careca-do-inss-tem-endereco-em-comum-em-brasilia-diz-site,f279d77c7c6e6e0635bcaef6504d691bp5l1q4ri.html",
+      "https://iclnoticias.com.br/flavio-bolsonaro-defesa-pm-acusado-matar-menina/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-12",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "12",
+    "horario_alegacao": "0:14:13",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "A PF só foi à casa de Roberta, não à do filho de Lula, e \"até agora não foi atrás\" dele",
+    "justificativa_verificacao": "A primeira parte confere: houve busca na casa de Roberta, não na de Lulinha. A segunda, dita em contraste com \"todo mundo tem que ser investigado\", não confere: a PF obteve a quebra dos sigilos dele em jan/2026 e o aponta como \"beneficiário indireto\".",
+    "fontes_texto": "Poder360imprensa;O Povoimprensa",
+    "fontes_urls": [
+      "https://www.poder360.com.br/poder-justica/pf-pediu-quebra-de-sigilos-de-lulinha-e-andre-mendonca-autorizou/",
+      "https://mais.opovo.com.br/jornal/politica/2026/08/22/pf-aponta-lulinha-como-beneficiario-indireto-de-negociacoes-de-lobista-com-empresarios.html"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-13",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "13",
+    "horario_alegacao": "0:14:45",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "O Careca do INSS \"foi do seu governo\" e pagou coisas ao filho de Lula",
+    "justificativa_verificacao": "Antunes nunca teve cargo público e atuou nos dois governos. O pagamento a Lulinha é suspeita da PF, sem denúncia.",
+    "fontes_texto": "Poder360imprensa",
+    "fontes_urls": [
+      "https://www.poder360.com.br/poder-justica/quem-e-o-careca-do-inss-lobista-preso-pela-pf/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-14",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "14",
+    "horario_alegacao": "0:14:53",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Lulinha mora \"do lado do Vini Jr.\", e Roberta \"sabe quem está sustentando\"",
+    "justificativa_verificacao": "Lulinha mora em La Moraleja, área de alto padrão de Madri, desde 2025; a casa de Vinícius Júnior fica no mesmo bairro. Roberta disse à CNN, em 17/10/2026, que tem \"elementos factíveis\" sobre a vida dele na Espanha e que só falaria disso na Justiça.",
+    "fontes_texto": "Poder360, 24/8/2026imprensa;El Debate, 4/8/2026imprensa;CNN – íntegra da entrevista de Roberta Luchsingerimprensa",
+    "fontes_urls": [
+      "https://www.poder360.com.br/poder-governo/veja-imagens-do-condominio-em-que-vive-lulinha-na-espanha/",
+      "https://www.eldebate.com/gente/20260804/mansion-vinicius-jr-cara-plantilla-real-madrid-sala-cine-pista-voley_444931.html",
+      "https://www.cnnbrasil.com.br/politica/veja-a-integra-da-entrevista-concedida-por-luchsinger-a-cnn-brasil/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-15",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "15",
+    "horario_alegacao": "0:15:01",
+    "candidato_original": "Lula",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "Lulinha abriu a conta e o telefone para ser investigado",
+    "justificativa_verificacao": "Lulinha não abriu os dados por conta própria: os sigilos bancário e telefônico foram quebrados por ordem do ministro André Mendonça, a pedido da PF. A defesa só ofereceu documentos depois.",
+    "fontes_texto": "Poder360imprensa",
+    "fontes_urls": [
+      "https://www.poder360.com.br/poder-justica/pf-pediu-quebra-de-sigilos-de-lulinha-e-andre-mendonca-autorizou/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-17",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "17",
+    "horario_alegacao": "0:15:57",
+    "candidato_original": "Lula",
+    "tema": "Política externa",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "O irmão de Flávio está nos EUA tramando contra o Brasil",
+    "justificativa_verificacao": "O STF condenou Eduardo Bolsonaro por coação (16/6/2026), por articular sanções dos EUA. \"Trair a pátria\" é opinião.",
+    "fontes_texto": "STF",
+    "fontes_urls": [
+      "https://noticias.stf.jus.br/postsnoticias/stf-condena-eduardo-bolsonaro-a-4-anos-e-2-meses-de-reclusao-por-tentar-interferir-no-processo-sobre-tentativa-de-golpe/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-18",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "18",
+    "horario_alegacao": "0:16:09",
+    "candidato_original": "Lula",
+    "tema": "Política externa",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Havia \"um torpedo americano\" na manifestação do dia",
+    "justificativa_verificacao": "No ato de Flávio na Avenida Paulista, em 18/10, no mesmo dia do debate, manifestantes circularam com um míssil inflável com a frase \"Trump nuke Brazil\", pedido em inglês para que Trump ataque o Brasil com armas nucleares.",
+    "fontes_texto": "Poder360 – ato na Paulistaimprensa",
+    "fontes_urls": [
+      "https://www.poder360.com.br/poder-eleicoes-2026/ato-pro-flavio-na-paulista-tem-missil-inflavel-pedindo-ataque-de-trump/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-16",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "16",
+    "horario_alegacao": "0:17:13",
+    "candidato_original": "Lula",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "A quadrilha do INSS foi montada no governo Bolsonaro; R$ 6 bi \"arrecadados\" e R$ 3,5 bi devolvidos",
+    "justificativa_verificacao": "Os R$ 6 bi foram bloqueados, não arrecadados. Os descontos começaram antes de 2019 e saltaram em 2023–2024. A devolução confere.",
+    "fontes_texto": "CGU – relatório de avaliação (PDF)",
+    "fontes_urls": [
+      "https://static.poder360.com.br/2025/05/relatorio-CGU-presente-relatorio-de-avaliacao.pdf"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-11",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "11",
+    "horario_alegacao": "0:17:41",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Roberta disse ser sócia de Lulinha, e Marcola abria as portas dos ministérios para ele",
+    "justificativa_verificacao": "Em mensagens de 2023 e 2024, Roberta chama Fábio Luís de \"meu sócio\". Marcola é Marco Aurélio Santana Ribeiro, ex-chefe de gabinete de Lula. À CNN, em 17/10/2026, Roberta disse que ministros recorriam a Fábio e a ela para conseguir, com Marcola, agenda com o presidente. Marcola aparece como quem abria portas, mas no sentido inverso: eram os ministros que buscavam acesso a Lula, e não os ministérios que se abriam para Lulinha negociar.",
+    "fontes_texto": "Bahia Notícias/Metrópolesimprensa;CNN, 17/10/2026imprensa;CNN – íntegra da entrevista de Roberta Luchsingerimprensa",
+    "fontes_urls": [
+      "https://www.bahianoticias.com.br/noticia/321238-roberta-luchsinger-cita-lulinha-como-socio-em-mensagens-de-audio-e-texto-enviadas-a-contatos",
+      "https://www.cnnbrasil.com.br/politica/pf-que-vai-avaliar-se-dinheiro-a-marcola-e-ilegal-ou-imoral-diz-luchsinger/",
+      "https://www.cnnbrasil.com.br/politica/veja-a-integra-da-entrevista-concedida-por-luchsinger-a-cnn-brasil/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-19",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "19",
+    "horario_alegacao": "0:18:30",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Frei Chico é vice de um sindicato que roubou aposentados",
+    "justificativa_verificacao": "Ele é vice-presidente do Sindnapi, e a CGU apontou 76,9% de descontos não autorizados na amostra do sindicato. \"Roubou\" é caracterização.",
+    "fontes_texto": "CGU – relatório de avaliação (PDF)",
+    "fontes_urls": [
+      "https://static.poder360.com.br/2025/05/relatorio-CGU-presente-relatorio-de-avaliacao.pdf"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-20",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "20",
+    "horario_alegacao": "0:19:13",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "5 milhões de aposentados roubados",
+    "justificativa_verificacao": "Mais de R$ 3,5 bi foram devolvidos a mais de 5 milhões de beneficiários.",
+    "fontes_texto": "Poder360imprensa",
+    "fontes_urls": [
+      "https://www.poder360.com.br/poder-economia/nao-tem-ninguem-mais-para-ser-ressarcido-diz-ministro-sobre-fraude-no-inss/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-21",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "21",
+    "horario_alegacao": "0:20:12",
+    "candidato_original": "Lula",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Não verificável",
+    "alegacao_citada": "Flávio contou \"43 mentiras\", e o pai \"mentia 11 vezes por dia\"",
+    "justificativa_verificacao": "Contar mentiras exige julgar cada fala, e não há fonte oficial que faça essa conta.",
+    "fontes_texto": "",
+    "fontes_urls": [],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-22",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "22",
+    "horario_alegacao": "0:21:03",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "A MP de Bolsonaro combatia a fraude no INSS, e o PT a emendou para favorecer sindicatos",
+    "justificativa_verificacao": "O PT apresentou 17 de 32 emendas, mas o prazo afrouxado veio do relator, e a revalidação acabou com lei sancionada por Bolsonaro.",
+    "fontes_texto": "Lei 14.438/2022",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14438.htm"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-23",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "23",
+    "horario_alegacao": "0:21:50",
+    "candidato_original": "Lula",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "\"Dia 25 você vai perder a imunidade\"",
+    "justificativa_verificacao": "O dia 25, data do 2º turno, não tira a imunidade de Flávio: ele segue senador até 31/1/2027. Como não disputa a reeleição ao Senado, se perder a eleição presidencial ele perde a imunidade parlamentar ao fim do mandato. O fato confere; a data, não.",
+    "fontes_texto": "Senado – perfil",
+    "fontes_urls": [
+      "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-25",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "25",
+    "horario_alegacao": "0:22:04",
+    "candidato_original": "Lula",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Flávio \"pegou 134 milhões\" e mentiu",
+    "justificativa_verificacao": "R$ 134 mi foi o valor acertado com Vorcaro para o filme. Os repasses documentados somam cerca de metade e foram para um fundo nos EUA, não para Flávio. A negativa inicial dele confere.",
+    "fontes_texto": "Poder360imprensa",
+    "fontes_urls": [
+      "https://www.poder360.com.br/poder-justica/filme-dark-horse-recebeu-r-65-milhoes-de-daniel-vorcaro/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-24",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "24",
+    "horario_alegacao": "0:22:15",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "O áudio de Vorcaro mostra R$ 30 mi \"por fora\" para o filme de Lula, com pagamentos ao Instituto Lula",
+    "justificativa_verificacao": "O áudio existe, e a defesa confirmou a voz em 12/10. O relato publicado cita R$ 30 mi em espécie e repasse ao Instituto Lula.",
+    "fontes_texto": "Poder360imprensa;Cláudio Dantasimprensa",
+    "fontes_urls": [
+      "https://www.poder360.com.br/poder-justica/vorcaro-financiou-filme-de-lula-em-troca-de-acesso-a-fundos-diz-revista/",
+      "https://claudiodantas.com.br/defesa-de-vorcaro-confirma-que-audio-sobre-lula-e-do-banqueiro/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-26",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "26",
+    "horario_alegacao": "0:23:46",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Lula fez uma reunião fechada com Vorcaro e Galípolo",
+    "justificativa_verificacao": "Ocorreu em 4/12/2024, fora da agenda, com Galípolo. Haddad não estava, um nome a mais que não muda o fato.",
+    "fontes_texto": "Poder360imprensa",
+    "fontes_urls": [
+      "https://www.poder360.com.br/poder-governo/lula-recebeu-vorcaro-dono-do-master-sem-registro-na-agenda/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-27",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "27",
+    "horario_alegacao": "0:23:52",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Não verificável",
+    "alegacao_citada": "Na reunião, Lula prometeu trocar o presidente do BC para ajudar o banco",
+    "justificativa_verificacao": "Não há registro oficial do que foi dito. Segundo o relato publicado, Lula disse a Vorcaro que o assunto cabia ao Banco Central e pediu a Galípolo tratamento \"técnico e isento\". A troca no BC já estava aprovada pelo Senado desde 8/10/2024.",
+    "fontes_texto": "Senado Notícias;Poder360, 26/1/2026imprensa",
+    "fontes_urls": [
+      "https://www12.senado.leg.br/noticias/materias/2024/10/08/senado-aprova-gabriel-galipolo-para-presidir-banco-central",
+      "https://www.poder360.com.br/poder-governo/lula-recebeu-vorcaro-dono-do-master-sem-registro-na-agenda/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-28",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "28",
+    "horario_alegacao": "0:24:07",
+    "candidato_original": "Lula",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Vorcaro virou banqueiro no governo Bolsonaro, está preso e deu golpe de R$ 60 bi",
+    "justificativa_verificacao": "Banqueiro é quem detém um banco. Vorcaro tinha participação minoritária no Banco Máxima desde 2016, mas só passou a detê-lo quando o BC aprovou o controle, em outubro de 2019, já no governo Bolsonaro. Está preso desde 4/3/2026, e os investigadores trabalham com R$ 50 a 60 bi.",
+    "fontes_texto": "Priberam;Bloomberg Líneaimprensa;Poder360imprensa;STF",
+    "fontes_urls": [
+      "https://dicionario.priberam.org/banqueiro",
+      "https://www.bloomberglinea.com.br/negocios/de-herdeiro-imobiliario-a-banqueiro-a-trajetoria-de-daniel-vorcaro-ate-o-master/",
+      "https://www.poder360.com.br/poder-economia/4-ex-diretores-do-bc-mudaram-voto-e-autorizaram-master-em-2019/",
+      "https://noticias.stf.jus.br/postsnoticias/stf-atende-a-pedido-da-pf-e-determina-prisao-de-daniel-vorcaro-e-outros-investigados-por-supostas-fraudes-no-banco-master/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-29",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "29",
+    "horario_alegacao": "0:25:04",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Quem prendeu Vorcaro foi André Mendonça, não Lula",
+    "justificativa_verificacao": "A preventiva foi decretada por Mendonça em 4/3/2026, a pedido da PF.",
+    "fontes_texto": "STF",
+    "fontes_urls": [
+      "https://noticias.stf.jus.br/postsnoticias/stf-atende-a-pedido-da-pf-e-determina-prisao-de-daniel-vorcaro-e-outros-investigados-por-supostas-fraudes-no-banco-master/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-31",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "31",
+    "horario_alegacao": "0:27:23",
+    "candidato_original": "Lula",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Não verificável",
+    "alegacao_citada": "É presidente há 12 anos e tem apartamento de 190 m² de cerca de R$ 1,5 mi",
+    "justificativa_verificacao": "Os 12 anos conferem, mas o TSE só registra o valor histórico do imóvel.",
+    "fontes_texto": "SBT Newsimprensa",
+    "fontes_urls": [
+      "https://sbtnews.sbt.com.br/noticia/politica/patrimonio-de-lula-tem-queda-real-de-quase-50-em-4-anos"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-30",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "30",
+    "horario_alegacao": "0:27:28",
+    "candidato_original": "Lula",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Com o mesmo salário, Flávio comprou casa de R$ 10 mi, com parte à vista paga pelo BRB",
+    "justificativa_verificacao": "Os salários são iguais, mas a casa custou cerca de R$ 6 mi. O BRB financiou R$ 3,1 mi; à vista foi só a entrada.",
+    "fontes_texto": "Câmara – DL 172/2022;Diario de Pernambucoimprensa",
+    "fontes_urls": [
+      "https://www2.camara.leg.br/legin/fed/decleg/2022/decretolegislativo-172-21-dezembro-2022-793529-publicacaooriginal-166604-pl.html",
+      "https://www.diariodepernambuco.com.br/politica/2026/10/11725606-pf-apura-condicoes-de-financiamento-do-brb-a-flavio-bolsonaro-para-mansao-de-rs-6-milhoes.html"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-32",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "32",
+    "horario_alegacao": "0:28:14",
+    "candidato_original": "Flávio",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Lula está gastando mais de R$ 350 bi",
+    "justificativa_verificacao": "O número vem do Gastômetro, do Estadão: R$ 354 bi em medidas do terceiro mandato, somando linhas de crédito, subsídios, renúncias de receita (como a isenção do IR até R$ 7 mil), ampliação de programas e gastos fora do Orçamento. Como aproximação, o valor confere; mas crédito é dinheiro emprestado, que nem sempre é usado por inteiro, e não é gasto. \"Para se reeleger\" é opinião.",
+    "fontes_texto": "Times Brasil, 14/10/2026imprensa",
+    "fontes_urls": [
+      "https://timesbrasil.com.br/eleicoes-2026/custo-fiscal-beneficios-anunciados-por-lula-de-olho-na-reeleicao-chegam-a-r-354-bilhoes/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-33",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "33",
+    "horario_alegacao": "0:28:35",
+    "candidato_original": "Flávio",
+    "tema": "Programas sociais",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Lula passou quatro anos sem reajustar o Bolsa Família e agora dá R$ 3 por dia",
+    "justificativa_verificacao": "Primeira correção desde 2023, de R$ 600 para R$ 691.",
+    "fontes_texto": "Decreto 13.120/2026",
+    "fontes_urls": [
+      "https://planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13120.htm"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-34",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "34",
+    "horario_alegacao": "0:29:15",
+    "candidato_original": "Lula",
+    "tema": "Programas sociais",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "Repor a inflação no Bolsa Família \"é obrigação, é lei\"",
+    "justificativa_verificacao": "Não é obrigação legal. A Lei 14.601/2023 diz que os valores do Bolsa Família \"poderão ser corrigidos\", sem índice nem dever de repor a inflação.",
+    "fontes_texto": "Lei 14.601/2023",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-35",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "35",
+    "horario_alegacao": "0:30:05",
+    "candidato_original": "Flávio",
+    "tema": "Programas sociais",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "Bolsonaro levou o Bolsa Família a \"no mínimo 600\"; com Lula era em média 190",
+    "justificativa_verificacao": "A média de R$ 190 é do governo Bolsonaro, não do governo Lula. A parte dos R$ 600 confere, mas foi temporária: o piso permanente de Bolsonaro foi R$ 400, e o piso permanente de R$ 600 veio com lei de Lula.",
+    "fontes_texto": "EC 123/2022;Lei 14.601/2023",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc123.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-36",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "36",
+    "horario_alegacao": "0:31:34",
+    "candidato_original": "Lula",
+    "tema": "Segurança pública",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "Como senador, Flávio interferiu para que o PM que matou uma criança não fosse preso",
+    "justificativa_verificacao": "Flávio atuou como advogado de defesa do PM, o que a lei permite a senadores. O recurso que ele assinou em 2024 pedia ao STJ que o caso não fosse a júri popular, foi negado e não tratava de prisão. A preventiva do PM já tinha sido revogada pela Justiça em novembro de 2021.",
+    "fontes_texto": "ICL Notíciasimprensa",
+    "fontes_urls": [
+      "https://iclnoticias.com.br/flavio-bolsonaro-defesa-pm-acusado-matar-menina/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-37",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "37",
+    "horario_alegacao": "0:31:51",
+    "candidato_original": "Flávio",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "\"73% dos presidiários votaram em você\"",
+    "justificativa_verificacao": "Nas seções dos presídios no 1º turno de 2026, Lula teve cerca de 73%. Só presos provisórios votam, o que é contexto.",
+    "fontes_texto": "Metrópoles, com dados do TSEimprensa",
+    "fontes_urls": [
+      "https://www.metropoles.com/colunas/tacio-lorran/presos-deram-a-lula-tres-vezes-mais-votos-que-flavio-bolsonaro"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-38",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "38",
+    "horario_alegacao": "0:32:54",
+    "candidato_original": "Flávio",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Lula foi condenado \"em todas as instâncias\", inclusive no STF",
+    "justificativa_verificacao": "No caso do triplex, foi condenado em 1ª instância (jul/2017), no TRF-4 (jan/2018) e no STJ (abr/2019). O STF nunca o condenou: em 2021 anulou as condenações. Três das quatro instâncias citadas conferem; o STF, não.",
+    "fontes_texto": "STF",
+    "fontes_urls": [
+      "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464261&ori=1"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-39",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "39",
+    "horario_alegacao": "0:34:02",
+    "candidato_original": "Lula",
+    "tema": "Segurança pública",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Flávio quis tirar a marcação das balas",
+    "justificativa_verificacao": "O PL 3.723/2019, do governo Bolsonaro, chegou ao Senado revogando o artigo 23 do Estatuto do Desarmamento, que exige a marcação das munições. A revogação não estava no texto original do governo: entrou na Câmara, no substitutivo do relator, deputado Alexandre Leite, aprovado em 5/11/2019. O projeto nunca foi votado no Senado, e Flávio não votou. Mas, na CCJ, em 9/3/2022, ele pediu ao relator que voltasse ao texto original, \"com tudo que tem direito, sem as concessões\", e defendeu votar logo. Ele não falou especificamente da marcação. Lula não disse que ele era o autor.",
+    "fontes_texto": "Planalto – texto original do PL 3.723/2019;Agência Câmara, 5/11/2019;Câmara – PL 3.723/2019;Senado Notícias, 9/3/2022;Congresso em Foco, 17/10/2026imprensa",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil_03/Projetos/Ato_2019_2022/2019/PL/pl-3723.htm",
+      "https://www.camara.leg.br/noticias/609913-plenario-aprova-substitutivo-do-relator-a-projeto-sobre-armas",
+      "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2209381",
+      "https://www12.senado.leg.br/noticias/materias/2022/03/09/novo-pedido-de-vista-adia-votacao-de-projeto-que-amplia-acesso-a-armas",
+      "https://www.congressoemfoco.com.br/noticia/123345/cartuchos-sem-registro-entenda-projeto-citado-na-sabatina-de-flavio"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-40",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "40",
+    "horario_alegacao": "0:34:11",
+    "candidato_original": "Flávio",
+    "tema": "Segurança pública",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "\"Nunca quis tirar nada disso\"",
+    "justificativa_verificacao": "O PL 3.723/2019, do governo Bolsonaro, chegou ao Senado revogando o artigo 23 do Estatuto do Desarmamento, que exige a marcação das munições. A revogação não estava no texto original do governo: entrou na Câmara, no substitutivo do relator, deputado Alexandre Leite, aprovado em 5/11/2019. O projeto nunca foi votado no Senado, e Flávio não votou. Mas, na CCJ, em 9/3/2022, ele pediu ao relator que voltasse ao texto original, \"com tudo que tem direito, sem as concessões\", e defendeu votar logo. Ele não falou especificamente da marcação.",
+    "fontes_texto": "Planalto – texto original do PL 3.723/2019;Agência Câmara, 5/11/2019;Câmara – PL 3.723/2019;Senado Notícias, 9/3/2022;Congresso em Foco, 17/10/2026imprensa",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil_03/Projetos/Ato_2019_2022/2019/PL/pl-3723.htm",
+      "https://www.camara.leg.br/noticias/609913-plenario-aprova-substitutivo-do-relator-a-projeto-sobre-armas",
+      "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2209381",
+      "https://www12.senado.leg.br/noticias/materias/2022/03/09/novo-pedido-de-vista-adia-votacao-de-projeto-que-amplia-acesso-a-armas",
+      "https://www.congressoemfoco.com.br/noticia/123345/cartuchos-sem-registro-entenda-projeto-citado-na-sabatina-de-flavio"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-41",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "41",
+    "horario_alegacao": "0:34:31",
+    "candidato_original": "Lula",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Flávio empregou a mãe, a irmã e a mulher do chefe do Escritório do Crime",
+    "justificativa_verificacao": "A mãe e a ex-mulher de Adriano da Nóbrega, apontado como chefe do Escritório do Crime, trabalharam no gabinete de Flávio na Alerj. Não há registro de irmã.",
+    "fontes_texto": "MPRJ",
+    "fontes_urls": [
+      "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=103209"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-42",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "42",
+    "horario_alegacao": "0:34:39",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "O governo Lula emprega \"um monte\" de condenados do mensalão",
+    "justificativa_verificacao": "Dos 40 denunciados, 3 têm cargo no governo Lula: Paulo Rocha (superintendente da Sudam), Professor Luizinho (chefe da assessoria parlamentar do MTE) e João Magno (assessor da ENBPar). Os 3 foram absolvidos. Nenhum dos 24 condenados tem cargo, e 3 deles estão ligados à oposição.",
+    "fontes_texto": "Sudam,MTE,ENBPar,STF, Portal da Transparência",
+    "fontes_urls": [
+      "https://www.gov.br/sudam/pt-br/rol-de-responsaveis",
+      "https://www.gov.br/trabalho-e-emprego/pt-br/composicao/quem-e-quem",
+      "https://enbpar.gov.br/enbpar-reforca-acoes-do-procel-edifica-em-encontro-nacional-de-conforto-no-ambiente-construido/",
+      "https://noticias.stf.jus.br/postsnoticias/ap-470-stf-conclui-julgamento-dos-embargos-infringentes/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-43",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "43",
+    "horario_alegacao": "0:35:19",
+    "candidato_original": "Lula",
+    "tema": "Segurança pública",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "O governo Bolsonaro liberou mais de 1 milhão de armas e 1,1 bilhão de balas",
+    "justificativa_verificacao": "As armas de uso pessoal registradas cresceram 1,64 milhão (2018–2022), e as munições vendidas somaram cerca de 1,27 bilhão.",
+    "fontes_texto": "FBSP – Anuário 2023 (PDF)",
+    "fontes_urls": [
+      "https://forumseguranca.org.br/wp-content/uploads/2023/08/anuario-2023-texto-11-a-heranaa-de-meia-decada-de-descontrole-sobre-as-armas-de-fogo-no-brasil.pdf"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-44",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "44",
+    "horario_alegacao": "0:36:23",
+    "candidato_original": "Flávio",
+    "tema": "Segurança pública",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "Esse número de armas e munições \"não existe\"",
+    "justificativa_verificacao": "Os números constam de dados oficiais.",
+    "fontes_texto": "FBSP – Anuário 2023 (PDF)",
+    "fontes_urls": [
+      "https://forumseguranca.org.br/wp-content/uploads/2023/08/anuario-2023-texto-11-a-heranaa-de-meia-decada-de-descontrole-sobre-as-armas-de-fogo-no-brasil.pdf"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-45",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "45",
+    "horario_alegacao": "0:39:36",
+    "candidato_original": "Flávio",
+    "tema": "Segurança pública",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Lula deixa \"recorde de mulher assassinada\", \"de mulher espancada\", \"de empresa fechada\", \"de indústrias deixando o Brasil\" e \"de criminalidade\": \"é só recorde ruim\"",
+    "justificativa_verificacao": "Dos cinco recordes, dois conferem: feminicídios (1.571 em 2025, recorde da série) e lesão corporal em violência doméstica contra mulheres (286.270 registros em 2025, o maior número desde pelo menos 2018). Um é desmentido: a taxa de mortes violentas foi a menor desde 2012. Empresas fechadas: o boletim oficial mostra 2,15 milhões em 2023, abaixo do pico de 2,43 milhões em 2018, e os totais oficiais de 2024 e 2025 não foram localizados. Não há contagem oficial de indústrias que deixaram o país.",
+    "fontes_texto": "FBSP – Anuário 2026;FBSP – mortes violentas em 2025;Anuários 2020,2022,2023e2025;Mapa de Empresas – boletim 2023",
+    "fontes_urls": [
+      "https://fontesegura.forumseguranca.org.br/20a-edicao-do-anuario-brasileiro-de-seguranca-publica-aponta-que-os-lares-se-tornaram-ambientes-mais-violentos-para-mulheres-criancas-e-adolescentes-homicidios-caem-82-na-comparacao-com-2024/",
+      "https://fontesegura.forumseguranca.org.br/mortes-violentas-intencionais-no-brasil-em-2025-entre-avancos-historicos-e-desafios-persistentes/",
+      "https://forumseguranca.org.br/wp-content/uploads/2020/10/anuario-14-2020-v1-interativo.pdf",
+      "https://forumseguranca.org.br/wp-content/uploads/2022/06/anuario-2022.pdf",
+      "https://forumseguranca.org.br/wp-content/uploads/2023/07/anuario-2023.pdf",
+      "https://forumseguranca.org.br/wp-content/uploads/2025/07/anuario-2025.pdf",
+      "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-3o-quadrimestre-2023.pdf"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-46",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "46",
+    "horario_alegacao": "0:39:46",
+    "candidato_original": "Flávio",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Lula já foi condenado várias vezes pelo TSE por fake news",
+    "justificativa_verificacao": "Teve conteúdos retirados por liminar, não condenações de mérito.",
+    "fontes_texto": "TSE",
+    "fontes_urls": [
+      "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/publicacao-eleitoral-com-trecho-ilicito-pode-ser-removida-por-inteiro-decide-tse"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-47",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "47",
+    "horario_alegacao": "0:40:09",
+    "candidato_original": "Flávio",
+    "tema": "Política externa",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Maduro está preso, e o vice de Lula foi à posse do presidente do Irã",
+    "justificativa_verificacao": "Maduro está sob custódia nos EUA, e Alckmin foi à posse de Pezeshkian em 2024. \"Ditador\" é opinião.",
+    "fontes_texto": "Departamento de Justiça dos EUA",
+    "fontes_urls": [
+      "https://www.justice.gov/opa/pr/nicolas-maduro-moros-and-cilia-adela-flores-de-maduro-charged-torture"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-48",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "48",
+    "horario_alegacao": "0:42:40",
+    "candidato_original": "Flávio",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Lula já gastou R$ 7 bi em viagens",
+    "justificativa_verificacao": "R$ 7 bi é o gasto de todo o Executivo em 2023–2025. As viagens internacionais de Lula custaram ao menos R$ 44,4 mi em 2025.",
+    "fontes_texto": "Portal da Transparência",
+    "fontes_urls": [
+      "https://portaldatransparencia.gov.br/viagens?ano=2025"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b1-49",
+    "bloco": "Bloco 1",
+    "ordem_no_bloco": "49",
+    "horario_alegacao": "0:45:12",
+    "candidato_original": "Flávio",
+    "tema": "Segurança pública",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Mais de 40 milhões moram em áreas dominadas por facções",
+    "justificativa_verificacao": "Na pesquisa FBSP/Datafolha, 42,2 milhões dizem que o crime organizado interfere nas regras do bairro. É uma medida de percepção.",
+    "fontes_texto": "FBSP – Fonte Segura",
+    "fontes_urls": [
+      "https://fontesegura.forumseguranca.org.br/pesquisa-do-forum-brasileiro-de-seguranca-publica-encomendada-ao-datafolha-aponta-que-412-da-populacao-diz-perceber-presenca-do-crime-organizado-no-bairro-onde-mora/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-1",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "1",
+    "horario_alegacao": "0:54:55",
+    "candidato_original": "Flávio",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Lula chamou os cariocas de \"malandros\"",
+    "justificativa_verificacao": "Lula disse \"o malandro carioca que finge que não finge, mente descaradamente\", no singular, logo depois de falar da \"carinha\" de Flávio (▶0:43:01). A frase mira Flávio, mas usa a origem dele no insulto; ler como ataque aos cariocas em geral é interpretação.",
+    "fontes_texto": "Transcrição do bloco 1,▶0:43:01",
+    "fontes_urls": [],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-2",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "2",
+    "horario_alegacao": "0:55:13",
+    "candidato_original": "Flávio",
+    "tema": "Saúde",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Seu futuro ministro da Saúde presidiu \"o melhor hospital da América Latina\"",
+    "justificativa_verificacao": "Claudio Lottenberg presidiu o Einstein até 2016. No ranking Newsweek 2026, ele é o único latino-americano entre os 50 melhores do mundo.",
+    "fontes_texto": "Einstein – Relatório 2016 (PDF);Newsweek 2026",
+    "fontes_urls": [
+      "https://www.einstein.br/RelatoriosCompartilhados/Relatorio_sustentabilidade_2016_portugues.pdf",
+      "https://rankings.newsweek.com/worlds-best-hospitals-2026"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-3",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "3",
+    "horario_alegacao": "0:55:38",
+    "candidato_original": "Flávio",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "O PT governa há 20 anos",
+    "justificativa_verificacao": "Cerca de 17 anos.",
+    "fontes_texto": "Senado Notícias",
+    "fontes_urls": [
+      "https://www12.senado.leg.br/noticias/materias/2016/12/28/impeachment-de-dilma-rousseff-marca-ano-de-2016-no-congresso-e-no-brasil"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-4",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "4",
+    "horario_alegacao": "0:57:12",
+    "candidato_original": "Lula",
+    "tema": "Saúde",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "716 mil pessoas morreram de Covid",
+    "justificativa_verificacao": "O total oficial era de 715.295 em mar/2025. As mortes a partir de 2023 são 3% e cabem no arredondamento. \"Por irresponsabilidade\" é opinião.",
+    "fontes_texto": "Poder360, com nota do MSimprensa",
+    "fontes_urls": [
+      "https://www.poder360.com.br/poder-saude/5-anos-apos-decreto-de-pandemia-brasil-tem-715-mil-mortes-por-covid/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-5",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "5",
+    "horario_alegacao": "0:57:19",
+    "candidato_original": "Lula",
+    "tema": "Saúde",
+    "veredito_original": "Não verificável",
+    "alegacao_citada": "Metade das mortes poderia ter sido evitada",
+    "justificativa_verificacao": "É uma estimativa contrafactual. As estimativas levadas à CPI são compatíveis com essa fração, mas não a provam.",
+    "fontes_texto": "Senado Notícias – CPI",
+    "fontes_urls": [
+      "https://www12.senado.leg.br/noticias/materias/2021/06/24/pesquisas-apontam-que-400-mil-mortes-poderiam-ser-evitadas-governistas-questionam"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-6",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "6",
+    "horario_alegacao": "0:58:56",
+    "candidato_original": "Lula",
+    "tema": "Saúde",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Lottenberg foi secretário de Serra e presidente de empresa de saúde, \"e não deu certo\"",
+    "justificativa_verificacao": "Foi secretário municipal em 2005 e CEO da UnitedHealth/Amil de 2016 a 2019. \"Não deu certo\" é opinião.",
+    "fontes_texto": "Brazil Journalimprensa",
+    "fontes_urls": [
+      "https://braziljournal.com/conheca-claudio-lottenberg-o-sucessor-de-edson-bueno-na-amil"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-7",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "7",
+    "horario_alegacao": "1:00:22",
+    "candidato_original": "Flávio",
+    "tema": "Segurança pública",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Renata Teles e o sargento Dias foram mortos por presos em saidinha",
+    "justificativa_verificacao": "O MPSP denunciou o autor do caso de Campinas, que estava em saída de Natal. O sargento Roger Dias foi morto por um preso que não voltou.",
+    "fontes_texto": "MPSP;Senado Notícias",
+    "fontes_urls": [
+      "https://www.mpsp.mp.br/w/homem-em-saida-temporaria-comete-novo-feminicidio-e-e-denunciado-pelo-mpsp",
+      "https://www12.senado.leg.br/noticias/materias/2024/05/28/pela-segunda-vez-congresso-acaba-com-saidas-temporarias-de-presos-em-feriados"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-8",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "8",
+    "horario_alegacao": "1:01:31",
+    "candidato_original": "Flávio",
+    "tema": "Segurança pública",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Lula vetou o fim da saidinha, o Congresso derrubou o veto e o governo foi à Justiça",
+    "justificativa_verificacao": "Veto 144/2024, derrubada em 28/5/2024 e pedido da AGU ao STF (ADI 7663) pela volta da saída para visitar a família. A sanção da vedação para crimes violentos é contexto.",
+    "fontes_texto": "Mensagem de veto 144/2024;STF – ADI 7663",
+    "fontes_urls": [
+      "https://planalto.gov.br/ccivil_03/_ato2023-2026/2024/msg/vep/vep-144-24.htm",
+      "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=544023"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-9",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "9",
+    "horario_alegacao": "1:01:53",
+    "candidato_original": "Lula",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Flávio disse que daria indulto ao pai",
+    "justificativa_verificacao": "Flávio falou em indulto em 2025 e em 2026.",
+    "fontes_texto": "ES Hoje/Folhapressimprensa",
+    "fontes_urls": [
+      "https://eshoje.com.br/?p=900916"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-10",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "10",
+    "horario_alegacao": "1:02:41",
+    "candidato_original": "Lula",
+    "tema": "Segurança pública",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Condenado por crime hediondo ou violento \"não sai\"",
+    "justificativa_verificacao": "É o texto atual da LEP (art. 122, § 2º), na parte que Lula sancionou. Quem autoriza a saída é o juiz.",
+    "fontes_texto": "LEP",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-11",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "11",
+    "horario_alegacao": "1:03:29",
+    "candidato_original": "Flávio",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Votou pelo fim da escala 6x1",
+    "justificativa_verificacao": "Votou \"Sim\" nos dois turnos da PEC 221/2019, em 14/10/2026.",
+    "fontes_texto": "Senado – votações",
+    "fontes_urls": [
+      "https://www25.senado.leg.br/web/atividade/materias/-/materia/174386/votacoes"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-12",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "12",
+    "horario_alegacao": "1:04:41",
+    "candidato_original": "Flávio",
+    "tema": "Programas sociais",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "Os R$ 600 do Bolsa Família \"enchiam o carrinho\" e hoje não enchem",
+    "justificativa_verificacao": "Os R$ 600 valeram só de agosto a dezembro de 2022. O piso atual de R$ 691 compra o mesmo número de cestas que em dez/2022.",
+    "fontes_texto": "Decreto 13.120/2026;DIEESE – set/2026 (PDF)",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13120.htm",
+      "https://www.dieese.org.br/analisecestabasica/2026/202609cestabasica.pdf"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-13",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "13",
+    "horario_alegacao": "1:05:59",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Inflação de alimentos: 56% no governo Bolsonaro, 13% no dele",
+    "justificativa_verificacao": "IPCA de alimentação no domicílio: 56,16% em 2019–2022 e 12,96% de jan/2023 a ago/2026. Em 2020, ano da pandemia, a alimentação no domicílio subiu 18,15%, e o IPCA geral, 4,52%. O mandato atual ainda não terminou.",
+    "fontes_texto": "IBGE/SIDRA, tabela 7060",
+    "fontes_urls": [
+      "https://apisidra.ibge.gov.br/values/t/7060/n1/all/v/69/p/202012,202112,202212,202312,202412,202512,202608,202609/c315/7169,7170,7171"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-14",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "14",
+    "horario_alegacao": "1:06:14",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "O salário mínimo comprava uma cesta no governo Bolsonaro e hoje compra 2,2",
+    "justificativa_verificacao": "Nunca foi \"uma cesta\". Em 2019 comprava 2,25 cestas na média de 17 capitais, mais do que hoje (2,09 nas mesmas capitais).",
+    "fontes_texto": "DIEESE – Nota Técnica 289 (PDF);DIEESE – dez/2019 (PDF)",
+    "fontes_urls": [
+      "https://www.dieese.org.br/notatecnica/2025/notaTec289salarioMinimo.pdf",
+      "https://www.dieese.org.br/analisecestabasica/2019/201912cestabasica.pdf"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-15",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "15",
+    "horario_alegacao": "1:06:27",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "Bolsonaro não deu aumento real do mínimo em nenhum ano",
+    "justificativa_verificacao": "Em 2019, primeiro ano do governo Bolsonaro, o salário mínimo teve ganho real de 1,14%. Nos três anos seguintes, não houve ganho real.",
+    "fontes_texto": "DIEESE – Nota Técnica 289 (PDF)",
+    "fontes_urls": [
+      "https://www.dieese.org.br/notatecnica/2025/notaTec289salarioMinimo.pdf"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-16",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "16",
+    "horario_alegacao": "1:07:46",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "O governo não deixou subir diesel e gasolina",
+    "justificativa_verificacao": "Subiram: no IPCA do IBGE, de janeiro a setembro de 2026, o diesel teve alta de 15,26% e a gasolina, de 5,56%. Existe uma subvenção ao diesel, mas ela não impediu a alta.",
+    "fontes_texto": "IBGE/SIDRA",
+    "fontes_urls": [
+      "https://apisidra.ibge.gov.br/values/t/7060/n1/all/v/69/p/202609/c315/7625,7656,7657,7658,7659,7660"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-17",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "17",
+    "horario_alegacao": "1:09:02",
+    "candidato_original": "Lula",
+    "tema": "Saúde",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Cloroquina não era remédio; faltaram vacina e oxigênio; três ministros da Saúde",
+    "justificativa_verificacao": "Tudo confere. A OMS não recomenda hidroxicloroquina contra a Covid. Faltou vacina com a campanha já em curso: em 17/2/2021, o Rio parou a vacinação porque não chegaram novas doses; em 21/3, o Ministério da Saúde liberou como primeira dose o estoque guardado para a segunda; e na semana de 7/5, 1.305 municípios ficaram sem a segunda dose, segundo pesquisa da CNM. Faltou oxigênio em Manaus em janeiro de 2021, e o ministério sabia da escassez desde o dia 8, segundo a AGU. Três ministros foram nomeados durante a pandemia: Teich, Pazuello e Queiroga.",
+    "fontes_texto": "OMS;Agência Brasil – Rio suspende vacinaçãoimprensa;Agência Brasil – ministério libera estoque da 2ª doseimprensa;Agência Brasil – 1.305 municípios sem 2ª doseimprensa;Agência Brasil – AGU sobre o oxigênio em Manausimprensa",
+    "fontes_urls": [
+      "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-%28covid-19%29-hydroxychloroquine",
+      "https://agenciabrasil.ebc.com.br/saude/noticia/2021-02/rio-municipio-vai-suspender-vacinacao-contra-covid-19-na-quarta-feira",
+      "https://agenciabrasil.ebc.com.br/saude/noticia/2021-03/saude-autoriza-liberacao-de-estoque-de-vacinas-para-primeira-dose",
+      "https://agenciabrasil.ebc.com.br/saude/noticia/2021-05/pesquisa-revela-que-13-mil-municipios-ficaram-sem-segunda-dose",
+      "https://agenciabrasil.ebc.com.br/justica/noticia/2021-01/governo-foi-informado-dia-8-sobre-escassez-de-oxigenio-em-manaus"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-26",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "26",
+    "horario_alegacao": "1:09:24",
+    "candidato_original": "Lula",
+    "tema": "Saúde",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "716 mil pessoas morreram de Covid no país",
+    "justificativa_verificacao": "Repete a fala de▶0:57:12. O total oficial era de 715.295 em mar/2025, e as mortes a partir de 2023 cabem no arredondamento.",
+    "fontes_texto": "Poder360, com nota do MSimprensa",
+    "fontes_urls": [
+      "https://www.poder360.com.br/poder-saude/5-anos-apos-decreto-de-pandemia-brasil-tem-715-mil-mortes-por-covid/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-27",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "27",
+    "horario_alegacao": "1:09:29",
+    "candidato_original": "Lula",
+    "tema": "Saúde",
+    "veredito_original": "Não verificável",
+    "alegacao_citada": "Quase metade das mortes poderia ter sido evitada",
+    "justificativa_verificacao": "Repete a fala de▶0:57:19. É uma estimativa contrafactual: as estimativas levadas à CPI são compatíveis com essa fração, mas não a provam.",
+    "fontes_texto": "Senado Notícias – CPI",
+    "fontes_urls": [
+      "https://www12.senado.leg.br/noticias/materias/2021/06/24/pesquisas-apontam-que-400-mil-mortes-poderiam-ser-evitadas-governistas-questionam"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-18",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "18",
+    "horario_alegacao": "1:09:39",
+    "candidato_original": "Lula",
+    "tema": "Saúde",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "Único país com mais de 100 milhões de habitantes com sistema como o SUS",
+    "justificativa_verificacao": "A Rússia (cerca de 146 milhões) tem cobertura universal com atendimento gratuito nas unidades públicas, e o Japão tem cobertura universal desde 1961. \"Da qualidade do SUS\" é opinião.",
+    "fontes_texto": "Observatório Europeu da OMS;Ministério da Saúde do Japão",
+    "fontes_urls": [
+      "https://eurohealthobservatory.who.int/countries/russian-federation",
+      "https://www.mhlw.go.jp/www1/english/wp_5/vol2/p2c9.html"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-19",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "19",
+    "horario_alegacao": "1:10:11",
+    "candidato_original": "Flávio",
+    "tema": "Saúde",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Lula tomou vacina, e quem comprou foi o governo Bolsonaro",
+    "justificativa_verificacao": "O MS comprou 100 milhões de doses da CoronaVac em jan/2021, e Lula tomou a 1ª dose em 13/3/2021. \"Deu o seu melhor\" é opinião.",
+    "fontes_texto": "Câmara, 7/1/2021",
+    "fontes_urls": [
+      "https://www.camara.leg.br/noticias/720377-apos-edicao-de-mp-ministro-da-saude-anuncia-compra-de-100-milhoes-de-doses-da-coronavac/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-20",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "20",
+    "horario_alegacao": "1:10:22",
+    "candidato_original": "Flávio",
+    "tema": "Segurança pública",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Mais de 770 mil assassinados nos governos do PT",
+    "justificativa_verificacao": "Cerca de 799 mil homicídios nos anos de PT, pelos registros oficiais. Os \"20 anos\" de governo do PT estão checados em▶0:55:38.",
+    "fontes_texto": "FBSP – 2024;Atlas da Violência 2018",
+    "fontes_urls": [
+      "https://fontesegura.forumseguranca.org.br/atlas-da-violencia-brasil-registrou-42-590-homicidios-em-2024-menor-resultado-da-serie-historica-mas-subnotificacao-preocupa/",
+      "https://publicacoes.forumseguranca.org.br/bitstreams/feca1919-595f-40be-90ec-bb3bb376807f/download"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-21",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "21",
+    "horario_alegacao": "1:10:56",
+    "candidato_original": "Lula",
+    "tema": "Saúde",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Mais Médicos caiu para 12 mil e hoje tem quase 28 mil",
+    "justificativa_verificacao": "Eram 18.240 em 2015, 13,1 mil em 2022 e cerca de 27 mil em set/2026.",
+    "fontes_texto": "MS, 1/9/2026",
+    "fontes_urls": [
+      "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/ministerio-da-saude-trabalha-o-fortalecimento-das-capacidades-nacionais-para-ampliar-eficiencia-e-equidade-no-sus"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-23",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "23",
+    "horario_alegacao": "1:11:24",
+    "candidato_original": "Lula",
+    "tema": "Saúde",
+    "veredito_original": "Não verificável",
+    "alegacao_citada": "A \"destruição\" dos hospitais foi feita por Flávio",
+    "justificativa_verificacao": "Não há fonte oficial que confirme nem refute.",
+    "fontes_texto": "",
+    "fontes_urls": [],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-22",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "22",
+    "horario_alegacao": "1:11:30",
+    "candidato_original": "Lula",
+    "tema": "Saúde",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Os seis hospitais federais do Rio estão sendo recuperados com a prefeitura e a iniciativa privada",
+    "justificativa_verificacao": "O TCU registra a municipalização, com gestão compartilhada com organizações sociais.",
+    "fontes_texto": "TCU, 2/9/2026",
+    "fontes_urls": [
+      "https://portal.tcu.gov.br/imprensa/noticias/auditoria-analisa-descentralizacao-dos-hospitais-federais-no-rio-de-janeiro"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-24",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "24",
+    "horario_alegacao": "1:11:45",
+    "candidato_original": "Lula",
+    "tema": "Saúde",
+    "veredito_original": "Não verificável",
+    "alegacao_citada": "Quando Flávio cuidava dos hospitais, cobrava \"pedágio\" dos funcionários",
+    "justificativa_verificacao": "Não há registro em fontes oficiais.",
+    "fontes_texto": "",
+    "fontes_urls": [],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b2-25",
+    "bloco": "Bloco 2",
+    "ordem_no_bloco": "25",
+    "horario_alegacao": "1:12:27",
+    "candidato_original": "Lula",
+    "tema": "Saúde",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "41 remédios de uso contínuo de graça",
+    "justificativa_verificacao": "A Portaria GM/MS 12.091/2026 lista 41 itens gratuitos no Farmácia Popular.",
+    "fontes_texto": "MS – Farmácia Popular",
+    "fontes_urls": [
+      "https://www.gov.br/saude/pt-br/composicao/sectics/farmacia-popular/legislacao"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-1",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "1",
+    "horario_alegacao": "1:26:16",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "A Nova Indústria Brasil já \"aplicou\" R$ 725 bi",
+    "justificativa_verificacao": "Os R$ 725 bi não foram aplicados. O BNDES tem R$ 394,1 bi em crédito aprovado no Plano Mais Produção, e a meta para 2023–2026 é de R$ 751,3 bi: crédito aprovado e meta, não investimento feito.",
+    "fontes_texto": "BNDES – Plano Mais Produção",
+    "fontes_urls": [
+      "https://www.bndes.gov.br/wps/portal/site/home/transparencia/estatisticas-desempenho/painel-plano-mais-producao"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-2",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "2",
+    "horario_alegacao": "1:26:28",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "O PIB industrial cresceu 3,4%",
+    "justificativa_verificacao": "A indústria cresceu 3,3% em 2024 na primeira divulgação do IBGE (3,1% na série revisada), perto dos 3,4% citados. A desaceleração depois é de outro período.",
+    "fontes_texto": "IBGE – PIB 2024",
+    "fontes_urls": [
+      "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/42774-pib-cresce-3-4-em-2024-e-fecha-o-ano-em-r-11-7-trilhoes.html"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-3",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "3",
+    "horario_alegacao": "1:26:54",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "Data centers terão de deixar 10% dos dados com o governo",
+    "justificativa_verificacao": "A Lei 15.504/2026 não manda deixar dados com o governo: exige que cada data center ofereça 10% da capacidade ao mercado interno. Os R$ 500 bi de investimento previstos cabem nas projeções.",
+    "fontes_texto": "Lei 15.504/2026",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil_03/_Ato2023-2026/2026/Lei/l15504.htm"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-4",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "4",
+    "horario_alegacao": "1:28:11",
+    "candidato_original": "Flávio",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "O PT governou 20 dos últimos 24 anos",
+    "justificativa_verificacao": "Cerca de 17; os 20 só fecham contando o governo Temer como do PT.",
+    "fontes_texto": "Agência Senado",
+    "fontes_urls": [
+      "https://www12.senado.leg.br/noticias/materias/2016/08/31/dilma-rousseff-perde-o-mandato-de-presidente-da-republica-mas-mantem-direitos-politicos"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-6",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "6",
+    "horario_alegacao": "1:31:38",
+    "candidato_original": "Flávio",
+    "tema": "Política externa",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "\"Ninguém trabalhou para tarifar empresa brasileira\"",
+    "justificativa_verificacao": "Contradiz a decisão unânime do STF e a PGR sobre a atuação de Eduardo Bolsonaro, que resultou em sobretaxas.",
+    "fontes_texto": "STF – AP 2782;MPF",
+    "fontes_urls": [
+      "https://noticias.stf.jus.br/postsnoticias/stf-condena-eduardo-bolsonaro-a-4-anos-e-2-meses-de-reclusao-por-tentar-interferir-no-processo-sobre-tentativa-de-golpe/",
+      "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/stf-condena-eduardo-bolsonaro-a-quatro-anos-e-dois-meses-de-prisao-pelo-crime-de-coacao-no-curso-do-processo"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-7",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "7",
+    "horario_alegacao": "1:31:41",
+    "candidato_original": "Flávio",
+    "tema": "Política externa",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Ele foi aos EUA defender as empresas, e o governo \"não mandou nenhunzinho\"",
+    "justificativa_verificacao": "A ida de Flávio à audiência do USTR é verdadeira. A parte sobre o governo é falsa: o USTR registrou \"várias reuniões\" com Lula e seu gabinete, e Lula esteve com Trump em 7/5/2026.",
+    "fontes_texto": "USTR, 1/6/2026;Casa Branca, 7/5/2026",
+    "fontes_urls": [
+      "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/june/ustr-section-301-determination-brazils-unreasonable-acts-policies-and-practices",
+      "https://www.presidency.ucsb.edu/node/395523"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-8",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "8",
+    "horario_alegacao": "1:31:50",
+    "candidato_original": "Flávio",
+    "tema": "Política externa",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Lula foi aos EUA \"implorar para o Trump\" que não classificasse (\"não taxa\") \"os nossos criminosos como terroristas\"",
+    "justificativa_verificacao": "Lula esteve com Trump na Casa Branca em 7/5/2026 e entregou a ele um documento com argumentos contra classificar PCC e CV como organizações terroristas. A reunião tratou também de comércio e tarifas, e Lula disse depois que o tema das facções não foi discutido na conversa. \"Implorar\" é caracterização.",
+    "fontes_texto": "Casa Branca, 7/5/2026;CNN, 8/5/2026imprensa",
+    "fontes_urls": [
+      "https://www.presidency.ucsb.edu/node/395523",
+      "https://www.cnnbrasil.com.br/politica/lula-levou-a-trump-argumentos-contra-classificar-pcc-e-cv-como-terroristas/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-5",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "5",
+    "horario_alegacao": "1:32:48",
+    "candidato_original": "Lula",
+    "tema": "Política externa",
+    "veredito_original": "Não verificável",
+    "alegacao_citada": "A família Bolsonaro \"está subordinada aos interesses americanos\", \"instigando o golpe contra o Brasil\"",
+    "justificativa_verificacao": "\"Subordinada aos interesses americanos\" e \"instigando o golpe\" são opinião e caracterização, sem fato que se possa checar.",
+    "fontes_texto": "",
+    "fontes_urls": [],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-9",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "9",
+    "horario_alegacao": "1:34:30",
+    "candidato_original": "Flávio",
+    "tema": "Corrupção e investigações",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "R$ 30 mi \"por fora\" do Instituto Lula (\"dinheiro do seu filho\", provavelmente \"filme\")",
+    "justificativa_verificacao": "Flávio retoma o áudio de Vorcaro (\"como falou\"). O áudio existe, e a defesa confirmou a voz em 12/10; o relato publicado cita R$ 30 mi por fora e repasse ao Instituto Lula. PF e PGR dizem que o tema não está em delação.",
+    "fontes_texto": "Poder360imprensa;Cláudio Dantasimprensa;O Povoimprensa",
+    "fontes_urls": [
+      "https://www.poder360.com.br/poder-justica/vorcaro-financiou-filme-de-lula-em-troca-de-acesso-a-fundos-diz-revista/",
+      "https://claudiodantas.com.br/defesa-de-vorcaro-confirma-que-audio-sobre-lula-e-do-banqueiro/",
+      "https://mais.opovo.com.br/jornal/politica/2026/10/10/audio-de-vorcaro-fala-de-dinheiro-em-filme-de-lula-pf-e-pgr-negam-que-esteja-em-delacao.html"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-10",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "10",
+    "horario_alegacao": "1:34:52",
+    "candidato_original": "Flávio",
+    "tema": "Política externa",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "O Escudo das Américas \"nada mais é\" do que cooperação contra o narcotráfico",
+    "justificativa_verificacao": "Os países membros e a cooperação para troca de informações e asfixia financeira do narcotráfico conferem com a declaração conjunta de 22/9/2026.",
+    "fontes_texto": "Declaração conjunta (PDF)",
+    "fontes_urls": [
+      "https://static.poder360.com.br/uploads/2026/09/Declaracao-Conjunta-sobre-a-Defesa-Da-Soberania-Hemisferica-22.set_.2026.pdf"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-11",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "11",
+    "horario_alegacao": "1:35:41",
+    "candidato_original": "Flávio",
+    "tema": "Segurança pública",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "Santos é hoje o 2º porto que mais exporta cocaína no mundo",
+    "justificativa_verificacao": "Não há ranking mundial de portos que exportam cocaína. O dado existente, da agência europeia de drogas (EUDA), põe Santos em 2º entre os portos latino-americanos em cocaína apreendida rumo à Europa, com dados de 2020. Não há dado atual que o coloque em 2º no mundo.",
+    "fontes_texto": "EUDA",
+    "fontes_urls": [
+      "https://www.euda.europa.eu/publications/eu-drug-markets/cocaine/europe-and-global-cocaine-trade_en"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-12",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "12",
+    "horario_alegacao": "1:37:03",
+    "candidato_original": "Flávio",
+    "tema": "Segurança pública",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "O cadastro nacional de pedófilos é lei, mas não foi implantado",
+    "justificativa_verificacao": "A Lei 15.035/2024 está em vigor. Em 2026 o STF cobrou o MJSP e o CNJ (ADPF 1328); em jul/2026 os cadastros seguiam fora do ar, e não há registro de que tenham entrado no ar até o debate.",
+    "fontes_texto": "Lei 15.035/2024;STF;Gazeta do Povo, 29/7/2026imprensa",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l15035.htm",
+      "https://noticias.stf.jus.br/postsnoticias/falta-de-cadastro-nacional-de-condenados-por-crimes-sexuais-e-questionada-no-stf/",
+      "https://www.gazetadopovo.com.br/vida-e-cidadania/lula-cnj-mantem-cadastro-criminosos-sexuais-fora-do-ar/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-13",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "13",
+    "horario_alegacao": "1:38:48",
+    "candidato_original": "Flávio",
+    "tema": "Segurança pública",
+    "veredito_original": "Não verificável",
+    "alegacao_citada": "O governo acha que pedófilos \"são doentes, não criminosos\"",
+    "justificativa_verificacao": "Não há ato nem declaração oficial nesse sentido.",
+    "fontes_texto": "",
+    "fontes_urls": [],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-14",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "14",
+    "horario_alegacao": "1:39:52",
+    "candidato_original": "Lula",
+    "tema": "Segurança pública",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "O Celular Seguro é lei aprovada pelo Congresso",
+    "justificativa_verificacao": "O Celular Seguro não é lei aprovada pelo Congresso: foi criado por portaria do Ministério da Justiça (2023) e regulamentado por decreto (2026). O Congresso aprovou só o aumento das penas para roubo e furto de celular.",
+    "fontes_texto": "Decreto 13.034/2026",
+    "fontes_urls": [
+      "https://planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13034.htm"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-15",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "15",
+    "horario_alegacao": "1:40:14",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "A compra de dívidas chega a R$ 300 bi, com desconto de até 92%",
+    "justificativa_verificacao": "O governo estima em R$ 300 bi as dívidas do público-alvo (atraso de 2 a 4,5 anos, até R$ 10 mil), mas a meta é renegociar R$ 150 bi: a MP 1.393/2026 limita o gasto da União a R$ 15 bi, com deságio mínimo de 90%. Lula apresentou o estoque como valor da compra. O \"PIX\" não está na MP; o PixMEI, anunciado em 13/10, é só para MEIs e está em desenho.",
+    "fontes_texto": "MP 1.393/2026;Agência Senado;Agência Câmara;PixMEI",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil%5F03/_ato2023-2026/2026/mpv/mpv1393.htm",
+      "https://www12.senado.leg.br/noticias/materias/2026/09/25/poder-executivo-anuncia-mps-contra-bets-e-endividamento-das-familias",
+      "https://www.camara.leg.br/noticias/1306974-medida-provisoria-cria-programa-desenrola-3-0-para-renegociar-r-150-bilhoes-em-dividas",
+      "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/mais-noticias/governo-anuncia-perdao-de-dividas-tributarias-de-meis-compra-de-debitos-bancarios-e-apoio-de-ate-r-5-mil-para-investir-no-negocio"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-16",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "16",
+    "horario_alegacao": "1:41:05",
+    "candidato_original": "Flávio",
+    "tema": "Segurança pública",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "O PT sempre foi contra reduzir a maioridade penal e agora mudou",
+    "justificativa_verificacao": "O PT orientou \"Não\" na votação de 2015. Em 15/10/2026, seu líder no Senado propôs 16 anos para crimes hediondos, com apoio de Lula.",
+    "fontes_texto": "Câmara – orientações da votação",
+    "fontes_urls": [
+      "https://dadosabertos.camara.leg.br/api/v2/votacoes/14493-503/orientacoes"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-17",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "17",
+    "horario_alegacao": "1:41:42",
+    "candidato_original": "Flávio",
+    "tema": "Segurança pública",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "A proposta do PT deixaria de fora traficantes e ladrões de celular",
+    "justificativa_verificacao": "A emenda limitava a redução aos crimes hediondos. Tráfico de drogas e roubo comum, como o de celular, não estão na lista de crimes hediondos da Lei 8.072/1990.",
+    "fontes_texto": "Lei 8.072/1990",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil_03/leis/l8072.htm"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-28",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "28",
+    "horario_alegacao": "1:43:15",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Criou a Lei Geral da Empresa, o Simples, o MEI e o Supersimples",
+    "justificativa_verificacao": "O primeiro Simples, federal, é da Lei 9.317/1996, do governo FHC. A Lei Geral (LC 123/2006), do governo Lula, revogou essa lei e pôs no lugar o Simples Nacional, apelidado de Supersimples, que é o Simples em vigor hoje. O MEI veio com a LC 128/2008. Tudo saiu do governo Lula, menos o Simples original, e \"Simples\" e \"Supersimples\" são o mesmo regime.",
+    "fontes_texto": "Lei 9.317/1996;LC 123/2006;LC 128/2008",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil_03/leis/l9317.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp128.htm"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-18",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "18",
+    "horario_alegacao": "1:43:32",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "\"Já perdoamos\" R$ 12,7 bi de dívidas de MEIs",
+    "justificativa_verificacao": "O valor confere (R$ 12,86 bi), mas na data do debate a sanção estava pendente, e a lei só vale em 2027.",
+    "fontes_texto": "Agência Câmara",
+    "fontes_urls": [
+      "https://www.camara.leg.br/noticias/1311288-camara-aprova-novo-limite-de-enquadramento-para-microempreendedor-individual-e-inclui-perdao-de-dividas"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-19",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "19",
+    "horario_alegacao": "1:44:16",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "O governo Bolsonaro deixou déficit de 2,8%",
+    "justificativa_verificacao": "Em 2022, último ano do governo Bolsonaro, o governo central teve superávit primário de 0,55% do PIB, e o setor público como um todo, de 1,25%. Ano a ano, o governo central teve déficit de 1,20% em 2019, 9,79% em 2020 (pandemia) e 0,40% em 2021. Nenhum ano fechou em 2,8%; só a média dos quatro anos, déficit de 2,7%, chega perto, puxada por 2020.",
+    "fontes_texto": "BCB – SGS 5783, governo central;BCB – SGS 5793, setor público consolidado",
+    "fontes_urls": [
+      "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5783/dados?formato=json&dataInicial=01/12/2012&dataFinal=31/12/2025",
+      "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json&dataInicial=01/12/2018&dataFinal=31/12/2025"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-20",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "20",
+    "horario_alegacao": "1:44:26",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "Orçamento com superávit de 0,1%, \"a primeira vez\"",
+    "justificativa_verificacao": "Não é a primeira vez. O PLOA 2027 prevê superávit de 0,1%, mas o PLOA 2024 já previa superávit, e o governo central teve superávit primário todos os anos de 1999 a 2013.",
+    "fontes_texto": "Congresso – PLOA 2027 (PDF)",
+    "fontes_urls": [
+      "https://www.congressonacional.leg.br/documents/150599582/159576811/Informativo_conjunto.pdf/9448d8dd-b0d1-454a-bcd1-33693eb57d3b"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-21",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "21",
+    "horario_alegacao": "1:44:35",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Único presidente com superávit nos oito anos de mandato",
+    "justificativa_verificacao": "No resultado primário (sem os juros da dívida), que é o usado na meta fiscal, o governo central teve superávit em todos os anos de 2003 a 2010. FHC, o outro presidente com oito anos de mandato, teve déficit em 1997. Contando os juros (resultado nominal), houve déficit em todos os anos de 2003 a 2010, entre 2,4% e 5,2% do PIB. No mandato atual, Lula teve déficit primário em 2023, 2024 e 2025.",
+    "fontes_texto": "BCB – SGS 5783, primário;BCB – SGS 5727, nominal",
+    "fontes_urls": [
+      "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5783/dados?formato=json&dataInicial=01/12/1991&dataFinal=31/12/2025",
+      "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json&dataInicial=01/12/2002&dataFinal=31/12/2010"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-22",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "22",
+    "horario_alegacao": "1:45:05",
+    "candidato_original": "Lula",
+    "tema": "Trajetória, votos e eleição",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Flávio era contra as cotas",
+    "justificativa_verificacao": "Em 2023, apresentou emenda para eliminar as cotas raciais e para pessoas com deficiência; defendia cotas só por renda.",
+    "fontes_texto": "Senado – pronunciamento",
+    "fontes_urls": [
+      "https://www25.senado.leg.br/web/atividade/pronunciamentos/-/p/pronunciamento/501643"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-29",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "29",
+    "horario_alegacao": "1:45:19",
+    "candidato_original": "Lula",
+    "tema": "Educação",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Criou a universidade indígena, que vai ser em Brasília",
+    "justificativa_verificacao": "A Lei 15.418, de 28/5/2026, sancionada por Lula a partir de projeto do Executivo, cria a Universidade Federal Indígena com sede em Brasília. Mas a universidade ainda não funciona: existe só no papel, e \"criei\" apresenta como feito o que ainda não está em operação.",
+    "fontes_texto": "Lei 15.418/2026;Agência Câmara",
+    "fontes_urls": [
+      "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15418.htm",
+      "https://www.camara.leg.br/noticias/1277738-nova-lei-cria-universidade-federal-indigena-com-sede-em-brasilia/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-23",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "23",
+    "horario_alegacao": "1:48:22",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Deixou o país com quase 270 bi de reservas, crescendo 7,5%",
+    "justificativa_verificacao": "PIB de 2010: +7,5%. Reservas: US$ 288,6 bi, acima do número citado.",
+    "fontes_texto": "BCB",
+    "fontes_urls": [
+      "https://www.bcb.gov.br/content/estatisticas/hist_estatisticassetorexterno/201101_Texto_de_estatisticas_do_setor_externo.txt"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-24",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "24",
+    "horario_alegacao": "1:48:33",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "✕Falso",
+    "alegacao_citada": "Só no governo dele o país voltou a crescer acima de 3%",
+    "justificativa_verificacao": "O PIB cresceu 3,2% em 2023 e 3,4% em 2024, mas também cresceu 4,8% em 2021, no governo Bolsonaro.",
+    "fontes_texto": "IBGE/SIDRA, tabela 6784",
+    "fontes_urls": [
+      "https://apisidra.ibge.gov.br/values/t/6784/n1/all/v/9810/p/2010,2017,2018,2019,2020,2021,2022,2023,2024,2025"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-30",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "30",
+    "horario_alegacao": "1:48:49",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "\"Já recuperamos a indústria naval\"",
+    "justificativa_verificacao": "O emprego direto nos estaleiros foi de 21,4 mil em 2022 para 70 mil em 2026, segundo o Sinaval. O Panorama Naval da Firjan conta 90 mil em jun/2026, acima dos 82,4 mil de 2014, antes da crise. Os números do setor divergem no tamanho, e o Sinaval diz que a retomada \"ainda precisa ser consolidada\", mas os dois mostram o emprego mais que triplicado desde 2022.",
+    "fontes_texto": "Sinaval – Propostas Eleições 2026 (PDF);Sinaval, ago/2026, com o Panorama Naval da Firjanimprensa",
+    "fontes_urls": [
+      "https://monitormercantil.com.br/wp-content/uploads/2026/09/SINAVAL-Revista-Propostas-Eleicoes-2026.pdf",
+      "https://sinaval.org.br/2026/08/industria-naval-se-recupera-e-comeca-expansao/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-31",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "31",
+    "horario_alegacao": "1:48:52",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Recuperou a indústria de fertilizantes, que o governo anterior tinha privatizado",
+    "justificativa_verificacao": "As fábricas voltaram a operar: FAFEN-SE em dez/2025, FAFEN-BA em jan/2026 e ANSA, em Araucária, em 30/4/2026. Mas nenhuma foi privatizada: as FAFENs foram arrendadas à Unigel em 2019 e seguem da Petrobras, e a ANSA, subsidiária da estatal, estava hibernada desde 2020.",
+    "fontes_texto": "Agência Petrobras – ANSA;Agência Petrobras – Unigel;Governo de Sergipe",
+    "fontes_urls": [
+      "https://agencia.petrobras.com.br/w/negocio/petrobras-inicia-produ%C3%A7%C3%A3o-de-ureia-na-ansa-em-arauc%C3%A1ria-pr-",
+      "https://agencia.petrobras.com.br/w/esclarecimento-sobre-unigel-1",
+      "https://sedetec.se.gov.br/retomada-da-fafen-em-sergipe-avanca-com-assinatura-de-contrato-com-novo-operador/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-25",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "25",
+    "horario_alegacao": "1:48:55",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Flávio quer privatizar a Petrobras e \"95% das estatais\"",
+    "justificativa_verificacao": "A frase dos 95% é real, mas a campanha negou privatizar a Petrobras.",
+    "fontes_texto": "Exameimprensa",
+    "fontes_urls": [
+      "https://exame.com/brasil/tesouraco-e-privatizacoes-os-sinais-de-flavio-sobre-a-economia/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-26",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "26",
+    "horario_alegacao": "1:49:34",
+    "candidato_original": "Lula",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Verdadeiro",
+    "alegacao_citada": "Na Eletrobras, recomprar o controle custa \"três vezes mais\"; a BR \"a gente só pode comprar depois de 2029\"",
+    "justificativa_verificacao": "As duas regras existem. O estatuto da Eletrobras, privatizada em 2022, obriga quem passar de 30% das ações a pagar prêmio de 200% sobre a maior cotação recente, ou seja, três vezes. Ao vender a BR (hoje Vibra), a Petrobras assinou um acordo de não concorrência que a impede de voltar à distribuição de combustíveis até meados de 2029, segundo a presidente da estatal; a licença da marca termina em 28/6/2029. \"Preço de banana\" é opinião.",
+    "fontes_texto": "Estatuto da Eletrobras (PDF);Agência Petrobras – licença de marcas;eixos – Magda Chambriard sobre o non-competeimprensa",
+    "fontes_urls": [
+      "https://www.gov.br/mme/pt-br/acesso-a-informacao/entidades/eletrobras-holding/institucional/Estatutosocial.pdf",
+      "https://agencia.petrobras.com.br/w/petrobras-comunica-nao-renovacao-de-licenca-de-marcas-para-a-vibra",
+      "https://eixos.com.br/combustiveis-e-bioenergia/biocombustiveis/petrobras-nao-pode-adquirir-ativos-da-raizen-por-clausula-de-nao-concorrencia-com-a-vibra/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  },
+  {
+    "projeto_origem": "Verifique a Verdade",
+    "debate_referencia": "Debate Presidencial Band (2º Turno)",
+    "data_debate": "2026-10-18",
+    "id_original": "b3-27",
+    "bloco": "Bloco 3",
+    "ordem_no_bloco": "27",
+    "horario_alegacao": "1:50:38",
+    "candidato_original": "Flávio",
+    "tema": "Economia e contas públicas",
+    "veredito_original": "Impreciso",
+    "alegacao_citada": "Lula gastou mais de R$ 350 bi para se reeleger",
+    "justificativa_verificacao": "O número vem do Gastômetro, do Estadão: R$ 354 bi em medidas do terceiro mandato, somando linhas de crédito, subsídios, renúncias de receita (como a isenção do IR até R$ 7 mil), ampliação de programas e gastos fora do Orçamento. Como aproximação, o valor confere; mas crédito é dinheiro emprestado, que nem sempre é usado por inteiro, e não é gasto. \"Para se reeleger\" é opinião.",
+    "fontes_texto": "Times Brasil, 14/10/2026imprensa",
+    "fontes_urls": [
+      "https://timesbrasil.com.br/eleicoes-2026/custo-fiscal-beneficios-anunciados-por-lula-de-olho-na-reeleicao-chegam-a-r-354-bilhoes/"
+    ],
+    "arquivo_bruto_origem": "01_coleta_preservacao_bruta/verifiqueaverdade_com_br/debates/band-2026-10-18/index.html"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "a-checagem-da-checagem",
+  "version": "1.0.0",
+  "description": "Dossiê de Auditoria Factual Comparada e Análise de Viés Editorial (Debate Presidencial TV Globo 2026)",
+  "private": true,
+  "scripts": {
+    "start": "python interface/server.py",
+    "dev": "python interface/server.py",
+    "test:api": "node -e \"require('./api/index.js')({method:'GET'},{setHeader:()=>{},status:c=>({json:d=>console.log('OK',Object.keys(d))})})\""
+  },
+  "keywords": [
+    "fact-checking",
+    "eleicoes-2026",
+    "auditoria-factual",
+    "jornalismo-computacional",
+    "checagem-de-fatos"
+  ],
+  "author": "Equipe de Auditoria Factual",
+  "license": "MIT"
+}

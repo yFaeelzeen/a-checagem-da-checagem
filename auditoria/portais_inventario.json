@@ -1,0 +1,62 @@
+[
+  {
+    "id_veiculo": "uol_confere",
+    "veiculo": "UOL Confere",
+    "url_autorizada": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+    "status_http": 200,
+    "metodo_recuperacao": "HTTP GET direto com cabeçalho de navegador móvel compatível (iOS Safari)",
+    "tamanho_bytes": 636139,
+    "sha256": "1c7d8e225ad05e7620b4f9456f887ba8f530231af625eb4559e470e75e9fdcc8",
+    "data_coleta": "2026-10-24T12:39:08Z",
+    "total_checagens_recuperadas": 26,
+    "checagens_lula": 0,
+    "checagens_flavio": 26,
+    "arquivo_local_bruto": "raw_sources\\uol_confere.html",
+    "situacao_acesso": "Acesso bem-sucedido (HTML preservado)"
+  },
+  {
+    "id_veiculo": "g1_fato_ou_fake",
+    "veiculo": "G1 — Fato ou Fake",
+    "url_autorizada": "https://g1.globo.com/google/amp/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+    "status_http": 200,
+    "metodo_recuperacao": "HTTP GET direto (versão AMP padrão)",
+    "tamanho_bytes": 326168,
+    "sha256": "3622341da91bb8a9abc7943bc3e3c3afe127a1d31e2c18a0c4099386c0901d04",
+    "data_coleta": "2026-10-24T12:39:08Z",
+    "total_checagens_recuperadas": 57,
+    "checagens_lula": 47,
+    "checagens_flavio": 10,
+    "arquivo_local_bruto": "raw_sources\\g1_fato_ou_fake.html",
+    "situacao_acesso": "Acesso bem-sucedido (HTML preservado)"
+  },
+  {
+    "id_veiculo": "estadao_verifica",
+    "veiculo": "Estadão Verifica",
+    "url_autorizada": "https://www.estadao.com.br/amp/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/",
+    "status_http": 200,
+    "metodo_recuperacao": "HTTP GET direto (versão AMP padrão)",
+    "tamanho_bytes": 277748,
+    "sha256": "b050d3126b237d4d092d82c9fa6f6e1a1c37980304c55c5930d7195119edf11e",
+    "data_coleta": "2026-10-24T12:39:08Z",
+    "total_checagens_recuperadas": 93,
+    "checagens_lula": 45,
+    "checagens_flavio": 48,
+    "arquivo_local_bruto": "raw_sources\\estadao_verifica.html",
+    "situacao_acesso": "Acesso bem-sucedido (HTML preservado)"
+  },
+  {
+    "id_veiculo": "agencia_lupa",
+    "veiculo": "Agência Lupa",
+    "url_autorizada": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+    "status_http": 200,
+    "metodo_recuperacao": "HTTP GET direto (WordPress / tema Lupa)",
+    "tamanho_bytes": 487537,
+    "sha256": "b70732ff3562b303eefb06777725d69ca20f98194b27e380c7852f98171476bb",
+    "data_coleta": "2026-10-24T12:39:09Z",
+    "total_checagens_recuperadas": 43,
+    "checagens_lula": 13,
+    "checagens_flavio": 30,
+    "arquivo_local_bruto": "raw_sources\\agencia_lupa.html",
+    "situacao_acesso": "Acesso bem-sucedido (HTML preservado)"
+  }
+]

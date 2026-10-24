@@ -1,0 +1,42 @@
+{
+  "uol_confere": {
+    "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+    "status": 403,
+    "final_url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+    "size": 0,
+    "sha256": null,
+    "saved_file": null,
+    "error": "HTTP Error 403: Forbidden",
+    "time": "2026-10-24T12:38:36Z"
+  },
+  "g1_fato_ou_fake": {
+    "url": "https://g1.globo.com/google/amp/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+    "status": 200,
+    "final_url": "https://g1.globo.com/google/amp/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+    "size": 326168,
+    "sha256": "3622341da91bb8a9abc7943bc3e3c3afe127a1d31e2c18a0c4099386c0901d04",
+    "saved_file": "C:\\Users\\RAFAE\\Downloads\\dossie_auditoria_quatro_fontes_20261024\\raw_sources\\g1_fato_ou_fake.html",
+    "error": null,
+    "time": "2026-10-24T12:38:36Z"
+  },
+  "estadao_verifica": {
+    "url": "https://www.estadao.com.br/amp/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/",
+    "status": 200,
+    "final_url": "https://www.estadao.com.br/amp/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/",
+    "size": 277748,
+    "sha256": "b050d3126b237d4d092d82c9fa6f6e1a1c37980304c55c5930d7195119edf11e",
+    "saved_file": "C:\\Users\\RAFAE\\Downloads\\dossie_auditoria_quatro_fontes_20261024\\raw_sources\\estadao_verifica.html",
+    "error": null,
+    "time": "2026-10-24T12:38:37Z"
+  },
+  "agencia_lupa": {
+    "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+    "status": 200,
+    "final_url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+    "size": 487537,
+    "sha256": "b70732ff3562b303eefb06777725d69ca20f98194b27e380c7852f98171476bb",
+    "saved_file": "C:\\Users\\RAFAE\\Downloads\\dossie_auditoria_quatro_fontes_20261024\\raw_sources\\agencia_lupa.html",
+    "error": null,
+    "time": "2026-10-24T12:38:38Z"
+  }
+}

@@ -1,0 +1,26 @@
+﻿Projeto,Candidato,Veredito Original,Quantidade,Total Candidato no Projeto,Percentual
+Verifique os Fatos,Flávio,Falso,24,48,50.00%
+Verifique os Fatos,Flávio,Parcial,22,48,45.83%
+Verifique os Fatos,Flávio,Verdadeiro,2,48,4.17%
+Verifique os Fatos,Lula,Falso,2,27,7.41%
+Verifique os Fatos,Lula,Parcial,7,27,25.93%
+Verifique os Fatos,Lula,Verdadeiro,18,27,66.67%
+Pinóquio.live,Flávio Bolsonaro,enganoso,23,101,22.77%
+Pinóquio.live,Flávio Bolsonaro,exagerado,7,101,6.93%
+Pinóquio.live,Flávio Bolsonaro,falso,8,101,7.92%
+Pinóquio.live,Flávio Bolsonaro,insustentavel,6,101,5.94%
+Pinóquio.live,Flávio Bolsonaro,verdadeiro,57,101,56.44%
+Pinóquio.live,Lula,enganoso,7,74,9.46%
+Pinóquio.live,Lula,exagerado,8,74,10.81%
+Pinóquio.live,Lula,falso,5,74,6.76%
+Pinóquio.live,Lula,insustentavel,2,74,2.70%
+Pinóquio.live,Lula,verdadeiro,52,74,70.27%
+Verifique a Verdade,Flávio,Falso,9,75,12.00%
+Verifique a Verdade,Flávio,Impreciso,14,75,18.67%
+Verifique a Verdade,Flávio,Não verificável,6,75,8.00%
+Verifique a Verdade,Flávio,Verdadeiro,46,75,61.33%
+Verifique a Verdade,Lula,Falso,16,57,28.07%
+Verifique a Verdade,Lula,Impreciso,17,57,29.82%
+Verifique a Verdade,Lula,Não verificável,2,57,3.51%
+Verifique a Verdade,Lula,Verdadeiro,22,57,38.60%
+FlagCheck,Consolidado (Flávio Bolsonaro / Lula),Agregado Multiagência,1,1,100.00%

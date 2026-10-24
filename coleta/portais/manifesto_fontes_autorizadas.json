@@ -1,0 +1,42 @@
+{
+  "uol_confere": {
+    "veiculo": "UOL Confere",
+    "url_autorizada": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/24/debate-globo-checagem-flavio-lula.ghtm",
+    "arquivo_local": "raw_sources\\uol_confere.html",
+    "tamanho_bytes": 636139,
+    "sha256": "1c7d8e225ad05e7620b4f9456f887ba8f530231af625eb4559e470e75e9fdcc8",
+    "status_acesso": 200,
+    "metodo_recuperacao": "HTTP GET direto com cabeçalho de navegador móvel compatível (iOS Safari)",
+    "timestamp_coleta": "2026-10-24T16:45:11Z"
+  },
+  "g1_fato_ou_fake": {
+    "veiculo": "G1 — Fato ou Fake",
+    "url_autorizada": "https://g1.globo.com/google/amp/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+    "arquivo_local": "raw_sources\\g1_fato_ou_fake.html",
+    "tamanho_bytes": 326168,
+    "sha256": "3622341da91bb8a9abc7943bc3e3c3afe127a1d31e2c18a0c4099386c0901d04",
+    "status_acesso": 200,
+    "metodo_recuperacao": "HTTP GET direto (versão AMP padrão)",
+    "timestamp_coleta": "2026-10-24T16:45:11Z"
+  },
+  "estadao_verifica": {
+    "veiculo": "Estadão Verifica",
+    "url_autorizada": "https://www.estadao.com.br/amp/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/",
+    "arquivo_local": "raw_sources\\estadao_verifica.html",
+    "tamanho_bytes": 277748,
+    "sha256": "b050d3126b237d4d092d82c9fa6f6e1a1c37980304c55c5930d7195119edf11e",
+    "status_acesso": 200,
+    "metodo_recuperacao": "HTTP GET direto (versão AMP padrão)",
+    "timestamp_coleta": "2026-10-24T16:45:11Z"
+  },
+  "agencia_lupa": {
+    "veiculo": "Agência Lupa",
+    "url_autorizada": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/",
+    "arquivo_local": "raw_sources\\agencia_lupa.html",
+    "tamanho_bytes": 487537,
+    "sha256": "b70732ff3562b303eefb06777725d69ca20f98194b27e380c7852f98171476bb",
+    "status_acesso": 200,
+    "metodo_recuperacao": "HTTP GET direto (WordPress / tema Lupa)",
+    "timestamp_coleta": "2026-10-24T16:45:11Z"
+  }
+}

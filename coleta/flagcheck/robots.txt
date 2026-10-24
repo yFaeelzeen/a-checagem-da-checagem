@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://flagcheck.com.br/sitemap.xml

@@ -1,0 +1,4 @@
+# Dependências para execução dos scripts de auditoria e confronto
+# A maioria dos módulos utiliza exclusivamente a biblioteca padrão do Python (Python >= 3.10)
+
+beautifulsoup4>=4.12.0

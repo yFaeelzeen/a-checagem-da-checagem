@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metodologia Integral & Documentação da API — A Checagem da Checagem</title>
+  <link rel="stylesheet" href="styles.css?v=1792875500">
+  <style>
+    /* Estilos Específicos da Página de Metodologia e API */
+    .method-masthead {
+      border-bottom: 3px double var(--border-hairline);
+      padding: 24px 0 16px 0;
+      margin-bottom: 28px;
+    }
+    .method-top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 16px;
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      border-bottom: 1px solid var(--border-hairline);
+      padding-bottom: 10px;
+    }
+    .back-docket-link {
+      color: var(--text-ink);
+      text-decoration: none;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--border-radius);
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+    .back-docket-link:hover {
+      background: var(--bg-paper);
+      border-color: var(--text-ink);
+    }
+    .method-title {
+      font-family: var(--font-serif);
+      font-size: 2.35rem;
+      font-weight: 900;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin: 8px 0;
+      color: var(--text-ink);
+    }
+    .method-subtitle {
+      font-size: 1.15rem;
+      line-height: 1.6;
+      color: var(--text-ink-muted);
+      max-width: 980px;
+      margin-bottom: 12px;
+    }
+    .method-meta-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .method-chip {
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
+      padding: 4px 10px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-hairline);
+      border-radius: 2px;
+      font-weight: 700;
+    }
+    .method-nav-sticky {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg-paper);
+      border-bottom: 1px solid var(--border-hairline);
+      padding: 10px 0;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .method-nav-links {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 4px;
+    }
+    .method-nav-link {
+      font-family: var(--font-mono);
+      font-size: 0.76rem;
+      font-weight: 700;
+      color: var(--text-ink-muted);
+      text-decoration: none;
+      padding: 4px 10px;
+      border-radius: 2px;
+      border: 1px solid transparent;
+      transition: all 0.15s ease;
+    }
+    .method-nav-link:hover {
+      color: var(--text-ink);
+      border-color: var(--border-hairline);
+      background: var(--bg-card);
+    }
+
+    /* Seções de Conteúdo */
+    .method-section {
+      margin-bottom: 48px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border-hairline);
+    }
+    .section-num {
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      color: var(--stamp-amber);
+      display: block;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+    .section-heading {
+      font-family: var(--font-serif);
+      font-size: 1.85rem;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 16px;
+      color: var(--text-ink);
+    }
+    .method-prose {
+      font-size: 1.06rem;
+      line-height: 1.75;
+      color: var(--text-ink);
+      margin-bottom: 18px;
+    }
+    .method-prose p {
+      margin-bottom: 16px;
+    }
+
+    /* Cards e Grids */
+    .pipeline-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin: 24px 0;
+    }
+    .pipeline-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--border-radius);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 1px 1px 0px rgba(0,0,0,0.03);
+    }
+    .pipeline-step-badge {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 800;
+      background: var(--stamp-blue-bg);
+      color: var(--stamp-blue);
+      padding: 3px 8px;
+      border-radius: 2px;
+      align-self: flex-start;
+      margin-bottom: 10px;
+    }
+    .pipeline-title {
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      font-weight: 800;
+      margin-bottom: 10px;
+      color: var(--text-ink);
+    }
+    .pipeline-desc {
+      font-size: 0.96rem;
+      line-height: 1.6;
+      color: var(--text-ink);
+      flex-grow: 1;
+    }
+    .pipeline-meta {
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px dashed var(--border-hairline);
+      font-family: var(--font-mono);
+      font-size: 0.76rem;
+      color: var(--text-ink-muted);
+    }
+
+    /* Mecanismos de Viés */
+    .bias-mechanism-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-hairline);
+      border-left: 5px solid var(--stamp-amber);
+      border-radius: var(--border-radius);
+      padding: 22px;
+      margin-bottom: 22px;
+    }
+    .mechanism-tag {
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      color: var(--stamp-amber);
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      display: block;
+    }
+    .mechanism-title {
+      font-family: var(--font-serif);
+      font-size: 1.4rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+      color: var(--text-ink);
+    }
+    .mechanism-body {
+      font-size: 1.02rem;
+      line-height: 1.68;
+      color: var(--text-ink);
+    }
+    .mechanism-subbox {
+      margin-top: 14px;
+      padding: 12px 16px;
+      border-radius: var(--border-radius);
+      font-size: 0.94rem;
+      line-height: 1.6;
+    }
+    .evidence-subbox {
+      background: rgba(217, 56, 30, 0.05);
+      border: 1px dashed rgba(217, 56, 30, 0.3);
+      border-left: 3px solid var(--stamp-red);
+    }
+    .doubt-subbox {
+      background: rgba(0, 86, 179, 0.05);
+      border: 1px dashed rgba(0, 86, 179, 0.3);
+      border-left: 3px solid var(--stamp-blue);
+      margin-top: 10px;
+    }
+
+    /* Tabela de Dados e Scorecards */
+    .method-table-wrap {
+      overflow-x: auto;
+      margin: 24px 0;
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--border-radius);
+      background: var(--bg-card);
+    }
+    .method-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      text-align: left;
+    }
+    .method-table th {
+      background: var(--bg-paper);
+      padding: 12px 14px;
+      font-family: var(--font-mono);
+      font-size: 0.76rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border-bottom: 2px solid var(--border-hairline);
+      color: var(--text-ink);
+    }
+    .method-table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border-hairline);
+      vertical-align: top;
+      line-height: 1.5;
+    }
+    .method-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* API Explorer Widget */
+    .api-explorer {
+      background: var(--bg-card);
+      border: 2px solid var(--border-hairline);
+      border-radius: var(--border-radius);
+      padding: 24px;
+      margin: 28px 0;
+      box-shadow: 2px 2px 0px rgba(0,0,0,0.06);
+    }
+    .api-explorer-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 18px;
+      padding-bottom: 12px;
+      border-bottom: 1px dashed var(--border-hairline);
+    }
+    .api-explorer-title {
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--text-ink);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .api-status-badge {
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
+      font-weight: 800;
+      background: var(--stamp-green-bg);
+      color: var(--stamp-green);
+      padding: 4px 10px;
+      border-radius: 2px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .api-status-dot {
+      width: 7px;
+      height: 7px;
+      background: var(--stamp-green);
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .api-buttons-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .btn-api-query {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 8px 14px;
+      background: var(--bg-paper);
+      color: var(--text-ink);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+    .btn-api-query:hover {
+      background: var(--border-hairline);
+      border-color: var(--text-ink);
+    }
+    .btn-api-query.active {
+      background: var(--text-ink);
+      color: var(--bg-paper);
+      border-color: var(--text-ink);
+    }
+    .btn-api-method {
+      color: var(--stamp-blue);
+      font-weight: 900;
+    }
+    .btn-api-query.active .btn-api-method {
+      color: #93c5fd;
+    }
+    .api-response-container {
+      background: #111827;
+      color: #f3f4f6;
+      border-radius: var(--border-radius);
+      padding: 16px;
+      font-family: var(--font-mono);
+      font-size: 0.84rem;
+      max-height: 480px;
+      overflow-y: auto;
+      position: relative;
+    }
+    .api-response-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #374151;
+      font-size: 0.76rem;
+      color: #9ca3af;
+    }
+    .api-response-actions {
+      display: flex;
+      gap: 8px;
+    }
+    .btn-copy-code {
+      background: #374151;
+      color: #f9fafb;
+      border: none;
+      padding: 3px 8px;
+      border-radius: 2px;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      cursor: pointer;
+    }
+    .btn-copy-code:hover {
+      background: #4b5563;
+    }
+    .api-json-pre {
+      margin: 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra Superior do Cabeçalho -->
+  <header class="gazette-header">
+    <div class="gazette-container">
+
+      <!-- Faixa de Voltar e Ações -->
+      <div class="method-top-bar">
+        <div>
+          <a href="index.html" class="back-docket-link">← Voltar ao Dossiê Principal de Checagens</a>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <span>PROJETO: <strong>A CHECAGEM DA CHECAGEM</strong></span>
+          <span>VERSÃO: <strong>2.5.0-API</strong></span>
+          <button class="theme-toggle" id="theme-toggle-btn" aria-label="Alternar modo escuro" title="Alternar modo escuro">
+            <span class="theme-label">NOITE</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Masthead da Página de Metodologia -->
+      <div class="method-masthead">
+        <span class="header-edition">DOCUMENTO TÉCNICO OFICIAL • REPRODUTIBILIDADE CIENTÍFICA & AUDITORIA DE VIÉS</span>
+        <h1 class="method-title">Metodologia Integral, Anatomia do Viés & Documentação da API</h1>
+        <p class="method-subtitle">
+          Exposição exaustiva de todos os métodos de coleta, pipelines de normalização tabular, matrizes de confronto minuto a minuto, investigação empírica sobre a existência de viés político nos portais independentes e especificação dos endpoints da API REST.
+        </p>
+
+        <div class="method-meta-chips">
+          <span class="method-chip">371 Arquivos Web Preservados</span>
+          <span class="method-chip">399 Checagens Independentes</span>
+          <span class="method-chip">219 Checagens da Grande Imprensa</span>
+          <span class="method-chip">22.159 Linhas de Confronto</span>
+          <span class="method-chip">484 Hashes SHA-256</span>
+          <span class="method-chip">API REST Ativa (JSON / UTF-8)</span>
+          <span class="method-chip">Licença Aberta MIT + CC-BY-4.0</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Navegação Fixa Interna -->
+  <nav class="method-nav-sticky" aria-label="Navegação do documento metodológico">
+    <div class="gazette-container">
+      <div class="method-nav-links">
+        <a href="#api-live" class="method-nav-link">Console da API</a>
+        <a href="#origem" class="method-nav-link">1. Objeto & Escopo</a>
+        <a href="#como-foi-feito" class="method-nav-link">2. Como Foi Feito (Pipeline)</a>
+        <a href="#por-que-existe-vies" class="method-nav-link">3. Por que Existe Viés?</a>
+        <a href="#beneficio-da-duvida" class="method-nav-link">4. Benefício da Dúvida</a>
+        <a href="#perfis-veiculos" class="method-nav-link">5. Radiografia dos Veículos</a>
+        <a href="#casos-auditados" class="method-nav-link">6. Casos Emblemáticos</a>
+        <a href="#endpoints-api" class="method-nav-link">7. Endpoints da API</a>
+        <a href="#reprodutibilidade" class="method-nav-link">8. Reprodutibilidade</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <main class="gazette-container">
+
+    <!-- WIDGET: CONSOLE INTERATIVO DA API REST -->
+    <section class="api-explorer" id="api-live">
+      <div class="api-explorer-header">
+        <div class="api-explorer-title">
+          <span>📡 Console Interativo da API REST</span>
+          <span class="api-status-badge"><span class="api-status-dot"></span> Servidor Online</span>
+        </div>
+        <div style="font-family: var(--font-mono); font-size: 0.80rem; color: var(--text-ink-muted);">
+          <span id="api-host-label">Host: <code>http://localhost:8080</code></span> • Formato: <code>application/json; charset=utf-8</code>
+        </div>
+      </div>
+
+      <p style="font-size: 0.98rem; margin-bottom: 14px; color: var(--text-ink);">
+        Clique nos botões abaixo para disparar requisições em tempo real aos endpoints nativos da API (compatível com servidor Python local e Vercel Serverless Functions). Você pode inspecionar os dados brutos ou copiar o comando cURL para sua aplicação:
+      </p>
+
+      <div class="api-buttons-strip">
+        <button class="btn-api-query active" data-endpoint="/api">
+          <span class="btn-api-method">GET</span> /api
+        </button>
+        <button class="btn-api-query" data-endpoint="/api/methodology">
+          <span class="btn-api-method">GET</span> /api/methodology
+        </button>
+        <button class="btn-api-query" data-endpoint="/api/bias-analysis">
+          <span class="btn-api-method">GET</span> /api/bias-analysis
+        </button>
+        <button class="btn-api-query" data-endpoint="/api/cases">
+          <span class="btn-api-method">GET</span> /api/cases
+        </button>
+        <button class="btn-api-query" data-endpoint="/api/stats">
+          <span class="btn-api-method">GET</span> /api/stats
+        </button>
+        <button class="btn-api-query" data-endpoint="/api/all">
+          <span class="btn-api-method">GET</span> /api/all
+        </button>
+      </div>
+
+      <div class="api-response-container">
+        <div class="api-response-bar">
+          <span id="api-current-url">GET http://localhost:8080/api • Status: 200 OK</span>
+          <div class="api-response-actions">
+            <button class="btn-copy-code" id="btn-copy-json">Copiar JSON</button>
+            <button class="btn-copy-code" id="btn-copy-curl">Copiar cURL</button>
+          </div>
+        </div>
+        <pre class="api-json-pre" id="api-output-display">Carregando dados da API...</pre>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 1: OBJETO E ESCOPO DA AUDITORIA -->
+    <section class="method-section" id="origem">
+      <span class="section-num">Capítulo 01</span>
+      <h2 class="section-heading">Origem, Objeto da Investigação & Pergunta de Pesquisa</h2>
+      
+      <div class="method-prose">
+        <p>
+          O debate presidencial transmitido pela TV Globo em 23 de outubro de 2026, válido pelo segundo turno eleitoral entre o presidente e candidato à reeleição <strong>Luiz Inácio Lula da Silva (PT)</strong> e o senador <strong>Flávio Bolsonaro (PL)</strong>, constituiu o evento de maior densidade retórica e factual da corrida política brasileira contemporânea.
+        </p>
+        <p>
+          Paralelamente à cobertura da imprensa profissional consolidada (como <em>G1</em>, <em>Estadão</em>, <em>UOL</em> e <em>Agência Lupa</em>), a proliferação de iniciativas independentes de checagem digital em tempo real (destacando-se <em>Pinóquio.live</em>, <em>Verifique a Verdade</em> e <em>Verifique os Fatos</em>) operou como um tribunal epistêmico paralelo. Milhões de eleitores consumiram cartões de verificação com selos categóricos de "Verdadeiro", "Falso" e "Enganoso" que circulavam instantaneamente em redes sociais e mensageiros privados durante os blocos da transmissão.
+        </p>
+        <p>
+          <strong>A Pergunta Central da Auditoria:</strong> O fact-checking independente opera como um instrumento neutro de depuração cívica, espelhando com fidelidade a apuração documental da imprensa, ou a ausência de amarras institucionais e códigos de governança favorece o surgimento de vieses políticos sistemáticos — seja por viés de seleção (gatekeeping), formalismo legalista protetivo ou rigidez punitiva assimétrica?
+        </p>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 2: COMO FOI FEITO (PIPELINE FORENSE) -->
+    <section class="method-section" id="como-foi-feito">
+      <span class="section-num">Capítulo 02</span>
+      <h2 class="section-heading">Como Foi Feito: O Pipeline Científico em 5 Fases</h2>
+
+      <div class="method-prose">
+        <p>
+          Para responder a essa pergunta sem incorrer em especulação, a investigação adotou princípios estritos de ciência de dados aberta, engenharia reversa passiva e confronto documental direto com órgãos do Estado brasileiro.
+        </p>
+      </div>
+
+      <div class="pipeline-grid">
+        <div class="pipeline-card">
+          <span class="pipeline-step-badge">FASE 1 • COLETAS BRUTAS</span>
+          <h3 class="pipeline-title">Preservação Web Passiva</h3>
+          <p class="pipeline-desc">
+            Espelhamento imediato de 371 arquivos web brutos na pasta <code>coleta/</code> durante a transmissão ao vivo. Foram capturados os estados de hidratação do Next.js (<code>__NEXT_DATA__</code>), payloads REST de APIs internas, feeds de <code>posts.json</code> e metadados OpenGraph. Essa etapa evitou qualquer risco de revisionismo digital ou apagamento de checagens efêmeras (como no caso da plataforma <em>Checagem ao Vivo</em>, que foi desativada imediatamente após o fim da transmissão).
+          </p>
+          <div class="pipeline-meta">
+            📁 Diretório: <code>coleta/</code> • 371 arquivos congelados
+          </div>
+        </div>
+
+        <div class="pipeline-card">
+          <span class="pipeline-step-badge">FASE 2 • NORMALIZAÇÃO</span>
+          <h3 class="pipeline-title">Estruturação Relacional Tabular</h3>
+          <p class="pipeline-desc">
+            Limpeza e mapeamento das bases não-estruturadas em esquemas tabulares universais com codificação UTF-8 estrita em <code>dados/</code>. Foram normalizadas <strong>399 checagens do ecossistema independente</strong> e <strong>219 da grande imprensa tradicional</strong>, extraindo para cada registro: orador, citação literal, minuto exato do debate, rótulo atribuído, texto de justificativa e fontes primárias citadas.
+          </p>
+          <div class="pipeline-meta">
+            📁 Diretório: <code>dados/</code> • 15 tabelas CSV e JSON
+          </div>
+        </div>
+
+        <div class="pipeline-card">
+          <span class="pipeline-step-badge">FASE 3 • CONFRONTO</span>
+          <h3 class="pipeline-title">Cruzamento Minuto a Minuto</h3>
+          <p class="pipeline-desc">
+            Execução de algoritmos de correlação textual e temporal por offset cronológico para identificar checagens concorrentes sobre a mesma declaração. O pipeline gerou uma matriz comparativa com <strong>22.159 linhas em <code>confronto/</code></strong>, isolando <strong>312 correspondências diretas</strong> em que checadores independentes e portais tradicionais avaliaram o mesmo fato.
+          </p>
+          <div class="pipeline-meta">
+            📁 Diretório: <code>confronto/</code> • 22.159 linhas comparadas
+          </div>
+        </div>
+
+        <div class="pipeline-card">
+          <span class="pipeline-step-badge">FASE 4 • TESTE CEGO</span>
+          <h3 class="pipeline-title">Confronto com Fontes Primárias</h3>
+          <p class="pipeline-desc">
+            Cada discordância de veredito foi submetida a teste cego contra a documentação original dos órgãos públicos federais: relatórios e acórdãos do TCU, séries históricas do Banco Central (SGS), certidões da Secretaria do Patrimônio da União (SPU), Leis Orçamentárias aprovadas (PLOA/EC) e inquéritos da Polícia Federal e do TJRJ.
+          </p>
+          <div class="pipeline-meta">
+            📁 Fontes: TCU, BACEN, SPU, Diário Oficial, TJRJ, PF
+          </div>
+        </div>
+
+        <div class="pipeline-card">
+          <span class="pipeline-step-badge">FASE 5 • INTEGRIDADE</span>
+          <h3 class="pipeline-title">Auditoria Criptográfica SHA-256</h3>
+          <p class="pipeline-desc">
+            Todos os 484 arquivos do projeto tiveram suas assinaturas SHA-256 publicadas no manifesto <code>SHA256_HASHES.txt</code>. O projeto opera sob a política de zero alteração: nenhum dado bruto original foi modificado, e todo o processamento é determinístico e acionado por scripts abertos na pasta <code>scripts/</code>.
+          </p>
+          <div class="pipeline-meta">
+            📁 Manifesto: <code>SHA256_HASHES.txt</code> • 484 hashes
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 3: POR QUE EXISTE VIÉS POLÍTICO NOS INDEPENDENTES? -->
+    <section class="method-section" id="por-que-existe-vies">
+      <span class="section-num">Capítulo 03</span>
+      <h2 class="section-heading">Por que Existe a Possível Existência de Viés Político nos Portais Independentes?</h2>
+
+      <div class="method-prose">
+        <p>
+          Uma das descobertas mais relevantes deste dossiê é que <strong>o viés político nos checadores independentes NÃO decorre de falsificação grosseira de documentos ou mentira deliberada sobre dados oficiais</strong>. Em mais de 80% das declarações com lastro matemático simples (como séries de inflação ou balança comercial), os portais independentes concordam com a grande imprensa e com as tabelas do Estado.
+        </p>
+        <p>
+          O viés opera por meio de mecanismos mais sutis, estruturais e perigosos, que a nossa auditoria decompôs em cinco engrenagens empíricas:
+        </p>
+      </div>
+
+      <!-- Mecanismo 1 -->
+      <div class="bias-mechanism-card">
+        <span class="mechanism-tag">Mecanismo 01 • O Viés da Pauta</span>
+        <h3 class="mechanism-title">Viés de Seleção e Gatekeeping: O Poder de Escolher a Pergunta</h3>
+        <div class="mechanism-body">
+          <p>
+            Um veículo de fact-checking não precisa forjar um único dado para ser devastadoramente enviesado. Basta que ele selecione com cuidado <em>o que</em> vai checar. Em um debate de duas horas, os candidatos proferem centenas de frases. Se o editor escolhe 40 declarações imprecisas e improvisadas do Candidato A, e escolhe 40 afirmações sólidas e consolidadas do Candidato B, o placar final publicado será de 90% de "Falso" contra A e 90% de "Verdadeiro" para B — mesmo que todas as 80 checagens individuais estejam tecnicamente corretas.
+          </p>
+          <div class="mechanism-subbox evidence-subbox">
+            <strong>Prova Empírica no Dossiê:</strong> No portal <em>Verifique os Fatos</em>, 64% de toda a cobertura foi concentrada exclusivamente em falas de Flávio Bolsonaro (48 falas examinadas contra apenas 27 de Lula). Ao aplicar esse funil desproporcional, o portal produziu um placar final com <strong>95,8% de vereditos negativos para Flávio</strong> e <strong>66,7% de rótulos positivos para Lula</strong>. A assimetria de pauta foi de 13 para 1.
+          </div>
+          <div class="mechanism-subbox doubt-subbox">
+            <strong>Benefício da Dúvida:</strong> Sob o benefício da dúvida, o veículo pode ter pautado as declarações guiado pelo volume orgânico de menções e dúvidas manifestadas por seus seguidores em redes sociais durante o calor da transmissão, e não necessariamente por uma orquestração política pré-concebida.
+          </div>
+        </div>
+      </div>
+
+      <!-- Mecanismo 2 -->
+      <div class="bias-mechanism-card">
+        <span class="mechanism-tag">Mecanismo 02 • O Viés da Régua Semântica</span>
+        <h3 class="mechanism-title">Enquadramento Semântico e Severidade Assimétrica de Vereditos</h3>
+        <div class="mechanism-body">
+          <p>
+            Declarações de debate político frequentemente contêm núcleos verdadeiros cercados de exageros retóricos ou omissões contextuais. Quando isso ocorre, o checador tem à sua disposição uma ampla gama de selos: "Verdadeiro (com ressalvas)", "Impreciso", "Falta Contexto", "Enganoso", "Exagerado" ou o destrutivo "Falso". A decisão de qual carimbo aplicar é amplamente discricionária.
+          </p>
+          <div class="mechanism-subbox evidence-subbox">
+            <strong>Prova Empírica no Dossiê:</strong>
+            <ul style="margin: 8px 0 8px 20px;">
+              <li><strong>Caso das Obras do TCU:</strong> Quando Flávio citou 11.500 obras paradas, o <em>Verifique a Verdade</em> deu "Verdadeiro" pela exatidão do documento; já o <em>Pinóquio.live</em> aplicou "Falso", punindo com severidade máxima a falta de menção aos municípios.</li>
+              <li><strong>Caso da Herança de Obras de Lula:</strong> Quando Lula citou 6.000 obras herdadas (quando eram 8.603 no TCU), o <em>Verifique a Verdade</em> deu "Verdadeiro" argumentando que o erro desfavorecia o próprio orador; enquanto outros checadores carimbaram "Fake/Falso" pela discrepância matemática de mais de 40%.</li>
+              <li><strong>Caso dos R$ 600 do Bolsa Família:</strong> Enquanto <em>UOL</em> e <em>Pinóquio.live</em> deram "Falso" fundamentados na Lei 14.342/2022 e no PLOA 2023, o <em>Verifique a Verdade</em> atenuou o carimbo para "Impreciso", justificando que a parcela extraordinária fora paga no final de 2022.</li>
+            </ul>
+          </div>
+          <div class="mechanism-subbox doubt-subbox">
+            <strong>Benefício da Dúvida:</strong> Sob o benefício da dúvida, diferentes escolas de jornalismo adotam réguas epistemológicas distintas: escolas documentalistas priorizam a letra do papel oficial; escolas hermenêuticas priorizam a atribuição causal e a justiça das responsabilidades políticas.
+          </div>
+        </div>
+      </div>
+
+      <!-- Mecanismo 3 -->
+      <div class="bias-mechanism-card">
+        <span class="mechanism-tag">Mecanismo 03 • O Escudo Jurídico</span>
+        <h3 class="mechanism-title">Formalismo Legalista de Blindagem vs Investigação de Contexto</h3>
+        <div class="mechanism-body">
+          <p>
+            Consiste em utilizar a exigência burocrática de tipicidade penal formal estrita para declarar falsas denúncias políticas que, na esfera fática e relacional, possuem fartos elementos probatórios apurados por órgãos de inteligência e pela polícia judiciária.
+          </p>
+          <div class="mechanism-subbox evidence-subbox">
+            <strong>Prova Empírica no Dossiê:</strong> Na discussão sobre milícias no Rio de Janeiro, o <em>Verifique a Verdade</em> validou taxativamente a negativa de Flávio Bolsonaro ("Nunca fui investigado por milícia") apegando-se exclusivamente ao fato de não haver inquérito autônomo instaurado sob o art. 288-A do Código Penal. Essa escolha técnica silenciou deliberadamente sobre o fato de que os autos da Operação Os Intocáveis e da Polícia Federal documentaram o emprego remunerado da mãe e da ex-esposa do líder do Escritório do Crime em seu gabinete de deputado.
+          </div>
+          <div class="mechanism-subbox doubt-subbox">
+            <strong>Benefício da Dúvida:</strong> Sob o benefício da dúvida, o respeito estrito ao princípio da legalidade e à presunção formal de inocência são garantias jurídicas legítimas: ninguém deve ser publicamente carimbado por um tipo penal específico se a autoridade policial não instaurou portaria expressa com aquele dispositivo.
+          </div>
+        </div>
+      </div>
+
+      <!-- Mecanismo 4 -->
+      <div class="bias-mechanism-card">
+        <span class="mechanism-tag">Mecanismo 04 • A Opacidade das Fontes</span>
+        <h3 class="mechanism-title">Déficit de Transparência nas Fontes Primárias</h3>
+        <div class="mechanism-body">
+          <p>
+            O pilar central que distingue a ciência e a auditoria factual da mera propaganda opinativa é a capacidade do leitor de reproduzir o caminho probatório e inspecionar a fonte original com um clique. A sonegação de links transforma o fact-checking em uma afirmação dogmática de autoridade ("é mentira porque eu estou dizendo que é").
+          </p>
+          <div class="mechanism-subbox evidence-subbox">
+            <strong>Prova Empírica no Dossiê:</strong> O portal <em>Verifique os Fatos</em> apresentou <strong>0% de hiperlinks externos</strong> em todas as suas 75 checagens no feed público, limitando-se a apresentar textos curtos em cartões gráficos. Em contrapartida, <em>Pinóquio.live</em> e <em>Verifique a Verdade</em> apresentaram 100% de hiperlinks para relatórios do TCU, tabelas do Banco Central e Diário Oficial.
+          </div>
+          <div class="mechanism-subbox doubt-subbox">
+            <strong>Benefício da Dúvida:</strong> Sob o benefício da dúvida, a omissão de links pode ter resultado de escolhas técnicas de design voltadas à velocidade e simplicidade em telas de smartphones de baixa largura de banda, e não de uma recusa proposital em prestar contas.
+          </div>
+        </div>
+      </div>
+
+      <!-- Mecanismo 5 -->
+      <div class="bias-mechanism-card">
+        <span class="mechanism-tag">Mecanismo 05 • Os Incentivos Econômicos</span>
+        <h3 class="mechanism-title">Incentivos Econômicos, Ausência de Governança e Economia da Atenção</h3>
+        <div class="mechanism-body">
+          <p>
+            Diferentemente das grandes empresas de comunicação, que possuem conselhos editoriais, compliance legal, defensores do leitor (ombudsmen) e certificações internacionais de credibilidade (como o selo IFCN do Poynter Institute), os portais independentes operam com equipes enxutas e sem fiscalização externa.
+          </p>
+          <p>
+            Sua sustentabilidade financeira muitas vezes depende de engajamento algorítmico, doações por chave PIX de comunidades mobilizadas ou audiências de nicho fortemente polarizadas. Um checador independente que irrita sua base partidária ao classificar como falso um boato favorito de sua comunidade perde seguidores, engajamento e financiamento. A pressão econômica atua silenciosamente para moldar o tom editorial.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 4: A DOUTRINA DO BENEFÍCIO DA DÚVIDA -->
+    <section class="method-section" id="beneficio-da-duvida">
+      <span class="section-num">Capítulo 04</span>
+      <h2 class="section-heading">A Doutrina do Benefício da Dúvida: Rigor sem Inquisição</h2>
+
+      <div class="method-prose">
+        <p>
+          Auditar o viés de veículos de imprensa exige um cuidado ético extremo. Se um projeto que se propõe a auditar checagens adotar um tom acusatório, panfletário ou conspiracionista, ele se tornará tão desinformativo quanto os vícios que pretende investigar.
+        </p>
+        <p>
+          Por essa razão, o projeto consagrou formalmente a <strong>Doutrina do Benefício da Dúvida</strong> em três planos epistemológicos inegociáveis:
+        </p>
+      </div>
+
+      <div class="pipeline-grid">
+        <div class="pipeline-card" style="border-left: 4px solid var(--stamp-blue);">
+          <span class="pipeline-step-badge" style="background: var(--stamp-blue-bg); color: var(--stamp-blue);">PLANO 1 • DADOS COMPROVADOS</span>
+          <h3 class="pipeline-title">Fatos Objetivamente Demonstrados</h3>
+          <p class="pipeline-desc">
+            São as métricas frias e verificáveis: a contagem de falas checadas de cada candidato, as porcentagens de vereditos negativos e positivos, a ausência de links externos e a conferência literal dos textos legais. São verdades matemáticas registradas nas tabelas de dados.
+          </p>
+        </div>
+
+        <div class="pipeline-card" style="border-left: 4px solid var(--stamp-amber);">
+          <span class="pipeline-step-badge" style="background: var(--stamp-amber-bg); color: var(--stamp-amber);">PLANO 2 • INDÍCIOS CONSISTENTES</span>
+          <h3 class="pipeline-title">Indícios que Justificam Alerta</h3>
+          <p class="pipeline-desc">
+            Padrões editoriais recorrentes em que um veículo adota um critério ultra-rígido para um lado político e um critério ultra-compreensivo para o outro lado. Justificam o apontamento analítico de <em>possível viés editorial</em>, sempre acompanhado da evidência correspondente.
+          </p>
+        </div>
+
+        <div class="pipeline-card" style="border-left: 4px solid var(--stamp-red);">
+          <span class="pipeline-step-badge" style="background: var(--stamp-red-bg); color: var(--stamp-red);">PLANO 3 • NÃO COMPROVADO</span>
+          <h3 class="pipeline-title">Hipóteses Rejeitadas pela Auditoria</h3>
+          <p class="pipeline-desc">
+            Alegações de "conluio", "fraude criminosa premeditada" ou "financiamento partidário oculto". A auditoria NÃO faz tais afirmações, pois não há qualquer prova material nesse sentido. Trata-se de disputas de interpretação metodológica no ecossistema público de comunicação.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 5: RADIOGRAFIA DETALHADA DOS VEÍCULOS -->
+    <section class="method-section" id="perfis-veiculos">
+      <span class="section-num">Capítulo 05</span>
+      <h2 class="section-heading">Radiografia Estatística dos Checadores Auditados</h2>
+
+      <div class="method-prose">
+        <p>
+          A tabela a seguir consolida o desempenho quantitativo, as taxas de aprovação por candidato e a auditabilidade de fontes dos veículos monitorados:
+        </p>
+      </div>
+
+      <div class="method-table-wrap">
+        <table class="method-table">
+          <thead>
+            <tr>
+              <th>Veículo / Iniciativa</th>
+              <th>Bloco</th>
+              <th>Checagens no Debate</th>
+              <th>Distribuição de Pauta</th>
+              <th>Taxa de Rótulos Negativos</th>
+              <th>Transparência de Fontes</th>
+              <th>Diagnóstico Editorial</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Pinóquio.live</strong></td>
+              <td>Independente</td>
+              <td>175</td>
+              <td>Flávio: 52,6% (92)<br>Lula: 47,4% (83)</td>
+              <td>Flávio: 32,6%<br>Lula: 31,3%</td>
+              <td><strong>100%</strong> (Links primários no feed)</td>
+              <td>Alta abrangência, equilíbrio quantitativo exemplar, porém com hiper-rigor causal em omissões federativas.</td>
+            </tr>
+            <tr>
+              <td><strong>Verifique a Verdade</strong></td>
+              <td>Independente</td>
+              <td>132 (211 total)</td>
+              <td>Flávio: 56,8% (75)<br>Lula: 43,2% (57)</td>
+              <td>Flávio: 24,0%<br>Lula: 47,4%</td>
+              <td><strong>100%</strong> (Documentos públicos e autos)</td>
+              <td>Formalismo legalista estrito na defesa de aliados; forte cobrança orçamentária sobre promessas do governo.</td>
+            </tr>
+            <tr>
+              <td><strong>Verifique os Fatos</strong></td>
+              <td>Independente</td>
+              <td>75</td>
+              <td>Flávio: 64,0% (48)<br>Lula: 36,0% (27)</td>
+              <td>Flávio: <strong>95,8%</strong><br>Lula: <strong>7,4%</strong></td>
+              <td><strong>0%</strong> (Sem hiperlinks verificáveis)</td>
+              <td>Forte assimetria pró-governo decorrente de gatekeeping de pauta e déficit absoluto de links de fontes.</td>
+            </tr>
+            <tr>
+              <td><strong>Estadão Verifica</strong></td>
+              <td>Grande Imprensa</td>
+              <td>93</td>
+              <td>Equilibrada</td>
+              <td>Critério moderado</td>
+              <td><strong>100%</strong> (Fontes primárias completas)</td>
+              <td>Cobertura mais extensa e contextualizada da imprensa tradicional; contextualização em tempo real.</td>
+            </tr>
+            <tr>
+              <td><strong>G1 (Fato ou Fake)</strong></td>
+              <td>Grande Imprensa</td>
+              <td>47</td>
+              <td>Foco em Lula (transmissão)</td>
+              <td>Rigor em números</td>
+              <td><strong>100%</strong> (Links de reportagem)</td>
+              <td>Formato dinâmico de liveblogging com notas rápidas; rigidez matemática com dados literais.</td>
+            </tr>
+            <tr>
+              <td><strong>Agência Lupa</strong></td>
+              <td>Grande Imprensa</td>
+              <td>53</td>
+              <td>Equilibrada</td>
+              <td>Selos nuançados</td>
+              <td><strong>100%</strong> (Certificada IFCN)</td>
+              <td>Uso pioneiro de selos intermediários ("Subestimado", "Exagerado"), reduzindo polarização binária.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 6: MATRIZ DOS 5 CASOS EMBLEMÁTICOS -->
+    <section class="method-section" id="casos-auditados">
+      <span class="section-num">Capítulo 06</span>
+      <h2 class="section-heading">Matriz dos 5 Casos Emblemáticos em Detalhe</h2>
+
+      <div class="method-prose">
+        <p>
+          Cinco declarações selecionadas do debate ilustram com clareza clínica como a escolha metodológica molda o veredito final:
+        </p>
+      </div>
+
+      <div class="pipeline-grid">
+        <div class="pipeline-card">
+          <span class="pipeline-step-badge" style="background: var(--stamp-blue-bg); color: var(--stamp-blue);">CASO 01 • TCU</span>
+          <h3 class="pipeline-title">11.500 Obras Paradas no TCU</h3>
+          <p class="pipeline-desc">
+            <strong>Orador:</strong> Flávio Bolsonaro • <strong>Fato Real:</strong> O TCU aponta 11.469 obras paradas, mas 80% são convênios municipais antigos anteriores a 2019.<br>
+            <strong>Confronto:</strong> <em>Verifique a Verdade</em> deu "Verdadeiro" (literalidade); <em>Pinóquio</em> deu "Falso" (causalidade municipal); <em>Verifique os Fatos</em> deu "Enganoso". Na imprensa, <em>G1</em> e <em>Estadão</em> deram "Fato/Verdadeiro"; <em>UOL</em> deu "Falso".
+          </p>
+        </div>
+
+        <div class="pipeline-card">
+          <span class="pipeline-step-badge" style="background: var(--stamp-blue-bg); color: var(--stamp-blue);">CASO 02 • MILÍCIA</span>
+          <h3 class="pipeline-title">Investigação por Milícia no RJ</h3>
+          <p class="pipeline-desc">
+            <strong>Orador:</strong> Flávio Bolsonaro • <strong>Fato Real:</strong> Não há inquérito pelo crime autônomo do art. 288-A do CP, mas o gabinete empregou a mãe e a ex-mulher do chefe do Escritório do Crime.<br>
+            <strong>Confronto:</strong> <em>Verifique a Verdade</em>, <em>UOL</em>, <em>Estadão</em> e <em>Lupa</em> deram "Verdadeiro" (critério formal); <em>Pinóquio</em> deu "Insustentável" e <em>G1</em> deu "Não é bem assim" (vínculos de gabinete).
+          </p>
+        </div>
+
+        <div class="pipeline-card">
+          <span class="pipeline-step-badge" style="background: var(--stamp-red-bg); color: var(--stamp-red);">CASO 03 • HERANÇA</span>
+          <h3 class="pipeline-title">As 6.000 Obras Herdadas por Lula</h3>
+          <p class="pipeline-desc">
+            <strong>Orador:</strong> Lula • <strong>Fato Real:</strong> O TCU registrava 8.603 obras paralisadas em abril de 2023. Lula errou em 30% para baixo.<br>
+            <strong>Confronto:</strong> <em>Verifique a Verdade</em> deu "Verdadeiro" (erro desfavoreceu o orador); <em>Pinóquio</em>, <em>G1</em> e <em>UOL</em> deram "Falso" (discrepância matemática); <em>Lupa</em> deu "Subestimado".
+          </p>
+        </div>
+
+        <div class="pipeline-card">
+          <span class="pipeline-step-badge" style="background: var(--stamp-blue-bg); color: var(--stamp-blue);">CASO 04 • NEYMAR / ILHA</span>
+          <h3 class="pipeline-title">Suposta Compra de Ilha do MST</h3>
+          <p class="pipeline-desc">
+            <strong>Orador:</strong> Flávio Bolsonaro • <strong>Fato Real:</strong> Fabricação digital completa sem respaldo na base da Secretaria do Patrimônio da União (SPU).<br>
+            <strong>Confronto:</strong> Consenso absoluto de todos os checadores independentes e portais tradicionais no carimbo "Falso / Fake". Demonstra isenção factual perante falsidades incontestáveis.
+          </p>
+        </div>
+
+        <div class="pipeline-card">
+          <span class="pipeline-step-badge" style="background: var(--stamp-blue-bg); color: var(--stamp-blue);">CASO 05 • BENEFÍCIO</span>
+          <h3 class="pipeline-title">Piso Permanente de R$ 600</h3>
+          <p class="pipeline-desc">
+            <strong>Orador:</strong> Flávio Bolsonaro • <strong>Fato Real:</strong> A Lei 14.342/22 fixou piso de R$ 400; o adicional de R$ 200 vencia em 31/12/22 e a PLOA 2023 deixada previa R$ 405.<br>
+            <strong>Confronto:</strong> <em>Pinóquio</em> e <em>UOL</em> deram "Falso" (documento do orçamento); <em>Verifique a Verdade</em> atenuou para "Impreciso"; <em>G1</em> deu "Não é bem assim".
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 7: ESPECIFICAÇÃO COMPLETA DA API REST -->
+    <section class="method-section" id="endpoints-api">
+      <span class="section-num">Capítulo 07</span>
+      <h2 class="section-heading">Especificação Completa dos Endpoints da API REST</h2>
+
+      <div class="method-prose">
+        <p>
+          O servidor da aplicação expõe uma API RESTful nativa, sem dependência de frameworks externos, servindo respostas no formato JSON com cabeçalhos <code>Access-Control-Allow-Origin: *</code> e suporte a chamadas assíncronas.
+        </p>
+      </div>
+
+      <div class="method-table-wrap">
+        <table class="method-table">
+          <thead>
+            <tr>
+              <th>Método</th>
+              <th>Endpoint</th>
+              <th>Descrição do Recurso</th>
+              <th>Payload de Retorno (Schema Principal)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="btn-api-method">GET</span></td>
+              <td><code>/api</code> ou <code>/api/index</code></td>
+              <td>Descoberta da API e metadados globais do dossiê.</td>
+              <td><code>status</code>, <code>project</code>, <code>available_endpoints</code>, <code>summary</code>, <code>links</code></td>
+            </tr>
+            <tr>
+              <td><span class="btn-api-method">GET</span></td>
+              <td><code>/api/methodology</code></td>
+              <td>Documentação completa da metodologia forense, raspagem de 371 arquivos e pipelines.</td>
+              <td><code>investigation_scope</code>, <code>pipeline</code> (5 etapas), <code>reproducibility</code></td>
+            </tr>
+            <tr>
+              <td><span class="btn-api-method">GET</span></td>
+              <td><code>/api/bias-analysis</code></td>
+              <td>Dossiê integral de auditoria de viés, Doutrina do Benefício da Dúvida e evidências empíricas.</td>
+              <td><code>executive_summary</code>, <code>benefit_of_the_doubt_doctrine</code>, <code>core_mechanisms</code>, <code>outlets_deep_profile</code></td>
+            </tr>
+            <tr>
+              <td><span class="btn-api-method">GET</span></td>
+              <td><code>/api/cases</code></td>
+              <td>Matriz detalhada dos 5 casos auditados com transcrições, dados oficiais e confronto.</td>
+              <td><code>total_cases</code>, <code>cases</code> (array com transcrição, fato real, fontes e vereditos)</td>
+            </tr>
+            <tr>
+              <td><span class="btn-api-method">GET</span></td>
+              <td><code>/api/stats</code></td>
+              <td>Consolidação estatística de volumes de checagem, taxas de aprovação e métricas de fontes.</td>
+              <td><code>universe</code>, <code>outlets</code>, <code>cross_match</code></td>
+            </tr>
+            <tr>
+              <td><span class="btn-api-method">GET</span></td>
+              <td><code>/api/all</code></td>
+              <td>Exportação integral em JSON da base de dados completa do dossiê.</td>
+              <td>Objeto JSON unificado contendo toda a estrutura de metadados, pipelines, casos e análises.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="method-prose">
+        <p><strong>Exemplo de Consumo em JavaScript (Fetch API):</strong></p>
+        <pre style="background: #1e293b; color: #f8fafc; padding: 14px; border-radius: 4px; font-family: var(--font-mono); font-size: 0.85rem; overflow-x: auto;">
+// Funciona tanto em ambiente local quanto no deploy na nuvem (Vercel)
+const res = await fetch("/api/bias-analysis");
+const data = await res.json();
+console.log("Mecanismos de viés auditados:", data.bias_forensic_analysis.core_mechanisms);
+        </pre>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 8: REPRODUTIBILIDADE E LICENCIAMENTO -->
+    <section class="method-section" id="reprodutibilidade" style="border-bottom: none;">
+      <span class="section-num">Capítulo 08</span>
+      <h2 class="section-heading">Reprodutibilidade, Auditoria e Licenciamento Aberto</h2>
+
+      <div class="method-prose">
+        <p>
+          Em consonância com as melhores práticas científicas de auditoria de algoritmos e jornalismo computacional, todo o código-fonte, scripts de transformação, dados consolidados e textos analíticos deste projeto são de acesso público e irrestrito.
+        </p>
+        <p>
+          <strong>Como Executar Localmente:</strong>
+        </p>
+        <pre style="background: #1e293b; color: #f8fafc; padding: 14px; border-radius: 4px; font-family: var(--font-mono); font-size: 0.85rem; overflow-x: auto;">
+# 1. Navegue até o diretório do projeto
+cd C:\Users\RAFAE\Downloads\a-checagem-da-checagem
+
+# 2. Inicie o servidor local nativo em Python (zero dependências externas)
+python interface/server.py
+
+# 3. Abra no navegador
+http://localhost:8080/ (Dossiê Principal)
+http://localhost:8080/metodologia.html (Metodologia e API)
+http://localhost:8080/api (Endpoint Raiz da API REST)
+        </pre>
+        <p>
+          <strong>Licenciamento Duplo:</strong> O código-fonte deste projeto é distribuído sob a <strong>Licença MIT</strong>. Todos os dados normalizados, matrizes comparativas e relatórios de auditoria são distribuídos sob a licença <strong>Creative Commons Atribuição 4.0 Internacional (CC-BY-4.0)</strong>.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="gazette-footer">
+    <div class="gazette-container">
+      <div class="footer-bottom-bar">
+        <div class="footer-bottom-left">
+          <strong>A Checagem da Checagem</strong> — Documentação Metodológica Integral & API
+          <div class="footer-meta">Auditado em 24 de Outubro de 2026 • 484 Arquivos Criptograficamente Verificados via SHA-256</div>
+        </div>
+        <div class="footer-bottom-right">
+          <a href="index.html" style="color: var(--text-ink); font-weight: 700;">← Voltar ao Dossiê Principal</a> • Licença Aberta MIT + CC-BY-4.0
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Interativo do Console da API e Dark Mode -->
+  <script>
+    (function() {
+      // 1. Suporte a Tema Escuro Sincronizado com LocalStorage
+      const themeToggleBtn = document.getElementById("theme-toggle-btn");
+      const savedTheme = localStorage.getItem("gazette_theme");
+      if (savedTheme === "night") {
+        document.body.classList.add("night-mode");
+        if (themeToggleBtn) themeToggleBtn.querySelector(".theme-label").textContent = "DIA";
+      }
+
+      if (themeToggleBtn) {
+        themeToggleBtn.addEventListener("click", () => {
+          document.body.classList.toggle("night-mode");
+          const isNight = document.body.classList.contains("night-mode");
+          themeToggleBtn.querySelector(".theme-label").textContent = isNight ? "DIA" : "NOITE";
+          localStorage.setItem("gazette_theme", isNight ? "night" : "light");
+        });
+      }
+
+      // 2. Interatividade do Console da API
+      const apiButtons = document.querySelectorAll(".btn-api-query");
+      const display = document.getElementById("api-output-display");
+      const statusLabel = document.getElementById("api-current-url");
+      const hostLabel = document.getElementById("api-host-label");
+      const btnCopyJson = document.getElementById("btn-copy-json");
+      const btnCopyCurl = document.getElementById("btn-copy-curl");
+
+      const currentOrigin = window.location.origin || "http://localhost:8080";
+      if (hostLabel) {
+        hostLabel.innerHTML = `Host: <code>${currentOrigin}</code>`;
+      }
+
+      let currentJsonData = null;
+      let activeEndpoint = "/api";
+
+      async function fetchApiEndpoint(endpoint) {
+        activeEndpoint = endpoint;
+        display.textContent = `Carregando ${endpoint}...`;
+        statusLabel.textContent = `GET ${currentOrigin}${endpoint} • Aguardando resposta...`;
+
+        try {
+          const startTime = performance.now();
+          const res = await fetch(endpoint);
+          const duration = Math.round(performance.now() - startTime);
+
+          if (!res.ok) {
+            throw new Error(`HTTP error! status: ${res.status}`);
+          }
+
+          const data = await res.json();
+          currentJsonData = data;
+          display.textContent = JSON.stringify(data, null, 2);
+          statusLabel.textContent = `GET ${currentOrigin}${endpoint} • 200 OK (${duration}ms) • ${new Blob([JSON.stringify(data)]).size} bytes`;
+        } catch (err) {
+          display.textContent = `Erro ao consultar a API: ${err.message}\nCertifique-se de que o servidor local está ativo ou acesse a versão publicada na web.`;
+          statusLabel.textContent = `GET ${currentOrigin}${endpoint} • ERRO`;
+        }
+      }
+
+      apiButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+          apiButtons.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          const ep = btn.getAttribute("data-endpoint");
+          fetchApiEndpoint(ep);
+        });
+      });
+
+      // Copiar JSON
+      btnCopyJson.addEventListener("click", () => {
+        if (!currentJsonData) return;
+        navigator.clipboard.writeText(JSON.stringify(currentJsonData, null, 2)).then(() => {
+          const original = btnCopyJson.textContent;
+          btnCopyJson.textContent = "Copiado!";
+          setTimeout(() => { btnCopyJson.textContent = original; }, 1500);
+        });
+      });
+
+      // Copiar cURL
+      btnCopyCurl.addEventListener("click", () => {
+        const curlCmd = `curl -X GET "${currentOrigin}${activeEndpoint}" -H "Accept: application/json"`;
+        navigator.clipboard.writeText(curlCmd).then(() => {
+          const original = btnCopyCurl.textContent;
+          btnCopyCurl.textContent = "Copiado!";
+          setTimeout(() => { btnCopyCurl.textContent = original; }, 1500);
+        });
+      });
+
+      // Carga inicial
+      fetchApiEndpoint("/api");
+    })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+/* Janela de compartilhamento. Carregada sob demanda pelo index.html no primeiro clique em um botão .story. */
+
+/* Centralizada no desktop, bandeja que sobe de baixo no mobile */
+.sh {
+  width: fit-content;
+  max-width: calc(100% - 32px);
+  max-height: calc(100% - 32px);
+  padding: 0;
+  overflow: auto;
+  background: var(--surface);
+  border: 0;
+  border-radius: 28px;
+  color: var(--ink);
+}
+
+.sh::backdrop {
+  background: rgb(0 0 0 / .45);
+}
+
+.sh-box {
+  position: relative;
+  display: flex;
+  gap: 56px;
+  padding: 28px 48px 28px 28px;
+}
+
+.sh-preview {
+  flex: none;
+  width: 324px;
+  height: 576px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+}
+
+.sh-side {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.sh h2 {
+  margin: 8px 24px 12px 0;
+  font: 400 24px/1.25 var(--serif);
+}
+
+.sh-desc {
+  margin: 0 0 24px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.sh .label {
+  margin-bottom: 10px;
+}
+
+.sh-look {
+  display: flex;
+  gap: 8px;
+}
+
+.sh-close,
+.sh-opt,
+.sh-btn {
+  background: var(--surface);
+  border: 1px solid var(--line2);
+  color: var(--ink);
+  font: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sh-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.sh-opt {
+  height: 44px;
+  padding: 0 18px;
+  border-radius: 99px;
+}
+
+.sh-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.sh-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 48px;
+  border-radius: 99px;
+  font-weight: 600;
+}
+
+.sh-btn[hidden] {
+  display: none;
+}
+
+.sh-opt[aria-pressed="true"],
+.sh-main {
+  background: var(--inv-bg);
+  border-color: var(--inv-bg);
+  color: var(--inv-fg);
+}
+
+/* O layout lado a lado ocupa 756px; abaixo de 800px vira bandeja */
+@media (max-width: 800px) {
+  .sh {
+    width: 100%;
+    max-width: none;
+    max-height: 100%;
+    margin: auto 0 0;
+    border-radius: 28px 28px 0 0;
+  }
+
+  .sh-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 28px 20px calc(20px + env(safe-area-inset-bottom));
+  }
+
+  /* Alça da bandeja */
+  .sh-box::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 5px;
+    border-radius: 3px;
+    background: var(--line2);
+  }
+
+  .sh-side {
+    display: contents;
+  }
+
+  .sh h2 {
+    order: -1;
+    align-self: stretch;
+    margin: 0 56px 0 0;
+    font-size: 24px;
+    line-height: 44px;
+  }
+
+  .sh-close {
+    top: 28px;
+  }
+
+  .sh-preview {
+    width: 180px;
+    height: 320px;
+    border-radius: 14px;
+  }
+
+  .sh-desc {
+    display: none;
+  }
+
+  .sh-actions {
+    align-self: stretch;
+  }
+}
+
+@media (max-width: 800px) and (prefers-reduced-motion: no-preference) {
+  .sh[open] {
+    animation: sh-up .25s ease-out;
+  }
+}
+
+@keyframes sh-up {
+  from {
+    transform: translateY(100%);
+  }
+}

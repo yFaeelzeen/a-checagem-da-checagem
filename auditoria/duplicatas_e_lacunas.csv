@@ -1,0 +1,816 @@
+﻿Linha CSV,Projeto,ID Original,Candidato,Campo Vazio,Veredito,Impacto
+2,Verifique os Fatos,1,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+2,Verifique os Fatos,1,Flávio,tema,Parcial,Lacuna relevante de metadado
+2,Verifique os Fatos,1,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+2,Verifique os Fatos,1,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+2,Verifique os Fatos,1,Flávio,fontes,Parcial,Lacuna relevante de metadado
+3,Verifique os Fatos,2,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+3,Verifique os Fatos,2,Flávio,tema,Falso,Lacuna relevante de metadado
+3,Verifique os Fatos,2,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+3,Verifique os Fatos,2,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+3,Verifique os Fatos,2,Flávio,fontes,Falso,Lacuna relevante de metadado
+4,Verifique os Fatos,3,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+4,Verifique os Fatos,3,Flávio,tema,Falso,Lacuna relevante de metadado
+4,Verifique os Fatos,3,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+4,Verifique os Fatos,3,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+4,Verifique os Fatos,3,Flávio,fontes,Falso,Lacuna relevante de metadado
+5,Verifique os Fatos,4,Lula,horario_alegacao,Falso,Lacuna relevante de metadado
+5,Verifique os Fatos,4,Lula,tema,Falso,Lacuna relevante de metadado
+5,Verifique os Fatos,4,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+5,Verifique os Fatos,4,Lula,correcao,Falso,Campo opcional não preenchido na origem
+5,Verifique os Fatos,4,Lula,fontes,Falso,Lacuna relevante de metadado
+6,Verifique os Fatos,5,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+6,Verifique os Fatos,5,Flávio,tema,Parcial,Lacuna relevante de metadado
+6,Verifique os Fatos,5,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+6,Verifique os Fatos,5,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+6,Verifique os Fatos,5,Flávio,fontes,Parcial,Lacuna relevante de metadado
+7,Verifique os Fatos,6,Flávio,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+7,Verifique os Fatos,6,Flávio,tema,Verdadeiro,Lacuna relevante de metadado
+7,Verifique os Fatos,6,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+7,Verifique os Fatos,6,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+7,Verifique os Fatos,6,Flávio,fontes,Verdadeiro,Lacuna relevante de metadado
+8,Verifique os Fatos,7,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+8,Verifique os Fatos,7,Flávio,tema,Falso,Lacuna relevante de metadado
+8,Verifique os Fatos,7,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+8,Verifique os Fatos,7,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+8,Verifique os Fatos,7,Flávio,fontes,Falso,Lacuna relevante de metadado
+9,Verifique os Fatos,8,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+9,Verifique os Fatos,8,Flávio,tema,Falso,Lacuna relevante de metadado
+9,Verifique os Fatos,8,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+9,Verifique os Fatos,8,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+9,Verifique os Fatos,8,Flávio,fontes,Falso,Lacuna relevante de metadado
+10,Verifique os Fatos,9,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+10,Verifique os Fatos,9,Flávio,tema,Falso,Lacuna relevante de metadado
+10,Verifique os Fatos,9,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+10,Verifique os Fatos,9,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+10,Verifique os Fatos,9,Flávio,fontes,Falso,Lacuna relevante de metadado
+11,Verifique os Fatos,10,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+11,Verifique os Fatos,10,Flávio,tema,Falso,Lacuna relevante de metadado
+11,Verifique os Fatos,10,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+11,Verifique os Fatos,10,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+11,Verifique os Fatos,10,Flávio,fontes,Falso,Lacuna relevante de metadado
+12,Verifique os Fatos,11,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+12,Verifique os Fatos,11,Flávio,tema,Parcial,Lacuna relevante de metadado
+12,Verifique os Fatos,11,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+12,Verifique os Fatos,11,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+12,Verifique os Fatos,11,Flávio,fontes,Parcial,Lacuna relevante de metadado
+13,Verifique os Fatos,12,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+13,Verifique os Fatos,12,Flávio,tema,Parcial,Lacuna relevante de metadado
+13,Verifique os Fatos,12,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+13,Verifique os Fatos,12,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+13,Verifique os Fatos,12,Flávio,fontes,Parcial,Lacuna relevante de metadado
+14,Verifique os Fatos,13,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+14,Verifique os Fatos,13,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+14,Verifique os Fatos,13,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+14,Verifique os Fatos,13,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+14,Verifique os Fatos,13,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+15,Verifique os Fatos,14,Lula,horario_alegacao,Parcial,Lacuna relevante de metadado
+15,Verifique os Fatos,14,Lula,tema,Parcial,Lacuna relevante de metadado
+15,Verifique os Fatos,14,Lula,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+15,Verifique os Fatos,14,Lula,correcao,Parcial,Campo opcional não preenchido na origem
+15,Verifique os Fatos,14,Lula,fontes,Parcial,Lacuna relevante de metadado
+16,Verifique os Fatos,15,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+16,Verifique os Fatos,15,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+16,Verifique os Fatos,15,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+16,Verifique os Fatos,15,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+16,Verifique os Fatos,15,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+17,Verifique os Fatos,16,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+17,Verifique os Fatos,16,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+17,Verifique os Fatos,16,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+17,Verifique os Fatos,16,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+17,Verifique os Fatos,16,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+18,Verifique os Fatos,17,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+18,Verifique os Fatos,17,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+18,Verifique os Fatos,17,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+18,Verifique os Fatos,17,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+18,Verifique os Fatos,17,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+19,Verifique os Fatos,18,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+19,Verifique os Fatos,18,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+19,Verifique os Fatos,18,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+19,Verifique os Fatos,18,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+19,Verifique os Fatos,18,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+20,Verifique os Fatos,19,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+20,Verifique os Fatos,19,Flávio,tema,Falso,Lacuna relevante de metadado
+20,Verifique os Fatos,19,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+20,Verifique os Fatos,19,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+20,Verifique os Fatos,19,Flávio,fontes,Falso,Lacuna relevante de metadado
+21,Verifique os Fatos,20,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+21,Verifique os Fatos,20,Flávio,tema,Parcial,Lacuna relevante de metadado
+21,Verifique os Fatos,20,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+21,Verifique os Fatos,20,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+21,Verifique os Fatos,20,Flávio,fontes,Parcial,Lacuna relevante de metadado
+22,Verifique os Fatos,21,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+22,Verifique os Fatos,21,Flávio,tema,Parcial,Lacuna relevante de metadado
+22,Verifique os Fatos,21,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+22,Verifique os Fatos,21,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+22,Verifique os Fatos,21,Flávio,fontes,Parcial,Lacuna relevante de metadado
+23,Verifique os Fatos,22,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+23,Verifique os Fatos,22,Flávio,tema,Parcial,Lacuna relevante de metadado
+23,Verifique os Fatos,22,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+23,Verifique os Fatos,22,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+23,Verifique os Fatos,22,Flávio,fontes,Parcial,Lacuna relevante de metadado
+24,Verifique os Fatos,23,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+24,Verifique os Fatos,23,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+24,Verifique os Fatos,23,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+24,Verifique os Fatos,23,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+24,Verifique os Fatos,23,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+25,Verifique os Fatos,24,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+25,Verifique os Fatos,24,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+25,Verifique os Fatos,24,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+25,Verifique os Fatos,24,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+25,Verifique os Fatos,24,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+26,Verifique os Fatos,25,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+26,Verifique os Fatos,25,Flávio,tema,Parcial,Lacuna relevante de metadado
+26,Verifique os Fatos,25,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+26,Verifique os Fatos,25,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+26,Verifique os Fatos,25,Flávio,fontes,Parcial,Lacuna relevante de metadado
+27,Verifique os Fatos,26,Lula,horario_alegacao,Parcial,Lacuna relevante de metadado
+27,Verifique os Fatos,26,Lula,tema,Parcial,Lacuna relevante de metadado
+27,Verifique os Fatos,26,Lula,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+27,Verifique os Fatos,26,Lula,correcao,Parcial,Campo opcional não preenchido na origem
+27,Verifique os Fatos,26,Lula,fontes,Parcial,Lacuna relevante de metadado
+28,Verifique os Fatos,27,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+28,Verifique os Fatos,27,Flávio,tema,Parcial,Lacuna relevante de metadado
+28,Verifique os Fatos,27,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+28,Verifique os Fatos,27,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+28,Verifique os Fatos,27,Flávio,fontes,Parcial,Lacuna relevante de metadado
+29,Verifique os Fatos,28,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+29,Verifique os Fatos,28,Flávio,tema,Falso,Lacuna relevante de metadado
+29,Verifique os Fatos,28,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+29,Verifique os Fatos,28,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+29,Verifique os Fatos,28,Flávio,fontes,Falso,Lacuna relevante de metadado
+30,Verifique os Fatos,29,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+30,Verifique os Fatos,29,Flávio,tema,Falso,Lacuna relevante de metadado
+30,Verifique os Fatos,29,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+30,Verifique os Fatos,29,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+30,Verifique os Fatos,29,Flávio,fontes,Falso,Lacuna relevante de metadado
+31,Verifique os Fatos,30,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+31,Verifique os Fatos,30,Flávio,tema,Falso,Lacuna relevante de metadado
+31,Verifique os Fatos,30,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+31,Verifique os Fatos,30,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+31,Verifique os Fatos,30,Flávio,fontes,Falso,Lacuna relevante de metadado
+32,Verifique os Fatos,31,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+32,Verifique os Fatos,31,Flávio,tema,Falso,Lacuna relevante de metadado
+32,Verifique os Fatos,31,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+32,Verifique os Fatos,31,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+32,Verifique os Fatos,31,Flávio,fontes,Falso,Lacuna relevante de metadado
+33,Verifique os Fatos,32,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+33,Verifique os Fatos,32,Flávio,tema,Falso,Lacuna relevante de metadado
+33,Verifique os Fatos,32,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+33,Verifique os Fatos,32,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+33,Verifique os Fatos,32,Flávio,fontes,Falso,Lacuna relevante de metadado
+34,Verifique os Fatos,33,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+34,Verifique os Fatos,33,Flávio,tema,Parcial,Lacuna relevante de metadado
+34,Verifique os Fatos,33,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+34,Verifique os Fatos,33,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+34,Verifique os Fatos,33,Flávio,fontes,Parcial,Lacuna relevante de metadado
+35,Verifique os Fatos,34,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+35,Verifique os Fatos,34,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+35,Verifique os Fatos,34,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+35,Verifique os Fatos,34,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+35,Verifique os Fatos,34,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+36,Verifique os Fatos,35,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+36,Verifique os Fatos,35,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+36,Verifique os Fatos,35,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+36,Verifique os Fatos,35,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+36,Verifique os Fatos,35,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+37,Verifique os Fatos,36,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+37,Verifique os Fatos,36,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+37,Verifique os Fatos,36,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+37,Verifique os Fatos,36,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+37,Verifique os Fatos,36,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+38,Verifique os Fatos,37,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+38,Verifique os Fatos,37,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+38,Verifique os Fatos,37,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+38,Verifique os Fatos,37,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+38,Verifique os Fatos,37,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+39,Verifique os Fatos,38,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+39,Verifique os Fatos,38,Flávio,tema,Falso,Lacuna relevante de metadado
+39,Verifique os Fatos,38,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+39,Verifique os Fatos,38,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+39,Verifique os Fatos,38,Flávio,fontes,Falso,Lacuna relevante de metadado
+40,Verifique os Fatos,39,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+40,Verifique os Fatos,39,Flávio,tema,Falso,Lacuna relevante de metadado
+40,Verifique os Fatos,39,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+40,Verifique os Fatos,39,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+40,Verifique os Fatos,39,Flávio,fontes,Falso,Lacuna relevante de metadado
+41,Verifique os Fatos,40,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+41,Verifique os Fatos,40,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+41,Verifique os Fatos,40,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+41,Verifique os Fatos,40,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+41,Verifique os Fatos,40,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+42,Verifique os Fatos,41,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+42,Verifique os Fatos,41,Flávio,tema,Falso,Lacuna relevante de metadado
+42,Verifique os Fatos,41,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+42,Verifique os Fatos,41,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+42,Verifique os Fatos,41,Flávio,fontes,Falso,Lacuna relevante de metadado
+43,Verifique os Fatos,42,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+43,Verifique os Fatos,42,Flávio,tema,Parcial,Lacuna relevante de metadado
+43,Verifique os Fatos,42,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+43,Verifique os Fatos,42,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+43,Verifique os Fatos,42,Flávio,fontes,Parcial,Lacuna relevante de metadado
+44,Verifique os Fatos,43,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+44,Verifique os Fatos,43,Flávio,tema,Parcial,Lacuna relevante de metadado
+44,Verifique os Fatos,43,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+44,Verifique os Fatos,43,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+44,Verifique os Fatos,43,Flávio,fontes,Parcial,Lacuna relevante de metadado
+45,Verifique os Fatos,44,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+45,Verifique os Fatos,44,Flávio,tema,Parcial,Lacuna relevante de metadado
+45,Verifique os Fatos,44,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+45,Verifique os Fatos,44,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+45,Verifique os Fatos,44,Flávio,fontes,Parcial,Lacuna relevante de metadado
+46,Verifique os Fatos,45,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+46,Verifique os Fatos,45,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+46,Verifique os Fatos,45,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+46,Verifique os Fatos,45,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+46,Verifique os Fatos,45,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+47,Verifique os Fatos,46,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+47,Verifique os Fatos,46,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+47,Verifique os Fatos,46,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+47,Verifique os Fatos,46,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+47,Verifique os Fatos,46,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+48,Verifique os Fatos,47,Lula,horario_alegacao,Parcial,Lacuna relevante de metadado
+48,Verifique os Fatos,47,Lula,tema,Parcial,Lacuna relevante de metadado
+48,Verifique os Fatos,47,Lula,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+48,Verifique os Fatos,47,Lula,correcao,Parcial,Campo opcional não preenchido na origem
+48,Verifique os Fatos,47,Lula,fontes,Parcial,Lacuna relevante de metadado
+49,Verifique os Fatos,48,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+49,Verifique os Fatos,48,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+49,Verifique os Fatos,48,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+49,Verifique os Fatos,48,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+49,Verifique os Fatos,48,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+50,Verifique os Fatos,49,Lula,horario_alegacao,Parcial,Lacuna relevante de metadado
+50,Verifique os Fatos,49,Lula,tema,Parcial,Lacuna relevante de metadado
+50,Verifique os Fatos,49,Lula,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+50,Verifique os Fatos,49,Lula,correcao,Parcial,Campo opcional não preenchido na origem
+50,Verifique os Fatos,49,Lula,fontes,Parcial,Lacuna relevante de metadado
+51,Verifique os Fatos,50,Lula,horario_alegacao,Falso,Lacuna relevante de metadado
+51,Verifique os Fatos,50,Lula,tema,Falso,Lacuna relevante de metadado
+51,Verifique os Fatos,50,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+51,Verifique os Fatos,50,Lula,correcao,Falso,Campo opcional não preenchido na origem
+51,Verifique os Fatos,50,Lula,fontes,Falso,Lacuna relevante de metadado
+52,Verifique os Fatos,51,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+52,Verifique os Fatos,51,Flávio,tema,Falso,Lacuna relevante de metadado
+52,Verifique os Fatos,51,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+52,Verifique os Fatos,51,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+52,Verifique os Fatos,51,Flávio,fontes,Falso,Lacuna relevante de metadado
+53,Verifique os Fatos,52,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+53,Verifique os Fatos,52,Flávio,tema,Falso,Lacuna relevante de metadado
+53,Verifique os Fatos,52,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+53,Verifique os Fatos,52,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+53,Verifique os Fatos,52,Flávio,fontes,Falso,Lacuna relevante de metadado
+54,Verifique os Fatos,53,Lula,horario_alegacao,Parcial,Lacuna relevante de metadado
+54,Verifique os Fatos,53,Lula,tema,Parcial,Lacuna relevante de metadado
+54,Verifique os Fatos,53,Lula,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+54,Verifique os Fatos,53,Lula,correcao,Parcial,Campo opcional não preenchido na origem
+54,Verifique os Fatos,53,Lula,fontes,Parcial,Lacuna relevante de metadado
+55,Verifique os Fatos,54,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+55,Verifique os Fatos,54,Flávio,tema,Parcial,Lacuna relevante de metadado
+55,Verifique os Fatos,54,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+55,Verifique os Fatos,54,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+55,Verifique os Fatos,54,Flávio,fontes,Parcial,Lacuna relevante de metadado
+56,Verifique os Fatos,55,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+56,Verifique os Fatos,55,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+56,Verifique os Fatos,55,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+56,Verifique os Fatos,55,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+56,Verifique os Fatos,55,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+57,Verifique os Fatos,56,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+57,Verifique os Fatos,56,Flávio,tema,Falso,Lacuna relevante de metadado
+57,Verifique os Fatos,56,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+57,Verifique os Fatos,56,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+57,Verifique os Fatos,56,Flávio,fontes,Falso,Lacuna relevante de metadado
+58,Verifique os Fatos,57,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+58,Verifique os Fatos,57,Flávio,tema,Parcial,Lacuna relevante de metadado
+58,Verifique os Fatos,57,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+58,Verifique os Fatos,57,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+58,Verifique os Fatos,57,Flávio,fontes,Parcial,Lacuna relevante de metadado
+59,Verifique os Fatos,58,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+59,Verifique os Fatos,58,Flávio,tema,Falso,Lacuna relevante de metadado
+59,Verifique os Fatos,58,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+59,Verifique os Fatos,58,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+59,Verifique os Fatos,58,Flávio,fontes,Falso,Lacuna relevante de metadado
+60,Verifique os Fatos,59,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+60,Verifique os Fatos,59,Flávio,tema,Parcial,Lacuna relevante de metadado
+60,Verifique os Fatos,59,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+60,Verifique os Fatos,59,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+60,Verifique os Fatos,59,Flávio,fontes,Parcial,Lacuna relevante de metadado
+61,Verifique os Fatos,60,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+61,Verifique os Fatos,60,Flávio,tema,Parcial,Lacuna relevante de metadado
+61,Verifique os Fatos,60,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+61,Verifique os Fatos,60,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+61,Verifique os Fatos,60,Flávio,fontes,Parcial,Lacuna relevante de metadado
+62,Verifique os Fatos,61,Lula,horario_alegacao,Parcial,Lacuna relevante de metadado
+62,Verifique os Fatos,61,Lula,tema,Parcial,Lacuna relevante de metadado
+62,Verifique os Fatos,61,Lula,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+62,Verifique os Fatos,61,Lula,correcao,Parcial,Campo opcional não preenchido na origem
+62,Verifique os Fatos,61,Lula,fontes,Parcial,Lacuna relevante de metadado
+63,Verifique os Fatos,62,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+63,Verifique os Fatos,62,Flávio,tema,Parcial,Lacuna relevante de metadado
+63,Verifique os Fatos,62,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+63,Verifique os Fatos,62,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+63,Verifique os Fatos,62,Flávio,fontes,Parcial,Lacuna relevante de metadado
+64,Verifique os Fatos,63,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+64,Verifique os Fatos,63,Flávio,tema,Falso,Lacuna relevante de metadado
+64,Verifique os Fatos,63,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+64,Verifique os Fatos,63,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+64,Verifique os Fatos,63,Flávio,fontes,Falso,Lacuna relevante de metadado
+65,Verifique os Fatos,64,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+65,Verifique os Fatos,64,Flávio,tema,Parcial,Lacuna relevante de metadado
+65,Verifique os Fatos,64,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+65,Verifique os Fatos,64,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+65,Verifique os Fatos,64,Flávio,fontes,Parcial,Lacuna relevante de metadado
+66,Verifique os Fatos,65,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+66,Verifique os Fatos,65,Flávio,tema,Falso,Lacuna relevante de metadado
+66,Verifique os Fatos,65,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+66,Verifique os Fatos,65,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+66,Verifique os Fatos,65,Flávio,fontes,Falso,Lacuna relevante de metadado
+67,Verifique os Fatos,66,Lula,horario_alegacao,Parcial,Lacuna relevante de metadado
+67,Verifique os Fatos,66,Lula,tema,Parcial,Lacuna relevante de metadado
+67,Verifique os Fatos,66,Lula,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+67,Verifique os Fatos,66,Lula,correcao,Parcial,Campo opcional não preenchido na origem
+67,Verifique os Fatos,66,Lula,fontes,Parcial,Lacuna relevante de metadado
+68,Verifique os Fatos,67,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+68,Verifique os Fatos,67,Flávio,tema,Parcial,Lacuna relevante de metadado
+68,Verifique os Fatos,67,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+68,Verifique os Fatos,67,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+68,Verifique os Fatos,67,Flávio,fontes,Parcial,Lacuna relevante de metadado
+69,Verifique os Fatos,68,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+69,Verifique os Fatos,68,Flávio,tema,Falso,Lacuna relevante de metadado
+69,Verifique os Fatos,68,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+69,Verifique os Fatos,68,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+69,Verifique os Fatos,68,Flávio,fontes,Falso,Lacuna relevante de metadado
+70,Verifique os Fatos,69,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+70,Verifique os Fatos,69,Flávio,tema,Parcial,Lacuna relevante de metadado
+70,Verifique os Fatos,69,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+70,Verifique os Fatos,69,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+70,Verifique os Fatos,69,Flávio,fontes,Parcial,Lacuna relevante de metadado
+71,Verifique os Fatos,70,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+71,Verifique os Fatos,70,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+71,Verifique os Fatos,70,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+71,Verifique os Fatos,70,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+71,Verifique os Fatos,70,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+72,Verifique os Fatos,71,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+72,Verifique os Fatos,71,Flávio,tema,Falso,Lacuna relevante de metadado
+72,Verifique os Fatos,71,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+72,Verifique os Fatos,71,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+72,Verifique os Fatos,71,Flávio,fontes,Falso,Lacuna relevante de metadado
+73,Verifique os Fatos,72,Flávio,horario_alegacao,Falso,Lacuna relevante de metadado
+73,Verifique os Fatos,72,Flávio,tema,Falso,Lacuna relevante de metadado
+73,Verifique os Fatos,72,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+73,Verifique os Fatos,72,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+73,Verifique os Fatos,72,Flávio,fontes,Falso,Lacuna relevante de metadado
+74,Verifique os Fatos,73,Lula,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+74,Verifique os Fatos,73,Lula,tema,Verdadeiro,Lacuna relevante de metadado
+74,Verifique os Fatos,73,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+74,Verifique os Fatos,73,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+74,Verifique os Fatos,73,Lula,fontes,Verdadeiro,Lacuna relevante de metadado
+75,Verifique os Fatos,74,Flávio,horario_alegacao,Verdadeiro,Lacuna relevante de metadado
+75,Verifique os Fatos,74,Flávio,tema,Verdadeiro,Lacuna relevante de metadado
+75,Verifique os Fatos,74,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+75,Verifique os Fatos,74,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+75,Verifique os Fatos,74,Flávio,fontes,Verdadeiro,Lacuna relevante de metadado
+76,Verifique os Fatos,75,Flávio,horario_alegacao,Parcial,Lacuna relevante de metadado
+76,Verifique os Fatos,75,Flávio,tema,Parcial,Lacuna relevante de metadado
+76,Verifique os Fatos,75,Flávio,afirmacao_resumida,Parcial,Campo opcional não preenchido na origem
+76,Verifique os Fatos,75,Flávio,correcao,Parcial,Campo opcional não preenchido na origem
+76,Verifique os Fatos,75,Flávio,fontes,Parcial,Lacuna relevante de metadado
+77,Pinóquio.live,clm_1a16bce3003b1be51,Flávio Bolsonaro,correcao,insustentavel,Campo opcional não preenchido na origem
+78,Pinóquio.live,clm_1a16bcc8c960b8710,Lula,correcao,falso,Campo opcional não preenchido na origem
+79,Pinóquio.live,clm_1a16bcb62f6b3223d,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+80,Pinóquio.live,clm_1a16bcadccd299cdd,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+81,Pinóquio.live,clm_1a16bcaad6d6f5175,Flávio Bolsonaro,correcao,insustentavel,Campo opcional não preenchido na origem
+82,Pinóquio.live,clm_1a16bc9da67ecd8fb,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+83,Pinóquio.live,clm_1a16bc9dac0c64eb6,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+84,Pinóquio.live,clm_1a16bc980de289094,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+85,Pinóquio.live,clm_1a16bc950ae38e797,Lula,correcao,exagerado,Campo opcional não preenchido na origem
+86,Pinóquio.live,clm_1a16bc868ba38401d,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+87,Pinóquio.live,clm_1a16bc86809189257,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+88,Pinóquio.live,clm_1a16bc8678abaef3e,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+89,Pinóquio.live,clm_1a16bc8188c789890,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+90,Pinóquio.live,clm_1a16bc772e785a890,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+91,Pinóquio.live,clm_1a16bc73b257eec5d,Lula,correcao,enganoso,Campo opcional não preenchido na origem
+92,Pinóquio.live,clm_1a16bc73aab65be8a,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+93,Pinóquio.live,clm_1a16bc6e7df6a832c,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+94,Pinóquio.live,clm_1a16bc64bbdf99639,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+95,Pinóquio.live,clm_1a16bc618ec97c5ea,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+96,Pinóquio.live,clm_1a16bc5e9e41c5871,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+97,Pinóquio.live,clm_1a16bc56197c74e00,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+98,Pinóquio.live,clm_1a16bc56125bbf027,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+99,Pinóquio.live,clm_1a16bc4f2446f2bda,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+100,Pinóquio.live,clm_1a16bc4c4cf56ebad,Flávio Bolsonaro,correcao,falso,Campo opcional não preenchido na origem
+101,Pinóquio.live,clm_1a16bc403fdef6485,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+102,Pinóquio.live,clm_1a16bc3a0edbdb429,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+103,Pinóquio.live,clm_1a16bc365348e637f,Flávio Bolsonaro,correcao,falso,Campo opcional não preenchido na origem
+104,Pinóquio.live,clm_1a16bc32f1705e0df,Flávio Bolsonaro,correcao,falso,Campo opcional não preenchido na origem
+105,Pinóquio.live,clm_1a16bc292911bdc2b,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+106,Pinóquio.live,clm_1a16bc21c3198b547,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+107,Pinóquio.live,clm_1a16bc1cba00b19ad,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+108,Pinóquio.live,clm_1a16bc089d403b7e9,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+109,Pinóquio.live,clm_1a16bbf8247d68671,Flávio Bolsonaro,correcao,insustentavel,Campo opcional não preenchido na origem
+110,Pinóquio.live,clm_1a16bbeca2698da3f,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+111,Pinóquio.live,clm_1a16bbe0796f1a838,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+112,Pinóquio.live,clm_1a16bbda5d2260c31,Flávio Bolsonaro,correcao,insustentavel,Campo opcional não preenchido na origem
+113,Pinóquio.live,clm_1a16bbda62af1d5e3,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+114,Pinóquio.live,clm_1a16bbd7007feb9b9,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+115,Pinóquio.live,clm_1a16bbd4ff06cdc07,Lula,correcao,exagerado,Campo opcional não preenchido na origem
+116,Pinóquio.live,clm_1a16bbcd00ab21ed7,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+117,Pinóquio.live,clm_1a16bbcd009e4f6dd,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+118,Pinóquio.live,clm_1a16bb4b3fa4f7677,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+119,Pinóquio.live,clm_1a16bb38865be6bbe,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+120,Pinóquio.live,clm_1a16bb305539107c5,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+121,Pinóquio.live,clm_1a16bb304c28ba5c1,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+122,Pinóquio.live,clm_1a16bb28a4af80359,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+123,Pinóquio.live,clm_1a16bb1b535cc4318,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+124,Pinóquio.live,clm_1a16bb0e76936a9c4,Flávio Bolsonaro,correcao,falso,Campo opcional não preenchido na origem
+125,Pinóquio.live,clm_1a16bb0ae7bec08d0,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+126,Pinóquio.live,clm_1a16bb0906935ed6b,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+127,Pinóquio.live,clm_1a16bafd7f8245d66,Flávio Bolsonaro,correcao,insustentavel,Campo opcional não preenchido na origem
+128,Pinóquio.live,clm_1a16bafd796bab74a,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+129,Pinóquio.live,clm_1a16baf20cd126a2c,Flávio Bolsonaro,correcao,insustentavel,Campo opcional não preenchido na origem
+130,Pinóquio.live,clm_1a16bae494182b3da,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+131,Pinóquio.live,clm_1a16bae090f9db7e9,Flávio Bolsonaro,correcao,exagerado,Campo opcional não preenchido na origem
+132,Pinóquio.live,clm_1a16bad94e4a097d6,Lula,correcao,exagerado,Campo opcional não preenchido na origem
+133,Pinóquio.live,clm_1a16bad6f8c0e3895,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+134,Pinóquio.live,clm_1a16bad0b915ace47,Lula,correcao,falso,Campo opcional não preenchido na origem
+135,Pinóquio.live,clm_1a16bacb7a166dc65,Lula,correcao,exagerado,Campo opcional não preenchido na origem
+136,Pinóquio.live,clm_1a16bac9228efaeea,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+137,Pinóquio.live,clm_1a16bab51b8727f71,Lula,correcao,falso,Campo opcional não preenchido na origem
+138,Pinóquio.live,clm_1a16bab118c5eed2d,Lula,correcao,falso,Campo opcional não preenchido na origem
+139,Pinóquio.live,clm_1a16bab01676c04f5,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+140,Pinóquio.live,clm_1a16baa9f08bff6d7,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+141,Pinóquio.live,clm_1a16ba8ba3311ff62,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+142,Pinóquio.live,clm_1a16ba8521d143b0d,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+143,Pinóquio.live,clm_1a16ba82c505f82f6,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+144,Pinóquio.live,clm_1a16ba808284be0b7,Lula,correcao,enganoso,Campo opcional não preenchido na origem
+145,Pinóquio.live,clm_1a16ba79d9cb86351,Lula,correcao,exagerado,Campo opcional não preenchido na origem
+146,Pinóquio.live,clm_1a16ba778434f40f3,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+147,Pinóquio.live,clm_1a16ba5ce42399341,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+148,Pinóquio.live,clm_1a16ba5a897bf381d,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+149,Pinóquio.live,clm_1a16ba5a911afc61b,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+150,Pinóquio.live,clm_1a16ba54b26d76bea,Flávio Bolsonaro,correcao,exagerado,Campo opcional não preenchido na origem
+151,Pinóquio.live,clm_1a16ba4bb944aa15c,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+152,Pinóquio.live,clm_1a16ba448cc51b9d6,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+153,Pinóquio.live,clm_1a16ba3c847924a2d,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+154,Pinóquio.live,clm_1a16b9dda100dfbb6,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+155,Pinóquio.live,clm_1a16b9dd93c99f916,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+156,Pinóquio.live,clm_1a16b9db924e736ae,Flávio Bolsonaro,correcao,exagerado,Campo opcional não preenchido na origem
+157,Pinóquio.live,clm_1a16b9d69627ef212,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+158,Pinóquio.live,clm_1a16b9d66643536a9,Flávio Bolsonaro,correcao,falso,Campo opcional não preenchido na origem
+159,Pinóquio.live,clm_1a16b9d3533ccd67a,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+160,Pinóquio.live,clm_1a16b9cb2108fdf08,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+161,Pinóquio.live,clm_1a16b9c77c0477c50,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+162,Pinóquio.live,clm_1a16b9bbe5aded5f4,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+163,Pinóquio.live,clm_1a16b9bbdab2ee862,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+164,Pinóquio.live,clm_1a16b9b16b0e26dd8,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+165,Pinóquio.live,clm_1a16b9ab469e97817,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+166,Pinóquio.live,clm_1a16b9a0511e1bb15,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+167,Pinóquio.live,clm_1a16b998d4f36cf62,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+168,Pinóquio.live,clm_1a16b9982b8cc7436,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+169,Pinóquio.live,clm_1a16b97f40a9f69db,Lula,correcao,falso,Campo opcional não preenchido na origem
+170,Pinóquio.live,clm_1a16b979b44569fd8,Lula,correcao,enganoso,Campo opcional não preenchido na origem
+171,Pinóquio.live,clm_1a16b97674e383e7f,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+172,Pinóquio.live,clm_1a16b96258101e1c1,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+173,Pinóquio.live,clm_1a16b9591e8eed4e4,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+174,Pinóquio.live,clm_1a16b9480cce74f6b,Flávio Bolsonaro,correcao,exagerado,Campo opcional não preenchido na origem
+175,Pinóquio.live,clm_1a16b94806af193ff,Flávio Bolsonaro,correcao,exagerado,Campo opcional não preenchido na origem
+176,Pinóquio.live,clm_1a16b940075fc2b65,Flávio Bolsonaro,correcao,falso,Campo opcional não preenchido na origem
+177,Pinóquio.live,clm_1a16b927d2bddb21c,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+178,Pinóquio.live,clm_1a16b91ed0e2bac40,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+179,Pinóquio.live,clm_1a16b91ba34720e63,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+180,Pinóquio.live,clm_1a16b9078fe3e7b3d,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+181,Pinóquio.live,clm_1a16b8ea5e16708d2,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+182,Pinóquio.live,clm_1a16b8e5e3bb6d469,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+183,Pinóquio.live,clm_1a16b8e42eca8b149,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+184,Pinóquio.live,clm_1a16b8dfa627a37cf,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+185,Pinóquio.live,clm_1a16b8d92fba1e0b3,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+186,Pinóquio.live,clm_1a16b8d6c7e1d1a6c,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+187,Pinóquio.live,clm_1a16b8bac27ef0bf9,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+188,Pinóquio.live,clm_1a16b8a8af0bbb41c,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+189,Pinóquio.live,clm_1a16b8a28e32709fc,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+190,Pinóquio.live,clm_1a16b89f9b82b65e1,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+191,Pinóquio.live,clm_1a16b82a6e5cfb24f,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+192,Pinóquio.live,clm_1a16b827446d3f844,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+193,Pinóquio.live,clm_1a16b8238fa56a9b3,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+194,Pinóquio.live,clm_1a16b80e5a0f46f27,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+195,Pinóquio.live,clm_1a16b80db7f95be5d,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+196,Pinóquio.live,clm_1a16b805b5d9b00f2,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+197,Pinóquio.live,clm_1a16b80148d02f302,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+198,Pinóquio.live,clm_1a16b80139d6045bb,Flávio Bolsonaro,correcao,falso,Campo opcional não preenchido na origem
+199,Pinóquio.live,clm_1a16b8013108fe074,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+200,Pinóquio.live,clm_1a16b7f9dbc5d9bb7,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+201,Pinóquio.live,clm_1a16b7e6b5acaec29,Lula,correcao,exagerado,Campo opcional não preenchido na origem
+202,Pinóquio.live,clm_1a16b7e3944f4ee6c,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+203,Pinóquio.live,clm_1a16b7e1f5af05983,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+204,Pinóquio.live,clm_1a16b7cf1e893d890,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+205,Pinóquio.live,clm_1a16b7cf1e9c94759,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+206,Pinóquio.live,clm_1a16b792f6d24c61d,Lula,correcao,insustentavel,Campo opcional não preenchido na origem
+207,Pinóquio.live,clm_1a16b78725e6f9e6b,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+208,Pinóquio.live,clm_1a16b7815ff143707,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+209,Pinóquio.live,clm_1a16b780bb1ce905d,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+210,Pinóquio.live,clm_1a16b77bcbdd3d4a4,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+211,Pinóquio.live,clm_1a16b746f54d28b7f,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+212,Pinóquio.live,clm_1a16b746f16d68b00,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+213,Pinóquio.live,clm_1a16b7431ecbb5158,Flávio Bolsonaro,correcao,exagerado,Campo opcional não preenchido na origem
+214,Pinóquio.live,clm_1a16b73898de0f4aa,Lula,correcao,enganoso,Campo opcional não preenchido na origem
+215,Pinóquio.live,clm_1a16b72e2c97d00a5,Lula,correcao,insustentavel,Campo opcional não preenchido na origem
+216,Pinóquio.live,clm_1a16b722cdc2692dc,Lula,correcao,enganoso,Campo opcional não preenchido na origem
+217,Pinóquio.live,clm_1a16b7192f270214a,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+218,Pinóquio.live,clm_1a16b715d0ad91803,Lula,correcao,exagerado,Campo opcional não preenchido na origem
+219,Pinóquio.live,clm_1a16b7057e786d4d2,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+220,Pinóquio.live,clm_1a16b6fcd5dc2f1f8,Flávio Bolsonaro,correcao,falso,Campo opcional não preenchido na origem
+221,Pinóquio.live,clm_1a16b6f0b05cbba0c,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+222,Pinóquio.live,clm_1a16b6edcd1bb7686,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+223,Pinóquio.live,clm_1a16b6e67db1744d5,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+224,Pinóquio.live,clm_1a16b6dfeeec2145d,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+225,Pinóquio.live,clm_1a16b6db1af17f562,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+226,Pinóquio.live,clm_1a16b6db6e7ef5ce9,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+227,Pinóquio.live,clm_1a16b6d6b7a44fc2c,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+228,Pinóquio.live,clm_1a16b6c278a5fe8cb,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+229,Pinóquio.live,clm_1a16b6bf2db401a2f,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+230,Pinóquio.live,clm_1a16b6bf36ad577d2,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+231,Pinóquio.live,clm_1a16b6b79399a5212,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+232,Pinóquio.live,clm_1a16b6a7db0bf71e4,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+233,Pinóquio.live,clm_1a16b6a6f6994c626,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+234,Pinóquio.live,clm_1a16b69da4bee2b74,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+235,Pinóquio.live,clm_1a16b69b4fd3235d2,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+236,Pinóquio.live,clm_1a16b67c2f8a034ad,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+237,Pinóquio.live,clm_1a16b6783ce1e9871,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+238,Pinóquio.live,clm_1a16b671846033038,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+239,Pinóquio.live,clm_1a16b65bbd6b9bef9,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+240,Pinóquio.live,clm_1a16b652c3f960ab7,Lula,correcao,enganoso,Campo opcional não preenchido na origem
+241,Pinóquio.live,clm_1a16b65125be509a8,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+242,Pinóquio.live,clm_1a16b6511e950b7fa,Lula,correcao,exagerado,Campo opcional não preenchido na origem
+243,Pinóquio.live,clm_1a16b64eb94c08b38,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+244,Pinóquio.live,clm_1a16b64eb93623dd6,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+245,Pinóquio.live,clm_1a16b63549c5fca21,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+246,Pinóquio.live,clm_1a16b6328df9ce9b9,Flávio Bolsonaro,correcao,exagerado,Campo opcional não preenchido na origem
+247,Pinóquio.live,clm_1a16b623e36ede634,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+248,Pinóquio.live,clm_1a16b61c8490d38f2,Lula,correcao,verdadeiro,Campo opcional não preenchido na origem
+249,Pinóquio.live,clm_1a16b614a6bdc9f05,Lula,correcao,enganoso,Campo opcional não preenchido na origem
+250,Pinóquio.live,clm_1a16b60cf36b6fcda,Flávio Bolsonaro,correcao,enganoso,Campo opcional não preenchido na origem
+251,Pinóquio.live,clm_1a16b606549fe65d5,Flávio Bolsonaro,correcao,verdadeiro,Campo opcional não preenchido na origem
+252,Verifique a Verdade,vav_globo_1,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+252,Verifique a Verdade,vav_globo_1,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+253,Verifique a Verdade,vav_globo_2,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+253,Verifique a Verdade,vav_globo_2,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+254,Verifique a Verdade,vav_globo_3,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+254,Verifique a Verdade,vav_globo_3,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+255,Verifique a Verdade,vav_globo_4,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+255,Verifique a Verdade,vav_globo_4,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+256,Verifique a Verdade,vav_globo_5,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+256,Verifique a Verdade,vav_globo_5,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+257,Verifique a Verdade,vav_globo_6,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+257,Verifique a Verdade,vav_globo_6,Lula,correcao,Falso,Campo opcional não preenchido na origem
+258,Verifique a Verdade,vav_globo_7,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+258,Verifique a Verdade,vav_globo_7,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+259,Verifique a Verdade,vav_globo_8,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+259,Verifique a Verdade,vav_globo_8,Lula,correcao,Falso,Campo opcional não preenchido na origem
+260,Verifique a Verdade,vav_globo_9,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+260,Verifique a Verdade,vav_globo_9,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+261,Verifique a Verdade,vav_globo_10,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+261,Verifique a Verdade,vav_globo_10,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+262,Verifique a Verdade,vav_globo_11,Flávio,afirmacao_resumida,Não verificável,Campo opcional não preenchido na origem
+262,Verifique a Verdade,vav_globo_11,Flávio,correcao,Não verificável,Campo opcional não preenchido na origem
+263,Verifique a Verdade,vav_globo_12,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+263,Verifique a Verdade,vav_globo_12,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+264,Verifique a Verdade,vav_globo_13,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+264,Verifique a Verdade,vav_globo_13,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+265,Verifique a Verdade,vav_globo_14,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+265,Verifique a Verdade,vav_globo_14,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+266,Verifique a Verdade,vav_globo_15,Flávio,afirmacao_resumida,Não verificável,Campo opcional não preenchido na origem
+266,Verifique a Verdade,vav_globo_15,Flávio,correcao,Não verificável,Campo opcional não preenchido na origem
+267,Verifique a Verdade,vav_globo_16,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+267,Verifique a Verdade,vav_globo_16,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+268,Verifique a Verdade,vav_globo_17,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+268,Verifique a Verdade,vav_globo_17,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+269,Verifique a Verdade,vav_globo_18,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+269,Verifique a Verdade,vav_globo_18,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+270,Verifique a Verdade,vav_globo_19,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+270,Verifique a Verdade,vav_globo_19,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+271,Verifique a Verdade,vav_globo_20,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+271,Verifique a Verdade,vav_globo_20,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+272,Verifique a Verdade,vav_globo_21,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+272,Verifique a Verdade,vav_globo_21,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+273,Verifique a Verdade,vav_globo_22,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+273,Verifique a Verdade,vav_globo_22,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+274,Verifique a Verdade,vav_globo_23,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+274,Verifique a Verdade,vav_globo_23,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+275,Verifique a Verdade,vav_globo_24,Lula,afirmacao_resumida,Não verificável,Campo opcional não preenchido na origem
+275,Verifique a Verdade,vav_globo_24,Lula,correcao,Não verificável,Campo opcional não preenchido na origem
+276,Verifique a Verdade,vav_globo_25,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+276,Verifique a Verdade,vav_globo_25,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+277,Verifique a Verdade,vav_globo_26,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+277,Verifique a Verdade,vav_globo_26,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+278,Verifique a Verdade,vav_globo_27,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+278,Verifique a Verdade,vav_globo_27,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+279,Verifique a Verdade,vav_globo_28,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+279,Verifique a Verdade,vav_globo_28,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+280,Verifique a Verdade,vav_globo_29,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+280,Verifique a Verdade,vav_globo_29,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+281,Verifique a Verdade,vav_globo_30,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+281,Verifique a Verdade,vav_globo_30,Lula,correcao,Falso,Campo opcional não preenchido na origem
+282,Verifique a Verdade,vav_globo_31,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+282,Verifique a Verdade,vav_globo_31,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+283,Verifique a Verdade,vav_globo_32,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+283,Verifique a Verdade,vav_globo_32,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+284,Verifique a Verdade,vav_globo_33,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+284,Verifique a Verdade,vav_globo_33,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+285,Verifique a Verdade,vav_globo_34,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+285,Verifique a Verdade,vav_globo_34,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+286,Verifique a Verdade,vav_globo_35,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+286,Verifique a Verdade,vav_globo_35,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+287,Verifique a Verdade,vav_globo_36,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+287,Verifique a Verdade,vav_globo_36,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+288,Verifique a Verdade,vav_globo_37,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+288,Verifique a Verdade,vav_globo_37,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+289,Verifique a Verdade,vav_globo_38,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+289,Verifique a Verdade,vav_globo_38,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+290,Verifique a Verdade,vav_globo_39,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+290,Verifique a Verdade,vav_globo_39,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+291,Verifique a Verdade,vav_globo_40,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+291,Verifique a Verdade,vav_globo_40,Lula,correcao,Falso,Campo opcional não preenchido na origem
+292,Verifique a Verdade,vav_globo_41,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+292,Verifique a Verdade,vav_globo_41,Lula,correcao,Falso,Campo opcional não preenchido na origem
+293,Verifique a Verdade,vav_globo_42,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+293,Verifique a Verdade,vav_globo_42,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+294,Verifique a Verdade,vav_globo_43,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+294,Verifique a Verdade,vav_globo_43,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+295,Verifique a Verdade,vav_globo_44,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+295,Verifique a Verdade,vav_globo_44,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+296,Verifique a Verdade,vav_globo_45,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+296,Verifique a Verdade,vav_globo_45,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+297,Verifique a Verdade,vav_globo_46,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+297,Verifique a Verdade,vav_globo_46,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+298,Verifique a Verdade,vav_globo_47,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+298,Verifique a Verdade,vav_globo_47,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+299,Verifique a Verdade,vav_globo_48,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+299,Verifique a Verdade,vav_globo_48,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+300,Verifique a Verdade,vav_globo_49,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+300,Verifique a Verdade,vav_globo_49,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+301,Verifique a Verdade,vav_globo_50,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+301,Verifique a Verdade,vav_globo_50,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+302,Verifique a Verdade,vav_globo_51,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+302,Verifique a Verdade,vav_globo_51,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+303,Verifique a Verdade,vav_globo_52,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+303,Verifique a Verdade,vav_globo_52,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+304,Verifique a Verdade,vav_globo_53,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+304,Verifique a Verdade,vav_globo_53,Lula,correcao,Falso,Campo opcional não preenchido na origem
+305,Verifique a Verdade,vav_globo_54,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+305,Verifique a Verdade,vav_globo_54,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+306,Verifique a Verdade,vav_globo_55,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+306,Verifique a Verdade,vav_globo_55,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+307,Verifique a Verdade,vav_globo_56,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+307,Verifique a Verdade,vav_globo_56,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+308,Verifique a Verdade,vav_globo_57,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+308,Verifique a Verdade,vav_globo_57,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+309,Verifique a Verdade,vav_globo_58,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+309,Verifique a Verdade,vav_globo_58,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+310,Verifique a Verdade,vav_globo_59,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+310,Verifique a Verdade,vav_globo_59,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+311,Verifique a Verdade,vav_globo_60,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+311,Verifique a Verdade,vav_globo_60,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+312,Verifique a Verdade,vav_globo_61,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+312,Verifique a Verdade,vav_globo_61,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+313,Verifique a Verdade,vav_globo_62,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+313,Verifique a Verdade,vav_globo_62,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+314,Verifique a Verdade,vav_globo_63,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+314,Verifique a Verdade,vav_globo_63,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+315,Verifique a Verdade,vav_globo_64,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+315,Verifique a Verdade,vav_globo_64,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+316,Verifique a Verdade,vav_globo_65,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+316,Verifique a Verdade,vav_globo_65,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+317,Verifique a Verdade,vav_globo_66,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+317,Verifique a Verdade,vav_globo_66,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+318,Verifique a Verdade,vav_globo_67,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+318,Verifique a Verdade,vav_globo_67,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+319,Verifique a Verdade,vav_globo_68,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+319,Verifique a Verdade,vav_globo_68,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+320,Verifique a Verdade,vav_globo_69,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+320,Verifique a Verdade,vav_globo_69,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+321,Verifique a Verdade,vav_globo_70,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+321,Verifique a Verdade,vav_globo_70,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+322,Verifique a Verdade,vav_globo_71,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+322,Verifique a Verdade,vav_globo_71,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+323,Verifique a Verdade,vav_globo_72,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+323,Verifique a Verdade,vav_globo_72,Lula,correcao,Falso,Campo opcional não preenchido na origem
+324,Verifique a Verdade,vav_globo_73,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+324,Verifique a Verdade,vav_globo_73,Lula,correcao,Falso,Campo opcional não preenchido na origem
+325,Verifique a Verdade,vav_globo_74,Flávio,afirmacao_resumida,Não verificável,Campo opcional não preenchido na origem
+325,Verifique a Verdade,vav_globo_74,Flávio,correcao,Não verificável,Campo opcional não preenchido na origem
+326,Verifique a Verdade,vav_globo_75,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+326,Verifique a Verdade,vav_globo_75,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+327,Verifique a Verdade,vav_globo_76,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+327,Verifique a Verdade,vav_globo_76,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+328,Verifique a Verdade,vav_globo_77,Lula,afirmacao_resumida,Não verificável,Campo opcional não preenchido na origem
+328,Verifique a Verdade,vav_globo_77,Lula,correcao,Não verificável,Campo opcional não preenchido na origem
+329,Verifique a Verdade,vav_globo_78,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+329,Verifique a Verdade,vav_globo_78,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+330,Verifique a Verdade,vav_globo_79,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+330,Verifique a Verdade,vav_globo_79,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+331,Verifique a Verdade,vav_globo_80,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+331,Verifique a Verdade,vav_globo_80,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+332,Verifique a Verdade,vav_globo_81,Flávio,afirmacao_resumida,Não verificável,Campo opcional não preenchido na origem
+332,Verifique a Verdade,vav_globo_81,Flávio,correcao,Não verificável,Campo opcional não preenchido na origem
+333,Verifique a Verdade,vav_globo_82,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+333,Verifique a Verdade,vav_globo_82,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+334,Verifique a Verdade,vav_globo_83,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+334,Verifique a Verdade,vav_globo_83,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+335,Verifique a Verdade,vav_globo_84,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+335,Verifique a Verdade,vav_globo_84,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+336,Verifique a Verdade,vav_globo_85,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+336,Verifique a Verdade,vav_globo_85,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+337,Verifique a Verdade,vav_globo_86,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+337,Verifique a Verdade,vav_globo_86,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+338,Verifique a Verdade,vav_globo_87,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+338,Verifique a Verdade,vav_globo_87,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+339,Verifique a Verdade,vav_globo_88,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+339,Verifique a Verdade,vav_globo_88,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+340,Verifique a Verdade,vav_globo_89,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+340,Verifique a Verdade,vav_globo_89,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+341,Verifique a Verdade,vav_globo_90,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+341,Verifique a Verdade,vav_globo_90,Lula,correcao,Falso,Campo opcional não preenchido na origem
+342,Verifique a Verdade,vav_globo_91,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+342,Verifique a Verdade,vav_globo_91,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+343,Verifique a Verdade,vav_globo_92,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+343,Verifique a Verdade,vav_globo_92,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+344,Verifique a Verdade,vav_globo_93,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+344,Verifique a Verdade,vav_globo_93,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+345,Verifique a Verdade,vav_globo_94,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+345,Verifique a Verdade,vav_globo_94,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+346,Verifique a Verdade,vav_globo_95,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+346,Verifique a Verdade,vav_globo_95,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+347,Verifique a Verdade,vav_globo_96,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+347,Verifique a Verdade,vav_globo_96,Lula,correcao,Falso,Campo opcional não preenchido na origem
+348,Verifique a Verdade,vav_globo_97,Lula,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+348,Verifique a Verdade,vav_globo_97,Lula,correcao,Verdadeiro,Campo opcional não preenchido na origem
+349,Verifique a Verdade,vav_globo_98,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+349,Verifique a Verdade,vav_globo_98,Lula,correcao,Falso,Campo opcional não preenchido na origem
+350,Verifique a Verdade,vav_globo_99,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+350,Verifique a Verdade,vav_globo_99,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+351,Verifique a Verdade,vav_globo_100,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+351,Verifique a Verdade,vav_globo_100,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+352,Verifique a Verdade,vav_globo_101,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+352,Verifique a Verdade,vav_globo_101,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+353,Verifique a Verdade,vav_globo_102,Flávio,afirmacao_resumida,Não verificável,Campo opcional não preenchido na origem
+353,Verifique a Verdade,vav_globo_102,Flávio,correcao,Não verificável,Campo opcional não preenchido na origem
+354,Verifique a Verdade,vav_globo_103,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+354,Verifique a Verdade,vav_globo_103,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+355,Verifique a Verdade,vav_globo_104,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+355,Verifique a Verdade,vav_globo_104,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+356,Verifique a Verdade,vav_globo_105,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+356,Verifique a Verdade,vav_globo_105,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+357,Verifique a Verdade,vav_globo_106,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+357,Verifique a Verdade,vav_globo_106,Lula,correcao,Falso,Campo opcional não preenchido na origem
+358,Verifique a Verdade,vav_globo_107,Flávio,afirmacao_resumida,Não verificável,Campo opcional não preenchido na origem
+358,Verifique a Verdade,vav_globo_107,Flávio,correcao,Não verificável,Campo opcional não preenchido na origem
+359,Verifique a Verdade,vav_globo_108,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+359,Verifique a Verdade,vav_globo_108,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+360,Verifique a Verdade,vav_globo_109,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+360,Verifique a Verdade,vav_globo_109,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+361,Verifique a Verdade,vav_globo_110,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+361,Verifique a Verdade,vav_globo_110,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+362,Verifique a Verdade,vav_globo_111,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+362,Verifique a Verdade,vav_globo_111,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+363,Verifique a Verdade,vav_globo_112,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+363,Verifique a Verdade,vav_globo_112,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+364,Verifique a Verdade,vav_globo_113,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+364,Verifique a Verdade,vav_globo_113,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+365,Verifique a Verdade,vav_globo_114,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+365,Verifique a Verdade,vav_globo_114,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+366,Verifique a Verdade,vav_globo_115,Flávio,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+366,Verifique a Verdade,vav_globo_115,Flávio,correcao,Falso,Campo opcional não preenchido na origem
+367,Verifique a Verdade,vav_globo_116,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+367,Verifique a Verdade,vav_globo_116,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+368,Verifique a Verdade,vav_globo_117,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+368,Verifique a Verdade,vav_globo_117,Lula,correcao,Falso,Campo opcional não preenchido na origem
+369,Verifique a Verdade,vav_globo_118,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+369,Verifique a Verdade,vav_globo_118,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+370,Verifique a Verdade,vav_globo_119,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+370,Verifique a Verdade,vav_globo_119,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+371,Verifique a Verdade,vav_globo_120,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+371,Verifique a Verdade,vav_globo_120,Lula,correcao,Falso,Campo opcional não preenchido na origem
+372,Verifique a Verdade,vav_globo_121,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+372,Verifique a Verdade,vav_globo_121,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+373,Verifique a Verdade,vav_globo_122,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+373,Verifique a Verdade,vav_globo_122,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+374,Verifique a Verdade,vav_globo_123,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+374,Verifique a Verdade,vav_globo_123,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+375,Verifique a Verdade,vav_globo_124,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+375,Verifique a Verdade,vav_globo_124,Lula,correcao,Falso,Campo opcional não preenchido na origem
+376,Verifique a Verdade,vav_globo_125,Flávio,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+376,Verifique a Verdade,vav_globo_125,Flávio,correcao,Impreciso,Campo opcional não preenchido na origem
+377,Verifique a Verdade,vav_globo_126,Lula,afirmacao_resumida,Impreciso,Campo opcional não preenchido na origem
+377,Verifique a Verdade,vav_globo_126,Lula,correcao,Impreciso,Campo opcional não preenchido na origem
+378,Verifique a Verdade,vav_globo_127,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+378,Verifique a Verdade,vav_globo_127,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+379,Verifique a Verdade,vav_globo_128,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+379,Verifique a Verdade,vav_globo_128,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+380,Verifique a Verdade,vav_globo_129,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+380,Verifique a Verdade,vav_globo_129,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+381,Verifique a Verdade,vav_globo_130,Lula,afirmacao_resumida,Falso,Campo opcional não preenchido na origem
+381,Verifique a Verdade,vav_globo_130,Lula,correcao,Falso,Campo opcional não preenchido na origem
+382,Verifique a Verdade,vav_globo_131,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+382,Verifique a Verdade,vav_globo_131,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+383,Verifique a Verdade,vav_globo_132,Flávio,afirmacao_resumida,Verdadeiro,Campo opcional não preenchido na origem
+383,Verifique a Verdade,vav_globo_132,Flávio,correcao,Verdadeiro,Campo opcional não preenchido na origem
+384,FlagCheck,flagcheck_globo_meta_summary,Consolidado (Flávio Bolsonaro / Lula),correcao,Agregado Multiagência,Campo opcional não preenchido na origem

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Checagem da Checagem — Dossiê de Auditoria Factual 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..900;1,7..72,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=1792877201">
+</head>
+<body class="newsprint-theme">
+
+  <!-- Cabeçalho da Gazeta de Auditoria -->
+  <header class="gazette-header">
+    <div class="gazette-top-strip">
+      <div class="gazette-container strip-flex">
+        <span class="edition-tag">DOSSIÊ INDEPENDENTE Nº 01/2026</span>
+        <span class="edition-center">COMPARAÇÃO DIRETA • DEBATE PRESIDENCIAL TV GLOBO (23/10/2026)</span>
+        <span class="edition-status">BASE: 399 CHECAGENS INDEPENDENTES vs 219 DA GRANDE IMPRENSA</span>
+      </div>
+    </div>
+
+    <div class="gazette-container masthead">
+      <div class="masthead-main">
+        <div class="masthead-brand">
+          <div class="masthead-titles">
+            <h1 class="newspaper-title">A <span class="title-struck">CHECAGEM</span> DA <span class="title-quoted"><span class="title-quote-mark quote-blue">&ldquo;</span>CHECAGEM<span class="title-quote-mark quote-red">&rdquo;</span></span></h1>
+            <p class="newspaper-deck">
+              Quando sete jornais e agências assistem à mesma fala no debate, por que chegam a conclusões opostas?
+            </p>
+          </div>
+        </div>
+
+        <div class="masthead-actions">
+          <button class="theme-toggle-btn" id="theme-toggle" aria-label="Alternar modo de leitura papel / tinta noturna">
+            <span class="theme-btn-text">MODO DE LEITURA</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Resumo de Entrada: Linguagem Clara e Literal -->
+      <div class="gazette-editorial-lead">
+        <p>
+          Confrontamos <strong>399 checagens de sites independentes</strong> (<em>Verifique a Verdade</em>, <em>Pinóquio.live</em>, <em>Verifique os Fatos</em>) com as apurações dos <strong>quatro maiores portais de notícias</strong> (<em>G1</em>, <em>UOL</em>, <em>Estadão</em> e <em>Agência Lupa</em>). Veja abaixo os casos explicados de forma literal e direta: o que foi dito, o fato real nos documentos e por que os vereditos se dividiram.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="gazette-container docket-layout">
+
+    <!-- Seletor de Casos -->
+        <!-- Controles de Busca e Filtros de Declarações (Keyword, Candidato & Veredito) -->
+    <section class="search-filter-section" aria-label="Pesquisa e filtros de declarações">
+      <div class="search-bar-row">
+        <div class="search-input-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="declaration-search-input" class="search-input" placeholder="Pesquise por qualquer palavra-chave (ex: 'milícia', 'obras', 'tcu', 'salário', 'bolsa família', 'corrupção', 'richarlison')..." autocomplete="off" spellcheck="false">
+          <button id="search-clear-btn" class="search-clear-btn" title="Limpar pesquisa">✕</button>
+        </div>
+        <div class="search-stats-badge" id="search-results-counter">
+          <span class="counter-num" id="visible-count">412</span> de 412 declarações
+        </div>
+      </div>
+
+      <div class="filter-controls-row">
+        <!-- Filtro por Candidato -->
+        <div class="filter-group">
+          <span class="filter-group-label">CANDIDATO:</span>
+          <div class="filter-pills" id="candidate-filters">
+            <button class="filter-pill active" data-candidate="all">Todos os Candidatos</button>
+            <button class="filter-pill pill-lula" data-candidate="lula">🔴 Lula (PT)</button>
+            <button class="filter-pill pill-flavio" data-candidate="flavio">🔵 Flávio Bolsonaro (PL)</button>
+          </div>
+        </div>
+
+        <!-- Filtro por Classificação -->
+        <div class="filter-group">
+          <span class="filter-group-label">CLASSIFICAÇÃO:</span>
+          <div class="filter-pills" id="verdict-filters">
+            <button class="filter-pill active" data-verdict="all">Todos os Vereditos</button>
+            <button class="filter-pill pill-true" data-verdict="verdadeiro">🟢 Verdadeiro</button>
+            <button class="filter-pill pill-fake" data-verdict="falso">🔴 Falso</button>
+            <button class="filter-pill pill-warn" data-verdict="enganoso">🟡 Enganoso / Impreciso</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seletor de Casos -->
+        <!-- Seletor de Casos Organizado em Painel Fechado com Paginação e Modos de Visualização -->
+    <section class="docket-selector" aria-label="Casos em julgamento">
+      <div class="selector-header">
+        <div class="selector-header-left">
+          <span class="selector-title">ÍNDICE DE DECLARAÇÕES AUDITADAS</span>
+          <span class="selector-hint" id="selector-hint-text">412 checagens completas • Clique para abrir o confronto de agências</span>
+        </div>
+        <div class="selector-controls-bar">
+          <!-- Comutador de Modo: Grade vs Lista -->
+          <div class="view-mode-toggle" role="group" aria-label="Modo de visualização">
+            <button class="btn-view-mode active" id="btn-view-grid" title="Visualização em Grade">🗂 Grade</button>
+            <button class="btn-view-mode" id="btn-view-list" title="Visualização em Lista Compacta">☰ Lista</button>
+          </div>
+          <!-- Mini Paginação Topo -->
+          <div class="mini-pagination">
+            <button class="btn-page-nav" id="btn-prev-page" title="Página anterior">◀ Ant</button>
+            <span class="page-indicator-text" id="page-indicator-top">1 / 52</span>
+            <button class="btn-page-nav" id="btn-next-page" title="Próxima página">Próx ▶</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Área de Conteúdo: Grade ou Lista (Injetado via JS) -->
+      <div id="case-tabs-container">
+        <div class="case-tabs-strip" id="case-tabs" role="tablist">
+          <!-- Injetado dinamicamente via JS -->
+        </div>
+      </div>
+
+      <!-- Barra de Paginação Inferior com Números -->
+      <div class="pagination-footer-bar" id="pagination-footer">
+        <!-- Injetado dinamicamente via JS -->
+      </div>
+    </section>
+
+    <!-- O Dossiê do Caso Selecionado -->
+    <section class="case-dossier" id="active-case-dossier">
+      <!-- Injetado dinamicamente via JS -->
+    </section>
+
+    <!-- Explicação das Divergências: Atualizada Dinamicamente para Cada Declaração -->
+    <section class="editorial-framework" id="case-framework" aria-live="polite">
+      <!-- Injetado dinamicamente via JS conforme o caso selecionado -->
+    </section>
+
+  </main>
+
+  <!-- Rodapé de Máxima Transparência Editorial e Metodológica -->
+  <footer class="gazette-footer">
+    <div class="gazette-container">
+
+      <!-- Painel de Transparência Metodológica & Arquitetura do Projeto -->
+      <section class="transparency-panel" aria-label="Transparência metodológica">
+        <div class="transparency-header">
+          <span class="transparency-tag">COMO ESTE PROJETO FOI CONSTRUÍDO • METODOLOGIA ABERTA</span>
+          <h2 class="transparency-title">Transparência Integral dos Dados e dos Processos</h2>
+          <p class="transparency-subtitle">
+            Esta auditoria foi desenvolvida segundo princípios estritos de ciência de dados aberta: todo o material coletado, códigos de extração, matrizes tabulares e relatórios analíticos são auditáveis e reproduzíveis linha por linha.
+          </p>
+          
+          <!-- Botão de Acesso à Metodologia Completa e API REST (Nova Página) -->
+          <div class="methodology-actions-strip">
+            <a href="metodologia.html" target="_blank" rel="noopener noreferrer" class="btn-open-methodology">
+              <span class="btn-icon">📖</span>
+              <span class="btn-text-wrap">
+                <strong>ABRIR METODOLOGIA INTEGRAL & DOCUMENTAÇÃO DA API (NOVA PÁGINA) ↗</strong>
+                <span class="btn-subtext">Dossiê exaustivo: como foi feito, anatomia do viés nos independentes, benefício da dúvida, scorecards e console interativo da API</span>
+              </span>
+            </a>
+            <div class="methodology-api-quicklinks">
+              <span class="api-quick-label">API REST LOCAL ATIVA:</span>
+              <a href="/api" target="_blank" class="api-quick-pill"><code>/api</code></a>
+              <a href="/api/methodology" target="_blank" class="api-quick-pill"><code>/api/methodology</code></a>
+              <a href="/api/bias-analysis" target="_blank" class="api-quick-pill"><code>/api/bias-analysis</code></a>
+              <a href="/api/cases" target="_blank" class="api-quick-pill"><code>/api/cases</code></a>
+              <a href="/api/stats" target="_blank" class="api-quick-pill"><code>/api/stats</code></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="transparency-grid">
+          <!-- Coluna 1: Coleta e Preservação -->
+          <div class="transparency-col">
+            <span class="col-kicker">01 • RASPAGEM & PRESERVAÇÃO</span>
+            <h3 class="col-title">Preservação Web Passiva</h3>
+            <p class="col-desc">
+              Durante e logo após a transmissão do debate, foram espelhados e congelados <strong>371 arquivos web brutos</strong> (páginas HTML completas, scripts de frontend, cartões OpenGraph e inventários de extração) de 6 fontes primárias na pasta <code>coleta/</code>, garantindo que nenhuma alteração posterior nos sites originais afete a apuração.
+            </p>
+            <div class="transparency-stat">
+              <span class="stat-num">371</span>
+              <span class="stat-lbl">Arquivos web originais congelados em <code>coleta/</code></span>
+            </div>
+          </div>
+
+          <!-- Coluna 2: Base de Dados e Confronto -->
+          <div class="transparency-col">
+            <span class="col-kicker">02 • NORMALIZAÇÃO TABULAR</span>
+            <h3 class="col-title">Confronto Minuto a Minuto</h3>
+            <p class="col-desc">
+              Estruturação de <strong>399 checagens do ecossistema independente</strong> (<em>Verifique a Verdade</em>, <em>Pinóquio.live</em> e <em>Verifique os Fatos</em>) e <strong>219 checagens da grande imprensa</strong> (<em>G1</em>, <em>Estadão</em>, <em>UOL</em> e <em>Agência Lupa</em>). O confronto direto gerou uma matriz comparativa de 22.159 linhas em <code>confronto/</code>.
+            </p>
+            <div class="transparency-stat">
+              <span class="stat-num">312</span>
+              <span class="stat-lbl">Casos com correspondência direta entre veículos</span>
+            </div>
+          </div>
+
+          <!-- Coluna 3: Reprodutibilidade e Integridade -->
+          <div class="transparency-col">
+            <span class="col-kicker">03 • AUDITORIA CRIPTOGRÁFICA</span>
+            <h3 class="col-title">Integridade por Hash SHA-256</h3>
+            <p class="col-desc">
+              Cada arquivo do projeto tem sua assinatura SHA-256 registrada publicamente no manifesto <code>SHA256_HASHES.txt</code>. Não há banco de dados proprietário ou APIs fechadas: toda a geração de tabelas e relatórios é acionada por <strong>scripts Python abertos</strong> na pasta <code>scripts/</code>.
+            </p>
+            <div class="transparency-stat">
+              <span class="stat-num">484</span>
+              <span class="stat-lbl">Arquivos rastreados com integridade criptográfica</span>
+            </div>
+          </div>
+
+          <!-- Coluna 4: Anatomia do Viés e Benefício da Dúvida -->
+          <div class="transparency-col">
+            <span class="col-kicker">04 • ANATOMIA DO VIÉS EDITORIAL</span>
+            <h3 class="col-title">Por que Existe Potencial Viés?</h3>
+            <p class="col-desc">
+              A apuração comprovou que os portais independentes não mentem sobre documentos públicos, mas operam sob <strong>viés de seleção (gatekeeping de pauta)</strong>, <strong>severidade semântica assimétrica</strong> e <strong>formalismo legalista de blindagem</strong>. A análise aplica estritamente a <em>Doutrina do Benefício da Dúvida</em> com dados comprovados.
+            </p>
+            <div class="transparency-stat">
+              <span class="stat-num">82%</span>
+              <span class="stat-lbl">Convergência nos dados primários vs 38% de divergência de enquadramento</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mapa de Pastas do Repositório -->
+        <div class="repo-map-strip">
+          <span class="map-strip-title">MAPA DO REPOSITÓRIO LOCAL:</span>
+          <div class="map-pills">
+            <span class="map-pill"><code>coleta/</code> 6 checadores espelhados</span>
+            <span class="map-pill"><code>dados/</code> 15 bases CSV e JSON limpas</span>
+            <span class="map-pill"><code>auditoria/</code> 16 relatórios estruturais</span>
+            <span class="map-pill"><code>confronto/</code> 22.159 linhas comparadas</span>
+            <span class="map-pill"><code>relatorios/</code> 4 relatórios executivos</span>
+            <span class="map-pill"><code>scripts/</code> pipelines reprodutíveis em Python</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Barra Inferior de Direitos e Isenção -->
+      <div class="footer-bottom-bar">
+        <div class="footer-bottom-left">
+          <strong>A Checagem da Checagem</strong> — Dossiê de Auditoria Factual Comparada
+          <div class="footer-meta">Debate Presidencial TV Globo • 23 de Outubro de 2026 • 2º Turno Eleitoral</div>
+        </div>
+        <div class="footer-bottom-right">
+          Licença Dupla Aberta: Código sob <strong>MIT</strong> • Textos e Dados sob <strong>Creative Commons CC-BY-4.0</strong> • Zero Telemetria
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="declarations_data.js?v=1792876759"></script>
+  <script src="app.js?v=1792877201"></script>
+</body>
+</html>
