@@ -141,7 +141,12 @@ function renderCaseTabs() {
           selectedDeclarationId = id;
           renderCaseTabs();
           const target = activeDeclarations.find(x => x.id === id);
-          if (target) renderDossierCase(target);
+          if (target) {
+            renderDossierCase(target);
+            if (window.innerWidth <= 768) {
+              document.getElementById("active-case-dossier")?.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+          }
         }
       });
     });
@@ -177,7 +182,12 @@ function renderCaseTabs() {
           selectedDeclarationId = id;
           renderCaseTabs();
           const target = activeDeclarations.find(x => x.id === id);
-          if (target) renderDossierCase(target);
+          if (target) {
+            renderDossierCase(target);
+            if (window.innerWidth <= 768) {
+              document.getElementById("active-case-dossier")?.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+          }
         }
       });
     });
@@ -194,7 +204,8 @@ function renderCaseTabs() {
     `;
 
     // Gera números de página com elipses inteligentes
-    const maxButtons = 7;
+    const isMobile = window.innerWidth <= 768;
+    const maxButtons = isMobile ? 3 : 7;
     let startPage = Math.max(1, currentPage - 3);
     let endPage = Math.min(totalPages, startPage + maxButtons - 1);
     if (endPage - startPage < maxButtons - 1) {
@@ -452,23 +463,16 @@ function renderDossierCase(c) {
         ${hasDivergence ? `
           <div class="bias-audit-box">
             <div class="bias-audit-header">
-              <span class="bias-audit-tag"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px; margin-right:4px;" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span>AUDITORIA DE DIVERGÊNCIA EDITORIAL</span></span>
-              <span class="bias-audit-badge">Divergência: [${item.verdict.toUpperCase()}] vs Imprensa</span>
+              <span class="bias-audit-tag"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px; margin-right:4px;" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span>DIVERGÊNCIA EDITORIAL</span></span>
+              <span class="bias-audit-badge">[${item.verdict.toUpperCase()}] vs Imprensa</span>
             </div>
             
             <div class="bias-audit-question-box">
-              <div class="question-kicker"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px; margin-right:5px;" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg><span>QUESTÃO DIRETA AO LEITOR:</span></div>
               <p class="question-body">${firmQuestion}</p>
             </div>
 
             <div class="bias-audit-evidence-box">
-              <div class="evidence-kicker"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px; margin-right:5px;" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg><span>EVIDÊNCIA DO CONTRASTE & PULSO FIRME:</span></div>
-              <p class="evidence-body">${firmEvidence}</p>
-              ${c.sources && c.sources.length > 0 ? renderSourcesDrawer(`drawer-bias-${item.outlet.replace(/[^a-zA-Z0-9]/g, '')}-${c.id}`, c.sources, 'Ver Fontes e Documentos desta Auditoria') : ''}
-            </div>
-
-            <div class="bias-audit-challenge">
-              <strong>Reflita criticamente:</strong> Esta discrepância reflete uma exigência técnica legítima ou uma escolha editorial calculada para atenuar ou amplificar o impacto político perante sua audiência?
+              <p class="evidence-body"><strong>Análise da Régua:</strong> ${firmEvidence}</p>
             </div>
           </div>
         ` : ""}
@@ -491,7 +495,27 @@ function renderDossierCase(c) {
   // Renderiza Framework de 3 colunas
   renderCaseFramework(c);
 
+  const currentCaseIndex = activeDeclarations.findIndex(x => x.id === c.id);
+  const hasPrevCase = currentCaseIndex > 0;
+  const hasNextCase = currentCaseIndex >= 0 && currentCaseIndex < activeDeclarations.length - 1;
+
   dossier.innerHTML = `
+    <!-- Barra de Navegação Rápida entre Declarações (Mobile & Desktop) -->
+    <nav class="dossier-nav-bar" aria-label="Navegação entre declarações">
+      <button type="button" class="btn-dossier-nav" id="dossier-nav-prev" ${!hasPrevCase ? 'disabled' : ''} title="Ver declaração anterior">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        <span>Anterior</span>
+      </button>
+      <button type="button" class="btn-dossier-index" id="dossier-nav-index" title="Ir para o índice de declarações">
+        <span class="dossier-nav-count">Declaração ${currentCaseIndex >= 0 ? currentCaseIndex + 1 : 1} de ${activeDeclarations.length}</span>
+        <span class="dossier-nav-hint">↑ Índice de Casos</span>
+      </button>
+      <button type="button" class="btn-dossier-nav" id="dossier-nav-next" ${!hasNextCase ? 'disabled' : ''} title="Ver próxima declaração">
+        <span>Próxima</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+    </nav>
+
     <!-- Topo do Dossiê com Foto Oficial, Nome Colorido e Carimbo -->
     <div class="dossier-headline-block">
       <div class="speaker-profile-box">
@@ -569,6 +593,43 @@ function renderDossierCase(c) {
       </div>
     </div>
   `;
+
+  // Eventos de navegação rápida do dossiê
+  const dPrev = document.getElementById("dossier-nav-prev");
+  const dNext = document.getElementById("dossier-nav-next");
+  const dIndex = document.getElementById("dossier-nav-index");
+
+  if (dPrev && hasPrevCase) {
+    dPrev.addEventListener("click", () => {
+      const prevCase = activeDeclarations[currentCaseIndex - 1];
+      selectedDeclarationId = prevCase.id;
+      const itemsPerPage = currentViewMode === "grid" ? ITEMS_PER_PAGE_GRID : ITEMS_PER_PAGE_LIST;
+      const targetPage = Math.floor((currentCaseIndex - 1) / itemsPerPage) + 1;
+      if (currentPage !== targetPage) currentPage = targetPage;
+      renderCaseTabs();
+      renderDossierCase(prevCase);
+      document.getElementById("active-case-dossier")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+
+  if (dNext && hasNextCase) {
+    dNext.addEventListener("click", () => {
+      const nextCase = activeDeclarations[currentCaseIndex + 1];
+      selectedDeclarationId = nextCase.id;
+      const itemsPerPage = currentViewMode === "grid" ? ITEMS_PER_PAGE_GRID : ITEMS_PER_PAGE_LIST;
+      const targetPage = Math.floor((currentCaseIndex + 1) / itemsPerPage) + 1;
+      if (currentPage !== targetPage) currentPage = targetPage;
+      renderCaseTabs();
+      renderDossierCase(nextCase);
+      document.getElementById("active-case-dossier")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+
+  if (dIndex) {
+    dIndex.addEventListener("click", () => {
+      document.querySelector(".docket-selector")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
 }
 
 // Aplica filtros e atualiza a interface
