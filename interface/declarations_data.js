@@ -1,5 +1,5 @@
-// Base Consolidada de TODAS as Declarações Auditadas do Debate Presidencial 2026
-const ALL_DECLARATIONS = [
+// Base integral com todas as 412 declarações auditadas no debate TV Globo (23/10/2026)
+window.ALL_DECLARATIONS = [
   {
     "id": "CASO-01",
     "tabLabel": "CASO 1: OBRAS PÚBLICAS / TCU",
@@ -150,7 +150,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "1 caso-1 flavio bolsonaro flavio obras publicas / tcu tcu acaba de soltar relatorio apontando mais de 11.500 obras paralisadas no atual governo federal. existencia de relatorio do tcu com ~11.500 obras paralisadas e sua atribuicao ao atual governo. divisao simetrica identica nos dois blocos: tanto entre independentes (vav verdadeiro vs pinoquio enganoso/vof parcial) quanto entre portais (g1/estadao verdadeiro vs uol falso/lupa falta contexto), a divergencia e de enquadramento (validade do relatorio do tcu vs atribuicao causal ao governo federal)."
+    "searchTokens": "1 caso-1 flavio bolsonaro flavio obras publicas / tcu tcu acaba de soltar relatorio apontando mais de 11.500 obras paralisadas no atual governo federal. existencia de relatorio do tcu com ~11.500 obras paralisadas e sua atribuicao ao atual governo. divisao simetrica identica nos dois blocos: tanto entre independentes (vav verdadeiro vs pinoquio enganoso/vof parcial) quanto entre portais (g1/estadao verdadeiro vs uol falso/lupa falta contexto), a divergencia e de enquadramento (validade do relatorio do tcu vs atribuicao causal ao governo federal).",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "CASO-02",
@@ -166,7 +167,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "Lula herdou 6.000 obras paralisadas deixadas pelo governo Bolsonaro.",
     "theFact": "Número de obras paralisadas registradas pelo TCU no início do mandato em 2023.",
     "whyDiverge": "Independentes e portais concordam nos dados do TCU (8.603 obras paradas). Contudo, G1 e UOL punem com FALSO/FAKE pela discrepância numérica de 30%, enquanto Lupa usa SUBESTIMADO e Verifique a Verdade considera VERDADEIRO por ser erro que prejudica o próprio candidato.",
@@ -246,7 +247,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "2 caso-2 luiz inacio lula da silva lula obras publicas / tcu lula herdou 6.000 obras paralisadas deixadas pelo governo bolsonaro. numero de obras paralisadas registradas pelo tcu no inicio do mandato em 2023. independentes e portais concordam nos dados do tcu (8.603 obras paradas). contudo, g1 e uol punem com falso/fake pela discrepancia numerica de 30%, enquanto lupa usa subestimado e verifique a verdade considera verdadeiro por ser erro que prejudica o proprio candidato."
+    "searchTokens": "2 caso-2 luiz inacio lula da silva lula obras publicas / tcu lula herdou 6.000 obras paralisadas deixadas pelo governo bolsonaro. numero de obras paralisadas registradas pelo tcu no inicio do mandato em 2023. independentes e portais concordam nos dados do tcu (8.603 obras paradas). contudo, g1 e uol punem com falso/fake pela discrepancia numerica de 30%, enquanto lupa usa subestimado e verifique a verdade considera verdadeiro por ser erro que prejudica o proprio candidato.",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "CASO-03",
@@ -262,7 +264,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "Bolsonaro pegou o Brasil com 14 mil obras paradas e entregou com pouco mais de 8 mil.",
     "theFact": "Variação do estoque de obras paralisadas entre 2019 e 2022 segundo dados do TCU.",
     "whyDiverge": "Confronto factual entre dados primários e declaração.",
@@ -340,7 +342,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "3 caso-3 flavio bolsonaro flavio obras publicas / tcu bolsonaro pegou o brasil com 14 mil obras paradas e entregou com pouco mais de 8 mil. variacao do estoque de obras paralisadas entre 2019 e 2022 segundo dados do tcu. confronto factual entre dados primarios e declaracao."
+    "searchTokens": "3 caso-3 flavio bolsonaro flavio obras publicas / tcu bolsonaro pegou o brasil com 14 mil obras paradas e entregou com pouco mais de 8 mil. variacao do estoque de obras paralisadas entre 2019 e 2022 segundo dados do tcu. confronto factual entre dados primarios e declaracao.",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "CASO-04",
@@ -527,7 +530,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "4 caso-4 flavio bolsonaro flavio programas sociais foi bolsonaro que deu o piso de no minimo r$ 600 do bolsa familia. autoria da fixacao do piso de r$ 600 e sua validade temporal (ec 123/2022 vs ec 126/2022). ambos os blocos concordam sobre a vigencia da ec 123/2022 (ate 31/12/2022) e o ploa de r$ 405. vof, pinoquio, uol, g1 e lupa convergem na rejeicao da perenidade sob bolsonaro. apenas o estadao concedeu verdadeiro no selo por foco na data de inicio do desembolso."
+    "searchTokens": "4 caso-4 flavio bolsonaro flavio programas sociais foi bolsonaro que deu o piso de no minimo r$ 600 do bolsa familia. autoria da fixacao do piso de r$ 600 e sua validade temporal (ec 123/2022 vs ec 126/2022). ambos os blocos concordam sobre a vigencia da ec 123/2022 (ate 31/12/2022) e o ploa de r$ 405. vof, pinoquio, uol, g1 e lupa convergem na rejeicao da perenidade sob bolsonaro. apenas o estadao concedeu verdadeiro no selo por foco na data de inicio do desembolso.",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "CASO-05",
@@ -694,7 +698,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "5 caso-5 flavio bolsonaro flavio programas sociais a media do bolsa familia nos governos do pt era de r$ 190. valor nominal historico do bolsa familia em 2018 versus valor real corrigido pelo ipca. rejeicao quase unanime da comparacao de valor nominal sem correcao pelo ipca. pinoquio, vav, uol, g1 e estadao apontam distorcao economica grave. a lupa validou estritamente o valor nominal da serie historica com ressalva."
+    "searchTokens": "5 caso-5 flavio bolsonaro flavio programas sociais a media do bolsa familia nos governos do pt era de r$ 190. valor nominal historico do bolsa familia em 2018 versus valor real corrigido pelo ipca. rejeicao quase unanime da comparacao de valor nominal sem correcao pelo ipca. pinoquio, vav, uol, g1 e estadao apontam distorcao economica grave. a lupa validou estritamente o valor nominal da serie historica com ressalva.",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "CASO-06",
@@ -710,7 +715,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "Estamos fazendo a BR-319, que liga Porto Velho a Manaus.",
     "theFact": "Existência de obras de pavimentação no trecho central da BR-319 e licenciamento do Ibama.",
     "whyDiverge": "Tanto os independentes (VaV, Pinóquio) quanto os portais (G1, Lupa) concordam que o trecho do meio da rodovia BR-319 está embargado pelo Ibama sem licença de pavimentação. A frase de Lula é rechaçada como Falso/Enganoso/Não é bem assim.",
@@ -823,7 +828,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "6 caso-6 luiz inacio lula da silva lula infraestrutura e meio ambiente estamos fazendo a br-319, que liga porto velho a manaus. existencia de obras de pavimentacao no trecho central da br-319 e licenciamento do ibama. tanto os independentes (vav, pinoquio) quanto os portais (g1, lupa) concordam que o trecho do meio da rodovia br-319 esta embargado pelo ibama sem licenca de pavimentacao. a frase de lula e rechacada como falso/enganoso/nao e bem assim."
+    "searchTokens": "6 caso-6 luiz inacio lula da silva lula infraestrutura e meio ambiente estamos fazendo a br-319, que liga porto velho a manaus. existencia de obras de pavimentacao no trecho central da br-319 e licenciamento do ibama. tanto os independentes (vav, pinoquio) quanto os portais (g1, lupa) concordam que o trecho do meio da rodovia br-319 esta embargado pelo ibama sem licenca de pavimentacao. a frase de lula e rechacada como falso/enganoso/nao e bem assim.",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "CASO-07",
@@ -952,7 +958,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "7 caso-7 luiz inacio lula da silva lula infraestrutura portuaria no tunel santos-guaruja quem esta colocando dinheiro para fazer somos nos. estrutura de financiamento do tunel (parceria de 50% governo federal e 50% governo de sp). independentes e portais apontam que o tunel e uma ppp paritaria (50% do governo de sp e 50% do governo federal). lula erra ao afirmar exclusividade de aporte federal."
+    "searchTokens": "7 caso-7 luiz inacio lula da silva lula infraestrutura portuaria no tunel santos-guaruja quem esta colocando dinheiro para fazer somos nos. estrutura de financiamento do tunel (parceria de 50% governo federal e 50% governo de sp). independentes e portais apontam que o tunel e uma ppp paritaria (50% do governo de sp e 50% do governo federal). lula erra ao afirmar exclusividade de aporte federal.",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "CASO-08",
@@ -1048,7 +1055,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "8 caso-8 luiz inacio lula da silva lula trabalho e legislacao nos aprovamos o fim da escala 6x1. status legislativo da pec da jornada 6x1 no congresso nacional. checado exaustivamente pelos independentes (vav e pinoquio classificam como falso absoluto, pois a pec ainda tramita). os portais tradicionais nao deram destaque a essa frase nas materias autorizadas."
+    "searchTokens": "8 caso-8 luiz inacio lula da silva lula trabalho e legislacao nos aprovamos o fim da escala 6x1. status legislativo da pec da jornada 6x1 no congresso nacional. checado exaustivamente pelos independentes (vav e pinoquio classificam como falso absoluto, pois a pec ainda tramita). os portais tradicionais nao deram destaque a essa frase nas materias autorizadas.",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "CASO-09",
@@ -1064,7 +1072,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "IVA começa a ser cobrado no ano que vem com alíquota estimada de 28%, a maior do mundo.",
     "theFact": "Alíquota de teste em 2026 (1%) versus estimativa de teto projetada para 2033.",
     "whyDiverge": "Concordância unânime entre todos os checadores de que a alíquota em 2026 será de apenas 1% de teste (0,9% CBS + 0,1% IBS) e que a alíquota de 28% é teto projetado para a década seguinte. Flávio fundiu prazos.",
@@ -1162,7 +1170,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "9 caso-9 flavio bolsonaro flavio economia e tributos iva comeca a ser cobrado no ano que vem com aliquota estimada de 28%, a maior do mundo. aliquota de teste em 2026 (1%) versus estimativa de teto projetada para 2033. concordancia unanime entre todos os checadores de que a aliquota em 2026 sera de apenas 1% de teste (0,9% cbs + 0,1% ibs) e que a aliquota de 28% e teto projetado para a decada seguinte. flavio fundiu prazos."
+    "searchTokens": "9 caso-9 flavio bolsonaro flavio economia e tributos iva comeca a ser cobrado no ano que vem com aliquota estimada de 28%, a maior do mundo. aliquota de teste em 2026 (1%) versus estimativa de teto projetada para 2033. concordancia unanime entre todos os checadores de que a aliquota em 2026 sera de apenas 1% de teste (0,9% cbs + 0,1% ibs) e que a aliquota de 28% e teto projetado para a decada seguinte. flavio fundiu prazos.",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "CASO-10",
@@ -1259,7 +1268,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "10 caso-10 flavio bolsonaro flavio agronegocio / politica jogador richarlison comprou uma ilha de integrantes do mst. origem e partes envolvidas na disputa de posse da ilha em angra dos reis. classificado unanimemente como falso/fake em ambos os blocos. o litigio de posse em angra dos reis nao tem qualquer relacao com o mst."
+    "searchTokens": "10 caso-10 flavio bolsonaro flavio agronegocio / politica jogador richarlison comprou uma ilha de integrantes do mst. origem e partes envolvidas na disputa de posse da ilha em angra dos reis. classificado unanimemente como falso/fake em ambos os blocos. o litigio de posse em angra dos reis nao tem qualquer relacao com o mst.",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "CASO-11",
@@ -1404,7 +1414,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "11 caso-11 flavio bolsonaro flavio seguranca e investigacoes flavio afirma que nunca foi investigado por causa de envolvimento com milicia. tipificacao formal dos inqueritos no stf/mprj versus apuracao de vinculos no gabinete da alerj. caso mais emblematico de divergencia interna nos dois blocos: vav (indep), uol, estadao e lupa (portais) classificam como verdadeiro adotando criterio de tipificacao penal estrita (sem denuncia pelo art. 288-a de milicia); pinoquio (indep) e g1 (portal) aplicam insustentavel / nao e bem assim com base nos lacos substantivos investigados no gabinete."
+    "searchTokens": "11 caso-11 flavio bolsonaro flavio seguranca e investigacoes flavio afirma que nunca foi investigado por causa de envolvimento com milicia. tipificacao formal dos inqueritos no stf/mprj versus apuracao de vinculos no gabinete da alerj. caso mais emblematico de divergencia interna nos dois blocos: vav (indep), uol, estadao e lupa (portais) classificam como verdadeiro adotando criterio de tipificacao penal estrita (sem denuncia pelo art. 288-a de milicia); pinoquio (indep) e g1 (portal) aplicam insustentavel / nao e bem assim com base nos lacos substantivos investigados no gabinete.",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "CASO-12",
@@ -1553,7 +1564,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "12 caso-12 luiz inacio lula da silva lula economia e salario minimo sem os reajustes acima da inflacao do pt, salario minimo seria apenas r$ 900. correcao estrita do salario minimo pelo inpc desde 2002 (resultando em ~r$ 804). vav (indep) valida o conceito central de ganho real do salario minimo (o inpc puro daria ~r$ 804); pinoquio e g1 punem a diferenca numerica de r$ 96 como enganoso / nao e bem assim."
+    "searchTokens": "12 caso-12 luiz inacio lula da silva lula economia e salario minimo sem os reajustes acima da inflacao do pt, salario minimo seria apenas r$ 900. correcao estrita do salario minimo pelo inpc desde 2002 (resultando em ~r$ 804). vav (indep) valida o conceito central de ganho real do salario minimo (o inpc puro daria ~r$ 804); pinoquio e g1 punem a diferenca numerica de r$ 96 como enganoso / nao e bem assim.",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "CASO-13",
@@ -1675,7 +1687,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "13 caso-13 luiz inacio lula da silva lula desenvolvimento social / fome eu tinha acabado com a fome nesse pais em 2012. data do relatorio da fao que retirou o brasil do mapa da fome (2014) e conceito tecnico. lula errou o ano (o relatorio da fao e de 2014, nao 2012). g1, estadao, lupa e pinoquio registram a imprecisao cronologica mantendo a veracidade do marco da fao."
+    "searchTokens": "13 caso-13 luiz inacio lula da silva lula desenvolvimento social / fome eu tinha acabado com a fome nesse pais em 2012. data do relatorio da fao que retirou o brasil do mapa da fome (2014) e conceito tecnico. lula errou o ano (o relatorio da fao e de 2014, nao 2012). g1, estadao, lupa e pinoquio registram a imprecisao cronologica mantendo a veracidade do marco da fao.",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "CASO-14",
@@ -1784,7 +1797,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "14 caso-14 luiz inacio lula da silva lula desenvolvimento social / fome voltou a presidencia em 2023 com 33 milhoes de pessoas passando fome no brasil. inquerito da rede penssan sobre inseguranca alimentar grave em 2022. corroborado por pinoquio, vav, g1 e lupa com base no inquerito da rede penssan de 2022 sobre inseguranca alimentar grave."
+    "searchTokens": "14 caso-14 luiz inacio lula da silva lula desenvolvimento social / fome voltou a presidencia em 2023 com 33 milhoes de pessoas passando fome no brasil. inquerito da rede penssan sobre inseguranca alimentar grave em 2022. corroborado por pinoquio, vav, g1 e lupa com base no inquerito da rede penssan de 2022 sobre inseguranca alimentar grave.",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "CASO-15",
@@ -1901,7 +1915,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "15 caso-15 luiz inacio lula da silva lula transparencia e gastos bolsonaro gastou no cartao corporativo quase 30% a mais do que nos. comparacoes de gastos da presidencia corrigidos pela inflacao desclassificados pela cgu. planilhas da presidencia e cgu corrigidas pelo ipca desmentem a diferenca de 30% alegada por lula. vav, pinoquio e g1 desautorizam a frase."
+    "searchTokens": "15 caso-15 luiz inacio lula da silva lula transparencia e gastos bolsonaro gastou no cartao corporativo quase 30% a mais do que nos. comparacoes de gastos da presidencia corrigidos pela inflacao desclassificados pela cgu. planilhas da presidencia e cgu corrigidas pelo ipca desmentem a diferenca de 30% alegada por lula. vav, pinoquio e g1 desautorizam a frase.",
+    "majorityVerdict": "falso"
   },
   {
     "id": "CASO-16",
@@ -2025,7 +2040,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "16 caso-16 flavio bolsonaro flavio transportes / concessoes bolsonaro criou a regra de pedagio zero para motos nas concessoes de rodovias. portaria 104/2021 do ministerio da infraestrutura para novos editais de concessao. a regra de isencao para motos foi introduzida pela portaria 104/2021 nos novos editais federais, sem afetar contratos anteriores. vav, uol e estadao validam com a ressalva de escopo."
+    "searchTokens": "16 caso-16 flavio bolsonaro flavio transportes / concessoes bolsonaro criou a regra de pedagio zero para motos nas concessoes de rodovias. portaria 104/2021 do ministerio da infraestrutura para novos editais de concessao. a regra de isencao para motos foi introduzida pela portaria 104/2021 nos novos editais federais, sem afetar contratos anteriores. vav, uol e estadao validam com a ressalva de escopo.",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "CASO-17",
@@ -2186,7 +2202,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "17 caso-17 luiz inacio lula da silva lula agronegocio / comercio exterior nunca se exportou tanto no pais e abrimos 700 novos mercados para o agro. recorde da balanca comercial e aberturas de mercados pelo ministerio da agricultura. concordancia unanime entre todos os checadores de ambos os blocos (vav, pinoquio, g1, estadao e lupa) sobre o recorde historico de exportacoes agricolas e aberturas sanitarias."
+    "searchTokens": "17 caso-17 luiz inacio lula da silva lula agronegocio / comercio exterior nunca se exportou tanto no pais e abrimos 700 novos mercados para o agro. recorde da balanca comercial e aberturas de mercados pelo ministerio da agricultura. concordancia unanime entre todos os checadores de ambos os blocos (vav, pinoquio, g1, estadao e lupa) sobre o recorde historico de exportacoes agricolas e aberturas sanitarias.",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "CASO-18",
@@ -2318,7 +2335,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "18 caso-18 flavio bolsonaro flavio economia / endividamento os brasileiros estao devendo mais no atual governo / endividamento recorde. serie sgs 29037 do banco central sobre endividamento das familias com o sfn. confirmado por vav, pinoquio, uol e g1 com base na serie sgs 29037 do banco central (endividamento passou de 49,1% para 49,9% da renda anual)."
+    "searchTokens": "18 caso-18 flavio bolsonaro flavio economia / endividamento os brasileiros estao devendo mais no atual governo / endividamento recorde. serie sgs 29037 do banco central sobre endividamento das familias com o sfn. confirmado por vav, pinoquio, uol e g1 com base na serie sgs 29037 do banco central (endividamento passou de 49,1% para 49,9% da renda anual).",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "CASO-19",
@@ -2430,7 +2448,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "19 caso-19 flavio bolsonaro flavio seguranca publica / feminicidio recorde de mulheres assassinadas e de feminicidio no governo lula. registros de feminicidio no anuario brasileiro de seguranca publica (fbsp). checado exaustivamente pelos independentes (vav e pinoquio confirmam o recorde do anuario de seguranca publica com ressalva sobre a evolucao da tipificacao policial). portais nao incluiram o tema nas materias autorizadas."
+    "searchTokens": "19 caso-19 flavio bolsonaro flavio seguranca publica / feminicidio recorde de mulheres assassinadas e de feminicidio no governo lula. registros de feminicidio no anuario brasileiro de seguranca publica (fbsp). checado exaustivamente pelos independentes (vav e pinoquio confirmam o recorde do anuario de seguranca publica com ressalva sobre a evolucao da tipificacao policial). portais nao incluiram o tema nas materias autorizadas.",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "CASO-20",
@@ -2547,7 +2566,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "20 caso-20 luiz inacio lula da silva lula infraestrutura / rodovias estamos fazendo a serra das araras, uma obra de quase r$ 12 bilhoes. valor do investimento e modelo de concessao privada na via dutra. checado por pinoquio e vav: obra executada pela concessionaria motiva com aporte de r$ 1,5 bilhao, e nao r$ 12 bilhoes governamentais diretos. lula exagerou as cifras."
+    "searchTokens": "20 caso-20 luiz inacio lula da silva lula infraestrutura / rodovias estamos fazendo a serra das araras, uma obra de quase r$ 12 bilhoes. valor do investimento e modelo de concessao privada na via dutra. checado por pinoquio e vav: obra executada pela concessionaria motiva com aporte de r$ 1,5 bilhao, e nao r$ 12 bilhoes governamentais diretos. lula exagerou as cifras.",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-021",
@@ -2665,7 +2685,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "21 decl-021 flavio bolsonaro flavio seguranca publica flavio bolsonaro afirma que nunca foi investigado por envolvimento com milicias. …candidato aqui insiste em me acusar de crimes que eu nunca cometi. desde que o brasil foi descoberto la em 1500, eu nunca fui investigado por causa de envolvimento com milicia, lula. isso e coisa da sua cabeca,. as fontes mostram suspeitas e investigacoes proximas a flavio envolvendo milicianos (gabinete, emenda a peixe), mas nao confirmam nem refutam que ele proprio tenha sido formalmente investigado por envolvimento com milicia. flavio diz que nunca foi investigado por envolvimento com milicia. as fontes registram vinculos e suspeitas. ele empregou na alerj a mae e a esposa de adriano da nobrega, apontado como chefe do escritorio do crime [1][6][4]. tambem homenageou adriano [7]. seu gabinete destinou uma emenda de quase r$ 200 mil a pedido do miliciano peixe; esse caso faz parte de uma investigacao da pf aberta em julho de 2026 sobre desvios de emendas [1][2][5]. a bbc informa que ele se tornou alvo de nova investigacao no stf, mas o trecho disponivel nao diz qual e o objeto [1]. as investigacoes formais contra ele descritas nas fontes tratam de rachadinha e organizacao criminosa voltada a desvio e lavagem de dinheiro [3], alem de improbidade na esfera civel [4], e nao de participacao em milicia. a investigacao da pf sobre as emendas mira desvios ligados a entidades dos brazao; os trechos nao dizem que flavio seja investigado nela [1][2]. as fontes, portanto, nao comprovam que ele tenha sido investigado por envolvimento com milicia nem descartam isso. sua negacao nao serve de prova. insustentavel falso"
+    "searchTokens": "21 decl-021 flavio bolsonaro flavio seguranca publica flavio bolsonaro afirma que nunca foi investigado por envolvimento com milicias. …candidato aqui insiste em me acusar de crimes que eu nunca cometi. desde que o brasil foi descoberto la em 1500, eu nunca fui investigado por causa de envolvimento com milicia, lula. isso e coisa da sua cabeca,. as fontes mostram suspeitas e investigacoes proximas a flavio envolvendo milicianos (gabinete, emenda a peixe), mas nao confirmam nem refutam que ele proprio tenha sido formalmente investigado por envolvimento com milicia. flavio diz que nunca foi investigado por envolvimento com milicia. as fontes registram vinculos e suspeitas. ele empregou na alerj a mae e a esposa de adriano da nobrega, apontado como chefe do escritorio do crime [1][6][4]. tambem homenageou adriano [7]. seu gabinete destinou uma emenda de quase r$ 200 mil a pedido do miliciano peixe; esse caso faz parte de uma investigacao da pf aberta em julho de 2026 sobre desvios de emendas [1][2][5]. a bbc informa que ele se tornou alvo de nova investigacao no stf, mas o trecho disponivel nao diz qual e o objeto [1]. as investigacoes formais contra ele descritas nas fontes tratam de rachadinha e organizacao criminosa voltada a desvio e lavagem de dinheiro [3], alem de improbidade na esfera civel [4], e nao de participacao em milicia. a investigacao da pf sobre as emendas mira desvios ligados a entidades dos brazao; os trechos nao dizem que flavio seja investigado nela [1][2]. as fontes, portanto, nao comprovam que ele tenha sido investigado por envolvimento com milicia nem descartam isso. sua negacao nao serve de prova. insustentavel falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-022",
@@ -2761,7 +2782,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "22 decl-022 luiz inacio lula da silva lula corrupcao o governo bolsonaro gastou quase 30% a mais com o cartao corporativo do que o governo lula. eles gastaram quase 30% a mais do que nos. falso. as fontes indicam o oposto: o governo lula gastou mais que o de bolsonaro com cartao corporativo, 31% a mais em todos os ministerios em periodo comparavel e 66% a mais na presidencia. lula afirmou que o governo bolsonaro gastou quase 30% a mais que o seu com cartao corporativo. a gazeta do povo [1] mostra o inverso: ate agosto do primeiro ano, o governo lula gastou r$ 45,7 milhoes e o de bolsonaro, r$ 35 milhoes em 2019, em valores atualizados. os gastos de lula foram, portanto, 31% maiores. os gastos diretos da presidencia tambem foram maiores com lula: r$ 7,9 milhoes contra r$ 4,09 milhoes. o estadao verifica [2] aponta que, considerando so a presidencia, o governo lula gastou 66% a mais nos tres primeiros anos (r$ 45 milhoes) do que bolsonaro em quatro anos (r$ 27,6 milhoes). as checagens [4] e [2] desmentem a comparacao inflada de r$ 1,4 bilhao contra r$ 27 milhoes, mas nao sustentam que bolsonaro tenha gastado mais. a bbc [3] indica que os dois primeiros mandatos de lula tiveram a maior media anual de gastos. o percentual de cerca de 30% parece invertido: corresponde ao quanto lula gastou a mais. falso falso"
+    "searchTokens": "22 decl-022 luiz inacio lula da silva lula corrupcao o governo bolsonaro gastou quase 30% a mais com o cartao corporativo do que o governo lula. eles gastaram quase 30% a mais do que nos. falso. as fontes indicam o oposto: o governo lula gastou mais que o de bolsonaro com cartao corporativo, 31% a mais em todos os ministerios em periodo comparavel e 66% a mais na presidencia. lula afirmou que o governo bolsonaro gastou quase 30% a mais que o seu com cartao corporativo. a gazeta do povo [1] mostra o inverso: ate agosto do primeiro ano, o governo lula gastou r$ 45,7 milhoes e o de bolsonaro, r$ 35 milhoes em 2019, em valores atualizados. os gastos de lula foram, portanto, 31% maiores. os gastos diretos da presidencia tambem foram maiores com lula: r$ 7,9 milhoes contra r$ 4,09 milhoes. o estadao verifica [2] aponta que, considerando so a presidencia, o governo lula gastou 66% a mais nos tres primeiros anos (r$ 45 milhoes) do que bolsonaro em quatro anos (r$ 27,6 milhoes). as checagens [4] e [2] desmentem a comparacao inflada de r$ 1,4 bilhao contra r$ 27 milhoes, mas nao sustentam que bolsonaro tenha gastado mais. a bbc [3] indica que os dois primeiros mandatos de lula tiveram a maior media anual de gastos. o percentual de cerca de 30% parece invertido: corresponde ao quanto lula gastou a mais. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-023",
@@ -2867,7 +2889,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "23 decl-023 flavio bolsonaro flavio corrupcao o governo lula impos sigilo sobre os registros de entrada no palacio da alvorada, o que, segundo flavio bolsonaro, esconderia visitas de roberta luchsinger. e ai voce vai ver, ele bota sigilo nas entradas do palacio do alvorada. por que? para esconder a entrada da roberta luchsinger la? verdadeiro. o gsi do governo lula impos sigilo aos registros de visitas ao alvorada desde 2023 e negou, via lai, os acessos de roberta luchsinger. a pergunta sobre a motivacao e insinuacao, nao fato verificavel. as fontes confirmam o fato central. em 2023, o governo lula classificou como reservados os registros de acesso as residencias oficiais ate o fim do mandato, alegando risco a seguranca do presidente [1]. em setembro de 2026, o gsi negou um pedido feito via lai pelos registros de entrada e saida da lobista roberta luchsinger no alvorada entre janeiro de 2023 e setembro de 2026 [2][3][5]. lula disse desconhecer a decisao e negou conhecer luchsinger [4]; o planalto tambem nega que ela tenha participado de reunioes [3]. a pergunta retorica de flavio sobre a intencao ('para esconder?') e uma insinuacao que as fontes nao confirmam nem refutam. vale notar que o sigilo geral e anterior ao caso e foi justificado por seguranca. ainda assim, o nucleo factual, de que ha sigilo sobre as entradas no alvorada e de que ele alcanca as visitas de luchsinger, esta correto. a fonte [6] menciona uma intencao de retirar o sigilo, mas nao altera a recusa de 2026. verdadeiro verdadeiro"
+    "searchTokens": "23 decl-023 flavio bolsonaro flavio corrupcao o governo lula impos sigilo sobre os registros de entrada no palacio da alvorada, o que, segundo flavio bolsonaro, esconderia visitas de roberta luchsinger. e ai voce vai ver, ele bota sigilo nas entradas do palacio do alvorada. por que? para esconder a entrada da roberta luchsinger la? verdadeiro. o gsi do governo lula impos sigilo aos registros de visitas ao alvorada desde 2023 e negou, via lai, os acessos de roberta luchsinger. a pergunta sobre a motivacao e insinuacao, nao fato verificavel. as fontes confirmam o fato central. em 2023, o governo lula classificou como reservados os registros de acesso as residencias oficiais ate o fim do mandato, alegando risco a seguranca do presidente [1]. em setembro de 2026, o gsi negou um pedido feito via lai pelos registros de entrada e saida da lobista roberta luchsinger no alvorada entre janeiro de 2023 e setembro de 2026 [2][3][5]. lula disse desconhecer a decisao e negou conhecer luchsinger [4]; o planalto tambem nega que ela tenha participado de reunioes [3]. a pergunta retorica de flavio sobre a intencao ('para esconder?') e uma insinuacao que as fontes nao confirmam nem refutam. vale notar que o sigilo geral e anterior ao caso e foi justificado por seguranca. ainda assim, o nucleo factual, de que ha sigilo sobre as entradas no alvorada e de que ele alcanca as visitas de luchsinger, esta correto. a fonte [6] menciona uma intencao de retirar o sigilo, mas nao altera a recusa de 2026. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-024",
@@ -2968,7 +2991,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "24 decl-024 flavio bolsonaro flavio corrupcao o filho de lula, fabio luis (lulinha), mora na espanha. ele nao declara os bens dele, o filho dele esta la na europa, esta na espanha. verdadeiro. as fontes confirmam que fabio luis (lulinha), filho de lula, mora na espanha, em la moraleja, perto de madri, desde meados de 2025. o nucleo verificavel da fala e que o filho de lula esta na espanha. diversas fontes confirmam o fato. folha e metropoles informam que fabio luis lula da silva vive em um condominio em la moraleja, nos arredores de madri. a cnn relata a vida dele e da familia em madri, e o proprio advogado confirma que ele mora la. segundo e, a mudanca ocorreu em meados (junho) de 2025. lulinha tambem abriu uma empresa em madri. a insinuacao de que o dinheiro de aposentados poderia sustenta-lo e apresentada pelo candidato como possibilidade ('pode ser'), e nao como fato. as fontes indicam que ele e investigado em inqueritos da pf ligados ao caso inss, mas nao foi indiciado nem condenado, e sua defesa afirma que ele vive de renda propria. verdadeiro verdadeiro"
+    "searchTokens": "24 decl-024 flavio bolsonaro flavio corrupcao o filho de lula, fabio luis (lulinha), mora na espanha. ele nao declara os bens dele, o filho dele esta la na europa, esta na espanha. verdadeiro. as fontes confirmam que fabio luis (lulinha), filho de lula, mora na espanha, em la moraleja, perto de madri, desde meados de 2025. o nucleo verificavel da fala e que o filho de lula esta na espanha. diversas fontes confirmam o fato. folha e metropoles informam que fabio luis lula da silva vive em um condominio em la moraleja, nos arredores de madri. a cnn relata a vida dele e da familia em madri, e o proprio advogado confirma que ele mora la. segundo e, a mudanca ocorreu em meados (junho) de 2025. lulinha tambem abriu uma empresa em madri. a insinuacao de que o dinheiro de aposentados poderia sustenta-lo e apresentada pelo candidato como possibilidade ('pode ser'), e nao como fato. as fontes indicam que ele e investigado em inqueritos da pf ligados ao caso inss, mas nao foi indiciado nem condenado, e sua defesa afirma que ele vive de renda propria. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-025",
@@ -3074,7 +3098,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "25 decl-025 flavio bolsonaro flavio corrupcao um filho de lula registrou um imovel em nome de um laranja. \"olha, ele perde a linha, se descontrola, porque o filho dele declarou o imovel no nome de um laranja. as fontes mostram suspeitas e investigacoes sobre laranjas ligados a lula e a negocios de seus filhos, mas nenhuma comprova que um filho de lula registrou um imovel em nome de laranja. o trecho afirma que o filho de lula declarou um imovel no nome de um laranja. as fontes tratam de casos proximos, mas nao confirmam esse fato. glaucos da costamarques e apontado pelo mpf e pela receita como possivel laranja do proprio lula na compra de um apartamento e de um terreno [1][3]. o que se investigava sobre o filho luis claudio era uma empresa, nao um imovel [1]. o sitio de atibaia esta registrado em nome de fernando bittar e jonas suassuna, socios de lulinha, e a suspeita dos investigadores e de que o dono oculto seria lula, nao o filho [2][4][5]. a defesa de bittar nega que ele seja laranja [5]. a lava jato tambem apurou compras de bens de lulinha em nome de kalil bittar, mas eram eletrodomesticos, nao um imovel [4]. a fonte [6] cita novas investigacoes contra lulinha, sem detalhes sobre o tema. nenhuma fonte mostra condenacao nem prova publicada de que um filho de lula registrou um imovel em nome de laranja. a acusacao permanece no campo das suspeitas e investigacoes. insustentavel falso"
+    "searchTokens": "25 decl-025 flavio bolsonaro flavio corrupcao um filho de lula registrou um imovel em nome de um laranja. \"olha, ele perde a linha, se descontrola, porque o filho dele declarou o imovel no nome de um laranja. as fontes mostram suspeitas e investigacoes sobre laranjas ligados a lula e a negocios de seus filhos, mas nenhuma comprova que um filho de lula registrou um imovel em nome de laranja. o trecho afirma que o filho de lula declarou um imovel no nome de um laranja. as fontes tratam de casos proximos, mas nao confirmam esse fato. glaucos da costamarques e apontado pelo mpf e pela receita como possivel laranja do proprio lula na compra de um apartamento e de um terreno [1][3]. o que se investigava sobre o filho luis claudio era uma empresa, nao um imovel [1]. o sitio de atibaia esta registrado em nome de fernando bittar e jonas suassuna, socios de lulinha, e a suspeita dos investigadores e de que o dono oculto seria lula, nao o filho [2][4][5]. a defesa de bittar nega que ele seja laranja [5]. a lava jato tambem apurou compras de bens de lulinha em nome de kalil bittar, mas eram eletrodomesticos, nao um imovel [4]. a fonte [6] cita novas investigacoes contra lulinha, sem detalhes sobre o tema. nenhuma fonte mostra condenacao nem prova publicada de que um filho de lula registrou um imovel em nome de laranja. a acusacao permanece no campo das suspeitas e investigacoes. insustentavel falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-026",
@@ -3180,7 +3205,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "26 decl-026 flavio bolsonaro flavio instituicoes e eleicoes lula prometeu nao indicar amigos ao supremo tribunal federal e indicou amigos, como cristiano zanin, ao stf. voce prometeu que nao ia indicar seus amigos pro supremo, indicou. voce prometeu picanha e entregou abobora. verdadeiro. na campanha de 2022, lula disse ser contra indicar amigos ao stf. em 2023, indicou cristiano zanin, seu advogado, a quem ele proprio chamou de amigo. no debate da band de outubro de 2022, lula afirmou que 'nao e prudente, nao e democratico' um presidente querer ministros do stf como amigos e que a escolha deve se basear em competencia, 'e nao por amizade' [3][4]. no jornal nacional, disse: 'eu nao quero amigo em nenhuma instituicao' [1]. em marco de 2023, lula se referiu a zanin como 'meu amigo, meu companheiro' [1]. em 1º de junho de 2023, indicou zanin, que foi seu advogado na lava jato, para a vaga de lewandowski; o senado aprovou o nome em 21 de junho [2][5]. lula negou ter indicado alguem por amizade [6], mas a fala dele nao prova o fato. o proprio presidente reconheceu a amizade, e as fontes apontam a contradicao com a promessa de campanha [1][2][3]. o nucleo da afirmacao, de que prometeu nao indicar amigos e indicou, e sustentado. a fala sobre 'picanha e abobora' e retorica e nao foi avaliada. verdadeiro verdadeiro"
+    "searchTokens": "26 decl-026 flavio bolsonaro flavio instituicoes e eleicoes lula prometeu nao indicar amigos ao supremo tribunal federal e indicou amigos, como cristiano zanin, ao stf. voce prometeu que nao ia indicar seus amigos pro supremo, indicou. voce prometeu picanha e entregou abobora. verdadeiro. na campanha de 2022, lula disse ser contra indicar amigos ao stf. em 2023, indicou cristiano zanin, seu advogado, a quem ele proprio chamou de amigo. no debate da band de outubro de 2022, lula afirmou que 'nao e prudente, nao e democratico' um presidente querer ministros do stf como amigos e que a escolha deve se basear em competencia, 'e nao por amizade' [3][4]. no jornal nacional, disse: 'eu nao quero amigo em nenhuma instituicao' [1]. em marco de 2023, lula se referiu a zanin como 'meu amigo, meu companheiro' [1]. em 1º de junho de 2023, indicou zanin, que foi seu advogado na lava jato, para a vaga de lewandowski; o senado aprovou o nome em 21 de junho [2][5]. lula negou ter indicado alguem por amizade [6], mas a fala dele nao prova o fato. o proprio presidente reconheceu a amizade, e as fontes apontam a contradicao com a promessa de campanha [1][2][3]. o nucleo da afirmacao, de que prometeu nao indicar amigos e indicou, e sustentado. a fala sobre 'picanha e abobora' e retorica e nao foi avaliada. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-027",
@@ -3281,7 +3307,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "27 decl-027 flavio bolsonaro flavio instituicoes e eleicoes lula prometeu que nao decretaria sigilo de cem anos e, no governo, decretou sigilos de cem anos. \"por que voce nao tira o sigilo de 100 anos que voce prometeu que nao ia fazer e fez? verdadeiro. lula criticou e prometeu derrubar os sigilos de 100 anos de bolsonaro, mas seu governo negou milhares de pedidos via lai por dados pessoais, o que na pratica impoe sigilo centenario. na campanha de 2022, lula prometeu um 'revogaco' dos sigilos de 100 anos [2][4]. ao assumir, o governo afirmou que nao seguiria a pratica do antecessor [1]. ainda assim, em 2023 negou 1.339 pedidos de informacao com a justificativa de dados pessoais, o que na pratica impoe sigilo de 100 anos. entre os casos estao a agenda de janja, comunicacoes sobre robinho e a lista de militares de plantao no 8 de janeiro [1][2]. entre 2023 e 2024 foram cerca de 3.210 negativas, numero semelhante ao do governo bolsonaro [3][5]. ha uma ressalva tecnica: o sigilo decorre do artigo 31 da lai, em vigor desde 2011, e nao de um decreto especifico [2][3]. a cgu editou normas para restringir esse uso e anunciou um projeto de lei para acabar com o prazo [3]. essas ressalvas nao mudam o nucleo da fala: houve a promessa, e o governo aplicou sigilos de 100 anos. verdadeiro verdadeiro"
+    "searchTokens": "27 decl-027 flavio bolsonaro flavio instituicoes e eleicoes lula prometeu que nao decretaria sigilo de cem anos e, no governo, decretou sigilos de cem anos. \"por que voce nao tira o sigilo de 100 anos que voce prometeu que nao ia fazer e fez? verdadeiro. lula criticou e prometeu derrubar os sigilos de 100 anos de bolsonaro, mas seu governo negou milhares de pedidos via lai por dados pessoais, o que na pratica impoe sigilo centenario. na campanha de 2022, lula prometeu um 'revogaco' dos sigilos de 100 anos [2][4]. ao assumir, o governo afirmou que nao seguiria a pratica do antecessor [1]. ainda assim, em 2023 negou 1.339 pedidos de informacao com a justificativa de dados pessoais, o que na pratica impoe sigilo de 100 anos. entre os casos estao a agenda de janja, comunicacoes sobre robinho e a lista de militares de plantao no 8 de janeiro [1][2]. entre 2023 e 2024 foram cerca de 3.210 negativas, numero semelhante ao do governo bolsonaro [3][5]. ha uma ressalva tecnica: o sigilo decorre do artigo 31 da lai, em vigor desde 2011, e nao de um decreto especifico [2][3]. a cgu editou normas para restringir esse uso e anunciou um projeto de lei para acabar com o prazo [3]. essas ressalvas nao mudam o nucleo da fala: houve a promessa, e o governo aplicou sigilos de 100 anos. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-028",
@@ -3387,7 +3414,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "28 decl-028 flavio bolsonaro flavio outros flavio bolsonaro exerce mandatos de deputado e senador ha 24 anos. ha 24 anos eu sou deputado e senador. verdadeiro. flavio exerce mandatos legislativos desde fevereiro de 2003: foi deputado estadual (2003-2019) e e senador desde 2019. em outubro de 2026, isso soma cerca de 23 anos e 9 meses, o que arredonda para 24. as fontes confirmam que flavio bolsonaro assumiu como deputado estadual do rio de janeiro em 1º de fevereiro de 2003. ele cumpriu quatro mandatos consecutivos ate 2019 [2][6][3][5]. desde fevereiro de 2019 e senador, com mandato ate 2027 [1][3]. o diario de maringa calculou cerca de 23 anos e sete meses de atividade parlamentar sem interrupcao ate 30 de agosto de 2026 [2]. na data da fala, 23 de outubro de 2026, seriam cerca de 23 anos e nove meses, e arredondar para 24 nao muda o ponto. o poder360 tambem registra que ele esta no legislativo desde 2003 [4]. ressalva: o cargo de deputado era estadual, nao federal, mas a fala nao especifica o tipo de mandato. verdadeiro verdadeiro"
+    "searchTokens": "28 decl-028 flavio bolsonaro flavio outros flavio bolsonaro exerce mandatos de deputado e senador ha 24 anos. ha 24 anos eu sou deputado e senador. verdadeiro. flavio exerce mandatos legislativos desde fevereiro de 2003: foi deputado estadual (2003-2019) e e senador desde 2019. em outubro de 2026, isso soma cerca de 23 anos e 9 meses, o que arredonda para 24. as fontes confirmam que flavio bolsonaro assumiu como deputado estadual do rio de janeiro em 1º de fevereiro de 2003. ele cumpriu quatro mandatos consecutivos ate 2019 [2][6][3][5]. desde fevereiro de 2019 e senador, com mandato ate 2027 [1][3]. o diario de maringa calculou cerca de 23 anos e sete meses de atividade parlamentar sem interrupcao ate 30 de agosto de 2026 [2]. na data da fala, 23 de outubro de 2026, seriam cerca de 23 anos e nove meses, e arredondar para 24 nao muda o ponto. o poder360 tambem registra que ele esta no legislativo desde 2003 [4]. ressalva: o cargo de deputado era estadual, nao federal, mas a fala nao especifica o tipo de mandato. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-029",
@@ -3483,7 +3511,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "29 decl-029 luiz inacio lula da silva lula corrupcao lula insinua que bolsonaro, com salario de cerca de 46 mil reais, comprou imovel de 10 milhoes de reais, o que seria incompativel com sua renda. e eu quero que voce explique como e que o senhor ganha r$ 46 mil igual a voce, e voce consegue comprar uma casa de. exagerado: flavio bolsonaro de fato recebe r$ 46,4 mil, o mesmo salario de lula, mas a casa custou cerca de r$ 6 milhoes (r$ 5,97 mi), nao r$ 10 milhoes. a afirmacao cita \"bolsonaro\", mas o alvo era flavio. o trecho e parte da fala de lula no debate da band, dirigida ao senador flavio bolsonaro, e nao a jair bolsonaro. nela, lula questiona como alguem com salario de r$ 46 mil comprou uma casa que, no mesmo debate, ele disse valer r$ 10 milhoes [1][4]. o salario esta correto: presidente e senadores recebem r$ 46.366,19 [1]. o valor do imovel, porem, foi inflado. a mansao no lago sul foi comprada em 2021 por r$ 5,97 milhoes, com r$ 2,87 milhoes de entrada e r$ 3,1 milhoes financiados pelo brb. o financiamento foi quitado em 2024, o que levantou questionamentos sobre a origem dos recursos [3][1]. o estadao verifica classificou como exagerada a fala sobre a casa de r$ 10 milhoes [2]. portanto, a direcao do questionamento sobre a compatibilidade entre renda e patrimonio tem base, mas a cifra de r$ 10 milhoes supera em cerca de 67% o valor pago. a fonte [4] associa os r$ 10 milhoes a outro imovel, em angra dos reis, ligado a uma disputa com richarlison, mas as checagens consideram que lula se referia a casa de brasilia. exagerado enganoso"
+    "searchTokens": "29 decl-029 luiz inacio lula da silva lula corrupcao lula insinua que bolsonaro, com salario de cerca de 46 mil reais, comprou imovel de 10 milhoes de reais, o que seria incompativel com sua renda. e eu quero que voce explique como e que o senhor ganha r$ 46 mil igual a voce, e voce consegue comprar uma casa de. exagerado: flavio bolsonaro de fato recebe r$ 46,4 mil, o mesmo salario de lula, mas a casa custou cerca de r$ 6 milhoes (r$ 5,97 mi), nao r$ 10 milhoes. a afirmacao cita \"bolsonaro\", mas o alvo era flavio. o trecho e parte da fala de lula no debate da band, dirigida ao senador flavio bolsonaro, e nao a jair bolsonaro. nela, lula questiona como alguem com salario de r$ 46 mil comprou uma casa que, no mesmo debate, ele disse valer r$ 10 milhoes [1][4]. o salario esta correto: presidente e senadores recebem r$ 46.366,19 [1]. o valor do imovel, porem, foi inflado. a mansao no lago sul foi comprada em 2021 por r$ 5,97 milhoes, com r$ 2,87 milhoes de entrada e r$ 3,1 milhoes financiados pelo brb. o financiamento foi quitado em 2024, o que levantou questionamentos sobre a origem dos recursos [3][1]. o estadao verifica classificou como exagerada a fala sobre a casa de r$ 10 milhoes [2]. portanto, a direcao do questionamento sobre a compatibilidade entre renda e patrimonio tem base, mas a cifra de r$ 10 milhoes supera em cerca de 67% o valor pago. a fonte [4] associa os r$ 10 milhoes a outro imovel, em angra dos reis, ligado a uma disputa com richarlison, mas as checagens consideram que lula se referia a casa de brasilia. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-030",
@@ -3584,7 +3613,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "30 decl-030 flavio bolsonaro flavio corrupcao o triplex do guaruja nao esta registrado no nome de lula. o triplex la do guaruja tambem nao esta no seu nome. verdadeiro. as fontes confirmam que a matricula do triplex do guaruja permaneceu em nome da oas, nao de lula, fato reconhecido ate na sentenca de moro. segundo a reportagem sobre a sentenca [1], o proprio juiz sergio moro afirmou nao haver duvida de que o registro da matricula do imovel aponta que ele permanece em nome da oas e que nao ha escritura em nome do ex-presidente. o procurador do mpf tambem admitiu que lula nao figurava como proprietario, mas tratou isso como forma de ocultacao [2]. a defesa afirma que o imovel esta em nome da oas empreendimentos [3], e o apartamento chegou a ser penhorado por uma divida da oas [4][5]. a justica decretou o confisco do imovel como produto de crime [5], mas isso nao altera o fato formal de que o registro nunca esteve em nome de lula. o debate juridico sobre a propriedade de fato nao muda a precisao da frase, que trata apenas de em nome de quem o imovel esta. verdadeiro verdadeiro"
+    "searchTokens": "30 decl-030 flavio bolsonaro flavio corrupcao o triplex do guaruja nao esta registrado no nome de lula. o triplex la do guaruja tambem nao esta no seu nome. verdadeiro. as fontes confirmam que a matricula do triplex do guaruja permaneceu em nome da oas, nao de lula, fato reconhecido ate na sentenca de moro. segundo a reportagem sobre a sentenca [1], o proprio juiz sergio moro afirmou nao haver duvida de que o registro da matricula do imovel aponta que ele permanece em nome da oas e que nao ha escritura em nome do ex-presidente. o procurador do mpf tambem admitiu que lula nao figurava como proprietario, mas tratou isso como forma de ocultacao [2]. a defesa afirma que o imovel esta em nome da oas empreendimentos [3], e o apartamento chegou a ser penhorado por uma divida da oas [4][5]. a justica decretou o confisco do imovel como produto de crime [5], mas isso nao altera o fato formal de que o registro nunca esteve em nome de lula. o debate juridico sobre a propriedade de fato nao muda a precisao da frase, que trata apenas de em nome de quem o imovel esta. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-031",
@@ -3695,7 +3725,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "31 decl-031 flavio bolsonaro flavio corrupcao no sitio de atibaia atribuido a lula havia pedalinhos com os nomes dos netos de lula. e tinha o pedalinho com o nome dos seus netos. verdadeiro. fontes confirmam que dois pedalinhos no lago do sitio de atibaia tinham capas com os nomes pedro e arthur, netos de lula. o globo [1][5], veja [2] e gazeta do povo [4] relatam que dois pedalinhos em forma de cisne no lago do sitio de atibaia (sp), frequentado por lula, tinham capas pretas com os nomes pedro e arthur, dois netos do ex-presidente. as imagens apareceram no jornal nacional em 2016 [7]. segundo [3] e [4], os pedalinhos foram comprados em 2013 por um assessor da presidencia que prestava apoio a ex-presidentes. a lava jato usou esse elemento entre os indicios que ligariam lula ao imovel [6]. a fala do candidato corresponde ao que as fontes descrevem. verdadeiro verdadeiro"
+    "searchTokens": "31 decl-031 flavio bolsonaro flavio corrupcao no sitio de atibaia atribuido a lula havia pedalinhos com os nomes dos netos de lula. e tinha o pedalinho com o nome dos seus netos. verdadeiro. fontes confirmam que dois pedalinhos no lago do sitio de atibaia tinham capas com os nomes pedro e arthur, netos de lula. o globo [1][5], veja [2] e gazeta do povo [4] relatam que dois pedalinhos em forma de cisne no lago do sitio de atibaia (sp), frequentado por lula, tinham capas pretas com os nomes pedro e arthur, dois netos do ex-presidente. as imagens apareceram no jornal nacional em 2016 [7]. segundo [3] e [4], os pedalinhos foram comprados em 2013 por um assessor da presidencia que prestava apoio a ex-presidentes. a lava jato usou esse elemento entre os indicios que ligariam lula ao imovel [6]. a fala do candidato corresponde ao que as fontes descrevem. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-032",
@@ -3796,7 +3827,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "32 decl-032 flavio bolsonaro flavio corrupcao o sitio de atibaia nao consta na declaracao de bens de lula. …o sitio atibaia esta la na sua declaracao? nao vai estar. procede: o sitio de atibaia nao aparece na declaracao de bens de lula ao tse. o imovel esta registrado em nome de fernando bittar e jonas suassuna, e a condenacao de lula no caso foi anulada pelo stf. a declaracao mais recente de lula ao tse, de 2018, lista tres terrenos em riacho grande (a chacara los fubangos), tres apartamentos, dois carros e aplicacoes financeiras. o sitio de atibaia nao consta [1][4]. as declaracoes anteriores, de 1998 a 2006, tambem nao o incluem [5]. o imovel esta registrado em cartorio em nome de fernando bittar e jonas suassuna [2][3]. o mpf acusou lula de ser o real proprietario, e ele chegou a ser condenado, mas o stf anulou as sentencas em 2021 [3][4]. o fato afirmado esta correto. a insinuacao de que lula ocultaria um bem proprio se apoia numa acusacao cuja condenacao foi anulada; as fontes nao comprovam nem afastam a propriedade de fato. verdadeiro verdadeiro"
+    "searchTokens": "32 decl-032 flavio bolsonaro flavio corrupcao o sitio de atibaia nao consta na declaracao de bens de lula. …o sitio atibaia esta la na sua declaracao? nao vai estar. procede: o sitio de atibaia nao aparece na declaracao de bens de lula ao tse. o imovel esta registrado em nome de fernando bittar e jonas suassuna, e a condenacao de lula no caso foi anulada pelo stf. a declaracao mais recente de lula ao tse, de 2018, lista tres terrenos em riacho grande (a chacara los fubangos), tres apartamentos, dois carros e aplicacoes financeiras. o sitio de atibaia nao consta [1][4]. as declaracoes anteriores, de 1998 a 2006, tambem nao o incluem [5]. o imovel esta registrado em cartorio em nome de fernando bittar e jonas suassuna [2][3]. o mpf acusou lula de ser o real proprietario, e ele chegou a ser condenado, mas o stf anulou as sentencas em 2021 [3][4]. o fato afirmado esta correto. a insinuacao de que lula ocultaria um bem proprio se apoia numa acusacao cuja condenacao foi anulada; as fontes nao comprovam nem afastam a propriedade de fato. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-033",
@@ -3902,7 +3934,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "33 decl-033 flavio bolsonaro flavio corrupcao lula foi condenado por ocultacao de patrimonio. voce foi condenado por ocultacao de patrimonio, lula. verdadeiro segundo as fontes: lula foi condenado por lavagem de dinheiro no caso do triplex, crime que os tribunais fundamentaram na ocultacao da propriedade do imovel. o nome tecnico do crime e lavagem, nao ocultacao de patrimonio. as fontes mostram que lula foi condenado em primeira instancia e pelo trf4 por corrupcao passiva e lavagem de dinheiro no caso do triplex [3]. o stj manteve a condenacao e reduziu a pena [4]. os desembargadores consideraram que reservar o imovel para lula sem transferencia formal configurou tentativa de ocultar o patrimonio, o que caracteriza lavagem [1]. o ministro ribeiro dantas, do stj, afirmou que a condenacao por lavagem decorreu da tentativa de ocultar e dissimular a propriedade do triplex [4]. no caso do sitio de atibaia, o trf4 tambem confirmou a condenacao por lavagem, citando ocultacao do real beneficiario [2]. a denuncia do mp-sp por ocultacao de patrimonio era uma acusacao, nao uma condenacao [5][6]. a imprecisao esta no nome do crime: o tipo penal e lavagem de dinheiro, mas o nucleo da fala corresponde ao que as fontes descrevem. as fontes recuperadas nao tratam de eventual anulacao posterior dessas condenacoes; o veredicto se baseia apenas no que elas mostram. verdadeiro verdadeiro"
+    "searchTokens": "33 decl-033 flavio bolsonaro flavio corrupcao lula foi condenado por ocultacao de patrimonio. voce foi condenado por ocultacao de patrimonio, lula. verdadeiro segundo as fontes: lula foi condenado por lavagem de dinheiro no caso do triplex, crime que os tribunais fundamentaram na ocultacao da propriedade do imovel. o nome tecnico do crime e lavagem, nao ocultacao de patrimonio. as fontes mostram que lula foi condenado em primeira instancia e pelo trf4 por corrupcao passiva e lavagem de dinheiro no caso do triplex [3]. o stj manteve a condenacao e reduziu a pena [4]. os desembargadores consideraram que reservar o imovel para lula sem transferencia formal configurou tentativa de ocultar o patrimonio, o que caracteriza lavagem [1]. o ministro ribeiro dantas, do stj, afirmou que a condenacao por lavagem decorreu da tentativa de ocultar e dissimular a propriedade do triplex [4]. no caso do sitio de atibaia, o trf4 tambem confirmou a condenacao por lavagem, citando ocultacao do real beneficiario [2]. a denuncia do mp-sp por ocultacao de patrimonio era uma acusacao, nao uma condenacao [5][6]. a imprecisao esta no nome do crime: o tipo penal e lavagem de dinheiro, mas o nucleo da fala corresponde ao que as fontes descrevem. as fontes recuperadas nao tratam de eventual anulacao posterior dessas condenacoes; o veredicto se baseia apenas no que elas mostram. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-034",
@@ -3998,7 +4031,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "34 decl-034 luiz inacio lula da silva lula instituicoes e eleicoes lula afirma que seus advogados entregaram toda a sua documentacao de candidatura ao tribunal superior eleitoral. o meu material esta la. procede. o \"material\" de lula, no contexto, sao as autorizacoes para abrir sigilos, e o o globo relata que a campanha dele assinou com a de flavio uma peticao ao tse autorizando a abertura. isso nao e a documentacao de candidatura que a o trecho original diz apenas \"o meu material esta la\". a data e o contexto mostram que a fala se refere a disputa entre as campanhas sobre a abertura de sigilos no tse. nao se refere a documentacao de registro de candidatura, como sugere a afirmacao. a fonte [1] (o globo, 22/10/2026) relata que lula e autor de uma peticao relatada pelo ministro andre mendonca que autoriza a divulgacao de seus sigilos bancario, fiscal e telefonico. tambem informa que, por meio de suas equipes juridicas, lula e flavio assinaram uma peticao autorizando o levantamento imediato dos dados. portanto, ha material de lula protocolado no tse. a mesma fonte registra uma divergencia: a campanha petista disse que so entregaria documentos de forma simultanea com flavio. ja a advogada de flavio queria primeiro analisar o material de lula. assim, a fonte nao esclarece se cada documento especifico ja havia sido entregue ate o debate. as fontes sobre registro de candidatura ([2], [3], [4]) tratam de 2018/2022 ou de regras gerais. elas nao contradizem a fala. o nucleo, de que ha material de lula no tse, e sustentado por [1]. verdadeiro verdadeiro"
+    "searchTokens": "34 decl-034 luiz inacio lula da silva lula instituicoes e eleicoes lula afirma que seus advogados entregaram toda a sua documentacao de candidatura ao tribunal superior eleitoral. o meu material esta la. procede. o \"material\" de lula, no contexto, sao as autorizacoes para abrir sigilos, e o o globo relata que a campanha dele assinou com a de flavio uma peticao ao tse autorizando a abertura. isso nao e a documentacao de candidatura que a o trecho original diz apenas \"o meu material esta la\". a data e o contexto mostram que a fala se refere a disputa entre as campanhas sobre a abertura de sigilos no tse. nao se refere a documentacao de registro de candidatura, como sugere a afirmacao. a fonte [1] (o globo, 22/10/2026) relata que lula e autor de uma peticao relatada pelo ministro andre mendonca que autoriza a divulgacao de seus sigilos bancario, fiscal e telefonico. tambem informa que, por meio de suas equipes juridicas, lula e flavio assinaram uma peticao autorizando o levantamento imediato dos dados. portanto, ha material de lula protocolado no tse. a mesma fonte registra uma divergencia: a campanha petista disse que so entregaria documentos de forma simultanea com flavio. ja a advogada de flavio queria primeiro analisar o material de lula. assim, a fonte nao esclarece se cada documento especifico ja havia sido entregue ate o debate. as fontes sobre registro de candidatura ([2], [3], [4]) tratam de 2018/2022 ou de regras gerais. elas nao contradizem a fala. o nucleo, de que ha material de lula no tse, e sustentado por [1]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-035",
@@ -4094,7 +4128,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "35 decl-035 luiz inacio lula da silva lula instituicoes e eleicoes segundo lula, a equipe de flavio bolsonaro nao compareceu ao tribunal superior eleitoral para apresentar sua documentacao no dia em que os advogados de lula entregaram a dele. ficamos esperando a turma dele apresentar. nao apareceram. a equipe de flavio foi ao tse em 22/10, mas sem documentos; nao e que \"nao apareceram\". protocolou procuracoes as 0h17 de 23/10, apos o prazo, e o conteudo da entrega e disputado. as fontes mostram que representantes das duas campanhas estiveram no tse em 22/10. a campanha de lula levou documentos, e a equipe de flavio, liderada pela advogada maria claudia bucchianeri, chegou sem nenhum material [1][3]. a frase \"nao apareceram\" e imprecisa no sentido literal, porque a equipe compareceu e ate assinou um novo termo com prazo ate 23h59 [1][3]. o ponto de fundo, de que flavio nao apresentou a documentacao naquele momento, e correto. segundo camilo santana, a campanha de flavio so protocolou procuracoes as 0h17 de 23/10, depois do prazo; o pl diz ter cumprido o acordo [2]. ha divergencia sobre a entrega de lula: deltan dallagnol afirma que lula entregou apenas uma peticao, nao os documentos prometidos [1][4]. como a equipe de flavio esteve presente, dizer que \"nao apareceram\" distorce o fato de que eles compareceram de maos vazias e entregaram depois. enganoso enganoso"
+    "searchTokens": "35 decl-035 luiz inacio lula da silva lula instituicoes e eleicoes segundo lula, a equipe de flavio bolsonaro nao compareceu ao tribunal superior eleitoral para apresentar sua documentacao no dia em que os advogados de lula entregaram a dele. ficamos esperando a turma dele apresentar. nao apareceram. a equipe de flavio foi ao tse em 22/10, mas sem documentos; nao e que \"nao apareceram\". protocolou procuracoes as 0h17 de 23/10, apos o prazo, e o conteudo da entrega e disputado. as fontes mostram que representantes das duas campanhas estiveram no tse em 22/10. a campanha de lula levou documentos, e a equipe de flavio, liderada pela advogada maria claudia bucchianeri, chegou sem nenhum material [1][3]. a frase \"nao apareceram\" e imprecisa no sentido literal, porque a equipe compareceu e ate assinou um novo termo com prazo ate 23h59 [1][3]. o ponto de fundo, de que flavio nao apresentou a documentacao naquele momento, e correto. segundo camilo santana, a campanha de flavio so protocolou procuracoes as 0h17 de 23/10, depois do prazo; o pl diz ter cumprido o acordo [2]. ha divergencia sobre a entrega de lula: deltan dallagnol afirma que lula entregou apenas uma peticao, nao os documentos prometidos [1][4]. como a equipe de flavio esteve presente, dizer que \"nao apareceram\" distorce o fato de que eles compareceram de maos vazias e entregaram depois. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-036",
@@ -4200,7 +4235,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "36 decl-036 luiz inacio lula da silva lula instituicoes e eleicoes os advogados de lula e o ministro camilo santana foram ao tribunal superior eleitoral entregar a documentacao de lula no dia anterior ao debate. ontem, os meus advogados e o ministro camilo, senador, foram no tribunal eleitoral entregar toda a minha papelada. verdadeiro. em 22/10, vespera da fala, camilo santana, senador e coordenador da campanha, esteve no tse com a equipe de lula e entregou procuracoes e documentos para a abertura dos sigilos. a fala e de 23/10/2026, e o 'ontem' corresponde a 22/10. as fontes confirmam que nesse dia o senador camilo santana (pt-ce), coordenador da campanha, foi ao tse e entregou as procuracoes para a abertura dos sigilos fiscal, bancario e telefonico de lula [3]. ele esteve no tribunal para protocolar a resposta as condicoes apresentadas por flavio bolsonaro [2]. a equipe juridica de lula tambem entregou os documentos de quebra de sigilo [4][5], e a peticao foi assinada no tse nesse mesmo dia [1][6]. ha uma pequena imprecisao: lula o chama de 'ministro camilo, senador', e as fontes o tratam como senador e coordenador de campanha. a gazeta do povo cita tambem o ministro guilherme boulos na entrega [3]. isso nao altera o nucleo da afirmacao. verdadeiro verdadeiro"
+    "searchTokens": "36 decl-036 luiz inacio lula da silva lula instituicoes e eleicoes os advogados de lula e o ministro camilo santana foram ao tribunal superior eleitoral entregar a documentacao de lula no dia anterior ao debate. ontem, os meus advogados e o ministro camilo, senador, foram no tribunal eleitoral entregar toda a minha papelada. verdadeiro. em 22/10, vespera da fala, camilo santana, senador e coordenador da campanha, esteve no tse com a equipe de lula e entregou procuracoes e documentos para a abertura dos sigilos. a fala e de 23/10/2026, e o 'ontem' corresponde a 22/10. as fontes confirmam que nesse dia o senador camilo santana (pt-ce), coordenador da campanha, foi ao tse e entregou as procuracoes para a abertura dos sigilos fiscal, bancario e telefonico de lula [3]. ele esteve no tribunal para protocolar a resposta as condicoes apresentadas por flavio bolsonaro [2]. a equipe juridica de lula tambem entregou os documentos de quebra de sigilo [4][5], e a peticao foi assinada no tse nesse mesmo dia [1][6]. ha uma pequena imprecisao: lula o chama de 'ministro camilo, senador', e as fontes o tratam como senador e coordenador de campanha. a gazeta do povo cita tambem o ministro guilherme boulos na entrega [3]. isso nao altera o nucleo da afirmacao. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-037",
@@ -4301,7 +4337,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "37 decl-037 flavio bolsonaro flavio corrupcao o filho de lula registrou como endereco, em procuracao, um imovel em sao paulo que pode valer ate quinze milhoes de reais. o seu filho colocou como endereco um imovel em sao paulo que pode valer ate. verdadeiro. lulinha citou em procuracao como endereco o apartamento da av. juriti, em sao paulo, e anuncios no mesmo edificio variam de r$ 10 milhoes a r$ 16 milhoes. o trecho original foi cortado antes do valor, mas o nucleo da fala e que o filho de lula indicou como endereco um imovel caro em sao paulo. veja e o sul relatam que fabio luis lula da silva, o lulinha, passou uma procuracao ao pai e ao advogado marco aurelio de carvalho, para tratar de seu sigilo bancario, e nela citou como endereco o apartamento da avenida juriti, na vila uberabinha [1][2][3]. as mesmas fontes informam que anuncios de venda no mesmo edificio vao de r$ 10 milhoes a r$ 16 milhoes, o que torna plausivel o valor de \"ate r$ 15 milhoes\" que aparece na afirmacao [1][2][3]. vale uma ressalva: esse valor e uma estimativa baseada em anuncios de unidades do predio, nao uma avaliacao do apartamento em si. segundo a folha, o imovel foi comprado em 2009 por jonas suassuna por r$ 3 milhoes e alugado por lulinha em 2013 [4]. um inventario de 2018 tambem registra esse endereco como residencia dele [5]. verdadeiro verdadeiro"
+    "searchTokens": "37 decl-037 flavio bolsonaro flavio corrupcao o filho de lula registrou como endereco, em procuracao, um imovel em sao paulo que pode valer ate quinze milhoes de reais. o seu filho colocou como endereco um imovel em sao paulo que pode valer ate. verdadeiro. lulinha citou em procuracao como endereco o apartamento da av. juriti, em sao paulo, e anuncios no mesmo edificio variam de r$ 10 milhoes a r$ 16 milhoes. o trecho original foi cortado antes do valor, mas o nucleo da fala e que o filho de lula indicou como endereco um imovel caro em sao paulo. veja e o sul relatam que fabio luis lula da silva, o lulinha, passou uma procuracao ao pai e ao advogado marco aurelio de carvalho, para tratar de seu sigilo bancario, e nela citou como endereco o apartamento da avenida juriti, na vila uberabinha [1][2][3]. as mesmas fontes informam que anuncios de venda no mesmo edificio vao de r$ 10 milhoes a r$ 16 milhoes, o que torna plausivel o valor de \"ate r$ 15 milhoes\" que aparece na afirmacao [1][2][3]. vale uma ressalva: esse valor e uma estimativa baseada em anuncios de unidades do predio, nao uma avaliacao do apartamento em si. segundo a folha, o imovel foi comprado em 2009 por jonas suassuna por r$ 3 milhoes e alugado por lulinha em 2013 [4]. um inventario de 2018 tambem registra esse endereco como residencia dele [5]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-038",
@@ -4412,7 +4449,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "38 decl-038 luiz inacio lula da silva lula corrupcao flavio bolsonaro negou, mas estava em um barco negociando com dois empresarios sobre a vacina covaxin no dia em que morreram mais de mil pessoas de covid no brasil, e as vacinas nao foram entregues. …diz que nao estava. ele estava. nao sei que negociata que estava, o dado concreto e que as vacinas nao vieram. reportagem da piaui, baseada em testemunho e registros de voos, situa flavio em lancha com donos da precisa (covaxin) em 17/7/2020; o contrato da covaxin foi cancelado e as doses nao vieram. imprecisao: 1.299 mortes foram no dia anterior. o trecho afirma que flavio esteve no encontro, apesar de negar, e que as vacinas nao vieram. segundo a revista piaui [1], com repercussao em [4], [2] e [3], danilo trento e francisco maximiano, da precisa medicamentos, que representava a bharat biotech (covaxin), organizaram um churrasco em lancha no lago paranoa para agradar ao senador. a reportagem se baseou no relato de uma pessoa presente e no cruzamento de registros de voos, documentos e testemunhos [2]. o passeio ocorreu em 17/7/2020 [2][3]. as 1.299 mortes foram registradas em 16/7, dia anterior [1][2], o que e uma imprecisao menor que nao muda o ponto. o contrato da covaxin, assinado em fevereiro de 2021, foi alvo de denuncias de irregularidades [5][6][7] e acabou cancelado sem pagamento [3]. logo, as vacinas nao foram entregues. as fontes nao indicam que flavio tenha refutado a reportagem: os citados nao apresentaram esclarecimentos [2]. a negativa citada por lula, por si so, nao serve de prova. verdadeiro verdadeiro"
+    "searchTokens": "38 decl-038 luiz inacio lula da silva lula corrupcao flavio bolsonaro negou, mas estava em um barco negociando com dois empresarios sobre a vacina covaxin no dia em que morreram mais de mil pessoas de covid no brasil, e as vacinas nao foram entregues. …diz que nao estava. ele estava. nao sei que negociata que estava, o dado concreto e que as vacinas nao vieram. reportagem da piaui, baseada em testemunho e registros de voos, situa flavio em lancha com donos da precisa (covaxin) em 17/7/2020; o contrato da covaxin foi cancelado e as doses nao vieram. imprecisao: 1.299 mortes foram no dia anterior. o trecho afirma que flavio esteve no encontro, apesar de negar, e que as vacinas nao vieram. segundo a revista piaui [1], com repercussao em [4], [2] e [3], danilo trento e francisco maximiano, da precisa medicamentos, que representava a bharat biotech (covaxin), organizaram um churrasco em lancha no lago paranoa para agradar ao senador. a reportagem se baseou no relato de uma pessoa presente e no cruzamento de registros de voos, documentos e testemunhos [2]. o passeio ocorreu em 17/7/2020 [2][3]. as 1.299 mortes foram registradas em 16/7, dia anterior [1][2], o que e uma imprecisao menor que nao muda o ponto. o contrato da covaxin, assinado em fevereiro de 2021, foi alvo de denuncias de irregularidades [5][6][7] e acabou cancelado sem pagamento [3]. logo, as vacinas nao foram entregues. as fontes nao indicam que flavio tenha refutado a reportagem: os citados nao apresentaram esclarecimentos [2]. a negativa citada por lula, por si so, nao serve de prova. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-039",
@@ -4508,7 +4546,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "39 decl-039 luiz inacio lula da silva lula corrupcao flavio bolsonaro estava em um barco negociando com dois empresarios no dia em que morreram cerca de 1.100 pessoas de covid no brasil, em contexto ligado a negociacao da vacina covaxin. no dia que morreu 100 e mil pessoas no brasil por causa da covid, ele estava num barco negociando com dois. verdadeiro. reportagem da piaui relata que flavio esteve em lancha com dois empresarios da precisa (covaxin) em 17/7/2020, dia com 1.110 mortes por covid. \"negociando\" e inferencia; fontes falam em festa. segundo reportagem da revista piaui, publicada em 21/10/2026 e replicada por varios veiculos, flavio bolsonaro participou em 17 de julho de 2020 de um passeio de lancha no lago paranoa. o passeio foi bancado por danilo trento e francisco maximiano, da precisa medicamentos, empresa que dizia representar a fabricante da covaxin e queria vender vacinas ao governo [1][2][3]. naquele dia, o brasil registrou 1.110 mortes por covid, numero que coincide com o \"cem e mil\" dito por lula [2][3]. outras fontes citam 1.299 obitos no dia anterior, 16/7 [1][4]. o nucleo da fala se sustenta: barco, dois empresarios ligados a covaxin e o numero de mortes. ha uma ressalva: as fontes descrevem uma festa com churrasco e a entrega de um rolex, nao uma negociacao documentada a bordo. mesmo assim, os anfitrioes tentavam fechar negocio com o governo [1][3]. a base e um relato jornalistico com testemunha e cruzamento de registros de voos [4]. flavio e os empresarios nao se manifestaram ate o fechamento da reportagem [4]. verdadeiro verdadeiro"
+    "searchTokens": "39 decl-039 luiz inacio lula da silva lula corrupcao flavio bolsonaro estava em um barco negociando com dois empresarios no dia em que morreram cerca de 1.100 pessoas de covid no brasil, em contexto ligado a negociacao da vacina covaxin. no dia que morreu 100 e mil pessoas no brasil por causa da covid, ele estava num barco negociando com dois. verdadeiro. reportagem da piaui relata que flavio esteve em lancha com dois empresarios da precisa (covaxin) em 17/7/2020, dia com 1.110 mortes por covid. \"negociando\" e inferencia; fontes falam em festa. segundo reportagem da revista piaui, publicada em 21/10/2026 e replicada por varios veiculos, flavio bolsonaro participou em 17 de julho de 2020 de um passeio de lancha no lago paranoa. o passeio foi bancado por danilo trento e francisco maximiano, da precisa medicamentos, empresa que dizia representar a fabricante da covaxin e queria vender vacinas ao governo [1][2][3]. naquele dia, o brasil registrou 1.110 mortes por covid, numero que coincide com o \"cem e mil\" dito por lula [2][3]. outras fontes citam 1.299 obitos no dia anterior, 16/7 [1][4]. o nucleo da fala se sustenta: barco, dois empresarios ligados a covaxin e o numero de mortes. ha uma ressalva: as fontes descrevem uma festa com churrasco e a entrega de um rolex, nao uma negociacao documentada a bordo. mesmo assim, os anfitrioes tentavam fechar negocio com o governo [1][3]. a base e um relato jornalistico com testemunha e cruzamento de registros de voos [4]. flavio e os empresarios nao se manifestaram ate o fechamento da reportagem [4]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-040",
@@ -4619,7 +4658,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "40 decl-040 luiz inacio lula da silva lula saude flavio bolsonaro estava em um passeio de barco no dia em que morreram 1.100 pessoas de covid-19 no brasil. voce viu que eu comecei perguntando da reuniao com a vacina covaxin? eu comecei perguntando se ele estava no barco ou nao, e ele sabe que ele estava no barco, no dia que morreu 1100 pessoas. verdadeiro. reportagens apontam que flavio bolsonaro esteve em uma lancha no lago paranoa em 17/7/2020, dia em que o pais registrou 1.163 mortes por covid (lula disse 1.100, valor proximo). a revista piaui [2] relata um churrasco em uma lancha no lago paranoa com flavio bolsonaro e empresarios da precisa medicamentos, ligados a vacina covaxin. segundo os relatos, o passeio ocorreu em 17 de julho de 2020 [3][4]. o metropoles [1] afirma que, nessa data, o brasil registrou 1.163 novas mortes em 24 horas, segundo o consorcio de imprensa. os 1.100 citados por lula ficam dentro da margem de arredondamento. a participacao de flavio se apoia em reportagem jornalistica baseada em documentos, dados de voos e testemunhas; as fontes usam linguagem condicional ('teria participado') [3][4], mas nenhuma delas contradiz o fato. as fontes [5], [6] e [7] tratam de outro episodio, o passeio de jair bolsonaro de moto aquatica em maio de 2020, e nao se aplicam a esta afirmacao. verdadeiro verdadeiro"
+    "searchTokens": "40 decl-040 luiz inacio lula da silva lula saude flavio bolsonaro estava em um passeio de barco no dia em que morreram 1.100 pessoas de covid-19 no brasil. voce viu que eu comecei perguntando da reuniao com a vacina covaxin? eu comecei perguntando se ele estava no barco ou nao, e ele sabe que ele estava no barco, no dia que morreu 1100 pessoas. verdadeiro. reportagens apontam que flavio bolsonaro esteve em uma lancha no lago paranoa em 17/7/2020, dia em que o pais registrou 1.163 mortes por covid (lula disse 1.100, valor proximo). a revista piaui [2] relata um churrasco em uma lancha no lago paranoa com flavio bolsonaro e empresarios da precisa medicamentos, ligados a vacina covaxin. segundo os relatos, o passeio ocorreu em 17 de julho de 2020 [3][4]. o metropoles [1] afirma que, nessa data, o brasil registrou 1.163 novas mortes em 24 horas, segundo o consorcio de imprensa. os 1.100 citados por lula ficam dentro da margem de arredondamento. a participacao de flavio se apoia em reportagem jornalistica baseada em documentos, dados de voos e testemunhas; as fontes usam linguagem condicional ('teria participado') [3][4], mas nenhuma delas contradiz o fato. as fontes [5], [6] e [7] tratam de outro episodio, o passeio de jair bolsonaro de moto aquatica em maio de 2020, e nao se aplicam a esta afirmacao. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-041",
@@ -4720,7 +4760,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "41 decl-041 flavio bolsonaro flavio corrupcao foi cobrada propina de 10%, r$ 1 bilhao, para o investimento de fundos de pensao no banco master, segundo reportagem da veja. …sabe qual foi a propina que eles cobraram? 10%, r$. a veja de fato relatou que, segundo vorcaro, o grupo de padilha cobrava propina de 10% para captar r$ 10 bilhoes de fundos de pensao, o que daria r$ 1 bilhao. trata-se de relato de proposta de delacao, nao de fato comprovado. o trecho atribui a cobranca de propina de 10% a reportagem da veja. as fontes confirmam esse conteudo. segundo o anexo da proposta de delacao de vorcaro, o grupo do ministro padilha queria viabilizar aportes de fundos de pensao em letras do master 'mediante pagamento de propina equivalente a 10% do valor captado' [3]. a meta era captar cerca de r$ 10 bilhoes, com r$ 1 bilhao em propina [1][2][4][5]. a afirmacao, portanto, reproduz com precisao o que a revista publicou. uma ressalva: sao relatos de vorcaro, corroborados em parte por mensagens da pf, segundo a veja [3]. a acusacao contra os envolvidos segue sem comprovacao judicial, e a veja diz que o esquema nao se concretizou [5]. o rotulo vale para a atribuicao a reportagem, nao para a comprovacao do crime. verdadeiro verdadeiro"
+    "searchTokens": "41 decl-041 flavio bolsonaro flavio corrupcao foi cobrada propina de 10%, r$ 1 bilhao, para o investimento de fundos de pensao no banco master, segundo reportagem da veja. …sabe qual foi a propina que eles cobraram? 10%, r$. a veja de fato relatou que, segundo vorcaro, o grupo de padilha cobrava propina de 10% para captar r$ 10 bilhoes de fundos de pensao, o que daria r$ 1 bilhao. trata-se de relato de proposta de delacao, nao de fato comprovado. o trecho atribui a cobranca de propina de 10% a reportagem da veja. as fontes confirmam esse conteudo. segundo o anexo da proposta de delacao de vorcaro, o grupo do ministro padilha queria viabilizar aportes de fundos de pensao em letras do master 'mediante pagamento de propina equivalente a 10% do valor captado' [3]. a meta era captar cerca de r$ 10 bilhoes, com r$ 1 bilhao em propina [1][2][4][5]. a afirmacao, portanto, reproduz com precisao o que a revista publicou. uma ressalva: sao relatos de vorcaro, corroborados em parte por mensagens da pf, segundo a veja [3]. a acusacao contra os envolvidos segue sem comprovacao judicial, e a veja diz que o esquema nao se concretizou [5]. o rotulo vale para a atribuicao a reportagem, nao para a comprovacao do crime. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-042",
@@ -4826,7 +4867,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "42 decl-042 flavio bolsonaro flavio corrupcao fundos de pensao de estatais teriam r$ 10 bilhoes de dinheiro de aposentados a serem investidos no banco master, articulado por assessor de alexandre padilha. sabe qual era o valor, gente? dez bilhoes de reais a serem investidos no dinheiro dos aposentados do banco master. verdadeiro. reportagens baseadas em mensagens obtidas pela pf e no relato de vorcaro apontam que ele buscava captar cerca de r$ 10 bilhoes de fundos de pensao de estatais. a captacao, porem, fracassou. o trecho afirma que o valor em jogo era de r$ 10 bilhoes do dinheiro de aposentados a ser investido no banco master. segundo a veja [1], o objetivo de daniel vorcaro era captar cerca de r$ 10 bilhoes junto aos fundos de previdencia de servidores da petrobras, dos correios, da caixa e do banco do brasil. a articulacao teria contado com o grupo do ministro alexandre padilha e com o consultor julio cezar. poder360 [3], jusconsulta [4], gazeta do povo [6] e times brasil [5] confirmam o valor e o alvo. na versao atribuida a vorcaro, r$ 1 bilhao iria para propina. o valor e o contexto conferem. duas ressalvas: as informacoes vem de mensagens da pf e do relato do proprio vorcaro em proposta de delacao, e a veja [2] registra que as tentativas de captar recursos dos fundos federais fracassaram. a fala usa \"a serem investidos\", o que e compativel com uma intencao que nao se concretizou. verdadeiro verdadeiro"
+    "searchTokens": "42 decl-042 flavio bolsonaro flavio corrupcao fundos de pensao de estatais teriam r$ 10 bilhoes de dinheiro de aposentados a serem investidos no banco master, articulado por assessor de alexandre padilha. sabe qual era o valor, gente? dez bilhoes de reais a serem investidos no dinheiro dos aposentados do banco master. verdadeiro. reportagens baseadas em mensagens obtidas pela pf e no relato de vorcaro apontam que ele buscava captar cerca de r$ 10 bilhoes de fundos de pensao de estatais. a captacao, porem, fracassou. o trecho afirma que o valor em jogo era de r$ 10 bilhoes do dinheiro de aposentados a ser investido no banco master. segundo a veja [1], o objetivo de daniel vorcaro era captar cerca de r$ 10 bilhoes junto aos fundos de previdencia de servidores da petrobras, dos correios, da caixa e do banco do brasil. a articulacao teria contado com o grupo do ministro alexandre padilha e com o consultor julio cezar. poder360 [3], jusconsulta [4], gazeta do povo [6] e times brasil [5] confirmam o valor e o alvo. na versao atribuida a vorcaro, r$ 1 bilhao iria para propina. o valor e o contexto conferem. duas ressalvas: as informacoes vem de mensagens da pf e do relato do proprio vorcaro em proposta de delacao, e a veja [2] registra que as tentativas de captar recursos dos fundos federais fracassaram. a fala usa \"a serem investidos\", o que e compativel com uma intencao que nao se concretizou. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-043",
@@ -4922,7 +4964,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "43 decl-043 flavio bolsonaro flavio corrupcao o crescimento e o escandalo do banco master, de daniel vorcaro, ocorreram durante o governo lula. no seu governo,. enganoso: o escandalo veio a tona e a liquidacao ocorreu no governo lula, mas o crescimento do master se deu entre 2019 e 2024, em boa parte no governo bolsonaro, com o bc sob campos neto. o trecho \"no seu governo\" atribui a lula o crescimento e o escandalo do banco master. segundo documentos citados pela bbc [1], o master expandiu suas operacoes entre 2019 e 2024, com cdbs que pagavam taxas acima do mercado. esse periodo comeca no governo bolsonaro (2019-2022). o estadao [3] relata que campos neto, presidente do bc indicado por bolsonaro, sabia dos problemas de liquidez do banco e evitou medidas mais duras. ja a crise propriamente dita ocorreu no governo lula: a tentativa de compra pelo brb em 2025, a rejeicao pelo bc e a liquidacao [1][2]. lula tambem se reuniu com vorcaro em dezembro de 2024 [4]. atribuir a lula o crescimento do banco omite que ele comecou e avancou sob o governo anterior. fica a impressao falsa de que todo o processo ocorreu na gestao petista. os desdobramentos do escandalo, por outro lado, de fato se deram nela. enganoso enganoso"
+    "searchTokens": "43 decl-043 flavio bolsonaro flavio corrupcao o crescimento e o escandalo do banco master, de daniel vorcaro, ocorreram durante o governo lula. no seu governo,. enganoso: o escandalo veio a tona e a liquidacao ocorreu no governo lula, mas o crescimento do master se deu entre 2019 e 2024, em boa parte no governo bolsonaro, com o bc sob campos neto. o trecho \"no seu governo\" atribui a lula o crescimento e o escandalo do banco master. segundo documentos citados pela bbc [1], o master expandiu suas operacoes entre 2019 e 2024, com cdbs que pagavam taxas acima do mercado. esse periodo comeca no governo bolsonaro (2019-2022). o estadao [3] relata que campos neto, presidente do bc indicado por bolsonaro, sabia dos problemas de liquidez do banco e evitou medidas mais duras. ja a crise propriamente dita ocorreu no governo lula: a tentativa de compra pelo brb em 2025, a rejeicao pelo bc e a liquidacao [1][2]. lula tambem se reuniu com vorcaro em dezembro de 2024 [4]. atribuir a lula o crescimento do banco omite que ele comecou e avancou sob o governo anterior. fica a impressao falsa de que todo o processo ocorreu na gestao petista. os desdobramentos do escandalo, por outro lado, de fato se deram nela. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-044",
@@ -5025,7 +5068,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "44 decl-044 flavio bolsonaro flavio corrupcao segundo flavio bolsonaro, o dono do banco master era investidor em um filme privado sem recursos da lei rouanet nem dinheiro publico, conforme teria afirmado a policia federal. ali era um investidor num filme privado, nao tem lei rouanet, nao tem dinheiro publico, que a propria policia federal e que falou isso. falso. a pf nao atestou que o dinheiro do master no filme era privado e licito; ao contrario, investiga corrupcao e lavagem no financiamento e apontou recursos ligados a fraude do banco. flavio diz que vorcaro era um simples investidor num filme privado, sem lei rouanet nem dinheiro publico, e que a propria pf teria dito isso. as fontes nao mostram tal conclusao da pf. o inquerito apura se flavio e outros cometeram corrupcao, evasao de divisas e lavagem de dinheiro no financiamento de dark horse [1]. ha tambem uma investigacao sobre possivel uso de emendas parlamentares de mario frias, via instituto ligado a produtora, para financiar o filme [2]. segundo o intercept, um despacho da pf de 15/10/2026 concluiu que parte do dinheiro enviado aos eua saiu de empresa de fabiano zettel ligada diretamente a fraude do master [4]. pelas fontes, a fraude do master movimentou em grande parte recursos de origem publica [4]. e verdade que nao ha registro de rouanet no filme: a produtora buscou a lei apenas para outros projetos [3]. mas a frase 'zero dinheiro publico' vem de nota do proprio flavio [3], nao da pf. por isso, a atribuicao a pf e a conclusao de que tudo era licito e privado sao contraditas pelas fontes. falso falso"
+    "searchTokens": "44 decl-044 flavio bolsonaro flavio corrupcao segundo flavio bolsonaro, o dono do banco master era investidor em um filme privado sem recursos da lei rouanet nem dinheiro publico, conforme teria afirmado a policia federal. ali era um investidor num filme privado, nao tem lei rouanet, nao tem dinheiro publico, que a propria policia federal e que falou isso. falso. a pf nao atestou que o dinheiro do master no filme era privado e licito; ao contrario, investiga corrupcao e lavagem no financiamento e apontou recursos ligados a fraude do banco. flavio diz que vorcaro era um simples investidor num filme privado, sem lei rouanet nem dinheiro publico, e que a propria pf teria dito isso. as fontes nao mostram tal conclusao da pf. o inquerito apura se flavio e outros cometeram corrupcao, evasao de divisas e lavagem de dinheiro no financiamento de dark horse [1]. ha tambem uma investigacao sobre possivel uso de emendas parlamentares de mario frias, via instituto ligado a produtora, para financiar o filme [2]. segundo o intercept, um despacho da pf de 15/10/2026 concluiu que parte do dinheiro enviado aos eua saiu de empresa de fabiano zettel ligada diretamente a fraude do master [4]. pelas fontes, a fraude do master movimentou em grande parte recursos de origem publica [4]. e verdade que nao ha registro de rouanet no filme: a produtora buscou a lei apenas para outros projetos [3]. mas a frase 'zero dinheiro publico' vem de nota do proprio flavio [3], nao da pf. por isso, a atribuicao a pf e a conclusao de que tudo era licito e privado sao contraditas pelas fontes. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-045",
@@ -5131,7 +5175,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "45 decl-045 luiz inacio lula da silva lula corrupcao daniel vorcaro, do banco master, praticou corrupcao envolvendo agentes publicos da republica. esse cara corrompeu a republica. investigacoes da pf e decisao do stf apontam que vorcaro pagou propina a servidores do banco central; a frase e hiperbolica e nao ha condenacao, mas o nucleo — corrupcao de agentes publicos — tem respaldo. a decisao do ministro andre mendonca (stf) cita possivel pratica de corrupcao por organizacao criminosa ligada a vorcaro [1]. segundo a decisao e relatorios da pf, o ex-diretor de fiscalizacao do bc paulo sergio neves de souza e o ex-chefe de departamento belline santana atuavam como consultores privados do banqueiro e recebiam propina, inclusive via contratos simulados de consultoria e cerca de r$ 760 mil pagos a santana [2][4][5]. o g1 lista corrupcao entre os crimes investigados [3]. vorcaro nega ter corrompido servidores [6], mas a negacao do investigado nao refuta o fato apontado pelas provas descritas nas fontes. ressalva: trata-se de investigacao, sem condenacao definitiva mencionada nas fontes, e 'corrompeu a republica' e linguagem coloquial e ampliada; o envolvimento documentado e de servidores do banco central, orgao de estado. como o nucleo da fala — corrupcao de agentes publicos — e sustentado por elementos concretos da pf e do stf, o rotulo e verdadeiro. verdadeiro verdadeiro"
+    "searchTokens": "45 decl-045 luiz inacio lula da silva lula corrupcao daniel vorcaro, do banco master, praticou corrupcao envolvendo agentes publicos da republica. esse cara corrompeu a republica. investigacoes da pf e decisao do stf apontam que vorcaro pagou propina a servidores do banco central; a frase e hiperbolica e nao ha condenacao, mas o nucleo — corrupcao de agentes publicos — tem respaldo. a decisao do ministro andre mendonca (stf) cita possivel pratica de corrupcao por organizacao criminosa ligada a vorcaro [1]. segundo a decisao e relatorios da pf, o ex-diretor de fiscalizacao do bc paulo sergio neves de souza e o ex-chefe de departamento belline santana atuavam como consultores privados do banqueiro e recebiam propina, inclusive via contratos simulados de consultoria e cerca de r$ 760 mil pagos a santana [2][4][5]. o g1 lista corrupcao entre os crimes investigados [3]. vorcaro nega ter corrompido servidores [6], mas a negacao do investigado nao refuta o fato apontado pelas provas descritas nas fontes. ressalva: trata-se de investigacao, sem condenacao definitiva mencionada nas fontes, e 'corrompeu a republica' e linguagem coloquial e ampliada; o envolvimento documentado e de servidores do banco central, orgao de estado. como o nucleo da fala — corrupcao de agentes publicos — e sustentado por elementos concretos da pf e do stf, o rotulo e verdadeiro. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-046",
@@ -5237,7 +5282,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "46 decl-046 flavio bolsonaro flavio corrupcao segundo flavio bolsonaro, em audio, daniel vorcaro afirmou que lula recebeu trinta milhoes de reais por fora. …diferente do que o vorcaro contou nesse audio, que eu peco pra minha equipe botar de novo no ar o audio do vorcaro, o filme do bolsonaro foi tudo direitinho, bonitinho. o seu recebeu r$ 30 milhoes por fora, lula. o audio existe e vorcaro cita r$ 30 milhoes 'por fora', mas para o instituto lula/documentario, nao a lula pessoalmente. e um relato sem prova: pf e pgr negam que conste em delacao, e lula vai processar. as fontes confirmam que a veja divulgou um audio e documentos em que vorcaro diz ter pago r$ 30 milhoes em especie, 'por fora', ao instituto lula, gerenciado por paulo okamotto, para financiar um documentario sobre lula [1][2][6]. no audio, ele compara esse repasse ao patrocinio pedido por flavio para o filme de bolsonaro e diz que o de lula 'foi por fora, foi errado' [2]. ate aqui, a referencia ao audio e correta. porem, ao dizer 'o seu recebeu r$ 30 milhoes por fora, lula', flavio apresenta o relato como fato e atribui o dinheiro diretamente a lula. segundo o relato, os recursos foram ao instituto lula, para um filme. alem disso, trata-se de um relato nao comprovado. a pf negou que vorcaro tenha prestado depoimento ou entregue documentos sobre esse financiamento em sua tentativa de delacao [4][5]. a veja informa que a proposta de delacao foi descartada [1], e a campanha de lula anunciou que vai processar vorcaro [3]. o enquadramento leva o eleitor a concluir que esta provado que lula recebeu propina pessoalmente, o que as fontes nao sustentam. enganoso enganoso"
+    "searchTokens": "46 decl-046 flavio bolsonaro flavio corrupcao segundo flavio bolsonaro, em audio, daniel vorcaro afirmou que lula recebeu trinta milhoes de reais por fora. …diferente do que o vorcaro contou nesse audio, que eu peco pra minha equipe botar de novo no ar o audio do vorcaro, o filme do bolsonaro foi tudo direitinho, bonitinho. o seu recebeu r$ 30 milhoes por fora, lula. o audio existe e vorcaro cita r$ 30 milhoes 'por fora', mas para o instituto lula/documentario, nao a lula pessoalmente. e um relato sem prova: pf e pgr negam que conste em delacao, e lula vai processar. as fontes confirmam que a veja divulgou um audio e documentos em que vorcaro diz ter pago r$ 30 milhoes em especie, 'por fora', ao instituto lula, gerenciado por paulo okamotto, para financiar um documentario sobre lula [1][2][6]. no audio, ele compara esse repasse ao patrocinio pedido por flavio para o filme de bolsonaro e diz que o de lula 'foi por fora, foi errado' [2]. ate aqui, a referencia ao audio e correta. porem, ao dizer 'o seu recebeu r$ 30 milhoes por fora, lula', flavio apresenta o relato como fato e atribui o dinheiro diretamente a lula. segundo o relato, os recursos foram ao instituto lula, para um filme. alem disso, trata-se de um relato nao comprovado. a pf negou que vorcaro tenha prestado depoimento ou entregue documentos sobre esse financiamento em sua tentativa de delacao [4][5]. a veja informa que a proposta de delacao foi descartada [1], e a campanha de lula anunciou que vai processar vorcaro [3]. o enquadramento leva o eleitor a concluir que esta provado que lula recebeu propina pessoalmente, o que as fontes nao sustentam. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-047",
@@ -5345,7 +5391,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "47 decl-047 flavio bolsonaro flavio corrupcao relatorio da policia federal sobre o filme de jair bolsonaro afirma que nao houve contrapartida pelo fato de flavio bolsonaro ser senador. esse relatorio da policia esta dizendo que nao teve contrapartida. falso. segundo as fontes, o relatorio da pf nao diz que nao houve contrapartida: aponta flavio como interlocutor direto de vorcaro e embasou a abertura de inquerito por corrupcao, lavagem e evasao de divisas. o estadao verifica classificou como falsa a alegacao de que relatorio da pf teria descartado corrupcao no caso dark horse. o documento aponta o senador como interlocutor direto de daniel vorcaro nas tratativas do financiamento, e a pf pediu investigacao sobre ele por lavagem, corrupcao e evasao de divisas [1]. segundo a representacao da pf, flavio participou das tratativas com cobrancas de pagamentos, reunioes presenciais e acompanhamento das gravacoes; o pedido levou o ministro andre mendonca a abrir inquerito especifico [2]. a pf relata pedido de r$ 131 milhoes, dos quais r$ 60 milhoes teriam sido pagos [4]. tambem aponta 'divergencia contabil severa' entre os recursos enviados ao exterior e os que retornaram, e pediu a prorrogacao da investigacao [3]. nenhuma fonte indica que a pf tenha concluido pela ausencia de contrapartida; a investigacao segue em curso. a negativa de irregularidades e do proprio candidato [2], nao da pf. falso falso"
+    "searchTokens": "47 decl-047 flavio bolsonaro flavio corrupcao relatorio da policia federal sobre o filme de jair bolsonaro afirma que nao houve contrapartida pelo fato de flavio bolsonaro ser senador. esse relatorio da policia esta dizendo que nao teve contrapartida. falso. segundo as fontes, o relatorio da pf nao diz que nao houve contrapartida: aponta flavio como interlocutor direto de vorcaro e embasou a abertura de inquerito por corrupcao, lavagem e evasao de divisas. o estadao verifica classificou como falsa a alegacao de que relatorio da pf teria descartado corrupcao no caso dark horse. o documento aponta o senador como interlocutor direto de daniel vorcaro nas tratativas do financiamento, e a pf pediu investigacao sobre ele por lavagem, corrupcao e evasao de divisas [1]. segundo a representacao da pf, flavio participou das tratativas com cobrancas de pagamentos, reunioes presenciais e acompanhamento das gravacoes; o pedido levou o ministro andre mendonca a abrir inquerito especifico [2]. a pf relata pedido de r$ 131 milhoes, dos quais r$ 60 milhoes teriam sido pagos [4]. tambem aponta 'divergencia contabil severa' entre os recursos enviados ao exterior e os que retornaram, e pediu a prorrogacao da investigacao [3]. nenhuma fonte indica que a pf tenha concluido pela ausencia de contrapartida; a investigacao segue em curso. a negativa de irregularidades e do proprio candidato [2], nao da pf. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-048",
@@ -5458,7 +5505,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "48 decl-048 flavio bolsonaro flavio corrupcao a policia federal produziu recentemente um relatorio afirmando que o filme sobre o presidente jair bolsonaro nao tem dinheiro publico. a policia federal acabou de fazer um relatorio, a policia federal e dele, dizendo sabe o que? sobre esse filme do presidente bolsonaro, que nao tem dinheiro publico nele. falso. a pf nao concluiu que o filme 'dark horse' nao tem dinheiro publico: investiga suspeita de desvio de ao menos r$ 750 mil em emendas e aponta divergencia contabil 'severa'. quem negou o uso de verba publica foi uma pericia privada. segundo o g1 [1], a pf suspeita que ao menos r$ 750 mil em emendas parlamentares foram triangulados ate a produtora go up e cumpriu 49 mandados de busca. em outubro, a pf apontou 'divergencia contabil severa' entre os recursos enviados ao exterior e os que retornaram ao brasil. tambem pediu ao stf mais 90 dias de investigacao, questionando se o filme serviu de 'narrativa de cobertura' para desvio de recursos [3]. quem afirmou nao haver dinheiro publico foi uma pericia privada contratada pela propria produtora [2][4]. essa pericia nao acessou os dados do fundo havengate [5], e a uol relata que os dados da pf conflitam com ela [2]. a checagem do terra classifica como falsa a alegacao de que relatorio da pf teria descartado corrupcao no caso [6]. falso falso"
+    "searchTokens": "48 decl-048 flavio bolsonaro flavio corrupcao a policia federal produziu recentemente um relatorio afirmando que o filme sobre o presidente jair bolsonaro nao tem dinheiro publico. a policia federal acabou de fazer um relatorio, a policia federal e dele, dizendo sabe o que? sobre esse filme do presidente bolsonaro, que nao tem dinheiro publico nele. falso. a pf nao concluiu que o filme 'dark horse' nao tem dinheiro publico: investiga suspeita de desvio de ao menos r$ 750 mil em emendas e aponta divergencia contabil 'severa'. quem negou o uso de verba publica foi uma pericia privada. segundo o g1 [1], a pf suspeita que ao menos r$ 750 mil em emendas parlamentares foram triangulados ate a produtora go up e cumpriu 49 mandados de busca. em outubro, a pf apontou 'divergencia contabil severa' entre os recursos enviados ao exterior e os que retornaram ao brasil. tambem pediu ao stf mais 90 dias de investigacao, questionando se o filme serviu de 'narrativa de cobertura' para desvio de recursos [3]. quem afirmou nao haver dinheiro publico foi uma pericia privada contratada pela propria produtora [2][4]. essa pericia nao acessou os dados do fundo havengate [5], e a uol relata que os dados da pf conflitam com ela [2]. a checagem do terra classifica como falsa a alegacao de que relatorio da pf teria descartado corrupcao no caso [6]. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-049",
@@ -5564,7 +5612,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "49 decl-049 flavio bolsonaro flavio saude o governo lula paga dez reais a um medico por um atendimento (consulta) no sus. agora, lula, voce paga r$ 10 pra um medico fazer o atendimento e um copo desse uisque que voce tomou e r$ 50 mil, cara? a tabela sus preve r$ 10 por consulta medica especializada, mas esse valor e congelado ha anos, nao foi criado por lula e nao equivale a remuneracao total do medico, que recebe salario ou complementos. as fontes confirmam que a tabela nacional do sus (sigtap) fixa r$ 10,00 para a consulta medica em atencao especializada e r$ 11,00 para o atendimento em pronto atendimento [3][6][4]. esse valor, porem, e o repasse por procedimento feito pela uniao a prestadores e hospitais, e nao o pagamento direto ao medico. muitos medicos do sus sao assalariados, e estados complementam a tabela; sao paulo, por exemplo, paga ate cinco vezes o valor federal [1]. a fonte [2] informa que o valor esta congelado ha cerca de 14 anos, o que indica um problema historico que atravessa varios governos e nao uma decisao do governo lula. a fonte [5] registra criticas antigas a defasagem da tabela e tambem um reajuste feito no primeiro governo lula. assim, o numero citado esta correto, mas apresenta-lo como o valor que 'lula paga a um medico' pelo atendimento induz a uma conclusao falsa sobre a remuneracao dos medicos e sobre a responsabilidade pelo valor. enganoso enganoso"
+    "searchTokens": "49 decl-049 flavio bolsonaro flavio saude o governo lula paga dez reais a um medico por um atendimento (consulta) no sus. agora, lula, voce paga r$ 10 pra um medico fazer o atendimento e um copo desse uisque que voce tomou e r$ 50 mil, cara? a tabela sus preve r$ 10 por consulta medica especializada, mas esse valor e congelado ha anos, nao foi criado por lula e nao equivale a remuneracao total do medico, que recebe salario ou complementos. as fontes confirmam que a tabela nacional do sus (sigtap) fixa r$ 10,00 para a consulta medica em atencao especializada e r$ 11,00 para o atendimento em pronto atendimento [3][6][4]. esse valor, porem, e o repasse por procedimento feito pela uniao a prestadores e hospitais, e nao o pagamento direto ao medico. muitos medicos do sus sao assalariados, e estados complementam a tabela; sao paulo, por exemplo, paga ate cinco vezes o valor federal [1]. a fonte [2] informa que o valor esta congelado ha cerca de 14 anos, o que indica um problema historico que atravessa varios governos e nao uma decisao do governo lula. a fonte [5] registra criticas antigas a defasagem da tabela e tambem um reajuste feito no primeiro governo lula. assim, o numero citado esta correto, mas apresenta-lo como o valor que 'lula paga a um medico' pelo atendimento induz a uma conclusao falsa sobre a remuneracao dos medicos e sobre a responsabilidade pelo valor. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-050",
@@ -5670,7 +5719,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "50 decl-050 luiz inacio lula da silva lula corrupcao em junho de 2020, flavio bolsonaro se encontrou em um barco em brasilia com um representante que tentava vender a vacina covaxin ao governo. em julho de 2020, quando o cara veio vender a vacina covaxin pra voce e voces foram pra um barco em brasilia. verdadeiro. segundo reportagem da piaui replicada por varios veiculos, flavio esteve em 17 de julho de 2020 numa lancha no lago paranoa com donos da precisa, que tentavam vender a covaxin ao governo. o trecho original fala em julho de 2020, data que coincide com a das fontes. a versao resumida da afirmacao diz junho, mas vale o trecho. segundo reportagem da revista piaui [1], replicada por [2], [6], [3] e [4], o senador flavio bolsonaro participou em 17 de julho de 2020 de um churrasco numa lancha no lago paranoa, em brasilia. estavam presentes francisco maximiano e danilo trento, dono e diretor da precisa medicamentos. a empresa dizia representar a bharat biotech e buscava vender a vacina covaxin ao governo bolsonaro [1][4]. o contrato da covaxin foi depois investigado pelo mpf e pela cpi da covid [5]. o relato vem de uma unica apuracao jornalistica, mas e detalhado e foi amplamente reproduzido, e nenhuma fonte o contradiz. o nucleo da fala e preciso. verdadeiro verdadeiro"
+    "searchTokens": "50 decl-050 luiz inacio lula da silva lula corrupcao em junho de 2020, flavio bolsonaro se encontrou em um barco em brasilia com um representante que tentava vender a vacina covaxin ao governo. em julho de 2020, quando o cara veio vender a vacina covaxin pra voce e voces foram pra um barco em brasilia. verdadeiro. segundo reportagem da piaui replicada por varios veiculos, flavio esteve em 17 de julho de 2020 numa lancha no lago paranoa com donos da precisa, que tentavam vender a covaxin ao governo. o trecho original fala em julho de 2020, data que coincide com a das fontes. a versao resumida da afirmacao diz junho, mas vale o trecho. segundo reportagem da revista piaui [1], replicada por [2], [6], [3] e [4], o senador flavio bolsonaro participou em 17 de julho de 2020 de um churrasco numa lancha no lago paranoa, em brasilia. estavam presentes francisco maximiano e danilo trento, dono e diretor da precisa medicamentos. a empresa dizia representar a bharat biotech e buscava vender a vacina covaxin ao governo bolsonaro [1][4]. o contrato da covaxin foi depois investigado pelo mpf e pela cpi da covid [5]. o relato vem de uma unica apuracao jornalistica, mas e detalhado e foi amplamente reproduzido, e nenhuma fonte o contradiz. o nucleo da fala e preciso. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-051",
@@ -5761,7 +5811,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "51 decl-051 flavio bolsonaro flavio programas sociais cinquenta mil reais equivalem a cerca de setenta beneficios do bolsa familia. isso da pra pagar 70 bolsas. verdadeiro. com o piso atual de r$ 691 e o beneficio medio de r$ 777, r$ 50 mil pagam cerca de 64 a 72 beneficios mensais, o que e compativel com as \"70 bolsas\" citadas. segundo o mds [1], a partir de outubro de 2026 os valores do bolsa familia foram corrigidos em 15,04%. o valor minimo por familia passou de r$ 600 para r$ 691, e o beneficio medio estimado passou de r$ 675 para r$ 777, dado repetido em [2]. dividindo r$ 50 mil por r$ 691, obtem-se cerca de 72 beneficios. pelo valor medio de r$ 777, sao cerca de 64. a conta do candidato equivale a uma bolsa de cerca de r$ 714, valor que fica entre o piso e a media. a diferenca em relacao a qualquer dos dois parametros e inferior a 10%, o que sustenta a ordem de grandeza da fala. a estrutura dos beneficios esta prevista na lei 14.601/2023 [3], que tambem autoriza a correcao dos valores. verdadeiro verdadeiro"
+    "searchTokens": "51 decl-051 flavio bolsonaro flavio programas sociais cinquenta mil reais equivalem a cerca de setenta beneficios do bolsa familia. isso da pra pagar 70 bolsas. verdadeiro. com o piso atual de r$ 691 e o beneficio medio de r$ 777, r$ 50 mil pagam cerca de 64 a 72 beneficios mensais, o que e compativel com as \"70 bolsas\" citadas. segundo o mds [1], a partir de outubro de 2026 os valores do bolsa familia foram corrigidos em 15,04%. o valor minimo por familia passou de r$ 600 para r$ 691, e o beneficio medio estimado passou de r$ 675 para r$ 777, dado repetido em [2]. dividindo r$ 50 mil por r$ 691, obtem-se cerca de 72 beneficios. pelo valor medio de r$ 777, sao cerca de 64. a conta do candidato equivale a uma bolsa de cerca de r$ 714, valor que fica entre o piso e a media. a diferenca em relacao a qualquer dos dois parametros e inferior a 10%, o que sustenta a ordem de grandeza da fala. a estrutura dos beneficios esta prevista na lei 14.601/2023 [3], que tambem autoriza a correcao dos valores. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-052",
@@ -5872,7 +5923,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "52 decl-052 luiz inacio lula da silva lula corrupcao lula afirma que um banqueiro ligado a flavio bolsonaro foi preso durante seu governo. que voce nao ficou fobico e que voce criou um banqueiro e eu fiz dele prisioneiro. verdadeiro. daniel vorcaro, do banco master, com quem flavio bolsonaro manteve contatos, foi preso em novembro de 2025 e de novo em marco de 2026, durante o governo lula. o nucleo da fala e que o banqueiro ligado ao adversario foi preso no governo lula. as fontes confirmam que daniel vorcaro foi preso pela pf em 18 de novembro de 2025, foi solto por liminar do trf-1 em 28 de novembro e voltou a ser preso em 4 de marco de 2026, na operacao compliance zero [1]. ele segue preso preventivamente [2]. a ligacao com flavio bolsonaro esta documentada: um audio mostra o senador pedindo dinheiro a vorcaro para o filme sobre jair bolsonaro, e flavio confirmou ter se encontrado com ele apos a primeira prisao [1][4]. mensagens tambem mostram que flavio tentou falar com vorcaro antes da prisao [5][6]. o contexto do debate aparece em [3]. a expressao \"eu fiz dele prisioneiro\" e retorica: a prisao foi feita pela pf com decisao judicial, nao por ato pessoal do presidente. isso nao muda o fato de que ocorreu em sua gestao. a parte \"voce criou um banqueiro\", sobre o governo bolsonaro, nao e verificada pelas fontes. as fontes tambem mostram que aliados de lula, como jaques wagner, sao investigados no mesmo caso [7]. verdadeiro verdadeiro"
+    "searchTokens": "52 decl-052 luiz inacio lula da silva lula corrupcao lula afirma que um banqueiro ligado a flavio bolsonaro foi preso durante seu governo. que voce nao ficou fobico e que voce criou um banqueiro e eu fiz dele prisioneiro. verdadeiro. daniel vorcaro, do banco master, com quem flavio bolsonaro manteve contatos, foi preso em novembro de 2025 e de novo em marco de 2026, durante o governo lula. o nucleo da fala e que o banqueiro ligado ao adversario foi preso no governo lula. as fontes confirmam que daniel vorcaro foi preso pela pf em 18 de novembro de 2025, foi solto por liminar do trf-1 em 28 de novembro e voltou a ser preso em 4 de marco de 2026, na operacao compliance zero [1]. ele segue preso preventivamente [2]. a ligacao com flavio bolsonaro esta documentada: um audio mostra o senador pedindo dinheiro a vorcaro para o filme sobre jair bolsonaro, e flavio confirmou ter se encontrado com ele apos a primeira prisao [1][4]. mensagens tambem mostram que flavio tentou falar com vorcaro antes da prisao [5][6]. o contexto do debate aparece em [3]. a expressao \"eu fiz dele prisioneiro\" e retorica: a prisao foi feita pela pf com decisao judicial, nao por ato pessoal do presidente. isso nao muda o fato de que ocorreu em sua gestao. a parte \"voce criou um banqueiro\", sobre o governo bolsonaro, nao e verificada pelas fontes. as fontes tambem mostram que aliados de lula, como jaques wagner, sao investigados no mesmo caso [7]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-053",
@@ -5973,7 +6025,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "53 decl-053 flavio bolsonaro flavio corrupcao lula ganhou de presente um uisque macallan que vale quinhentos mil reais. agora, insisto aqui, lula. voce ganhou um uisque macallan que vale. mensagens apreendidas pela pf mostram que vorcaro encomendou um macallan 1945 de cerca de r$ 500 mil para lula, mas nao ha prova de que a garrafa foi comprada e entregue. o planalto nega. o trecho original afirma que lula ganhou um uisque macallan. as fontes confirmam que daniel vorcaro pediu a um funcionario uma garrafa de macallan 1945 para 'dar pro lula' e aprovou o preco de mais de 80 mil euros, cerca de r$ 495 mil a r$ 503 mil [1][2][3]. por isso, o valor citado e preciso. ha ainda uma mensagem de janeiro de 2025 em que o advogado walfrido warde relata que lula 'agradeceu mais uma vez o whisky' [1][2]. esse e um indicio de entrega, mas e o relato de um terceiro. lula declarou: 'eu nao sei se deu, mas se deu, ja bebi' [3]. o planalto nega que ele tenha recebido qualquer presente do banqueiro [5]. a cgn observa que nao havia comprovacao de que essa garrafa especifica tenha sido comprada e entregue ao presidente [5]. as fontes divergem quanto ao recebimento: o gp1 diz que vorcaro 'teria presenteado' lula [4]. como o recebimento do presente segue sem prova publicada, a afirmacao de que lula ganhou o uisque nao e confirmada nem refutada pelas fontes. insustentavel falso"
+    "searchTokens": "53 decl-053 flavio bolsonaro flavio corrupcao lula ganhou de presente um uisque macallan que vale quinhentos mil reais. agora, insisto aqui, lula. voce ganhou um uisque macallan que vale. mensagens apreendidas pela pf mostram que vorcaro encomendou um macallan 1945 de cerca de r$ 500 mil para lula, mas nao ha prova de que a garrafa foi comprada e entregue. o planalto nega. o trecho original afirma que lula ganhou um uisque macallan. as fontes confirmam que daniel vorcaro pediu a um funcionario uma garrafa de macallan 1945 para 'dar pro lula' e aprovou o preco de mais de 80 mil euros, cerca de r$ 495 mil a r$ 503 mil [1][2][3]. por isso, o valor citado e preciso. ha ainda uma mensagem de janeiro de 2025 em que o advogado walfrido warde relata que lula 'agradeceu mais uma vez o whisky' [1][2]. esse e um indicio de entrega, mas e o relato de um terceiro. lula declarou: 'eu nao sei se deu, mas se deu, ja bebi' [3]. o planalto nega que ele tenha recebido qualquer presente do banqueiro [5]. a cgn observa que nao havia comprovacao de que essa garrafa especifica tenha sido comprada e entregue ao presidente [5]. as fontes divergem quanto ao recebimento: o gp1 diz que vorcaro 'teria presenteado' lula [4]. como o recebimento do presente segue sem prova publicada, a afirmacao de que lula ganhou o uisque nao e confirmada nem refutada pelas fontes. insustentavel falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-054",
@@ -6074,7 +6127,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "54 decl-054 flavio bolsonaro flavio seguranca publica a proposta de seguranca publica do governo lula (pec da seguranca) visava controlar as policias e foi modificada no congresso para focar no combate aos criminosos. voce falou que vai acabar com a policia. a sua pec, que voce chamou de seguranca, era para controlar as policias e nos modificamos no congresso para controlar os bandidos. enganoso. a pec original visava integrar e coordenar a seguranca publica contra o crime organizado e preservava o comando estadual das policias. o congresso endureceu o texto contra faccoes, mas nao o redirecionou. as fontes mostram que a pec 18/2025, enviada pelo executivo, buscava constitucionalizar o susp, ampliar competencias da pf e da prf e fortalecer a coordenacao da uniao, como resposta ao crime organizado [3]. o texto deixava explicito que estados e municipios continuariam no comando de suas forcas e que a pec nao interferia nas competencias locais [3]. apos criticas de governadores, o governo incluiu trecho garantindo a subordinacao das policias aos governadores [2]. e verdade que o texto ampliava o papel federal e previa corregedorias e ouvidorias autonomas [5][3], o que pode ser lido como mais controle sobre as policias. tambem e verdade que o relator mendonca filho, na camara, apresentou substitutivo com regime mais rigoroso contra faccoes, como restricao a progressao de regime e confisco de bens [1]. porem, o eixo do combate ao crime organizado ja estava na proposta original [3][4]. a ideia de que a pec era 'para controlar as policias' e virou outra coisa no congresso distorce o conteudo: o congresso endureceu a proposta, nao inverteu seu objetivo. enganoso enganoso"
+    "searchTokens": "54 decl-054 flavio bolsonaro flavio seguranca publica a proposta de seguranca publica do governo lula (pec da seguranca) visava controlar as policias e foi modificada no congresso para focar no combate aos criminosos. voce falou que vai acabar com a policia. a sua pec, que voce chamou de seguranca, era para controlar as policias e nos modificamos no congresso para controlar os bandidos. enganoso. a pec original visava integrar e coordenar a seguranca publica contra o crime organizado e preservava o comando estadual das policias. o congresso endureceu o texto contra faccoes, mas nao o redirecionou. as fontes mostram que a pec 18/2025, enviada pelo executivo, buscava constitucionalizar o susp, ampliar competencias da pf e da prf e fortalecer a coordenacao da uniao, como resposta ao crime organizado [3]. o texto deixava explicito que estados e municipios continuariam no comando de suas forcas e que a pec nao interferia nas competencias locais [3]. apos criticas de governadores, o governo incluiu trecho garantindo a subordinacao das policias aos governadores [2]. e verdade que o texto ampliava o papel federal e previa corregedorias e ouvidorias autonomas [5][3], o que pode ser lido como mais controle sobre as policias. tambem e verdade que o relator mendonca filho, na camara, apresentou substitutivo com regime mais rigoroso contra faccoes, como restricao a progressao de regime e confisco de bens [1]. porem, o eixo do combate ao crime organizado ja estava na proposta original [3][4]. a ideia de que a pec era 'para controlar as policias' e virou outra coisa no congresso distorce o conteudo: o congresso endureceu a proposta, nao inverteu seu objetivo. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-055",
@@ -6165,7 +6219,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "55 decl-055 luiz inacio lula da silva lula corrupcao willer tomaz, advogado amigo de flavio bolsonaro, obteve em uma semana a cessao da ilha por meio de um coronel que era diretor da secretaria do patrimonio da uniao (spu) indicado por flavio bolsonaro. e pelo que parece, ele conseguiu numa semana com um coronel do exercito, que era diretor do spu, que voce indicou. verdadeiro, com imprecisao: medeiros era superintendente da spu no rio, nao diretor. o coronel indicado por flavio estava no cargo e a transferencia saiu em poucos dias, em julho de 2022. o trecho diz que willer tomaz conseguiu a transferencia em uma semana, com um coronel do exercito que era 'diretor do spu' indicado por flavio. segundo [2], a spu reconheceu a transferencia em 12 de julho de 2022, um dia depois de emitir uma certidao especial. nesse periodo, a superintendencia da spu no rio era comandada pelo coronel do exercito paulo da silva medeiros, nomeado por indicacao de flavio bolsonaro. [1] confirma que a wt regularizou o cadastro na spu em 11 de julho e obteve a transferencia no dia seguinte, 'superando a conhecida burocracia'. [1] e [3] confirmam a amizade entre willer e flavio. ha imprecisoes que nao mudam o ponto: medeiros era superintendente regional, nao diretor; a certidao saiu por orientacao de uma coordenacao da diretoria de receitas patrimoniais em brasilia; e, segundo [2], houve reconhecimento da ocupacao, nao cessao da propriedade da ilha. lula usou 'pelo que parece', o que reflete a apuracao em andamento, mas os fatos centrais tem respaldo nas fontes. verdadeiro verdadeiro"
+    "searchTokens": "55 decl-055 luiz inacio lula da silva lula corrupcao willer tomaz, advogado amigo de flavio bolsonaro, obteve em uma semana a cessao da ilha por meio de um coronel que era diretor da secretaria do patrimonio da uniao (spu) indicado por flavio bolsonaro. e pelo que parece, ele conseguiu numa semana com um coronel do exercito, que era diretor do spu, que voce indicou. verdadeiro, com imprecisao: medeiros era superintendente da spu no rio, nao diretor. o coronel indicado por flavio estava no cargo e a transferencia saiu em poucos dias, em julho de 2022. o trecho diz que willer tomaz conseguiu a transferencia em uma semana, com um coronel do exercito que era 'diretor do spu' indicado por flavio. segundo [2], a spu reconheceu a transferencia em 12 de julho de 2022, um dia depois de emitir uma certidao especial. nesse periodo, a superintendencia da spu no rio era comandada pelo coronel do exercito paulo da silva medeiros, nomeado por indicacao de flavio bolsonaro. [1] confirma que a wt regularizou o cadastro na spu em 11 de julho e obteve a transferencia no dia seguinte, 'superando a conhecida burocracia'. [1] e [3] confirmam a amizade entre willer e flavio. ha imprecisoes que nao mudam o ponto: medeiros era superintendente regional, nao diretor; a certidao saiu por orientacao de uma coordenacao da diretoria de receitas patrimoniais em brasilia; e, segundo [2], houve reconhecimento da ocupacao, nao cessao da propriedade da ilha. lula usou 'pelo que parece', o que reflete a apuracao em andamento, mas os fatos centrais tem respaldo nas fontes. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-056",
@@ -6263,7 +6318,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "56 decl-056 flavio bolsonaro flavio corrupcao william, amigo de flavio bolsonaro, nao e socio de flavio, e sim socio do advogado de lula. e outra coisa, o willer e um amigo, nao e meu socio. o socio dele e o seu advogado,. inconclusivo: willer tomaz tem escritorio com eugenio aragao, mas as fontes nao dizem que ele e advogado de lula. a pf ve indicios de sociedade com flavio, que ambos negam, sem prova conclusiva publicada. o trecho tem duas partes. sobre willer nao ser socio de flavio: o valor informa que ambos dizem ter apenas relacao pessoal e negam vinculos comerciais [2]. ja a cbn relata um relatorio da pf que aponta indicios de sociedade e vinculos financeiros e empresariais entre os dois, citando o acesso do senador a conta de uma empresa e viagens pagas por companhias ligadas ao advogado [3]. o g1 diz que ambos sao investigados no stf por suspeita de lavagem de dinheiro [1]. portanto, a negacao de flavio nao esta confirmada nem refutada: existe uma apuracao em curso, sem conclusao publicada. sobre o socio de willer ser advogado de lula: o valor confirma que tomaz tem parceria com eugenio aragao, ex-ministro da justica de dilma, no escritorio aragao e tomaz [2]. porem, nenhuma fonte afirma que aragao e advogado de lula. a ligacao com o adversario fica, assim, sem confirmacao nas fontes. insustentavel falso"
+    "searchTokens": "56 decl-056 flavio bolsonaro flavio corrupcao william, amigo de flavio bolsonaro, nao e socio de flavio, e sim socio do advogado de lula. e outra coisa, o willer e um amigo, nao e meu socio. o socio dele e o seu advogado,. inconclusivo: willer tomaz tem escritorio com eugenio aragao, mas as fontes nao dizem que ele e advogado de lula. a pf ve indicios de sociedade com flavio, que ambos negam, sem prova conclusiva publicada. o trecho tem duas partes. sobre willer nao ser socio de flavio: o valor informa que ambos dizem ter apenas relacao pessoal e negam vinculos comerciais [2]. ja a cbn relata um relatorio da pf que aponta indicios de sociedade e vinculos financeiros e empresariais entre os dois, citando o acesso do senador a conta de uma empresa e viagens pagas por companhias ligadas ao advogado [3]. o g1 diz que ambos sao investigados no stf por suspeita de lavagem de dinheiro [1]. portanto, a negacao de flavio nao esta confirmada nem refutada: existe uma apuracao em curso, sem conclusao publicada. sobre o socio de willer ser advogado de lula: o valor confirma que tomaz tem parceria com eugenio aragao, ex-ministro da justica de dilma, no escritorio aragao e tomaz [2]. porem, nenhuma fonte afirma que aragao e advogado de lula. a ligacao com o adversario fica, assim, sem confirmacao nas fontes. insustentavel falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-057",
@@ -6364,7 +6420,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "57 decl-057 flavio bolsonaro flavio corrupcao a ilha em disputa nunca pertenceu a richarlison, segundo decisao judicial transitada em julgado. ilha nunca foi do. a justica, ate o stj, deu a posse a willer tomaz e a sport 70 desistiu. porem a empresa ligada a richarlison comprou e ocupou o imovel desde 2020, e a ilha e da uniao, entao ninguem teve a propriedade. o trecho original e truncado (\"ilha nunca foi do\"), e pelo contexto flavio sugere que a ilha nunca foi de richarlison. as fontes confirmam que a disputa judicial terminou a favor de willer tomaz. o stj manteve a decisao do tj-rj que reconheceu a posse do advogado [2]. a sport 70 perdeu nas instancias e desistiu do processo em 2025 [4]. tambem e verdade que richarlison pessoalmente nao foi parte, pois atuaram empresas ligadas a ele [4]. mas a area pertence a uniao, e a disputa trata de direitos de posse e ocupacao, nao de propriedade da ilha [5]. portanto, a ilha nao 'e' de nenhum particular. alem disso, a empresa ligada ao jogador comprou os direitos em 2020 e ocupava o imovel ate 2022, quando tomaz obteve uma liminar descrita como suspeita [1][3]. em 2023 houve decisao de primeira instancia favoravel ao lado do jogador [3], embora depois superada [2][4]. dizer que 'nunca foi dele' omite essa posse anterior e o fato de que a disputa e sobre posse. esse enquadramento sugere uma ausencia total de vinculo que as fontes nao sustentam, ainda que o resultado judicial final favoreca tomaz. enganoso enganoso"
+    "searchTokens": "57 decl-057 flavio bolsonaro flavio corrupcao a ilha em disputa nunca pertenceu a richarlison, segundo decisao judicial transitada em julgado. ilha nunca foi do. a justica, ate o stj, deu a posse a willer tomaz e a sport 70 desistiu. porem a empresa ligada a richarlison comprou e ocupou o imovel desde 2020, e a ilha e da uniao, entao ninguem teve a propriedade. o trecho original e truncado (\"ilha nunca foi do\"), e pelo contexto flavio sugere que a ilha nunca foi de richarlison. as fontes confirmam que a disputa judicial terminou a favor de willer tomaz. o stj manteve a decisao do tj-rj que reconheceu a posse do advogado [2]. a sport 70 perdeu nas instancias e desistiu do processo em 2025 [4]. tambem e verdade que richarlison pessoalmente nao foi parte, pois atuaram empresas ligadas a ele [4]. mas a area pertence a uniao, e a disputa trata de direitos de posse e ocupacao, nao de propriedade da ilha [5]. portanto, a ilha nao 'e' de nenhum particular. alem disso, a empresa ligada ao jogador comprou os direitos em 2020 e ocupava o imovel ate 2022, quando tomaz obteve uma liminar descrita como suspeita [1][3]. em 2023 houve decisao de primeira instancia favoravel ao lado do jogador [3], embora depois superada [2][4]. dizer que 'nunca foi dele' omite essa posse anterior e o fato de que a disputa e sobre posse. esse enquadramento sugere uma ausencia total de vinculo que as fontes nao sustentam, ainda que o resultado judicial final favoreca tomaz. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-058",
@@ -6470,7 +6527,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "58 decl-058 flavio bolsonaro flavio corrupcao a justica ja investigou o caso da disputa pela ilha em angra dos reis envolvendo o advogado e a spu, e a acao ja transitou em julgado com decisao definitiva. justica ja investigou isso, essa acao ja transitou em julgado, ja tem uma decisao definitiva. verdadeiro. a disputa judicial pela posse do imovel em angra foi julgada pelo tj-rj e o stj negou recurso em 2025, encerrando o caso a favor de willer tomaz. as fontes nao confirmam a data exata do transito em julgado. a conjur [1] informa que a 3ª turma do stj, por unanimidade, negou o recurso especial contra a decisao do tj-rj que reconheceu a posse do advogado willer tomaz sobre a mansao em ilha comprida. segundo a publicacao, a decisao encerra a disputa com a sport 70, empresa ligada ao ex-empresario de richarlison. o portal tela [2] confirma que o stj ratificou as decisoes da 2ª vara civel de angra dos reis e do tj-rj. na epoca, porem, ainda cabiam embargos de declaracao, e nenhuma fonte informa a data exata do transito em julgado. a veja [3] registra que, segundo willer, o jogador perdeu a disputa na justica. ha uma ressalva: a acao julgada e a disputa civil entre particulares. o procedimento da spu que liberou a certidao em um dia, relatado pelo icl [4], e o pedido de investigacao feito por richarlison a pf [5][6] sao questoes distintas, e as fontes nao mostram que tenham sido investigados. ainda assim, o nucleo da fala, de que a justica decidiu a disputa de forma definitiva, tem respaldo nas fontes. verdadeiro verdadeiro"
+    "searchTokens": "58 decl-058 flavio bolsonaro flavio corrupcao a justica ja investigou o caso da disputa pela ilha em angra dos reis envolvendo o advogado e a spu, e a acao ja transitou em julgado com decisao definitiva. justica ja investigou isso, essa acao ja transitou em julgado, ja tem uma decisao definitiva. verdadeiro. a disputa judicial pela posse do imovel em angra foi julgada pelo tj-rj e o stj negou recurso em 2025, encerrando o caso a favor de willer tomaz. as fontes nao confirmam a data exata do transito em julgado. a conjur [1] informa que a 3ª turma do stj, por unanimidade, negou o recurso especial contra a decisao do tj-rj que reconheceu a posse do advogado willer tomaz sobre a mansao em ilha comprida. segundo a publicacao, a decisao encerra a disputa com a sport 70, empresa ligada ao ex-empresario de richarlison. o portal tela [2] confirma que o stj ratificou as decisoes da 2ª vara civel de angra dos reis e do tj-rj. na epoca, porem, ainda cabiam embargos de declaracao, e nenhuma fonte informa a data exata do transito em julgado. a veja [3] registra que, segundo willer, o jogador perdeu a disputa na justica. ha uma ressalva: a acao julgada e a disputa civil entre particulares. o procedimento da spu que liberou a certidao em um dia, relatado pelo icl [4], e o pedido de investigacao feito por richarlison a pf [5][6] sao questoes distintas, e as fontes nao mostram que tenham sido investigados. ainda assim, o nucleo da fala, de que a justica decidiu a disputa de forma definitiva, tem respaldo nas fontes. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-059",
@@ -6581,7 +6639,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "59 decl-059 luiz inacio lula da silva lula corrupcao o jogador richarlison esperou mais de um ano na spu por autorizacao de uma ilha em angra dos reis, enquanto um advogado amigo de flavio bolsonaro, que indicou o diretor da spu, obteve o titulo em uma semana. ele entrou no spu ha mais de um ano, ficou esperando, e o outro cidadao, que era amigo do meu adversario, advogado, e que tinha indicado o diretor do spu, que era um coronel, em apenas uma semana, conseguiu o titulo de uma propriedade, uma autorizacao, que o pai do bebe nao conseguiu. exagerado: as fontes indicam que o pedido de richarlison ficou cerca de dez meses sem conclusao, e nao mais de um ano. o procedimento ligado a tomaz foi concluido em um dia. nao ha nas fontes prova de que o advogado indicou o diretor da o pedido de regularizacao apresentado em setembro de 2021 ficou sem conclusao por cerca de dez meses [2][5]. o proprio jogador disse ter aguardado 'quase um ano' [4]. ja em 11 de julho de 2022, a spu abriu e concluiu no mesmo dia um procedimento especial que liberou a transferencia dos direitos para o grupo ligado a willer tomaz, amigo de flavio bolsonaro [3]. a direcao da fala esta certa: houve espera longa de um lado e rapidez do outro. mas lula inflou o tempo de espera ('mais de um ano', quando as fontes indicam cerca de dez meses). o contraste tambem e desigual: ele fala em 'uma semana', mas o procedimento levou um dia, e o outro requerimento foi encerrado em cerca de dois meses [3]. alem disso, nenhuma fonte confirma que o advogado indicou o diretor da spu, que seria um coronel. o episodio esta sendo apurado pela pf em inquerito no stf [1], e tomaz contesta a versao do jogador [6][7]. exagerado enganoso"
+    "searchTokens": "59 decl-059 luiz inacio lula da silva lula corrupcao o jogador richarlison esperou mais de um ano na spu por autorizacao de uma ilha em angra dos reis, enquanto um advogado amigo de flavio bolsonaro, que indicou o diretor da spu, obteve o titulo em uma semana. ele entrou no spu ha mais de um ano, ficou esperando, e o outro cidadao, que era amigo do meu adversario, advogado, e que tinha indicado o diretor do spu, que era um coronel, em apenas uma semana, conseguiu o titulo de uma propriedade, uma autorizacao, que o pai do bebe nao conseguiu. exagerado: as fontes indicam que o pedido de richarlison ficou cerca de dez meses sem conclusao, e nao mais de um ano. o procedimento ligado a tomaz foi concluido em um dia. nao ha nas fontes prova de que o advogado indicou o diretor da o pedido de regularizacao apresentado em setembro de 2021 ficou sem conclusao por cerca de dez meses [2][5]. o proprio jogador disse ter aguardado 'quase um ano' [4]. ja em 11 de julho de 2022, a spu abriu e concluiu no mesmo dia um procedimento especial que liberou a transferencia dos direitos para o grupo ligado a willer tomaz, amigo de flavio bolsonaro [3]. a direcao da fala esta certa: houve espera longa de um lado e rapidez do outro. mas lula inflou o tempo de espera ('mais de um ano', quando as fontes indicam cerca de dez meses). o contraste tambem e desigual: ele fala em 'uma semana', mas o procedimento levou um dia, e o outro requerimento foi encerrado em cerca de dois meses [3]. alem disso, nenhuma fonte confirma que o advogado indicou o diretor da spu, que seria um coronel. o episodio esta sendo apurado pela pf em inquerito no stf [1], e tomaz contesta a versao do jogador [6][7]. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-060",
@@ -6687,7 +6746,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "60 decl-060 luiz inacio lula da silva lula corrupcao o jogador havia pago dez milhoes de reais pela ilha em angra dos reis que, segundo sua denuncia, foi tomada por bolsonaro e seu advogado. ele tinha pago 10 milhoes de reais. verdadeiro, com ressalva: as fontes registram que richarlison afirma ter investido cerca de r$ 10 milhoes, mas so r$ 4,66 milhoes foram pagos aos antigos posseiros. o restante foi para obras e seguranca. varias fontes relatam que richarlison diz ter investido cerca de r$ 10 milhoes no imovel da ilha comprida, em angra dos reis, adquirido em 2020 por meio de uma empresa da qual e socio [2][4][5]. a veja rio diz que ele 'comprou a propriedade por cerca de 10 milhoes de reais' [3]. pelo detalhamento do proprio jogador, porem, r$ 4,66 milhoes foram pagos aos antigos posseiros e o restante foi aplicado em obras e seguranca [3]. ou seja, 'pagou 10 milhoes' descreve o investimento total, nao o preco de compra. o nucleo da fala, de que o jogador desembolsou cerca de r$ 10 milhoes, corresponde ao que as fontes relatam. o valor se apoia na versao do atleta, que apresentou documentos [3][4]. willer tomaz contesta a legitimidade de quem vendeu, mas nao o montante [2]. o imovel tambem e descrito como avaliado em cerca de r$ 10 milhoes [6][1]. verdadeiro verdadeiro"
+    "searchTokens": "60 decl-060 luiz inacio lula da silva lula corrupcao o jogador havia pago dez milhoes de reais pela ilha em angra dos reis que, segundo sua denuncia, foi tomada por bolsonaro e seu advogado. ele tinha pago 10 milhoes de reais. verdadeiro, com ressalva: as fontes registram que richarlison afirma ter investido cerca de r$ 10 milhoes, mas so r$ 4,66 milhoes foram pagos aos antigos posseiros. o restante foi para obras e seguranca. varias fontes relatam que richarlison diz ter investido cerca de r$ 10 milhoes no imovel da ilha comprida, em angra dos reis, adquirido em 2020 por meio de uma empresa da qual e socio [2][4][5]. a veja rio diz que ele 'comprou a propriedade por cerca de 10 milhoes de reais' [3]. pelo detalhamento do proprio jogador, porem, r$ 4,66 milhoes foram pagos aos antigos posseiros e o restante foi aplicado em obras e seguranca [3]. ou seja, 'pagou 10 milhoes' descreve o investimento total, nao o preco de compra. o nucleo da fala, de que o jogador desembolsou cerca de r$ 10 milhoes, corresponde ao que as fontes relatam. o valor se apoia na versao do atleta, que apresentou documentos [3][4]. willer tomaz contesta a legitimidade de quem vendeu, mas nao o montante [2]. o imovel tambem e descrito como avaliado em cerca de r$ 10 milhoes [6][1]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-061",
@@ -6798,7 +6858,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "61 decl-061 luiz inacio lula da silva lula corrupcao o jogador richarlison (citado como 'pai do bebe') denunciou que flavio bolsonaro e o advogado dele tomaram uma ilha que o jogador havia comprado em angra dos reis. o pai do bebe. pois bem, esse pai do bebe faz uma denuncia de que o meu adversario e o advogado dele apareceram numa ilha que ele tinha comprado em angra dos reis e tomaram a ilha dele. verdadeiro. richarlison ('pai do bebe') acusou publicamente flavio bolsonaro e o advogado willer tomaz de tomarem a ilha que comprou em angra. a acusacao e negada pelos citados. o trecho original nao cita o nome de hulk. fala apenas do 'pai do bebe', apelido que o proprio lula usou para richarlison. as fontes confirmam que o jogador denunciou em videos que flavio bolsonaro, adversario de lula, e o advogado willer tomaz agiram para tomar 'na mao grande' um imovel na ilha comprida, em angra dos reis, pelo qual diz ter pago r$ 10 milhoes, e que pediu investigacao da pf. segundo, ele afirmou que os dois 'foram la e, em 24 horas, pegaram a posse da ilha'. o que lula afirma e a existencia da denuncia, e isso esta correto. o merito da disputa e contestado: flavio nega envolvimento, e tomaz diz ter escritura e que o jogador comprou de invasores e perdeu na justica, inclusive no stj. tomaz tambem pediu a justica a remocao dos posts do jogador. verdadeiro verdadeiro"
+    "searchTokens": "61 decl-061 luiz inacio lula da silva lula corrupcao o jogador richarlison (citado como 'pai do bebe') denunciou que flavio bolsonaro e o advogado dele tomaram uma ilha que o jogador havia comprado em angra dos reis. o pai do bebe. pois bem, esse pai do bebe faz uma denuncia de que o meu adversario e o advogado dele apareceram numa ilha que ele tinha comprado em angra dos reis e tomaram a ilha dele. verdadeiro. richarlison ('pai do bebe') acusou publicamente flavio bolsonaro e o advogado willer tomaz de tomarem a ilha que comprou em angra. a acusacao e negada pelos citados. o trecho original nao cita o nome de hulk. fala apenas do 'pai do bebe', apelido que o proprio lula usou para richarlison. as fontes confirmam que o jogador denunciou em videos que flavio bolsonaro, adversario de lula, e o advogado willer tomaz agiram para tomar 'na mao grande' um imovel na ilha comprida, em angra dos reis, pelo qual diz ter pago r$ 10 milhoes, e que pediu investigacao da pf. segundo, ele afirmou que os dois 'foram la e, em 24 horas, pegaram a posse da ilha'. o que lula afirma e a existencia da denuncia, e isso esta correto. o merito da disputa e contestado: flavio nega envolvimento, e tomaz diz ter escritura e que o jogador comprou de invasores e perdeu na justica, inclusive no stj. tomaz tambem pediu a justica a remocao dos posts do jogador. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-062",
@@ -6904,7 +6965,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "62 decl-062 luiz inacio lula da silva lula seguranca publica flavio bolsonaro, como deputado na assembleia legislativa do rio de janeiro, fez discurso defendendo miliciano e propos condecoracao a miliciano. todo mundo assiste os discursos dele na assembleia legislativa defendendo miliciano, oferecendo condecoracao pra miliciano,. verdadeiro. registros da alerj e a imprensa mostram que flavio discursou em 2007 defendendo as milicias e propos a medalha tiradentes e mocoes de louvor a adriano da nobrega, depois apontado como chefe do escritorio do crime. os anais da alerj registram discurso de flavio bolsonaro sobre milicias [3]. em 7 de fevereiro de 2007, ele afirmou que nao se podia 'estigmatizar as milicias' e que a milicia buscava 'expurgar do seio da comunidade' os criminosos [2][4][5]. ele tambem propos homenagens: mocao de louvor em 2003 e a medalha tiradentes em 2005 ao entao pm adriano magalhaes da nobrega [1][2][6]. segundo investigadores, adriano seria o chefe do escritorio do crime, e ele estava preso por suspeita de homicidio quando recebeu a medalha [1]. flavio tambem propos mocao de louvor ao major ronald pereira, depois preso em operacao contra a milicia [5]. ha uma ressalva: na epoca das homenagens, os agraciados ainda nao tinham sido apontados como milicianos. a assessoria de flavio diz que as frases foram tiradas de contexto [5]. isso nao altera o nucleo da fala, porque o discurso e as condecoracoes estao documentados. verdadeiro verdadeiro"
+    "searchTokens": "62 decl-062 luiz inacio lula da silva lula seguranca publica flavio bolsonaro, como deputado na assembleia legislativa do rio de janeiro, fez discurso defendendo miliciano e propos condecoracao a miliciano. todo mundo assiste os discursos dele na assembleia legislativa defendendo miliciano, oferecendo condecoracao pra miliciano,. verdadeiro. registros da alerj e a imprensa mostram que flavio discursou em 2007 defendendo as milicias e propos a medalha tiradentes e mocoes de louvor a adriano da nobrega, depois apontado como chefe do escritorio do crime. os anais da alerj registram discurso de flavio bolsonaro sobre milicias [3]. em 7 de fevereiro de 2007, ele afirmou que nao se podia 'estigmatizar as milicias' e que a milicia buscava 'expurgar do seio da comunidade' os criminosos [2][4][5]. ele tambem propos homenagens: mocao de louvor em 2003 e a medalha tiradentes em 2005 ao entao pm adriano magalhaes da nobrega [1][2][6]. segundo investigadores, adriano seria o chefe do escritorio do crime, e ele estava preso por suspeita de homicidio quando recebeu a medalha [1]. flavio tambem propos mocao de louvor ao major ronald pereira, depois preso em operacao contra a milicia [5]. ha uma ressalva: na epoca das homenagens, os agraciados ainda nao tinham sido apontados como milicianos. a assessoria de flavio diz que as frases foram tiradas de contexto [5]. isso nao altera o nucleo da fala, porque o discurso e as condecoracoes estao documentados. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-063",
@@ -7010,7 +7072,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "63 decl-063 flavio bolsonaro flavio seguranca publica a audiencia de custodia foi criada pelo cnj durante governo do pt, quando o cnj era presidido por ricardo lewandowski, depois ministro da justica de lula. por causa da audiencia de custodia, que mais uma vez foi o cnj durante o governo de esquerda, que criou, inclusive, quando tinha na presidencia la, o ex-ministro da injustica dele,. verdadeiro. o projeto audiencia de custodia foi criado pelo cnj em 2015, sob a presidencia de ricardo lewandowski, durante o governo dilma rousseff (pt). as fontes confirmam que o projeto audiencia de custodia foi criado e implantado pelo cnj na gestao do ministro ricardo lewandowski (bienio 2014-2016) [1][2]. o projeto foi aprovado em janeiro de 2015 e lancado em fevereiro de 2015, em sao paulo [4][5], e regulamentado pela resolucao cnj 213, de dezembro de 2015 [3]. nesse periodo, a presidente da republica era dilma rousseff (pt), que inclusive premiou lewandowski pela iniciativa [2]. o ministerio da justica do governo petista tambem participou do lancamento [6][5]. a referencia ao 'ex-ministro' e coerente com o contexto da afirmacao, que diz que lewandowski depois foi ministro da justica de lula. vale notar que a medida decorre de tratados internacionais ratificados pelo brasil [1] e foi uma iniciativa do judiciario, nao do executivo, mas a fala atribui corretamente a criacao ao cnj. verdadeiro verdadeiro"
+    "searchTokens": "63 decl-063 flavio bolsonaro flavio seguranca publica a audiencia de custodia foi criada pelo cnj durante governo do pt, quando o cnj era presidido por ricardo lewandowski, depois ministro da justica de lula. por causa da audiencia de custodia, que mais uma vez foi o cnj durante o governo de esquerda, que criou, inclusive, quando tinha na presidencia la, o ex-ministro da injustica dele,. verdadeiro. o projeto audiencia de custodia foi criado pelo cnj em 2015, sob a presidencia de ricardo lewandowski, durante o governo dilma rousseff (pt). as fontes confirmam que o projeto audiencia de custodia foi criado e implantado pelo cnj na gestao do ministro ricardo lewandowski (bienio 2014-2016) [1][2]. o projeto foi aprovado em janeiro de 2015 e lancado em fevereiro de 2015, em sao paulo [4][5], e regulamentado pela resolucao cnj 213, de dezembro de 2015 [3]. nesse periodo, a presidente da republica era dilma rousseff (pt), que inclusive premiou lewandowski pela iniciativa [2]. o ministerio da justica do governo petista tambem participou do lancamento [6][5]. a referencia ao 'ex-ministro' e coerente com o contexto da afirmacao, que diz que lewandowski depois foi ministro da justica de lula. vale notar que a medida decorre de tratados internacionais ratificados pelo brasil [1] e foi uma iniciativa do judiciario, nao do executivo, mas a fala atribui corretamente a criacao ao cnj. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-064",
@@ -7121,7 +7184,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "64 decl-064 flavio bolsonaro flavio seguranca publica o governo lula adota uma politica de desencarceramento. porque hoje a sua politica e de. verdadeiro, com ressalvas. o plano pena justa, do governo com o cnj e homologado pelo stf, preve controle da entrada no sistema prisional e menos uso da prisao. o termo desencarceramento e usado por criticos e por membros do governo. o trecho original esta truncado, mas o contexto [1] mostra que flavio acusou o governo lula de adotar uma 'politica de desencarceramento'. as fontes confirmam que existe uma politica nessa direcao. o plano pena justa foi apresentado pelo governo lula e pelo cnj e homologado pelo stf [2]. um de seus eixos e o 'controle da entrada e das vagas do sistema prisional', voltado a enfrentar a superlotacao e o 'uso excessivo da pena privativa de liberdade' [4]. o plano inclui dispositivos para evitar prisao em crimes patrimoniais sem violencia [2]. integrantes do governo defenderam publicamente 'uma politica de desencarceramento' [3], e o plano nacional de politica criminal 2024-2027 propoe soltar presos como uma das solucoes para a superlotacao [6]. ha duas ressalvas. o plano nasceu de determinacao do stf na adpf 347, proposta pelo psol [2][5]. o governo, por sua vez, o descreve como medida de dignidade e de seguranca publica [7][4]. parte das fontes que usam o termo 'desencarceramento' e jornalismo opinativo critico [3][5]. ainda assim, o nucleo da afirmacao e sustentado pelas fontes. verdadeiro verdadeiro"
+    "searchTokens": "64 decl-064 flavio bolsonaro flavio seguranca publica o governo lula adota uma politica de desencarceramento. porque hoje a sua politica e de. verdadeiro, com ressalvas. o plano pena justa, do governo com o cnj e homologado pelo stf, preve controle da entrada no sistema prisional e menos uso da prisao. o termo desencarceramento e usado por criticos e por membros do governo. o trecho original esta truncado, mas o contexto [1] mostra que flavio acusou o governo lula de adotar uma 'politica de desencarceramento'. as fontes confirmam que existe uma politica nessa direcao. o plano pena justa foi apresentado pelo governo lula e pelo cnj e homologado pelo stf [2]. um de seus eixos e o 'controle da entrada e das vagas do sistema prisional', voltado a enfrentar a superlotacao e o 'uso excessivo da pena privativa de liberdade' [4]. o plano inclui dispositivos para evitar prisao em crimes patrimoniais sem violencia [2]. integrantes do governo defenderam publicamente 'uma politica de desencarceramento' [3], e o plano nacional de politica criminal 2024-2027 propoe soltar presos como uma das solucoes para a superlotacao [6]. ha duas ressalvas. o plano nasceu de determinacao do stf na adpf 347, proposta pelo psol [2][5]. o governo, por sua vez, o descreve como medida de dignidade e de seguranca publica [7][4]. parte das fontes que usam o termo 'desencarceramento' e jornalismo opinativo critico [3][5]. ainda assim, o nucleo da afirmacao e sustentado pelas fontes. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-065",
@@ -7232,7 +7296,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "65 decl-065 flavio bolsonaro flavio seguranca publica a lei antifaccao preve penas de ate 80 anos de prisao para chefes de faccoes criminosas, com cumprimento quase integral da pena. eles vao ficar muito mais tempo presos, como nos ja comecamos a fazer com a lei antifaccao. os chefes dessas organizacoes vao poder pegar ate 80 anos de cadeia e vao ter que cumprir a pena quase que integralmente,. verdadeiro. a lei 15.358/2026 fixa pena de 20 a 40 anos para dominio social estruturado, com aumento de ate o dobro para lideres (ate 80 anos), e exige de 70% a 85% da pena para progressao de regime. a lei antifaccao (lei 15.358/2026) tipificou o crime de dominio social estruturado com pena de 20 a 40 anos [6][2][3][7]. segundo [1], a pena e aumentada em ate o dobro para lideres, chefes e financiadores, o que leva o teto a 80 anos. a camara descreve agravantes de metade a 2/3 sobre a pena de 20 a 40 anos [5], o que daria cerca de 66 anos. ja o relator no senado falava em ate 60 anos, podendo chegar a 120 em casos especificos [4]. ha, portanto, divergencia sobre o teto exato, mas a cifra de 80 anos tem respaldo em [1] e nao esta inflada em relacao ao limite maximo citado [4]. quanto ao cumprimento, a progressao de regime passou a exigir de 70% a 85% da pena, e os condenados ficam sem direito a livramento condicional, anistia, indulto ou fianca [1][2]. isso sustenta a expressao \"quase que integralmente\", ainda que de forma coloquial. alem disso, a pena do dominio social e somada as de outros crimes cometidos [3]. o candidato disse que os chefes \"vao poder pegar ate 80 anos\", tratando o numero como maximo e nao como regra, o que e compativel com as fontes. verdadeiro verdadeiro"
+    "searchTokens": "65 decl-065 flavio bolsonaro flavio seguranca publica a lei antifaccao preve penas de ate 80 anos de prisao para chefes de faccoes criminosas, com cumprimento quase integral da pena. eles vao ficar muito mais tempo presos, como nos ja comecamos a fazer com a lei antifaccao. os chefes dessas organizacoes vao poder pegar ate 80 anos de cadeia e vao ter que cumprir a pena quase que integralmente,. verdadeiro. a lei 15.358/2026 fixa pena de 20 a 40 anos para dominio social estruturado, com aumento de ate o dobro para lideres (ate 80 anos), e exige de 70% a 85% da pena para progressao de regime. a lei antifaccao (lei 15.358/2026) tipificou o crime de dominio social estruturado com pena de 20 a 40 anos [6][2][3][7]. segundo [1], a pena e aumentada em ate o dobro para lideres, chefes e financiadores, o que leva o teto a 80 anos. a camara descreve agravantes de metade a 2/3 sobre a pena de 20 a 40 anos [5], o que daria cerca de 66 anos. ja o relator no senado falava em ate 60 anos, podendo chegar a 120 em casos especificos [4]. ha, portanto, divergencia sobre o teto exato, mas a cifra de 80 anos tem respaldo em [1] e nao esta inflada em relacao ao limite maximo citado [4]. quanto ao cumprimento, a progressao de regime passou a exigir de 70% a 85% da pena, e os condenados ficam sem direito a livramento condicional, anistia, indulto ou fianca [1][2]. isso sustenta a expressao \"quase que integralmente\", ainda que de forma coloquial. alem disso, a pena do dominio social e somada as de outros crimes cometidos [3]. o candidato disse que os chefes \"vao poder pegar ate 80 anos\", tratando o numero como maximo e nao como regra, o que e compativel com as fontes. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-066",
@@ -7346,7 +7411,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "66 decl-066 flavio bolsonaro flavio seguranca publica o policial acusado de atirar na menina de cinco anos durante troca de tiros em comunidade ainda nao foi julgado. era uma troca de tiros numa comunidade conflagrada. a senhora sabe que tem o trafico de drogas ai. e o que eu estou fazendo e que eu quero ajudar a senhora, inclusive, a saber quem foi o autor desse disparo, porque eu tenho a confianca que nao foi esse policial. enganoso. e verdade que o pm ainda nao foi julgado, mas a fala apresenta como fato uma 'troca de tiros' contestada e omite que a justica mandou o policial a juri apos a pericia apontar contradicoes. as fontes confirmam que o pm bruno dias delaroli, acusado de matar ana clara, de 5 anos, em niteroi em 2021, ainda nao foi julgado. o juri foi adiado para 5 de maio de 2027 [2][3][4], e nao houve decisao definitiva sobre sua responsabilidade [5]. nesse ponto, a afirmacao esta correta. o trecho, porem, apresenta como fato que houve 'troca de tiros numa comunidade conflagrada' e insinua que o autor do disparo seria outra pessoa. essa versao e a da pm e da defesa. a familia nega que houvesse confronto [5], e a policia civil prendeu o policial em flagrante por contradicoes entre os depoimentos dos pms e a pericia [1][5]. ele foi denunciado por homicidio com dolo eventual e mandado a juri popular. o recurso da defesa ao stj, de cuja equipe flavio fez parte, foi rejeitado [3][5]. a fala omite esses elementos e tambem o fato de que flavio atuou na defesa do reu [2][3]. com isso, leva o eleitor a crer que a autoria e incerta ou que o caso se resume a um tiroteio com o trafico, o que as fontes nao sustentam. ainda assim, a culpa do policial nao foi estabelecida em julgamento. enganoso enganoso"
+    "searchTokens": "66 decl-066 flavio bolsonaro flavio seguranca publica o policial acusado de atirar na menina de cinco anos durante troca de tiros em comunidade ainda nao foi julgado. era uma troca de tiros numa comunidade conflagrada. a senhora sabe que tem o trafico de drogas ai. e o que eu estou fazendo e que eu quero ajudar a senhora, inclusive, a saber quem foi o autor desse disparo, porque eu tenho a confianca que nao foi esse policial. enganoso. e verdade que o pm ainda nao foi julgado, mas a fala apresenta como fato uma 'troca de tiros' contestada e omite que a justica mandou o policial a juri apos a pericia apontar contradicoes. as fontes confirmam que o pm bruno dias delaroli, acusado de matar ana clara, de 5 anos, em niteroi em 2021, ainda nao foi julgado. o juri foi adiado para 5 de maio de 2027 [2][3][4], e nao houve decisao definitiva sobre sua responsabilidade [5]. nesse ponto, a afirmacao esta correta. o trecho, porem, apresenta como fato que houve 'troca de tiros numa comunidade conflagrada' e insinua que o autor do disparo seria outra pessoa. essa versao e a da pm e da defesa. a familia nega que houvesse confronto [5], e a policia civil prendeu o policial em flagrante por contradicoes entre os depoimentos dos pms e a pericia [1][5]. ele foi denunciado por homicidio com dolo eventual e mandado a juri popular. o recurso da defesa ao stj, de cuja equipe flavio fez parte, foi rejeitado [3][5]. a fala omite esses elementos e tambem o fato de que flavio atuou na defesa do reu [2][3]. com isso, leva o eleitor a crer que a autoria e incerta ou que o caso se resume a um tiroteio com o trafico, o que as fontes nao sustentam. ainda assim, a culpa do policial nao foi estabelecida em julgamento. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-067",
@@ -7362,7 +7428,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "O que leva um senador a defender um policial que deu um tiro de fuzil numa menina de cinco anos?",
     "theFact": "Afirmação apurada: Um senador da República agiu para evitar que um policial acusado de matar com tiro de fuzil uma menina de cinco anos, Ana Clara, fosse julgado na data marcada, dia 21.. Verdadeiro. O trecho só diz que um senador defendeu um PM acusado de matar com tiro de fuzil uma menina de 5 anos. Flávio Bolsonaro integrou a defesa do policial no caso Ana Clara, segundo as fontes. O trecho original não afirma que o senador causou o adiamento do júri do dia 21; isso aparece só na paráfrase. Julga-se, portanto, a pergunta retórica: um senador defendeu um policial acusado de matar com tiro de fuzil uma menina de cinco anos. As fontes confirmam os dois pontos. Ana Clara, de 5 anos, foi atingida por projétil de fuzil 7,62 em Niterói em 2021 [1]. O PM Bruno Dias Delaroli é acusado do crime [2][4]. O senador Flávio Bolsonaro integrou a defesa, a convite do advogado Klein, e assinou em 2024 um recurso ao STJ para levar o caso à Justiça Militar e evitar o júri popular [1][2][3]. O recurso foi rejeitado [2][3]. Quanto à data, as fontes indicam que o adiamento do júri marcado para 21 de outubro decorreu de impossibilidade do juízo, sem indicação de que a defesa o tenha provocado [3][4]. Se a fala tivesse atribuído o adiamento ao senador, esse ponto não se sustentaria, mas o trecho não faz essa afirmação.",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em segurança pública e análise de relatórios probatórios.",
@@ -7449,7 +7515,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "67 decl-067 luiz inacio lula da silva lula seguranca publica um senador da republica agiu para evitar que um policial acusado de matar com tiro de fuzil uma menina de cinco anos, ana clara, fosse julgado na data marcada, dia 21. o que leva um senador a defender um policial que deu um tiro de fuzil numa menina de cinco anos? verdadeiro. o trecho so diz que um senador defendeu um pm acusado de matar com tiro de fuzil uma menina de 5 anos. flavio bolsonaro integrou a defesa do policial no caso ana clara, segundo as fontes. o trecho original nao afirma que o senador causou o adiamento do juri do dia 21; isso aparece so na parafrase. julga-se, portanto, a pergunta retorica: um senador defendeu um policial acusado de matar com tiro de fuzil uma menina de cinco anos. as fontes confirmam os dois pontos. ana clara, de 5 anos, foi atingida por projetil de fuzil 7,62 em niteroi em 2021 [1]. o pm bruno dias delaroli e acusado do crime [2][4]. o senador flavio bolsonaro integrou a defesa, a convite do advogado klein, e assinou em 2024 um recurso ao stj para levar o caso a justica militar e evitar o juri popular [1][2][3]. o recurso foi rejeitado [2][3]. quanto a data, as fontes indicam que o adiamento do juri marcado para 21 de outubro decorreu de impossibilidade do juizo, sem indicacao de que a defesa o tenha provocado [3][4]. se a fala tivesse atribuido o adiamento ao senador, esse ponto nao se sustentaria, mas o trecho nao faz essa afirmacao. verdadeiro verdadeiro"
+    "searchTokens": "67 decl-067 luiz inacio lula da silva lula seguranca publica um senador da republica agiu para evitar que um policial acusado de matar com tiro de fuzil uma menina de cinco anos, ana clara, fosse julgado na data marcada, dia 21. o que leva um senador a defender um policial que deu um tiro de fuzil numa menina de cinco anos? verdadeiro. o trecho so diz que um senador defendeu um pm acusado de matar com tiro de fuzil uma menina de 5 anos. flavio bolsonaro integrou a defesa do policial no caso ana clara, segundo as fontes. o trecho original nao afirma que o senador causou o adiamento do juri do dia 21; isso aparece so na parafrase. julga-se, portanto, a pergunta retorica: um senador defendeu um policial acusado de matar com tiro de fuzil uma menina de cinco anos. as fontes confirmam os dois pontos. ana clara, de 5 anos, foi atingida por projetil de fuzil 7,62 em niteroi em 2021 [1]. o pm bruno dias delaroli e acusado do crime [2][4]. o senador flavio bolsonaro integrou a defesa, a convite do advogado klein, e assinou em 2024 um recurso ao stj para levar o caso a justica militar e evitar o juri popular [1][2][3]. o recurso foi rejeitado [2][3]. quanto a data, as fontes indicam que o adiamento do juri marcado para 21 de outubro decorreu de impossibilidade do juizo, sem indicacao de que a defesa o tenha provocado [3][4]. se a fala tivesse atribuido o adiamento ao senador, esse ponto nao se sustentaria, mas o trecho nao faz essa afirmacao. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-068",
@@ -7560,7 +7627,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "68 decl-068 flavio bolsonaro flavio seguranca publica lula e contra a reducao da maioridade penal. …voce e uma pessoa que e contra a reducao da maioridade penal, voce e contra classificar comando vermelho, pcc e milicias como organizacoes terroristas. falso. lula foi historicamente contra, mas em 15/10/2026, oito dias antes do debate, declarou apoio a reducao da maioridade penal para 16 anos em casos de crimes hediondos. flavio afirma, no presente, que lula e contra a reducao da maioridade penal. as fontes mostram que lula de fato se opos a medida por anos: em 2003 [5][6], em 2015 [4] e em seu historico descrito pelo estadao [2]. em marco de 2026, o governo tambem se manifestou contra, por meio do ministerio dos direitos humanos [7]. porem, em entrevista a tv globo em 15/10/2026, lula declarou ser a favor de reduzir a maioridade para 16 anos em crimes hediondos [1][2][3]. ele apenas ressalvou que o tema nao deveria entrar na pec da seguranca [1]. como a fala de flavio ocorreu em 23/10/2026, a posicao atual de lula e favoravel a reducao, ao menos para crimes hediondos. apresenta-lo hoje como contrario e falso, embora corresponda ao seu historico. falso falso"
+    "searchTokens": "68 decl-068 flavio bolsonaro flavio seguranca publica lula e contra a reducao da maioridade penal. …voce e uma pessoa que e contra a reducao da maioridade penal, voce e contra classificar comando vermelho, pcc e milicias como organizacoes terroristas. falso. lula foi historicamente contra, mas em 15/10/2026, oito dias antes do debate, declarou apoio a reducao da maioridade penal para 16 anos em casos de crimes hediondos. flavio afirma, no presente, que lula e contra a reducao da maioridade penal. as fontes mostram que lula de fato se opos a medida por anos: em 2003 [5][6], em 2015 [4] e em seu historico descrito pelo estadao [2]. em marco de 2026, o governo tambem se manifestou contra, por meio do ministerio dos direitos humanos [7]. porem, em entrevista a tv globo em 15/10/2026, lula declarou ser a favor de reduzir a maioridade para 16 anos em crimes hediondos [1][2][3]. ele apenas ressalvou que o tema nao deveria entrar na pec da seguranca [1]. como a fala de flavio ocorreu em 23/10/2026, a posicao atual de lula e favoravel a reducao, ao menos para crimes hediondos. apresenta-lo hoje como contrario e falso, embora corresponda ao seu historico. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-069",
@@ -7656,7 +7724,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "69 decl-069 flavio bolsonaro flavio seguranca publica o sargento roger dias (citado como 'permite dias'), em minas gerais, foi assassinado em servico por um preso que nao retornou a prisao apos a saida temporaria (saidinha). quando os presos saem dos presidios, vao para as ruas, muitos acabam nao voltando e cometem crimes, como aconteceu com o sargento pm dias, la em minas gerais, que estava de servico e foi assassinado. verdadeiro. o sargento roger dias da cunha, da pm de minas gerais, foi morto em servico em janeiro de 2024 por um detento que nao voltou da saidinha de natal. flavio errou o primeiro nome do policial. as fontes confirmam o nucleo da fala. o sargento roger dias da cunha, de 29 anos, foi baleado em 5 de janeiro de 2024 durante uma perseguicao em belo horizonte e morreu no hospital. segundo a pm, o autor dos disparos estava em saida temporaria e deveria ter voltado a prisao em 23 de dezembro, por isso ja era considerado foragido. o mpmg denunciou o detento por matar o sargento durante a saida de natal. a almg e a cnn descrevem o caso da mesma forma. uma imprecisao: flavio chama o policial de \"sergio\", mas o nome e roger dias. o processo contra o acusado ainda estava em fase inicial em agosto de 2025. verdadeiro verdadeiro"
+    "searchTokens": "69 decl-069 flavio bolsonaro flavio seguranca publica o sargento roger dias (citado como 'permite dias'), em minas gerais, foi assassinado em servico por um preso que nao retornou a prisao apos a saida temporaria (saidinha). quando os presos saem dos presidios, vao para as ruas, muitos acabam nao voltando e cometem crimes, como aconteceu com o sargento pm dias, la em minas gerais, que estava de servico e foi assassinado. verdadeiro. o sargento roger dias da cunha, da pm de minas gerais, foi morto em servico em janeiro de 2024 por um detento que nao voltou da saidinha de natal. flavio errou o primeiro nome do policial. as fontes confirmam o nucleo da fala. o sargento roger dias da cunha, de 29 anos, foi baleado em 5 de janeiro de 2024 durante uma perseguicao em belo horizonte e morreu no hospital. segundo a pm, o autor dos disparos estava em saida temporaria e deveria ter voltado a prisao em 23 de dezembro, por isso ja era considerado foragido. o mpmg denunciou o detento por matar o sargento durante a saida de natal. a almg e a cnn descrevem o caso da mesma forma. uma imprecisao: flavio chama o policial de \"sergio\", mas o nome e roger dias. o processo contra o acusado ainda estava em fase inicial em agosto de 2025. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-070",
@@ -7769,7 +7838,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "70 decl-070 flavio bolsonaro flavio seguranca publica lula se posicionou a favor de manter as saidas temporarias de presos (saidinhas), como no veto parcial a lei que restringiu o beneficio em 2024. lula, voce ja se colocou a favor de manter as saidinhas,. verdadeiro. lula vetou em 2024 o trecho da lei que proibia a saidinha para presos do semiaberto visitarem a familia, defendeu o veto publicamente e voltou a defender o beneficio em outubro de 2026. as fontes confirmam que lula sancionou a lei 14.843/2024 com veto parcial ao trecho que impedia a saida temporaria de presos do regime semiaberto para visitar a familia [1][3][4]. ele manteve a proibicao para condenados por crimes hediondos e violentos [1]. em 23/04/2024, lula defendeu o veto dizendo que 'familia e coisa sagrada' [2]. segundo [5], em 19/10/2026 ele voltou a defender as saidinhas em sabatina ao sbt news. o congresso depois derrubou o veto [6]. lula, portanto, se posicionou a favor de manter as saidinhas, ainda que de forma parcial: apenas para visita familiar de presos do semiaberto nao condenados por crimes hediondos. ele aceitou outras restricoes, como o exame criminologico e o uso de tornozeleira [3]. essa nuance nao muda o nucleo da fala. verdadeiro verdadeiro"
+    "searchTokens": "70 decl-070 flavio bolsonaro flavio seguranca publica lula se posicionou a favor de manter as saidas temporarias de presos (saidinhas), como no veto parcial a lei que restringiu o beneficio em 2024. lula, voce ja se colocou a favor de manter as saidinhas,. verdadeiro. lula vetou em 2024 o trecho da lei que proibia a saidinha para presos do semiaberto visitarem a familia, defendeu o veto publicamente e voltou a defender o beneficio em outubro de 2026. as fontes confirmam que lula sancionou a lei 14.843/2024 com veto parcial ao trecho que impedia a saida temporaria de presos do regime semiaberto para visitar a familia [1][3][4]. ele manteve a proibicao para condenados por crimes hediondos e violentos [1]. em 23/04/2024, lula defendeu o veto dizendo que 'familia e coisa sagrada' [2]. segundo [5], em 19/10/2026 ele voltou a defender as saidinhas em sabatina ao sbt news. o congresso depois derrubou o veto [6]. lula, portanto, se posicionou a favor de manter as saidinhas, ainda que de forma parcial: apenas para visita familiar de presos do semiaberto nao condenados por crimes hediondos. ele aceitou outras restricoes, como o exame criminologico e o uso de tornozeleira [3]. essa nuance nao muda o nucleo da fala. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-071",
@@ -7875,7 +7945,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "71 decl-071 flavio bolsonaro flavio educacao a nota do brasil no pisa durante o atual governo lula e uma das piores da historia. tanto e que a nota do pisa no brasil e uma das piores da historia com o atual governo. as fontes nao trazem as notas do brasil no pisa 2025, unica edicao aplicada no atual governo lula. por isso nao da para confirmar nem refutar que estejam entre as piores da historia. a unica edicao do pisa realizada sob o atual governo lula e a de 2025. a de 2022 foi aplicada no governo bolsonaro e mostrou resultados estaveis em relacao a 2018 [4][1][5]. a nota da ocde sobre o brasil no pisa 2025 [2] aparece apenas em trecho introdutorio, sem as pontuacoes. a fonte [3] informa somente posicoes no ranking de 2025: 71º em matematica, 67º em ciencias e 52º em leitura. ela compara esses lugares com o 32º de 2000, mas naquele ano havia so 32 paises, e em 2025 eram 91 [2]. posicao em ranking com numero variavel de participantes nao equivale a nota. alem disso, as posicoes de 2025 sao parecidas com as de 2018, quando o brasil ficou em 71º em matematica e 57º em leitura [6][5]. a serie historica ate 2022 indica desempenho baixo e estavel desde 2009 [1]. sem as notas de 2025, as fontes nao permitem afirmar nem negar que a pontuacao atual esteja entre as piores da serie. insustentavel falso"
+    "searchTokens": "71 decl-071 flavio bolsonaro flavio educacao a nota do brasil no pisa durante o atual governo lula e uma das piores da historia. tanto e que a nota do pisa no brasil e uma das piores da historia com o atual governo. as fontes nao trazem as notas do brasil no pisa 2025, unica edicao aplicada no atual governo lula. por isso nao da para confirmar nem refutar que estejam entre as piores da historia. a unica edicao do pisa realizada sob o atual governo lula e a de 2025. a de 2022 foi aplicada no governo bolsonaro e mostrou resultados estaveis em relacao a 2018 [4][1][5]. a nota da ocde sobre o brasil no pisa 2025 [2] aparece apenas em trecho introdutorio, sem as pontuacoes. a fonte [3] informa somente posicoes no ranking de 2025: 71º em matematica, 67º em ciencias e 52º em leitura. ela compara esses lugares com o 32º de 2000, mas naquele ano havia so 32 paises, e em 2025 eram 91 [2]. posicao em ranking com numero variavel de participantes nao equivale a nota. alem disso, as posicoes de 2025 sao parecidas com as de 2018, quando o brasil ficou em 71º em matematica e 57º em leitura [6][5]. a serie historica ate 2022 indica desempenho baixo e estavel desde 2009 [1]. sem as notas de 2025, as fontes nao permitem afirmar nem negar que a pontuacao atual esteja entre as piores da serie. insustentavel falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-072",
@@ -7971,7 +8042,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "72 decl-072 flavio bolsonaro flavio educacao grande parte dos alunos brasileiros conclui o ensino fundamental ou medio com dificuldade em matematica e portugues. …portugues, porque hoje voces sabem que grande parte dos alunos concluem o ensino fundamental ou o ensino medio, tem dificuldade,. verdadeiro. dados do saeb mostram que a maioria dos alunos conclui o fundamental e o medio sem aprendizagem adequada em portugues e matematica; no medio, so 8,5% atingem o adequado em matematica (2025). a fala e generica: grande parte dos alunos termina o fundamental ou o medio com dificuldade em portugues e matematica. as fontes confirmam. segundo o saeb 2025 (rede publica), no 9º ano apenas 38,3% atingiram o nivel adequado em lingua portuguesa e 18,8% em matematica. na 3ª serie do ensino medio, so 8,5% tinham aprendizagem adequada em matematica, e 58,6% estavam abaixo do basico [3]. o todos pela educacao aponta que os avancos perdem forca nas etapas finais [2]. com dados de 2023, o anuario 2025 indica que apenas 13% concluem o 9º ano e 6,1% o ensino medio com aprendizagem adequada nas duas disciplinas ao mesmo tempo [1]. no ensino medio, 32,4% tinham aprendizagem adequada em portugues e 5,2% em matematica [4]. a afirmacao central e, portanto, precisa. verdadeiro verdadeiro"
+    "searchTokens": "72 decl-072 flavio bolsonaro flavio educacao grande parte dos alunos brasileiros conclui o ensino fundamental ou medio com dificuldade em matematica e portugues. …portugues, porque hoje voces sabem que grande parte dos alunos concluem o ensino fundamental ou o ensino medio, tem dificuldade,. verdadeiro. dados do saeb mostram que a maioria dos alunos conclui o fundamental e o medio sem aprendizagem adequada em portugues e matematica; no medio, so 8,5% atingem o adequado em matematica (2025). a fala e generica: grande parte dos alunos termina o fundamental ou o medio com dificuldade em portugues e matematica. as fontes confirmam. segundo o saeb 2025 (rede publica), no 9º ano apenas 38,3% atingiram o nivel adequado em lingua portuguesa e 18,8% em matematica. na 3ª serie do ensino medio, so 8,5% tinham aprendizagem adequada em matematica, e 58,6% estavam abaixo do basico [3]. o todos pela educacao aponta que os avancos perdem forca nas etapas finais [2]. com dados de 2023, o anuario 2025 indica que apenas 13% concluem o 9º ano e 6,1% o ensino medio com aprendizagem adequada nas duas disciplinas ao mesmo tempo [1]. no ensino medio, 32,4% tinham aprendizagem adequada em portugues e 5,2% em matematica [4]. a afirmacao central e, portanto, precisa. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-073",
@@ -8077,7 +8149,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "73 decl-073 flavio bolsonaro flavio educacao o governador de sao paulo, tarcisio de freitas, comecou a oferecer ensino tecnico no contraturno escolar em sao paulo. voces vao aprender tecnologia, voces vao aprender inteligencia artificial, desenvolvimento de aplicativos, tudo isso no contraturno, porque assim voce vai ficar mais tempo na escola fazendo algo que vai ser importante pra voce. as fontes confirmam a expansao do ensino tecnico nas escolas regulares de sp sob tarcisio, mas nenhuma trata da oferta de tecnologia, ia e aplicativos no contraturno, que e o nucleo do trecho. o trecho original e uma fala programatica dirigida a estudantes: eles aprenderiam tecnologia, inteligencia artificial e desenvolvimento de aplicativos no contraturno, ficando mais tempo na escola. as fontes confirmam que o governo tarcisio criou e ampliou o ensino tecnico dentro das escolas regulares da rede estadual. o programa educacao profissional paulista comecou em 2023, em carater experimental [1][2]. em 2025, foi anunciada a expansao para 231 mil matriculas e 2.212 escolas em 2026 [3][4]. nenhuma dessas fontes, porem, informa que os cursos sao oferecidos no contraturno nem que incluem ia ou desenvolvimento de aplicativos. a fonte [5] fala de cursos tecnicos fora do horario, mas refere-se a um programa de 2011, anterior a tarcisio. a fonte [6] trata do ensino integral, nao do tecnico. assim, as fontes nao confirmam nem refutam o ponto especifico do contraturno e do conteudo citado. insustentavel falso"
+    "searchTokens": "73 decl-073 flavio bolsonaro flavio educacao o governador de sao paulo, tarcisio de freitas, comecou a oferecer ensino tecnico no contraturno escolar em sao paulo. voces vao aprender tecnologia, voces vao aprender inteligencia artificial, desenvolvimento de aplicativos, tudo isso no contraturno, porque assim voce vai ficar mais tempo na escola fazendo algo que vai ser importante pra voce. as fontes confirmam a expansao do ensino tecnico nas escolas regulares de sp sob tarcisio, mas nenhuma trata da oferta de tecnologia, ia e aplicativos no contraturno, que e o nucleo do trecho. o trecho original e uma fala programatica dirigida a estudantes: eles aprenderiam tecnologia, inteligencia artificial e desenvolvimento de aplicativos no contraturno, ficando mais tempo na escola. as fontes confirmam que o governo tarcisio criou e ampliou o ensino tecnico dentro das escolas regulares da rede estadual. o programa educacao profissional paulista comecou em 2023, em carater experimental [1][2]. em 2025, foi anunciada a expansao para 231 mil matriculas e 2.212 escolas em 2026 [3][4]. nenhuma dessas fontes, porem, informa que os cursos sao oferecidos no contraturno nem que incluem ia ou desenvolvimento de aplicativos. a fonte [5] fala de cursos tecnicos fora do horario, mas refere-se a um programa de 2011, anterior a tarcisio. a fonte [6] trata do ensino integral, nao do tecnico. assim, as fontes nao confirmam nem refutam o ponto especifico do contraturno e do conteudo citado. insustentavel falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-074",
@@ -8190,7 +8263,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "74 decl-074 flavio bolsonaro flavio educacao o governo bolsonaro concedeu o maior reajuste da historia do piso dos professores, de 33%. foi o presidente bolsonaro, fomos nos que demos o maior reajuste da historia para os professores, 33%. o reajuste de 33,24% no piso em 2022 foi o maior desde a lei do piso (2008), mas decorreu de formula legal automatica, e o governo chegou a avaliar barra-lo; atribui-lo a uma decisao de bolsonaro engana. as fontes confirmam que em janeiro/fevereiro de 2022 o governo bolsonaro anunciou e oficializou reajuste de 33,23%/33,24% no piso dos professores, de r$ 2.886 para r$ 3.845 [5][2][3][6], e que foi o maior desde a criacao da lei do piso em 2008 [2][4]. 'maior da historia' equivale, na pratica, a maior desde que o piso existe. porem, o reajuste e previsto na lei 11.738/2008, que determina correcao anual automatica em janeiro [3][4]. a folha relata que o mec avaliava barrar o reajuste, alegando necessidade de rever a regra de calculo por causa do novo fundeb, e recuou apos forte reacao da categoria; bolsonaro disse que daria 'o maximo que a lei permite' [4]. a reuters classificou como enganoso associar o aumento a uma concessao de bolsonaro [1]. assim, o numero esta correto, mas o enquadramento de que 'fomos nos que demos' omite que se tratava do cumprimento de obrigacao legal que o governo cogitou nao aplicar. enganoso enganoso"
+    "searchTokens": "74 decl-074 flavio bolsonaro flavio educacao o governo bolsonaro concedeu o maior reajuste da historia do piso dos professores, de 33%. foi o presidente bolsonaro, fomos nos que demos o maior reajuste da historia para os professores, 33%. o reajuste de 33,24% no piso em 2022 foi o maior desde a lei do piso (2008), mas decorreu de formula legal automatica, e o governo chegou a avaliar barra-lo; atribui-lo a uma decisao de bolsonaro engana. as fontes confirmam que em janeiro/fevereiro de 2022 o governo bolsonaro anunciou e oficializou reajuste de 33,23%/33,24% no piso dos professores, de r$ 2.886 para r$ 3.845 [5][2][3][6], e que foi o maior desde a criacao da lei do piso em 2008 [2][4]. 'maior da historia' equivale, na pratica, a maior desde que o piso existe. porem, o reajuste e previsto na lei 11.738/2008, que determina correcao anual automatica em janeiro [3][4]. a folha relata que o mec avaliava barrar o reajuste, alegando necessidade de rever a regra de calculo por causa do novo fundeb, e recuou apos forte reacao da categoria; bolsonaro disse que daria 'o maximo que a lei permite' [4]. a reuters classificou como enganoso associar o aumento a uma concessao de bolsonaro [1]. assim, o numero esta correto, mas o enquadramento de que 'fomos nos que demos' omite que se tratava do cumprimento de obrigacao legal que o governo cogitou nao aplicar. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-075",
@@ -8298,7 +8372,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "75 decl-075 flavio bolsonaro flavio educacao no governo jair bolsonaro foi aprovada a renegociacao que permitiu abater quase 99% das dividas de estudantes com o fies que concluiram o ensino superior. foi no governo do presidente bolsonaro que nos anistiamos quase 99% das dividas dos estudantes que concluiram o ensino superior. exagerado. a lei sancionada por bolsonaro (lei 14.375/2022) permitiu desconto de ate 99%, mas so para devedores inadimplentes inscritos no cadunico ou beneficiarios do auxilio emergencial. para os demais, o desconto era de ate 77% ou 12%. as fontes confirmam que a renegociacao do fies nasceu da mp 1.090/2021, editada pelo governo bolsonaro, e foi sancionada como a lei 14.375/2022 [1][3][4][5]. mas o indice de 99% e um teto, nao a regra. ele vale apenas para inadimplentes ha mais de 360 dias inscritos no cadunico ou que receberam auxilio emergencial [3][4][5]. para os demais com atraso acima de 360 dias, o desconto era de 77%; para atrasos acima de 90 dias, 12% a vista ou parcelamento com perdao de juros e multas [1][3]. em 2022, o proprio bolsonaro falou em pagar 8% da divida [2]. a lei tambem se restringe a contratos firmados ate 2017 e a dividas em atraso, nao a todos os estudantes que concluiram o curso. o percentual de 99% foi ampliado pelo congresso: a mp original previa ate 92% [1][4]. apresentar um maximo como se fosse a regra infla o alcance da medida. exagerado enganoso"
+    "searchTokens": "75 decl-075 flavio bolsonaro flavio educacao no governo jair bolsonaro foi aprovada a renegociacao que permitiu abater quase 99% das dividas de estudantes com o fies que concluiram o ensino superior. foi no governo do presidente bolsonaro que nos anistiamos quase 99% das dividas dos estudantes que concluiram o ensino superior. exagerado. a lei sancionada por bolsonaro (lei 14.375/2022) permitiu desconto de ate 99%, mas so para devedores inadimplentes inscritos no cadunico ou beneficiarios do auxilio emergencial. para os demais, o desconto era de ate 77% ou 12%. as fontes confirmam que a renegociacao do fies nasceu da mp 1.090/2021, editada pelo governo bolsonaro, e foi sancionada como a lei 14.375/2022 [1][3][4][5]. mas o indice de 99% e um teto, nao a regra. ele vale apenas para inadimplentes ha mais de 360 dias inscritos no cadunico ou que receberam auxilio emergencial [3][4][5]. para os demais com atraso acima de 360 dias, o desconto era de 77%; para atrasos acima de 90 dias, 12% a vista ou parcelamento com perdao de juros e multas [1][3]. em 2022, o proprio bolsonaro falou em pagar 8% da divida [2]. a lei tambem se restringe a contratos firmados ate 2017 e a dividas em atraso, nao a todos os estudantes que concluiram o curso. o percentual de 99% foi ampliado pelo congresso: a mp original previa ate 92% [1][4]. apresentar um maximo como se fosse a regra infla o alcance da medida. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-076",
@@ -8399,7 +8474,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "76 decl-076 luiz inacio lula da silva lula educacao o programa pe-de-meia fez com que 66% dos estudantes deixassem de desistir da escola (reducao de 66% na evasao escolar). inclusive, com o pe-de-meia, fazendo com que 66% das criancas nao desistissem mais da escola, o que e um avanco extraordinario. exagerado. as fontes indicam queda de cerca de um terco na taxa de abandono no ensino medio (3,8% para 2,2%) e estudo que estima que 1 em cada 4 jovens deixa de abandonar, e nao 66%. lula disse que o pe-de-meia fez '66% das criancas' nao desistirem mais da escola. segundo dados do mec divulgados em junho de 2026, a taxa de abandono no ensino medio caiu de 3,8% em 2023 para 2,2% em 2025, uma reducao de cerca de 42%, descrita pela reportagem como 'um terco' [1]. o estudo do centro de evidencias da educacao integral (insper, instituto sonho grande e instituto natura) estima que um em cada quatro jovens desiste de abandonar o ensino medio gracas ao programa [2]. a folha tambem aponta que o mec nao tem dados de evasao desde 2022, embora a pesquisa indique melhora [3]. um artigo academico ressalta que as evidencias ainda sao preliminares [4]. a direcao da fala esta correta, pois ha queda no abandono e as fontes associam essa queda ao programa. a grandeza de 66%, porem, nao aparece em nenhuma fonte e fica bem acima dos numeros disponiveis. mesmo na regiao de maior queda, o sul (de 4,6% para 2%), a reducao foi de cerca de 57%, e nao se trata de media nacional [1]. a fala tambem fala em 'criancas', mas o programa atende jovens do ensino medio de 14 a 24 anos [5]. exagerado enganoso"
+    "searchTokens": "76 decl-076 luiz inacio lula da silva lula educacao o programa pe-de-meia fez com que 66% dos estudantes deixassem de desistir da escola (reducao de 66% na evasao escolar). inclusive, com o pe-de-meia, fazendo com que 66% das criancas nao desistissem mais da escola, o que e um avanco extraordinario. exagerado. as fontes indicam queda de cerca de um terco na taxa de abandono no ensino medio (3,8% para 2,2%) e estudo que estima que 1 em cada 4 jovens deixa de abandonar, e nao 66%. lula disse que o pe-de-meia fez '66% das criancas' nao desistirem mais da escola. segundo dados do mec divulgados em junho de 2026, a taxa de abandono no ensino medio caiu de 3,8% em 2023 para 2,2% em 2025, uma reducao de cerca de 42%, descrita pela reportagem como 'um terco' [1]. o estudo do centro de evidencias da educacao integral (insper, instituto sonho grande e instituto natura) estima que um em cada quatro jovens desiste de abandonar o ensino medio gracas ao programa [2]. a folha tambem aponta que o mec nao tem dados de evasao desde 2022, embora a pesquisa indique melhora [3]. um artigo academico ressalta que as evidencias ainda sao preliminares [4]. a direcao da fala esta correta, pois ha queda no abandono e as fontes associam essa queda ao programa. a grandeza de 66%, porem, nao aparece em nenhuma fonte e fica bem acima dos numeros disponiveis. mesmo na regiao de maior queda, o sul (de 4,6% para 2%), a reducao foi de cerca de 57%, e nao se trata de media nacional [1]. a fala tambem fala em 'criancas', mas o programa atende jovens do ensino medio de 14 a 24 anos [5]. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-077",
@@ -8500,7 +8576,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "77 decl-077 luiz inacio lula da silva lula educacao os governos lula criaram mais universidades, institutos federais e escolas de tempo integral do que outros governos na historia do brasil. entao eu tenho muito orgulho de participar do momento historico desse pais, em que a gente fez mais universidade, a gente fez mais instituto federal, a gente fez mais escola tempo integral, a gente cuidou da educacao como jamais tinha sido cuidado na historia desse pais. verdadeiro para universidades e institutos federais: fontes mostram expansao inedita nos governos lula (e dilma). nao ha dados nas fontes sobre escolas de tempo integral. o nucleo da fala e que os governos petistas expandiram universidades e institutos federais mais do que qualquer outro periodo. a tese da ufpe fala em expansao 'inedita', com 14 novas universidades e 126 campi nos governos lula, alem de 4 universidades e 47 campi no governo dilma [4]. a publica registra 18 universidades criadas nos dois governos, ressalvando que parte delas surgiu de desmembramentos de instituicoes ja existentes [3]. o le monde diplomatique cita os mesmos numeros [2]. para os institutos federais, o mec informa 111 novos campi em implantacao [1]. lula afirma que a rede passou de cerca de 140 unidades em 2003 para 792 [5], mas esse numero vem do proprio candidato. os 755 campi atuais e a expansao em curso informados pelo mec [1] sao compativeis com essa ordem de grandeza. uma ressalva: parte da expansao ocorreu sob dilma, e a fala diz 'a gente'. o ponto sobre escolas de tempo integral nao e tratado pelas fontes. a comparacao 'como jamais' e retorica, mas tem respaldo nos dados de expansao. verdadeiro verdadeiro"
+    "searchTokens": "77 decl-077 luiz inacio lula da silva lula educacao os governos lula criaram mais universidades, institutos federais e escolas de tempo integral do que outros governos na historia do brasil. entao eu tenho muito orgulho de participar do momento historico desse pais, em que a gente fez mais universidade, a gente fez mais instituto federal, a gente fez mais escola tempo integral, a gente cuidou da educacao como jamais tinha sido cuidado na historia desse pais. verdadeiro para universidades e institutos federais: fontes mostram expansao inedita nos governos lula (e dilma). nao ha dados nas fontes sobre escolas de tempo integral. o nucleo da fala e que os governos petistas expandiram universidades e institutos federais mais do que qualquer outro periodo. a tese da ufpe fala em expansao 'inedita', com 14 novas universidades e 126 campi nos governos lula, alem de 4 universidades e 47 campi no governo dilma [4]. a publica registra 18 universidades criadas nos dois governos, ressalvando que parte delas surgiu de desmembramentos de instituicoes ja existentes [3]. o le monde diplomatique cita os mesmos numeros [2]. para os institutos federais, o mec informa 111 novos campi em implantacao [1]. lula afirma que a rede passou de cerca de 140 unidades em 2003 para 792 [5], mas esse numero vem do proprio candidato. os 755 campi atuais e a expansao em curso informados pelo mec [1] sao compativeis com essa ordem de grandeza. uma ressalva: parte da expansao ocorreu sob dilma, e a fala diz 'a gente'. o ponto sobre escolas de tempo integral nao e tratado pelas fontes. a comparacao 'como jamais' e retorica, mas tem respaldo nos dados de expansao. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-078",
@@ -8606,7 +8683,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "78 decl-078 luiz inacio lula da silva lula educacao o governo bolsonaro criou o programa de escolas civico-militares, mas nao chegou a implementa-lo de fato. alem deles inventarem uma escola civico-militar. e isso que eles inventaram e que nao fizeram tambem. falso. o governo bolsonaro nao so criou o pecim (decreto 10.004/2019), como o implementou: cerca de 202 escolas e 120 mil alunos atendidos ate 2022, embora com alcance pequeno (0,1% das escolas). lula diz que o governo bolsonaro inventou a escola civico-militar e nao a fez. a criacao e confirmada pelo decreto 10.004/2019 [2], mas a parte central da fala, de que o programa nao foi feito, e contrariada pelas fontes. o mec informou em 2022 que o pecim tinha 202 escolas, cerca de 120 mil alunos e 1,5 mil militares, com presenca em todas as unidades da federacao [4]. a implantacao foi gradual: 53 escolas em 2020, 74 em 2021 e 75 em 2022 [6]. g1 e cnn registram que cerca de 200 a 202 escolas funcionavam no modelo quando o atual governo encerrou o programa em 2023 [1][3]; ou seja, havia escolas em funcionamento para desmobilizar. e verdade que o alcance foi modesto, cerca de 0,1% das escolas publicas [1], e que apenas 0,24% da verba de infraestrutura foi efetivamente gasta [5]. isso permite criticar a escala ou a execucao, mas nao sustenta a afirmacao de que o programa nao foi feito. falso falso"
+    "searchTokens": "78 decl-078 luiz inacio lula da silva lula educacao o governo bolsonaro criou o programa de escolas civico-militares, mas nao chegou a implementa-lo de fato. alem deles inventarem uma escola civico-militar. e isso que eles inventaram e que nao fizeram tambem. falso. o governo bolsonaro nao so criou o pecim (decreto 10.004/2019), como o implementou: cerca de 202 escolas e 120 mil alunos atendidos ate 2022, embora com alcance pequeno (0,1% das escolas). lula diz que o governo bolsonaro inventou a escola civico-militar e nao a fez. a criacao e confirmada pelo decreto 10.004/2019 [2], mas a parte central da fala, de que o programa nao foi feito, e contrariada pelas fontes. o mec informou em 2022 que o pecim tinha 202 escolas, cerca de 120 mil alunos e 1,5 mil militares, com presenca em todas as unidades da federacao [4]. a implantacao foi gradual: 53 escolas em 2020, 74 em 2021 e 75 em 2022 [6]. g1 e cnn registram que cerca de 200 a 202 escolas funcionavam no modelo quando o atual governo encerrou o programa em 2023 [1][3]; ou seja, havia escolas em funcionamento para desmobilizar. e verdade que o alcance foi modesto, cerca de 0,1% das escolas publicas [1], e que apenas 0,24% da verba de infraestrutura foi efetivamente gasta [5]. isso permite criticar a escala ou a execucao, mas nao sustenta a afirmacao de que o programa nao foi feito. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-079",
@@ -8707,7 +8785,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "79 decl-079 luiz inacio lula da silva lula educacao o governo lula encontrou, ao assumir, 5.600 creches e escolas com obras paralisadas. todo mundo sabe que nos encontramos 5.600 creches paralisadas e escolas. exagerado. ao assumir, o governo contava cerca de 3.500 a 3.800 obras de educacao basica paralisadas ou inacabadas. o numero de 5.600 corresponde ao total de obras do pacto de retomada, nao so as paradas. a exposicao de motivos da mp 1.174/2023 registra 3.540 obras de infraestrutura escolar da educacao basica paralisadas ou inacabadas em abril de 2023 [2]. o fnde falava em mais de 3.500 obras [3], e a folha contou 3.783 obras paradas [4]. segundo o tcu, o pacto nacional pela retomada de obras envolvia, no inicio, mais de 5.600 obras, das quais quase 3.800 estavam paralisadas [1]. o valor de 5.600 inclui, portanto, obras inacabadas que nao estavam necessariamente paradas. a direcao da fala esta correta: havia milhares de creches e escolas com obras paralisadas. mas a quantidade de obras paralisadas foi inflada em cerca de 50%. a versao de 'quase 6 mil obras paralisadas', repetida pelo proprio lula em entrevista [5], nao e prova do dado e diverge das fontes oficiais. exagerado enganoso"
+    "searchTokens": "79 decl-079 luiz inacio lula da silva lula educacao o governo lula encontrou, ao assumir, 5.600 creches e escolas com obras paralisadas. todo mundo sabe que nos encontramos 5.600 creches paralisadas e escolas. exagerado. ao assumir, o governo contava cerca de 3.500 a 3.800 obras de educacao basica paralisadas ou inacabadas. o numero de 5.600 corresponde ao total de obras do pacto de retomada, nao so as paradas. a exposicao de motivos da mp 1.174/2023 registra 3.540 obras de infraestrutura escolar da educacao basica paralisadas ou inacabadas em abril de 2023 [2]. o fnde falava em mais de 3.500 obras [3], e a folha contou 3.783 obras paradas [4]. segundo o tcu, o pacto nacional pela retomada de obras envolvia, no inicio, mais de 5.600 obras, das quais quase 3.800 estavam paralisadas [1]. o valor de 5.600 inclui, portanto, obras inacabadas que nao estavam necessariamente paradas. a direcao da fala esta correta: havia milhares de creches e escolas com obras paralisadas. mas a quantidade de obras paralisadas foi inflada em cerca de 50%. a versao de 'quase 6 mil obras paralisadas', repetida pelo proprio lula em entrevista [5], nao e prova do dado e diverge das fontes oficiais. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-080",
@@ -8818,7 +8897,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "80 decl-080 luiz inacio lula da silva lula educacao o governo lula criou o programa pe-de-meia, de incentivo financeiro para estudantes do ensino medio. todo mundo sabe que nos criamos o pe-de-meia e vamos universalizar para o ensino medio. verdadeiro. o pe-de-meia foi criado no governo lula: mp de novembro de 2023, lei 14.818/2024 sancionada por lula e decreto 11.901/2024. a promessa de universalizar e compromisso futuro e nao pode ser checada. as fontes confirmam o nucleo da fala. o mec informa que o programa foi lancado em novembro de 2023 [2]. a medida provisoria 1.198/2023 instituiu a poupanca, e o presidente lula sancionou a lei 14.818, de 16 de janeiro de 2024, que criou o programa [1][4][5]. o decreto 11.901/2024, assinado pela presidencia, regulamentou a lei e criou formalmente o programa pe-de-meia [3][7]. a caixa tambem registra que o programa foi criado pela lei 14.818/2024 [6]. o projeto passou pelo congresso, que o aprovou em dezembro de 2023 [1], mas a iniciativa e a sancao sao do governo lula, entao a autoria reivindicada procede. hoje o programa atende estudantes de baixa renda inscritos no cadunico [2][7]. a promessa de 'universalizar' e um compromisso futuro e nao e objeto de checagem. verdadeiro verdadeiro"
+    "searchTokens": "80 decl-080 luiz inacio lula da silva lula educacao o governo lula criou o programa pe-de-meia, de incentivo financeiro para estudantes do ensino medio. todo mundo sabe que nos criamos o pe-de-meia e vamos universalizar para o ensino medio. verdadeiro. o pe-de-meia foi criado no governo lula: mp de novembro de 2023, lei 14.818/2024 sancionada por lula e decreto 11.901/2024. a promessa de universalizar e compromisso futuro e nao pode ser checada. as fontes confirmam o nucleo da fala. o mec informa que o programa foi lancado em novembro de 2023 [2]. a medida provisoria 1.198/2023 instituiu a poupanca, e o presidente lula sancionou a lei 14.818, de 16 de janeiro de 2024, que criou o programa [1][4][5]. o decreto 11.901/2024, assinado pela presidencia, regulamentou a lei e criou formalmente o programa pe-de-meia [3][7]. a caixa tambem registra que o programa foi criado pela lei 14.818/2024 [6]. o projeto passou pelo congresso, que o aprovou em dezembro de 2023 [1], mas a iniciativa e a sancao sao do governo lula, entao a autoria reivindicada procede. hoje o programa atende estudantes de baixa renda inscritos no cadunico [2][7]. a promessa de 'universalizar' e um compromisso futuro e nao e objeto de checagem. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-081",
@@ -8932,7 +9012,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "81 decl-081 luiz inacio lula da silva lula outros as apostas online (tigrinho) foram criadas/liberadas pelo governo de jair bolsonaro. o tigrinho foi teu pai que criou. explica por que teu pai criou o. falso. as apostas de quota fixa foram legalizadas em 2018, no governo temer. cassinos online como o tigrinho so foram liberados em 2023, no governo lula. o governo bolsonaro deixou de regulamentar o setor, mas nao o criou. as fontes mostram que as apostas esportivas de quota fixa foram liberadas pela lei 13.756/2018, sancionada por michel temer [1][2][3][4]. essa lei previa regulamentacao em ate quatro anos. o governo de jair bolsonaro nao cumpriu o prazo, e bolsonaro nao assinou a minuta de regulamentacao, o que deixou o mercado crescer num limbo legal [1][2][3][4]. a folha relata que a falta de regulamentacao permitiu que os sites oferecessem cassinos virtuais [1]. a mesma folha afirma, porem, que os cassinos online como o jogo do tigrinho so foram liberados legalmente em 2023, ja no governo lula, com a lei 14.790/2023 [5][2][3]. portanto, dizer que bolsonaro 'criou' o tigrinho e falso. a omissao do governo bolsonaro na regulamentacao e real, mas a criacao e a liberacao legal das apostas e dos cassinos online ocorreram nos governos temer e lula. falso falso"
+    "searchTokens": "81 decl-081 luiz inacio lula da silva lula outros as apostas online (tigrinho) foram criadas/liberadas pelo governo de jair bolsonaro. o tigrinho foi teu pai que criou. explica por que teu pai criou o. falso. as apostas de quota fixa foram legalizadas em 2018, no governo temer. cassinos online como o tigrinho so foram liberados em 2023, no governo lula. o governo bolsonaro deixou de regulamentar o setor, mas nao o criou. as fontes mostram que as apostas esportivas de quota fixa foram liberadas pela lei 13.756/2018, sancionada por michel temer [1][2][3][4]. essa lei previa regulamentacao em ate quatro anos. o governo de jair bolsonaro nao cumpriu o prazo, e bolsonaro nao assinou a minuta de regulamentacao, o que deixou o mercado crescer num limbo legal [1][2][3][4]. a folha relata que a falta de regulamentacao permitiu que os sites oferecessem cassinos virtuais [1]. a mesma folha afirma, porem, que os cassinos online como o jogo do tigrinho so foram liberados legalmente em 2023, ja no governo lula, com a lei 14.790/2023 [5][2][3]. portanto, dizer que bolsonaro 'criou' o tigrinho e falso. a omissao do governo bolsonaro na regulamentacao e real, mas a criacao e a liberacao legal das apostas e dos cassinos online ocorreram nos governos temer e lula. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-082",
@@ -9056,7 +9137,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "82 decl-082 luiz inacio lula da silva lula outros o jogo de apostas online conhecido como tigrinho (fortune tiger) foi criado/liberado no brasil em 2022, durante o governo bolsonaro. o cinismo chega a uma coisa absurda aqui. o tigrinho foi criado por voces em 2022. falso. o fortune tiger foi criado em 2016 pela pg soft, de malta, e os caca-niqueis online so foram legalizados pela lei 14.790, de dezembro de 2023, sancionada no governo lula. segundo a bbc, o fortune tiger (jogo do tigrinho) foi lancado em 2016 pela empresa maltesa pg soft [1]. portanto, nao foi criado no brasil nem em 2022. a oferta desse tipo de jogo no pais era ilegal ate dezembro de 2023, quando a lei 14.790 legalizou os caca-niqueis online [1][3]. pela folha, a brecha para cassinos virtuais e jogos como o tigrinho surgiu na camara durante a tramitacao desse projeto, ja em 2023 [2]. em 2024, o ministerio da fazenda, no governo lula, definiu as regras que permitem a oferta de jogos como o tigrinho, desde que certificados [6][7][4]. ha um ponto que da algum contexto a fala: as apostas esportivas foram liberadas em 2018, no governo temer, e o governo bolsonaro nao as regulamentou, o que deixou o setor numa zona cinzenta [2][5]. ainda assim, nem a criacao do jogo nem a sua liberacao ocorreram em 2022 ou por ato do governo bolsonaro. falso falso"
+    "searchTokens": "82 decl-082 luiz inacio lula da silva lula outros o jogo de apostas online conhecido como tigrinho (fortune tiger) foi criado/liberado no brasil em 2022, durante o governo bolsonaro. o cinismo chega a uma coisa absurda aqui. o tigrinho foi criado por voces em 2022. falso. o fortune tiger foi criado em 2016 pela pg soft, de malta, e os caca-niqueis online so foram legalizados pela lei 14.790, de dezembro de 2023, sancionada no governo lula. segundo a bbc, o fortune tiger (jogo do tigrinho) foi lancado em 2016 pela empresa maltesa pg soft [1]. portanto, nao foi criado no brasil nem em 2022. a oferta desse tipo de jogo no pais era ilegal ate dezembro de 2023, quando a lei 14.790 legalizou os caca-niqueis online [1][3]. pela folha, a brecha para cassinos virtuais e jogos como o tigrinho surgiu na camara durante a tramitacao desse projeto, ja em 2023 [2]. em 2024, o ministerio da fazenda, no governo lula, definiu as regras que permitem a oferta de jogos como o tigrinho, desde que certificados [6][7][4]. ha um ponto que da algum contexto a fala: as apostas esportivas foram liberadas em 2018, no governo temer, e o governo bolsonaro nao as regulamentou, o que deixou o setor numa zona cinzenta [2][5]. ainda assim, nem a criacao do jogo nem a sua liberacao ocorreram em 2022 ou por ato do governo bolsonaro. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-083",
@@ -9072,7 +9154,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "…Chegando perto da eleição, ele vai e cancela, achando que vai enganar você. Ainda prejudicou os times de futebol, acabou com a segurança jurídica desse país.",
     "theFact": "Afirmação apurada: O governo Lula cancelou perto da eleição a liberação de cassinos online, prejudicando um time de futebol e a segurança jurídica do país.. Verdadeiro. O governo Lula proibiu bets e cassinos online por MP a nove dias do 1º turno, sem transição, afetando clubes de futebol. A perda de segurança jurídica é avaliação, mas é apontada por setores e pelo Congresso. As fontes confirmam que, em 25 de setembro de 2026, a nove dias do primeiro turno, Lula assinou a MP 1.394, que proíbe as apostas de quota fixa, inclusive jogos e cassinos online como o 'Jogo do Tigrinho' [1][2][3]. Essas atividades tinham sido regulamentadas pelo próprio governo em 2023, pela Lei 14.790 [2]. A BBC relaciona o anúncio ao esforço do governo para reagir nas pesquisas [2]. A medida entrou em vigor sem período de transição [3][5]. Mais de 20 clubes de futebol, entre eles Flamengo, Cruzeiro e São Paulo, pressionam o STF para derrubá-la [4], e o futebol aparece entre os setores afetados [5]. Sobre a segurança jurídica, uma associação ligada à Frente Parlamentar pelo Livre Mercado afirma que o Congresso está preocupado com os efeitos da MP sobre contratos de clubes e emissoras [3]. Empresas que pagaram outorgas de até R$ 30 milhões avaliam pedir ressarcimento [5]. A frase de que o governo 'acabou com a segurança jurídica' é uma opinião hiperbólica, mas tem respaldo nas críticas registradas pelas fontes. O núcleo factual da fala, o cancelamento perto da eleição com prejuízo aos clubes, está correto.",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em economia e análise de relatórios probatórios.",
@@ -9164,7 +9246,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "83 decl-083 flavio bolsonaro flavio economia o governo lula cancelou perto da eleicao a liberacao de cassinos online, prejudicando um time de futebol e a seguranca juridica do pais. …chegando perto da eleicao, ele vai e cancela, achando que vai enganar voce. ainda prejudicou os times de futebol, acabou com a seguranca juridica desse pais. verdadeiro. o governo lula proibiu bets e cassinos online por mp a nove dias do 1º turno, sem transicao, afetando clubes de futebol. a perda de seguranca juridica e avaliacao, mas e apontada por setores e pelo congresso. as fontes confirmam que, em 25 de setembro de 2026, a nove dias do primeiro turno, lula assinou a mp 1.394, que proibe as apostas de quota fixa, inclusive jogos e cassinos online como o 'jogo do tigrinho' [1][2][3]. essas atividades tinham sido regulamentadas pelo proprio governo em 2023, pela lei 14.790 [2]. a bbc relaciona o anuncio ao esforco do governo para reagir nas pesquisas [2]. a medida entrou em vigor sem periodo de transicao [3][5]. mais de 20 clubes de futebol, entre eles flamengo, cruzeiro e sao paulo, pressionam o stf para derruba-la [4], e o futebol aparece entre os setores afetados [5]. sobre a seguranca juridica, uma associacao ligada a frente parlamentar pelo livre mercado afirma que o congresso esta preocupado com os efeitos da mp sobre contratos de clubes e emissoras [3]. empresas que pagaram outorgas de ate r$ 30 milhoes avaliam pedir ressarcimento [5]. a frase de que o governo 'acabou com a seguranca juridica' e uma opiniao hiperbolica, mas tem respaldo nas criticas registradas pelas fontes. o nucleo factual da fala, o cancelamento perto da eleicao com prejuizo aos clubes, esta correto. verdadeiro verdadeiro"
+    "searchTokens": "83 decl-083 flavio bolsonaro flavio economia o governo lula cancelou perto da eleicao a liberacao de cassinos online, prejudicando um time de futebol e a seguranca juridica do pais. …chegando perto da eleicao, ele vai e cancela, achando que vai enganar voce. ainda prejudicou os times de futebol, acabou com a seguranca juridica desse pais. verdadeiro. o governo lula proibiu bets e cassinos online por mp a nove dias do 1º turno, sem transicao, afetando clubes de futebol. a perda de seguranca juridica e avaliacao, mas e apontada por setores e pelo congresso. as fontes confirmam que, em 25 de setembro de 2026, a nove dias do primeiro turno, lula assinou a mp 1.394, que proibe as apostas de quota fixa, inclusive jogos e cassinos online como o 'jogo do tigrinho' [1][2][3]. essas atividades tinham sido regulamentadas pelo proprio governo em 2023, pela lei 14.790 [2]. a bbc relaciona o anuncio ao esforco do governo para reagir nas pesquisas [2]. a medida entrou em vigor sem periodo de transicao [3][5]. mais de 20 clubes de futebol, entre eles flamengo, cruzeiro e sao paulo, pressionam o stf para derruba-la [4], e o futebol aparece entre os setores afetados [5]. sobre a seguranca juridica, uma associacao ligada a frente parlamentar pelo livre mercado afirma que o congresso esta preocupado com os efeitos da mp sobre contratos de clubes e emissoras [3]. empresas que pagaram outorgas de ate r$ 30 milhoes avaliam pedir ressarcimento [5]. a frase de que o governo 'acabou com a seguranca juridica' e uma opiniao hiperbolica, mas tem respaldo nas criticas registradas pelas fontes. o nucleo factual da fala, o cancelamento perto da eleicao com prejuizo aos clubes, esta correto. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-084",
@@ -9270,7 +9353,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "84 decl-084 flavio bolsonaro flavio educacao o governo lula zerou o orcamento federal para o ensino integral e tentou maquiar esse corte. voce zerou o orcamento federal pra ensino integral e tentou maquiar. e fato que a verba especifica para ensino integral foi zerada no orcamento de 2027, mas o financiamento migrou para o fundeb; dizer que o orcamento federal foi zerado omite isso, embora especialistas vejam perda. as fontes confirmam que o governo zerou a acao orcamentaria especifica para implantacao de escolas em tempo integral no projeto de orcamento de 2027 [1][2]. essa verba ja vinha caindo: de r$ 4,9 bilhoes previstos em 2025 para r$ 20,8 milhoes em 2026 [2]. o gasto efetivo tambem despencou, de r$ 2,5 bilhoes em 2024 para r$ 75,8 milhoes em 2025 [6]. parte do dinheiro foi deslocada para o pe-de-meia [3][6]. no entanto, o governo e o planejamento afirmam que o financiamento passou a ser feito via fundeb, com uma parcela do aporte da uniao destinada ao ensino integral, e que isso 'nao significa ausencia de participacao da uniao' [1][2][3][4]. a fatia, porem, caiu de 10% em 2025 para 4% no ano seguinte [3]. em 2025, foi o congresso que zerou a previsao na loa [5]. assim, dizer que o 'orcamento federal' foi zerado omite que ainda ha recursos da uniao via fundeb. a critica de que houve reducao e de que a mudanca disfarca o corte tem respaldo em especialistas [1][2], mas a frase leva a crer que nao ha mais dinheiro federal algum, o que as fontes nao sustentam. enganoso enganoso"
+    "searchTokens": "84 decl-084 flavio bolsonaro flavio educacao o governo lula zerou o orcamento federal para o ensino integral e tentou maquiar esse corte. voce zerou o orcamento federal pra ensino integral e tentou maquiar. e fato que a verba especifica para ensino integral foi zerada no orcamento de 2027, mas o financiamento migrou para o fundeb; dizer que o orcamento federal foi zerado omite isso, embora especialistas vejam perda. as fontes confirmam que o governo zerou a acao orcamentaria especifica para implantacao de escolas em tempo integral no projeto de orcamento de 2027 [1][2]. essa verba ja vinha caindo: de r$ 4,9 bilhoes previstos em 2025 para r$ 20,8 milhoes em 2026 [2]. o gasto efetivo tambem despencou, de r$ 2,5 bilhoes em 2024 para r$ 75,8 milhoes em 2025 [6]. parte do dinheiro foi deslocada para o pe-de-meia [3][6]. no entanto, o governo e o planejamento afirmam que o financiamento passou a ser feito via fundeb, com uma parcela do aporte da uniao destinada ao ensino integral, e que isso 'nao significa ausencia de participacao da uniao' [1][2][3][4]. a fatia, porem, caiu de 10% em 2025 para 4% no ano seguinte [3]. em 2025, foi o congresso que zerou a previsao na loa [5]. assim, dizer que o 'orcamento federal' foi zerado omite que ainda ha recursos da uniao via fundeb. a critica de que houve reducao e de que a mudanca disfarca o corte tem respaldo em especialistas [1][2], mas a frase leva a crer que nao ha mais dinheiro federal algum, o que as fontes nao sustentam. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-085",
@@ -9371,7 +9455,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "85 decl-085 luiz inacio lula da silva lula outros o governo lula acabou com as bets (apostas online) no brasil. e e por isso que eu tive a coragem de acabar com a bet, que eu sei que meu adversario nao gostou, que eu sei que outras pessoas nao gostaram, mas nos acabamos com a bet porque ela estava virando um inferno na vida das pessoas,. verdadeiro. lula editou em 25/9/2026 a mp 1.394, que proibiu as bets no pais; as plataformas autorizadas sairam do ar em 6/10. a mp ainda depende de votacao no congresso. a medida provisoria nº 1.394/2026, assinada por lula em 25 de setembro, proibiu em todo o territorio nacional a exploracao, a oferta, a intermediacao e a publicidade de apostas de quota fixa. a proibicao abrange apostas esportivas e jogos online e extingue tambem as autorizacoes estaduais [1][2][4]. segundo o ministerio da justica, desde 6 de outubro as plataformas antes autorizadas deixaram de operar: dos 188 sites autorizados, apenas um ainda funcionava e teve o bloqueio solicitado. seguem, em paralelo, as acoes contra sites ilegais [5]. ha ressalvas: por ser uma mp, a medida precisa ser votada pelo congresso em ate 120 dias para virar lei definitiva [3], e a oferta ilegal continua sendo combatida [5]. isso nao muda o nucleo da fala: o governo efetivamente acabou com as bets legalizadas no brasil. verdadeiro verdadeiro"
+    "searchTokens": "85 decl-085 luiz inacio lula da silva lula outros o governo lula acabou com as bets (apostas online) no brasil. e e por isso que eu tive a coragem de acabar com a bet, que eu sei que meu adversario nao gostou, que eu sei que outras pessoas nao gostaram, mas nos acabamos com a bet porque ela estava virando um inferno na vida das pessoas,. verdadeiro. lula editou em 25/9/2026 a mp 1.394, que proibiu as bets no pais; as plataformas autorizadas sairam do ar em 6/10. a mp ainda depende de votacao no congresso. a medida provisoria nº 1.394/2026, assinada por lula em 25 de setembro, proibiu em todo o territorio nacional a exploracao, a oferta, a intermediacao e a publicidade de apostas de quota fixa. a proibicao abrange apostas esportivas e jogos online e extingue tambem as autorizacoes estaduais [1][2][4]. segundo o ministerio da justica, desde 6 de outubro as plataformas antes autorizadas deixaram de operar: dos 188 sites autorizados, apenas um ainda funcionava e teve o bloqueio solicitado. seguem, em paralelo, as acoes contra sites ilegais [5]. ha ressalvas: por ser uma mp, a medida precisa ser votada pelo congresso em ate 120 dias para virar lei definitiva [3], e a oferta ilegal continua sendo combatida [5]. isso nao muda o nucleo da fala: o governo efetivamente acabou com as bets legalizadas no brasil. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-086",
@@ -9472,7 +9557,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "86 decl-086 luiz inacio lula da silva lula economia o governo lula anunciou nesta semana o perdao de dividas de quase r$ 15 bilhoes para cerca de quatro milhoes de meis (microempreendedores individuais). e por isso que nos essa semana anunciamos o perdao de uma divida de quase 15 bilhoes pra 4 bilhoes de vezes. verdadeiro. lula sancionou em 21/10/2026 lei que perdoa cerca de r$ 15 bilhoes em dividas federais de cerca de 4 milhoes de meis. o trecho fala em \"4 bilhoes de vezes\", provavel lapso para 4 milhoes de meis. a folha informa que lula sancionou na quarta-feira (21/10) a lei que perdoa dividas tributarias federais de meis. segundo o jornal, a medida beneficia cerca de 4 milhoes de empreendedores, com debitos estimados em r$ 15 bilhoes [1]. o ministerio do empreendedorismo fala em mais de r$ 15,5 bilhoes e mais de 3,6 milhoes de microempreendedores [2]. a sancao tambem e confirmada pelo g1 e pela cnn [3][5]. ha uma divergencia: uma fonte cita o ministro com r$ 12,6 bilhoes no anuncio inicial [4]. ainda assim, as fontes oficiais e jornalisticas mais recentes sustentam o valor de cerca de r$ 15 bilhoes. a fala \"4 bilhoes de vezes\" e um lapso evidente para cerca de 4 milhoes de meis, que nao muda o ponto central. vale uma ressalva: o perdao so vale a partir de 1º/1/2027 e exige pagar o das em dia por seis meses [1][2]. verdadeiro verdadeiro"
+    "searchTokens": "86 decl-086 luiz inacio lula da silva lula economia o governo lula anunciou nesta semana o perdao de dividas de quase r$ 15 bilhoes para cerca de quatro milhoes de meis (microempreendedores individuais). e por isso que nos essa semana anunciamos o perdao de uma divida de quase 15 bilhoes pra 4 bilhoes de vezes. verdadeiro. lula sancionou em 21/10/2026 lei que perdoa cerca de r$ 15 bilhoes em dividas federais de cerca de 4 milhoes de meis. o trecho fala em \"4 bilhoes de vezes\", provavel lapso para 4 milhoes de meis. a folha informa que lula sancionou na quarta-feira (21/10) a lei que perdoa dividas tributarias federais de meis. segundo o jornal, a medida beneficia cerca de 4 milhoes de empreendedores, com debitos estimados em r$ 15 bilhoes [1]. o ministerio do empreendedorismo fala em mais de r$ 15,5 bilhoes e mais de 3,6 milhoes de microempreendedores [2]. a sancao tambem e confirmada pelo g1 e pela cnn [3][5]. ha uma divergencia: uma fonte cita o ministro com r$ 12,6 bilhoes no anuncio inicial [4]. ainda assim, as fontes oficiais e jornalisticas mais recentes sustentam o valor de cerca de r$ 15 bilhoes. a fala \"4 bilhoes de vezes\" e um lapso evidente para cerca de 4 milhoes de meis, que nao muda o ponto central. vale uma ressalva: o perdao so vale a partir de 1º/1/2027 e exige pagar o das em dia por seis meses [1][2]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-087",
@@ -9590,7 +9676,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "87 decl-087 luiz inacio lula da silva lula economia o governo lula criou a lei geral da micro e pequena empresa. nos fizemos a lei geral da pequena e media empresa, porque nos queremos que o empreendedorismo venca nesse pais. nos sabemos que o mundo do trabalho mudou e que as pessoas querem outro tipo de trabalho. verdadeiro. a lei geral da micro e pequena empresa (lc 123/2006) foi sancionada por lula em 14/12/2006. lula disse \"pequena e media\" em vez de \"micro e pequena\", troca de nome que nao muda o ponto. a lei complementar nº 123, de 14 de dezembro de 2006, instituiu o estatuto nacional da microempresa e da empresa de pequeno porte [1][6]. a folha registra que lula sancionou a lei geral das micro e pequenas empresas nessa data e que a lei foi proposta em 2004 [2][3]. a transcricao oficial da entrevista apos a cerimonia de sancao confirma o fato [4]. ha uma ressalva: a lei foi aprovada pelo congresso, \"quase por consenso\" segundo o proprio lula [4], e o sebrae destaca a \"acao decisiva do congresso nacional\" [5]. mesmo assim, e usual atribuir ao governo que a propos e sancionou a autoria politica da lei. o candidato tambem chamou a norma de \"lei geral da pequena e media empresa\", quando o nome correto e micro e pequena empresa. e um nome trocado que nao altera o nucleo da afirmacao. em 2026, o governo tambem sancionou alteracoes nessa lei voltadas aos meis [7]. verdadeiro verdadeiro"
+    "searchTokens": "87 decl-087 luiz inacio lula da silva lula economia o governo lula criou a lei geral da micro e pequena empresa. nos fizemos a lei geral da pequena e media empresa, porque nos queremos que o empreendedorismo venca nesse pais. nos sabemos que o mundo do trabalho mudou e que as pessoas querem outro tipo de trabalho. verdadeiro. a lei geral da micro e pequena empresa (lc 123/2006) foi sancionada por lula em 14/12/2006. lula disse \"pequena e media\" em vez de \"micro e pequena\", troca de nome que nao muda o ponto. a lei complementar nº 123, de 14 de dezembro de 2006, instituiu o estatuto nacional da microempresa e da empresa de pequeno porte [1][6]. a folha registra que lula sancionou a lei geral das micro e pequenas empresas nessa data e que a lei foi proposta em 2004 [2][3]. a transcricao oficial da entrevista apos a cerimonia de sancao confirma o fato [4]. ha uma ressalva: a lei foi aprovada pelo congresso, \"quase por consenso\" segundo o proprio lula [4], e o sebrae destaca a \"acao decisiva do congresso nacional\" [5]. mesmo assim, e usual atribuir ao governo que a propos e sancionou a autoria politica da lei. o candidato tambem chamou a norma de \"lei geral da pequena e media empresa\", quando o nome correto e micro e pequena empresa. e um nome trocado que nao altera o nucleo da afirmacao. em 2026, o governo tambem sancionou alteracoes nessa lei voltadas aos meis [7]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-088",
@@ -9691,7 +9778,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "88 decl-088 luiz inacio lula da silva lula emprego e renda o governo lula formalizou 17,5 milhoes de microempreendedores individuais (mei). …a economia seja reativada, as pessoas comecem a trabalhar, as pessoas comecem a ganhar dinheiro, porque nos fizemos, por isso, 17,5 milhoes de mei. enganoso: o brasil tem cerca de 17,5 milhoes de meis, mas esse e o estoque total desde 2009, nao o que o governo lula formalizou; em 2022 ja havia 14,6 milhoes. as fontes confirmam que o pais tem hoje entre 17 e 17,6 milhoes de meis ativos [1][4][5], e uma fonte oficial cita mais de 16,8 milhoes [2]. o numero citado por lula e compativel com o estoque total. porem a fala sugere que esses 17,5 milhoes foram criados pelo seu governo ('nos fizemos'). o mei existe desde 2009, quando havia 44 mil inscritos, e o numero cresceu continuamente ao longo de varios governos [2]. segundo o ibge, em 2022, antes do atual mandato, ja havia 14,6 milhoes de meis [3]. o acrescimo no governo atual seria, portanto, de cerca de 3 milhoes, e nao de 17,5 milhoes. o dado esta certo, mas o enquadramento atribui ao governo atual o estoque acumulado do programa. enganoso enganoso"
+    "searchTokens": "88 decl-088 luiz inacio lula da silva lula emprego e renda o governo lula formalizou 17,5 milhoes de microempreendedores individuais (mei). …a economia seja reativada, as pessoas comecem a trabalhar, as pessoas comecem a ganhar dinheiro, porque nos fizemos, por isso, 17,5 milhoes de mei. enganoso: o brasil tem cerca de 17,5 milhoes de meis, mas esse e o estoque total desde 2009, nao o que o governo lula formalizou; em 2022 ja havia 14,6 milhoes. as fontes confirmam que o pais tem hoje entre 17 e 17,6 milhoes de meis ativos [1][4][5], e uma fonte oficial cita mais de 16,8 milhoes [2]. o numero citado por lula e compativel com o estoque total. porem a fala sugere que esses 17,5 milhoes foram criados pelo seu governo ('nos fizemos'). o mei existe desde 2009, quando havia 44 mil inscritos, e o numero cresceu continuamente ao longo de varios governos [2]. segundo o ibge, em 2022, antes do atual mandato, ja havia 14,6 milhoes de meis [3]. o acrescimo no governo atual seria, portanto, de cerca de 3 milhoes, e nao de 17,5 milhoes. o dado esta certo, mas o enquadramento atribui ao governo atual o estoque acumulado do programa. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-089",
@@ -9792,7 +9880,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "89 decl-089 luiz inacio lula da silva lula economia o governo lula ja enviou ao congresso uma medida provisoria criando um programa de leilao para comprar dividas de pessoas nos bancos, que pode chegar a mais de r$ 150 bilhoes. nos ja mandamos a medida provisoria, vamos fazer um leilao este mes, que pode chegar a mais de r$ 150 bilhoes para comprar as dividas nos bancos dessas pessoas. a mp do desenrola 3.0 existe e preve leiloes de compra de dividas, mas o governo estima ate r$ 150 bi elegiveis (e r$ 75 bi efetivamente renegociados), nao 'mais de r$ 150 bilhoes'. as fontes confirmam que o governo editou a mp 1.393/2026, em vigor e em tramitacao no congresso, criando o desenrola brasil 3.0. a mp autoriza a uniao a comprar em leilao carteiras de dividas bancarias e nao bancarias com desagio minimo de 90% [1][2][3][4]. porem, o valor citado esta inflado. o governo estima que 'ate r$ 150 bilhoes' em dividas sejam elegiveis [1][4]. considerando a adesao parcial, a expectativa e que r$ 75 bilhoes sejam efetivamente renegociados [4]. o desembolso previsto e de r$ 15 bilhoes [1][4]. dizer que o programa 'pode chegar a mais de r$ 150 bilhoes' transforma um teto em piso. ha ainda divergencia pontual: o g1 menciona um estoque de r$ 300 bilhoes nas modalidades, mas como universo total, nao como meta [5]. as fontes nao tratam da data do leilao; isso nao muda o nucleo da fala. exagerado enganoso"
+    "searchTokens": "89 decl-089 luiz inacio lula da silva lula economia o governo lula ja enviou ao congresso uma medida provisoria criando um programa de leilao para comprar dividas de pessoas nos bancos, que pode chegar a mais de r$ 150 bilhoes. nos ja mandamos a medida provisoria, vamos fazer um leilao este mes, que pode chegar a mais de r$ 150 bilhoes para comprar as dividas nos bancos dessas pessoas. a mp do desenrola 3.0 existe e preve leiloes de compra de dividas, mas o governo estima ate r$ 150 bi elegiveis (e r$ 75 bi efetivamente renegociados), nao 'mais de r$ 150 bilhoes'. as fontes confirmam que o governo editou a mp 1.393/2026, em vigor e em tramitacao no congresso, criando o desenrola brasil 3.0. a mp autoriza a uniao a comprar em leilao carteiras de dividas bancarias e nao bancarias com desagio minimo de 90% [1][2][3][4]. porem, o valor citado esta inflado. o governo estima que 'ate r$ 150 bilhoes' em dividas sejam elegiveis [1][4]. considerando a adesao parcial, a expectativa e que r$ 75 bilhoes sejam efetivamente renegociados [4]. o desembolso previsto e de r$ 15 bilhoes [1][4]. dizer que o programa 'pode chegar a mais de r$ 150 bilhoes' transforma um teto em piso. ha ainda divergencia pontual: o g1 menciona um estoque de r$ 300 bilhoes nas modalidades, mas como universo total, nao como meta [5]. as fontes nao tratam da data do leilao; isso nao muda o nucleo da fala. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-090",
@@ -9893,7 +9982,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "90 decl-090 luiz inacio lula da silva lula economia o governo lula criou, apos os dois programas desenrola, um novo programa para tratar do endividamento das familias. e resolvemos criar um programa agora para resolver definitivamente a questao da divida. verdadeiro. apos as duas fases do desenrola, o governo editou a mp 1393/26, que cria o desenrola 3.0 para renegociar dividas de pessoas fisicas. o \"definitivamente\" e retorica de promessa, nao fato verificavel. segundo a camara [1], a mp 1393/26 institui a terceira fase do programa de renegociacao de dividas de pessoas fisicas, o desenrola brasil 3.0. as duas fases anteriores atenderam cerca de 25 milhoes de pessoas. a segunda fase foi o novo desenrola brasil, criado pela mp 1355/26 em maio de 2026 [5][3][4], e o estadao o descreve como o segundo programa do mandato para reduzir a divida das familias [2]. a novidade do 3.0 e a compra de carteiras de dividas pela uniao em leiloes, com repasse do desconto aos devedores, e a estimativa e de ate r$ 150 bilhoes renegociados [1]. portanto, e correto dizer que o governo criou recentemente um novo programa sobre dividas. ha uma ressalva: o 3.0 e formalmente uma nova fase do mesmo programa. alem disso, a promessa de resolver \"definitivamente\" a questao e uma expectativa politica que as fontes nao permitem avaliar. nenhuma das duas coisas muda o nucleo factual da fala. verdadeiro verdadeiro"
+    "searchTokens": "90 decl-090 luiz inacio lula da silva lula economia o governo lula criou, apos os dois programas desenrola, um novo programa para tratar do endividamento das familias. e resolvemos criar um programa agora para resolver definitivamente a questao da divida. verdadeiro. apos as duas fases do desenrola, o governo editou a mp 1393/26, que cria o desenrola 3.0 para renegociar dividas de pessoas fisicas. o \"definitivamente\" e retorica de promessa, nao fato verificavel. segundo a camara [1], a mp 1393/26 institui a terceira fase do programa de renegociacao de dividas de pessoas fisicas, o desenrola brasil 3.0. as duas fases anteriores atenderam cerca de 25 milhoes de pessoas. a segunda fase foi o novo desenrola brasil, criado pela mp 1355/26 em maio de 2026 [5][3][4], e o estadao o descreve como o segundo programa do mandato para reduzir a divida das familias [2]. a novidade do 3.0 e a compra de carteiras de dividas pela uniao em leiloes, com repasse do desconto aos devedores, e a estimativa e de ate r$ 150 bilhoes renegociados [1]. portanto, e correto dizer que o governo criou recentemente um novo programa sobre dividas. ha uma ressalva: o 3.0 e formalmente uma nova fase do mesmo programa. alem disso, a promessa de resolver \"definitivamente\" a questao e uma expectativa politica que as fontes nao permitem avaliar. nenhuma das duas coisas muda o nucleo factual da fala. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-091",
@@ -9996,7 +10086,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "91 decl-091 flavio bolsonaro flavio economia o governo lula enviou ha dois meses o projeto de lei orcamentaria anual e os gastos de mais de r$ 405 bilhoes citados nao estavam previstos nele. nao tem dois meses que mandou a lei orcamentaria anual, que sao as despesas previstas pro ano que vem, e nada disso estava previsto. o ploa 2027 foi de fato enviado ha cerca de dois meses, mas os r$ 405 bi do gastometro somam gastos de todo o mandato (2023-2026), nao despesas de 2027 que deveriam constar na loa. o projeto da loa 2027 ja havia sido enviado e analisado pela ifi em setembro de 2026 [1]. a data, portanto, e compativel com a fala: os ploas costumam ser enviados no fim de agosto [3][4]. porem, segundo o estadao, os r$ 405 bilhoes do gastometro correspondem aos gastos acumulados de lula no terceiro mandato [2]. esse total inclui medidas ja executadas em anos anteriores, como o reajuste do bolsa familia e o desenrola. nao faz sentido esperar que gastos de 2023 a 2026 estejam previstos na loa do ano seguinte. algumas medidas recentes tem impacto em 2027, como a pec da tarifa zero, que preve r$ 12 bilhoes a partir de 2027 [2]. essas, de fato, nao poderiam constar do projeto enviado antes delas. ainda assim, a fala leva o eleitor a crer que todo o montante de r$ 405 bilhoes seria despesa nova nao prevista no orcamento do proximo ano. esse enquadramento e enganoso. a ifi tambem aponta dificuldade fiscal em 2027 [1]. enganoso enganoso"
+    "searchTokens": "91 decl-091 flavio bolsonaro flavio economia o governo lula enviou ha dois meses o projeto de lei orcamentaria anual e os gastos de mais de r$ 405 bilhoes citados nao estavam previstos nele. nao tem dois meses que mandou a lei orcamentaria anual, que sao as despesas previstas pro ano que vem, e nada disso estava previsto. o ploa 2027 foi de fato enviado ha cerca de dois meses, mas os r$ 405 bi do gastometro somam gastos de todo o mandato (2023-2026), nao despesas de 2027 que deveriam constar na loa. o projeto da loa 2027 ja havia sido enviado e analisado pela ifi em setembro de 2026 [1]. a data, portanto, e compativel com a fala: os ploas costumam ser enviados no fim de agosto [3][4]. porem, segundo o estadao, os r$ 405 bilhoes do gastometro correspondem aos gastos acumulados de lula no terceiro mandato [2]. esse total inclui medidas ja executadas em anos anteriores, como o reajuste do bolsa familia e o desenrola. nao faz sentido esperar que gastos de 2023 a 2026 estejam previstos na loa do ano seguinte. algumas medidas recentes tem impacto em 2027, como a pec da tarifa zero, que preve r$ 12 bilhoes a partir de 2027 [2]. essas, de fato, nao poderiam constar do projeto enviado antes delas. ainda assim, a fala leva o eleitor a crer que todo o montante de r$ 405 bilhoes seria despesa nova nao prevista no orcamento do proximo ano. esse enquadramento e enganoso. a ifi tambem aponta dificuldade fiscal em 2027 [1]. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-092",
@@ -10109,7 +10200,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "92 decl-092 flavio bolsonaro flavio economia o governo lula gastou mais de 405 bilhoes de reais em medidas com objetivo de reeleicao. lula, voce gastou mais de r$ 405 bilhoes pra tentar se reeleger nos proximos dias. o valor de r$ 405 bi vem do gastometro do estadao, mas soma credito reembolsavel, renuncias e medidas fora do orcamento; nao equivale a gasto efetivo, e a ifi estima r$ 298,4 bi. o numero citado existe: o gastometro do estadao chegou a r$ 405 bilhoes em medidas do governo lula em ano eleitoral, e o proprio jornal descreve esses desembolsos como gastos 'para tentar se reeleger' [6][1][2][5]. porem, dizer que lula 'gastou' r$ 405 bilhoes induz o eleitor a pensar em despesa efetiva do tesouro. segundo a veja, que trata da mesma compilacao quando ela estava em r$ 350 bilhoes, o total mistura linhas de financiamento reembolsaveis, subsidios, beneficios, renuncias de receita e operacoes fora do orcamento. por isso, a soma nao equivale ao total de despesas efetivas [3]. a instituicao fiscal independente (ifi), ligada ao senado, estimou um volume menor, de r$ 298,4 bilhoes [4][5]. alem disso, a intencao eleitoral e uma interpretacao: a secom afirma que as acoes nao sao eleitorais [1]. assim, o dado tem base jornalistica, mas o enquadramento como 'gasto' superestima o custo real. enganoso enganoso"
+    "searchTokens": "92 decl-092 flavio bolsonaro flavio economia o governo lula gastou mais de 405 bilhoes de reais em medidas com objetivo de reeleicao. lula, voce gastou mais de r$ 405 bilhoes pra tentar se reeleger nos proximos dias. o valor de r$ 405 bi vem do gastometro do estadao, mas soma credito reembolsavel, renuncias e medidas fora do orcamento; nao equivale a gasto efetivo, e a ifi estima r$ 298,4 bi. o numero citado existe: o gastometro do estadao chegou a r$ 405 bilhoes em medidas do governo lula em ano eleitoral, e o proprio jornal descreve esses desembolsos como gastos 'para tentar se reeleger' [6][1][2][5]. porem, dizer que lula 'gastou' r$ 405 bilhoes induz o eleitor a pensar em despesa efetiva do tesouro. segundo a veja, que trata da mesma compilacao quando ela estava em r$ 350 bilhoes, o total mistura linhas de financiamento reembolsaveis, subsidios, beneficios, renuncias de receita e operacoes fora do orcamento. por isso, a soma nao equivale ao total de despesas efetivas [3]. a instituicao fiscal independente (ifi), ligada ao senado, estimou um volume menor, de r$ 298,4 bilhoes [4][5]. alem disso, a intencao eleitoral e uma interpretacao: a secom afirma que as acoes nao sao eleitorais [1]. assim, o dado tem base jornalistica, mas o enquadramento como 'gasto' superestima o custo real. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-093",
@@ -10215,7 +10307,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "93 decl-093 flavio bolsonaro flavio economia os contratos imobiliarios da caixa economica federal estao atrelados a taxa de juros definida no governo lula, cujo saldo devedor nao diminui por isso. porque esta tudo atrelado a taxa de juro do seu governo, que e muito cara. enganoso: contratos da caixa sao corrigidos pela tr ou ipca, ou tem taxa fixa; nao ha atrelamento geral a uma 'taxa de juro do governo'. so a linha poupanca caixa segue regra do bc. o candidato diz que os contratos imobiliarios da caixa estao 'todos atrelados a taxa de juro' do governo lula. as fontes da caixa mostram outra coisa. o saldo devedor e atualizado pelo indexador contratado, tr ou ipca, e os juros sao os pactuados no contrato. nos contratos prefixados nao ha indexador algum [1][2][5]. contratos ja firmados tem taxa de juros contratual, com a tr como correcao [3][4]. ha uma ressalva: no credito imobiliario poupanca caixa, a taxa soma um percentual prefixado a remuneracao da poupanca, cuja regra e definida pelo banco central [5]. nesse caso existe um vinculo indireto com a politica de juros, mas ela e definida pelo bc e nao se aplica a 'tudo'. tambem e verdade que o saldo devedor e corrigido antes da amortizacao [6], o que pode dar ao mutuario a impressao de que a divida nao cai. o nucleo da fala, porem, generaliza um vinculo que vale so para uma linha e o atribui ao governo. isso leva o eleitor a uma conclusao incorreta. enganoso enganoso"
+    "searchTokens": "93 decl-093 flavio bolsonaro flavio economia os contratos imobiliarios da caixa economica federal estao atrelados a taxa de juros definida no governo lula, cujo saldo devedor nao diminui por isso. porque esta tudo atrelado a taxa de juro do seu governo, que e muito cara. enganoso: contratos da caixa sao corrigidos pela tr ou ipca, ou tem taxa fixa; nao ha atrelamento geral a uma 'taxa de juro do governo'. so a linha poupanca caixa segue regra do bc. o candidato diz que os contratos imobiliarios da caixa estao 'todos atrelados a taxa de juro' do governo lula. as fontes da caixa mostram outra coisa. o saldo devedor e atualizado pelo indexador contratado, tr ou ipca, e os juros sao os pactuados no contrato. nos contratos prefixados nao ha indexador algum [1][2][5]. contratos ja firmados tem taxa de juros contratual, com a tr como correcao [3][4]. ha uma ressalva: no credito imobiliario poupanca caixa, a taxa soma um percentual prefixado a remuneracao da poupanca, cuja regra e definida pelo banco central [5]. nesse caso existe um vinculo indireto com a politica de juros, mas ela e definida pelo bc e nao se aplica a 'tudo'. tambem e verdade que o saldo devedor e corrigido antes da amortizacao [6], o que pode dar ao mutuario a impressao de que a divida nao cai. o nucleo da fala, porem, generaliza um vinculo que vale so para uma linha e o atribui ao governo. isso leva o eleitor a uma conclusao incorreta. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-094",
@@ -10306,7 +10399,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "94 decl-094 flavio bolsonaro flavio economia a caixa economica federal tem mais de onze milhoes de contratos de financiamento imobiliario. …dessa enrolacao que ele te enrolou. por exemplo, a caixa economica federal tem mais de 11 milhoes de contratos imobiliarios. exagerado: a caixa e de fato a maior financiadora habitacional, mas as fontes indicam cerca de 7,9 milhoes de contratos ativos (jul/2026), nao mais de 11 milhoes. segundo o g1 [1], em julho de 2026 a caixa informou ter 7,9 milhoes de contratos ativos de credito habitacional, com 68% do mercado e carteira de r$ 1 trilhao. o poder360 [2] cita, em periodo anterior, mais de 7 milhoes de contratos ativos. o balanco do 2t26 [3] confirma a carteira imobiliaria de r$ 1,005 trilhao e participacao de 67,9%, mas nao informa o numero de contratos. a direcao da fala esta correta: a caixa tem uma carteira habitacional muito grande, com milhoes de contratos. o numero citado pelo candidato, porem, supera em cerca de 40% o dado mais recente das fontes (7,9 milhoes), uma inflacao material. nenhuma fonte sustenta a cifra de 11 milhoes. exagerado enganoso"
+    "searchTokens": "94 decl-094 flavio bolsonaro flavio economia a caixa economica federal tem mais de onze milhoes de contratos de financiamento imobiliario. …dessa enrolacao que ele te enrolou. por exemplo, a caixa economica federal tem mais de 11 milhoes de contratos imobiliarios. exagerado: a caixa e de fato a maior financiadora habitacional, mas as fontes indicam cerca de 7,9 milhoes de contratos ativos (jul/2026), nao mais de 11 milhoes. segundo o g1 [1], em julho de 2026 a caixa informou ter 7,9 milhoes de contratos ativos de credito habitacional, com 68% do mercado e carteira de r$ 1 trilhao. o poder360 [2] cita, em periodo anterior, mais de 7 milhoes de contratos ativos. o balanco do 2t26 [3] confirma a carteira imobiliaria de r$ 1,005 trilhao e participacao de 67,9%, mas nao informa o numero de contratos. a direcao da fala esta correta: a caixa tem uma carteira habitacional muito grande, com milhoes de contratos. o numero citado pelo candidato, porem, supera em cerca de 40% o dado mais recente das fontes (7,9 milhoes), uma inflacao material. nenhuma fonte sustenta a cifra de 11 milhoes. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-095",
@@ -10430,7 +10524,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "95 decl-095 flavio bolsonaro flavio economia mais de 80 milhoes de brasileiros estao com as contas atrasadas (inadimplentes). sao mais de 80 milhoes de brasileiros que estao com as contas atrasadas. verdadeiro. segundo a serasa, o brasil tinha 83,9 milhoes de inadimplentes em 2026, recorde da serie historica e acima dos 80 milhoes citados pelo candidato. o mapa da inadimplencia da serasa registrou 83,9 milhoes de pessoas negativadas, o maior numero da serie historica [2][5]. reportagem do uol descreve esse contingente como pessoas com dividas atrasadas ha mais de 90 dias, o que equivale a cerca de 51% da populacao adulta [1]. em abril de 2026, o numero ja era de 83,3 milhoes [4]. desde o fim de 2025 ele esta acima de 80 milhoes: eram 80,6 milhoes em dezembro de 2025 [3] e 81,7 milhoes em fevereiro de 2026 [6]. a fala \"mais de 80 milhoes de brasileiros com contas atrasadas\" corresponde, portanto, aos dados mais recentes. um dado mais antigo, de 72 milhoes em 2024 [7], esta defasado e nao contradiz a afirmacao. verdadeiro verdadeiro"
+    "searchTokens": "95 decl-095 flavio bolsonaro flavio economia mais de 80 milhoes de brasileiros estao com as contas atrasadas (inadimplentes). sao mais de 80 milhoes de brasileiros que estao com as contas atrasadas. verdadeiro. segundo a serasa, o brasil tinha 83,9 milhoes de inadimplentes em 2026, recorde da serie historica e acima dos 80 milhoes citados pelo candidato. o mapa da inadimplencia da serasa registrou 83,9 milhoes de pessoas negativadas, o maior numero da serie historica [2][5]. reportagem do uol descreve esse contingente como pessoas com dividas atrasadas ha mais de 90 dias, o que equivale a cerca de 51% da populacao adulta [1]. em abril de 2026, o numero ja era de 83,3 milhoes [4]. desde o fim de 2025 ele esta acima de 80 milhoes: eram 80,6 milhoes em dezembro de 2025 [3] e 81,7 milhoes em fevereiro de 2026 [6]. a fala \"mais de 80 milhoes de brasileiros com contas atrasadas\" corresponde, portanto, aos dados mais recentes. um dado mais antigo, de 72 milhoes em 2024 [7], esta defasado e nao contradiz a afirmacao. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-096",
@@ -10526,7 +10621,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "96 decl-096 luiz inacio lula da silva lula programas sociais desde o primeiro mes de mandato, o governo lula criou um programa para resolver o problema do endividamento, depois um segundo, e agora um terceiro para ajudar o povo a se livrar das dividas. …e nos, desde o primeiro mes de mandato, criamos o primeiro desenrola pra resolver o problema da divida, depois criamos o segundo e agora estamos criando o terceiro tema pra fazer com que o povo se livre da divida que ele contraiu por n motivos. verdadeiro. o governo lula criou o desenrola 1 (2023), o desenrola 2.0 (2026) e lancou o desenrola 3.0 em setembro de 2026. a imprecisao e que o primeiro passou a operar em julho de 2023, nao no primeiro mes de mandato. as fontes confirmam as tres edicoes do programa. o desenrola 1 renegociou r$ 53,2 bilhoes de 14,8 milhoes de pessoas entre julho de 2023 e maio de 2024 [2]. o desenrola 2.0 vigorou de maio a agosto de 2026 [2]. lula assinou em 25 de setembro de 2026 a medida provisoria que cria o desenrola 3.0, no qual a uniao compra carteiras de dividas [1][3][4]. o governo diz que as duas primeiras fases alcancaram 25 milhoes de pessoas [3]. as fontes indicam que o primeiro desenrola comecou a operar em julho de 2023, e nao no primeiro mes de mandato. nao tratam de eventual anuncio anterior, e a imprecisao de data nao muda o nucleo da fala. a folha registra que especialistas afirmam que a estrategia nao resolve o alto endividamento [2], mas a afirmacao central sobre a criacao dos tres programas e precisa. verdadeiro verdadeiro"
+    "searchTokens": "96 decl-096 luiz inacio lula da silva lula programas sociais desde o primeiro mes de mandato, o governo lula criou um programa para resolver o problema do endividamento, depois um segundo, e agora um terceiro para ajudar o povo a se livrar das dividas. …e nos, desde o primeiro mes de mandato, criamos o primeiro desenrola pra resolver o problema da divida, depois criamos o segundo e agora estamos criando o terceiro tema pra fazer com que o povo se livre da divida que ele contraiu por n motivos. verdadeiro. o governo lula criou o desenrola 1 (2023), o desenrola 2.0 (2026) e lancou o desenrola 3.0 em setembro de 2026. a imprecisao e que o primeiro passou a operar em julho de 2023, nao no primeiro mes de mandato. as fontes confirmam as tres edicoes do programa. o desenrola 1 renegociou r$ 53,2 bilhoes de 14,8 milhoes de pessoas entre julho de 2023 e maio de 2024 [2]. o desenrola 2.0 vigorou de maio a agosto de 2026 [2]. lula assinou em 25 de setembro de 2026 a medida provisoria que cria o desenrola 3.0, no qual a uniao compra carteiras de dividas [1][3][4]. o governo diz que as duas primeiras fases alcancaram 25 milhoes de pessoas [3]. as fontes indicam que o primeiro desenrola comecou a operar em julho de 2023, e nao no primeiro mes de mandato. nao tratam de eventual anuncio anterior, e a imprecisao de data nao muda o nucleo da fala. a folha registra que especialistas afirmam que a estrategia nao resolve o alto endividamento [2], mas a afirmacao central sobre a criacao dos tres programas e precisa. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-097",
@@ -10542,7 +10638,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "Chegou ao ponto de falar a seguinte frase: \"Se a comida está cara, não compra\".",
     "theFact": "Afirmação apurada: Lula declarou que, se a comida está cara, as pessoas não devem comprá-la.. Verdadeiro. Em fevereiro de 2025, Lula disse em entrevista a rádios da Bahia: \"se você desconfia que tal produto está caro, você não compra\". A citação de Flávio é paráfrase próxima. O contexto era um boicote para baixar preços. As fontes confirmam que, em 6 de fevereiro de 2025, em entrevista às rádios Metrópole e Sociedade, da Bahia, Lula afirmou: \"Se você vai no supermercado e desconfia que tal produto está caro, você não compra\" [1][2][4][5]. A frase citada pelo candidato, \"Se a comida está cara, não compra\", não é literal, mas reproduz fielmente o núcleo da declaração. Ela foi feita ao comentar a alta dos preços dos alimentos, e vários veículos a resumiram da mesma forma [3][4][6]. O contexto que Flávio omite é que Lula apresentou a ideia como estratégia coletiva: os consumidores deixariam de comprar para forçar a redução de preços e poderiam substituir os produtos por similares [1][4][5]. Isso não altera o fato de que a frase foi dita. A declaração gerou críticas e memes [7][8].",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em economia e análise de relatórios probatórios.",
@@ -10649,7 +10745,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "97 decl-097 flavio bolsonaro flavio economia lula declarou que, se a comida esta cara, as pessoas nao devem compra-la. chegou ao ponto de falar a seguinte frase: \"se a comida esta cara, nao compra\". verdadeiro. em fevereiro de 2025, lula disse em entrevista a radios da bahia: \"se voce desconfia que tal produto esta caro, voce nao compra\". a citacao de flavio e parafrase proxima. o contexto era um boicote para baixar precos. as fontes confirmam que, em 6 de fevereiro de 2025, em entrevista as radios metropole e sociedade, da bahia, lula afirmou: \"se voce vai no supermercado e desconfia que tal produto esta caro, voce nao compra\" [1][2][4][5]. a frase citada pelo candidato, \"se a comida esta cara, nao compra\", nao e literal, mas reproduz fielmente o nucleo da declaracao. ela foi feita ao comentar a alta dos precos dos alimentos, e varios veiculos a resumiram da mesma forma [3][4][6]. o contexto que flavio omite e que lula apresentou a ideia como estrategia coletiva: os consumidores deixariam de comprar para forcar a reducao de precos e poderiam substituir os produtos por similares [1][4][5]. isso nao altera o fato de que a frase foi dita. a declaracao gerou criticas e memes [7][8]. verdadeiro verdadeiro"
+    "searchTokens": "97 decl-097 flavio bolsonaro flavio economia lula declarou que, se a comida esta cara, as pessoas nao devem compra-la. chegou ao ponto de falar a seguinte frase: \"se a comida esta cara, nao compra\". verdadeiro. em fevereiro de 2025, lula disse em entrevista a radios da bahia: \"se voce desconfia que tal produto esta caro, voce nao compra\". a citacao de flavio e parafrase proxima. o contexto era um boicote para baixar precos. as fontes confirmam que, em 6 de fevereiro de 2025, em entrevista as radios metropole e sociedade, da bahia, lula afirmou: \"se voce vai no supermercado e desconfia que tal produto esta caro, voce nao compra\" [1][2][4][5]. a frase citada pelo candidato, \"se a comida esta cara, nao compra\", nao e literal, mas reproduz fielmente o nucleo da declaracao. ela foi feita ao comentar a alta dos precos dos alimentos, e varios veiculos a resumiram da mesma forma [3][4][6]. o contexto que flavio omite e que lula apresentou a ideia como estrategia coletiva: os consumidores deixariam de comprar para forcar a reducao de precos e poderiam substituir os produtos por similares [1][4][5]. isso nao altera o fato de que a frase foi dita. a declaracao gerou criticas e memes [7][8]. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-098",
@@ -10760,7 +10857,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "98 decl-098 flavio bolsonaro flavio saude o governador tarcisio de freitas criou a tabela sus paulista em sao paulo. eu vou fazer como fez o governador tarcisio, la em sao paulo, que criou a tabela sus paulista. verdadeiro. a tabela sus paulista foi criada por decreto assinado por tarcisio de freitas e lancada em agosto de 2023, no primeiro ano de sua gestao. as fontes confirmam que o governador tarcisio de freitas anunciou, em 28 de agosto de 2023, a tabela sus paulista, que complementa com recursos estaduais os valores pagos pelo ministerio da saude aos hospitais [2][3]. segundo [5], ela foi criada por decreto assinado pelo governador e pelo secretario de saude, eleuses paiva. o governo estadual descreve a tabela como iniciativa inedita, anunciada no primeiro ano da gestao tarcisio, que repassou r$ 4,3 bilhoes em 2024, seu primeiro ano de vigencia [1][4]. depois, o programa foi ampliado para hospitais municipais [6][7]. ha uma divergencia menor entre as fontes sobre o teto do complemento: 'ate quatro vezes' a tabela federal em [2][5] e 'ate cinco vezes' em [1][4]. isso nao afeta a afirmacao central sobre a autoria. verdadeiro verdadeiro"
+    "searchTokens": "98 decl-098 flavio bolsonaro flavio saude o governador tarcisio de freitas criou a tabela sus paulista em sao paulo. eu vou fazer como fez o governador tarcisio, la em sao paulo, que criou a tabela sus paulista. verdadeiro. a tabela sus paulista foi criada por decreto assinado por tarcisio de freitas e lancada em agosto de 2023, no primeiro ano de sua gestao. as fontes confirmam que o governador tarcisio de freitas anunciou, em 28 de agosto de 2023, a tabela sus paulista, que complementa com recursos estaduais os valores pagos pelo ministerio da saude aos hospitais [2][3]. segundo [5], ela foi criada por decreto assinado pelo governador e pelo secretario de saude, eleuses paiva. o governo estadual descreve a tabela como iniciativa inedita, anunciada no primeiro ano da gestao tarcisio, que repassou r$ 4,3 bilhoes em 2024, seu primeiro ano de vigencia [1][4]. depois, o programa foi ampliado para hospitais municipais [6][7]. ha uma divergencia menor entre as fontes sobre o teto do complemento: 'ate quatro vezes' a tabela federal em [2][5] e 'ate cinco vezes' em [1][4]. isso nao afeta a afirmacao central sobre a autoria. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-099",
@@ -10861,7 +10959,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "99 decl-099 flavio bolsonaro flavio saude o percentual que o governo federal destina ao financiamento da saude no brasil vem diminuindo a cada ano. cada vez e menor o percentual que o governo federal coloca para o tratamento da saude em todo o brasil. verdadeiro. as fontes mostram queda continua de longo prazo na participacao da uniao no gasto publico em saude, de 52% em 2002 para cerca de 40% em 2023. ha oscilacoes pontuais, como na pandemia, de modo que \"a cada ano\" e uma o nucleo da fala e que a parcela federal no financiamento da saude vem encolhendo. as fontes confirmam essa tendencia. a participacao da uniao no gasto publico em acoes e servicos de saude caiu de 52% para 42% entre 2002 e 2014 [5]. caiu tambem de 45,3% para 37,6% entre 2012 e 2022, com aumento das parcelas de estados e municipios [2]. segundo estudo do conass/conasems, chegou a 40% em 2023 [3]. em 2016, o proprio ministro da saude reconheceu o \"desfinanciamento\" federal [4]. outro estudo indica que a prioridade fiscal da saude no nivel federal caiu 23% entre 2020 e 2023 [1]. a queda, porem, nao ocorreu literalmente em todos os anos. medido em proporcao do pib, o gasto federal oscila: subiu para 2,16% em 2020, na pandemia, e passou de 1,53% em 2022 para 1,66% em 2023 [1]. essa imprecisao do \"cada vez menor\" nao altera o ponto central: a participacao relativa da uniao vem diminuindo de forma consistente ao longo das ultimas duas decadas. verdadeiro verdadeiro"
+    "searchTokens": "99 decl-099 flavio bolsonaro flavio saude o percentual que o governo federal destina ao financiamento da saude no brasil vem diminuindo a cada ano. cada vez e menor o percentual que o governo federal coloca para o tratamento da saude em todo o brasil. verdadeiro. as fontes mostram queda continua de longo prazo na participacao da uniao no gasto publico em saude, de 52% em 2002 para cerca de 40% em 2023. ha oscilacoes pontuais, como na pandemia, de modo que \"a cada ano\" e uma o nucleo da fala e que a parcela federal no financiamento da saude vem encolhendo. as fontes confirmam essa tendencia. a participacao da uniao no gasto publico em acoes e servicos de saude caiu de 52% para 42% entre 2002 e 2014 [5]. caiu tambem de 45,3% para 37,6% entre 2012 e 2022, com aumento das parcelas de estados e municipios [2]. segundo estudo do conass/conasems, chegou a 40% em 2023 [3]. em 2016, o proprio ministro da saude reconheceu o \"desfinanciamento\" federal [4]. outro estudo indica que a prioridade fiscal da saude no nivel federal caiu 23% entre 2020 e 2023 [1]. a queda, porem, nao ocorreu literalmente em todos os anos. medido em proporcao do pib, o gasto federal oscila: subiu para 2,16% em 2020, na pandemia, e passou de 1,53% em 2022 para 1,66% em 2023 [1]. essa imprecisao do \"cada vez menor\" nao altera o ponto central: a participacao relativa da uniao vem diminuindo de forma consistente ao longo das ultimas duas decadas. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-100",
@@ -10962,7 +11061,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "100 decl-100 flavio bolsonaro flavio saude a tabela sus paga r$ 443 a uma medica obstetra por um parto. uma medica obstetra que faz um parto, por exemplo, recebe r$ 443 so por um parto. r$ 443,40 e o valor total do parto normal na tabela sus, mas inclui o servico hospitalar; a parte profissional destinada ao medico e r$ 175,80, bem menor que o citado. a tabela sigtap fixa r$ 443,40 para o parto normal (codigo 0310010039) [1][2]. esse valor, porem, e a soma de dois componentes: r$ 267,60 de servico hospitalar, pago ao estabelecimento, e r$ 175,80 de servico profissional, pago ao profissional [1][3]. assim, a afirmacao de que a obstetra 'recebe r$ 443' por parto atribui a medica o valor total do procedimento, que e cerca de 2,5 vezes a parcela profissional. a critica de fundo, de que a remuneracao pela tabela sus e baixa, encontra respaldo nas fontes [2][4]. mas o valor que a medica recebe esta inflado. se o candidato quis sugerir que a medica ganha pouco, o numero verdadeiro reforcaria o argumento; ainda assim, a grandeza atribuida a ela esta incorreta. tambem existe a tabela sus paulista, que complementa esses valores em sao paulo e paga ate r$ 2.217 por parto normal [5][4]. exagerado enganoso"
+    "searchTokens": "100 decl-100 flavio bolsonaro flavio saude a tabela sus paga r$ 443 a uma medica obstetra por um parto. uma medica obstetra que faz um parto, por exemplo, recebe r$ 443 so por um parto. r$ 443,40 e o valor total do parto normal na tabela sus, mas inclui o servico hospitalar; a parte profissional destinada ao medico e r$ 175,80, bem menor que o citado. a tabela sigtap fixa r$ 443,40 para o parto normal (codigo 0310010039) [1][2]. esse valor, porem, e a soma de dois componentes: r$ 267,60 de servico hospitalar, pago ao estabelecimento, e r$ 175,80 de servico profissional, pago ao profissional [1][3]. assim, a afirmacao de que a obstetra 'recebe r$ 443' por parto atribui a medica o valor total do procedimento, que e cerca de 2,5 vezes a parcela profissional. a critica de fundo, de que a remuneracao pela tabela sus e baixa, encontra respaldo nas fontes [2][4]. mas o valor que a medica recebe esta inflado. se o candidato quis sugerir que a medica ganha pouco, o numero verdadeiro reforcaria o argumento; ainda assim, a grandeza atribuida a ela esta incorreta. tambem existe a tabela sus paulista, que complementa esses valores em sao paulo e paga ate r$ 2.217 por parto normal [5][4]. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-101",
@@ -11073,7 +11173,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "101 decl-101 flavio bolsonaro flavio saude a tabela sus paga hoje dez reais a um medico por consulta. porque hoje a tabela sus, caso voce nao saiba, paga r$ 10 pra um medico por consulta. verdadeiro. a tabela sus fixa em r$ 10 o valor da consulta medica especializada, como mostram a tabela de 2026 e um artigo com valores de agosto de 2026. a tabela sus 2026 lista 'consulta medica em atencao especializada' e 'consulta medica em saude do trabalhador' a r$ 10,00 [1]. a tabela nacional de procedimentos traz o mesmo valor [2]. um artigo do o globo com valores de agosto de 2026 afirma que a tabela sus paga r$ 10 pela consulta medica [3]. a cnm e a veja citam o mesmo valor ao comparar com os r$ 73,91 da ans [4][5]. ressalva: o valor e repassado ao prestador conveniado ou ao municipio, nao necessariamente ao medico. alem disso, ha complementos estaduais e municipais: um consorcio paga r$ 80 alem dos r$ 10 do sus [6], e sao paulo tem a tabela sus paulista [7]. essas nuances nao mudam o ponto central, de que a tabela federal paga r$ 10 por consulta. verdadeiro verdadeiro"
+    "searchTokens": "101 decl-101 flavio bolsonaro flavio saude a tabela sus paga hoje dez reais a um medico por consulta. porque hoje a tabela sus, caso voce nao saiba, paga r$ 10 pra um medico por consulta. verdadeiro. a tabela sus fixa em r$ 10 o valor da consulta medica especializada, como mostram a tabela de 2026 e um artigo com valores de agosto de 2026. a tabela sus 2026 lista 'consulta medica em atencao especializada' e 'consulta medica em saude do trabalhador' a r$ 10,00 [1]. a tabela nacional de procedimentos traz o mesmo valor [2]. um artigo do o globo com valores de agosto de 2026 afirma que a tabela sus paga r$ 10 pela consulta medica [3]. a cnm e a veja citam o mesmo valor ao comparar com os r$ 73,91 da ans [4][5]. ressalva: o valor e repassado ao prestador conveniado ou ao municipio, nao necessariamente ao medico. alem disso, ha complementos estaduais e municipais: um consorcio paga r$ 80 alem dos r$ 10 do sus [6], e sao paulo tem a tabela sus paulista [7]. essas nuances nao mudam o ponto central, de que a tabela federal paga r$ 10 por consulta. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-102",
@@ -11174,7 +11275,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "102 decl-102 flavio bolsonaro flavio saude o governo lula nao adotou medidas para ajudar a reduzir a divida das santas casas, que tem a caixa economica federal como credora. e voce nao fez nada pra ajudar a reduzir a divida das santas casas. falso. as fontes mostram que o governo lula editou mp e sancionou lei retomando credito do fgts para santas casas trocarem dividas caras por juros menores, alem de pausa de prestacoes na caixa. o candidato afirma que lula nao fez nada para ajudar a reduzir a divida das santas casas. as fontes contradizem a afirmacao. em fevereiro de 2026, lula assinou uma medida provisoria que restabelece ate 2030 o uso de recursos do fgts em credito a hospitais filantropicos. a expectativa era destinar r$ 4 bilhoes e permitir que bancos publicos reduzissem os juros, hoje de 17,7% a.a. na carteira com recursos proprios da caixa [1]. em agosto de 2026, lula sancionou a lei que retoma essa linha. o objetivo declarado e permitir que as instituicoes troquem dividas com encargos de cerca de 18% ao ano por financiamentos de longo prazo a cerca de 12%, com ate r$ 8,5 bilhoes previstos [2]. o projeto, aprovado pelo senado, e de autoria de um deputado do pt [3]. a pagina da caixa tambem menciona pausa de ate 18 meses nas prestacoes de contratos de credito com santas casas, em contexto de calamidade [4]. a veja relata que o governo discutiu socorro as dividas, sobretudo com a caixa [5]. pode-se debater se as medidas bastam, mas e falso dizer que nada foi feito. falso falso"
+    "searchTokens": "102 decl-102 flavio bolsonaro flavio saude o governo lula nao adotou medidas para ajudar a reduzir a divida das santas casas, que tem a caixa economica federal como credora. e voce nao fez nada pra ajudar a reduzir a divida das santas casas. falso. as fontes mostram que o governo lula editou mp e sancionou lei retomando credito do fgts para santas casas trocarem dividas caras por juros menores, alem de pausa de prestacoes na caixa. o candidato afirma que lula nao fez nada para ajudar a reduzir a divida das santas casas. as fontes contradizem a afirmacao. em fevereiro de 2026, lula assinou uma medida provisoria que restabelece ate 2030 o uso de recursos do fgts em credito a hospitais filantropicos. a expectativa era destinar r$ 4 bilhoes e permitir que bancos publicos reduzissem os juros, hoje de 17,7% a.a. na carteira com recursos proprios da caixa [1]. em agosto de 2026, lula sancionou a lei que retoma essa linha. o objetivo declarado e permitir que as instituicoes troquem dividas com encargos de cerca de 18% ao ano por financiamentos de longo prazo a cerca de 12%, com ate r$ 8,5 bilhoes previstos [2]. o projeto, aprovado pelo senado, e de autoria de um deputado do pt [3]. a pagina da caixa tambem menciona pausa de ate 18 meses nas prestacoes de contratos de credito com santas casas, em contexto de calamidade [4]. a veja relata que o governo discutiu socorro as dividas, sobretudo com a caixa [5]. pode-se debater se as medidas bastam, mas e falso dizer que nada foi feito. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-103",
@@ -11190,7 +11292,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "Hoje vocês estão sufocados, estão devendo. E sabe quem é credor dessas Santas Casas, candidato? A Caixa Econômica Federal.",
     "theFact": "Afirmação apurada: As Santas Casas do Brasil estão endividadas e a Caixa Econômica Federal é credora dessas dívidas.. Verdadeiro. Santas Casas e filantrópicos têm dívidas bilionárias, e a Caixa é uma das principais credoras, com carteira de cerca de R$ 5,1 bi na linha Caixa Hospitais. Mas não é a única credora. As fontes confirmam o endividamento do setor: a TV Brasil fala em dívidas de pelo menos R$ 21 bilhões [4], e a Folha cita cerca de R$ 20 bilhões [3]. A Caixa é credora relevante. A linha Caixa Hospitais tinha carteira de R$ 5,1 bilhões em 2023 [1] e cerca de R$ 5,1 bilhões em mais de 560 instituições em 2025 [2]. A Confederação das Santas Casas (CMB) buscou junto à Caixa adiar e renegociar empréstimos [1], e o Ministério da Saúde anunciou a possibilidade de renegociar as dívidas bancárias dos filantrópicos com a Caixa [2]. Ressalva: a Caixa não é a única credora. Dos R$ 10 bilhões em empréstimos bancários, parte foi tomada em outros bancos [1], e parte da dívida total não é bancária (há dívidas tributárias, por exemplo [2]). Mesmo assim, o núcleo da fala, de que as Santas Casas estão endividadas e a Caixa é credora delas, está correto.",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em saúde e análise de relatórios probatórios.",
@@ -11277,7 +11379,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "103 decl-103 flavio bolsonaro flavio saude as santas casas do brasil estao endividadas e a caixa economica federal e credora dessas dividas. hoje voces estao sufocados, estao devendo. e sabe quem e credor dessas santas casas, candidato? a caixa economica federal. verdadeiro. santas casas e filantropicos tem dividas bilionarias, e a caixa e uma das principais credoras, com carteira de cerca de r$ 5,1 bi na linha caixa hospitais. mas nao e a unica credora. as fontes confirmam o endividamento do setor: a tv brasil fala em dividas de pelo menos r$ 21 bilhoes [4], e a folha cita cerca de r$ 20 bilhoes [3]. a caixa e credora relevante. a linha caixa hospitais tinha carteira de r$ 5,1 bilhoes em 2023 [1] e cerca de r$ 5,1 bilhoes em mais de 560 instituicoes em 2025 [2]. a confederacao das santas casas (cmb) buscou junto a caixa adiar e renegociar emprestimos [1], e o ministerio da saude anunciou a possibilidade de renegociar as dividas bancarias dos filantropicos com a caixa [2]. ressalva: a caixa nao e a unica credora. dos r$ 10 bilhoes em emprestimos bancarios, parte foi tomada em outros bancos [1], e parte da divida total nao e bancaria (ha dividas tributarias, por exemplo [2]). mesmo assim, o nucleo da fala, de que as santas casas estao endividadas e a caixa e credora delas, esta correto. verdadeiro verdadeiro"
+    "searchTokens": "103 decl-103 flavio bolsonaro flavio saude as santas casas do brasil estao endividadas e a caixa economica federal e credora dessas dividas. hoje voces estao sufocados, estao devendo. e sabe quem e credor dessas santas casas, candidato? a caixa economica federal. verdadeiro. santas casas e filantropicos tem dividas bilionarias, e a caixa e uma das principais credoras, com carteira de cerca de r$ 5,1 bi na linha caixa hospitais. mas nao e a unica credora. as fontes confirmam o endividamento do setor: a tv brasil fala em dividas de pelo menos r$ 21 bilhoes [4], e a folha cita cerca de r$ 20 bilhoes [3]. a caixa e credora relevante. a linha caixa hospitais tinha carteira de r$ 5,1 bilhoes em 2023 [1] e cerca de r$ 5,1 bilhoes em mais de 560 instituicoes em 2025 [2]. a confederacao das santas casas (cmb) buscou junto a caixa adiar e renegociar emprestimos [1], e o ministerio da saude anunciou a possibilidade de renegociar as dividas bancarias dos filantropicos com a caixa [2]. ressalva: a caixa nao e a unica credora. dos r$ 10 bilhoes em emprestimos bancarios, parte foi tomada em outros bancos [1], e parte da divida total nao e bancaria (ha dividas tributarias, por exemplo [2]). mesmo assim, o nucleo da fala, de que as santas casas estao endividadas e a caixa e credora delas, esta correto. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-104",
@@ -11388,7 +11491,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "104 decl-104 flavio bolsonaro flavio saude pacientes estao morrendo na fila do sus a espera de tratamento de cancer. as pessoas estao na fila, morrendo, esperando tratamento de cancer. verdadeiro. fontes mostram filas do sus para tratamento oncologico acima dos prazos legais e casos documentados de pacientes que morreram aguardando tratamento de cancer. a fala e generica e qualitativa, e as fontes a sustentam. auditoria do tcu aponta piora em 2025 na espera por cirurgias oncologicas no sus, com parte relevante dos pacientes atendida alem do prazo legal de 60 dias [2]. levantamento do tjcc indica media de 75 dias ate o inicio do tratamento, acima do previsto em lei [7][3]. especialistas alertam que os atrasos reduzem as chances de cura [3]. ha casos concretos de pacientes que morreram na fila: o bom dia brasil relatou dois pacientes mortos a espera de tratamento de cancer no ceara [1][5]. a agencia brasil noticiou estimativa de mais de 110 mil mortes em 15 anos por falta de acesso a radioterapia no sus [4]. no piaui, familiares de pacientes com suspeita de cancer chamam a fila de regulacao de 'fila da morte' [6]. a fala nao traz numeros, e o fenomeno descrito esta documentado. verdadeiro verdadeiro"
+    "searchTokens": "104 decl-104 flavio bolsonaro flavio saude pacientes estao morrendo na fila do sus a espera de tratamento de cancer. as pessoas estao na fila, morrendo, esperando tratamento de cancer. verdadeiro. fontes mostram filas do sus para tratamento oncologico acima dos prazos legais e casos documentados de pacientes que morreram aguardando tratamento de cancer. a fala e generica e qualitativa, e as fontes a sustentam. auditoria do tcu aponta piora em 2025 na espera por cirurgias oncologicas no sus, com parte relevante dos pacientes atendida alem do prazo legal de 60 dias [2]. levantamento do tjcc indica media de 75 dias ate o inicio do tratamento, acima do previsto em lei [7][3]. especialistas alertam que os atrasos reduzem as chances de cura [3]. ha casos concretos de pacientes que morreram na fila: o bom dia brasil relatou dois pacientes mortos a espera de tratamento de cancer no ceara [1][5]. a agencia brasil noticiou estimativa de mais de 110 mil mortes em 15 anos por falta de acesso a radioterapia no sus [4]. no piaui, familiares de pacientes com suspeita de cancer chamam a fila de regulacao de 'fila da morte' [6]. a fala nao traz numeros, e o fenomeno descrito esta documentado. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-105",
@@ -11499,7 +11603,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "105 decl-105 flavio bolsonaro flavio saude jair bolsonaro foi atendido e salvo pelo sus, na santa casa de juiz de fora, apos sofrer uma facada em 2018. foi o sus que salvou o presidente bolsonaro. verdadeiro. bolsonaro foi operado em 2018 na santa casa de juiz de fora em atendimento pelo sus, e medicos atribuem a esse socorro o salvamento de sua vida. as fontes confirmam que, apos a facada em 6 de setembro de 2018, bolsonaro deu entrada na santa casa de misericordia de juiz de fora com hemorragia interna e pressao baixa e passou por cirurgia de emergencia, com transfusao de cerca de 2 litros de sangue [1][2][7]. a agencia brasil informa que o tratamento oferecido a bolsonaro foi feito pelo sus [4]. metropoles e piaui relatam os valores da tabela do sus pagos pela cirurgia, r$ 367,06 ao cirurgiao e r$ 1.090,80 ao hospital [3][6]. o medico antonio macedo, que assumiu o caso no einstein, afirmou que \"salvaram a vida dele em juiz de fora\" [5]. a transferencia posterior para o hospital privado albert einstein, onde houve outras cirurgias [5], nao altera o ponto central: o atendimento que salvou sua vida foi o do sus. verdadeiro verdadeiro"
+    "searchTokens": "105 decl-105 flavio bolsonaro flavio saude jair bolsonaro foi atendido e salvo pelo sus, na santa casa de juiz de fora, apos sofrer uma facada em 2018. foi o sus que salvou o presidente bolsonaro. verdadeiro. bolsonaro foi operado em 2018 na santa casa de juiz de fora em atendimento pelo sus, e medicos atribuem a esse socorro o salvamento de sua vida. as fontes confirmam que, apos a facada em 6 de setembro de 2018, bolsonaro deu entrada na santa casa de misericordia de juiz de fora com hemorragia interna e pressao baixa e passou por cirurgia de emergencia, com transfusao de cerca de 2 litros de sangue [1][2][7]. a agencia brasil informa que o tratamento oferecido a bolsonaro foi feito pelo sus [4]. metropoles e piaui relatam os valores da tabela do sus pagos pela cirurgia, r$ 367,06 ao cirurgiao e r$ 1.090,80 ao hospital [3][6]. o medico antonio macedo, que assumiu o caso no einstein, afirmou que \"salvaram a vida dele em juiz de fora\" [5]. a transferencia posterior para o hospital privado albert einstein, onde houve outras cirurgias [5], nao altera o ponto central: o atendimento que salvou sua vida foi o do sus. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-106",
@@ -11600,7 +11705,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "106 decl-106 luiz inacio lula da silva lula saude jair bolsonaro imitou pessoas com falta de ar por covid, debochando delas durante a pandemia. ele preferiu debochar, rir, imitar as pessoas. verdadeiro. videos de lives de 18/3/2021 e 6/5/2021 mostram bolsonaro imitando paciente com falta de ar durante a pandemia, segundo g1, folha, uol e o globo. as fontes documentam que bolsonaro imitou pessoas com falta de ar, sintoma grave da covid, em transmissoes ao vivo no auge da pandemia: em 18 de marco e 6 de maio de 2021 [1][3]. os videos voltaram a circular depois que ele negou o episodio no jornal nacional em 2022 [2][5]. a negativa do proprio bolsonaro nao prova nada contra os videos. o g1 tambem relata que, no fim de 2020, ele ridicularizou quem pegou covid com uma piada, dizendo 'estou com covid' e rindo [1]. isso sustenta a acusacao de deboche e riso. ha uma ressalva de contexto: a imitacao de marco foi feita para criticar a orientacao do ex-ministro mandetta de procurar o hospital so com sintomas graves [3][4][5]. esse contexto nao anula o fato de que ele imitou pessoas com falta de ar. ha uma divergencia menor de data: o globo [5] menciona marco de 2020, enquanto outras fontes indicam 2021. ainda assim, o nucleo da fala de lula e confirmado. verdadeiro verdadeiro"
+    "searchTokens": "106 decl-106 luiz inacio lula da silva lula saude jair bolsonaro imitou pessoas com falta de ar por covid, debochando delas durante a pandemia. ele preferiu debochar, rir, imitar as pessoas. verdadeiro. videos de lives de 18/3/2021 e 6/5/2021 mostram bolsonaro imitando paciente com falta de ar durante a pandemia, segundo g1, folha, uol e o globo. as fontes documentam que bolsonaro imitou pessoas com falta de ar, sintoma grave da covid, em transmissoes ao vivo no auge da pandemia: em 18 de marco e 6 de maio de 2021 [1][3]. os videos voltaram a circular depois que ele negou o episodio no jornal nacional em 2022 [2][5]. a negativa do proprio bolsonaro nao prova nada contra os videos. o g1 tambem relata que, no fim de 2020, ele ridicularizou quem pegou covid com uma piada, dizendo 'estou com covid' e rindo [1]. isso sustenta a acusacao de deboche e riso. ha uma ressalva de contexto: a imitacao de marco foi feita para criticar a orientacao do ex-ministro mandetta de procurar o hospital so com sintomas graves [3][4][5]. esse contexto nao anula o fato de que ele imitou pessoas com falta de ar. ha uma divergencia menor de data: o globo [5] menciona marco de 2020, enquanto outras fontes indicam 2021. ainda assim, o nucleo da fala de lula e confirmado. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-107",
@@ -11711,7 +11817,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "107 decl-107 luiz inacio lula da silva lula saude pelo menos metade das mortes por covid no brasil poderiam ter sido evitadas com uma gestao adequada da pandemia pelo governo bolsonaro. poderia ter salvado pelo menos metade das pessoas que morreram, mas nao,. verdadeiro. estimativas citadas nas fontes, como as de hallal (80%), mandetta (metade) e maierovitch (metade), sustentam que ao menos metade das mortes era evitavel, embora sejam estimativas e nao haja consenso. a fala de lula coincide com avaliacoes de especialistas registradas nas fontes. o epidemiologista pedro hallal (ufpel) disse a cpi da pandemia que quatro em cada cinco mortes, cerca de 400 mil das 500 mil registradas ate entao, poderiam ter sido evitadas se o brasil estivesse na media mundial [1][6][3][7]. o ex-ministro luiz henrique mandetta afirmou que 'poderiamos ter evitado metade dos mortos', cerca de 350 mil de mais de 700 mil [2]. claudio maierovitch tambem estimou em ordem de grandeza 'metade dessas mortes evitaveis' [4]. trata-se de estimativas contrafactuais, com metodologias e recortes diferentes, e ha numeros menores. a oxfam, por exemplo, estima cerca de 120 mil mortes evitaveis apenas no primeiro ano [5]. maierovitch reconheceu a dificuldade de quantificar [4], e parlamentares governistas contestaram as estimativas [1][7]. ainda assim, a afirmacao de 'pelo menos metade' esta em linha com as principais estimativas apresentadas. verdadeiro verdadeiro"
+    "searchTokens": "107 decl-107 luiz inacio lula da silva lula saude pelo menos metade das mortes por covid no brasil poderiam ter sido evitadas com uma gestao adequada da pandemia pelo governo bolsonaro. poderia ter salvado pelo menos metade das pessoas que morreram, mas nao,. verdadeiro. estimativas citadas nas fontes, como as de hallal (80%), mandetta (metade) e maierovitch (metade), sustentam que ao menos metade das mortes era evitavel, embora sejam estimativas e nao haja consenso. a fala de lula coincide com avaliacoes de especialistas registradas nas fontes. o epidemiologista pedro hallal (ufpel) disse a cpi da pandemia que quatro em cada cinco mortes, cerca de 400 mil das 500 mil registradas ate entao, poderiam ter sido evitadas se o brasil estivesse na media mundial [1][6][3][7]. o ex-ministro luiz henrique mandetta afirmou que 'poderiamos ter evitado metade dos mortos', cerca de 350 mil de mais de 700 mil [2]. claudio maierovitch tambem estimou em ordem de grandeza 'metade dessas mortes evitaveis' [4]. trata-se de estimativas contrafactuais, com metodologias e recortes diferentes, e ha numeros menores. a oxfam, por exemplo, estima cerca de 120 mil mortes evitaveis apenas no primeiro ano [5]. maierovitch reconheceu a dificuldade de quantificar [4], e parlamentares governistas contestaram as estimativas [1][7]. ainda assim, a afirmacao de 'pelo menos metade' esta em linha com as principais estimativas apresentadas. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-108",
@@ -11822,7 +11929,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "108 decl-108 luiz inacio lula da silva lula saude o ator paulo gustavo morreu por conta da covid. aos olhos. inclusive era pra vir aqui a mae do paulo gustavo, que morreu por conta da covid. verdadeiro. paulo gustavo morreu em 4 de maio de 2021, aos 42 anos, vitima de complicacoes da covid-19, segundo boletim medico e diversos veiculos. as fontes confirmam que o ator paulo gustavo morreu em 4 de maio de 2021, aos 42 anos, por complicacoes da covid-19 [1][2][3][4]. ele estava internado desde 13 de marco no hospital copa star, no rio [1][3]. o ultimo boletim medico, divulgado na conta oficial do ator, informou que ele faleceu 'vitima da covid-19 e suas complicacoes' [3]. a embolia gasosa que agravou seu quadro decorreu de uma fistula bronquio-venosa surgida durante o tratamento da doenca [2][3][6]. a bbc tambem registra a morte por complicacoes da covid-19 e esclarece que a 'comorbidade' citada na epoca (asma) foi mencionada erroneamente [5][7]. verdadeiro verdadeiro"
+    "searchTokens": "108 decl-108 luiz inacio lula da silva lula saude o ator paulo gustavo morreu por conta da covid. aos olhos. inclusive era pra vir aqui a mae do paulo gustavo, que morreu por conta da covid. verdadeiro. paulo gustavo morreu em 4 de maio de 2021, aos 42 anos, vitima de complicacoes da covid-19, segundo boletim medico e diversos veiculos. as fontes confirmam que o ator paulo gustavo morreu em 4 de maio de 2021, aos 42 anos, por complicacoes da covid-19 [1][2][3][4]. ele estava internado desde 13 de marco no hospital copa star, no rio [1][3]. o ultimo boletim medico, divulgado na conta oficial do ator, informou que ele faleceu 'vitima da covid-19 e suas complicacoes' [3]. a embolia gasosa que agravou seu quadro decorreu de uma fistula bronquio-venosa surgida durante o tratamento da doenca [2][3][6]. a bbc tambem registra a morte por complicacoes da covid-19 e esclarece que a 'comorbidade' citada na epoca (asma) foi mencionada erroneamente [5][7]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-109",
@@ -11928,7 +12036,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "109 decl-109 luiz inacio lula da silva lula saude durante o governo de jair bolsonaro, foi dito pelo presidente que quem tomasse vacina contra a covid poderia virar jacare ou ter efeitos como virar gay. porque no governo do pai dele, quem tomasse vacina ia virar gay, ia virar jacare. verdadeiro, com simplificacao: em dez/2020 bolsonaro citou virar jacare e 'homem falar fino' como efeitos da vacina pelos quais a pfizer nao responderia. nao disse literalmente 'virar gay'. as fontes registram que, em 17 de dezembro de 2020, em porto seguro (ba), o entao presidente bolsonaro disse, ao criticar o contrato da pfizer: 'se voce virar um jacare, e problema seu [...] se nascer barba em alguma mulher ou algum homem comecar a falar fino, eles nao tem nada a ver com isso' [1][2][3][4][5]. a parte do jacare e literal. o 'virar gay' e uma interpretacao de lula para a referencia a homens 'falando fino', que tem conotacao estereotipada, mas nao foi dita com essas palavras. bolsonaro tambem apresentou os efeitos como hipoteses que a pfizer nao cobriria, e nao como consequencias certas da vacina. ainda assim, o nucleo da fala de lula procede: o entao presidente associou a vacina a efeitos absurdos como virar jacare, num contexto de desestimulo a vacinacao [6][5]. a parafrase nao altera o ponto central. verdadeiro verdadeiro"
+    "searchTokens": "109 decl-109 luiz inacio lula da silva lula saude durante o governo de jair bolsonaro, foi dito pelo presidente que quem tomasse vacina contra a covid poderia virar jacare ou ter efeitos como virar gay. porque no governo do pai dele, quem tomasse vacina ia virar gay, ia virar jacare. verdadeiro, com simplificacao: em dez/2020 bolsonaro citou virar jacare e 'homem falar fino' como efeitos da vacina pelos quais a pfizer nao responderia. nao disse literalmente 'virar gay'. as fontes registram que, em 17 de dezembro de 2020, em porto seguro (ba), o entao presidente bolsonaro disse, ao criticar o contrato da pfizer: 'se voce virar um jacare, e problema seu [...] se nascer barba em alguma mulher ou algum homem comecar a falar fino, eles nao tem nada a ver com isso' [1][2][3][4][5]. a parte do jacare e literal. o 'virar gay' e uma interpretacao de lula para a referencia a homens 'falando fino', que tem conotacao estereotipada, mas nao foi dita com essas palavras. bolsonaro tambem apresentou os efeitos como hipoteses que a pfizer nao cobriria, e nao como consequencias certas da vacina. ainda assim, o nucleo da fala de lula procede: o entao presidente associou a vacina a efeitos absurdos como virar jacare, num contexto de desestimulo a vacinacao [6][5]. a parafrase nao altera o ponto central. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-110",
@@ -11944,7 +12053,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "…A Constituição de 88, que criou o SUS.",
     "theFact": "Afirmação apurada: Lula votou contra a Constituição de 1988, que criou o SUS.. Verdadeiro. Lula, então líder do PT na Constituinte, votou contra a redação final da Constituição de 1988, embora tenha assinado o texto depois. O trecho original é fragmentado, mas a afirmação atribuída a Flávio Bolsonaro, de que Lula votou contra a Constituição de 1988, é confirmada pelas fontes. Em 22 de setembro de 1988, o deputado constituinte Lula anunciou em plenário que o PT votaria contra a redação final, porque o texto mantinha intactas as estruturas de poder [1][2]. Em 2008, o próprio Lula reconheceu que o PT votou contra o texto final, por discordar da regulamentação posterior de direitos sociais, e fez um mea-culpa [3][4]. Outras fontes confirmam o voto contrário do partido [6][5]. Há uma ressalva que não muda o núcleo: Lula e a bancada assinaram a Constituição [1][3][4]. As fontes não tratam da criação do SUS pela Carta, mas esse ponto é apenas contextual.",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em saúde e análise de relatórios probatórios.",
@@ -12041,7 +12150,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "110 decl-110 flavio bolsonaro flavio saude lula votou contra a constituicao de 1988, que criou o sus. …a constituicao de 88, que criou o sus. verdadeiro. lula, entao lider do pt na constituinte, votou contra a redacao final da constituicao de 1988, embora tenha assinado o texto depois. o trecho original e fragmentado, mas a afirmacao atribuida a flavio bolsonaro, de que lula votou contra a constituicao de 1988, e confirmada pelas fontes. em 22 de setembro de 1988, o deputado constituinte lula anunciou em plenario que o pt votaria contra a redacao final, porque o texto mantinha intactas as estruturas de poder [1][2]. em 2008, o proprio lula reconheceu que o pt votou contra o texto final, por discordar da regulamentacao posterior de direitos sociais, e fez um mea-culpa [3][4]. outras fontes confirmam o voto contrario do partido [6][5]. ha uma ressalva que nao muda o nucleo: lula e a bancada assinaram a constituicao [1][3][4]. as fontes nao tratam da criacao do sus pela carta, mas esse ponto e apenas contextual. verdadeiro verdadeiro"
+    "searchTokens": "110 decl-110 flavio bolsonaro flavio saude lula votou contra a constituicao de 1988, que criou o sus. …a constituicao de 88, que criou o sus. verdadeiro. lula, entao lider do pt na constituinte, votou contra a redacao final da constituicao de 1988, embora tenha assinado o texto depois. o trecho original e fragmentado, mas a afirmacao atribuida a flavio bolsonaro, de que lula votou contra a constituicao de 1988, e confirmada pelas fontes. em 22 de setembro de 1988, o deputado constituinte lula anunciou em plenario que o pt votaria contra a redacao final, porque o texto mantinha intactas as estruturas de poder [1][2]. em 2008, o proprio lula reconheceu que o pt votou contra o texto final, por discordar da regulamentacao posterior de direitos sociais, e fez um mea-culpa [3][4]. outras fontes confirmam o voto contrario do partido [6][5]. ha uma ressalva que nao muda o nucleo: lula e a bancada assinaram a constituicao [1][3][4]. as fontes nao tratam da criacao do sus pela carta, mas esse ponto e apenas contextual. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-111",
@@ -12057,7 +12167,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "Está faltando até dipirona na Unidade Básica de Saúde.",
     "theFact": "Afirmação apurada: Há falta de dipirona nas Unidades Básicas de Saúde do SUS.. Há registros de falta de dipirona em UBSs de várias cidades (Sorocaba, Campo Grande, Rio), embora as fontes mostrem casos locais, sem dimensionar a amplitude nacional atual. O candidato afirma, em linguagem coloquial, que falta até dipirona em Unidades Básicas de Saúde. As fontes confirmam episódios desse tipo. Em Sorocaba, a Câmara aprovou requerimento sobre a falta de dipirona 500mg em várias UBSs [1]. Em Campo Grande, várias UBSs enfrentavam desabastecimento de dipirona, e a secretaria admitiu falta de pelo menos 15% dos medicamentos [4]. No Rio, o G1 registrou falta de remédios em postos da prefeitura, com relato de que 'nem dipirona tem' [2]. Há também registros anteriores de escassez nacional de dipirona injetável, apontados pelo Conasems [3][5]. Ressalva: as fontes tratam de situações municipais e algumas são antigas (2022 e 2025). Elas não medem quão generalizada é a falta na data da fala. Ainda assim, o núcleo da afirmação, de que há falta de dipirona em UBSs, é sustentado.",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em saúde e análise de relatórios probatórios.",
@@ -12149,7 +12259,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "111 decl-111 flavio bolsonaro flavio saude ha falta de dipirona nas unidades basicas de saude do sus. esta faltando ate dipirona na unidade basica de saude. ha registros de falta de dipirona em ubss de varias cidades (sorocaba, campo grande, rio), embora as fontes mostrem casos locais, sem dimensionar a amplitude nacional atual. o candidato afirma, em linguagem coloquial, que falta ate dipirona em unidades basicas de saude. as fontes confirmam episodios desse tipo. em sorocaba, a camara aprovou requerimento sobre a falta de dipirona 500mg em varias ubss [1]. em campo grande, varias ubss enfrentavam desabastecimento de dipirona, e a secretaria admitiu falta de pelo menos 15% dos medicamentos [4]. no rio, o g1 registrou falta de remedios em postos da prefeitura, com relato de que 'nem dipirona tem' [2]. ha tambem registros anteriores de escassez nacional de dipirona injetavel, apontados pelo conasems [3][5]. ressalva: as fontes tratam de situacoes municipais e algumas sao antigas (2022 e 2025). elas nao medem quao generalizada e a falta na data da fala. ainda assim, o nucleo da afirmacao, de que ha falta de dipirona em ubss, e sustentado. verdadeiro verdadeiro"
+    "searchTokens": "111 decl-111 flavio bolsonaro flavio saude ha falta de dipirona nas unidades basicas de saude do sus. esta faltando ate dipirona na unidade basica de saude. ha registros de falta de dipirona em ubss de varias cidades (sorocaba, campo grande, rio), embora as fontes mostrem casos locais, sem dimensionar a amplitude nacional atual. o candidato afirma, em linguagem coloquial, que falta ate dipirona em unidades basicas de saude. as fontes confirmam episodios desse tipo. em sorocaba, a camara aprovou requerimento sobre a falta de dipirona 500mg em varias ubss [1]. em campo grande, varias ubss enfrentavam desabastecimento de dipirona, e a secretaria admitiu falta de pelo menos 15% dos medicamentos [4]. no rio, o g1 registrou falta de remedios em postos da prefeitura, com relato de que 'nem dipirona tem' [2]. ha tambem registros anteriores de escassez nacional de dipirona injetavel, apontados pelo conasems [3][5]. ressalva: as fontes tratam de situacoes municipais e algumas sao antigas (2022 e 2025). elas nao medem quao generalizada e a falta na data da fala. ainda assim, o nucleo da afirmacao, de que ha falta de dipirona em ubss, e sustentado. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-112",
@@ -12250,7 +12361,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "112 decl-112 flavio bolsonaro flavio tributos e previdencia o governo lula criou ou aumentou mais de trinta impostos. …o tesouro vai ser nos impostos que voce criou, foram mais de 30 que voce criou. levantamentos apontam de 30 a 37 medidas de criacao ou aumento de tributos no governo lula, mas a maioria sao aumentos, reoneracoes e fim de beneficios, nao mais de 30 impostos novos criados. no trecho, flavio diz que lula 'criou' mais de 30 impostos. as fontes confirmam uma contagem acima de 30, mas ela se refere a medidas que criaram ou aumentaram tributos. o ranking dos politicos e a exame contam 37 medidas [1][3], a veja e o grupo ceres contam 36 medidas efetivas [4][5], e o estadao chegou a 30 aumentos ou criacoes [2]. ha divergencia metodologica: outros levantamentos apontam entre 25 e 27 iniciativas [1]. essas listas trazem sobretudo reoneracoes, como pis/cofins e combustiveis, elevacoes de aliquotas de iof e imposto de importacao, fim de beneficios e mudancas de regras [1][2][4]. os tributos de fato novos sao poucos, como o imposto seletivo e o iva da reforma tributaria [3][5]. a direcao da fala, de muitos aumentos de carga, procede, e a carga tributaria subiu a recorde [1]. porem dizer que foram criados mais de 30 impostos leva o eleitor a uma conclusao incorreta sobre a natureza dessas medidas. enganoso enganoso"
+    "searchTokens": "112 decl-112 flavio bolsonaro flavio tributos e previdencia o governo lula criou ou aumentou mais de trinta impostos. …o tesouro vai ser nos impostos que voce criou, foram mais de 30 que voce criou. levantamentos apontam de 30 a 37 medidas de criacao ou aumento de tributos no governo lula, mas a maioria sao aumentos, reoneracoes e fim de beneficios, nao mais de 30 impostos novos criados. no trecho, flavio diz que lula 'criou' mais de 30 impostos. as fontes confirmam uma contagem acima de 30, mas ela se refere a medidas que criaram ou aumentaram tributos. o ranking dos politicos e a exame contam 37 medidas [1][3], a veja e o grupo ceres contam 36 medidas efetivas [4][5], e o estadao chegou a 30 aumentos ou criacoes [2]. ha divergencia metodologica: outros levantamentos apontam entre 25 e 27 iniciativas [1]. essas listas trazem sobretudo reoneracoes, como pis/cofins e combustiveis, elevacoes de aliquotas de iof e imposto de importacao, fim de beneficios e mudancas de regras [1][2][4]. os tributos de fato novos sao poucos, como o imposto seletivo e o iva da reforma tributaria [3][5]. a direcao da fala, de muitos aumentos de carga, procede, e a carga tributaria subiu a recorde [1]. porem dizer que foram criados mais de 30 impostos leva o eleitor a uma conclusao incorreta sobre a natureza dessas medidas. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-113",
@@ -12359,7 +12471,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "113 decl-113 luiz inacio lula da silva lula economia a economia brasileira nao crescia acima de 3% ao ano desde 2010, quando lula deixou a presidencia, e voltou a crescer acima disso no seu atual governo. perceberam que a economia nao crescia acima de 3% desde que eu deixei a presidencia em 2010? e ela voltou a crescer. falso. segundo o ibge, citado pela lupa, o pib cresceu acima de 3% em 2011 (3,9%) e em 2021 (4,8%), e chegou a 3,0% em 2013 e 2022, ou seja, depois de 2010 e antes da volta de lula. lula afirmou que a economia nao crescia acima de 3% desde que ele deixou a presidencia, em 2010. a checagem da lupa [1], baseada na serie do ibge, mostra o contrario: o pib cresceu 3,9% em 2011 (dilma) e 4,8% em 2021 (bolsonaro), e 3,0% em 2013 e em 2022. e verdade que o crescimento de 2010 foi de 7,5% [1] e que o pib subiu 3,2% em 2023 e 3,4% em 2024 [4][2]. mesmo assim, a afirmacao central de que o pais nao passou de 3% entre 2011 e 2022 e falsa. a secom argumenta que a alta de 2021 foi inflada pela queda de 2020 e que a media do periodo foi inferior a 1% [1]. esse argumento nao muda o fato de que o crescimento superou 3%. alem disso, o pib de 2025 cresceu 2,3% [3], abaixo do patamar citado. falso falso"
+    "searchTokens": "113 decl-113 luiz inacio lula da silva lula economia a economia brasileira nao crescia acima de 3% ao ano desde 2010, quando lula deixou a presidencia, e voltou a crescer acima disso no seu atual governo. perceberam que a economia nao crescia acima de 3% desde que eu deixei a presidencia em 2010? e ela voltou a crescer. falso. segundo o ibge, citado pela lupa, o pib cresceu acima de 3% em 2011 (3,9%) e em 2021 (4,8%), e chegou a 3,0% em 2013 e 2022, ou seja, depois de 2010 e antes da volta de lula. lula afirmou que a economia nao crescia acima de 3% desde que ele deixou a presidencia, em 2010. a checagem da lupa [1], baseada na serie do ibge, mostra o contrario: o pib cresceu 3,9% em 2011 (dilma) e 4,8% em 2021 (bolsonaro), e 3,0% em 2013 e em 2022. e verdade que o crescimento de 2010 foi de 7,5% [1] e que o pib subiu 3,2% em 2023 e 3,4% em 2024 [4][2]. mesmo assim, a afirmacao central de que o pais nao passou de 3% entre 2011 e 2022 e falsa. a secom argumenta que a alta de 2021 foi inflada pela queda de 2020 e que a media do periodo foi inferior a 1% [1]. esse argumento nao muda o fato de que o crescimento superou 3%. alem disso, o pib de 2025 cresceu 2,3% [3], abaixo do patamar citado. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-114",
@@ -12460,7 +12573,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "114 decl-114 luiz inacio lula da silva lula economia o governo lula concedeu mais credito do que qualquer outro governo na historia do brasil. …ninguem, em nenhum momento da historia, fez mais credito do que nos fizemos. em valores nominais o credito bate recordes (saldo de r$ 22 tri, credito livre a 18% do pib, recorde da serie), mas isso reflete o crescimento continuo da economia; nao prova que o governo lula 'fez' mais credito que qualquer outro. as fontes mostram que o credito esta em niveis recordes: o saldo do credito ampliado chegou a r$ 22,0 trilhoes (164,9% do pib) [1], e o credito livre atingiu 18% do pib pela primeira vez na serie iniciada em 2007, com concessoes crescendo 11,2% em 12 meses [2]. ha tambem expansao do credito a estados e municipios, com alta de 142% sobre 2022 [4], e politicas agressivas de credito via bancos publicos nos governos lula e dilma, com cerca de r$ 500 bilhoes injetados entre 2008 e 2014 [3][5]. porem, saldos de credito tendem a crescer ano a ano com a economia e a inflacao, de modo que recordes nominais sao esperados em qualquer governo recente. alem disso, boa parte do credito e concedida pelo mercado privado, e nao pelo governo. o proprio estadao atribui a melhora do credito as familias a fatores de mercado, e nao a politica do governo [2]. nenhuma fonte compara de forma direta os governos para sustentar que nenhum outro 'fez mais credito'. o dado de recorde e verdadeiro, mas o enquadramento atribui ao governo um merito que as fontes nao demonstram. enganoso enganoso"
+    "searchTokens": "114 decl-114 luiz inacio lula da silva lula economia o governo lula concedeu mais credito do que qualquer outro governo na historia do brasil. …ninguem, em nenhum momento da historia, fez mais credito do que nos fizemos. em valores nominais o credito bate recordes (saldo de r$ 22 tri, credito livre a 18% do pib, recorde da serie), mas isso reflete o crescimento continuo da economia; nao prova que o governo lula 'fez' mais credito que qualquer outro. as fontes mostram que o credito esta em niveis recordes: o saldo do credito ampliado chegou a r$ 22,0 trilhoes (164,9% do pib) [1], e o credito livre atingiu 18% do pib pela primeira vez na serie iniciada em 2007, com concessoes crescendo 11,2% em 12 meses [2]. ha tambem expansao do credito a estados e municipios, com alta de 142% sobre 2022 [4], e politicas agressivas de credito via bancos publicos nos governos lula e dilma, com cerca de r$ 500 bilhoes injetados entre 2008 e 2014 [3][5]. porem, saldos de credito tendem a crescer ano a ano com a economia e a inflacao, de modo que recordes nominais sao esperados em qualquer governo recente. alem disso, boa parte do credito e concedida pelo mercado privado, e nao pelo governo. o proprio estadao atribui a melhora do credito as familias a fatores de mercado, e nao a politica do governo [2]. nenhuma fonte compara de forma direta os governos para sustentar que nenhum outro 'fez mais credito'. o dado de recorde e verdadeiro, mas o enquadramento atribui ao governo um merito que as fontes nao demonstram. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-115",
@@ -12566,7 +12680,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "115 decl-115 luiz inacio lula da silva lula emprego e renda o salario minimo teve aumento real no governo lula por meio de politica de valorizacao vinculada ao crescimento do pib. …e por isso que o salario minimo cresceu no nosso governo, porque quando o pib cresce, e o pib e a producao da riqueza de toda a sociedade brasileira, antigamente ficava so. verdadeiro. o salario minimo teve ganho real nos governos lula, e a politica sancionada em 2023 retomou o reajuste pela inflacao (inpc) mais o crescimento do pib de dois anos antes. o trecho afirma que o minimo cresceu no governo lula porque o reajuste acompanha o crescimento do pib. em 2023, lula sancionou a volta da politica de valorizacao vigente ate 2015: correcao pelo inpc do ano anterior mais a variacao positiva do pib de dois anos antes [2]. o dieese registra aumentos reais de 1,41% em 2023, 4,69% em janeiro de 2024 e 2,61% em 2025 [3], e cita a retomada dos ganhos reais a partir de 2023 [5]. segundo o g1, os dois primeiros mandatos de lula somaram 62,4% de ganho acima da inflacao [4]. o valor nominal subiu para r$ 1.621 em 2026 [1]. ressalva: no primeiro mandato (2003-2006) ainda nao havia regra institucionalizada ligada ao pib, embora tenha havido forte aumento real [6]. a fala, porem, e generica e se sustenta. verdadeiro verdadeiro"
+    "searchTokens": "115 decl-115 luiz inacio lula da silva lula emprego e renda o salario minimo teve aumento real no governo lula por meio de politica de valorizacao vinculada ao crescimento do pib. …e por isso que o salario minimo cresceu no nosso governo, porque quando o pib cresce, e o pib e a producao da riqueza de toda a sociedade brasileira, antigamente ficava so. verdadeiro. o salario minimo teve ganho real nos governos lula, e a politica sancionada em 2023 retomou o reajuste pela inflacao (inpc) mais o crescimento do pib de dois anos antes. o trecho afirma que o minimo cresceu no governo lula porque o reajuste acompanha o crescimento do pib. em 2023, lula sancionou a volta da politica de valorizacao vigente ate 2015: correcao pelo inpc do ano anterior mais a variacao positiva do pib de dois anos antes [2]. o dieese registra aumentos reais de 1,41% em 2023, 4,69% em janeiro de 2024 e 2,61% em 2025 [3], e cita a retomada dos ganhos reais a partir de 2023 [5]. segundo o g1, os dois primeiros mandatos de lula somaram 62,4% de ganho acima da inflacao [4]. o valor nominal subiu para r$ 1.621 em 2026 [1]. ressalva: no primeiro mandato (2003-2006) ainda nao havia regra institucionalizada ligada ao pib, embora tenha havido forte aumento real [6]. a fala, porem, e generica e se sustenta. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-116",
@@ -12667,7 +12782,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "116 decl-116 luiz inacio lula da silva lula economia o governo lula concedeu recentemente perdao de quase r$ 15 bilhoes em divida ativa com o governo, beneficiando cerca de 4,5 milhoes de devedores. como nos fizemos anteontem, um perdao de quase 15 bilhoes, de 4 milhoes de mei que estavam devendo uma divida ativa com o governo que as pessoas nao iam pagar mais. verdadeiro. lula sancionou em 21/10 lei que perdoa cerca de r$ 15 bilhoes (r$ 15,5 bi segundo o governo) em dividas federais de meis; o numero de beneficiados varia entre 3,6 e 4 milhoes conforme a fonte. o trecho diz que 'anteontem' (fala em 23/10) houve perdao de quase r$ 15 bilhoes para 4 milhoes de meis com divida ativa. a sancao ocorreu em 21/10 [2][3][4]. a folha fala em cerca de r$ 15 bilhoes [2] e o governo em mais de r$ 15,5 bilhoes [1]; o g1 citava r$ 12,6 bilhoes no anuncio do projeto [5], valor anterior a aprovacao. sobre o numero de beneficiados, as fontes divergem: o ministerio cita mais de 3,6 milhoes de meis [1], enquanto lula falou em cerca de 4 milhoes [2][3][4]. a diferenca fica perto do limite de tolerancia e nao muda o ponto central. dois detalhes merecem registro: o perdao so passa a valer em 1º/1/2027 e exige que o mei mantenha o das em dia por seis meses [1][4]; alem disso, alcanca tambem debitos nao inscritos em divida ativa [1][2]. a 'afirmacao' atribui ao candidato 4,5 milhoes de devedores, mas o trecho original diz 4 milhoes, e vale o trecho. verdadeiro verdadeiro"
+    "searchTokens": "116 decl-116 luiz inacio lula da silva lula economia o governo lula concedeu recentemente perdao de quase r$ 15 bilhoes em divida ativa com o governo, beneficiando cerca de 4,5 milhoes de devedores. como nos fizemos anteontem, um perdao de quase 15 bilhoes, de 4 milhoes de mei que estavam devendo uma divida ativa com o governo que as pessoas nao iam pagar mais. verdadeiro. lula sancionou em 21/10 lei que perdoa cerca de r$ 15 bilhoes (r$ 15,5 bi segundo o governo) em dividas federais de meis; o numero de beneficiados varia entre 3,6 e 4 milhoes conforme a fonte. o trecho diz que 'anteontem' (fala em 23/10) houve perdao de quase r$ 15 bilhoes para 4 milhoes de meis com divida ativa. a sancao ocorreu em 21/10 [2][3][4]. a folha fala em cerca de r$ 15 bilhoes [2] e o governo em mais de r$ 15,5 bilhoes [1]; o g1 citava r$ 12,6 bilhoes no anuncio do projeto [5], valor anterior a aprovacao. sobre o numero de beneficiados, as fontes divergem: o ministerio cita mais de 3,6 milhoes de meis [1], enquanto lula falou em cerca de 4 milhoes [2][3][4]. a diferenca fica perto do limite de tolerancia e nao muda o ponto central. dois detalhes merecem registro: o perdao so passa a valer em 1º/1/2027 e exige que o mei mantenha o das em dia por seis meses [1][4]; alem disso, alcanca tambem debitos nao inscritos em divida ativa [1][2]. a 'afirmacao' atribui ao candidato 4,5 milhoes de devedores, mas o trecho original diz 4 milhoes, e vale o trecho. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-117",
@@ -12758,7 +12874,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "117 decl-117 luiz inacio lula da silva lula economia lula afirma que o governo dele ja enviou ao senado uma proposta para renegociar/comprar dividas de devedores, semelhante a proposta de flavio bolsonaro. primeira, quando ele fala que vai comprar a divida dos devedores, ele esta copiando uma coisa que eu ja mandei pro senado. verdadeiro. o governo lula editou a mp do desenrola 3.0, que preve a compra de carteiras de dividas pelo governo, proposta semelhante a de flavio. a mp tramita no congresso, nao apenas no senado. o globo [1] informa que tanto flavio quanto lula prometem 'comprar dividas'. o desenrola 3.0 ja foi lancado por medida provisoria [2] e preve que o governo compre carteiras de dividas de bancos e outros credores com desconto minimo de 90% e repasse a deducao aos devedores. segundo [1], a proposta de flavio tambem consiste em comprar dividas, com o acrescimo de uma carencia. o nucleo da fala de lula, de que a ideia de comprar dividas ja tinha sido proposta pelo seu governo antes da promessa do adversario, e sustentado pelas fontes. ha uma imprecisao: uma mp e enviada ao congresso nacional e nao especificamente ao senado, e ja produz efeitos desde a edicao. isso nao muda o ponto central. houve ainda propostas do governo enviadas ao senado sobre renegociacao de dividas rurais [3], mas nesse caso nao se trata de compra de dividas. verdadeiro verdadeiro"
+    "searchTokens": "117 decl-117 luiz inacio lula da silva lula economia lula afirma que o governo dele ja enviou ao senado uma proposta para renegociar/comprar dividas de devedores, semelhante a proposta de flavio bolsonaro. primeira, quando ele fala que vai comprar a divida dos devedores, ele esta copiando uma coisa que eu ja mandei pro senado. verdadeiro. o governo lula editou a mp do desenrola 3.0, que preve a compra de carteiras de dividas pelo governo, proposta semelhante a de flavio. a mp tramita no congresso, nao apenas no senado. o globo [1] informa que tanto flavio quanto lula prometem 'comprar dividas'. o desenrola 3.0 ja foi lancado por medida provisoria [2] e preve que o governo compre carteiras de dividas de bancos e outros credores com desconto minimo de 90% e repasse a deducao aos devedores. segundo [1], a proposta de flavio tambem consiste em comprar dividas, com o acrescimo de uma carencia. o nucleo da fala de lula, de que a ideia de comprar dividas ja tinha sido proposta pelo seu governo antes da promessa do adversario, e sustentado pelas fontes. ha uma imprecisao: uma mp e enviada ao congresso nacional e nao especificamente ao senado, e ja produz efeitos desde a edicao. isso nao muda o ponto central. houve ainda propostas do governo enviadas ao senado sobre renegociacao de dividas rurais [3], mas nesse caso nao se trata de compra de dividas. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-118",
@@ -12849,7 +12966,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "118 decl-118 flavio bolsonaro flavio economia a queda de dois pontos na taxa de juro futuro apos o primeiro turno abriu mais de 200 bilhoes de reais de espaco no orcamento. ou seja, ja abriu de cara no orcamento mais de. exagerado. os juros futuros cairam apos o 1º turno, mas cerca de 1 a 1,4 ponto, nao 2, e a economia estimada e de r$ 65,8 bi, bem abaixo dos mais de r$ 200 bi citados. o trecho original esta truncado, mas o contexto indica que o candidato atribui a queda dos juros futuros apos o 1º turno um espaco de mais de r$ 200 bilhoes no orcamento. as fontes confirmam a direcao: os dis recuaram fortemente apos o resultado. segundo [1] e [3], os contratos longos cairam de 126 a 140 pontos-base e o di para janeiro de 2028 caiu 84 pontos-base. segundo [2], os vencimentos de ate quatro anos cairam perto de 1 ponto percentual. nenhuma fonte registra queda de 2 pontos. quanto ao impacto fiscal, [2] usa a estimativa do banco central sobre o efeito de 1 ponto a menos na selic e projeta uma economia de r$ 65,8 bilhoes com a divida, e so se o nivel de juros se mantiver. o numero citado pelo candidato e cerca de tres vezes maior. alem disso, trata-se de economia potencial e gradual com o refinanciamento da divida, nao de espaco ja aberto 'de cara' no orcamento. a direcao esta correta, mas a magnitude esta materialmente inflada. exagerado enganoso"
+    "searchTokens": "118 decl-118 flavio bolsonaro flavio economia a queda de dois pontos na taxa de juro futuro apos o primeiro turno abriu mais de 200 bilhoes de reais de espaco no orcamento. ou seja, ja abriu de cara no orcamento mais de. exagerado. os juros futuros cairam apos o 1º turno, mas cerca de 1 a 1,4 ponto, nao 2, e a economia estimada e de r$ 65,8 bi, bem abaixo dos mais de r$ 200 bi citados. o trecho original esta truncado, mas o contexto indica que o candidato atribui a queda dos juros futuros apos o 1º turno um espaco de mais de r$ 200 bilhoes no orcamento. as fontes confirmam a direcao: os dis recuaram fortemente apos o resultado. segundo [1] e [3], os contratos longos cairam de 126 a 140 pontos-base e o di para janeiro de 2028 caiu 84 pontos-base. segundo [2], os vencimentos de ate quatro anos cairam perto de 1 ponto percentual. nenhuma fonte registra queda de 2 pontos. quanto ao impacto fiscal, [2] usa a estimativa do banco central sobre o efeito de 1 ponto a menos na selic e projeta uma economia de r$ 65,8 bilhoes com a divida, e so se o nivel de juros se mantiver. o numero citado pelo candidato e cerca de tres vezes maior. alem disso, trata-se de economia potencial e gradual com o refinanciamento da divida, nao de espaco ja aberto 'de cara' no orcamento. a direcao esta correta, mas a magnitude esta materialmente inflada. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-119",
@@ -12950,7 +13068,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "119 decl-119 flavio bolsonaro flavio economia apos a passagem do primeiro para o segundo turno, com flavio bolsonaro na frente, a taxa de juro futuro caiu dois pontos percentuais. e assim que passou do primeiro pro segundo turno, com o flavio bolsonaro na frente, a taxa de juro futuro ja caiu 2%. os juros futuros cairam de fato apos flavio terminar o 1º turno a frente, mas a queda foi de cerca de 1 ponto percentual nos contratos longos, e nao de 2. nos vencimentos curtos, o recuo foi bem menor. as fontes confirmam que os juros futuros tiveram forte queda em 5 de outubro, apos flavio bolsonaro ficar a frente de lula no primeiro turno [1][3][5]. a queda, porem, variou conforme o vencimento. no di para janeiro de 2027, a taxa passou de 13,53% para 13,415%, um recuo de cerca de 0,1 ponto. no di para janeiro de 2031, caiu de 13,99% para 12,655%, cerca de 1,3 ponto [3]. a cnn registrou quedas proximas de 100 pontos-base nos contratos mais longos [5]. ja os numeros de 4% a 9% citados pela veja sao variacoes relativas da taxa, nao pontos percentuais [1]. o aos fatos avaliou que o candidato generaliza um movimento que depende do vencimento e confunde queda em pontos percentuais com variacao percentual [2]. em outra ocasiao, o proprio flavio falou em queda de 1% [4]. a direcao da afirmacao esta correta, mas a magnitude de 2 pontos esta inflada. exagerado enganoso"
+    "searchTokens": "119 decl-119 flavio bolsonaro flavio economia apos a passagem do primeiro para o segundo turno, com flavio bolsonaro na frente, a taxa de juro futuro caiu dois pontos percentuais. e assim que passou do primeiro pro segundo turno, com o flavio bolsonaro na frente, a taxa de juro futuro ja caiu 2%. os juros futuros cairam de fato apos flavio terminar o 1º turno a frente, mas a queda foi de cerca de 1 ponto percentual nos contratos longos, e nao de 2. nos vencimentos curtos, o recuo foi bem menor. as fontes confirmam que os juros futuros tiveram forte queda em 5 de outubro, apos flavio bolsonaro ficar a frente de lula no primeiro turno [1][3][5]. a queda, porem, variou conforme o vencimento. no di para janeiro de 2027, a taxa passou de 13,53% para 13,415%, um recuo de cerca de 0,1 ponto. no di para janeiro de 2031, caiu de 13,99% para 12,655%, cerca de 1,3 ponto [3]. a cnn registrou quedas proximas de 100 pontos-base nos contratos mais longos [5]. ja os numeros de 4% a 9% citados pela veja sao variacoes relativas da taxa, nao pontos percentuais [1]. o aos fatos avaliou que o candidato generaliza um movimento que depende do vencimento e confunde queda em pontos percentuais com variacao percentual [2]. em outra ocasiao, o proprio flavio falou em queda de 1% [4]. a direcao da afirmacao esta correta, mas a magnitude de 2 pontos esta inflada. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-120",
@@ -12966,7 +13085,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-fake",
     "verdictBadge": "FALSO",
-    "normalizedVerdict": "falso",
+    "normalizedVerdict": "enganoso",
     "quote": "…Lá em outubro de 2022, nas eleições anteriores, a previsão de taxa de juros se o presidente Bolsonaro continuasse no governo, era que hoje nós tivéssemos uma taxa em torno de 7%.",
     "theFact": "Afirmação apurada: Em outubro de 2022, a previsão do mercado era que a taxa básica de juros (Selic) estaria hoje em torno de 7% caso Bolsonaro continuasse no governo.. Falso. As fontes mostram que em outubro de 2022 o mercado projetava Selic de 11,25% no fim de 2023 com Bolsonaro reeleito, e nenhuma fonte aponta projeção de cerca de 7% para hoje. O candidato diz que, em outubro de 2022, o mercado previa Selic em torno de 7% hoje caso Bolsonaro continuasse no governo. As fontes da época mostram outros números. O boletim Focus de 24/10/2022 projetava Selic de 13,75% no fim de 2022 e de 11,25% no fim de 2023 [2]. O estudo da Levante, de 23/10/2022, estimava que com Bolsonaro reeleito a Selic cairia dos 13,75% para 11,25% no fim de 2023, contra 12,40% (ou 12,50%, no título) com Lula [1]. O BOCOM BBM também projetava 11,25% para o fim de 2023 [3]. A diferença projetada entre os cenários era de cerca de 1 ponto percentual, longe de levar a juros de 7%. Nenhuma fonte recuperada traz projeção para 2026 condicionada à reeleição, mas as projeções disponíveis da época contradizem o patamar de cerca de 7% sugerido e a ideia de uma diferença tão grande entre os candidatos.",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em economia e análise de relatórios probatórios.",
@@ -13054,7 +13173,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "120 decl-120 flavio bolsonaro flavio economia em outubro de 2022, a previsao do mercado era que a taxa basica de juros (selic) estaria hoje em torno de 7% caso bolsonaro continuasse no governo. …la em outubro de 2022, nas eleicoes anteriores, a previsao de taxa de juros se o presidente bolsonaro continuasse no governo, era que hoje nos tivessemos uma taxa em torno de 7%. falso. as fontes mostram que em outubro de 2022 o mercado projetava selic de 11,25% no fim de 2023 com bolsonaro reeleito, e nenhuma fonte aponta projecao de cerca de 7% para hoje. o candidato diz que, em outubro de 2022, o mercado previa selic em torno de 7% hoje caso bolsonaro continuasse no governo. as fontes da epoca mostram outros numeros. o boletim focus de 24/10/2022 projetava selic de 13,75% no fim de 2022 e de 11,25% no fim de 2023 [2]. o estudo da levante, de 23/10/2022, estimava que com bolsonaro reeleito a selic cairia dos 13,75% para 11,25% no fim de 2023, contra 12,40% (ou 12,50%, no titulo) com lula [1]. o bocom bbm tambem projetava 11,25% para o fim de 2023 [3]. a diferenca projetada entre os cenarios era de cerca de 1 ponto percentual, longe de levar a juros de 7%. nenhuma fonte recuperada traz projecao para 2026 condicionada a reeleicao, mas as projecoes disponiveis da epoca contradizem o patamar de cerca de 7% sugerido e a ideia de uma diferenca tao grande entre os candidatos. falso falso"
+    "searchTokens": "120 decl-120 flavio bolsonaro flavio economia em outubro de 2022, a previsao do mercado era que a taxa basica de juros (selic) estaria hoje em torno de 7% caso bolsonaro continuasse no governo. …la em outubro de 2022, nas eleicoes anteriores, a previsao de taxa de juros se o presidente bolsonaro continuasse no governo, era que hoje nos tivessemos uma taxa em torno de 7%. falso. as fontes mostram que em outubro de 2022 o mercado projetava selic de 11,25% no fim de 2023 com bolsonaro reeleito, e nenhuma fonte aponta projecao de cerca de 7% para hoje. o candidato diz que, em outubro de 2022, o mercado previa selic em torno de 7% hoje caso bolsonaro continuasse no governo. as fontes da epoca mostram outros numeros. o boletim focus de 24/10/2022 projetava selic de 13,75% no fim de 2022 e de 11,25% no fim de 2023 [2]. o estudo da levante, de 23/10/2022, estimava que com bolsonaro reeleito a selic cairia dos 13,75% para 11,25% no fim de 2023, contra 12,40% (ou 12,50%, no titulo) com lula [1]. o bocom bbm tambem projetava 11,25% para o fim de 2023 [3]. a diferenca projetada entre os cenarios era de cerca de 1 ponto percentual, longe de levar a juros de 7%. nenhuma fonte recuperada traz projecao para 2026 condicionada a reeleicao, mas as projecoes disponiveis da epoca contradizem o patamar de cerca de 7% sugerido e a ideia de uma diferenca tao grande entre os candidatos. falso falso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-121",
@@ -13168,7 +13288,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "121 decl-121 flavio bolsonaro flavio economia a divida publica deixada pelo atual governo federal chega a 11 trilhoes de reais. o atual governo esta deixando uma divida de r$ 11 trilhoes pra voce, trabalhador, pagar. verdadeiro. a divida bruta do governo geral chegou a r$ 11,1 trilhoes (82,9% do pib) em agosto. ressalva: o valor e um estoque acumulado ao longo de decadas e inclui estados e municipios. segundo dados do banco central divulgados em setembro, a divida bruta do governo geral (dbgg) atingiu r$ 11,1 trilhoes em agosto, o equivalente a 82,9% do pib [1][2][3]. e o maior percentual desde outubro de 2020 [2]. o numero citado pelo candidato esta, portanto, correto. a gazeta do povo informa que, no atual mandato, a divida cresceu 11,2% desde janeiro de 2023, depois de ter caido para 71,7% do pib ao fim do governo anterior [2]. isso sustenta a ideia de que o estoque herdado pelo proximo governo e desse tamanho. ha duas ressalvas. primeiro, os r$ 11 trilhoes sao o estoque total acumulado ao longo de decadas, e nao uma divida criada inteiramente pela gestao atual. segundo, a dbgg abrange uniao, estados e municipios [5][2]; a divida publica federal, em sentido estrito, era de r$ 9,268 trilhoes em junho [4]. nenhuma dessas ressalvas altera o nucleo da fala, que e o tamanho da divida deixada. verdadeiro verdadeiro"
+    "searchTokens": "121 decl-121 flavio bolsonaro flavio economia a divida publica deixada pelo atual governo federal chega a 11 trilhoes de reais. o atual governo esta deixando uma divida de r$ 11 trilhoes pra voce, trabalhador, pagar. verdadeiro. a divida bruta do governo geral chegou a r$ 11,1 trilhoes (82,9% do pib) em agosto. ressalva: o valor e um estoque acumulado ao longo de decadas e inclui estados e municipios. segundo dados do banco central divulgados em setembro, a divida bruta do governo geral (dbgg) atingiu r$ 11,1 trilhoes em agosto, o equivalente a 82,9% do pib [1][2][3]. e o maior percentual desde outubro de 2020 [2]. o numero citado pelo candidato esta, portanto, correto. a gazeta do povo informa que, no atual mandato, a divida cresceu 11,2% desde janeiro de 2023, depois de ter caido para 71,7% do pib ao fim do governo anterior [2]. isso sustenta a ideia de que o estoque herdado pelo proximo governo e desse tamanho. ha duas ressalvas. primeiro, os r$ 11 trilhoes sao o estoque total acumulado ao longo de decadas, e nao uma divida criada inteiramente pela gestao atual. segundo, a dbgg abrange uniao, estados e municipios [5][2]; a divida publica federal, em sentido estrito, era de r$ 9,268 trilhoes em junho [4]. nenhuma dessas ressalvas altera o nucleo da fala, que e o tamanho da divida deixada. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-122",
@@ -13274,7 +13395,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "122 decl-122 flavio bolsonaro flavio seguranca publica um estudo do fbi afirma que regioes com muitos casos de maus-tratos a animais tambem tem grande potencial de pessoas mais violentas. tem um estudo do fbi que diz que na regiao onde ha grandes maus-tratos de animais, ha tambem um grande potencial de pessoas mais violentas. em linhas gerais correto: o fbi reconhece e divulga pesquisas que ligam maus-tratos a animais a violencia contra pessoas. a ligacao, porem, e apontada no nivel do individuo, nao da 'regiao', como sugere a fala. o boletim de aplicacao da lei do fbi (leb) afirma que pesquisas mostram um vinculo bem documentado entre crueldade animal e violencia contra humanos. segundo o texto, a crueldade animal funciona como crime preditivo ou concomitante a violencia contra parceiros, criancas e idosos [2][6]. fontes brasileiras atribuem ao fbi a constatacao de que quem pratica crueldade animal tende a cometer outros crimes violentos [1][5]. uma delas relata que o fbi usa autores de maus-tratos residentes na area como ponto de partida em investigacoes de crimes seriais [5]. o fbi tambem passou a registrar a crueldade animal no nibrs, citando estudos que a apontam como precursora de crimes mais graves [3]. os dados mostram interesse do orgao nesse vinculo desde os anos 1970 [4]. ha imprecisoes: nao se trata de um unico 'estudo do fbi', e sim de pesquisas que o orgao divulga e adota. o vinculo tambem e descrito no nivel do individuo, e nao como correlacao geografica por regiao. essas imprecisoes nao alteram o ponto central da fala, a associacao entre maus-tratos a animais e violencia contra pessoas. verdadeiro verdadeiro"
+    "searchTokens": "122 decl-122 flavio bolsonaro flavio seguranca publica um estudo do fbi afirma que regioes com muitos casos de maus-tratos a animais tambem tem grande potencial de pessoas mais violentas. tem um estudo do fbi que diz que na regiao onde ha grandes maus-tratos de animais, ha tambem um grande potencial de pessoas mais violentas. em linhas gerais correto: o fbi reconhece e divulga pesquisas que ligam maus-tratos a animais a violencia contra pessoas. a ligacao, porem, e apontada no nivel do individuo, nao da 'regiao', como sugere a fala. o boletim de aplicacao da lei do fbi (leb) afirma que pesquisas mostram um vinculo bem documentado entre crueldade animal e violencia contra humanos. segundo o texto, a crueldade animal funciona como crime preditivo ou concomitante a violencia contra parceiros, criancas e idosos [2][6]. fontes brasileiras atribuem ao fbi a constatacao de que quem pratica crueldade animal tende a cometer outros crimes violentos [1][5]. uma delas relata que o fbi usa autores de maus-tratos residentes na area como ponto de partida em investigacoes de crimes seriais [5]. o fbi tambem passou a registrar a crueldade animal no nibrs, citando estudos que a apontam como precursora de crimes mais graves [3]. os dados mostram interesse do orgao nesse vinculo desde os anos 1970 [4]. ha imprecisoes: nao se trata de um unico 'estudo do fbi', e sim de pesquisas que o orgao divulga e adota. o vinculo tambem e descrito no nivel do individuo, e nao como correlacao geografica por regiao. essas imprecisoes nao alteram o ponto central da fala, a associacao entre maus-tratos a animais e violencia contra pessoas. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-123",
@@ -13380,7 +13502,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "123 decl-123 flavio bolsonaro flavio meio ambiente o governo bolsonaro sancionou lei que aumentou as penas para maus-tratos de animais (caes e gatos). nos sancionamos a lei sancao pra aumentar as penas para os maus-tratos de animais. verdadeiro. bolsonaro sancionou em 29/9/2020 a lei 14.064 (\"lei sansao\"), que elevou a pena por maus-tratos a caes e gatos para reclusao de 2 a 5 anos. o aumento vale so para caes e gatos, nao para todos os animais. a lei 14.064/2020, assinada por jair bolsonaro em 29 de setembro de 2020, alterou o art. 32 da lei 9.605/1998. para maus-tratos a cao ou gato, a pena passou a ser de reclusao de 2 a 5 anos, multa e proibicao da guarda [1][6]. antes, a pena era de detencao de tres meses a um ano, mais multa [2][3][4][5]. o proprio bolsonaro chamou a norma de \"lei sansao\", em homenagem a um cachorro mutilado em minas gerais [3]. ha uma ressalva: o aumento vale apenas para caes e gatos, e a fala generica sobre \"animais\" amplia um pouco o alcance. isso nao muda o nucleo da afirmacao. vale lembrar tambem que o projeto (pl 1.095/2019) e de autoria do deputado fred costa e foi aprovado pelo congresso; ao presidente coube a sancao, que e o que o candidato afirmou [3][4]. verdadeiro verdadeiro"
+    "searchTokens": "123 decl-123 flavio bolsonaro flavio meio ambiente o governo bolsonaro sancionou lei que aumentou as penas para maus-tratos de animais (caes e gatos). nos sancionamos a lei sancao pra aumentar as penas para os maus-tratos de animais. verdadeiro. bolsonaro sancionou em 29/9/2020 a lei 14.064 (\"lei sansao\"), que elevou a pena por maus-tratos a caes e gatos para reclusao de 2 a 5 anos. o aumento vale so para caes e gatos, nao para todos os animais. a lei 14.064/2020, assinada por jair bolsonaro em 29 de setembro de 2020, alterou o art. 32 da lei 9.605/1998. para maus-tratos a cao ou gato, a pena passou a ser de reclusao de 2 a 5 anos, multa e proibicao da guarda [1][6]. antes, a pena era de detencao de tres meses a um ano, mais multa [2][3][4][5]. o proprio bolsonaro chamou a norma de \"lei sansao\", em homenagem a um cachorro mutilado em minas gerais [3]. ha uma ressalva: o aumento vale apenas para caes e gatos, e a fala generica sobre \"animais\" amplia um pouco o alcance. isso nao muda o nucleo da afirmacao. vale lembrar tambem que o projeto (pl 1.095/2019) e de autoria do deputado fred costa e foi aprovado pelo congresso; ao presidente coube a sancao, que e o que o candidato afirmou [3][4]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-124",
@@ -13481,7 +13604,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "124 decl-124 luiz inacio lula da silva lula educacao o brasil so teve sua primeira universidade cerca de 420 anos depois do descobrimento. porque esse pais e um pais que peca. o mundo inteiro teve universidade primeiro que o brasil. o brasil so foi ter a primeira universidade 420 anos depois da descoberta. verdadeiro. a primeira universidade duradoura do brasil, a universidade do rio de janeiro, foi criada em 1920, cerca de 420 anos apos 1500. ja havia faculdades isoladas desde 1808 e universidades efemeras antes disso. o arquivo nacional registra a criacao da universidade do rio de janeiro pelo decreto 14.343, de 7 de setembro de 1920 [1]. fontes academicas a apontam como a primeira universidade do pais [3] ou como a primeira a assumir essa denominacao de forma duradoura [2]. de 1500 a 1920 sao 420 anos, como disse lula. as fontes tambem mostram ressalvas. desde 1808 existiam escolas superiores isoladas, como as de medicina da bahia e do rio, e a faculdade de direito de sao paulo, de 1827 [1][5][4]. houve ainda iniciativas universitarias anteriores, como a escola universitaria livre de manaus, de 1909, que tiveram vida efemera [4][2]. lula, porem, falou em universidade, nao em ensino superior, e a forma universitaria so se consolidou em 1920 [1][2]. a frase 'o mundo inteiro teve universidade primeiro' e retorica, mas condiz com o atraso descrito, ja que na colonia a elite precisava estudar em coimbra [1][4]. o nucleo da fala se sustenta. verdadeiro verdadeiro"
+    "searchTokens": "124 decl-124 luiz inacio lula da silva lula educacao o brasil so teve sua primeira universidade cerca de 420 anos depois do descobrimento. porque esse pais e um pais que peca. o mundo inteiro teve universidade primeiro que o brasil. o brasil so foi ter a primeira universidade 420 anos depois da descoberta. verdadeiro. a primeira universidade duradoura do brasil, a universidade do rio de janeiro, foi criada em 1920, cerca de 420 anos apos 1500. ja havia faculdades isoladas desde 1808 e universidades efemeras antes disso. o arquivo nacional registra a criacao da universidade do rio de janeiro pelo decreto 14.343, de 7 de setembro de 1920 [1]. fontes academicas a apontam como a primeira universidade do pais [3] ou como a primeira a assumir essa denominacao de forma duradoura [2]. de 1500 a 1920 sao 420 anos, como disse lula. as fontes tambem mostram ressalvas. desde 1808 existiam escolas superiores isoladas, como as de medicina da bahia e do rio, e a faculdade de direito de sao paulo, de 1827 [1][5][4]. houve ainda iniciativas universitarias anteriores, como a escola universitaria livre de manaus, de 1909, que tiveram vida efemera [4][2]. lula, porem, falou em universidade, nao em ensino superior, e a forma universitaria so se consolidou em 1920 [1][2]. a frase 'o mundo inteiro teve universidade primeiro' e retorica, mas condiz com o atraso descrito, ja que na colonia a elite precisava estudar em coimbra [1][4]. o nucleo da fala se sustenta. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-125",
@@ -13587,7 +13711,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "125 decl-125 flavio bolsonaro flavio seguranca publica durante o governo lula, o numero de mulheres vitimas de agressao fisica (violencia domestica) aumentou continuamente. e no seu governo, a quantidade de mulheres espancadas so aumenta? enganoso: as agressoes domesticas cresceram em 2023 e 2024 no governo lula, mas o anuario 2026 registra a primeira reducao desde a pandemia, o que desmente o \"so aumenta\". a alta, alem disso, vinha de antes de 2023. as fontes confirmam aumento da violencia domestica nos primeiros anos do governo lula. a gazeta do povo aponta alta em 2023 e continuidade depois [2], e o anuario 2025 cita o avanco da violencia domestica [1]. a agencia brasil relata crescimento de agressoes contra mulheres em 2024 [6]. porem o anuario 2026 informa que, \"pela primeira vez desde a pandemia, houve reducao dos registros\" [5]. isso contradiz a ideia de que a quantidade \"so aumenta\". o trecho de [5] nao diz exatamente qual indicador caiu, o que limita essa conclusao. o enquadramento tambem omite que a tendencia de alta e anterior ao governo lula. ja em 2022 as agressoes em contexto domestico subiram 2,9% [3], e as notificacoes cresceram de 2014 a 2023, sobretudo apos 2020 [4]. atribuir uma alta continua e exclusiva ao atual governo leva, portanto, a uma conclusao equivocada. enganoso enganoso"
+    "searchTokens": "125 decl-125 flavio bolsonaro flavio seguranca publica durante o governo lula, o numero de mulheres vitimas de agressao fisica (violencia domestica) aumentou continuamente. e no seu governo, a quantidade de mulheres espancadas so aumenta? enganoso: as agressoes domesticas cresceram em 2023 e 2024 no governo lula, mas o anuario 2026 registra a primeira reducao desde a pandemia, o que desmente o \"so aumenta\". a alta, alem disso, vinha de antes de 2023. as fontes confirmam aumento da violencia domestica nos primeiros anos do governo lula. a gazeta do povo aponta alta em 2023 e continuidade depois [2], e o anuario 2025 cita o avanco da violencia domestica [1]. a agencia brasil relata crescimento de agressoes contra mulheres em 2024 [6]. porem o anuario 2026 informa que, \"pela primeira vez desde a pandemia, houve reducao dos registros\" [5]. isso contradiz a ideia de que a quantidade \"so aumenta\". o trecho de [5] nao diz exatamente qual indicador caiu, o que limita essa conclusao. o enquadramento tambem omite que a tendencia de alta e anterior ao governo lula. ja em 2022 as agressoes em contexto domestico subiram 2,9% [3], e as notificacoes cresceram de 2014 a 2023, sobretudo apos 2020 [4]. atribuir uma alta continua e exclusiva ao atual governo leva, portanto, a uma conclusao equivocada. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-126",
@@ -13683,7 +13808,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "126 decl-126 flavio bolsonaro flavio seguranca publica o governo lula registrou recorde de assassinatos de mulheres (feminicidios). recordes de mulheres assassinadas. verdadeiro. fontes mostram recorde de feminicidios em 2025 (1.571 pelo anuario; 1.470+ pelo mjsp), maior numero desde a tipificacao em 2015, sob o governo lula. o anuario brasileiro de seguranca publica divulgado em julho de 2026 registrou 1.571 feminicidios em 2025, alta de 4% sobre 2024 e o maior numero desde a criacao do tipo penal em 2015 [1]. dados do ministerio da justica tambem apontam recorde em 2025, com ao menos 1.470 casos, superando 2024 [2][3]. a serie anual mostra alta continua de 2019 a 2025, com os tres anos do governo lula acima dos anteriores [4]. a fala 'recordes de mulheres assassinadas' e precisa quanto aos feminicidios. ha ressalvas: as mortes violentas em geral cairam ao menor patamar desde 2012 [1], e parte da alta dos feminicidios pode refletir melhora na classificacao e no registro, nao necessariamente mais crimes [4]. ainda assim, o fato central, recorde de registros de feminicidio, e confirmado pelas fontes. verdadeiro verdadeiro"
+    "searchTokens": "126 decl-126 flavio bolsonaro flavio seguranca publica o governo lula registrou recorde de assassinatos de mulheres (feminicidios). recordes de mulheres assassinadas. verdadeiro. fontes mostram recorde de feminicidios em 2025 (1.571 pelo anuario; 1.470+ pelo mjsp), maior numero desde a tipificacao em 2015, sob o governo lula. o anuario brasileiro de seguranca publica divulgado em julho de 2026 registrou 1.571 feminicidios em 2025, alta de 4% sobre 2024 e o maior numero desde a criacao do tipo penal em 2015 [1]. dados do ministerio da justica tambem apontam recorde em 2025, com ao menos 1.470 casos, superando 2024 [2][3]. a serie anual mostra alta continua de 2019 a 2025, com os tres anos do governo lula acima dos anteriores [4]. a fala 'recordes de mulheres assassinadas' e precisa quanto aos feminicidios. ha ressalvas: as mortes violentas em geral cairam ao menor patamar desde 2012 [1], e parte da alta dos feminicidios pode refletir melhora na classificacao e no registro, nao necessariamente mais crimes [4]. ainda assim, o fato central, recorde de registros de feminicidio, e confirmado pelas fontes. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-127",
@@ -13779,7 +13905,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "127 decl-127 flavio bolsonaro flavio programas sociais pouco antes da eleicao, o governo lula concedeu aos beneficiarios do bolsa familia um reajuste equivalente a cerca de tres reais por dia. faltando pouquinho tempo pra eleicao, ele lembrou de voce e te deu um reajuste de r$ 3 por dia. verdadeiro. o reajuste de 15,04% foi anunciado a 17 dias do 1º turno; o piso subiu r$ 91 e a media r$ 102 por mes, cerca de r$ 3 por dia por familia. as fontes confirmam que o governo lula anunciou em 17/9/2026, a 17 dias do primeiro turno, um reajuste de 15,04% do bolsa familia [1][2][3]. o valor minimo passou de r$ 600 para r$ 691 (+r$ 91/mes) e o beneficio medio de r$ 675 para r$ 777 (+r$ 102/mes) [1][3][4]. dividido por 30 dias, isso equivale a cerca de r$ 3 a r$ 3,40 por dia por familia, o que bate com a conta do candidato. os novos valores comecaram a ser pagos em 19/10, pouco antes do segundo turno [1][3]. o governo justifica a medida como reposicao da inflacao (inpc) acumulada desde 2023, prevista na lei 14.601/2023 [1][2]. a fala nao nega esse motivo; ela apenas destaca o momento e o valor diario, ambos corretos. verdadeiro verdadeiro"
+    "searchTokens": "127 decl-127 flavio bolsonaro flavio programas sociais pouco antes da eleicao, o governo lula concedeu aos beneficiarios do bolsa familia um reajuste equivalente a cerca de tres reais por dia. faltando pouquinho tempo pra eleicao, ele lembrou de voce e te deu um reajuste de r$ 3 por dia. verdadeiro. o reajuste de 15,04% foi anunciado a 17 dias do 1º turno; o piso subiu r$ 91 e a media r$ 102 por mes, cerca de r$ 3 por dia por familia. as fontes confirmam que o governo lula anunciou em 17/9/2026, a 17 dias do primeiro turno, um reajuste de 15,04% do bolsa familia [1][2][3]. o valor minimo passou de r$ 600 para r$ 691 (+r$ 91/mes) e o beneficio medio de r$ 675 para r$ 777 (+r$ 102/mes) [1][3][4]. dividido por 30 dias, isso equivale a cerca de r$ 3 a r$ 3,40 por dia por familia, o que bate com a conta do candidato. os novos valores comecaram a ser pagos em 19/10, pouco antes do segundo turno [1][3]. o governo justifica a medida como reposicao da inflacao (inpc) acumulada desde 2023, prevista na lei 14.601/2023 [1][2]. a fala nao nega esse motivo; ela apenas destaca o momento e o valor diario, ambos corretos. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-128",
@@ -13890,7 +14017,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "128 decl-128 flavio bolsonaro flavio programas sociais o brasil tinha 199 mil moradores de rua inscritos no cadunico e esse numero quase dobrou durante o governo lula. se o brasil tinha 199 mil moradores de rua recebendo o cadunico e agora quase dobrou isso. verdadeiro. segundo dados do cadunico citados pelas fontes, os registros de pessoas em situacao de rua passaram de 198,7 mil (dez/2022) para 392,4 mil (jun/2026), alta de 97,4%. as fontes [1], [2], [3] e [4] relatam que o cadunico registrava 198,7 mil pessoas em situacao de rua em dezembro de 2022, ultimo mes antes da posse de lula, e 392,4 mil em junho de 2026. e um aumento de 97,4%, o que sustenta o \"quase dobrou\" dito pelo candidato. a bbc [5] aponta 236,4 mil inscritos em 2022, mas provavelmente usa outro recorte, como o total acumulado no ano em relatorio do mdhc, sem mudar a tendencia. os dados de familias em [6] tambem indicam crescimento ao longo de 2022. uma ressalva relevante: o numero mede pessoas inscritas no cadastro, nao a populacao de rua efetiva. parte da alta pode refletir maior cadastramento, ja que o governo admitia subnotificacao [5][7]. as fontes, porem, nao quantificam esse efeito, e a afirmacao foi feita sobre o cadunico, o que mantem sua precisao. verdadeiro verdadeiro"
+    "searchTokens": "128 decl-128 flavio bolsonaro flavio programas sociais o brasil tinha 199 mil moradores de rua inscritos no cadunico e esse numero quase dobrou durante o governo lula. se o brasil tinha 199 mil moradores de rua recebendo o cadunico e agora quase dobrou isso. verdadeiro. segundo dados do cadunico citados pelas fontes, os registros de pessoas em situacao de rua passaram de 198,7 mil (dez/2022) para 392,4 mil (jun/2026), alta de 97,4%. as fontes [1], [2], [3] e [4] relatam que o cadunico registrava 198,7 mil pessoas em situacao de rua em dezembro de 2022, ultimo mes antes da posse de lula, e 392,4 mil em junho de 2026. e um aumento de 97,4%, o que sustenta o \"quase dobrou\" dito pelo candidato. a bbc [5] aponta 236,4 mil inscritos em 2022, mas provavelmente usa outro recorte, como o total acumulado no ano em relatorio do mdhc, sem mudar a tendencia. os dados de familias em [6] tambem indicam crescimento ao longo de 2022. uma ressalva relevante: o numero mede pessoas inscritas no cadastro, nao a populacao de rua efetiva. parte da alta pode refletir maior cadastramento, ja que o governo admitia subnotificacao [5][7]. as fontes, porem, nao quantificam esse efeito, e a afirmacao foi feita sobre o cadunico, o que mantem sua precisao. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-129",
@@ -13996,7 +14124,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "129 decl-129 flavio bolsonaro flavio programas sociais o numero de pessoas em situacao de rua dobrou durante o governo lula. agora eu quero saber se voce vai pedir desculpas dos moradores de rua que dobraram durante o seu governo. que combate a pobreza e esse que voce faz? verdadeiro, com ressalva: o cadunico registrou alta de 97,4% (198,7 mil para 392,4 mil) entre dez/2022 e jun/2026. sao registros administrativos, nao um censo, e parte da alta pode refletir ampliacao do cadastro. as fontes [1], [2], [3] e [4] relatam que o numero de pessoas registradas em situacao de rua no cadunico passou de 198,7 mil em dezembro de 2022 para 392,4 mil em junho de 2026, alta de 97,4%. isso equivale a praticamente dobrar, como disse o candidato. a ressalva de [4] e que esses dados sao registros administrativos, nao um censo, e que o crescimento pode refletir tanto o aumento dessa populacao quanto a ampliacao do cadastramento. o ipea estimava 281 mil pessoas em situacao de rua ja em 2022 [5][6], acima dos 198,7 mil registrados no cadunico. isso indica que parte da alta pode vir da subnotificacao anterior. ainda assim, [1] e [4] apontam que os registros continuaram acelerando, o que enfraquece a explicacao de que tudo se deve a cadastros represados na pandemia. o nucleo da fala corresponde aos dados disponiveis. verdadeiro verdadeiro"
+    "searchTokens": "129 decl-129 flavio bolsonaro flavio programas sociais o numero de pessoas em situacao de rua dobrou durante o governo lula. agora eu quero saber se voce vai pedir desculpas dos moradores de rua que dobraram durante o seu governo. que combate a pobreza e esse que voce faz? verdadeiro, com ressalva: o cadunico registrou alta de 97,4% (198,7 mil para 392,4 mil) entre dez/2022 e jun/2026. sao registros administrativos, nao um censo, e parte da alta pode refletir ampliacao do cadastro. as fontes [1], [2], [3] e [4] relatam que o numero de pessoas registradas em situacao de rua no cadunico passou de 198,7 mil em dezembro de 2022 para 392,4 mil em junho de 2026, alta de 97,4%. isso equivale a praticamente dobrar, como disse o candidato. a ressalva de [4] e que esses dados sao registros administrativos, nao um censo, e que o crescimento pode refletir tanto o aumento dessa populacao quanto a ampliacao do cadastramento. o ipea estimava 281 mil pessoas em situacao de rua ja em 2022 [5][6], acima dos 198,7 mil registrados no cadunico. isso indica que parte da alta pode vir da subnotificacao anterior. ainda assim, [1] e [4] apontam que os registros continuaram acelerando, o que enfraquece a explicacao de que tudo se deve a cadastros represados na pandemia. o nucleo da fala corresponde aos dados disponiveis. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-130",
@@ -14104,7 +14233,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "130 decl-130 luiz inacio lula da silva lula programas sociais bolsonaro, quando era parlamentar, chamou o programa bolsa familia de \"bolsa farelo\". um senador da republica chamou o bolsa familia de bolsa farelo. verdadeiro. as fontes mostram que o senador flavio bolsonaro chamou o bolsa familia de \"bolsa-farelo\" em posts que apagou recentemente. jair bolsonaro tambem usou o termo, mas como deputado, nao como senador. o trecho original fala de \"um senador da republica\", e nao de jair bolsonaro, como sugere a afirmacao resumida. reportagens de outubro de 2026 informam que o senador flavio bolsonaro apagou posts antigos em que chamava o bolsa familia de \"bolsa-farelo\" [1][2]. um dos posts citados se refere ao programa estadual \"renda melhor\", da epoca em que flavio era deputado na alerj [1]. ainda assim, as manchetes atribuem a ele o uso do termo para o bolsa familia. o apelido foi criado por jair bolsonaro em um tweet de 2010, quando ele era deputado federal [3][4][5]. portanto, a frase de lula e precisa se o alvo e flavio, que hoje e senador. a ressalva e que, a epoca dos posts, ele ainda nao exercia o mandato de senador. verdadeiro verdadeiro"
+    "searchTokens": "130 decl-130 luiz inacio lula da silva lula programas sociais bolsonaro, quando era parlamentar, chamou o programa bolsa familia de \"bolsa farelo\". um senador da republica chamou o bolsa familia de bolsa farelo. verdadeiro. as fontes mostram que o senador flavio bolsonaro chamou o bolsa familia de \"bolsa-farelo\" em posts que apagou recentemente. jair bolsonaro tambem usou o termo, mas como deputado, nao como senador. o trecho original fala de \"um senador da republica\", e nao de jair bolsonaro, como sugere a afirmacao resumida. reportagens de outubro de 2026 informam que o senador flavio bolsonaro apagou posts antigos em que chamava o bolsa familia de \"bolsa-farelo\" [1][2]. um dos posts citados se refere ao programa estadual \"renda melhor\", da epoca em que flavio era deputado na alerj [1]. ainda assim, as manchetes atribuem a ele o uso do termo para o bolsa familia. o apelido foi criado por jair bolsonaro em um tweet de 2010, quando ele era deputado federal [3][4][5]. portanto, a frase de lula e precisa se o alvo e flavio, que hoje e senador. a ressalva e que, a epoca dos posts, ele ainda nao exercia o mandato de senador. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-131",
@@ -14212,7 +14342,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "131 decl-131 luiz inacio lula da silva lula programas sociais flavio bolsonaro, como deputado estadual no rio de janeiro, votou contra o aumento da licenca-maternidade quando teve a chance de votar. ou seja, quando ele teve a chance de votar, ele nao votou. verdadeiro. em 2009, na alerj, flavio bolsonaro foi o unico deputado a votar contra a pec que ampliava de quatro para seis meses a licenca-maternidade das servidoras estaduais. a fala \"ele nao votou\" significa que nao votou a favor. o trecho \"quando ele teve a chance de votar, ele nao votou\" refere-se, pelo contexto, a nao ter votado a favor da ampliacao da licenca-maternidade. as fontes confirmam o fato. a pec 04/2007, de marcelo freixo, estendia de quatro para seis meses a licenca das servidoras estaduais do rio. ela foi aprovada em primeira discussao, em 31 de marco de 2009, por 45 votos a 1, e o unico voto contrario foi de flavio bolsonaro (pp) [2][4][5]. em 14 de abril, ele discursou na tribuna justificando a posicao contraria e citou o risco de discriminacao de mulheres na iniciativa privada [1][3]. o estadao registra que ele foi o unico a votar contra, com 54 votos favoraveis na votacao final [1]. o g1 classificou como #fato a fala de lula sobre o tema [5]. uma ressalva: a ampliacao valia apenas para servidoras publicas, nao para todas as trabalhadoras. verdadeiro verdadeiro"
+    "searchTokens": "131 decl-131 luiz inacio lula da silva lula programas sociais flavio bolsonaro, como deputado estadual no rio de janeiro, votou contra o aumento da licenca-maternidade quando teve a chance de votar. ou seja, quando ele teve a chance de votar, ele nao votou. verdadeiro. em 2009, na alerj, flavio bolsonaro foi o unico deputado a votar contra a pec que ampliava de quatro para seis meses a licenca-maternidade das servidoras estaduais. a fala \"ele nao votou\" significa que nao votou a favor. o trecho \"quando ele teve a chance de votar, ele nao votou\" refere-se, pelo contexto, a nao ter votado a favor da ampliacao da licenca-maternidade. as fontes confirmam o fato. a pec 04/2007, de marcelo freixo, estendia de quatro para seis meses a licenca das servidoras estaduais do rio. ela foi aprovada em primeira discussao, em 31 de marco de 2009, por 45 votos a 1, e o unico voto contrario foi de flavio bolsonaro (pp) [2][4][5]. em 14 de abril, ele discursou na tribuna justificando a posicao contraria e citou o risco de discriminacao de mulheres na iniciativa privada [1][3]. o estadao registra que ele foi o unico a votar contra, com 54 votos favoraveis na votacao final [1]. o g1 classificou como #fato a fala de lula sobre o tema [5]. uma ressalva: a ampliacao valia apenas para servidoras publicas, nao para todas as trabalhadoras. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-132",
@@ -14310,7 +14441,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "132 decl-132 flavio bolsonaro flavio programas sociais flavio bolsonaro admite que, como deputado estadual do rio de janeiro, votou contra o aumento da licenca-maternidade. …isso faz bastante tempo e na epoca eu votei acreditando que isso poderia dificultar que as mulheres conseguissem arrumar emprego. e eu estava errado. verdadeiro. flavio, entao deputado estadual pelo pp, foi o unico a votar contra a ampliacao de 4 para 6 meses da licenca-maternidade das servidoras do rio em 2009, usando o argumento que ele agora repete. o trecho reconhece um voto antigo contra a ampliacao da licenca-maternidade e diz que a justificativa era o risco de dificultar o emprego das mulheres. as fontes confirmam o voto: em 2009, flavio foi o unico deputado da alerj contra a proposta que ampliava de quatro para seis meses (120 para 180 dias) a licenca das servidoras estaduais [1][2][3]. segundo [3], na primeira votacao, em 31 de marco, o placar foi de 45 a 1; em 14 de abril, a proposta foi aprovada por 54 a 1. a justificativa tambem confere: na tribuna, ele disse que empresarios evitariam contratar mulheres jovens [1][2]. uma ressalva: a proposta valia so para o servico publico, e o argumento sobre a iniciativa privada nao era o objeto da votacao [1]. a data e a motivacao descritas no trecho batem com as fontes. verdadeiro verdadeiro"
+    "searchTokens": "132 decl-132 flavio bolsonaro flavio programas sociais flavio bolsonaro admite que, como deputado estadual do rio de janeiro, votou contra o aumento da licenca-maternidade. …isso faz bastante tempo e na epoca eu votei acreditando que isso poderia dificultar que as mulheres conseguissem arrumar emprego. e eu estava errado. verdadeiro. flavio, entao deputado estadual pelo pp, foi o unico a votar contra a ampliacao de 4 para 6 meses da licenca-maternidade das servidoras do rio em 2009, usando o argumento que ele agora repete. o trecho reconhece um voto antigo contra a ampliacao da licenca-maternidade e diz que a justificativa era o risco de dificultar o emprego das mulheres. as fontes confirmam o voto: em 2009, flavio foi o unico deputado da alerj contra a proposta que ampliava de quatro para seis meses (120 para 180 dias) a licenca das servidoras estaduais [1][2][3]. segundo [3], na primeira votacao, em 31 de marco, o placar foi de 45 a 1; em 14 de abril, a proposta foi aprovada por 54 a 1. a justificativa tambem confere: na tribuna, ele disse que empresarios evitariam contratar mulheres jovens [1][2]. uma ressalva: a proposta valia so para o servico publico, e o argumento sobre a iniciativa privada nao era o objeto da votacao [1]. a data e a motivacao descritas no trecho batem com as fontes. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-133",
@@ -14418,7 +14550,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "133 decl-133 luiz inacio lula da silva lula programas sociais o adversario de lula foi o unico deputado do rio de janeiro a votar contra o aumento da licenca-maternidade. que ele foi o unico deputado estadual do rio de janeiro a votar contra o aumento da. verdadeiro. em 2009, flavio bolsonaro foi o unico deputado estadual da alerj a votar contra a ampliacao de 4 para 6 meses da licenca-maternidade de servidoras do rio (54 a 1). as fontes confirmam que, em 2009, o entao deputado estadual flavio bolsonaro (a epoca no pp) foi o unico a votar contra a proposta de emenda que estendia de 120 para 180 dias a licenca-maternidade das servidoras publicas estaduais do rio [1][2][3][4]. na primeira votacao foram 45 votos a favor e 1 contra; na votacao final, 54 a 1 [3][4]. o aos fatos classificou a acusacao de lula como verdadeira [4]. em plenario, flavio justificou o voto dizendo temer discriminacao contra mulheres caso a medida chegasse a iniciativa privada [1]. o beneficio valia apenas para servidoras publicas, nao para todas as trabalhadoras, mas o trecho de lula nao diz o contrario. em outra fala, lula mencionou '49 deputados', numero que difere do placar registrado (54 a 1), mas isso nao altera o nucleo da afirmacao [5][4]. verdadeiro verdadeiro"
+    "searchTokens": "133 decl-133 luiz inacio lula da silva lula programas sociais o adversario de lula foi o unico deputado do rio de janeiro a votar contra o aumento da licenca-maternidade. que ele foi o unico deputado estadual do rio de janeiro a votar contra o aumento da. verdadeiro. em 2009, flavio bolsonaro foi o unico deputado estadual da alerj a votar contra a ampliacao de 4 para 6 meses da licenca-maternidade de servidoras do rio (54 a 1). as fontes confirmam que, em 2009, o entao deputado estadual flavio bolsonaro (a epoca no pp) foi o unico a votar contra a proposta de emenda que estendia de 120 para 180 dias a licenca-maternidade das servidoras publicas estaduais do rio [1][2][3][4]. na primeira votacao foram 45 votos a favor e 1 contra; na votacao final, 54 a 1 [3][4]. o aos fatos classificou a acusacao de lula como verdadeira [4]. em plenario, flavio justificou o voto dizendo temer discriminacao contra mulheres caso a medida chegasse a iniciativa privada [1]. o beneficio valia apenas para servidoras publicas, nao para todas as trabalhadoras, mas o trecho de lula nao diz o contrario. em outra fala, lula mencionou '49 deputados', numero que difere do placar registrado (54 a 1), mas isso nao altera o nucleo da afirmacao [5][4]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-134",
@@ -14542,7 +14675,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "134 decl-134 flavio bolsonaro flavio programas sociais o governo bolsonaro elevou o beneficio do bolsa familia (auxilio brasil) para no minimo 600 reais, ante media de cerca de 190 reais nos governos lula. antigamente, no governo dele, o bolsa familia era r$ 75, r$ 120 que voce recebia. em media, era r$ 190. o presidente bolsonaro passou pra, no minimo, r$ 600. bolsonaro de fato elevou o auxilio brasil para r$ 600 em 2022, mas o valor era temporario, so ate dezembro de 2022, e o piso permanente era r$ 400. a media de r$ 190 vigorava em 2019, ja sob bolsonaro. e correto que o auxilio brasil passou de r$ 400 para r$ 600 em 2022, ano eleitoral [1][2][7]. a fala, porem, omite pontos que mudam a conclusao. o piso permanente sancionado por bolsonaro era de r$ 400 [5]. a pec previa os r$ 600 so ate o fim de 2022, e a proposta de orcamento para 2023 enviada pelo governo bolsonaro previa r$ 400 [3]. a media de cerca de r$ 190 nao era exclusiva dos governos lula: era de r$ 187,91 em janeiro de 2019 e de r$ 191,86 ate marco de 2020, ja no governo bolsonaro [1][3]. o piso de r$ 600 foi mantido de forma permanente no relancamento do bolsa familia em 2023 [4][6]. a lupa classificou falas semelhantes do candidato como exageradas [3]. os numeros citados estao certos, mas o enquadramento leva o eleitor a concluir algo falso: que bolsonaro instituiu um minimo permanente de r$ 600 e que a media de r$ 190 era marca do governo lula. enganoso enganoso"
+    "searchTokens": "134 decl-134 flavio bolsonaro flavio programas sociais o governo bolsonaro elevou o beneficio do bolsa familia (auxilio brasil) para no minimo 600 reais, ante media de cerca de 190 reais nos governos lula. antigamente, no governo dele, o bolsa familia era r$ 75, r$ 120 que voce recebia. em media, era r$ 190. o presidente bolsonaro passou pra, no minimo, r$ 600. bolsonaro de fato elevou o auxilio brasil para r$ 600 em 2022, mas o valor era temporario, so ate dezembro de 2022, e o piso permanente era r$ 400. a media de r$ 190 vigorava em 2019, ja sob bolsonaro. e correto que o auxilio brasil passou de r$ 400 para r$ 600 em 2022, ano eleitoral [1][2][7]. a fala, porem, omite pontos que mudam a conclusao. o piso permanente sancionado por bolsonaro era de r$ 400 [5]. a pec previa os r$ 600 so ate o fim de 2022, e a proposta de orcamento para 2023 enviada pelo governo bolsonaro previa r$ 400 [3]. a media de cerca de r$ 190 nao era exclusiva dos governos lula: era de r$ 187,91 em janeiro de 2019 e de r$ 191,86 ate marco de 2020, ja no governo bolsonaro [1][3]. o piso de r$ 600 foi mantido de forma permanente no relancamento do bolsa familia em 2023 [4][6]. a lupa classificou falas semelhantes do candidato como exageradas [3]. os numeros citados estao certos, mas o enquadramento leva o eleitor a concluir algo falso: que bolsonaro instituiu um minimo permanente de r$ 600 e que a media de r$ 190 era marca do governo lula. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-135",
@@ -14671,7 +14805,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "135 decl-135 flavio bolsonaro flavio outros o governo de jair bolsonaro concluiu as obras da transposicao do rio sao francisco, levando agua ao nordeste. sabe quem concluiu as obras e fez finalmente chegar agua ate o nordeste? jair messias bolsonaro. enganoso: o governo bolsonaro concluiu trechos finais do eixo norte e levou agua ao rn, mas a obra comecou anos antes, foi feita em grande parte por governos anteriores e nao estava totalmente concluida. as fontes confirmam que, no governo bolsonaro, os eixos norte e leste foram dados como concluidos e as aguas chegaram ao rio grande do norte pela primeira vez [2]. ele tambem inaugurou trechos finais do eixo norte e entregou o ramal agreste [6][8]. porem, a obra comecou quase 16 anos antes [2] e lula, dilma e temer tambem inauguraram trechos [5][7]. quando bolsonaro assumiu, restava cerca de 3% do eixo norte [3], e o eixo leste ja operava e atendia municipios da paraiba [3]. checagens apontam que e enganoso atribuir a ele a maior parte da obra [1][6], e a reuters classificou como sem contexto conteudo que minimiza os governos anteriores [4]. os ramais apodi e salgado e servicos complementares seguiam pendentes, de modo que o empreendimento nao estava totalmente concluido [6]. a fala, ao dizer que bolsonaro 'concluiu' e 'fez finalmente chegar agua ao nordeste', omite que a agua ja chegava a parte da regiao e que ele finalizou so uma etapa. enganoso enganoso"
+    "searchTokens": "135 decl-135 flavio bolsonaro flavio outros o governo de jair bolsonaro concluiu as obras da transposicao do rio sao francisco, levando agua ao nordeste. sabe quem concluiu as obras e fez finalmente chegar agua ate o nordeste? jair messias bolsonaro. enganoso: o governo bolsonaro concluiu trechos finais do eixo norte e levou agua ao rn, mas a obra comecou anos antes, foi feita em grande parte por governos anteriores e nao estava totalmente concluida. as fontes confirmam que, no governo bolsonaro, os eixos norte e leste foram dados como concluidos e as aguas chegaram ao rio grande do norte pela primeira vez [2]. ele tambem inaugurou trechos finais do eixo norte e entregou o ramal agreste [6][8]. porem, a obra comecou quase 16 anos antes [2] e lula, dilma e temer tambem inauguraram trechos [5][7]. quando bolsonaro assumiu, restava cerca de 3% do eixo norte [3], e o eixo leste ja operava e atendia municipios da paraiba [3]. checagens apontam que e enganoso atribuir a ele a maior parte da obra [1][6], e a reuters classificou como sem contexto conteudo que minimiza os governos anteriores [4]. os ramais apodi e salgado e servicos complementares seguiam pendentes, de modo que o empreendimento nao estava totalmente concluido [6]. a fala, ao dizer que bolsonaro 'concluiu' e 'fez finalmente chegar agua ao nordeste', omite que a agua ja chegava a parte da regiao e que ele finalizou so uma etapa. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-136",
@@ -14687,7 +14822,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "Você prometeu que ia entregar a transposição do Rio São Francisco até 2009 e não entregou.",
     "theFact": "Afirmação apurada: Lula prometeu entregar a transposição do Rio São Francisco até 2009 e não entregou a obra no prazo.. Verdadeiro, com imprecisão na data: as fontes indicam que o prazo prometido era 2010, não 2009, mas a obra de fato não foi entregue no prazo e atrasou anos. As fontes mostram que a transposição começou em 2007, no governo Lula, com prazo inicial de conclusão em 2010 [2]. Membros do governo prometeram publicamente a obra pronta em 2010 [5]. Em 2009, o governo já admitia entregar apenas o eixo leste e parte do eixo norte até outubro de 2010, deixando o restante para 2012 [1]. Houve atrasos por chuvas, problemas de licitação, desistência de empreiteiras, TCU e desapropriações [1][3]. A obra foi remarcada para 2012 e depois 2016 e seguia inconclusa [4]. O Eixo Leste só levou água em 2017 [5], e em 2023 o projeto ainda estava em execução [6]. A data citada pelo candidato (2009) diverge das fontes (2010), mas a diferença não muda o ponto central: houve promessa de prazo, e ele não foi cumprido.",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em economia e análise de relatórios probatórios.",
@@ -14790,7 +14925,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "136 decl-136 flavio bolsonaro flavio economia lula prometeu entregar a transposicao do rio sao francisco ate 2009 e nao entregou a obra no prazo. voce prometeu que ia entregar a transposicao do rio sao francisco ate 2009 e nao entregou. verdadeiro, com imprecisao na data: as fontes indicam que o prazo prometido era 2010, nao 2009, mas a obra de fato nao foi entregue no prazo e atrasou anos. as fontes mostram que a transposicao comecou em 2007, no governo lula, com prazo inicial de conclusao em 2010 [2]. membros do governo prometeram publicamente a obra pronta em 2010 [5]. em 2009, o governo ja admitia entregar apenas o eixo leste e parte do eixo norte ate outubro de 2010, deixando o restante para 2012 [1]. houve atrasos por chuvas, problemas de licitacao, desistencia de empreiteiras, tcu e desapropriacoes [1][3]. a obra foi remarcada para 2012 e depois 2016 e seguia inconclusa [4]. o eixo leste so levou agua em 2017 [5], e em 2023 o projeto ainda estava em execucao [6]. a data citada pelo candidato (2009) diverge das fontes (2010), mas a diferenca nao muda o ponto central: houve promessa de prazo, e ele nao foi cumprido. verdadeiro verdadeiro"
+    "searchTokens": "136 decl-136 flavio bolsonaro flavio economia lula prometeu entregar a transposicao do rio sao francisco ate 2009 e nao entregou a obra no prazo. voce prometeu que ia entregar a transposicao do rio sao francisco ate 2009 e nao entregou. verdadeiro, com imprecisao na data: as fontes indicam que o prazo prometido era 2010, nao 2009, mas a obra de fato nao foi entregue no prazo e atrasou anos. as fontes mostram que a transposicao comecou em 2007, no governo lula, com prazo inicial de conclusao em 2010 [2]. membros do governo prometeram publicamente a obra pronta em 2010 [5]. em 2009, o governo ja admitia entregar apenas o eixo leste e parte do eixo norte ate outubro de 2010, deixando o restante para 2012 [1]. houve atrasos por chuvas, problemas de licitacao, desistencia de empreiteiras, tcu e desapropriacoes [1][3]. a obra foi remarcada para 2012 e depois 2016 e seguia inconclusa [4]. o eixo leste so levou agua em 2017 [5], e em 2023 o projeto ainda estava em execucao [6]. a data citada pelo candidato (2009) diverge das fontes (2010), mas a diferenca nao muda o ponto central: houve promessa de prazo, e ele nao foi cumprido. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-137",
@@ -14896,7 +15032,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "137 decl-137 luiz inacio lula da silva lula educacao o governo lula criou quarenta novos institutos federais e novas universidades no nordeste. ao mesmo tempo, nos fizemos 40 novos institutos federais e novas universidades. verdadeiro, com ressalvas: o governo lula anunciou 38 novos campi de ifs no nordeste (perto dos 40 citados). sao campi, nao institutos novos, e as fontes os mostram em implantacao. em marco de 2024 o governo lula anunciou a expansao da rede federal com 100 novos campi de institutos federais. depois o plano chegou a 111 unidades [1]. o nordeste e a regiao mais beneficiada, com 38 campi [2][3][4][5]. o numero de 40 citado por lula fica dentro da margem de tolerancia. ha duas ressalvas. primeiro, trata-se de novos campi de ifs ja existentes, nao de novos institutos: a rede tem 38 institutos federais [3]. segundo, as fontes, de 2024, descrevem as unidades como anunciadas e em implantacao ate 2026 [1][5], e nao informam quantas ja funcionavam na data da fala. sobre universidades, ha registro da criacao de quatro universidades federais no norte e nordeste, duas delas na bahia e uma no ceara [6]. essa fonte nao traz data. o nucleo da fala, a expansao da rede federal de ensino no nordeste, e sustentado pelas fontes. verdadeiro verdadeiro"
+    "searchTokens": "137 decl-137 luiz inacio lula da silva lula educacao o governo lula criou quarenta novos institutos federais e novas universidades no nordeste. ao mesmo tempo, nos fizemos 40 novos institutos federais e novas universidades. verdadeiro, com ressalvas: o governo lula anunciou 38 novos campi de ifs no nordeste (perto dos 40 citados). sao campi, nao institutos novos, e as fontes os mostram em implantacao. em marco de 2024 o governo lula anunciou a expansao da rede federal com 100 novos campi de institutos federais. depois o plano chegou a 111 unidades [1]. o nordeste e a regiao mais beneficiada, com 38 campi [2][3][4][5]. o numero de 40 citado por lula fica dentro da margem de tolerancia. ha duas ressalvas. primeiro, trata-se de novos campi de ifs ja existentes, nao de novos institutos: a rede tem 38 institutos federais [3]. segundo, as fontes, de 2024, descrevem as unidades como anunciadas e em implantacao ate 2026 [1][5], e nao informam quantas ja funcionavam na data da fala. sobre universidades, ha registro da criacao de quatro universidades federais no norte e nordeste, duas delas na bahia e uma no ceara [6]. essa fonte nao traz data. o nucleo da fala, a expansao da rede federal de ensino no nordeste, e sustentado pelas fontes. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-138",
@@ -15004,7 +15141,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "138 decl-138 luiz inacio lula da silva lula educacao o governo lula levou um campus do instituto tecnologico da aeronautica (ita) para o ceara porque o ceara e o estado que mais aprova jovens no vestibular do ita. …nos fizemos 14 novos hospitais, levamos o instituto tecnologico da aeronautica para o ceara como premio ao estado do ceara, porque e o estado que mais aprova jovens para fazer curso no ita. verdadeiro. o governo lula criou o campus do ita em fortaleza, e as fontes oficiais citam a alta aprovacao de cearenses (30% a 40% dos ingressantes) como motivo da escolha. o campus do ita no ceara foi anunciado em janeiro de 2024, com decreto assinado por lula e lancamento da pedra fundamental na base aerea de fortaleza [2][4]. o ministerio da defesa afirma que fortaleza foi escolhida porque, tradicionalmente, 40% dos aprovados sao do estado [4]. o mec menciona cerca de 40% dos ingressantes cearenses ou formados em escolas do ceara [1], e o ministro camilo santana fala em 30% e trata o campus como um reconhecimento [2][5]. o g1 mostra que fortaleza foi a cidade que mais aprovou no ita em 8 de 11 anos, mas ficou atras de sao jose dos campos em 2017, 2019 e 2020 [3]. isso nao muda o fato de o ceara se destacar fortemente. o mec cita tambem outros fatores, como os estudos tecnicos de viabilidade, a lideranca do estado em energias renovaveis e a infraestrutura da base aerea [1]. assim, a aprovacao de cearenses nao foi o unico motivo, mas foi apontada oficialmente como razao central. o fato de o ceara ser 'o estado que mais aprova' nao e dito literalmente pelas fontes, mas e coerente com uma participacao de 30% a 40% dos aprovados. o ita ainda nao funciona plenamente em fortaleza: as turmas migram para la em 2027 [1]. verdadeiro verdadeiro"
+    "searchTokens": "138 decl-138 luiz inacio lula da silva lula educacao o governo lula levou um campus do instituto tecnologico da aeronautica (ita) para o ceara porque o ceara e o estado que mais aprova jovens no vestibular do ita. …nos fizemos 14 novos hospitais, levamos o instituto tecnologico da aeronautica para o ceara como premio ao estado do ceara, porque e o estado que mais aprova jovens para fazer curso no ita. verdadeiro. o governo lula criou o campus do ita em fortaleza, e as fontes oficiais citam a alta aprovacao de cearenses (30% a 40% dos ingressantes) como motivo da escolha. o campus do ita no ceara foi anunciado em janeiro de 2024, com decreto assinado por lula e lancamento da pedra fundamental na base aerea de fortaleza [2][4]. o ministerio da defesa afirma que fortaleza foi escolhida porque, tradicionalmente, 40% dos aprovados sao do estado [4]. o mec menciona cerca de 40% dos ingressantes cearenses ou formados em escolas do ceara [1], e o ministro camilo santana fala em 30% e trata o campus como um reconhecimento [2][5]. o g1 mostra que fortaleza foi a cidade que mais aprovou no ita em 8 de 11 anos, mas ficou atras de sao jose dos campos em 2017, 2019 e 2020 [3]. isso nao muda o fato de o ceara se destacar fortemente. o mec cita tambem outros fatores, como os estudos tecnicos de viabilidade, a lideranca do estado em energias renovaveis e a infraestrutura da base aerea [1]. assim, a aprovacao de cearenses nao foi o unico motivo, mas foi apontada oficialmente como razao central. o fato de o ceara ser 'o estado que mais aprova' nao e dito literalmente pelas fontes, mas e coerente com uma participacao de 30% a 40% dos aprovados. o ita ainda nao funciona plenamente em fortaleza: as turmas migram para la em 2027 [1]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-139",
@@ -15110,7 +15248,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "139 decl-139 luiz inacio lula da silva lula economia o governo lula levou a industria automobilistica para pernambuco. …levamos industria automobilistica pra pernambuco. verdadeiro. a fabrica da fiat (hoje stellantis/jeep) em pernambuco foi anunciada e viabilizada no fim do segundo governo lula, em 2010, e inaugurada em 2015, ja sob dilma. as fontes mostram que, em dezembro de 2010, lula participou do anuncio dos investimentos da fiat em pernambuco [3] e do lancamento da pedra fundamental da fabrica [2]. o polo automotivo de goiana comecou a ser concebido no segundo governo lula [1]. o diario de pernambuco registra que lula viabilizou a instalacao da montadora em 2010, e o presidente da stellantis na america do sul o chamou de 'grande protagonista' por trazer a fabrica [4]. no discurso de inauguracao, em 2015, dilma tambem creditou o projeto a lula e a eduardo campos [5]. ha duas ressalvas. a primeira e que a fabrica foi inaugurada no governo dilma [1][5] e contou com a parceria do governo estadual. a segunda e que a atracao se apoiou em incentivos fiscais elevados, cujo impacto no desenvolvimento regional o tcu considerou pequeno [6]. nenhuma das duas desmente o nucleo da fala. verdadeiro verdadeiro"
+    "searchTokens": "139 decl-139 luiz inacio lula da silva lula economia o governo lula levou a industria automobilistica para pernambuco. …levamos industria automobilistica pra pernambuco. verdadeiro. a fabrica da fiat (hoje stellantis/jeep) em pernambuco foi anunciada e viabilizada no fim do segundo governo lula, em 2010, e inaugurada em 2015, ja sob dilma. as fontes mostram que, em dezembro de 2010, lula participou do anuncio dos investimentos da fiat em pernambuco [3] e do lancamento da pedra fundamental da fabrica [2]. o polo automotivo de goiana comecou a ser concebido no segundo governo lula [1]. o diario de pernambuco registra que lula viabilizou a instalacao da montadora em 2010, e o presidente da stellantis na america do sul o chamou de 'grande protagonista' por trazer a fabrica [4]. no discurso de inauguracao, em 2015, dilma tambem creditou o projeto a lula e a eduardo campos [5]. ha duas ressalvas. a primeira e que a fabrica foi inaugurada no governo dilma [1][5] e contou com a parceria do governo estadual. a segunda e que a atracao se apoiou em incentivos fiscais elevados, cujo impacto no desenvolvimento regional o tcu considerou pequeno [6]. nenhuma das duas desmente o nucleo da fala. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-140",
@@ -15211,7 +15350,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "140 decl-140 flavio bolsonaro flavio seguranca publica os estados do nordeste sao os mais violentos do brasil. sao os estados mais violentos do brasil. verdadeiro. o nordeste tem a maior taxa regional de mortes violentas (31,6 por 100 mil em 2025), e 7 dos 10 estados mais violentos sao nordestinos. o estado mais violento, porem, e o amapa, da regiao norte. segundo o anuario brasileiro de seguranca publica 2026, o nordeste fechou 2025 com taxa media de 31,6 mortes violentas intencionais por 100 mil habitantes, bem acima da media nacional (19,1) e de todas as outras regioes [1]. sete dos dez estados mais violentos sao nordestinos: bahia, ceara, alagoas, pernambuco, maranhao, rio grande do norte e paraiba [1]. o atlas da violencia 2026 aponta que quatro dos cinco estados com maiores taxas de homicidio estao no nordeste [2]. as dez cidades mais violentas do pais tambem ficam na regiao [3][4]. a ressalva e que o estado mais violento e o amapa, na regiao norte [3][1][2], e ha estados do norte entre os dez primeiros [1][5]. mesmo assim, o nucleo da fala, de que os estados nordestinos concentram a maior violencia do pais, e sustentado pelas fontes. verdadeiro verdadeiro"
+    "searchTokens": "140 decl-140 flavio bolsonaro flavio seguranca publica os estados do nordeste sao os mais violentos do brasil. sao os estados mais violentos do brasil. verdadeiro. o nordeste tem a maior taxa regional de mortes violentas (31,6 por 100 mil em 2025), e 7 dos 10 estados mais violentos sao nordestinos. o estado mais violento, porem, e o amapa, da regiao norte. segundo o anuario brasileiro de seguranca publica 2026, o nordeste fechou 2025 com taxa media de 31,6 mortes violentas intencionais por 100 mil habitantes, bem acima da media nacional (19,1) e de todas as outras regioes [1]. sete dos dez estados mais violentos sao nordestinos: bahia, ceara, alagoas, pernambuco, maranhao, rio grande do norte e paraiba [1]. o atlas da violencia 2026 aponta que quatro dos cinco estados com maiores taxas de homicidio estao no nordeste [2]. as dez cidades mais violentas do pais tambem ficam na regiao [3][4]. a ressalva e que o estado mais violento e o amapa, na regiao norte [3][1][2], e ha estados do norte entre os dez primeiros [1][5]. mesmo assim, o nucleo da fala, de que os estados nordestinos concentram a maior violencia do pais, e sustentado pelas fontes. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-141",
@@ -15227,7 +15367,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-fake",
     "verdictBadge": "FALSO",
-    "normalizedVerdict": "falso",
+    "normalizedVerdict": "enganoso",
     "quote": "Lula, os estados do Nordeste são administrados pelo PT e pelos seus parceiros.",
     "theFact": "Afirmação apurada: Os estados do Nordeste são governados pelo PT e por partidos aliados.. Falso. Segundo as fontes, o PT governa apenas Bahia, Ceará e Piauí. Pernambuco, Sergipe e Maranhão são do PSD, Alagoas do PSDB e Paraíba do PP, partidos que não são parceiros do PT. A fala sugere que todo o Nordeste é administrado pelo PT e seus aliados. As fontes contradizem isso. A Reuters [1] mostra que, no mandato iniciado em 2023, só Ceará, Bahia e Piauí são governados pelo PT. Os demais estados da região têm governadores de outros partidos, como Raquel Lyra (PSD) em Pernambuco e Paulo Dantas (MDB) em Alagoas. Nas eleições de 2026, a Agência Brasil [2] informa que o PT venceu na Bahia, no Ceará e no Piauí. Também foram eleitos Eduardo Braide (PSD) no Maranhão, Raquel Lyra (PSD) em Pernambuco, Fábio Mitidieri (PSD) em Sergipe, Lucas Ribeiro (PP) na Paraíba e JHC (PSDB) em Alagoas. O PL de Flávio Bolsonaro recebeu apoio de partidos fora do campo petista [4], o que reforça que o PSD, o PP e o PSDB não podem ser tratados como parceiros do PT. O UOL [3] já havia desmentido uma afirmação parecida de Jair Bolsonaro, mostrando que Alagoas, Maranhão e Paraíba não tiveram governos petistas desde pelo menos 1994. O PT tem presença forte na região, mas não domina todos os estados.",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em instituições e eleições e análise de relatórios probatórios.",
@@ -15314,7 +15454,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "141 decl-141 flavio bolsonaro flavio instituicoes e eleicoes os estados do nordeste sao governados pelo pt e por partidos aliados. lula, os estados do nordeste sao administrados pelo pt e pelos seus parceiros. falso. segundo as fontes, o pt governa apenas bahia, ceara e piaui. pernambuco, sergipe e maranhao sao do psd, alagoas do psdb e paraiba do pp, partidos que nao sao parceiros do pt. a fala sugere que todo o nordeste e administrado pelo pt e seus aliados. as fontes contradizem isso. a reuters [1] mostra que, no mandato iniciado em 2023, so ceara, bahia e piaui sao governados pelo pt. os demais estados da regiao tem governadores de outros partidos, como raquel lyra (psd) em pernambuco e paulo dantas (mdb) em alagoas. nas eleicoes de 2026, a agencia brasil [2] informa que o pt venceu na bahia, no ceara e no piaui. tambem foram eleitos eduardo braide (psd) no maranhao, raquel lyra (psd) em pernambuco, fabio mitidieri (psd) em sergipe, lucas ribeiro (pp) na paraiba e jhc (psdb) em alagoas. o pl de flavio bolsonaro recebeu apoio de partidos fora do campo petista [4], o que reforca que o psd, o pp e o psdb nao podem ser tratados como parceiros do pt. o uol [3] ja havia desmentido uma afirmacao parecida de jair bolsonaro, mostrando que alagoas, maranhao e paraiba nao tiveram governos petistas desde pelo menos 1994. o pt tem presenca forte na regiao, mas nao domina todos os estados. falso falso"
+    "searchTokens": "141 decl-141 flavio bolsonaro flavio instituicoes e eleicoes os estados do nordeste sao governados pelo pt e por partidos aliados. lula, os estados do nordeste sao administrados pelo pt e pelos seus parceiros. falso. segundo as fontes, o pt governa apenas bahia, ceara e piaui. pernambuco, sergipe e maranhao sao do psd, alagoas do psdb e paraiba do pp, partidos que nao sao parceiros do pt. a fala sugere que todo o nordeste e administrado pelo pt e seus aliados. as fontes contradizem isso. a reuters [1] mostra que, no mandato iniciado em 2023, so ceara, bahia e piaui sao governados pelo pt. os demais estados da regiao tem governadores de outros partidos, como raquel lyra (psd) em pernambuco e paulo dantas (mdb) em alagoas. nas eleicoes de 2026, a agencia brasil [2] informa que o pt venceu na bahia, no ceara e no piaui. tambem foram eleitos eduardo braide (psd) no maranhao, raquel lyra (psd) em pernambuco, fabio mitidieri (psd) em sergipe, lucas ribeiro (pp) na paraiba e jhc (psdb) em alagoas. o pl de flavio bolsonaro recebeu apoio de partidos fora do campo petista [4], o que reforca que o psd, o pp e o psdb nao podem ser tratados como parceiros do pt. o uol [3] ja havia desmentido uma afirmacao parecida de jair bolsonaro, mostrando que alagoas, maranhao e paraiba nao tiveram governos petistas desde pelo menos 1994. o pt tem presenca forte na regiao, mas nao domina todos os estados. falso falso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-142",
@@ -15425,7 +15566,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "142 decl-142 flavio bolsonaro flavio seguranca publica o comando vermelho se expandiu no nordeste durante o governo lula, tomando conta de cidades e expulsando moradores de suas casas. agora, lula, o que voce levou pro nordeste foi o comando vermelho, que se proliferou, tomou conta de cidades, esta expulsando as pessoas de suas casas. o cv de fato se expandiu no nordeste e ha expulsoes de moradores, mas atribuir a faccao a lula e enganoso: a migracao comecou ha pelo menos uma decada e o cv cresce ha mais de 40 anos. as fontes confirmam os fatos citados. o comando vermelho avancou no nordeste, especialmente no ceara, sobre areas da faccao local gde [1][3]. ha casos documentados de familias expulsas de casa em fortaleza, pacatuba e outras cidades, com 219 deslocamentos forcados no ceara entre janeiro de 2024 e setembro de 2025 [6][3][7][4]. o enquadramento de que lula 'levou' a faccao ao nordeste, porem, nao tem respaldo. a veja informa que cv e pcc iniciaram a migracao para outras regioes ha pelo menos uma decada, o que inclui governos anteriores [5]. o fantastico relata que o cv cresce continuamente desde o fim dos anos 1970 [2]. a folha atribui a expansao a incorporacao de grupos regionais e a aliancas locais [1]. nenhuma fonte liga o fenomeno a uma acao do governo federal. 'tomou conta de cidades' tambem amplia o alcance: as fontes descrevem dominio de bairros e comunidades, nao de cidades inteiras. os fatos centrais estao corretos, mas a conclusao insinuada, de responsabilidade causal de lula, e enganosa. enganoso enganoso"
+    "searchTokens": "142 decl-142 flavio bolsonaro flavio seguranca publica o comando vermelho se expandiu no nordeste durante o governo lula, tomando conta de cidades e expulsando moradores de suas casas. agora, lula, o que voce levou pro nordeste foi o comando vermelho, que se proliferou, tomou conta de cidades, esta expulsando as pessoas de suas casas. o cv de fato se expandiu no nordeste e ha expulsoes de moradores, mas atribuir a faccao a lula e enganoso: a migracao comecou ha pelo menos uma decada e o cv cresce ha mais de 40 anos. as fontes confirmam os fatos citados. o comando vermelho avancou no nordeste, especialmente no ceara, sobre areas da faccao local gde [1][3]. ha casos documentados de familias expulsas de casa em fortaleza, pacatuba e outras cidades, com 219 deslocamentos forcados no ceara entre janeiro de 2024 e setembro de 2025 [6][3][7][4]. o enquadramento de que lula 'levou' a faccao ao nordeste, porem, nao tem respaldo. a veja informa que cv e pcc iniciaram a migracao para outras regioes ha pelo menos uma decada, o que inclui governos anteriores [5]. o fantastico relata que o cv cresce continuamente desde o fim dos anos 1970 [2]. a folha atribui a expansao a incorporacao de grupos regionais e a aliancas locais [1]. nenhuma fonte liga o fenomeno a uma acao do governo federal. 'tomou conta de cidades' tambem amplia o alcance: as fontes descrevem dominio de bairros e comunidades, nao de cidades inteiras. os fatos centrais estao corretos, mas a conclusao insinuada, de responsabilidade causal de lula, e enganosa. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-143",
@@ -15441,7 +15583,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-warn",
     "verdictBadge": "ENGANOSO",
-    "normalizedVerdict": "enganoso",
+    "normalizedVerdict": "falso",
     "quote": "…Ter aquele vídeo dele suspirando e ele fala que estava debochando das pessoas que estavam sem ar. É mentira.",
     "theFact": "Afirmação apurada: Flávio Bolsonaro afirma que é falso que Jair Bolsonaro, no vídeo em que aparece suspirando, estivesse debochando de pessoas sem ar na pandemia, e que o vídeo completo mostra o contrário.. Enganoso. Bolsonaro de fato imitou pessoa com falta de ar em lives de 2021; o contexto era criticar o protocolo de Mandetta, não zombar diretamente. Negar a imitação e tratar a crítica como mentira distorce o episódio. As fontes mostram que, em lives de março e maio de 2021, Jair Bolsonaro imitou uma pessoa com insuficiência respiratória [1][5][6]. A Folha e o UOL registram que ele negou isso no Jornal Nacional, mas os vídeos o contradizem [2][3][5]. O contexto, segundo as fontes, era criticar a orientação de Mandetta de procurar o hospital apenas com sintomas graves e defender o 'tratamento precoce' [1][4][5]. O Globo descreve que a intenção era essa crítica [4]. Assim, Flávio tem parte de razão ao dizer que o objetivo declarado não era debochar dos doentes. Porém, ao chamar de 'mentira' a crítica, ele sugere que o episódio não tem o significado apontado, quando a imitação de fato ocorreu durante a pandemia e foi amplamente vista como falta de compaixão [2][3]. Além disso, o 'tratamento precoce' defendido não tem eficácia comprovada [3]. O enquadramento omite que a imitação aconteceu, induzindo à conclusão de que a acusação seria inventada.",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em saúde e análise de relatórios probatórios.",
@@ -15544,7 +15686,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "143 decl-143 flavio bolsonaro flavio saude flavio bolsonaro afirma que e falso que jair bolsonaro, no video em que aparece suspirando, estivesse debochando de pessoas sem ar na pandemia, e que o video completo mostra o contrario. …ter aquele video dele suspirando e ele fala que estava debochando das pessoas que estavam sem ar. e mentira. enganoso. bolsonaro de fato imitou pessoa com falta de ar em lives de 2021; o contexto era criticar o protocolo de mandetta, nao zombar diretamente. negar a imitacao e tratar a critica como mentira distorce o episodio. as fontes mostram que, em lives de marco e maio de 2021, jair bolsonaro imitou uma pessoa com insuficiencia respiratoria [1][5][6]. a folha e o uol registram que ele negou isso no jornal nacional, mas os videos o contradizem [2][3][5]. o contexto, segundo as fontes, era criticar a orientacao de mandetta de procurar o hospital apenas com sintomas graves e defender o 'tratamento precoce' [1][4][5]. o globo descreve que a intencao era essa critica [4]. assim, flavio tem parte de razao ao dizer que o objetivo declarado nao era debochar dos doentes. porem, ao chamar de 'mentira' a critica, ele sugere que o episodio nao tem o significado apontado, quando a imitacao de fato ocorreu durante a pandemia e foi amplamente vista como falta de compaixao [2][3]. alem disso, o 'tratamento precoce' defendido nao tem eficacia comprovada [3]. o enquadramento omite que a imitacao aconteceu, induzindo a conclusao de que a acusacao seria inventada. enganoso enganoso"
+    "searchTokens": "143 decl-143 flavio bolsonaro flavio saude flavio bolsonaro afirma que e falso que jair bolsonaro, no video em que aparece suspirando, estivesse debochando de pessoas sem ar na pandemia, e que o video completo mostra o contrario. …ter aquele video dele suspirando e ele fala que estava debochando das pessoas que estavam sem ar. e mentira. enganoso. bolsonaro de fato imitou pessoa com falta de ar em lives de 2021; o contexto era criticar o protocolo de mandetta, nao zombar diretamente. negar a imitacao e tratar a critica como mentira distorce o episodio. as fontes mostram que, em lives de marco e maio de 2021, jair bolsonaro imitou uma pessoa com insuficiencia respiratoria [1][5][6]. a folha e o uol registram que ele negou isso no jornal nacional, mas os videos o contradizem [2][3][5]. o contexto, segundo as fontes, era criticar a orientacao de mandetta de procurar o hospital apenas com sintomas graves e defender o 'tratamento precoce' [1][4][5]. o globo descreve que a intencao era essa critica [4]. assim, flavio tem parte de razao ao dizer que o objetivo declarado nao era debochar dos doentes. porem, ao chamar de 'mentira' a critica, ele sugere que o episodio nao tem o significado apontado, quando a imitacao de fato ocorreu durante a pandemia e foi amplamente vista como falta de compaixao [2][3]. alem disso, o 'tratamento precoce' defendido nao tem eficacia comprovada [3]. o enquadramento omite que a imitacao aconteceu, induzindo a conclusao de que a acusacao seria inventada. enganoso enganoso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-144",
@@ -15650,7 +15793,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "144 decl-144 luiz inacio lula da silva lula meio ambiente a transposicao do rio sao francisco tem quase 1.700 quilometros de canal e 15 mil quilometros de adutora. …ele sabe disso, sao quase 1700 km de canal e 15.000 km de adutora. exagerado: fontes oficiais indicam 477 km de canais nos eixos principais da transposicao, bem abaixo dos quase 1.700 km citados; os 15 mil km de adutora nao aparecem em fonte oficial. o ministerio da integracao e a ana informam que o pisf tem 477 km de canais em dois eixos, o norte com 260 km e o leste com 217 km [1][2][3][4][5]. o numero de quase 1.700 km de canal e mais de tres vezes esse total. mesmo uma versao anterior da fala do proprio presidente citava quase 1.400 km [6], o que mostra variacao no dado. os ramais e adutoras associados podem ampliar a rede, mas nenhuma fonte oficial confirma 1.700 km de canal nem 15 mil km de adutoras. esse ultimo numero aparece apenas como declaracao de lula [6], que nao serve de prova. a obra existe e e de grande porte, mas a extensao foi materialmente inflada. exagerado enganoso"
+    "searchTokens": "144 decl-144 luiz inacio lula da silva lula meio ambiente a transposicao do rio sao francisco tem quase 1.700 quilometros de canal e 15 mil quilometros de adutora. …ele sabe disso, sao quase 1700 km de canal e 15.000 km de adutora. exagerado: fontes oficiais indicam 477 km de canais nos eixos principais da transposicao, bem abaixo dos quase 1.700 km citados; os 15 mil km de adutora nao aparecem em fonte oficial. o ministerio da integracao e a ana informam que o pisf tem 477 km de canais em dois eixos, o norte com 260 km e o leste com 217 km [1][2][3][4][5]. o numero de quase 1.700 km de canal e mais de tres vezes esse total. mesmo uma versao anterior da fala do proprio presidente citava quase 1.400 km [6], o que mostra variacao no dado. os ramais e adutoras associados podem ampliar a rede, mas nenhuma fonte oficial confirma 1.700 km de canal nem 15 mil km de adutoras. esse ultimo numero aparece apenas como declaracao de lula [6], que nao serve de prova. a obra existe e e de grande porte, mas a extensao foi materialmente inflada. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-145",
@@ -15746,7 +15890,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "145 decl-145 luiz inacio lula da silva lula economia o governo lula levou desenvolvimento para a regiao nordeste, que deixou de ser a regiao mais pobre e com piores indicadores sociais e educacionais. levamos o desenvolvimento pro nordeste,. verdadeiro. estudos indicam que, nos governos do pt, o nordeste cresceu acima da media e teve queda da pobreza e investimentos do pac, embora desigualdade e informalidade tenham persistido. o trecho original diz apenas \"levamos o desenvolvimento pro nordeste\". a afirmacao de que a regiao deixou de ser a mais pobre nao aparece na fala e, por isso, nao e julgada. as fontes academicas sustentam o nucleo da fala. segundo [1], nos governos de 2003 a 2016 houve priorizacao do desenvolvimento das regioes menos desenvolvidas. o bolsa familia reduziu a pobreza, sobretudo no nordeste, e ampliou a frequencia escolar. o pac trouxe a transposicao do sao francisco e investimentos da petrobras e privados. a fonte [2] aponta que o nordeste passou a crescer a taxas superiores a media nacional nos governos do pt. a fonte [3] registra a retomada da politica de desenvolvimento regional no governo lula. ha ressalvas: [1] destaca que informalidade, baixos rendimentos e desigualdade persistiram, e [4] mostra que o nordeste ainda concentrava quase metade da pobreza do pais em 2020. isso nao contradiz a afirmacao generica de ter levado desenvolvimento a regiao. verdadeiro verdadeiro"
+    "searchTokens": "145 decl-145 luiz inacio lula da silva lula economia o governo lula levou desenvolvimento para a regiao nordeste, que deixou de ser a regiao mais pobre e com piores indicadores sociais e educacionais. levamos o desenvolvimento pro nordeste,. verdadeiro. estudos indicam que, nos governos do pt, o nordeste cresceu acima da media e teve queda da pobreza e investimentos do pac, embora desigualdade e informalidade tenham persistido. o trecho original diz apenas \"levamos o desenvolvimento pro nordeste\". a afirmacao de que a regiao deixou de ser a mais pobre nao aparece na fala e, por isso, nao e julgada. as fontes academicas sustentam o nucleo da fala. segundo [1], nos governos de 2003 a 2016 houve priorizacao do desenvolvimento das regioes menos desenvolvidas. o bolsa familia reduziu a pobreza, sobretudo no nordeste, e ampliou a frequencia escolar. o pac trouxe a transposicao do sao francisco e investimentos da petrobras e privados. a fonte [2] aponta que o nordeste passou a crescer a taxas superiores a media nacional nos governos do pt. a fonte [3] registra a retomada da politica de desenvolvimento regional no governo lula. ha ressalvas: [1] destaca que informalidade, baixos rendimentos e desigualdade persistiram, e [4] mostra que o nordeste ainda concentrava quase metade da pobreza do pais em 2020. isso nao contradiz a afirmacao generica de ter levado desenvolvimento a regiao. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-146",
@@ -15859,7 +16004,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "146 decl-146 luiz inacio lula da silva lula economia quando lula assumiu a presidencia em 2003, o nordeste era a regiao mais pobre, com mais desnutricao, analfabetismo e evasao escolar e com menos universidades, doutores e mestres do brasil. eu assumi a presidencia da republica, o nordeste era a regiao que era mais pobre, mais desnutrido, mais analfabeto, mais evasao escolar, menos universidade, menos doutor, menos. em linhas gerais correto: em 2003 o nordeste era a regiao mais pobre e com maior analfabetismo. imprecisao: em numero de instituicoes de ensino superior, o norte tinha menos que o nordeste. as fontes do ibge e do inep apontam o nordeste como a regiao com as maiores taxas de analfabetismo e com a pobreza mais dramatica [1][2][3]. esses dados sustentam o nucleo da fala: em 2003, o nordeste estava na pior situacao social do pais. a lupa, porem, mostra que, em numero de instituicoes de ensino superior, a ultima colocada em 2003 era a regiao norte (101), seguida do centro-oeste (210) e do nordeste (304) [4]. portanto, 'menos universidade' e impreciso em termos absolutos. sobre doutores, ha apenas a fala do proprio lula [5], que nao serve de prova. as fontes tambem nao trazem dados regionais especificos sobre desnutricao e evasao escolar [6]. mesmo com esses pontos sem comprovacao, o ponto central (nordeste mais pobre e mais analfabeto) e confirmado pelas fontes. o erro sobre universidades nao muda a conclusao sobre a desvantagem social da regiao. verdadeiro verdadeiro"
+    "searchTokens": "146 decl-146 luiz inacio lula da silva lula economia quando lula assumiu a presidencia em 2003, o nordeste era a regiao mais pobre, com mais desnutricao, analfabetismo e evasao escolar e com menos universidades, doutores e mestres do brasil. eu assumi a presidencia da republica, o nordeste era a regiao que era mais pobre, mais desnutrido, mais analfabeto, mais evasao escolar, menos universidade, menos doutor, menos. em linhas gerais correto: em 2003 o nordeste era a regiao mais pobre e com maior analfabetismo. imprecisao: em numero de instituicoes de ensino superior, o norte tinha menos que o nordeste. as fontes do ibge e do inep apontam o nordeste como a regiao com as maiores taxas de analfabetismo e com a pobreza mais dramatica [1][2][3]. esses dados sustentam o nucleo da fala: em 2003, o nordeste estava na pior situacao social do pais. a lupa, porem, mostra que, em numero de instituicoes de ensino superior, a ultima colocada em 2003 era a regiao norte (101), seguida do centro-oeste (210) e do nordeste (304) [4]. portanto, 'menos universidade' e impreciso em termos absolutos. sobre doutores, ha apenas a fala do proprio lula [5], que nao serve de prova. as fontes tambem nao trazem dados regionais especificos sobre desnutricao e evasao escolar [6]. mesmo com esses pontos sem comprovacao, o ponto central (nordeste mais pobre e mais analfabeto) e confirmado pelas fontes. o erro sobre universidades nao muda a conclusao sobre a desvantagem social da regiao. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-147",
@@ -15967,7 +16113,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "147 decl-147 luiz inacio lula da silva lula meio ambiente o governo lula reativou o fundo amazonia apos assumir em 2023. fomos nos que entramos e que fazemos o fundo funcionar. verdadeiro. lula assinou em 1º/1/2023 o decreto que retomou o fundo amazonia, parado desde 2019, e o comite voltou a se reunir em fevereiro de 2023. as fontes confirmam que o fundo amazonia estava paralisado desde 2019. nesse ano, o governo bolsonaro extinguiu os colegiados do fundo, entre eles o comite orientador (cofa) [1][3][4]. no dia da posse, 1º de janeiro de 2023, lula assinou o decreto que restabeleceu o fundo [1][5]. a noruega, principal doadora, anunciou em seguida que o fundo voltava a funcionar [3][5]. em fevereiro de 2023, o comite orientador se reuniu pela primeira vez em quatro anos [4]. ao longo de 2023, o governo tambem anunciou novos usos dos recursos, como ate r$ 600 milhoes para municipios [2]. um contexto vale ser citado: em novembro de 2022, o stf ja havia determinado a reativacao do fundo em 60 dias [1]. isso nao contradiz a fala, porque o ato que efetivou a retomada foi o decreto de lula. as fontes divergem sobre o mes em que o fundo parou: abril de 2019 segundo [1], agosto de 2019 segundo [3]. a divergencia nao afeta o ponto central. verdadeiro verdadeiro"
+    "searchTokens": "147 decl-147 luiz inacio lula da silva lula meio ambiente o governo lula reativou o fundo amazonia apos assumir em 2023. fomos nos que entramos e que fazemos o fundo funcionar. verdadeiro. lula assinou em 1º/1/2023 o decreto que retomou o fundo amazonia, parado desde 2019, e o comite voltou a se reunir em fevereiro de 2023. as fontes confirmam que o fundo amazonia estava paralisado desde 2019. nesse ano, o governo bolsonaro extinguiu os colegiados do fundo, entre eles o comite orientador (cofa) [1][3][4]. no dia da posse, 1º de janeiro de 2023, lula assinou o decreto que restabeleceu o fundo [1][5]. a noruega, principal doadora, anunciou em seguida que o fundo voltava a funcionar [3][5]. em fevereiro de 2023, o comite orientador se reuniu pela primeira vez em quatro anos [4]. ao longo de 2023, o governo tambem anunciou novos usos dos recursos, como ate r$ 600 milhoes para municipios [2]. um contexto vale ser citado: em novembro de 2022, o stf ja havia determinado a reativacao do fundo em 60 dias [1]. isso nao contradiz a fala, porque o ato que efetivou a retomada foi o decreto de lula. as fontes divergem sobre o mes em que o fundo parou: abril de 2019 segundo [1], agosto de 2019 segundo [3]. a divergencia nao afeta o ponto central. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-148",
@@ -16090,7 +16237,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "148 decl-148 luiz inacio lula da silva lula meio ambiente o governo bolsonaro paralisou o fundo amazonia. alias, eles anularam o fundo amazonas. verdadeiro. o governo bolsonaro extinguiu em 2019 os comites do fundo amazonia, paralisando novos projetos; o stf considerou isso omissao inconstitucional. \"anularam\" e \"fundo amazonas\" sao imprecisoes de linguagem. as fontes confirmam que, em abril de 2019, o governo bolsonaro extinguiu, por meio de um \"revogaco\" de conselhos, o comite orientador (cofa) e o comite tecnico (ctfa) do fundo amazonia. com isso o fundo ficou paralisado, com cerca de r$ 3,2 bilhoes parados [1][7]. a noruega suspendeu suas doacoes porque o governo bloqueou as operacoes do fundo [2][8], e o bndes suspendeu novos projetos [4]. em 2022, o stf julgou inconstitucionais os decretos e ordenou a reativacao do fundo, reconhecendo omissao da uniao [3][5]. a fonte [6] tambem descreve o fundo como \"congelado por bolsonaro\". o fundo nao foi formalmente extinto, e o nome correto e fundo amazonia, nao \"fundo amazonas\". ainda assim, \"anularam\" expressa de forma coloquial a paralisacao efetiva do fundo, e o nucleo da fala e correto. verdadeiro verdadeiro"
+    "searchTokens": "148 decl-148 luiz inacio lula da silva lula meio ambiente o governo bolsonaro paralisou o fundo amazonia. alias, eles anularam o fundo amazonas. verdadeiro. o governo bolsonaro extinguiu em 2019 os comites do fundo amazonia, paralisando novos projetos; o stf considerou isso omissao inconstitucional. \"anularam\" e \"fundo amazonas\" sao imprecisoes de linguagem. as fontes confirmam que, em abril de 2019, o governo bolsonaro extinguiu, por meio de um \"revogaco\" de conselhos, o comite orientador (cofa) e o comite tecnico (ctfa) do fundo amazonia. com isso o fundo ficou paralisado, com cerca de r$ 3,2 bilhoes parados [1][7]. a noruega suspendeu suas doacoes porque o governo bloqueou as operacoes do fundo [2][8], e o bndes suspendeu novos projetos [4]. em 2022, o stf julgou inconstitucionais os decretos e ordenou a reativacao do fundo, reconhecendo omissao da uniao [3][5]. a fonte [6] tambem descreve o fundo como \"congelado por bolsonaro\". o fundo nao foi formalmente extinto, e o nome correto e fundo amazonia, nao \"fundo amazonas\". ainda assim, \"anularam\" expressa de forma coloquial a paralisacao efetiva do fundo, e o nucleo da fala e correto. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-149",
@@ -16201,7 +16349,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "149 decl-149 luiz inacio lula da silva lula economia nos ultimos 24 anos, os governos do pt fizeram mais investimentos no amazonas em saude, portos, aeroporto e estradas. voce vai perceber que foi mais investimento em internet banda larga, mais investimento em saude, mais investimento em portos, mais investimento no aeroporto, mais investimento em estradas. e so perguntar no google pra nao ficar aqui falando muito numero, que voce vai perceber. as fontes mostram investimentos federais de governos do pt no amazonas (pac, novo pac, br-319), mas nenhuma compara esses valores com os de outros governos, o que e necessario para sustentar o 'mais investimento'. lula afirma que houve 'mais investimento' em banda larga, saude, portos, aeroporto e estradas no amazonas. as fontes confirmam aportes federais em gestoes do pt. o pac previa r$ 10,6 bilhoes para o estado [4]. o novo pac anunciou r$ 47,2 bilhoes, com r$ 500 milhoes em saude e r$ 5,9 bilhoes para rodovias, portos, aeroportos e hidrovias [1][3]. em 2026 foram anunciados cerca de r$ 5 bilhoes, incluindo obras na br-319 [5][2]. porem, a afirmacao e comparativa, e nenhuma fonte traz dados de investimento federal no amazonas em outros governos (por exemplo, temer ou bolsonaro) para comparacao. a fonte [6] cita apenas r$ 27 milhoes no aeroporto de manaus em 2018, e a [7] trata de obras do governo estadual. alem disso, varios valores sao anuncios ou previsoes, nao montantes executados. nao ha dados sobre banda larga. sem base comparativa, as fontes nao confirmam nem refutam o 'mais investimento'. insustentavel falso"
+    "searchTokens": "149 decl-149 luiz inacio lula da silva lula economia nos ultimos 24 anos, os governos do pt fizeram mais investimentos no amazonas em saude, portos, aeroporto e estradas. voce vai perceber que foi mais investimento em internet banda larga, mais investimento em saude, mais investimento em portos, mais investimento no aeroporto, mais investimento em estradas. e so perguntar no google pra nao ficar aqui falando muito numero, que voce vai perceber. as fontes mostram investimentos federais de governos do pt no amazonas (pac, novo pac, br-319), mas nenhuma compara esses valores com os de outros governos, o que e necessario para sustentar o 'mais investimento'. lula afirma que houve 'mais investimento' em banda larga, saude, portos, aeroporto e estradas no amazonas. as fontes confirmam aportes federais em gestoes do pt. o pac previa r$ 10,6 bilhoes para o estado [4]. o novo pac anunciou r$ 47,2 bilhoes, com r$ 500 milhoes em saude e r$ 5,9 bilhoes para rodovias, portos, aeroportos e hidrovias [1][3]. em 2026 foram anunciados cerca de r$ 5 bilhoes, incluindo obras na br-319 [5][2]. porem, a afirmacao e comparativa, e nenhuma fonte traz dados de investimento federal no amazonas em outros governos (por exemplo, temer ou bolsonaro) para comparacao. a fonte [6] cita apenas r$ 27 milhoes no aeroporto de manaus em 2018, e a [7] trata de obras do governo estadual. alem disso, varios valores sao anuncios ou previsoes, nao montantes executados. nao ha dados sobre banda larga. sem base comparativa, as fontes nao confirmam nem refutam o 'mais investimento'. insustentavel falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-150",
@@ -16307,7 +16456,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "150 decl-150 luiz inacio lula da silva lula saude jair bolsonaro apareceu na televisao rindo e imitando uma pessoa morrendo asfixiada por falta de oxigenio, durante a crise de oxigenio em manaus na pandemia. nao conhece. acho que ele so ouviu falar de manaus e da regiao norte quando o pai dele apareceu na televisao rindo e imitando uma pessoa morrendo asfixiada porque nao tinha oxigenio. verdadeiro no essencial: bolsonaro imitou pacientes com falta de ar em lives de marco e maio de 2021, em plena crise de oxigenio. imprecisao: foi em transmissoes na internet, e nao na tv, e nao se referia a manaus. as fontes confirmam que jair bolsonaro imitou uma pessoa com falta de ar em duas lives, em 18 de marco e 6 de maio de 2021, no pior periodo da pandemia [1][2][3][4]. segundo o diario do estado, ele fez sons de sufocamento ('ugh, ugh, ugh') enquanto faltavam oxigenio e respiradores em hospitais [4]. o colapso por falta de oxigenio em manaus ocorreu em janeiro de 2021 [5]. algumas fontes descrevem a imitacao, mas nao deixam claro se ele riu [4][6]. a fala tem imprecisoes. as imitacoes foram em lives na internet, nao na televisao, e tinham como alvo a orientacao do ex-ministro mandetta de so ir ao hospital com falta de ar, nao manaus diretamente [3]. ainda assim, o nucleo e preciso: o entao presidente imitou publicamente alguem sufocando por falta de ar durante a crise de oxigenio da pandemia. bolsonaro negou o fato no jornal nacional, mas os videos o desmentem [2][3]. verdadeiro verdadeiro"
+    "searchTokens": "150 decl-150 luiz inacio lula da silva lula saude jair bolsonaro apareceu na televisao rindo e imitando uma pessoa morrendo asfixiada por falta de oxigenio, durante a crise de oxigenio em manaus na pandemia. nao conhece. acho que ele so ouviu falar de manaus e da regiao norte quando o pai dele apareceu na televisao rindo e imitando uma pessoa morrendo asfixiada porque nao tinha oxigenio. verdadeiro no essencial: bolsonaro imitou pacientes com falta de ar em lives de marco e maio de 2021, em plena crise de oxigenio. imprecisao: foi em transmissoes na internet, e nao na tv, e nao se referia a manaus. as fontes confirmam que jair bolsonaro imitou uma pessoa com falta de ar em duas lives, em 18 de marco e 6 de maio de 2021, no pior periodo da pandemia [1][2][3][4]. segundo o diario do estado, ele fez sons de sufocamento ('ugh, ugh, ugh') enquanto faltavam oxigenio e respiradores em hospitais [4]. o colapso por falta de oxigenio em manaus ocorreu em janeiro de 2021 [5]. algumas fontes descrevem a imitacao, mas nao deixam claro se ele riu [4][6]. a fala tem imprecisoes. as imitacoes foram em lives na internet, nao na televisao, e tinham como alvo a orientacao do ex-ministro mandetta de so ir ao hospital com falta de ar, nao manaus diretamente [3]. ainda assim, o nucleo e preciso: o entao presidente imitou publicamente alguem sufocando por falta de ar durante a crise de oxigenio da pandemia. bolsonaro negou o fato no jornal nacional, mas os videos o desmentem [2][3]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-151",
@@ -16411,7 +16561,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "151 decl-151 flavio bolsonaro flavio saude a bancada do pt votou contra o novo marco legal do saneamento basico no congresso nacional. sabe quem votou contra isso la no congresso nacional? a bancada do pt. verdadeiro. no senado, os senadores do pt votaram contra o novo marco do saneamento (pl 4.162/2019), aprovado por 65 a 13, e a oposicao petista criticou o texto. o senado aprovou o novo marco legal do saneamento (pl 4.162/2019) em 24/06/2020, por 65 votos a 13 [1]. segundo a lista de votos publicada [3], 6 dos 13 contrarios eram do pt: jaques wagner, paulo rocha, humberto costa, jean-paul prates, paulo paim e rogerio carvalho. rogerio carvalho (pt-se) tambem apresentou questao de ordem para suspender a votacao [1]. na camara, deputadas do pt criticaram o texto como 'privatizacao da agua' [2]. as fontes nao detalham o voto da bancada do pt na camara em dezembro de 2019, mas a posicao contraria do partido no congresso esta documentada no senado, o que sustenta o nucleo da fala. verdadeiro verdadeiro"
+    "searchTokens": "151 decl-151 flavio bolsonaro flavio saude a bancada do pt votou contra o novo marco legal do saneamento basico no congresso nacional. sabe quem votou contra isso la no congresso nacional? a bancada do pt. verdadeiro. no senado, os senadores do pt votaram contra o novo marco do saneamento (pl 4.162/2019), aprovado por 65 a 13, e a oposicao petista criticou o texto. o senado aprovou o novo marco legal do saneamento (pl 4.162/2019) em 24/06/2020, por 65 votos a 13 [1]. segundo a lista de votos publicada [3], 6 dos 13 contrarios eram do pt: jaques wagner, paulo rocha, humberto costa, jean-paul prates, paulo paim e rogerio carvalho. rogerio carvalho (pt-se) tambem apresentou questao de ordem para suspender a votacao [1]. na camara, deputadas do pt criticaram o texto como 'privatizacao da agua' [2]. as fontes nao detalham o voto da bancada do pt na camara em dezembro de 2019, mas a posicao contraria do partido no congresso esta documentada no senado, o que sustenta o nucleo da fala. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-152",
@@ -16530,7 +16681,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "152 decl-152 flavio bolsonaro flavio saude aproximadamente 90 milhoes de brasileiros nao tem esgoto tratado em suas casas. porque hoje tem aproximadamente 90 milhoes de brasileiros que nao tem esgoto tratado nas suas casas, tem aproximadamente 40 milhoes de brasileiros que nao tem agua tratada nas suas casas. e nos fizemos esse marco legal. verdadeiro. dados do sinisa 2024 apontam cerca de 90 milhoes de brasileiros sem coleta de esgoto. o candidato fala em \"esgoto tratado\", mas o numero se refere a coleta, imprecisao que nao muda o ponto. segundo o instituto trata brasil, com base no sinisa (ano-base 2024), cerca de 90 milhoes de brasileiros (43,3% da populacao) nao tem acesso a coleta de esgoto [1][2][3]. documento da camara cita aproximadamente 90,2 milhoes de pessoas nao atendidas por rede de coleta de esgoto [4]. levantamentos anteriores, com dados de 2020 e 2021, falavam em cerca de 100 milhoes [5][6], o que mostra uma reducao recente, mas o numero atual esta alinhado com a fala. a imprecisao esta no termo: o candidato diz \"esgoto tratado\", enquanto os 90 milhoes se referem a falta de coleta. como apenas 51,8% do esgoto gerado e tratado [1][2], o deficit de tratamento nao e menor que o de coleta, entao a ordem de grandeza segue valida. o dado complementar de 40 milhoes sem agua tratada e um pouco alto: as fontes indicam cerca de 32,4 milhoes [4], ou mais de 30 milhoes [2]. esse ponto, porem, nao e o nucleo da afirmacao verificada. verdadeiro verdadeiro"
+    "searchTokens": "152 decl-152 flavio bolsonaro flavio saude aproximadamente 90 milhoes de brasileiros nao tem esgoto tratado em suas casas. porque hoje tem aproximadamente 90 milhoes de brasileiros que nao tem esgoto tratado nas suas casas, tem aproximadamente 40 milhoes de brasileiros que nao tem agua tratada nas suas casas. e nos fizemos esse marco legal. verdadeiro. dados do sinisa 2024 apontam cerca de 90 milhoes de brasileiros sem coleta de esgoto. o candidato fala em \"esgoto tratado\", mas o numero se refere a coleta, imprecisao que nao muda o ponto. segundo o instituto trata brasil, com base no sinisa (ano-base 2024), cerca de 90 milhoes de brasileiros (43,3% da populacao) nao tem acesso a coleta de esgoto [1][2][3]. documento da camara cita aproximadamente 90,2 milhoes de pessoas nao atendidas por rede de coleta de esgoto [4]. levantamentos anteriores, com dados de 2020 e 2021, falavam em cerca de 100 milhoes [5][6], o que mostra uma reducao recente, mas o numero atual esta alinhado com a fala. a imprecisao esta no termo: o candidato diz \"esgoto tratado\", enquanto os 90 milhoes se referem a falta de coleta. como apenas 51,8% do esgoto gerado e tratado [1][2], o deficit de tratamento nao e menor que o de coleta, entao a ordem de grandeza segue valida. o dado complementar de 40 milhoes sem agua tratada e um pouco alto: as fontes indicam cerca de 32,4 milhoes [4], ou mais de 30 milhoes [2]. esse ponto, porem, nao e o nucleo da afirmacao verificada. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-153",
@@ -16659,7 +16811,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "153 decl-153 flavio bolsonaro flavio outros o governo bolsonaro aprovou o marco legal do saneamento basico. e nos fizemos o marco legal do saneamento basico,. verdadeiro. o novo marco legal do saneamento (lei 14.026/2020) teve origem no executivo e foi sancionado por jair bolsonaro em 15/7/2020, apos aprovacao pelo congresso. ele atualizou a lei de 2007, nao a criou do zero. a lei nº 14.026, de 15 de julho de 2020, 'atualiza o marco legal do saneamento basico' [1][2]. a base de legislacao da presidencia registra como chefe de governo jair bolsonaro e como origem o executivo [2]. o projeto (pl 4.162/2019) foi aprovado pelo senado em junho de 2020 [6] e sancionado por bolsonaro com vetos [7][4][8][5]. ha uma ressalva: a lei foi votada pelo congresso e atualizou o marco de 2007 (lei 11.445/2007), que segue compondo o marco legal do saneamento [3]. ainda assim, chamar a lei de 2020 de 'novo marco legal' e a denominacao usada pelas proprias fontes oficiais, e a iniciativa e a sancao partiram do governo bolsonaro. a imprecisao nao muda o ponto central. verdadeiro verdadeiro"
+    "searchTokens": "153 decl-153 flavio bolsonaro flavio outros o governo bolsonaro aprovou o marco legal do saneamento basico. e nos fizemos o marco legal do saneamento basico,. verdadeiro. o novo marco legal do saneamento (lei 14.026/2020) teve origem no executivo e foi sancionado por jair bolsonaro em 15/7/2020, apos aprovacao pelo congresso. ele atualizou a lei de 2007, nao a criou do zero. a lei nº 14.026, de 15 de julho de 2020, 'atualiza o marco legal do saneamento basico' [1][2]. a base de legislacao da presidencia registra como chefe de governo jair bolsonaro e como origem o executivo [2]. o projeto (pl 4.162/2019) foi aprovado pelo senado em junho de 2020 [6] e sancionado por bolsonaro com vetos [7][4][8][5]. ha uma ressalva: a lei foi votada pelo congresso e atualizou o marco de 2007 (lei 11.445/2007), que segue compondo o marco legal do saneamento [3]. ainda assim, chamar a lei de 2020 de 'novo marco legal' e a denominacao usada pelas proprias fontes oficiais, e a iniciativa e a sancao partiram do governo bolsonaro. a imprecisao nao muda o ponto central. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-154",
@@ -16778,7 +16931,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "154 decl-154 flavio bolsonaro flavio economia a taxa de juros na argentina chegou a 100% antes do governo milei. a taxa de juro la chegou a 100%. verdadeiro, com ressalva: os juros argentinos superaram 100% ao ano (a leliq estava em 133% antes da posse de milei). o patamar de 100% foi fixado ja no inicio do governo milei, em dezembro de 2023. o trecho original diz apenas que a taxa de juros \"chegou a 100%\" na argentina. as fontes confirmam que, ate dezembro de 2023, a taxa de referencia leliq era de 133% ao ano [1][2]. ou seja, antes de milei os juros superavam 100%. logo depois da posse, o banco central adotou como nova referencia a taxa overnight de 100% ao ano [1][2][4][5]. em abril de 2023, os juros estavam em 81% e a inflacao passava de 100% [3]. a taxa atual informada e de 29% [6]. a afirmacao de que os juros chegaram a 100% esta correta e, se algo, subestima o pico de 133%. a ressalva e que o valor exato de 100% foi fixado ja sob milei, e nao antes dele, como diz a versao resumida da afirmacao. isso nao muda o ponto central. verdadeiro verdadeiro"
+    "searchTokens": "154 decl-154 flavio bolsonaro flavio economia a taxa de juros na argentina chegou a 100% antes do governo milei. a taxa de juro la chegou a 100%. verdadeiro, com ressalva: os juros argentinos superaram 100% ao ano (a leliq estava em 133% antes da posse de milei). o patamar de 100% foi fixado ja no inicio do governo milei, em dezembro de 2023. o trecho original diz apenas que a taxa de juros \"chegou a 100%\" na argentina. as fontes confirmam que, ate dezembro de 2023, a taxa de referencia leliq era de 133% ao ano [1][2]. ou seja, antes de milei os juros superavam 100%. logo depois da posse, o banco central adotou como nova referencia a taxa overnight de 100% ao ano [1][2][4][5]. em abril de 2023, os juros estavam em 81% e a inflacao passava de 100% [3]. a taxa atual informada e de 29% [6]. a afirmacao de que os juros chegaram a 100% esta correta e, se algo, subestima o pico de 133%. a ressalva e que o valor exato de 100% foi fixado ja sob milei, e nao antes dele, como diz a versao resumida da afirmacao. isso nao muda o ponto central. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-155",
@@ -16892,7 +17046,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "155 decl-155 flavio bolsonaro flavio economia milei comecou o governo na argentina com inflacao anual de 211%. comecou um governo com 211% de inflacao. essencialmente correto: a argentina fechou 2023 com inflacao de 211,4%, ano em que milei assumiu. ressalva: o numero inclui dezembro, ja sob milei, com alta de 25,5% apos a desvalorizacao que ele promoveu. o indec informou inflacao de 211,4% em 2023, a maior desde 1990 [1][2][4]. milei tomou posse em 10 de dezembro de 2023, com a inflacao \"a caminho de 200%\", segundo a reuters [3]. a al jazeera tambem afirma que, quando milei foi eleito, a argentina tinha inflacao anual de 211% [5]. ha uma imprecisao: o indice de 211,4% inclui dezembro, primeiro mes de seu governo, quando os precos subiram 25,5%, impulsionados em parte pela desvalorizacao de 50% do peso e pelo \"plano motosserra\" [1][4][5]. a taxa anual herdada no momento da posse era um pouco menor, proxima de 200% [3]. essa diferenca fica dentro de cerca de 10% e nao muda o ponto central de que milei assumiu com inflacao anual na casa de 200%. verdadeiro verdadeiro"
+    "searchTokens": "155 decl-155 flavio bolsonaro flavio economia milei comecou o governo na argentina com inflacao anual de 211%. comecou um governo com 211% de inflacao. essencialmente correto: a argentina fechou 2023 com inflacao de 211,4%, ano em que milei assumiu. ressalva: o numero inclui dezembro, ja sob milei, com alta de 25,5% apos a desvalorizacao que ele promoveu. o indec informou inflacao de 211,4% em 2023, a maior desde 1990 [1][2][4]. milei tomou posse em 10 de dezembro de 2023, com a inflacao \"a caminho de 200%\", segundo a reuters [3]. a al jazeera tambem afirma que, quando milei foi eleito, a argentina tinha inflacao anual de 211% [5]. ha uma imprecisao: o indice de 211,4% inclui dezembro, primeiro mes de seu governo, quando os precos subiram 25,5%, impulsionados em parte pela desvalorizacao de 50% do peso e pelo \"plano motosserra\" [1][4][5]. a taxa anual herdada no momento da posse era um pouco menor, proxima de 200% [3]. essa diferenca fica dentro de cerca de 10% e nao muda o ponto central de que milei assumiu com inflacao anual na casa de 200%. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-156",
@@ -16988,7 +17143,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "156 decl-156 flavio bolsonaro flavio politica externa a esquerda governou a argentina por vinte anos antes de milei. …la na argentina, a esquerda governou por 20 anos,. exagerado. o kirchnerismo, de centro-esquerda, governou a argentina por cerca de 16 dos 20 anos anteriores a milei, nao 20. houve o intervalo de macri (2015-2019), opositor ao kirchnerismo. as fontes mostram que nestor kirchner (2003-2007) e cristina kirchner (2007-2015) governaram por cerca de 12 anos consecutivos [1][3]. em 2015 o poder passou ao opositor mauricio macri [1], descrito como um interregno neoliberal [4]. depois veio novo governo kirchnerista ate a eleicao de milei. a fonte [2] resume que o kirchnerismo governou 16 dos ultimos 20 anos e dominou a vida politica argentina por duas decadas. a direcao da fala esta correta: a centro-esquerda predominou por longo periodo. mas dizer que governou por 20 anos ininterruptos infla o tempo em cerca de 25% e omite os quatro anos de macri. a diferenca supera a margem de tolerancia, por isso o rotulo e exagerado. exagerado enganoso"
+    "searchTokens": "156 decl-156 flavio bolsonaro flavio politica externa a esquerda governou a argentina por vinte anos antes de milei. …la na argentina, a esquerda governou por 20 anos,. exagerado. o kirchnerismo, de centro-esquerda, governou a argentina por cerca de 16 dos 20 anos anteriores a milei, nao 20. houve o intervalo de macri (2015-2019), opositor ao kirchnerismo. as fontes mostram que nestor kirchner (2003-2007) e cristina kirchner (2007-2015) governaram por cerca de 12 anos consecutivos [1][3]. em 2015 o poder passou ao opositor mauricio macri [1], descrito como um interregno neoliberal [4]. depois veio novo governo kirchnerista ate a eleicao de milei. a fonte [2] resume que o kirchnerismo governou 16 dos ultimos 20 anos e dominou a vida politica argentina por duas decadas. a direcao da fala esta correta: a centro-esquerda predominou por longo periodo. mas dizer que governou por 20 anos ininterruptos infla o tempo em cerca de 25% e omite os quatro anos de macri. a diferenca supera a margem de tolerancia, por isso o rotulo e exagerado. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-157",
@@ -17101,7 +17257,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "157 decl-157 luiz inacio lula da silva lula economia a pobreza na argentina chegou a 40% e o povo argentino estaria comendo carne de burro. na argentina a pobreza chegou a 40%, o povo esta comendo carne de burro e voce disse que quer um modelo igual ao do milei. a pobreza argentina chegou a cerca de 40% (e mais) no inicio do governo milei, mas caiu para 28,2% no fim de 2025. a carne de burro e um projeto piloto local na patagonia, nao um habito generalizado. a pobreza de fato atingiu 40% ou mais. estava em 40% quando milei foi eleito, segundo [3], e o proprio indec registrou 54,8% apos o primeiro trimestre do mandato [5]. os dados mais recentes, porem, mostram queda para 31,6% no 1º semestre de 2025 e para 28,2% no 2º semestre, o menor nivel em sete anos [1]. a fala, feita em outubro de 2026, apresenta como situacao atual um patamar que ja nao vale. quanto a carne de burro, as fontes confirmam que ela passou a ser vendida em meio a alta da carne bovina [2][4][6]. trata-se, porem, de um projeto piloto em trelew, na patagonia, vendido em um acougue e um restaurante, que virou polemica e meme nacional [2][6]. o consumo de carne bovina caiu, mas ainda era de 50 kg por habitante em 2025 [4]. dizer que 'o povo esta comendo carne de burro' generaliza um caso pontual. os elementos tem base factual, mas o enquadramento omite a queda da pobreza e transforma um piloto local em retrato do pais. enganoso enganoso"
+    "searchTokens": "157 decl-157 luiz inacio lula da silva lula economia a pobreza na argentina chegou a 40% e o povo argentino estaria comendo carne de burro. na argentina a pobreza chegou a 40%, o povo esta comendo carne de burro e voce disse que quer um modelo igual ao do milei. a pobreza argentina chegou a cerca de 40% (e mais) no inicio do governo milei, mas caiu para 28,2% no fim de 2025. a carne de burro e um projeto piloto local na patagonia, nao um habito generalizado. a pobreza de fato atingiu 40% ou mais. estava em 40% quando milei foi eleito, segundo [3], e o proprio indec registrou 54,8% apos o primeiro trimestre do mandato [5]. os dados mais recentes, porem, mostram queda para 31,6% no 1º semestre de 2025 e para 28,2% no 2º semestre, o menor nivel em sete anos [1]. a fala, feita em outubro de 2026, apresenta como situacao atual um patamar que ja nao vale. quanto a carne de burro, as fontes confirmam que ela passou a ser vendida em meio a alta da carne bovina [2][4][6]. trata-se, porem, de um projeto piloto em trelew, na patagonia, vendido em um acougue e um restaurante, que virou polemica e meme nacional [2][6]. o consumo de carne bovina caiu, mas ainda era de 50 kg por habitante em 2025 [4]. dizer que 'o povo esta comendo carne de burro' generaliza um caso pontual. os elementos tem base factual, mas o enquadramento omite a queda da pobreza e transforma um piloto local em retrato do pais. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-158",
@@ -17217,7 +17374,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "158 decl-158 luiz inacio lula da silva lula tributos e previdencia o rio grande do sul / a regiao sul e a que tem proporcionalmente mais aposentados no brasil. …o rio grande do sul, o sul do pais, e a regiao que proporcionalmente tem mais aposentados no brasil. as fontes recuperadas nao trazem a proporcao de aposentados por estado ou regiao, entao nao da para confirmar nem refutar que o rs ou o sul lidere no pais. o candidato afirmou que o rio grande do sul, ou o sul, e a regiao com proporcionalmente mais aposentados no brasil. as fontes [1], [2] e [3] tratam de aliquotas e da estrutura da previdencia dos servidores estaduais do rs. o boletim da previdencia [4] traz apenas numeros absolutos de aposentadorias concedidas no rs, sem comparar a proporcao com a populacao de outros estados. o artigo [5] diz analisar o perfil previdenciario do rs em relacao aos demais estados, mas o trecho disponivel nao apresenta o resultado. as fontes do ibge [6][7][8] falam da estrutura etaria da populacao, por exemplo que o norte concentra mais jovens, e nao informam a proporcao de aposentados por regiao. como nenhuma fonte trata diretamente desse ponto, a afirmacao nao pode ser verificada. insustentavel falso"
+    "searchTokens": "158 decl-158 luiz inacio lula da silva lula tributos e previdencia o rio grande do sul / a regiao sul e a que tem proporcionalmente mais aposentados no brasil. …o rio grande do sul, o sul do pais, e a regiao que proporcionalmente tem mais aposentados no brasil. as fontes recuperadas nao trazem a proporcao de aposentados por estado ou regiao, entao nao da para confirmar nem refutar que o rs ou o sul lidere no pais. o candidato afirmou que o rio grande do sul, ou o sul, e a regiao com proporcionalmente mais aposentados no brasil. as fontes [1], [2] e [3] tratam de aliquotas e da estrutura da previdencia dos servidores estaduais do rs. o boletim da previdencia [4] traz apenas numeros absolutos de aposentadorias concedidas no rs, sem comparar a proporcao com a populacao de outros estados. o artigo [5] diz analisar o perfil previdenciario do rs em relacao aos demais estados, mas o trecho disponivel nao apresenta o resultado. as fontes do ibge [6][7][8] falam da estrutura etaria da populacao, por exemplo que o norte concentra mais jovens, e nao informam a proporcao de aposentados por regiao. como nenhuma fonte trata diretamente desse ponto, a afirmacao nao pode ser verificada. insustentavel falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-159",
@@ -17320,7 +17478,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "159 decl-159 luiz inacio lula da silva lula programas sociais o governo do pt (lula) havia acabado com a fome no brasil em 2012. o que acontece? eu tinha acabado com a fome neste pais em 2012. enganoso. o brasil saiu do mapa da fome da fao, mas em 2014, nao em 2012. em 2010-12 a fao ainda contava 13 milhoes de subnutridos, e o ibge registrava ao menos 7,2 milhoes em inseguranca alimentar grave. o nucleo da fala tem base: o brasil deixou o mapa da fome da fao. mas a data esta errada: a saida foi anunciada em 2014, com dados de 2011-2013. em 2012 o pais ainda tinha milhoes de pessoas com fome. explicacao anterior dos modelos: a checagem do aos fatos sobre a mesma frase de lula classifica a afirmacao como falsa. segundo o ibge, ao menos 7,2 milhoes de pessoas (3,6% da populacao) estavam em inseguranca alimentar grave, categoria que corresponde a fome, e em nenhum ponto da serie iniciada em 2004 esse numero deixou de estar na casa dos milhoes [1]. o proprio relatorio sofi 2012 da fao estimava 13 milhoes de subnutridos no brasil em 2010-2012, ou 6,9% da populacao. houve uma reducao expressiva, mas nao o fim da fome [4]. a saida do brasil do mapa da fome, que exige subnutricao abaixo de 2,5%, ocorreu em 2014, nao em 2012 [2][3]. mesmo esse marco nao significa fome zero, ja que o criterio admite ate 2,5% da populacao subalimentada [2]. as fontes confirmam avancos reais no periodo, mas a afirmacao de que a fome havia acabado em 2012 e falsa. enganoso enganoso"
+    "searchTokens": "159 decl-159 luiz inacio lula da silva lula programas sociais o governo do pt (lula) havia acabado com a fome no brasil em 2012. o que acontece? eu tinha acabado com a fome neste pais em 2012. enganoso. o brasil saiu do mapa da fome da fao, mas em 2014, nao em 2012. em 2010-12 a fao ainda contava 13 milhoes de subnutridos, e o ibge registrava ao menos 7,2 milhoes em inseguranca alimentar grave. o nucleo da fala tem base: o brasil deixou o mapa da fome da fao. mas a data esta errada: a saida foi anunciada em 2014, com dados de 2011-2013. em 2012 o pais ainda tinha milhoes de pessoas com fome. explicacao anterior dos modelos: a checagem do aos fatos sobre a mesma frase de lula classifica a afirmacao como falsa. segundo o ibge, ao menos 7,2 milhoes de pessoas (3,6% da populacao) estavam em inseguranca alimentar grave, categoria que corresponde a fome, e em nenhum ponto da serie iniciada em 2004 esse numero deixou de estar na casa dos milhoes [1]. o proprio relatorio sofi 2012 da fao estimava 13 milhoes de subnutridos no brasil em 2010-2012, ou 6,9% da populacao. houve uma reducao expressiva, mas nao o fim da fome [4]. a saida do brasil do mapa da fome, que exige subnutricao abaixo de 2,5%, ocorreu em 2014, nao em 2012 [2][3]. mesmo esse marco nao significa fome zero, ja que o criterio admite ate 2,5% da populacao subalimentada [2]. as fontes confirmam avancos reais no periodo, mas a afirmacao de que a fome havia acabado em 2012 e falsa. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-160",
@@ -17421,7 +17580,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "160 decl-160 luiz inacio lula da silva lula economia os juros do credito a agricultura concedido pelo bndes, banco do brasil e caixa economica federal sao subsidiados, abaixo da taxa selic. esse juro e subsidiado, tanto pelo bndes, quanto pelo banco do brasil, quanto o dinheiro da caixa economica pra construcao civil, e subsidiado, ele sabe que e assim. verdadeiro. o credito rural do plano safra operado por bancos publicos tem juros equalizados pelo tesouro, abaixo do custo de captacao com base na selic. as fontes nao tratam do credito da caixa a construcao civil. as fontes confirmam que o credito rural oficial e subsidiado. o tesouro paga as instituicoes financeiras a equalizacao, isto e, a diferenca entre a taxa cobrada do produtor e o custo de captacao dos bancos, que tem a selic como base. isso permite juros abaixo do mercado [2][3][5]. a portaria do plano safra 2026/27 regulamenta essa equalizacao para 26 instituicoes, com r$ 97,5 bilhoes para medios e grandes produtores e r$ 44,3 bilhoes para a agricultura familiar [1]. a subvencao a agricultura empresarial subiu para r$ 5,56 bilhoes [2]. o bndes tem linhas de credito rural proprias, com custos financeiros como tlp e tfb e spreads reduzidos [4]. a fonte [4] tambem informa que o custo financeiro atrelado a selic esta suspenso nessas linhas. o trecho original tambem cita o dinheiro da caixa para a construcao civil, ponto que as fontes nao abordam. isso nao muda o nucleo da fala sobre os juros subsidiados do credito agricola. verdadeiro verdadeiro"
+    "searchTokens": "160 decl-160 luiz inacio lula da silva lula economia os juros do credito a agricultura concedido pelo bndes, banco do brasil e caixa economica federal sao subsidiados, abaixo da taxa selic. esse juro e subsidiado, tanto pelo bndes, quanto pelo banco do brasil, quanto o dinheiro da caixa economica pra construcao civil, e subsidiado, ele sabe que e assim. verdadeiro. o credito rural do plano safra operado por bancos publicos tem juros equalizados pelo tesouro, abaixo do custo de captacao com base na selic. as fontes nao tratam do credito da caixa a construcao civil. as fontes confirmam que o credito rural oficial e subsidiado. o tesouro paga as instituicoes financeiras a equalizacao, isto e, a diferenca entre a taxa cobrada do produtor e o custo de captacao dos bancos, que tem a selic como base. isso permite juros abaixo do mercado [2][3][5]. a portaria do plano safra 2026/27 regulamenta essa equalizacao para 26 instituicoes, com r$ 97,5 bilhoes para medios e grandes produtores e r$ 44,3 bilhoes para a agricultura familiar [1]. a subvencao a agricultura empresarial subiu para r$ 5,56 bilhoes [2]. o bndes tem linhas de credito rural proprias, com custos financeiros como tlp e tfb e spreads reduzidos [4]. a fonte [4] tambem informa que o custo financeiro atrelado a selic esta suspenso nessas linhas. o trecho original tambem cita o dinheiro da caixa para a construcao civil, ponto que as fontes nao abordam. isso nao muda o nucleo da fala sobre os juros subsidiados do credito agricola. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-161",
@@ -17522,7 +17682,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "161 decl-161 luiz inacio lula da silva lula economia todos os segmentos da agricultura brasileira obtiveram mais recursos e financiamento no governo lula, inclusive do bndes e do banco do brasil. nao tem um segmento da agricultura brasileira que nao tenha obtido muito mais recursos, muito mais financiamento, nao apenas do governo, mas do bndes, do banco do brasil. ele precisa saber que o juro que esses bancos pagam na agricultura nao e a taxa selic. exagerado: as fontes mostram aumento de recursos para a agricultura familiar e o plano safra, mas nao para todos os segmentos; o bndes teve alta de so 5% em 2025/26, abaixo da inflacao, e o credito rural caiu em sc. as fontes confirmam aumento de recursos em varias frentes. o plano safra da agricultura familiar passou de r$ 53 bilhoes para r$ 78 bilhoes no pronaf, alta de 47,5% [1][2]. o credito do bndes para alimentos da cesta basica subiu 41,5% [2], e os desembolsos totais do banco cresceram 17% em 2023 [5]. o plano safra empresarial chegou a r$ 516,2 bilhoes [2]. a afirmacao generalizada de que nenhum segmento deixou de obter 'muito mais' recursos, porem, nao se sustenta integralmente. a oferta do bndes para o plano safra 2025/26 cresceu so 5%, sem aumento real, porque ficou abaixo da inflacao [3]. em santa catarina, o numero de contratos de credito rural caiu 32,4% entre 2013 e 2024 [4], embora esse periodo nao coincida so com o governo lula. a direcao da fala e correta, mas o alcance ('todos os segmentos', 'muito mais') esta inflado. quanto aos juros, as fontes indicam taxas subsidiadas, de 0,5% a 14% ao ano, conforme a linha [3][1]. exagerado enganoso"
+    "searchTokens": "161 decl-161 luiz inacio lula da silva lula economia todos os segmentos da agricultura brasileira obtiveram mais recursos e financiamento no governo lula, inclusive do bndes e do banco do brasil. nao tem um segmento da agricultura brasileira que nao tenha obtido muito mais recursos, muito mais financiamento, nao apenas do governo, mas do bndes, do banco do brasil. ele precisa saber que o juro que esses bancos pagam na agricultura nao e a taxa selic. exagerado: as fontes mostram aumento de recursos para a agricultura familiar e o plano safra, mas nao para todos os segmentos; o bndes teve alta de so 5% em 2025/26, abaixo da inflacao, e o credito rural caiu em sc. as fontes confirmam aumento de recursos em varias frentes. o plano safra da agricultura familiar passou de r$ 53 bilhoes para r$ 78 bilhoes no pronaf, alta de 47,5% [1][2]. o credito do bndes para alimentos da cesta basica subiu 41,5% [2], e os desembolsos totais do banco cresceram 17% em 2023 [5]. o plano safra empresarial chegou a r$ 516,2 bilhoes [2]. a afirmacao generalizada de que nenhum segmento deixou de obter 'muito mais' recursos, porem, nao se sustenta integralmente. a oferta do bndes para o plano safra 2025/26 cresceu so 5%, sem aumento real, porque ficou abaixo da inflacao [3]. em santa catarina, o numero de contratos de credito rural caiu 32,4% entre 2013 e 2024 [4], embora esse periodo nao coincida so com o governo lula. a direcao da fala e correta, mas o alcance ('todos os segmentos', 'muito mais') esta inflado. quanto aos juros, as fontes indicam taxas subsidiadas, de 0,5% a 14% ao ano, conforme a linha [3][1]. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-162",
@@ -17628,7 +17789,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "162 decl-162 flavio bolsonaro flavio economia o governo lula contingenciou recursos do seguro rural e do plano safra, inclusive os destinados aos agricultores familiares. eu vou colocar o dinheiro la, vou sancionar a lei garantindo que esse dinheiro nao possa ser contingenciado, porque tem mais essa, voce ainda contingencia os recursos do seguro rural e do plano safra, inclusive pros agricultores familiares. verdadeiro quanto ao seguro rural: fontes mostram bloqueios e contingenciamentos do psr em 2025 e 2026 no governo lula. nao ha detalhes nas fontes sobre o plano safra ou sobre a agricultura familiar. as fontes confirmam que o governo lula contingenciou e bloqueou verbas do programa de subvencao ao premio do seguro rural. em 2025, foram r$ 445 milhoes (42% do programa), as vesperas do plano safra [2]. em 2026, o bloqueio foi de r$ 461,7 milhoes, quase metade da verba prevista [1][3][4]. houve ainda um cancelamento adicional de r$ 56,3 milhoes [6]. o nucleo da fala, o contingenciamento de recursos do seguro rural, esta correto. as fontes nao detalham cortes especificos no credito do plano safra nem na parcela destinada a agricultura familiar; esse trecho fica sem confirmacao, mas nao muda o ponto central. cabe um contexto: em 30/9/2026, lula sancionou uma lei que torna a subvencao ao seguro rural uma despesa obrigatoria e impede seu contingenciamento, limitada ao valor previsto na proposta orcamentaria [5]. a promessa do candidato, portanto, ja foi em parte adotada. a fala sobre cortes passados continua correta. verdadeiro verdadeiro"
+    "searchTokens": "162 decl-162 flavio bolsonaro flavio economia o governo lula contingenciou recursos do seguro rural e do plano safra, inclusive os destinados aos agricultores familiares. eu vou colocar o dinheiro la, vou sancionar a lei garantindo que esse dinheiro nao possa ser contingenciado, porque tem mais essa, voce ainda contingencia os recursos do seguro rural e do plano safra, inclusive pros agricultores familiares. verdadeiro quanto ao seguro rural: fontes mostram bloqueios e contingenciamentos do psr em 2025 e 2026 no governo lula. nao ha detalhes nas fontes sobre o plano safra ou sobre a agricultura familiar. as fontes confirmam que o governo lula contingenciou e bloqueou verbas do programa de subvencao ao premio do seguro rural. em 2025, foram r$ 445 milhoes (42% do programa), as vesperas do plano safra [2]. em 2026, o bloqueio foi de r$ 461,7 milhoes, quase metade da verba prevista [1][3][4]. houve ainda um cancelamento adicional de r$ 56,3 milhoes [6]. o nucleo da fala, o contingenciamento de recursos do seguro rural, esta correto. as fontes nao detalham cortes especificos no credito do plano safra nem na parcela destinada a agricultura familiar; esse trecho fica sem confirmacao, mas nao muda o ponto central. cabe um contexto: em 30/9/2026, lula sancionou uma lei que torna a subvencao ao seguro rural uma despesa obrigatoria e impede seu contingenciamento, limitada ao valor previsto na proposta orcamentaria [5]. a promessa do candidato, portanto, ja foi em parte adotada. a fala sobre cortes passados continua correta. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-163",
@@ -17736,7 +17898,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "163 decl-163 flavio bolsonaro flavio economia o juro real dos financiamentos do plano safra chega a ficar proximo de 20%. e que eles nao conseguem tomar o financiamento, dando que voce coloca no plano safra de garantia, que o juro real fica proximo de 20%. falso. as fontes mostram que os juros nominais do plano safra ficam entre 1% e 12,5% ao ano; juros reais acima de 18% aparecem so em operacoes do mercado financeiro tradicional, fora do plano safra. o candidato diz que o juro real do financiamento no plano safra fica proximo de 20%. as fontes contradizem isso. no plano safra 2026/27, as taxas da agricultura empresarial vao de 8% a 12,5% ao ano [2]. no pronaf, o custeio sai a 2% ou 1% ao ano [3]. a cnn cita taxas subsidiadas entre 3% e 6% para a agricultura familiar e entre 8% e 12% para grandes produtores [1]. o governo afirma que as taxas do plano sao mais baixas que as de mercado [4][5]. juros reais acima de 18% aparecem na cnn apenas para 'algumas operacoes no mercado financeiro tradicional' [1]. taxas de 20% a 23% aparecem em [2], mas se referem ao credito privado, nao ao plano safra. como os juros nominais do plano ficam abaixo de 12,5%, o juro real nao pode se aproximar de 20%. ha um ponto real na fala: as fontes registram dificuldade de acesso, linhas que se esgotam rapidamente e dependencia de garantias [1]. isso, porem, nao sustenta o numero atribuido ao plano safra. falso falso"
+    "searchTokens": "163 decl-163 flavio bolsonaro flavio economia o juro real dos financiamentos do plano safra chega a ficar proximo de 20%. e que eles nao conseguem tomar o financiamento, dando que voce coloca no plano safra de garantia, que o juro real fica proximo de 20%. falso. as fontes mostram que os juros nominais do plano safra ficam entre 1% e 12,5% ao ano; juros reais acima de 18% aparecem so em operacoes do mercado financeiro tradicional, fora do plano safra. o candidato diz que o juro real do financiamento no plano safra fica proximo de 20%. as fontes contradizem isso. no plano safra 2026/27, as taxas da agricultura empresarial vao de 8% a 12,5% ao ano [2]. no pronaf, o custeio sai a 2% ou 1% ao ano [3]. a cnn cita taxas subsidiadas entre 3% e 6% para a agricultura familiar e entre 8% e 12% para grandes produtores [1]. o governo afirma que as taxas do plano sao mais baixas que as de mercado [4][5]. juros reais acima de 18% aparecem na cnn apenas para 'algumas operacoes no mercado financeiro tradicional' [1]. taxas de 20% a 23% aparecem em [2], mas se referem ao credito privado, nao ao plano safra. como os juros nominais do plano ficam abaixo de 12,5%, o juro real nao pode se aproximar de 20%. ha um ponto real na fala: as fontes registram dificuldade de acesso, linhas que se esgotam rapidamente e dependencia de garantias [1]. isso, porem, nao sustenta o numero atribuido ao plano safra. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-164",
@@ -17842,7 +18005,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "164 decl-164 flavio bolsonaro flavio outros flavio bolsonaro e advogado, empresario e pos-graduado em politicas publicas e governo e em empreendedorismo e novos negocios. eu sou advogado, sou empresario, sou pos-graduado em politicas publicas e governo, sou pos-graduado em empreendedorismo e novos negocios. eu sei como administrar o brasil e eu sei que o brasil escolheu a mudanca. verdadeiro. fontes confirmam formacao em direito, atuacao como empresario, especializacao em politicas publicas (iuperj) e mba em empreendedorismo (fgv); diplomas foram apresentados ao g1. o g1 informa que a assessoria de flavio enviou diplomas digitalizados que mostram a formacao em direito (2006), a especializacao em politicas publicas (2012) e o mba em empreendedorismo (2015) [1]. as biografias do senado e do site oficial o descrevem como advogado e empresario, com especializacoes em politicas publicas pelo iuperj e em empreendedorismo pela fgv [2][3][4][6]. a polemica de agosto de 2026 tratou de uma pos em ciencias politicas na ufrj que ele nao fez [1][5], mas esse curso nao foi citado no debate. a wikipedia registra ainda que, ate 2022, nao havia processos em que ele tenha atuado como advogado [6], mas ele tem inscricao valida na oab, o que nao invalida o titulo. os nomes exatos dos cursos (\"politicas publicas e governo\" e \"empreendedorismo e novos negocios\") nao aparecem nas fontes, e a area de empreendedorismo e um mba, uma imprecisao que nao muda o ponto central. verdadeiro verdadeiro"
+    "searchTokens": "164 decl-164 flavio bolsonaro flavio outros flavio bolsonaro e advogado, empresario e pos-graduado em politicas publicas e governo e em empreendedorismo e novos negocios. eu sou advogado, sou empresario, sou pos-graduado em politicas publicas e governo, sou pos-graduado em empreendedorismo e novos negocios. eu sei como administrar o brasil e eu sei que o brasil escolheu a mudanca. verdadeiro. fontes confirmam formacao em direito, atuacao como empresario, especializacao em politicas publicas (iuperj) e mba em empreendedorismo (fgv); diplomas foram apresentados ao g1. o g1 informa que a assessoria de flavio enviou diplomas digitalizados que mostram a formacao em direito (2006), a especializacao em politicas publicas (2012) e o mba em empreendedorismo (2015) [1]. as biografias do senado e do site oficial o descrevem como advogado e empresario, com especializacoes em politicas publicas pelo iuperj e em empreendedorismo pela fgv [2][3][4][6]. a polemica de agosto de 2026 tratou de uma pos em ciencias politicas na ufrj que ele nao fez [1][5], mas esse curso nao foi citado no debate. a wikipedia registra ainda que, ate 2022, nao havia processos em que ele tenha atuado como advogado [6], mas ele tem inscricao valida na oab, o que nao invalida o titulo. os nomes exatos dos cursos (\"politicas publicas e governo\" e \"empreendedorismo e novos negocios\") nao aparecem nas fontes, e a area de empreendedorismo e um mba, uma imprecisao que nao muda o ponto central. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-165",
@@ -17953,7 +18117,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "165 decl-165 flavio bolsonaro flavio instituicoes e eleicoes flavio bolsonaro afirma ter sido eleito deputado quatro vezes e ser senador da republica. eu, com muito orgulho, tenho 45 anos de idade, fui deputado quatro vezes, sou senador da republica, quatro anos tomando decisoes direta ou indiretamente junto com o presidente jair bolsonaro. verdadeiro. flavio bolsonaro exerceu quatro mandatos consecutivos de deputado estadual no rj (2003-2019) e e senador desde 2019. nascido em 1981, tem 45 anos. as fontes confirmam que flavio bolsonaro foi eleito deputado estadual em 2002 e exerceu quatro mandatos consecutivos na alerj, de 2003 a 2019 [1][2][7][4][6]. em 2018 foi eleito senador pelo rio de janeiro com mais de 4 milhoes de votos e esta no cargo desde 1º de fevereiro de 2019 [2][3][4]. a data de nascimento, 30/04/1981 [3][5], confirma que ele tinha 45 anos em outubro de 2026. a mencao a decisoes tomadas junto com o presidente jair bolsonaro e uma avaliacao subjetiva e nao altera o nucleo verificavel da fala. verdadeiro verdadeiro"
+    "searchTokens": "165 decl-165 flavio bolsonaro flavio instituicoes e eleicoes flavio bolsonaro afirma ter sido eleito deputado quatro vezes e ser senador da republica. eu, com muito orgulho, tenho 45 anos de idade, fui deputado quatro vezes, sou senador da republica, quatro anos tomando decisoes direta ou indiretamente junto com o presidente jair bolsonaro. verdadeiro. flavio bolsonaro exerceu quatro mandatos consecutivos de deputado estadual no rj (2003-2019) e e senador desde 2019. nascido em 1981, tem 45 anos. as fontes confirmam que flavio bolsonaro foi eleito deputado estadual em 2002 e exerceu quatro mandatos consecutivos na alerj, de 2003 a 2019 [1][2][7][4][6]. em 2018 foi eleito senador pelo rio de janeiro com mais de 4 milhoes de votos e esta no cargo desde 1º de fevereiro de 2019 [2][3][4]. a data de nascimento, 30/04/1981 [3][5], confirma que ele tinha 45 anos em outubro de 2026. a mencao a decisoes tomadas junto com o presidente jair bolsonaro e uma avaliacao subjetiva e nao altera o nucleo verificavel da fala. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-166",
@@ -18061,7 +18226,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "166 decl-166 luiz inacio lula da silva lula economia o governo lula abriu cerca de 700 novos mercados para exportacao e aumentou exportacoes em 57 paises, uma media de 10,5. abrimos 700 novos mercados nesse pais e aumentamos em 57 paises uma media de 10,5. verdadeiro. o governo anunciou 700 aberturas de mercado para produtos agropecuarios desde 2023, e o ministro do mdic citou alta media de 10,5% no comercio exterior. fala imprecisa: os mercados sao agro e os '57 paises' nao aparecem nas o ministerio da agricultura e a imprensa registram a marca de 700 novos mercados abertos para produtos agropecuarios desde o inicio de 2023 [1][2][3][4]. esses mercados estao distribuidos em 99 destinos [4]. uma abertura de mercado e uma autorizacao sanitaria para um produto em um pais, e nao um pais novo [5]. a fala 'nesse pais' e coloquial e nao altera o numero. o dado de 10,5% tambem tem base nas fontes: no mesmo evento, o ministro marcio elias rosa disse que o comercio exterior avancou em media 10,5% [2][4]. as fontes nao mencionam os '57 paises', mas esse detalhe e secundario e nao muda o nucleo da afirmacao, que e confirmado. verdadeiro verdadeiro"
+    "searchTokens": "166 decl-166 luiz inacio lula da silva lula economia o governo lula abriu cerca de 700 novos mercados para exportacao e aumentou exportacoes em 57 paises, uma media de 10,5. abrimos 700 novos mercados nesse pais e aumentamos em 57 paises uma media de 10,5. verdadeiro. o governo anunciou 700 aberturas de mercado para produtos agropecuarios desde 2023, e o ministro do mdic citou alta media de 10,5% no comercio exterior. fala imprecisa: os mercados sao agro e os '57 paises' nao aparecem nas o ministerio da agricultura e a imprensa registram a marca de 700 novos mercados abertos para produtos agropecuarios desde o inicio de 2023 [1][2][3][4]. esses mercados estao distribuidos em 99 destinos [4]. uma abertura de mercado e uma autorizacao sanitaria para um produto em um pais, e nao um pais novo [5]. a fala 'nesse pais' e coloquial e nao altera o numero. o dado de 10,5% tambem tem base nas fontes: no mesmo evento, o ministro marcio elias rosa disse que o comercio exterior avancou em media 10,5% [2][4]. as fontes nao mencionam os '57 paises', mas esse detalhe e secundario e nao muda o nucleo da afirmacao, que e confirmado. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-167",
@@ -18162,7 +18328,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "167 decl-167 luiz inacio lula da silva lula economia as exportacoes do brasil atingiram recorde historico durante o atual governo lula. entao e o seguinte: nunca se exportou tanto nesse pais. e por isso que quando o meu adversario ficou lambendo o trump pra taxar o brasil, eu nao fiquei preocupado. verdadeiro. em 2025 as exportacoes brasileiras bateram recorde historico (us$ 348,7 bi), superando o recorde de 2023, tambem no governo lula, mesmo com o tarifaco dos eua. segundo dados da secex/mdic divulgados em janeiro de 2026, o brasil exportou us$ 348,7 bilhoes em 2025, recorde da serie historica. o valor ficou us$ 9 bilhoes acima do recorde anterior, de 2023, e 3,5% acima de 2024 [1][2][3]. isso ocorreu mesmo com o tarifaco americano: as vendas para os eua cairam 6,6% no ano [2][3]. em 2026 os dados parciais seguem em alta. ate a 3ª semana de outubro, as exportacoes do mes cresceram 33,5% em relacao a outubro de 2025 [4]. o agronegocio teve o maior valor ja registrado para o periodo de janeiro a abril [5]. a frase \"nunca se exportou tanto\" esta, portanto, de acordo com as fontes. nao ha dado fechado de 2026 nas fontes, mas o recorde de 2025 ja confirma o nucleo da fala. a parte sobre o adversario e trump e retorica e nao e avaliada aqui. verdadeiro verdadeiro"
+    "searchTokens": "167 decl-167 luiz inacio lula da silva lula economia as exportacoes do brasil atingiram recorde historico durante o atual governo lula. entao e o seguinte: nunca se exportou tanto nesse pais. e por isso que quando o meu adversario ficou lambendo o trump pra taxar o brasil, eu nao fiquei preocupado. verdadeiro. em 2025 as exportacoes brasileiras bateram recorde historico (us$ 348,7 bi), superando o recorde de 2023, tambem no governo lula, mesmo com o tarifaco dos eua. segundo dados da secex/mdic divulgados em janeiro de 2026, o brasil exportou us$ 348,7 bilhoes em 2025, recorde da serie historica. o valor ficou us$ 9 bilhoes acima do recorde anterior, de 2023, e 3,5% acima de 2024 [1][2][3]. isso ocorreu mesmo com o tarifaco americano: as vendas para os eua cairam 6,6% no ano [2][3]. em 2026 os dados parciais seguem em alta. ate a 3ª semana de outubro, as exportacoes do mes cresceram 33,5% em relacao a outubro de 2025 [4]. o agronegocio teve o maior valor ja registrado para o periodo de janeiro a abril [5]. a frase \"nunca se exportou tanto\" esta, portanto, de acordo com as fontes. nao ha dado fechado de 2026 nas fontes, mas o recorde de 2025 ja confirma o nucleo da fala. a parte sobre o adversario e trump e retorica e nao e avaliada aqui. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-168",
@@ -18275,7 +18442,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "168 decl-168 flavio bolsonaro flavio economia lula chamou o agronegocio de fascista. lula, por que voce chama o agro de fascista? lula de fato usou o termo \"fascista\" ao falar do agro no jn em 2022, mas se referia a uma parcela do setor, e nao ao agronegocio como um todo, como sugere a pergunta. na entrevista ao jornal nacional, em agosto de 2022, lula disse que parte do agronegocio e \"fascista e direitista\" e se opoe as politicas ambientais [2][5]. na mesma fala, ele ressalvou que os \"empresarios serios\" que exportam nao querem desmatar [2][5]. valor e folha tambem descrevem a fala como dirigida a uma parcela do setor [3][4][6]. segundo o aos fatos, posts que apresentaram a declaracao como dirigida a todo o agro distorceram a fala, e um deles circulou no canal do proprio flavio bolsonaro [1]. ha uma divergencia de leitura: o aliado carlos augustin disse que lula \"generalizou\" e deveria se desculpar, e entidades do setor se sentiram ofendidas [6][4]. ainda assim, o termo existiu, mas a pergunta \"por que voce chama o agro de fascista\" omite que a fala se restringia a uma ala do setor e leva o eleitor a uma conclusao incorreta. enganoso enganoso"
+    "searchTokens": "168 decl-168 flavio bolsonaro flavio economia lula chamou o agronegocio de fascista. lula, por que voce chama o agro de fascista? lula de fato usou o termo \"fascista\" ao falar do agro no jn em 2022, mas se referia a uma parcela do setor, e nao ao agronegocio como um todo, como sugere a pergunta. na entrevista ao jornal nacional, em agosto de 2022, lula disse que parte do agronegocio e \"fascista e direitista\" e se opoe as politicas ambientais [2][5]. na mesma fala, ele ressalvou que os \"empresarios serios\" que exportam nao querem desmatar [2][5]. valor e folha tambem descrevem a fala como dirigida a uma parcela do setor [3][4][6]. segundo o aos fatos, posts que apresentaram a declaracao como dirigida a todo o agro distorceram a fala, e um deles circulou no canal do proprio flavio bolsonaro [1]. ha uma divergencia de leitura: o aliado carlos augustin disse que lula \"generalizou\" e deveria se desculpar, e entidades do setor se sentiram ofendidas [6][4]. ainda assim, o termo existiu, mas a pergunta \"por que voce chama o agro de fascista\" omite que a fala se restringia a uma ala do setor e leva o eleitor a uma conclusao incorreta. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-169",
@@ -18386,7 +18554,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "169 decl-169 flavio bolsonaro flavio outros lula disse que as pessoas que produzem alimentos (o agronegocio) tem que se ajoelhar aos seus pes. diz que as pessoas tem que se ajoelhar aos seus pes? verdadeiro. em comicio em florianopolis, em 19 de setembro, lula disse que o agro, pelo dinheiro recebido do governo, deveria \"nao so votar, mas se ajoelhar\" para ele. a fala foi condicional, mas o nucleo da frase confere. folha [1], gazeta do povo [2] e cnn brasil [3] registram a declaracao feita por lula em comicio em florianopolis no dia 19. a frase foi: \"se dependesse de dinheiro do governo, eles deveriam nao so votar, mas se ajoelhar pra mim\". o sujeito era o agronegocio [1][2][6]. entidades do setor, como a faep, reagiram a fala [4][2][7]. a citacao de flavio resume a frase de forma coloquial e omite o contexto condicional: lula cobrava reconhecimento pelos recursos destinados ao setor [5]. esse contexto nao muda o fato central de que lula disse que o agro deveria se ajoelhar a ele. verdadeiro verdadeiro"
+    "searchTokens": "169 decl-169 flavio bolsonaro flavio outros lula disse que as pessoas que produzem alimentos (o agronegocio) tem que se ajoelhar aos seus pes. diz que as pessoas tem que se ajoelhar aos seus pes? verdadeiro. em comicio em florianopolis, em 19 de setembro, lula disse que o agro, pelo dinheiro recebido do governo, deveria \"nao so votar, mas se ajoelhar\" para ele. a fala foi condicional, mas o nucleo da frase confere. folha [1], gazeta do povo [2] e cnn brasil [3] registram a declaracao feita por lula em comicio em florianopolis no dia 19. a frase foi: \"se dependesse de dinheiro do governo, eles deveriam nao so votar, mas se ajoelhar pra mim\". o sujeito era o agronegocio [1][2][6]. entidades do setor, como a faep, reagiram a fala [4][2][7]. a citacao de flavio resume a frase de forma coloquial e omite o contexto condicional: lula cobrava reconhecimento pelos recursos destinados ao setor [5]. esse contexto nao muda o fato central de que lula disse que o agro deveria se ajoelhar a ele. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-170",
@@ -18484,7 +18653,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "170 decl-170 flavio bolsonaro flavio economia a regiao centro-oeste e a regiao que mais produz alimentos no brasil. a regiao centro-oeste e a regiao que mais produz alimentos no nosso brasil. verdadeiro. o centro-oeste lidera a producao de graos no pais (48,9% da safra estimada para 2026, segundo o ibge) e tambem a de soja e carne bovina. segundo o ibge, citado em [1], o centro-oeste manteve a lideranca na producao nacional de graos, com estimativa de 167,5 milhoes de toneladas em 2026, o equivalente a 48,9% do total. em seguida vem o sul (27,8%), o sudeste (8,8%), o nordeste (8,2%) e o norte (6,3%). o estudo da unicamp [2] aponta que a regiao tem a maior producao de soja e de carne bovina do pais e ocupa posicao de lideranca na producao agropecuaria. o levantamento da usp [3] tambem indica a maior producao de alimentos do pais nesses estados, mas usa um 'centro-oeste expandido', que inclui acre, rondonia e tocantins. uma ressalva: parte da soja e do milho e exportada ou vira racao, e as fontes medem principalmente graos e carne, nao todos os alimentos. ainda assim, nenhuma fonte contradiz a lideranca da regiao, e o nucleo da fala se sustenta. verdadeiro verdadeiro"
+    "searchTokens": "170 decl-170 flavio bolsonaro flavio economia a regiao centro-oeste e a regiao que mais produz alimentos no brasil. a regiao centro-oeste e a regiao que mais produz alimentos no nosso brasil. verdadeiro. o centro-oeste lidera a producao de graos no pais (48,9% da safra estimada para 2026, segundo o ibge) e tambem a de soja e carne bovina. segundo o ibge, citado em [1], o centro-oeste manteve a lideranca na producao nacional de graos, com estimativa de 167,5 milhoes de toneladas em 2026, o equivalente a 48,9% do total. em seguida vem o sul (27,8%), o sudeste (8,8%), o nordeste (8,2%) e o norte (6,3%). o estudo da unicamp [2] aponta que a regiao tem a maior producao de soja e de carne bovina do pais e ocupa posicao de lideranca na producao agropecuaria. o levantamento da usp [3] tambem indica a maior producao de alimentos do pais nesses estados, mas usa um 'centro-oeste expandido', que inclui acre, rondonia e tocantins. uma ressalva: parte da soja e do milho e exportada ou vira racao, e as fontes medem principalmente graos e carne, nao todos os alimentos. ainda assim, nenhuma fonte contradiz a lideranca da regiao, e o nucleo da fala se sustenta. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-171",
@@ -18500,7 +18670,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-warn",
     "verdictBadge": "ENGANOSO",
-    "normalizedVerdict": "enganoso",
+    "normalizedVerdict": "falso",
     "quote": "…Uma caixa de ovo, uma dúzia de ovos com 10 ovos. A dúzia virou 10.",
     "theFact": "Afirmação apurada: Supermercados passaram a vender caixas de ovos com dez unidades no lugar da dúzia durante o governo Lula.. Caixas de 10 ovos existem, mas a troca da dúzia já era registrada em 2022, no governo Bolsonaro, como herança da pandemia. Atribuí-la ao governo Lula é enganoso. O fato de supermercados venderem caixas com 10 ovos no lugar da dúzia é confirmado pelas fontes [2][4]. Porém o Procon de Santo André já alertava em junho de 2022, durante o governo Jair Bolsonaro, que 'a caixa de ovos, que costumava ter 12 unidades, agora tem dez' [1]. Um post no Reddit de 2022 relata o mesmo [3]. A Band RN descreve a redução como herança da pandemia de Covid-19 [4]. Segundo a Rádio Pampa, Flávio associou a reduflação à política econômica do PT [5]. O economista André Braz, da FGV Ibre, afirma que mudar o tamanho da embalagem é uma decisão das empresas, embora a política econômica influencie os custos [5]. O fato descrito é real, mas o contexto da fala leva o eleitor a concluir que a mudança começou no governo Lula, o que as fontes contradizem.",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em economia e análise de relatórios probatórios.",
@@ -18592,7 +18762,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "171 decl-171 flavio bolsonaro flavio economia supermercados passaram a vender caixas de ovos com dez unidades no lugar da duzia durante o governo lula. …uma caixa de ovo, uma duzia de ovos com 10 ovos. a duzia virou 10. caixas de 10 ovos existem, mas a troca da duzia ja era registrada em 2022, no governo bolsonaro, como heranca da pandemia. atribui-la ao governo lula e enganoso. o fato de supermercados venderem caixas com 10 ovos no lugar da duzia e confirmado pelas fontes [2][4]. porem o procon de santo andre ja alertava em junho de 2022, durante o governo jair bolsonaro, que 'a caixa de ovos, que costumava ter 12 unidades, agora tem dez' [1]. um post no reddit de 2022 relata o mesmo [3]. a band rn descreve a reducao como heranca da pandemia de covid-19 [4]. segundo a radio pampa, flavio associou a reduflacao a politica economica do pt [5]. o economista andre braz, da fgv ibre, afirma que mudar o tamanho da embalagem e uma decisao das empresas, embora a politica economica influencie os custos [5]. o fato descrito e real, mas o contexto da fala leva o eleitor a concluir que a mudanca comecou no governo lula, o que as fontes contradizem. enganoso enganoso"
+    "searchTokens": "171 decl-171 flavio bolsonaro flavio economia supermercados passaram a vender caixas de ovos com dez unidades no lugar da duzia durante o governo lula. …uma caixa de ovo, uma duzia de ovos com 10 ovos. a duzia virou 10. caixas de 10 ovos existem, mas a troca da duzia ja era registrada em 2022, no governo bolsonaro, como heranca da pandemia. atribui-la ao governo lula e enganoso. o fato de supermercados venderem caixas com 10 ovos no lugar da duzia e confirmado pelas fontes [2][4]. porem o procon de santo andre ja alertava em junho de 2022, durante o governo jair bolsonaro, que 'a caixa de ovos, que costumava ter 12 unidades, agora tem dez' [1]. um post no reddit de 2022 relata o mesmo [3]. a band rn descreve a reducao como heranca da pandemia de covid-19 [4]. segundo a radio pampa, flavio associou a reduflacao a politica economica do pt [5]. o economista andre braz, da fgv ibre, afirma que mudar o tamanho da embalagem e uma decisao das empresas, embora a politica economica influencie os custos [5]. o fato descrito e real, mas o contexto da fala leva o eleitor a concluir que a mudanca comecou no governo lula, o que as fontes contradizem. enganoso enganoso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-172",
@@ -18608,7 +18779,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-warn",
     "verdictBadge": "ENGANOSO",
-    "normalizedVerdict": "enganoso",
+    "normalizedVerdict": "verdadeiro",
     "quote": "Nós temos uma das maiores taxas de juros do mundo. É a mesma taxa que reajusta a sua dívida. Sim, a dívida que você está devendo pro banco é atrelada a essa taxa de juro oficial.",
     "theFact": "Afirmação apurada: O Brasil tem uma das maiores taxas de juros do mundo, e as dívidas bancárias das pessoas são atreladas à taxa de juros oficial (Selic).. É verdade que o Brasil tem um dos maiores juros do mundo (maior juro real). Mas dizer que a dívida bancária é atrelada à Selic distorce: a Selic baliza o crédito, e as taxas cobradas são bem maiores. A primeira parte da fala é confirmada. Em setembro de 2026, o Brasil tinha o maior juro real do mundo (8,45%), com a Selic em 13,75% [1]. Em dezembro de 2025, o país aparecia em 2º no juro real e em 4º no juro nominal [3]. A BBC também aponta o Brasil como campeão em juro real [2]. A segunda parte é imprecisa. As fontes descrevem uma relação direta entre a Selic e os juros cobrados pelos bancos [4], e dizem que a Selic 'baliza' os juros no país [2][5]. Mas os brasileiros pagam o juro praticado pelo mercado, que é mais alto que a taxa básica [2]. O cheque especial chegava a 134,6% ao ano e o cartão de crédito a 88,5%, muito acima da Selic de 13,75% na época [4]. Dizer que 'é a mesma taxa que reajusta a sua dívida' induz o eleitor a crer que a dívida bancária é corrigida pela Selic. Na verdade, a Selic é uma referência que influencia o custo do crédito, que inclui spread, inadimplência e risco [4][5]. Por isso, o fato de fundo é correto, mas o enquadramento é enganoso.",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em economia e análise de relatórios probatórios.",
@@ -18706,7 +18877,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "172 decl-172 flavio bolsonaro flavio economia o brasil tem uma das maiores taxas de juros do mundo, e as dividas bancarias das pessoas sao atreladas a taxa de juros oficial (selic). nos temos uma das maiores taxas de juros do mundo. e a mesma taxa que reajusta a sua divida. sim, a divida que voce esta devendo pro banco e atrelada a essa taxa de juro oficial. e verdade que o brasil tem um dos maiores juros do mundo (maior juro real). mas dizer que a divida bancaria e atrelada a selic distorce: a selic baliza o credito, e as taxas cobradas sao bem maiores. a primeira parte da fala e confirmada. em setembro de 2026, o brasil tinha o maior juro real do mundo (8,45%), com a selic em 13,75% [1]. em dezembro de 2025, o pais aparecia em 2º no juro real e em 4º no juro nominal [3]. a bbc tambem aponta o brasil como campeao em juro real [2]. a segunda parte e imprecisa. as fontes descrevem uma relacao direta entre a selic e os juros cobrados pelos bancos [4], e dizem que a selic 'baliza' os juros no pais [2][5]. mas os brasileiros pagam o juro praticado pelo mercado, que e mais alto que a taxa basica [2]. o cheque especial chegava a 134,6% ao ano e o cartao de credito a 88,5%, muito acima da selic de 13,75% na epoca [4]. dizer que 'e a mesma taxa que reajusta a sua divida' induz o eleitor a crer que a divida bancaria e corrigida pela selic. na verdade, a selic e uma referencia que influencia o custo do credito, que inclui spread, inadimplencia e risco [4][5]. por isso, o fato de fundo e correto, mas o enquadramento e enganoso. enganoso enganoso"
+    "searchTokens": "172 decl-172 flavio bolsonaro flavio economia o brasil tem uma das maiores taxas de juros do mundo, e as dividas bancarias das pessoas sao atreladas a taxa de juros oficial (selic). nos temos uma das maiores taxas de juros do mundo. e a mesma taxa que reajusta a sua divida. sim, a divida que voce esta devendo pro banco e atrelada a essa taxa de juro oficial. e verdade que o brasil tem um dos maiores juros do mundo (maior juro real). mas dizer que a divida bancaria e atrelada a selic distorce: a selic baliza o credito, e as taxas cobradas sao bem maiores. a primeira parte da fala e confirmada. em setembro de 2026, o brasil tinha o maior juro real do mundo (8,45%), com a selic em 13,75% [1]. em dezembro de 2025, o pais aparecia em 2º no juro real e em 4º no juro nominal [3]. a bbc tambem aponta o brasil como campeao em juro real [2]. a segunda parte e imprecisa. as fontes descrevem uma relacao direta entre a selic e os juros cobrados pelos bancos [4], e dizem que a selic 'baliza' os juros no pais [2][5]. mas os brasileiros pagam o juro praticado pelo mercado, que e mais alto que a taxa basica [2]. o cheque especial chegava a 134,6% ao ano e o cartao de credito a 88,5%, muito acima da selic de 13,75% na epoca [4]. dizer que 'e a mesma taxa que reajusta a sua divida' induz o eleitor a crer que a divida bancaria e corrigida pela selic. na verdade, a selic e uma referencia que influencia o custo do credito, que inclui spread, inadimplencia e risco [4][5]. por isso, o fato de fundo e correto, mas o enquadramento e enganoso. enganoso enganoso",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-173",
@@ -18802,7 +18974,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "173 decl-173 flavio bolsonaro flavio economia a inflacao aumentou fortemente no brasil durante o governo lula. a inflacao chegou com toda a forca. enganoso. houve alta pontual da inflacao, sobretudo de alimentos no inicio de 2025, mas a media anual no governo lula (4,8%) e menor que a do governo anterior, e o ipca em 12 meses esta em 4,58% em set/2026. a bloomberg registrou em marco de 2025 que a inflacao brasileira teve o maior salto desde 2022, com alta forte de carne, cafe e ovos [2]. ha, portanto, base para dizer que houve um surto inflacionario durante o governo lula. mas a ideia de que a inflacao 'chegou com toda a forca' no governo nao se sustenta no conjunto do periodo. segundo a gzh, a media anual de inflacao nos dois primeiros anos de lula foi de cerca de 4,8%, contra 6,3% a 6,7% no governo bolsonaro, que teve inflacao de dois digitos em 2021 [3]. em 2024 houve ate deflacao em agosto, e o acumulado do ano ate entao era de 2,85% [4]. pelo ibge, o ipca acumulado em 12 meses estava em 4,58% em setembro de 2026 [1]. esse nivel e moderado, embora o dado mensal de 0,82% seja elevado. a fala, portanto, generaliza um pico pontual e omite que a inflacao do periodo e inferior a do governo anterior. isso leva o eleitor a uma conclusao distorcida. enganoso enganoso"
+    "searchTokens": "173 decl-173 flavio bolsonaro flavio economia a inflacao aumentou fortemente no brasil durante o governo lula. a inflacao chegou com toda a forca. enganoso. houve alta pontual da inflacao, sobretudo de alimentos no inicio de 2025, mas a media anual no governo lula (4,8%) e menor que a do governo anterior, e o ipca em 12 meses esta em 4,58% em set/2026. a bloomberg registrou em marco de 2025 que a inflacao brasileira teve o maior salto desde 2022, com alta forte de carne, cafe e ovos [2]. ha, portanto, base para dizer que houve um surto inflacionario durante o governo lula. mas a ideia de que a inflacao 'chegou com toda a forca' no governo nao se sustenta no conjunto do periodo. segundo a gzh, a media anual de inflacao nos dois primeiros anos de lula foi de cerca de 4,8%, contra 6,3% a 6,7% no governo bolsonaro, que teve inflacao de dois digitos em 2021 [3]. em 2024 houve ate deflacao em agosto, e o acumulado do ano ate entao era de 2,85% [4]. pelo ibge, o ipca acumulado em 12 meses estava em 4,58% em setembro de 2026 [1]. esse nivel e moderado, embora o dado mensal de 0,82% seja elevado. a fala, portanto, generaliza um pico pontual e omite que a inflacao do periodo e inferior a do governo anterior. isso leva o eleitor a uma conclusao distorcida. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-174",
@@ -18818,7 +18991,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "Na época do presidente Bolsonaro, você tinha lá os seus R$ 600 do Bolsa Família, que foi o Bolsonaro que deu no mínimo.",
     "theFact": "Afirmação apurada: No governo Jair Bolsonaro, o benefício mínimo do Bolsa Família (Auxílio Brasil) passou a ser de 600 reais.. Verdadeiro. No governo Bolsonaro, o mínimo do Auxílio Brasil subiu de R$ 400 para R$ 600 via EC 123/2022, mas só até dezembro de 2022. O nome do programa na época era Auxílio Brasil, não Bolsa Família. Bolsonaro anunciou em junho de 2022 a elevação do valor mínimo do Auxílio Brasil de R$ 400 para R$ 600 [1]. A Emenda Constitucional 123, promulgada em julho de 2022, autorizou o aumento [2][3]. A Wikipédia também registra R$ 600 como valor do Auxílio Brasil até dezembro de 2022 [4]. O núcleo da fala, portanto, está correto. Há duas ressalvas. Primeiro, o valor era temporário: valia só até o fim de 2022 e não estava previsto no orçamento de 2023 [2][5]. Segundo, sua manutenção a partir de 2023 dependeu da PEC da Transição, aprovada a pedido do governo Lula [5][6]. Além disso, o programa na época se chamava Auxílio Brasil, troca de nome que não muda o ponto central.",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em programas sociais e análise de relatórios probatórios.",
@@ -18921,7 +19094,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "174 decl-174 flavio bolsonaro flavio programas sociais no governo jair bolsonaro, o beneficio minimo do bolsa familia (auxilio brasil) passou a ser de 600 reais. na epoca do presidente bolsonaro, voce tinha la os seus r$ 600 do bolsa familia, que foi o bolsonaro que deu no minimo. verdadeiro. no governo bolsonaro, o minimo do auxilio brasil subiu de r$ 400 para r$ 600 via ec 123/2022, mas so ate dezembro de 2022. o nome do programa na epoca era auxilio brasil, nao bolsa familia. bolsonaro anunciou em junho de 2022 a elevacao do valor minimo do auxilio brasil de r$ 400 para r$ 600 [1]. a emenda constitucional 123, promulgada em julho de 2022, autorizou o aumento [2][3]. a wikipedia tambem registra r$ 600 como valor do auxilio brasil ate dezembro de 2022 [4]. o nucleo da fala, portanto, esta correto. ha duas ressalvas. primeiro, o valor era temporario: valia so ate o fim de 2022 e nao estava previsto no orcamento de 2023 [2][5]. segundo, sua manutencao a partir de 2023 dependeu da pec da transicao, aprovada a pedido do governo lula [5][6]. alem disso, o programa na epoca se chamava auxilio brasil, troca de nome que nao muda o ponto central. verdadeiro verdadeiro"
+    "searchTokens": "174 decl-174 flavio bolsonaro flavio programas sociais no governo jair bolsonaro, o beneficio minimo do bolsa familia (auxilio brasil) passou a ser de 600 reais. na epoca do presidente bolsonaro, voce tinha la os seus r$ 600 do bolsa familia, que foi o bolsonaro que deu no minimo. verdadeiro. no governo bolsonaro, o minimo do auxilio brasil subiu de r$ 400 para r$ 600 via ec 123/2022, mas so ate dezembro de 2022. o nome do programa na epoca era auxilio brasil, nao bolsa familia. bolsonaro anunciou em junho de 2022 a elevacao do valor minimo do auxilio brasil de r$ 400 para r$ 600 [1]. a emenda constitucional 123, promulgada em julho de 2022, autorizou o aumento [2][3]. a wikipedia tambem registra r$ 600 como valor do auxilio brasil ate dezembro de 2022 [4]. o nucleo da fala, portanto, esta correto. ha duas ressalvas. primeiro, o valor era temporario: valia so ate o fim de 2022 e nao estava previsto no orcamento de 2023 [2][5]. segundo, sua manutencao a partir de 2023 dependeu da pec da transicao, aprovada a pedido do governo lula [5][6]. alem disso, o programa na epoca se chamava auxilio brasil, troca de nome que nao muda o ponto central. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-175",
@@ -19027,7 +19201,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "175 decl-175 flavio bolsonaro flavio tributos e previdencia estima-se que a aliquota do iva criado pela reforma tributaria, a ser cobrado a partir do ano que vem, seja de 28%. ate agora, com a reforma tributaria, ninguem sabe quanto vai ser o valor do imposto de valor agregado, o iva, que e o novo imposto que ele vai comecar a cobrar a partir do ano que vem. estima-se que seja de 28%. a estimativa de cerca de 28% existe, mas vale para 2033, com a tributacao cheia. em 2027 so a cbs sera cobrada integralmente e o ibs tera aliquota de 0,1%, entao 28% nao sera cobrado a partir do ano que vem. varias fontes confirmam que a aliquota de referencia somada da cbs e do ibs e estimada em cerca de 28%. a projecao foi feita por bernard appy [1][4] e pelo comite gestor do ibs [2], e tambem aparece em [5] e [6]. a cobranca efetiva comeca em 2027 [3], o que bate com 'a partir do ano que vem'. porem, a fala da a entender que um imposto de 28% passara a ser cobrado ja no proximo ano, e isso nao procede. segundo as fontes, os 28% se referem a 2033, o primeiro ano de tributacao cheia [2][3]. em 2027, a cbs tera aliquota cheia, mas o ibs sera de apenas 0,1% em 2027 e 2028 e subira gradualmente ate 2032 [3]. a transicao so termina em 2033 [1]. a afirmacao de que 'ninguem sabe' o valor tem algum fundamento: a aliquota da cbs ainda sera fixada por resolucao do senado em dezembro [3], e a aliquota legal depende de definicao futura [4]. ainda assim, ao ligar os 28% ao inicio da cobranca, a fala omite a transicao gradual e leva o eleitor a uma conclusao falsa. enganoso enganoso"
+    "searchTokens": "175 decl-175 flavio bolsonaro flavio tributos e previdencia estima-se que a aliquota do iva criado pela reforma tributaria, a ser cobrado a partir do ano que vem, seja de 28%. ate agora, com a reforma tributaria, ninguem sabe quanto vai ser o valor do imposto de valor agregado, o iva, que e o novo imposto que ele vai comecar a cobrar a partir do ano que vem. estima-se que seja de 28%. a estimativa de cerca de 28% existe, mas vale para 2033, com a tributacao cheia. em 2027 so a cbs sera cobrada integralmente e o ibs tera aliquota de 0,1%, entao 28% nao sera cobrado a partir do ano que vem. varias fontes confirmam que a aliquota de referencia somada da cbs e do ibs e estimada em cerca de 28%. a projecao foi feita por bernard appy [1][4] e pelo comite gestor do ibs [2], e tambem aparece em [5] e [6]. a cobranca efetiva comeca em 2027 [3], o que bate com 'a partir do ano que vem'. porem, a fala da a entender que um imposto de 28% passara a ser cobrado ja no proximo ano, e isso nao procede. segundo as fontes, os 28% se referem a 2033, o primeiro ano de tributacao cheia [2][3]. em 2027, a cbs tera aliquota cheia, mas o ibs sera de apenas 0,1% em 2027 e 2028 e subira gradualmente ate 2032 [3]. a transicao so termina em 2033 [1]. a afirmacao de que 'ninguem sabe' o valor tem algum fundamento: a aliquota da cbs ainda sera fixada por resolucao do senado em dezembro [3], e a aliquota legal depende de definicao futura [4]. ainda assim, ao ligar os 28% ao inicio da cobranca, a fala omite a transicao gradual e leva o eleitor a uma conclusao falsa. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-176",
@@ -19128,7 +19303,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "176 decl-176 flavio bolsonaro flavio tributos e previdencia o governo lula implementou a maior carga tributaria da historia do brasil. simplesmente invade o bolso do contribuinte. voce implementou a carga tributaria mais alta desse pais na historia. verdadeiro. segundo estimativa do tesouro, a carga tributaria chegou a 32,4% do pib em 2025, sob lula, o maior nivel da serie iniciada em 2010. ha ressalva sobre revisao metodologica nos dados de 2022. o tesouro nacional estimou a carga tributaria bruta do governo geral em 32,4% do pib em 2025, ante 32,22% em 2024. e o maior nivel da serie historica iniciada em 2010 [2][3][4]. pelos numeros atuais, a alta veio sobretudo dos tributos federais, que passaram de 20,6% do pib em 2022 para 21,6% em 2025, com destaque para o aumento do iof [1][2][4]. ha duas ressalvas. a primeira e que a serie comeca em 2010, entao \"na historia\" se refere ao recorde dessa serie. a segunda e que um boletim anterior do tesouro registrava 33,71% para 2022 [5], valor acima de 32,4%. as fontes de 2026, porem, informam 31,2% para 2022 [1][4], o que indica uma revisao metodologica da serie. pelos dados vigentes, o recorde e de 2025. o numero de 2025 ainda e uma estimativa, e o dado oficial da receita sai no fim de 2026 [2]. parte da alta decorre do crescimento da massa salarial, e nao so de aumento de tributos [3][4]. ainda assim, o nucleo da fala esta correto. verdadeiro verdadeiro"
+    "searchTokens": "176 decl-176 flavio bolsonaro flavio tributos e previdencia o governo lula implementou a maior carga tributaria da historia do brasil. simplesmente invade o bolso do contribuinte. voce implementou a carga tributaria mais alta desse pais na historia. verdadeiro. segundo estimativa do tesouro, a carga tributaria chegou a 32,4% do pib em 2025, sob lula, o maior nivel da serie iniciada em 2010. ha ressalva sobre revisao metodologica nos dados de 2022. o tesouro nacional estimou a carga tributaria bruta do governo geral em 32,4% do pib em 2025, ante 32,22% em 2024. e o maior nivel da serie historica iniciada em 2010 [2][3][4]. pelos numeros atuais, a alta veio sobretudo dos tributos federais, que passaram de 20,6% do pib em 2022 para 21,6% em 2025, com destaque para o aumento do iof [1][2][4]. ha duas ressalvas. a primeira e que a serie comeca em 2010, entao \"na historia\" se refere ao recorde dessa serie. a segunda e que um boletim anterior do tesouro registrava 33,71% para 2022 [5], valor acima de 32,4%. as fontes de 2026, porem, informam 31,2% para 2022 [1][4], o que indica uma revisao metodologica da serie. pelos dados vigentes, o recorde e de 2025. o numero de 2025 ainda e uma estimativa, e o dado oficial da receita sai no fim de 2026 [2]. parte da alta decorre do crescimento da massa salarial, e nao so de aumento de tributos [3][4]. ainda assim, o nucleo da fala esta correto. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-177",
@@ -19234,7 +19410,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "177 decl-177 luiz inacio lula da silva lula programas sociais o governo lula propos tarifa zero no transporte para os trabalhadores nos fins de semana. entao nos propusemos tarifa zero para os trabalhadores no final de semana. verdadeiro. lula anunciou em 15/10 e enviou ao congresso em 21/10 uma pec de tarifa zero no transporte coletivo aos fins de semana, associada ao fim da escala 6x1 para os trabalhadores. as fontes confirmam que lula anunciou em 15 de outubro uma pec para garantir passe livre no transporte coletivo aos fins de semana (e feriados) em todas as cidades com o servico [1][6][4]. em 21 de outubro ele assinou a proposta e a encaminhou ao congresso [2][3][5]. a pec destina ao menos 26,8% das emendas parlamentares impositivas ao custeio da gratuidade [3]. o proprio presidente vinculou a medida aos trabalhadores beneficiados pelo fim da escala 6x1 [2][4][5]. ha uma ressalva de precisao: a gratuidade proposta vale para todos os usuarios, nao so para trabalhadores, e o texto enviado destina recursos com \"potencial para financiar\" a tarifa zero, sem impo-la diretamente [3]. essas nuances nao alteram o nucleo da fala. uma observacao de contexto: a medida foi anunciada as vesperas do segundo turno e nao constava do programa de governo registrado [1][4]. verdadeiro verdadeiro"
+    "searchTokens": "177 decl-177 luiz inacio lula da silva lula programas sociais o governo lula propos tarifa zero no transporte para os trabalhadores nos fins de semana. entao nos propusemos tarifa zero para os trabalhadores no final de semana. verdadeiro. lula anunciou em 15/10 e enviou ao congresso em 21/10 uma pec de tarifa zero no transporte coletivo aos fins de semana, associada ao fim da escala 6x1 para os trabalhadores. as fontes confirmam que lula anunciou em 15 de outubro uma pec para garantir passe livre no transporte coletivo aos fins de semana (e feriados) em todas as cidades com o servico [1][6][4]. em 21 de outubro ele assinou a proposta e a encaminhou ao congresso [2][3][5]. a pec destina ao menos 26,8% das emendas parlamentares impositivas ao custeio da gratuidade [3]. o proprio presidente vinculou a medida aos trabalhadores beneficiados pelo fim da escala 6x1 [2][4][5]. ha uma ressalva de precisao: a gratuidade proposta vale para todos os usuarios, nao so para trabalhadores, e o texto enviado destina recursos com \"potencial para financiar\" a tarifa zero, sem impo-la diretamente [3]. essas nuances nao alteram o nucleo da fala. uma observacao de contexto: a medida foi anunciada as vesperas do segundo turno e nao constava do programa de governo registrado [1][4]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-178",
@@ -19340,7 +19517,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "178 decl-178 luiz inacio lula da silva lula emprego e renda lula afirma que seu governo aprovou o fim da escala de trabalho 6x1, garantindo aos trabalhadores dois dias de folga. porque eu disse que como nos aprovamos o fim dessa escala seis por um, os trabalhadores vao ter dois dias pra ficar em casa. verdadeiro. o fim da escala 6x1 foi aprovado pelo congresso e promulgado em 16/10/2026, garantindo dois dias de repouso semanal. a aprovacao foi do legislativo, com apoio do governo, e o 5x2 vale apos 60 dias. as fontes confirmam que a pec 221/2019 foi aprovada pela camara em maio e pelo senado em 14/10/2026, por 75 votos a 1 [1][2]. ela foi promulgada como emenda constitucional 141 em 16/10/2026, em sessao com a presenca de lula [3][4][5]. o texto garante dois dias de repouso semanal remunerado, um deles preferencialmente aos domingos, sem reducao salarial [1][5][6]. lula disse \"nos aprovamos\". quem aprovou foi o congresso, e emendas constitucionais sao promulgadas pelo legislativo, nao pelo executivo [4]. ainda assim, lula participou da cerimonia e celebrou o resultado como vitoria dos trabalhadores [5], e o uso coloquial nao muda o ponto central. ha um detalhe de prazo: a escala 5x2 passa a valer 60 dias apos a promulgacao [4][6], e a jornada cai gradualmente para 40 horas [3]. verdadeiro verdadeiro"
+    "searchTokens": "178 decl-178 luiz inacio lula da silva lula emprego e renda lula afirma que seu governo aprovou o fim da escala de trabalho 6x1, garantindo aos trabalhadores dois dias de folga. porque eu disse que como nos aprovamos o fim dessa escala seis por um, os trabalhadores vao ter dois dias pra ficar em casa. verdadeiro. o fim da escala 6x1 foi aprovado pelo congresso e promulgado em 16/10/2026, garantindo dois dias de repouso semanal. a aprovacao foi do legislativo, com apoio do governo, e o 5x2 vale apos 60 dias. as fontes confirmam que a pec 221/2019 foi aprovada pela camara em maio e pelo senado em 14/10/2026, por 75 votos a 1 [1][2]. ela foi promulgada como emenda constitucional 141 em 16/10/2026, em sessao com a presenca de lula [3][4][5]. o texto garante dois dias de repouso semanal remunerado, um deles preferencialmente aos domingos, sem reducao salarial [1][5][6]. lula disse \"nos aprovamos\". quem aprovou foi o congresso, e emendas constitucionais sao promulgadas pelo legislativo, nao pelo executivo [4]. ainda assim, lula participou da cerimonia e celebrou o resultado como vitoria dos trabalhadores [5], e o uso coloquial nao muda o ponto central. ha um detalhe de prazo: a escala 5x2 passa a valer 60 dias apos a promulgacao [4][6], e a jornada cai gradualmente para 40 horas [3]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-179",
@@ -19441,7 +19619,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "179 decl-179 luiz inacio lula da silva lula emprego e renda sem a politica de valorizacao do salario minimo acima da inflacao dos governos do pt (lula e dilma), o salario minimo atual seria de apenas 900 reais. eu vou repetir: se nao fosse o governo do pt aumentar o salario minimo acima da inflacao, colocando o pib no orcamento, o salario minimo teria apenas. verdadeiro. calculos citados nas fontes indicam que, sem a valorizacao real iniciada nos governos do pt, o minimo estaria entre r$ 830 e r$ 852, abaixo de r$ 900, ante r$ 1.621 atuais. o trecho original e cortado antes do valor, mas a afirmacao atribui a lula o numero de r$ 900. segundo o ihu [1], corrigindo apenas pela inflacao (inpc) o minimo de r$ 260 de janeiro de 2004 ate janeiro de 2026, o valor seria de cerca de r$ 852, contra os r$ 1.621 atuais [1][2]. o ministro luiz marinho citou r$ 830 [3]. um calculo anterior da fgv, feito em 2022, apontava r$ 699, ante os r$ 1.212 vigentes naquele ano [4]. o valor de 'apenas 900 reais' fica cerca de 5% a 8% acima das estimativas recentes, dentro da margem de tolerancia, e a direcao do argumento e correta: a valorizacao real fez o minimo ser muito maior. a fonte [5] confirma a forte valorizacao nos governos lula e dilma. a imprecisao no numero nao muda o ponto central. verdadeiro verdadeiro"
+    "searchTokens": "179 decl-179 luiz inacio lula da silva lula emprego e renda sem a politica de valorizacao do salario minimo acima da inflacao dos governos do pt (lula e dilma), o salario minimo atual seria de apenas 900 reais. eu vou repetir: se nao fosse o governo do pt aumentar o salario minimo acima da inflacao, colocando o pib no orcamento, o salario minimo teria apenas. verdadeiro. calculos citados nas fontes indicam que, sem a valorizacao real iniciada nos governos do pt, o minimo estaria entre r$ 830 e r$ 852, abaixo de r$ 900, ante r$ 1.621 atuais. o trecho original e cortado antes do valor, mas a afirmacao atribui a lula o numero de r$ 900. segundo o ihu [1], corrigindo apenas pela inflacao (inpc) o minimo de r$ 260 de janeiro de 2004 ate janeiro de 2026, o valor seria de cerca de r$ 852, contra os r$ 1.621 atuais [1][2]. o ministro luiz marinho citou r$ 830 [3]. um calculo anterior da fgv, feito em 2022, apontava r$ 699, ante os r$ 1.212 vigentes naquele ano [4]. o valor de 'apenas 900 reais' fica cerca de 5% a 8% acima das estimativas recentes, dentro da margem de tolerancia, e a direcao do argumento e correta: a valorizacao real fez o minimo ser muito maior. a fonte [5] confirma a forte valorizacao nos governos lula e dilma. a imprecisao no numero nao muda o ponto central. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-180",
@@ -19542,7 +19721,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "180 decl-180 luiz inacio lula da silva lula emprego e renda os governos lula e dilma reajustaram o salario minimo acima da inflacao, enquanto os governos temer e jair bolsonaro nao concederam aumento real ao salario minimo. …lula e dilma. se a gente nao tivesse reajustando o salario acima da inflacao, sabe quanto seria o salario minimo por conta do seu pai e do temer que nao aumentaram? verdadeiro. as fontes mostram ganhos reais do minimo sob lula (62,4%) e dilma (18,5%), enquanto sob temer (-0,2%) e bolsonaro (-1,2%) o piso foi reajustado so pela inflacao, sem aumento real. segundo calculo da fgv citado por bbc e g1 [2][3], o salario minimo teve valorizacao real de 62,4% nos dois mandatos de lula e de 18,5% nos governos dilma. ja sob temer e bolsonaro o pais abandonou a politica de valorizacao e passou a reajustar o piso apenas pela inflacao: houve variacao real de -0,2% com temer e de -1,2% com bolsonaro [3][4]. o dieese mostra a mesma trajetoria: forte alta real nos governos petistas e estagnacao de 2016 a 2022 [1]. o cecon/unicamp aponta que a regra de valorizacao instituida em 2012 nao foi renovada em 2019 e que o minimo deixou de ter ganho real [5]. ha uma nuance: em 2016, ainda no governo dilma, o reajuste ja seguia apenas a inflacao, por causa da retracao do pib prevista na regra [5]. isso nao muda o ponto central da fala, que e correto: os governos lula e dilma deram aumento real ao minimo, e os de temer e bolsonaro, nao. verdadeiro verdadeiro"
+    "searchTokens": "180 decl-180 luiz inacio lula da silva lula emprego e renda os governos lula e dilma reajustaram o salario minimo acima da inflacao, enquanto os governos temer e jair bolsonaro nao concederam aumento real ao salario minimo. …lula e dilma. se a gente nao tivesse reajustando o salario acima da inflacao, sabe quanto seria o salario minimo por conta do seu pai e do temer que nao aumentaram? verdadeiro. as fontes mostram ganhos reais do minimo sob lula (62,4%) e dilma (18,5%), enquanto sob temer (-0,2%) e bolsonaro (-1,2%) o piso foi reajustado so pela inflacao, sem aumento real. segundo calculo da fgv citado por bbc e g1 [2][3], o salario minimo teve valorizacao real de 62,4% nos dois mandatos de lula e de 18,5% nos governos dilma. ja sob temer e bolsonaro o pais abandonou a politica de valorizacao e passou a reajustar o piso apenas pela inflacao: houve variacao real de -0,2% com temer e de -1,2% com bolsonaro [3][4]. o dieese mostra a mesma trajetoria: forte alta real nos governos petistas e estagnacao de 2016 a 2022 [1]. o cecon/unicamp aponta que a regra de valorizacao instituida em 2012 nao foi renovada em 2019 e que o minimo deixou de ter ganho real [5]. ha uma nuance: em 2016, ainda no governo dilma, o reajuste ja seguia apenas a inflacao, por causa da retracao do pib prevista na regra [5]. isso nao muda o ponto central da fala, que e correto: os governos lula e dilma deram aumento real ao minimo, e os de temer e bolsonaro, nao. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-181",
@@ -19648,7 +19828,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "181 decl-181 flavio bolsonaro flavio economia o endividamento das familias brasileiras aumentou durante o governo lula, com alta da taxa de juros associada ao aumento dos gastos publicos. o seu poder de compra foi destruido pelo atual governo, porque ele gasta tanto, ele joga a taxa de juro la em cima e puxa a sua divida junto. lula, por que voce endividou o povo brasileiro desse jeito? verdadeiro no nucleo: o endividamento e o comprometimento de renda das familias subiram no governo lula, com juros altos. o vinculo com os gastos publicos e atribuido por analises, mas e interpretativo. as fontes confirmam que o endividamento das familias cresceu no atual governo. ele avancou 1,3 ponto percentual em 2025 e se aproximou do recorde [1]. chegou a 49,8% da renda, o maior nivel da gestao lula, mas abaixo do recorde de 49,9% de julho de 2022, sob bolsonaro [3]. o comprometimento de renda bateu maximas historicas [6][2][3], e a inadimplencia renovou recorde [4]. a selic, em 15%, a maior desde 2006, e apontada como explicacao central [3]. analises tambem associam a expansao fiscal a manutencao dos juros altos [5]. ha ressalvas: o bc cita ainda mudancas no consignado e a demanda por credito emergencial [1], e a renda real cresceu, o que relativiza a frase sobre o poder de compra 'destruido' [5]. a pergunta 'por que voce endividou o povo desse jeito' e retorica, mas a direcao dos dados sustenta o ponto central. verdadeiro verdadeiro"
+    "searchTokens": "181 decl-181 flavio bolsonaro flavio economia o endividamento das familias brasileiras aumentou durante o governo lula, com alta da taxa de juros associada ao aumento dos gastos publicos. o seu poder de compra foi destruido pelo atual governo, porque ele gasta tanto, ele joga a taxa de juro la em cima e puxa a sua divida junto. lula, por que voce endividou o povo brasileiro desse jeito? verdadeiro no nucleo: o endividamento e o comprometimento de renda das familias subiram no governo lula, com juros altos. o vinculo com os gastos publicos e atribuido por analises, mas e interpretativo. as fontes confirmam que o endividamento das familias cresceu no atual governo. ele avancou 1,3 ponto percentual em 2025 e se aproximou do recorde [1]. chegou a 49,8% da renda, o maior nivel da gestao lula, mas abaixo do recorde de 49,9% de julho de 2022, sob bolsonaro [3]. o comprometimento de renda bateu maximas historicas [6][2][3], e a inadimplencia renovou recorde [4]. a selic, em 15%, a maior desde 2006, e apontada como explicacao central [3]. analises tambem associam a expansao fiscal a manutencao dos juros altos [5]. ha ressalvas: o bc cita ainda mudancas no consignado e a demanda por credito emergencial [1], e a renda real cresceu, o que relativiza a frase sobre o poder de compra 'destruido' [5]. a pergunta 'por que voce endividou o povo desse jeito' e retorica, mas a direcao dos dados sustenta o ponto central. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-182",
@@ -19744,7 +19925,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "182 decl-182 luiz inacio lula da silva lula economia o governo federal esta muito proximo de concluir a transposicao do rio sao francisco. estamos fazendo vlt de salvador, metro em sao paulo, belo horizonte, brt no rio de janeiro, ou seja, todas as obras de infraestrutura, alem de estar muito proximo de concluir a tao sonhada transposicao de sao francisco,. verdadeiro, com ressalva. em agosto de 2026, lula prometeu concluir a transposicao ainda neste ano, e em 2019 os eixos principais ja passavam de 90%. mas ramais como o do salgado tem entrega prevista so para 2027. o trecho diz que o governo esta 'muito proximo de concluir' a transposicao do sao francisco. segundo o g1, em 2019 mais de 90% da obra ja estava concluida [4]. em 20 de agosto de 2026, lula afirmou que a obra seria terminada ainda em 2026 [1][2]. o poder360 registrou, nessa data, que a transposicao ainda nao havia sido entregue [1]. o nucleo da fala, de que a conclusao estaria proxima, e coerente com esse quadro. ha uma ressalva: obras complementares do projeto, como o ramal do salgado, no ceara, estavam com cerca de 70% de execucao e tem conclusao prevista pelo ministro waldez goes so para 2027 [3]. os textos recuperados nao detalham se esses ramais entram no que se chama de 'conclusao' da transposicao. por isso, a afirmacao generica de proximidade se sustenta, mas nao deve ser lida como entrega total iminente de todas as obras associadas. verdadeiro verdadeiro"
+    "searchTokens": "182 decl-182 luiz inacio lula da silva lula economia o governo federal esta muito proximo de concluir a transposicao do rio sao francisco. estamos fazendo vlt de salvador, metro em sao paulo, belo horizonte, brt no rio de janeiro, ou seja, todas as obras de infraestrutura, alem de estar muito proximo de concluir a tao sonhada transposicao de sao francisco,. verdadeiro, com ressalva. em agosto de 2026, lula prometeu concluir a transposicao ainda neste ano, e em 2019 os eixos principais ja passavam de 90%. mas ramais como o do salgado tem entrega prevista so para 2027. o trecho diz que o governo esta 'muito proximo de concluir' a transposicao do sao francisco. segundo o g1, em 2019 mais de 90% da obra ja estava concluida [4]. em 20 de agosto de 2026, lula afirmou que a obra seria terminada ainda em 2026 [1][2]. o poder360 registrou, nessa data, que a transposicao ainda nao havia sido entregue [1]. o nucleo da fala, de que a conclusao estaria proxima, e coerente com esse quadro. ha uma ressalva: obras complementares do projeto, como o ramal do salgado, no ceara, estavam com cerca de 70% de execucao e tem conclusao prevista pelo ministro waldez goes so para 2027 [3]. os textos recuperados nao detalham se esses ramais entram no que se chama de 'conclusao' da transposicao. por isso, a afirmacao generica de proximidade se sustenta, mas nao deve ser lida como entrega total iminente de todas as obras associadas. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-183",
@@ -19862,7 +20044,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "183 decl-183 luiz inacio lula da silva lula economia o governo federal esta financiando o tunel santos-guaruja com recursos do orcamento da uniao e do bndes. nos estamos investindo. alias, o tunel de santos, quem esta colocando dinheiro para fazer somos nos, tanto do orcamento quanto do. a uniao de fato aporta cerca de metade dos recursos publicos (≈r$ 2,6 bi), mas o tunel e uma ppp com o estado de sp, que banca a outra metade, e a concessionaria. a frase cortada nao permite confirmar mencao ao bndes. as fontes confirmam que o governo federal investe no tunel: cerca de r$ 2,5 bilhoes, via ministerio de portos e aeroportos e autoridade portuaria de santos [1][3]. o projeto, porem, e uma parceria publico-privada estadual, estimada em r$ 6,8 bilhoes [2]. dos r$ 5,2 bilhoes publicos, metade vem da uniao e metade do governo de sao paulo [4][5]. o estado ja depositou r$ 2,64 bilhoes de sua parte, financiados por emprestimo do banco do brasil com garantia da uniao [4][6]. a mota-engil aportou r$ 1,6 bilhao [1]. ao dizer que 'quem esta colocando dinheiro para fazer somos nos', lula sugere que o governo federal e o financiador, o que omite a participacao equivalente do estado. a fonte [3], de 2025, previa aporte federal de r$ 5,13 bilhoes, mas as fontes mais recentes indicam divisao meio a meio. o trecho original esta cortado, entao a mencao ao bndes nao pode ser verificada. o financiamento citado nas fontes recentes e do banco do brasil ao estado [1][4]; o emprestimo autorizado pela alesp, que incluia o bndes, e de 2014 [7]. enganoso enganoso"
+    "searchTokens": "183 decl-183 luiz inacio lula da silva lula economia o governo federal esta financiando o tunel santos-guaruja com recursos do orcamento da uniao e do bndes. nos estamos investindo. alias, o tunel de santos, quem esta colocando dinheiro para fazer somos nos, tanto do orcamento quanto do. a uniao de fato aporta cerca de metade dos recursos publicos (≈r$ 2,6 bi), mas o tunel e uma ppp com o estado de sp, que banca a outra metade, e a concessionaria. a frase cortada nao permite confirmar mencao ao bndes. as fontes confirmam que o governo federal investe no tunel: cerca de r$ 2,5 bilhoes, via ministerio de portos e aeroportos e autoridade portuaria de santos [1][3]. o projeto, porem, e uma parceria publico-privada estadual, estimada em r$ 6,8 bilhoes [2]. dos r$ 5,2 bilhoes publicos, metade vem da uniao e metade do governo de sao paulo [4][5]. o estado ja depositou r$ 2,64 bilhoes de sua parte, financiados por emprestimo do banco do brasil com garantia da uniao [4][6]. a mota-engil aportou r$ 1,6 bilhao [1]. ao dizer que 'quem esta colocando dinheiro para fazer somos nos', lula sugere que o governo federal e o financiador, o que omite a participacao equivalente do estado. a fonte [3], de 2025, previa aporte federal de r$ 5,13 bilhoes, mas as fontes mais recentes indicam divisao meio a meio. o trecho original esta cortado, entao a mencao ao bndes nao pode ser verificada. o financiamento citado nas fontes recentes e do banco do brasil ao estado [1][4]; o emprestimo autorizado pela alesp, que incluia o bndes, e de 2014 [7]. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-184",
@@ -19953,7 +20136,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "184 decl-184 luiz inacio lula da silva lula meio ambiente o governo lula fez uma obra de controle no canal em florianopolis. nos estamos fazendo e fizemos o canal, o contorno de florianopolis. o trecho fala do contorno de florianopolis, e fonte oficial mostra que o governo federal autorizou a conclusao da obra. a parafrase sobre uma 'obra de controle no canal' nao reflete o que lula disse. no trecho original, lula diz: 'estamos fazendo e fizemos o canal, o contorno de florianopolis'. o nucleo da fala e o contorno viario de florianopolis. a parafrase 'obra de controle no canal' nao corresponde ao que foi dito, e por isso vale o trecho. o ministerio dos transportes informa que o governo federal autorizou a conclusao das obras do contorno, uma rodovia de 50 km com pista dupla, quatro tuneis e sete pontes [1]. isso confirma a participacao federal na obra, em andamento e em conclusao, compativel com 'estamos fazendo e fizemos'. as fontes sobre o canal da barra da lagoa tratam de uma dragagem feita pela prefeitura [2][3] e nao indicam obra federal. elas nao sustentam a versao parafraseada, mas lula nao fez essa afirmacao. a palavra 'canal' parece ser um lapso verbal, que nao muda o ponto central. verdadeiro verdadeiro"
+    "searchTokens": "184 decl-184 luiz inacio lula da silva lula meio ambiente o governo lula fez uma obra de controle no canal em florianopolis. nos estamos fazendo e fizemos o canal, o contorno de florianopolis. o trecho fala do contorno de florianopolis, e fonte oficial mostra que o governo federal autorizou a conclusao da obra. a parafrase sobre uma 'obra de controle no canal' nao reflete o que lula disse. no trecho original, lula diz: 'estamos fazendo e fizemos o canal, o contorno de florianopolis'. o nucleo da fala e o contorno viario de florianopolis. a parafrase 'obra de controle no canal' nao corresponde ao que foi dito, e por isso vale o trecho. o ministerio dos transportes informa que o governo federal autorizou a conclusao das obras do contorno, uma rodovia de 50 km com pista dupla, quatro tuneis e sete pontes [1]. isso confirma a participacao federal na obra, em andamento e em conclusao, compativel com 'estamos fazendo e fizemos'. as fontes sobre o canal da barra da lagoa tratam de uma dragagem feita pela prefeitura [2][3] e nao indicam obra federal. elas nao sustentam a versao parafraseada, mas lula nao fez essa afirmacao. a palavra 'canal' parece ser um lapso verbal, que nao muda o ponto central. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-185",
@@ -20059,7 +20243,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "185 decl-185 luiz inacio lula da silva lula economia o governo lula esta realizando a obra da serra das araras (br-116) no rio de janeiro, com investimento de quase 12 bilhoes de reais. nos estamos fazendo a ferrocarreiras la no rio de janeiro, que e uma obra de quase. a obra da nova serra das araras existe e esta em andamento com apoio federal, mas custa r$ 1,5 bilhao, nao quase r$ 12 bilhoes. e uma obra da concessionaria riosp financiada pelo bndes. o trecho transcrito esta truncado (\"ferrocarreiras\" parece ser erro de transcricao de \"serra das araras\"), e o valor nao aparece nele. por isso, a analise se apoia no contexto da afirmacao. as fontes confirmam que a obra esta em execucao na via dutra (br-116), no rj, e que lula entregou a primeira fase em junho de 2026 [6][1][3]. o investimento na obra, porem, e de r$ 1,5 bilhao, segundo o ministerio dos transportes, a concessionaria e a agencia brasil [2][4][5]. valores proximos de 12 bilhoes referem-se a outra coisa: o apoio do bndes de r$ 10,7 bilhoes as obras ao longo dos 626 km da concessao, e os investimentos totais da riosp na dutra e na rio-santos, de r$ 15 bilhoes [1][3]. alem disso, a obra e executada pela concessionaria riosp (motiva), com financiamento federal via bndes, e nao diretamente pelo governo [3][4]. a direcao da fala esta correta, mas o valor atribuido a obra esta muito inflado. exagerado enganoso"
+    "searchTokens": "185 decl-185 luiz inacio lula da silva lula economia o governo lula esta realizando a obra da serra das araras (br-116) no rio de janeiro, com investimento de quase 12 bilhoes de reais. nos estamos fazendo a ferrocarreiras la no rio de janeiro, que e uma obra de quase. a obra da nova serra das araras existe e esta em andamento com apoio federal, mas custa r$ 1,5 bilhao, nao quase r$ 12 bilhoes. e uma obra da concessionaria riosp financiada pelo bndes. o trecho transcrito esta truncado (\"ferrocarreiras\" parece ser erro de transcricao de \"serra das araras\"), e o valor nao aparece nele. por isso, a analise se apoia no contexto da afirmacao. as fontes confirmam que a obra esta em execucao na via dutra (br-116), no rj, e que lula entregou a primeira fase em junho de 2026 [6][1][3]. o investimento na obra, porem, e de r$ 1,5 bilhao, segundo o ministerio dos transportes, a concessionaria e a agencia brasil [2][4][5]. valores proximos de 12 bilhoes referem-se a outra coisa: o apoio do bndes de r$ 10,7 bilhoes as obras ao longo dos 626 km da concessao, e os investimentos totais da riosp na dutra e na rio-santos, de r$ 15 bilhoes [1][3]. alem disso, a obra e executada pela concessionaria riosp (motiva), com financiamento federal via bndes, e nao diretamente pelo governo [3][4]. a direcao da fala esta correta, mas o valor atribuido a obra esta muito inflado. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-186",
@@ -20160,7 +20345,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "186 decl-186 luiz inacio lula da silva lula economia o governo lula esta executando as obras das ferrovias transnordestina, fiol (integracao oeste-leste) e fico (integracao centro-oeste). nos estamos fazendo a transnordestina, a fiol e a fico. nao e que vamos fazer, estamos fazendo. verdadeiro. as fontes mostram obras em andamento na transnordestina, na fiol ii e na fico i, com recursos e acompanhamento federal. a fico i, porem, e executada pela vale como contrapartida, e nao com verba direta da uniao. o candidato afirma que as tres ferrovias estao em obras, e as fontes confirmam isso. na transnordestina, o midr liberou em 2026 novo aporte de r$ 106 milhoes do fdne para as obras, dentro de um aditivo de r$ 3,6 bilhoes assinado por lula em 2024 [1]. a antt cita a retomada das obras [2], e o governo do ceara informa que 100% das obras no estado foram autorizadas [3]. a infra s.a., estatal federal, diz implantar a fiol ii (caetite–barreiras), com construtoras mobilizadas, e a fico i (mara rosa–agua boa) [4]. o sindipesa relata obras em andamento em 240 km da fico, 485 km da fiol 2 e 544 km da transnordestina pelo novo pac, com a fiol ii em 70,5% de execucao [5]. ha uma ressalva: a fico i e custeada pela vale como obrigacao de investimento, cabendo ao governo, via infra s.a., acompanhar a execucao e receber as obras [4]. na transnordestina, a obra e tocada pela concessionaria tlsa com financiamento federal [1]. essas nuances nao mudam o ponto central, de que as obras estao em execucao sob conducao ou fomento federal. verdadeiro verdadeiro"
+    "searchTokens": "186 decl-186 luiz inacio lula da silva lula economia o governo lula esta executando as obras das ferrovias transnordestina, fiol (integracao oeste-leste) e fico (integracao centro-oeste). nos estamos fazendo a transnordestina, a fiol e a fico. nao e que vamos fazer, estamos fazendo. verdadeiro. as fontes mostram obras em andamento na transnordestina, na fiol ii e na fico i, com recursos e acompanhamento federal. a fico i, porem, e executada pela vale como contrapartida, e nao com verba direta da uniao. o candidato afirma que as tres ferrovias estao em obras, e as fontes confirmam isso. na transnordestina, o midr liberou em 2026 novo aporte de r$ 106 milhoes do fdne para as obras, dentro de um aditivo de r$ 3,6 bilhoes assinado por lula em 2024 [1]. a antt cita a retomada das obras [2], e o governo do ceara informa que 100% das obras no estado foram autorizadas [3]. a infra s.a., estatal federal, diz implantar a fiol ii (caetite–barreiras), com construtoras mobilizadas, e a fico i (mara rosa–agua boa) [4]. o sindipesa relata obras em andamento em 240 km da fico, 485 km da fiol 2 e 544 km da transnordestina pelo novo pac, com a fiol ii em 70,5% de execucao [5]. ha uma ressalva: a fico i e custeada pela vale como obrigacao de investimento, cabendo ao governo, via infra s.a., acompanhar a execucao e receber as obras [4]. na transnordestina, a obra e tocada pela concessionaria tlsa com financiamento federal [1]. essas nuances nao mudam o ponto central, de que as obras estao em execucao sob conducao ou fomento federal. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-187",
@@ -20266,7 +20452,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "187 decl-187 luiz inacio lula da silva lula economia o governo lula esta executando obras na br-319, rodovia que liga porto velho a manaus. nos estamos fazendo uma rodovia muito importante, que ninguem teve coragem de fazer, que liga porto velho a manaus, que e a. verdadeiro. o governo federal executa obras de pavimentacao e melhoramento na br-319, que liga porto velho a manaus, inclusive no trecho do meio, com 17 km ja pavimentados segundo o dnit. as fontes confirmam que ha obras em andamento na br-319. lula visitou as obras do lote c, que tinha cerca de 42% de avanco ate dezembro de 2025, e o dnit assinou a ordem de servico do lote 4 do trecho do meio [1]. o ministerio dos transportes autorizou a pavimentacao com base na nova lei de licenciamento [2]. a bloomberg relata trabalhadores pavimentando a rodovia em agosto [3], e o dnit informa 17 km pavimentados no trecho do meio, cerca de 5% dos 339,4 km previstos, com quatro lotes contratados ou licitados [4][5][6]. a parte retorica de que 'ninguem teve coragem de fazer' nao e o nucleo verificavel da fala. as fontes mostram que houve impasse ambiental por anos [3] e que a obra ainda esta em fase inicial, com questionamentos do ibama e de ambientalistas sobre o licenciamento [2][3]. ainda assim, a afirmacao central de que o governo esta fazendo a rodovia procede. verdadeiro verdadeiro"
+    "searchTokens": "187 decl-187 luiz inacio lula da silva lula economia o governo lula esta executando obras na br-319, rodovia que liga porto velho a manaus. nos estamos fazendo uma rodovia muito importante, que ninguem teve coragem de fazer, que liga porto velho a manaus, que e a. verdadeiro. o governo federal executa obras de pavimentacao e melhoramento na br-319, que liga porto velho a manaus, inclusive no trecho do meio, com 17 km ja pavimentados segundo o dnit. as fontes confirmam que ha obras em andamento na br-319. lula visitou as obras do lote c, que tinha cerca de 42% de avanco ate dezembro de 2025, e o dnit assinou a ordem de servico do lote 4 do trecho do meio [1]. o ministerio dos transportes autorizou a pavimentacao com base na nova lei de licenciamento [2]. a bloomberg relata trabalhadores pavimentando a rodovia em agosto [3], e o dnit informa 17 km pavimentados no trecho do meio, cerca de 5% dos 339,4 km previstos, com quatro lotes contratados ou licitados [4][5][6]. a parte retorica de que 'ninguem teve coragem de fazer' nao e o nucleo verificavel da fala. as fontes mostram que houve impasse ambiental por anos [3] e que a obra ainda esta em fase inicial, com questionamentos do ibama e de ambientalistas sobre o licenciamento [2][3]. ainda assim, a afirmacao central de que o governo esta fazendo a rodovia procede. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-188",
@@ -20380,7 +20567,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "188 decl-188 flavio bolsonaro flavio outros o governo jair bolsonaro instalou mais de 21.300 pontos de internet no brasil, atingindo mais de 3.100 cidades. nos instalamos mais de 21.300 pontos de internet em varios locais do brasil, atingindo mais de 3.100 cidades. verdadeiro. o ministerio das comunicacoes informou em dez/2022 que o wi-fi brasil instalou 21,3 mil pontos em cerca de 3,2 mil cidades. o programa, porem, deriva do gesac, criado em 2002. segundo o ministerio das comunicacoes, em 16/12/2022 o programa wi-fi brasil 'ja instalou, ate dezembro deste ano, 21,3 mil pontos de internet', com cobertura em cerca de 3,2 mil cidades [1]. os numeros citados pelo candidato coincidem com esse balanco oficial. o relatorio anual do mcom registra 14,3 mil pontos em quase 3 mil municipios ao fim de 2021, o que indica expansao ao longo do governo [2]. o plano de governo de flavio repete os 21 mil pontos [3]. ha ressalvas. o wi-fi brasil e uma extensao do gesac, instituido em 2002 [4], e a fonte [1] nao deixa claro se todos os pontos foram instalados a partir de 2019. alem disso, uma reportagem de agosto de 2022 citava 18.453 pontos instalados 'no atual governo', em 507 municipios [5], numero que diverge do balanco oficial. ainda assim, a fonte oficial sustenta o nucleo da fala. verdadeiro verdadeiro"
+    "searchTokens": "188 decl-188 flavio bolsonaro flavio outros o governo jair bolsonaro instalou mais de 21.300 pontos de internet no brasil, atingindo mais de 3.100 cidades. nos instalamos mais de 21.300 pontos de internet em varios locais do brasil, atingindo mais de 3.100 cidades. verdadeiro. o ministerio das comunicacoes informou em dez/2022 que o wi-fi brasil instalou 21,3 mil pontos em cerca de 3,2 mil cidades. o programa, porem, deriva do gesac, criado em 2002. segundo o ministerio das comunicacoes, em 16/12/2022 o programa wi-fi brasil 'ja instalou, ate dezembro deste ano, 21,3 mil pontos de internet', com cobertura em cerca de 3,2 mil cidades [1]. os numeros citados pelo candidato coincidem com esse balanco oficial. o relatorio anual do mcom registra 14,3 mil pontos em quase 3 mil municipios ao fim de 2021, o que indica expansao ao longo do governo [2]. o plano de governo de flavio repete os 21 mil pontos [3]. ha ressalvas. o wi-fi brasil e uma extensao do gesac, instituido em 2002 [4], e a fonte [1] nao deixa claro se todos os pontos foram instalados a partir de 2019. alem disso, uma reportagem de agosto de 2022 citava 18.453 pontos instalados 'no atual governo', em 507 municipios [5], numero que diverge do balanco oficial. ainda assim, a fonte oficial sustenta o nucleo da fala. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-189",
@@ -20493,7 +20681,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "189 decl-189 flavio bolsonaro flavio economia o governo jair bolsonaro criou uma regra que garante isencao de pedagio para motociclistas nas concessoes de rodovias federais. na concessao de rodovias, como fez o presidente bolsonaro, e eu vou manter uma regra que ele colocou la. todas as concessoes rodovias que forem feitas no brasil vao garantir que e pedagio zero para motociclistas. a portaria 104/2021 do governo bolsonaro de fato fixou isencao de pedagio para motos, mas so em 11 projetos de concessao listados e dependendo de cada edital, nao em todas as concessoes. as fontes confirmam que o governo jair bolsonaro, por meio da portaria nº 104/2021 do ministerio da infraestrutura, estabeleceu uma diretriz de politica publica de isencao de pedagio para motocicletas em concessoes rodoviarias federais [1][2][3], depois de bolsonaro ter pedido a medida ao ministro tarcisio [5]. a direcao da fala, portanto, esta certa. o alcance, porem, esta inflado. a portaria valia para uma lista especifica de cerca de 11 projetos que estavam na fase interna de licitacao, como dutra, br-381/262 e os lotes do parana [1][2][3]. a isencao tambem precisava ser confirmada no edital de cada concessao [2] e nao se aplicava aos contratos ja existentes [3]. nao era, assim, uma regra que garantisse pedagio zero em todas as concessoes. uma isencao geral em todas as rodovias ainda tramita como projeto de lei no congresso [6][4], o que reforca que essa regra universal nao existe. exagerado enganoso"
+    "searchTokens": "189 decl-189 flavio bolsonaro flavio economia o governo jair bolsonaro criou uma regra que garante isencao de pedagio para motociclistas nas concessoes de rodovias federais. na concessao de rodovias, como fez o presidente bolsonaro, e eu vou manter uma regra que ele colocou la. todas as concessoes rodovias que forem feitas no brasil vao garantir que e pedagio zero para motociclistas. a portaria 104/2021 do governo bolsonaro de fato fixou isencao de pedagio para motos, mas so em 11 projetos de concessao listados e dependendo de cada edital, nao em todas as concessoes. as fontes confirmam que o governo jair bolsonaro, por meio da portaria nº 104/2021 do ministerio da infraestrutura, estabeleceu uma diretriz de politica publica de isencao de pedagio para motocicletas em concessoes rodoviarias federais [1][2][3], depois de bolsonaro ter pedido a medida ao ministro tarcisio [5]. a direcao da fala, portanto, esta certa. o alcance, porem, esta inflado. a portaria valia para uma lista especifica de cerca de 11 projetos que estavam na fase interna de licitacao, como dutra, br-381/262 e os lotes do parana [1][2][3]. a isencao tambem precisava ser confirmada no edital de cada concessao [2] e nao se aplicava aos contratos ja existentes [3]. nao era, assim, uma regra que garantisse pedagio zero em todas as concessoes. uma isencao geral em todas as rodovias ainda tramita como projeto de lei no congresso [6][4], o que reforca que essa regra universal nao existe. exagerado enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-190",
@@ -20596,7 +20785,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "190 decl-190 luiz inacio lula da silva lula economia o governo lula herdou seis mil obras paradas do governo anterior. e mais importante saber ainda, e que nos herdamos 6 mil obras paradas e obviamente que voce nao consegue fazer uma obra de infraestrutura no mesmo ano que voce comeca. verdadeiro. dados do fnde apontam 5.642 obras paradas no inicio do mandato (cerca de 6 mil), e o tcu registrou 8.674 obras inacabadas em 2022. o numero citado e arredondado. lula disse ter herdado 6 mil obras paradas. segundo o aos fatos [1], a entao presidente do fnde informou que havia 5.642 obras paradas registradas no simec no inicio do mandato, dado que tambem consta no relatorio de gestao de 2024 da autarquia. o valor esta a menos de 10% dos 6 mil citados. em outra checagem, o aos fatos concluiu que 'mais de seis mil obras estavam paralisadas' quando lula tomou posse [1]. um relatorio do tcu citado pela cnn [2] e pelo uol [3] aponta 8.674 obras inacabadas ou paralisadas com recursos federais no fim de 2022, numero ainda maior, o que reforca a afirmacao. as fontes divergem quanto ao total exato, conforme o criterio usado (obras da educacao no simec ou levantamento geral do tcu). ainda assim, ambas sustentam que o governo herdou ao menos cerca de 6 mil obras paradas. uma ressalva: em outras ocasioes, lula falou em '6 mil creches' paralisadas, formulacao que o aos fatos considerou exagerada [4]. neste trecho, porem, ele mencionou 'obras' de forma generica. verdadeiro verdadeiro"
+    "searchTokens": "190 decl-190 luiz inacio lula da silva lula economia o governo lula herdou seis mil obras paradas do governo anterior. e mais importante saber ainda, e que nos herdamos 6 mil obras paradas e obviamente que voce nao consegue fazer uma obra de infraestrutura no mesmo ano que voce comeca. verdadeiro. dados do fnde apontam 5.642 obras paradas no inicio do mandato (cerca de 6 mil), e o tcu registrou 8.674 obras inacabadas em 2022. o numero citado e arredondado. lula disse ter herdado 6 mil obras paradas. segundo o aos fatos [1], a entao presidente do fnde informou que havia 5.642 obras paradas registradas no simec no inicio do mandato, dado que tambem consta no relatorio de gestao de 2024 da autarquia. o valor esta a menos de 10% dos 6 mil citados. em outra checagem, o aos fatos concluiu que 'mais de seis mil obras estavam paralisadas' quando lula tomou posse [1]. um relatorio do tcu citado pela cnn [2] e pelo uol [3] aponta 8.674 obras inacabadas ou paralisadas com recursos federais no fim de 2022, numero ainda maior, o que reforca a afirmacao. as fontes divergem quanto ao total exato, conforme o criterio usado (obras da educacao no simec ou levantamento geral do tcu). ainda assim, ambas sustentam que o governo herdou ao menos cerca de 6 mil obras paradas. uma ressalva: em outras ocasioes, lula falou em '6 mil creches' paralisadas, formulacao que o aos fatos considerou exagerada [4]. neste trecho, porem, ele mencionou 'obras' de forma generica. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-191",
@@ -20699,7 +20889,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "191 decl-191 luiz inacio lula da silva lula economia o governo lula anunciou um programa de aceleracao do crescimento (novo pac) de r$ 1,7 trilhao, do qual quase 8% (ou 80%) ja foi executado. so para ter ideia, com a participacao inclusive de todos os governadores, de todos os partidos politicos, nos anunciamos um programa de aceleracao do crescimento de r$ 1 trilhao e 700 bilhoes, dos quais quase 800 ja foram executados nesse pais,. verdadeiro, com ressalva: o novo pac foi lancado com r$ 1,7 trilhao. as fontes mostram r$ 711 bi executados ate o fim de 2024, compativel com \"quase 800 bilhoes\" depois. nao ha dado mais recente. o trecho original fala em \"quase 800\" bilhoes executados de r$ 1,7 trilhao, e nao em 8% ou 80% como sugere a afirmacao resumida. o lancamento do novo pac em agosto de 2023 com previsao de r$ 1,7 trilhao e a presenca de 21 governadores esta confirmado por [2] e [4]. depois, o governo passou a citar um total de r$ 1,8 trilhao [1][3]. quanto a execucao, a secom [1] e a cnn [3] informam r$ 711 bilhoes executados ate o fim de 2024. esse valor ja era proximo de r$ 800 bi e tende a ter sido superado ate outubro de 2026, entao a fala nao parece inflada. as fontes nao trazem o numero atualizado para 2026. vale notar que boa parte desse \"executado\" vem de recursos privados (r$ 345,7 bi), de financiamentos e de estatais, e apenas r$ 71,3 bi do orcamento da uniao [1]. a cnn [3] tambem registra que metade das obras nao havia comecado. sao ressalvas de contexto que nao tornam falso o nucleo numerico da fala. verdadeiro verdadeiro"
+    "searchTokens": "191 decl-191 luiz inacio lula da silva lula economia o governo lula anunciou um programa de aceleracao do crescimento (novo pac) de r$ 1,7 trilhao, do qual quase 8% (ou 80%) ja foi executado. so para ter ideia, com a participacao inclusive de todos os governadores, de todos os partidos politicos, nos anunciamos um programa de aceleracao do crescimento de r$ 1 trilhao e 700 bilhoes, dos quais quase 800 ja foram executados nesse pais,. verdadeiro, com ressalva: o novo pac foi lancado com r$ 1,7 trilhao. as fontes mostram r$ 711 bi executados ate o fim de 2024, compativel com \"quase 800 bilhoes\" depois. nao ha dado mais recente. o trecho original fala em \"quase 800\" bilhoes executados de r$ 1,7 trilhao, e nao em 8% ou 80% como sugere a afirmacao resumida. o lancamento do novo pac em agosto de 2023 com previsao de r$ 1,7 trilhao e a presenca de 21 governadores esta confirmado por [2] e [4]. depois, o governo passou a citar um total de r$ 1,8 trilhao [1][3]. quanto a execucao, a secom [1] e a cnn [3] informam r$ 711 bilhoes executados ate o fim de 2024. esse valor ja era proximo de r$ 800 bi e tende a ter sido superado ate outubro de 2026, entao a fala nao parece inflada. as fontes nao trazem o numero atualizado para 2026. vale notar que boa parte desse \"executado\" vem de recursos privados (r$ 345,7 bi), de financiamentos e de estatais, e apenas r$ 71,3 bi do orcamento da uniao [1]. a cnn [3] tambem registra que metade das obras nao havia comecado. sao ressalvas de contexto que nao tornam falso o nucleo numerico da fala. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-192",
@@ -20800,7 +20991,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "192 decl-192 luiz inacio lula da silva lula economia o governo lula investiu nos ultimos anos mais em obras de infraestrutura do que em qualquer outro momento da historia do brasil. eu penso que se o candidato conhecesse um pouco o brasil, ele saberia que em nenhum momento da historia do pais se investiu tanto em obra de infraestrutura como nos investimos nesses ultimos anos. enganoso: o investimento total em infraestrutura (publico e privado) bateu recorde nominal em 2024-2025, mas 84% veio do setor privado, e nao se trata de investimento do governo, como sugere a fala. segundo a abdib, citada pela folha [1], o investimento em infraestrutura alcancou r$ 272,3 bilhoes em 2024 e deve chegar a r$ 280 bilhoes em 2025, o maior valor da serie, superando 2014. porem, 84% desse total vem do setor privado; apenas cerca de 16% e dinheiro publico. o mesmo vale para o recorde de concessoes do governo lula 3 [2]: os 50 leiloes transferem investimentos a iniciativa privada. o governo tambem cita recordes setoriais, como em portos e aeroportos [4], e o novo pac [5], mas nenhuma fonte mostra que o investimento feito pelo proprio governo seja o maior da historia. o fgv ibre registra que o investimento publico brasileiro esta historicamente baixo e nao repoe a depreciacao [3], embora esse dado va so ate 2017. lula diz \"nos investimos\" e atribui ao governo um recorde que se deve sobretudo ao capital privado. a fonte [1] tambem nao deixa claro se a comparacao com 2014 considera a inflacao. os numeros estao certos, mas o enquadramento leva o eleitor a uma conclusao falsa. enganoso enganoso"
+    "searchTokens": "192 decl-192 luiz inacio lula da silva lula economia o governo lula investiu nos ultimos anos mais em obras de infraestrutura do que em qualquer outro momento da historia do brasil. eu penso que se o candidato conhecesse um pouco o brasil, ele saberia que em nenhum momento da historia do pais se investiu tanto em obra de infraestrutura como nos investimos nesses ultimos anos. enganoso: o investimento total em infraestrutura (publico e privado) bateu recorde nominal em 2024-2025, mas 84% veio do setor privado, e nao se trata de investimento do governo, como sugere a fala. segundo a abdib, citada pela folha [1], o investimento em infraestrutura alcancou r$ 272,3 bilhoes em 2024 e deve chegar a r$ 280 bilhoes em 2025, o maior valor da serie, superando 2014. porem, 84% desse total vem do setor privado; apenas cerca de 16% e dinheiro publico. o mesmo vale para o recorde de concessoes do governo lula 3 [2]: os 50 leiloes transferem investimentos a iniciativa privada. o governo tambem cita recordes setoriais, como em portos e aeroportos [4], e o novo pac [5], mas nenhuma fonte mostra que o investimento feito pelo proprio governo seja o maior da historia. o fgv ibre registra que o investimento publico brasileiro esta historicamente baixo e nao repoe a depreciacao [3], embora esse dado va so ate 2017. lula diz \"nos investimos\" e atribui ao governo um recorde que se deve sobretudo ao capital privado. a fonte [1] tambem nao deixa claro se a comparacao com 2014 considera a inflacao. os numeros estao certos, mas o enquadramento leva o eleitor a uma conclusao falsa. enganoso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-193",
@@ -20816,7 +21008,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-warn",
     "verdictBadge": "ENGANOSO",
-    "normalizedVerdict": "enganoso",
+    "normalizedVerdict": "falso",
     "quote": "Agora, neste ano, o TCU, o Tribunal de Contas da União, acaba de soltar um relatório que existem mais de 11.500 obras paralisadas do atual governo.",
     "theFact": "Afirmação apurada: Relatório do TCU divulgado neste ano aponta mais de 11.500 obras paralisadas no atual governo.. O número de cerca de 11,5 mil obras paradas é do TCU, mas os dados são de 2025 (até abril), não deste ano. Além disso, atribuí-las todas ao atual governo omite que boa parte é passivo de gestões anteriores. O TCU divulgou em 30/07/2025 que, até abril de 2025, 11.469 das 22.621 obras com recursos federais estavam paralisadas [1][3][4]. O número é, portanto, ligeiramente inferior a 'mais de 11.500', embora próximo. O levantamento é de 2025, e não de 2026, ano do debate. O próprio presidente do TCU fala em 'passivo acumulado' [1]. Em 2022 já havia 38,5% de obras paralisadas [5], e em 2024 eram 11.941 [2], o que indica que muitas obras são herdadas de governos anteriores. Há, sim, piora recente: o número de obras paradas cresceu cerca de 32% de 2022 para 2025 [4], e parte das obras iniciadas entre 2024 e 2025 já estava paralisada [4]. Ainda assim, dizer que são '11.500 obras paralisadas do atual governo' leva o eleitor a atribuir todo o estoque à gestão atual, o que as fontes não sustentam.",
     "whyDiverge": "Verificação realizada por Pinóquio.live no debate da TV Globo com foco temático em economia e análise de relatórios probatórios.",
@@ -20914,7 +21106,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "193 decl-193 flavio bolsonaro flavio economia relatorio do tcu divulgado neste ano aponta mais de 11.500 obras paralisadas no atual governo. agora, neste ano, o tcu, o tribunal de contas da uniao, acaba de soltar um relatorio que existem mais de 11.500 obras paralisadas do atual governo. o numero de cerca de 11,5 mil obras paradas e do tcu, mas os dados sao de 2025 (ate abril), nao deste ano. alem disso, atribui-las todas ao atual governo omite que boa parte e passivo de gestoes anteriores. o tcu divulgou em 30/07/2025 que, ate abril de 2025, 11.469 das 22.621 obras com recursos federais estavam paralisadas [1][3][4]. o numero e, portanto, ligeiramente inferior a 'mais de 11.500', embora proximo. o levantamento e de 2025, e nao de 2026, ano do debate. o proprio presidente do tcu fala em 'passivo acumulado' [1]. em 2022 ja havia 38,5% de obras paralisadas [5], e em 2024 eram 11.941 [2], o que indica que muitas obras sao herdadas de governos anteriores. ha, sim, piora recente: o numero de obras paradas cresceu cerca de 32% de 2022 para 2025 [4], e parte das obras iniciadas entre 2024 e 2025 ja estava paralisada [4]. ainda assim, dizer que sao '11.500 obras paralisadas do atual governo' leva o eleitor a atribuir todo o estoque a gestao atual, o que as fontes nao sustentam. enganoso enganoso"
+    "searchTokens": "193 decl-193 flavio bolsonaro flavio economia relatorio do tcu divulgado neste ano aponta mais de 11.500 obras paralisadas no atual governo. agora, neste ano, o tcu, o tribunal de contas da uniao, acaba de soltar um relatorio que existem mais de 11.500 obras paralisadas do atual governo. o numero de cerca de 11,5 mil obras paradas e do tcu, mas os dados sao de 2025 (ate abril), nao deste ano. alem disso, atribui-las todas ao atual governo omite que boa parte e passivo de gestoes anteriores. o tcu divulgou em 30/07/2025 que, ate abril de 2025, 11.469 das 22.621 obras com recursos federais estavam paralisadas [1][3][4]. o numero e, portanto, ligeiramente inferior a 'mais de 11.500', embora proximo. o levantamento e de 2025, e nao de 2026, ano do debate. o proprio presidente do tcu fala em 'passivo acumulado' [1]. em 2022 ja havia 38,5% de obras paralisadas [5], e em 2024 eram 11.941 [2], o que indica que muitas obras sao herdadas de governos anteriores. ha, sim, piora recente: o numero de obras paradas cresceu cerca de 32% de 2022 para 2025 [4], e parte das obras iniciadas entre 2024 e 2025 ja estava paralisada [4]. ainda assim, dizer que sao '11.500 obras paralisadas do atual governo' leva o eleitor a atribuir todo o estoque a gestao atual, o que as fontes nao sustentam. enganoso enganoso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-194",
@@ -21027,7 +21220,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "194 decl-194 flavio bolsonaro flavio economia quando o governo bolsonaro assumiu, em 2019, havia cerca de 14 mil obras inacabadas no brasil. nos pegamos o brasil, la em 2019, com cerca de 14 mil obras inacabadas. verdadeiro. levantamento do tcu identificou 14.403 obras paralisadas com recursos federais em 2018, numero que o governo bolsonaro encontrou ao assumir em 2019. segundo auditoria do tcu realizada entre 2017 e 2019, havia ao menos 14.403 contratos de obras com situacao 'paralisado', de um total de cerca de 38 mil, somando r$ 144 bilhoes [3][4]. a camara noticiou que em 2018 foram identificadas 14.403 obras paradas [1], e a cnn, com base no tcu, afirma que bolsonaro recebeu 14.403 obras inacabadas ao assumir em 2019 [2]. o numero 'cerca de 14 mil' corresponde aos dados. ressalva: os numeros referem-se a obras financiadas com recursos federais, classificadas como 'paralisadas', e nao a todas as obras do pais. isso nao altera o nucleo da fala. como contexto, o mesmo levantamento mostra que o numero caiu para 7.862 no meio do mandato e voltou a subir depois, chegando a 8,6 mil em 2023 [2][5][6]. verdadeiro verdadeiro"
+    "searchTokens": "194 decl-194 flavio bolsonaro flavio economia quando o governo bolsonaro assumiu, em 2019, havia cerca de 14 mil obras inacabadas no brasil. nos pegamos o brasil, la em 2019, com cerca de 14 mil obras inacabadas. verdadeiro. levantamento do tcu identificou 14.403 obras paralisadas com recursos federais em 2018, numero que o governo bolsonaro encontrou ao assumir em 2019. segundo auditoria do tcu realizada entre 2017 e 2019, havia ao menos 14.403 contratos de obras com situacao 'paralisado', de um total de cerca de 38 mil, somando r$ 144 bilhoes [3][4]. a camara noticiou que em 2018 foram identificadas 14.403 obras paradas [1], e a cnn, com base no tcu, afirma que bolsonaro recebeu 14.403 obras inacabadas ao assumir em 2019 [2]. o numero 'cerca de 14 mil' corresponde aos dados. ressalva: os numeros referem-se a obras financiadas com recursos federais, classificadas como 'paralisadas', e nao a todas as obras do pais. isso nao altera o nucleo da fala. como contexto, o mesmo levantamento mostra que o numero caiu para 7.862 no meio do mandato e voltou a subir depois, chegando a 8,6 mil em 2023 [2][5][6]. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-195",
@@ -21120,7 +21314,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "195 decl-195 flavio bolsonaro flavio economia e contas publicas pegou o brasil em 2019 com cerca de 14 mil obras inacabadas e entregou com \"um pouco mais de 8 mil\" pegou o brasil em 2019 com cerca de 14 mil obras inacabadas e entregou com \"um pouco mais de 8 mil\" o tcu contou cerca de 14 mil obras paralisadas, de 38 mil, no diagnostico de 2017 a 2019, e 8.603 em abril de 2023. as bases nao sao iguais: o total de obras caiu de 38 mil para 21 mil. verdadeiro verdadeiro"
+    "searchTokens": "195 decl-195 flavio bolsonaro flavio economia e contas publicas pegou o brasil em 2019 com cerca de 14 mil obras inacabadas e entregou com \"um pouco mais de 8 mil\" pegou o brasil em 2019 com cerca de 14 mil obras inacabadas e entregou com \"um pouco mais de 8 mil\" o tcu contou cerca de 14 mil obras paralisadas, de 38 mil, no diagnostico de 2017 a 2019, e 8.603 em abril de 2023. as bases nao sao iguais: o total de obras caiu de 38 mil para 21 mil. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-196",
@@ -21136,7 +21331,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "falso",
     "quote": "O TCU \"acaba de soltar\", neste ano, relatório com mais de 11.500 obras paralisadas no atual governo.",
     "theFact": "Afirmação apurada: O TCU \"acaba de soltar\", neste ano, relatório com mais de 11.500 obras paralisadas no atual governo.. O TCU contou 11.469 obras paralisadas, de 22.621 mapeadas, no levantamento de abril de 2025. Em 09/06/2026, o presidente do TCU repetiu a conta: das 22 mil obras acompanhadas, \"11 mil ainda estão paralisadas\".",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em economia e contas públicas e análise de relatórios probatórios.",
@@ -21219,7 +21414,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "196 decl-196 flavio bolsonaro flavio economia e contas publicas o tcu \"acaba de soltar\", neste ano, relatorio com mais de 11.500 obras paralisadas no atual governo. o tcu \"acaba de soltar\", neste ano, relatorio com mais de 11.500 obras paralisadas no atual governo. o tcu contou 11.469 obras paralisadas, de 22.621 mapeadas, no levantamento de abril de 2025. em 09/06/2026, o presidente do tcu repetiu a conta: das 22 mil obras acompanhadas, \"11 mil ainda estao paralisadas\". verdadeiro verdadeiro"
+    "searchTokens": "196 decl-196 flavio bolsonaro flavio economia e contas publicas o tcu \"acaba de soltar\", neste ano, relatorio com mais de 11.500 obras paralisadas no atual governo. o tcu \"acaba de soltar\", neste ano, relatorio com mais de 11.500 obras paralisadas no atual governo. o tcu contou 11.469 obras paralisadas, de 22.621 mapeadas, no levantamento de abril de 2025. em 09/06/2026, o presidente do tcu repetiu a conta: das 22 mil obras acompanhadas, \"11 mil ainda estao paralisadas\". verdadeiro verdadeiro",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-197",
@@ -21310,7 +21506,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "197 decl-197 luiz inacio lula da silva lula economia e contas publicas anunciou um pac de r$ 1,7 trilhao, dos quais \"quase 800\" ja foram executados. anunciou um pac de r$ 1,7 trilhao, dos quais \"quase 800\" ja foram executados. o novo pac foi lancado em agosto de 2023 com r$ 1,7 trilhao previstos; hoje a carteira soma r$ 1,9 tri. so ate o fim de 2024 ja tinham sido investidos r$ 711 bi, somando todas as fontes, e a execucao seguiu depois disso: lula disse menos do que os dados oficiais mostram. verdadeiro verdadeiro"
+    "searchTokens": "197 decl-197 luiz inacio lula da silva lula economia e contas publicas anunciou um pac de r$ 1,7 trilhao, dos quais \"quase 800\" ja foram executados. anunciou um pac de r$ 1,7 trilhao, dos quais \"quase 800\" ja foram executados. o novo pac foi lancado em agosto de 2023 com r$ 1,7 trilhao previstos; hoje a carteira soma r$ 1,9 tri. so ate o fim de 2024 ja tinham sido investidos r$ 711 bi, somando todas as fontes, e a execucao seguiu depois disso: lula disse menos do que os dados oficiais mostram. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-198",
@@ -21391,7 +21588,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "198 decl-198 luiz inacio lula da silva lula economia e contas publicas herdou 6 mil obras paradas. herdou 6 mil obras paradas. o tcu contou 8.603 obras federais paralisadas em abril de 2023, quatro meses depois da posse. o numero de lula fica abaixo do oficial. verdadeiro verdadeiro"
+    "searchTokens": "198 decl-198 luiz inacio lula da silva lula economia e contas publicas herdou 6 mil obras paradas. herdou 6 mil obras paradas. o tcu contou 8.603 obras federais paralisadas em abril de 2023, quatro meses depois da posse. o numero de lula fica abaixo do oficial. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-199",
@@ -21490,7 +21688,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "199 decl-199 flavio bolsonaro flavio economia e contas publicas o governo bolsonaro instalou mais de 21.300 pontos de internet em mais de 3.100 cidades, para mais de 11 milhoes de pessoas. o governo bolsonaro instalou mais de 21.300 pontos de internet em mais de 3.100 cidades, para mais de 11 milhoes de pessoas. o total confere: o ministerio das comunicacoes informou, em 16/12/2022, 21,3 mil pontos do wi-fi brasil em cerca de 3,2 mil cidades, para mais de 11 milhoes de pessoas. mas e o total do programa, que existe desde 2002 com o nome gesac: o entao mctic ja registrava cerca de 11 mil pontos em funcionamento, e o proprio ministerio contava 14,2 mil em dezembro de 2021. o governo bolsonaro nao instalou todos. impreciso enganoso"
+    "searchTokens": "199 decl-199 flavio bolsonaro flavio economia e contas publicas o governo bolsonaro instalou mais de 21.300 pontos de internet em mais de 3.100 cidades, para mais de 11 milhoes de pessoas. o governo bolsonaro instalou mais de 21.300 pontos de internet em mais de 3.100 cidades, para mais de 11 milhoes de pessoas. o total confere: o ministerio das comunicacoes informou, em 16/12/2022, 21,3 mil pontos do wi-fi brasil em cerca de 3,2 mil cidades, para mais de 11 milhoes de pessoas. mas e o total do programa, que existe desde 2002 com o nome gesac: o entao mctic ja registrava cerca de 11 mil pontos em funcionamento, e o proprio ministerio contava 14,2 mil em dezembro de 2021. o governo bolsonaro nao instalou todos. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-200",
@@ -21576,7 +21775,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "200 decl-200 luiz inacio lula da silva lula economia e contas publicas \"estamos fazendo\" a br-319, que liga porto velho a manaus. \"estamos fazendo\" a br-319, que liga porto velho a manaus. ha obras na br-319: o governo faz manutencao e pavimenta trechos, como o lote c (42% em dezembro de 2025). mas nao esta fazendo a ligacao inteira: a pavimentacao do trecho do meio nao tem licenca, e a do ibama, de 09/05/2026, cobre so tres pontes. impreciso enganoso"
+    "searchTokens": "200 decl-200 luiz inacio lula da silva lula economia e contas publicas \"estamos fazendo\" a br-319, que liga porto velho a manaus. \"estamos fazendo\" a br-319, que liga porto velho a manaus. ha obras na br-319: o governo faz manutencao e pavimenta trechos, como o lote c (42% em dezembro de 2025). mas nao esta fazendo a ligacao inteira: a pavimentacao do trecho do meio nao tem licenca, e a do ibama, de 09/05/2026, cobre so tres pontes. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-201",
@@ -21657,7 +21857,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "201 decl-201 luiz inacio lula da silva lula economia e contas publicas \"estamos fazendo\" a serra das araras, \"uma obra de quase 12 bilhoes\" \"estamos fazendo\" a serra das araras, \"uma obra de quase 12 bilhoes\" a obra esta em andamento, com 70% de avanco em junho de 2026, mas custa r$ 1,5 bi. quem executa e a concessionaria da dutra, com cerca de 70% financiado pelo bndes. impreciso enganoso"
+    "searchTokens": "201 decl-201 luiz inacio lula da silva lula economia e contas publicas \"estamos fazendo\" a serra das araras, \"uma obra de quase 12 bilhoes\" \"estamos fazendo\" a serra das araras, \"uma obra de quase 12 bilhoes\" a obra esta em andamento, com 70% de avanco em junho de 2026, mas custa r$ 1,5 bi. quem executa e a concessionaria da dutra, com cerca de 70% financiado pelo bndes. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-202",
@@ -21745,7 +21946,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "202 decl-202 luiz inacio lula da silva lula economia e contas publicas no tunel santos-guaruja, \"quem esta colocando dinheiro para fazer somos nos\" no tunel santos-guaruja, \"quem esta colocando dinheiro para fazer somos nos\" a uniao poe dinheiro na obra: pouco mais de r$ 2,5 bi dos r$ 6,8 bi. mas nao e a unica: o governo de sao paulo entra com cerca de r$ 2,7 bi e a mota-engil, com r$ 1,6 bi. as obras comecam em 2027. impreciso enganoso"
+    "searchTokens": "202 decl-202 luiz inacio lula da silva lula economia e contas publicas no tunel santos-guaruja, \"quem esta colocando dinheiro para fazer somos nos\" no tunel santos-guaruja, \"quem esta colocando dinheiro para fazer somos nos\" a uniao poe dinheiro na obra: pouco mais de r$ 2,5 bi dos r$ 6,8 bi. mas nao e a unica: o governo de sao paulo entra com cerca de r$ 2,7 bi e a mota-engil, com r$ 1,6 bi. as obras comecam em 2027. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-203",
@@ -21831,7 +22033,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "203 decl-203 luiz inacio lula da silva lula economia e contas publicas sem os reajustes acima da inflacao dos governos do pt, o salario minimo seria \"apenas 900\" sem os reajustes acima da inflacao dos governos do pt, o salario minimo seria \"apenas 900\" corrigido so pelo inpc desde maio de 2002, quando era r$ 200, o minimo seria cerca de r$ 804 em 2026 (calculo nosso com a serie do ibge). o valor de 2026 e r$ 1.621. o numero de lula fica ate acima do calculo. verdadeiro verdadeiro"
+    "searchTokens": "203 decl-203 luiz inacio lula da silva lula economia e contas publicas sem os reajustes acima da inflacao dos governos do pt, o salario minimo seria \"apenas 900\" sem os reajustes acima da inflacao dos governos do pt, o salario minimo seria \"apenas 900\" corrigido so pelo inpc desde maio de 2002, quando era r$ 200, o minimo seria cerca de r$ 804 em 2026 (calculo nosso com a serie do ibge). o valor de 2026 e r$ 1.621. o numero de lula fica ate acima do calculo. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-204",
@@ -21912,7 +22115,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "204 decl-204 luiz inacio lula da silva lula programas sociais \"nos aprovamos o fim da escala 6x1\" \"nos aprovamos o fim da escala 6x1\" a pec 221/2019 foi aprovada pelo congresso e promulgada como emenda constitucional 141, em 16/10/2026: jornada maxima de 40 horas e dois dias de descanso, com transicao. verdadeiro verdadeiro"
+    "searchTokens": "204 decl-204 luiz inacio lula da silva lula programas sociais \"nos aprovamos o fim da escala 6x1\" \"nos aprovamos o fim da escala 6x1\" a pec 221/2019 foi aprovada pelo congresso e promulgada como emenda constitucional 141, em 16/10/2026: jornada maxima de 40 horas e dois dias de descanso, com transicao. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-205",
@@ -22003,7 +22207,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "205 decl-205 flavio bolsonaro flavio economia e contas publicas lula \"implementou a carga tributaria mais alta da historia\" com a reforma tributaria. lula \"implementou a carga tributaria mais alta da historia\" com a reforma tributaria. a carga da reforma ainda nao existe para medir: a cbs comeca a ser cobrada em 2027, e o ibs so fica completo em 2033. ate agora, a maior carga da serie do tesouro foi a de 2022, acima de 33% do pib; em 2025, foi 32,40%. nao verificavel enganoso"
+    "searchTokens": "205 decl-205 flavio bolsonaro flavio economia e contas publicas lula \"implementou a carga tributaria mais alta da historia\" com a reforma tributaria. lula \"implementou a carga tributaria mais alta da historia\" com a reforma tributaria. a carga da reforma ainda nao existe para medir: a cbs comeca a ser cobrada em 2027, e o ibs so fica completo em 2033. ate agora, a maior carga da serie do tesouro foi a de 2022, acima de 33% do pib; em 2025, foi 32,40%. nao verificavel enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-206",
@@ -22089,7 +22294,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "206 decl-206 flavio bolsonaro flavio economia e contas publicas o iva comeca a ser cobrado no ano que vem, e a aliquota estimada e de 28%. o iva comeca a ser cobrado no ano que vem, e a aliquota estimada e de 28%. a cbs comeca a ser cobrada em 2027. em 17/01/2025, o secretario da reforma, bernard appy, estimou a soma de cbs e ibs \"em torno de 28%\". verdadeiro verdadeiro"
+    "searchTokens": "206 decl-206 flavio bolsonaro flavio economia e contas publicas o iva comeca a ser cobrado no ano que vem, e a aliquota estimada e de 28%. o iva comeca a ser cobrado no ano que vem, e a aliquota estimada e de 28%. a cbs comeca a ser cobrada em 2027. em 17/01/2025, o secretario da reforma, bernard appy, estimou a soma de cbs e ibs \"em torno de 28%\". verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-207",
@@ -22175,7 +22381,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "207 decl-207 flavio bolsonaro flavio programas sociais \"foi o bolsonaro que deu no minimo r$ 600\" do bolsa familia. \"foi o bolsonaro que deu no minimo r$ 600\" do bolsa familia. o governo bolsonaro pagou no minimo r$ 600 de agosto a dezembro de 2022, pela ec 123/2022. mas foi temporario: o piso permanente do governo bolsonaro era r$ 400, e o piso permanente de r$ 600 veio com a lei 14.601/2023, do governo lula. impreciso enganoso"
+    "searchTokens": "207 decl-207 flavio bolsonaro flavio programas sociais \"foi o bolsonaro que deu no minimo r$ 600\" do bolsa familia. \"foi o bolsonaro que deu no minimo r$ 600\" do bolsa familia. o governo bolsonaro pagou no minimo r$ 600 de agosto a dezembro de 2022, pela ec 123/2022. mas foi temporario: o piso permanente do governo bolsonaro era r$ 400, e o piso permanente de r$ 600 veio com a lei 14.601/2023, do governo lula. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-208",
@@ -22261,7 +22468,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "208 decl-208 flavio bolsonaro flavio programas sociais os r$ 600 do bolsa familia enchiam o carrinho e hoje \"nao enche mais\" os r$ 600 do bolsa familia enchiam o carrinho e hoje \"nao enche mais\" r$ 600 compram menos hoje do que em 2022, por causa da inflacao, mas o piso do beneficio subiu para r$ 691, que compra o mesmo numero de cestas basicas que em dezembro de 2022. impreciso enganoso"
+    "searchTokens": "208 decl-208 flavio bolsonaro flavio programas sociais os r$ 600 do bolsa familia enchiam o carrinho e hoje \"nao enche mais\" os r$ 600 do bolsa familia enchiam o carrinho e hoje \"nao enche mais\" r$ 600 compram menos hoje do que em 2022, por causa da inflacao, mas o piso do beneficio subiu para r$ 691, que compra o mesmo numero de cestas basicas que em dezembro de 2022. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-209",
@@ -22360,7 +22568,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "209 decl-209 flavio bolsonaro flavio economia e contas publicas o brasil tem \"uma das maiores taxas de juros do mundo\" o brasil tem \"uma das maiores taxas de juros do mundo\" a selic esta em 13,75% ao ano desde o corte de setembro de 2026. descontada a inflacao, o brasil tem o maior juro real entre 40 economias no ranking privado da moneyou de setembro de 2026: 8,45% ao ano, a frente de russia (6,79%) e colombia (6,33%). verdadeiro verdadeiro"
+    "searchTokens": "209 decl-209 flavio bolsonaro flavio economia e contas publicas o brasil tem \"uma das maiores taxas de juros do mundo\" o brasil tem \"uma das maiores taxas de juros do mundo\" a selic esta em 13,75% ao ano desde o corte de setembro de 2026. descontada a inflacao, o brasil tem o maior juro real entre 40 economias no ranking privado da moneyou de setembro de 2026: 8,45% ao ano, a frente de russia (6,79%) e colombia (6,33%). verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-210",
@@ -22376,7 +22585,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-warn",
     "verdictBadge": "ENGANOSO",
-    "normalizedVerdict": "enganoso",
+    "normalizedVerdict": "falso",
     "quote": "Por causa dos juros, a dúzia de ovos \"virou dez\", o sabão em pó de 1 kg virou 800 g, o chocolate de 120 g tem 80 g e o papel higiênico de 40 m tem 20 m.",
     "theFact": "Afirmação apurada: Por causa dos juros, a dúzia de ovos \"virou dez\", o sabão em pó de 1 kg virou 800 g, o chocolate de 120 g tem 80 g e o papel higiênico de 40 m tem 20 m.. A redução de embalagens existe: o Procon de Santa Catarina cita em 2025 a \"dúzia\" com 10 ovos, o sabão em pó de 1 kg para 800 g e o chocolate de 150 g para 120 g. Os números do chocolate (120 g para 80 g) e do papel (40 m para 20 m) não aparecem nas fontes oficiais, e a prática já era registrada em 2022, no governo Bolsonaro, pelo Procon de Santo André. \"Legado do atual governo\" é opinião.",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em economia e contas públicas e análise de relatórios probatórios.",
@@ -22453,7 +22662,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "210 decl-210 flavio bolsonaro flavio economia e contas publicas por causa dos juros, a duzia de ovos \"virou dez\", o sabao em po de 1 kg virou 800 g, o chocolate de 120 g tem 80 g e o papel higienico de 40 m tem 20 m. por causa dos juros, a duzia de ovos \"virou dez\", o sabao em po de 1 kg virou 800 g, o chocolate de 120 g tem 80 g e o papel higienico de 40 m tem 20 m. a reducao de embalagens existe: o procon de santa catarina cita em 2025 a \"duzia\" com 10 ovos, o sabao em po de 1 kg para 800 g e o chocolate de 150 g para 120 g. os numeros do chocolate (120 g para 80 g) e do papel (40 m para 20 m) nao aparecem nas fontes oficiais, e a pratica ja era registrada em 2022, no governo bolsonaro, pelo procon de santo andre. \"legado do atual governo\" e opiniao. impreciso enganoso"
+    "searchTokens": "210 decl-210 flavio bolsonaro flavio economia e contas publicas por causa dos juros, a duzia de ovos \"virou dez\", o sabao em po de 1 kg virou 800 g, o chocolate de 120 g tem 80 g e o papel higienico de 40 m tem 20 m. por causa dos juros, a duzia de ovos \"virou dez\", o sabao em po de 1 kg virou 800 g, o chocolate de 120 g tem 80 g e o papel higienico de 40 m tem 20 m. a reducao de embalagens existe: o procon de santa catarina cita em 2025 a \"duzia\" com 10 ovos, o sabao em po de 1 kg para 800 g e o chocolate de 150 g para 120 g. os numeros do chocolate (120 g para 80 g) e do papel (40 m para 20 m) nao aparecem nas fontes oficiais, e a pratica ja era registrada em 2022, no governo bolsonaro, pelo procon de santo andre. \"legado do atual governo\" e opiniao. impreciso enganoso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-211",
@@ -22539,7 +22749,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "211 decl-211 flavio bolsonaro flavio trajetoria, votos e eleicao lula diz que as pessoas \"tem que se ajoelhar aos seus pes\" lula diz que as pessoas \"tem que se ajoelhar aos seus pes\" em comicio em florianopolis, em 19/09/2026, lula disse sobre o agro: \"se dependesse de dinheiro do governo, eles deveriam nao so votar, mas se ajoelhar pra mim\". a fala existe e e sobre quem produz, como flavio disse; lula a pos como condicao. verdadeiro verdadeiro"
+    "searchTokens": "211 decl-211 flavio bolsonaro flavio trajetoria, votos e eleicao lula diz que as pessoas \"tem que se ajoelhar aos seus pes\" lula diz que as pessoas \"tem que se ajoelhar aos seus pes\" em comicio em florianopolis, em 19/09/2026, lula disse sobre o agro: \"se dependesse de dinheiro do governo, eles deveriam nao so votar, mas se ajoelhar pra mim\". a fala existe e e sobre quem produz, como flavio disse; lula a pos como condicao. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-212",
@@ -22620,7 +22831,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "212 decl-212 flavio bolsonaro flavio trajetoria, votos e eleicao lula \"chama o agro de fascista\" lula \"chama o agro de fascista\" lula usou a palavra \"fascista\" ao falar dos organizadores da agrishow em 2023, segundo requerimento registrado na camara. a fala foi sobre parte do setor, nao sobre o agro como um todo. impreciso enganoso"
+    "searchTokens": "212 decl-212 flavio bolsonaro flavio trajetoria, votos e eleicao lula \"chama o agro de fascista\" lula \"chama o agro de fascista\" lula usou a palavra \"fascista\" ao falar dos organizadores da agrishow em 2023, segundo requerimento registrado na camara. a fala foi sobre parte do setor, nao sobre o agro como um todo. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-213",
@@ -22701,7 +22913,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "213 decl-213 luiz inacio lula da silva lula economia e contas publicas \"nunca se exportou tanto nesse pais\" \"nunca se exportou tanto nesse pais\" em 2025, o brasil exportou us$ 348,3 bilhoes, recorde da serie. de janeiro a setembro de 2026, as exportacoes somam us$ 284,7 bilhoes, 10,4% acima do mesmo periodo de 2025. verdadeiro verdadeiro"
+    "searchTokens": "213 decl-213 luiz inacio lula da silva lula economia e contas publicas \"nunca se exportou tanto nesse pais\" \"nunca se exportou tanto nesse pais\" em 2025, o brasil exportou us$ 348,3 bilhoes, recorde da serie. de janeiro a setembro de 2026, as exportacoes somam us$ 284,7 bilhoes, 10,4% acima do mesmo periodo de 2025. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-214",
@@ -22782,7 +22995,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "214 decl-214 luiz inacio lula da silva lula economia e contas publicas \"abrimos 700 novos mercados\" para o agro. \"abrimos 700 novos mercados\" para o agro. o ministerio da agricultura anunciou em 12/10/2026 a marca de 700 novos mercados abertos para produtos agropecuarios desde o inicio de 2023. verdadeiro verdadeiro"
+    "searchTokens": "214 decl-214 luiz inacio lula da silva lula economia e contas publicas \"abrimos 700 novos mercados\" para o agro. \"abrimos 700 novos mercados\" para o agro. o ministerio da agricultura anunciou em 12/10/2026 a marca de 700 novos mercados abertos para produtos agropecuarios desde o inicio de 2023. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-215",
@@ -22798,7 +23012,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "O superávit comercial \"foi quase 85 bilhões\" (disse reais).",
     "theFact": "Afirmação apurada: O superávit comercial \"foi quase 85 bilhões\" (disse reais).. O saldo dos 12 meses de outubro de 2025 a setembro de 2026 foi de US$ 84,2 bilhões. O valor é em dólares, não em reais; em reais, seria bem maior. No ano de 2025, o saldo foi de US$ 68,1 bilhões.",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em economia e contas públicas e análise de relatórios probatórios.",
@@ -22870,7 +23084,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "215 decl-215 luiz inacio lula da silva lula economia e contas publicas o superavit comercial \"foi quase 85 bilhoes\" (disse reais). o superavit comercial \"foi quase 85 bilhoes\" (disse reais). o saldo dos 12 meses de outubro de 2025 a setembro de 2026 foi de us$ 84,2 bilhoes. o valor e em dolares, nao em reais; em reais, seria bem maior. no ano de 2025, o saldo foi de us$ 68,1 bilhoes. verdadeiro verdadeiro"
+    "searchTokens": "215 decl-215 luiz inacio lula da silva lula economia e contas publicas o superavit comercial \"foi quase 85 bilhoes\" (disse reais). o superavit comercial \"foi quase 85 bilhoes\" (disse reais). o saldo dos 12 meses de outubro de 2025 a setembro de 2026 foi de us$ 84,2 bilhoes. o valor e em dolares, nao em reais; em reais, seria bem maior. no ano de 2025, o saldo foi de us$ 68,1 bilhoes. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-216",
@@ -22963,7 +23178,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "216 decl-216 flavio bolsonaro flavio economia e contas publicas no plano safra, \"o juro real chega, fica proximo de 20%\" no plano safra, \"o juro real chega, fica proximo de 20%\" as taxas do plano safra 2026/27 vao ate 12,5% ao ano, nominais. com o ipca de 4,58% em 12 meses ate setembro de 2026, o juro real maximo fica perto de 7,6%. ✕falso falso"
+    "searchTokens": "216 decl-216 flavio bolsonaro flavio economia e contas publicas no plano safra, \"o juro real chega, fica proximo de 20%\" no plano safra, \"o juro real chega, fica proximo de 20%\" as taxas do plano safra 2026/27 vao ate 12,5% ao ano, nominais. com o ipca de 4,58% em 12 meses ate setembro de 2026, o juro real maximo fica perto de 7,6%. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-217",
@@ -23044,7 +23260,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "217 decl-217 flavio bolsonaro flavio economia e contas publicas lula \"contingencia os recursos do seguro rural e do plano safra\" lula \"contingencia os recursos do seguro rural e do plano safra\" o seguro rural teve corte: em 2025, dos r$ 1,06 bilhao aprovados, ficaram r$ 565 milhoes para os produtores. nao ha registro de contingenciamento dos recursos do plano safra. impreciso enganoso"
+    "searchTokens": "217 decl-217 flavio bolsonaro flavio economia e contas publicas lula \"contingencia os recursos do seguro rural e do plano safra\" lula \"contingencia os recursos do seguro rural e do plano safra\" o seguro rural teve corte: em 2025, dos r$ 1,06 bilhao aprovados, ficaram r$ 565 milhoes para os produtores. nao ha registro de contingenciamento dos recursos do plano safra. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-218",
@@ -23060,7 +23277,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "\"Eu tinha acabado com a fome nesse país em 2012\" e voltou em 2023 com 33 milhões passando fome.",
     "theFact": "Afirmação apurada: \"Eu tinha acabado com a fome nesse país em 2012\" e voltou em 2023 com 33 milhões passando fome.. O Brasil saiu do Mapa da Fome da ONU no relatório da FAO de 2014, com dados até 2013; o ano citado é um detalhe. Os 33,1 milhões em situação de fome vêm do inquérito da Rede PENSSAN feito entre novembro de 2021 e abril de 2022; o IBGE não mediu a fome nesse período.",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em programas sociais e análise de relatórios probatórios.",
@@ -23142,7 +23359,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "218 decl-218 luiz inacio lula da silva lula programas sociais \"eu tinha acabado com a fome nesse pais em 2012\" e voltou em 2023 com 33 milhoes passando fome. \"eu tinha acabado com a fome nesse pais em 2012\" e voltou em 2023 com 33 milhoes passando fome. o brasil saiu do mapa da fome da onu no relatorio da fao de 2014, com dados ate 2013; o ano citado e um detalhe. os 33,1 milhoes em situacao de fome vem do inquerito da rede penssan feito entre novembro de 2021 e abril de 2022; o ibge nao mediu a fome nesse periodo. verdadeiro verdadeiro"
+    "searchTokens": "218 decl-218 luiz inacio lula da silva lula programas sociais \"eu tinha acabado com a fome nesse pais em 2012\" e voltou em 2023 com 33 milhoes passando fome. \"eu tinha acabado com a fome nesse pais em 2012\" e voltou em 2023 com 33 milhoes passando fome. o brasil saiu do mapa da fome da onu no relatorio da fao de 2014, com dados ate 2013; o ano citado e um detalhe. os 33,1 milhoes em situacao de fome vem do inquerito da rede penssan feito entre novembro de 2021 e abril de 2022; o ibge nao mediu a fome nesse periodo. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-219",
@@ -23223,7 +23441,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "219 decl-219 luiz inacio lula da silva lula programas sociais o sul \"e a regiao que, proporcionalmente, tem mais aposentados no brasil\" o sul \"e a regiao que, proporcionalmente, tem mais aposentados no brasil\" a previdencia publica por regiao o numero de beneficios, nao de aposentados. em dezembro de 2024, o sul tinha 22,9 beneficios do inss por 100 habitantes, acima da media do pais, de 19,2, mas a conta inclui pensoes e auxilios. nao verificavel enganoso"
+    "searchTokens": "219 decl-219 luiz inacio lula da silva lula programas sociais o sul \"e a regiao que, proporcionalmente, tem mais aposentados no brasil\" o sul \"e a regiao que, proporcionalmente, tem mais aposentados no brasil\" a previdencia publica por regiao o numero de beneficios, nao de aposentados. em dezembro de 2024, o sul tinha 22,9 beneficios do inss por 100 habitantes, acima da media do pais, de 19,2, mas a conta inclui pensoes e auxilios. nao verificavel enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-220",
@@ -23304,7 +23523,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "220 decl-220 luiz inacio lula da silva lula politica externa \"na argentina a pobreza chegou a 40%\" \"na argentina a pobreza chegou a 40%\" segundo o indec, a pobreza atingiu 52,9% das pessoas no 1º semestre de 2024, o primeiro do governo milei. no 2º semestre de 2023, era 41,7%. verdadeiro verdadeiro"
+    "searchTokens": "220 decl-220 luiz inacio lula da silva lula politica externa \"na argentina a pobreza chegou a 40%\" \"na argentina a pobreza chegou a 40%\" segundo o indec, a pobreza atingiu 52,9% das pessoas no 1º semestre de 2024, o primeiro do governo milei. no 2º semestre de 2023, era 41,7%. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-221",
@@ -23385,7 +23605,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "221 decl-221 flavio bolsonaro flavio politica externa \"la na argentina, a esquerda governou por 20 anos\" \"la na argentina, a esquerda governou por 20 anos\" de 2003 a 2023, governos peronistas ocuparam a presidencia por cerca de 16 anos: nestor e cristina kirchner (2003–2015) e alberto fernandez (2019–2023). mauricio macri governou de 2015 a 2019. impreciso enganoso"
+    "searchTokens": "221 decl-221 flavio bolsonaro flavio politica externa \"la na argentina, a esquerda governou por 20 anos\" \"la na argentina, a esquerda governou por 20 anos\" de 2003 a 2023, governos peronistas ocuparam a presidencia por cerca de 16 anos: nestor e cristina kirchner (2003–2015) e alberto fernandez (2019–2023). mauricio macri governou de 2015 a 2019. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-222",
@@ -23466,7 +23687,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "222 decl-222 flavio bolsonaro flavio politica externa milei \"comecou um governo com 211% de inflacao\" milei \"comecou um governo com 211% de inflacao\" a inflacao da argentina em 2023, ano em que milei assumiu (10/12), foi de 211,4%, segundo o indec. verdadeiro verdadeiro"
+    "searchTokens": "222 decl-222 flavio bolsonaro flavio politica externa milei \"comecou um governo com 211% de inflacao\" milei \"comecou um governo com 211% de inflacao\" a inflacao da argentina em 2023, ano em que milei assumiu (10/12), foi de 211,4%, segundo o indec. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-223",
@@ -23560,7 +23782,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "223 decl-223 flavio bolsonaro flavio politica externa na argentina, \"a taxa de juros la chegou a 100%\" na argentina, \"a taxa de juros la chegou a 100%\" em outubro de 2023, o banco central argentino elevou a taxa basica para 133% ao ano. verdadeiro verdadeiro"
+    "searchTokens": "223 decl-223 flavio bolsonaro flavio politica externa na argentina, \"a taxa de juros la chegou a 100%\" na argentina, \"a taxa de juros la chegou a 100%\" em outubro de 2023, o banco central argentino elevou a taxa basica para 133% ao ano. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-224",
@@ -23641,7 +23864,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "224 decl-224 flavio bolsonaro flavio economia e contas publicas lula \"ja gastou mais de 400 bilhoes\" de reais \"para tentar se reeleger\" lula \"ja gastou mais de 400 bilhoes\" de reais \"para tentar se reeleger\" o numero mais proximo e o do gastometro, do estadao: r$ 354 bi em medidas do terceiro mandato, somando linhas de credito, subsidios, renuncias de receita e gastos fora do orcamento, abaixo dos r$ 400 bi citados. credito e dinheiro emprestado, que nem sempre e usado por inteiro, e nao e gasto. \"para tentar se reeleger\" e opiniao. impreciso enganoso"
+    "searchTokens": "224 decl-224 flavio bolsonaro flavio economia e contas publicas lula \"ja gastou mais de 400 bilhoes\" de reais \"para tentar se reeleger\" lula \"ja gastou mais de 400 bilhoes\" de reais \"para tentar se reeleger\" o numero mais proximo e o do gastometro, do estadao: r$ 354 bi em medidas do terceiro mandato, somando linhas de credito, subsidios, renuncias de receita e gastos fora do orcamento, abaixo dos r$ 400 bi citados. credito e dinheiro emprestado, que nem sempre e usado por inteiro, e nao e gasto. \"para tentar se reeleger\" e opiniao. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-225",
@@ -23722,7 +23946,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "225 decl-225 luiz inacio lula da silva lula economia e contas publicas a economista de flavio \"disse que vai\" cortar o aumento do salario minimo. a economista de flavio \"disse que vai\" cortar o aumento do salario minimo. daniella marques, coordenadora economica da campanha, disse ao estadao em 09/09/2026 que, se o ajuste fiscal for efetivo, pode nao ser necessario mudar a politica de ganho real do minimo, e que antes discutiria privilegios. nao disse que vai cortar o aumento. ✕falso falso"
+    "searchTokens": "225 decl-225 luiz inacio lula da silva lula economia e contas publicas a economista de flavio \"disse que vai\" cortar o aumento do salario minimo. a economista de flavio \"disse que vai\" cortar o aumento do salario minimo. daniella marques, coordenadora economica da campanha, disse ao estadao em 09/09/2026 que, se o ajuste fiscal for efetivo, pode nao ser necessario mudar a politica de ganho real do minimo, e que antes discutiria privilegios. nao disse que vai cortar o aumento. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-226",
@@ -23808,7 +24033,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "226 decl-226 flavio bolsonaro flavio programas sociais na enchente de 2024 no rs, lula \"nao entregou nem 30% do que ele prometeu\" na enchente de 2024 no rs, lula \"nao entregou nem 30% do que ele prometeu\" em setembro de 2024, a casa civil informou r$ 42,3 bilhoes pagos de r$ 98,7 bilhoes destinados ao estado, ou 43%. pelo recorte do tcu, r$ 26,1 bilhoes dos r$ 42,7 bilhoes em creditos extraordinarios estavam pagos em julho de 2024, ou 61%. ✕falso falso"
+    "searchTokens": "226 decl-226 flavio bolsonaro flavio programas sociais na enchente de 2024 no rs, lula \"nao entregou nem 30% do que ele prometeu\" na enchente de 2024 no rs, lula \"nao entregou nem 30% do que ele prometeu\" em setembro de 2024, a casa civil informou r$ 42,3 bilhoes pagos de r$ 98,7 bilhoes destinados ao estado, ou 43%. pelo recorte do tcu, r$ 26,1 bilhoes dos r$ 42,7 bilhoes em creditos extraordinarios estavam pagos em julho de 2024, ou 61%. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-227",
@@ -23899,7 +24125,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "227 decl-227 flavio bolsonaro flavio seguranca publica a \"rota de trafico de armas e drogas\" passa pelo porto de paranagua. a \"rota de trafico de armas e drogas\" passa pelo porto de paranagua. o porto e usado pelo trafico internacional de cocaina: a policia federal apreendeu 226 kg la em 24/09/2026. em 2023, as operacoes agata e trigger, esta contra o trafico internacional de armas, atuaram no porto, e a pm apreendeu 176 kg de cocaina e duas pistolas num caminhao em frente ao terminal de conteineres. verdadeiro verdadeiro"
+    "searchTokens": "227 decl-227 flavio bolsonaro flavio seguranca publica a \"rota de trafico de armas e drogas\" passa pelo porto de paranagua. a \"rota de trafico de armas e drogas\" passa pelo porto de paranagua. o porto e usado pelo trafico internacional de cocaina: a policia federal apreendeu 226 kg la em 24/09/2026. em 2023, as operacoes agata e trigger, esta contra o trafico internacional de armas, atuaram no porto, e a pm apreendeu 176 kg de cocaina e duas pistolas num caminhao em frente ao terminal de conteineres. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-228",
@@ -23998,7 +24225,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "228 decl-228 flavio bolsonaro flavio programas sociais \"nos fizemos o marco legal do saneamento\", com meta de mais de 90% de acesso a agua e esgoto ate 2033. \"nos fizemos o marco legal do saneamento\", com meta de mais de 90% de acesso a agua e esgoto ate 2033. o marco e a lei 14.026, sancionada por jair bolsonaro em 15/07/2020. ela fixa ate o fim de 2033 a meta de 99% da populacao com agua potavel e 90% com coleta e tratamento de esgoto. verdadeiro verdadeiro"
+    "searchTokens": "228 decl-228 flavio bolsonaro flavio programas sociais \"nos fizemos o marco legal do saneamento\", com meta de mais de 90% de acesso a agua e esgoto ate 2033. \"nos fizemos o marco legal do saneamento\", com meta de mais de 90% de acesso a agua e esgoto ate 2033. o marco e a lei 14.026, sancionada por jair bolsonaro em 15/07/2020. ela fixa ate o fim de 2033 a meta de 99% da populacao com agua potavel e 90% com coleta e tratamento de esgoto. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-229",
@@ -24097,7 +24325,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "229 decl-229 flavio bolsonaro flavio programas sociais cerca de 90 milhoes de brasileiros nao tem esgoto tratado e cerca de 40 milhoes nao tem agua tratada. cerca de 90 milhoes de brasileiros nao tem esgoto tratado e cerca de 40 milhoes nao tem agua tratada. o esgoto confere: na votacao do marco, em 2020, o relator no senado citou mais de 100 milhoes sem coleta. a agua nao: pelo sinisa, ano-base 2024, 84,1% da populacao (174,0 milhoes) tem rede de abastecimento, e ficam sem cerca de 33 milhoes, nao 40 milhoes. impreciso enganoso"
+    "searchTokens": "229 decl-229 flavio bolsonaro flavio programas sociais cerca de 90 milhoes de brasileiros nao tem esgoto tratado e cerca de 40 milhoes nao tem agua tratada. cerca de 90 milhoes de brasileiros nao tem esgoto tratado e cerca de 40 milhoes nao tem agua tratada. o esgoto confere: na votacao do marco, em 2020, o relator no senado citou mais de 100 milhoes sem coleta. a agua nao: pelo sinisa, ano-base 2024, 84,1% da populacao (174,0 milhoes) tem rede de abastecimento, e ficam sem cerca de 33 milhoes, nao 40 milhoes. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-230",
@@ -24196,7 +24425,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "230 decl-230 flavio bolsonaro flavio trajetoria, votos e eleicao quem votou contra o marco do saneamento no congresso foi \"a bancada do pt\" quem votou contra o marco do saneamento no congresso foi \"a bancada do pt\" na camara, em 11/12/2019, o pt orientou obstrucao, forma de se opor ao projeto. no senado, a bancada do pt pediu para suspender a votacao, e o texto passou em 24/06/2020 por 65 votos a 13. verdadeiro verdadeiro"
+    "searchTokens": "230 decl-230 flavio bolsonaro flavio trajetoria, votos e eleicao quem votou contra o marco do saneamento no congresso foi \"a bancada do pt\" quem votou contra o marco do saneamento no congresso foi \"a bancada do pt\" na camara, em 11/12/2019, o pt orientou obstrucao, forma de se opor ao projeto. no senado, a bancada do pt pediu para suspender a votacao, e o texto passou em 24/06/2020 por 65 votos a 13. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-231",
@@ -24277,7 +24507,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "231 decl-231 luiz inacio lula da silva lula saude bolsonaro apareceu na tv \"rindo e imitando uma pessoa morrendo asfixiada porque nao tinha oxigenio\" bolsonaro apareceu na tv \"rindo e imitando uma pessoa morrendo asfixiada porque nao tinha oxigenio\" bolsonaro imitou uma pessoa com falta de ar em live de 18/03/2021. mas a imitacao foi para criticar a orientacao do ex-ministro mandetta de so ir ao hospital com falta de ar, nao sobre a falta de oxigenio em manaus. \"rindo das pessoas\" e caracterizacao. impreciso enganoso"
+    "searchTokens": "231 decl-231 luiz inacio lula da silva lula saude bolsonaro apareceu na tv \"rindo e imitando uma pessoa morrendo asfixiada porque nao tinha oxigenio\" bolsonaro apareceu na tv \"rindo e imitando uma pessoa morrendo asfixiada porque nao tinha oxigenio\" bolsonaro imitou uma pessoa com falta de ar em live de 18/03/2021. mas a imitacao foi para criticar a orientacao do ex-ministro mandetta de so ir ao hospital com falta de ar, nao sobre a falta de oxigenio em manaus. \"rindo das pessoas\" e caracterizacao. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-232",
@@ -24358,7 +24589,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "232 decl-232 flavio bolsonaro flavio programas sociais por causa do governo lula, a meta do saneamento \"ja foi para depois de 2050\" por causa do governo lula, a meta do saneamento \"ja foi para depois de 2050\" a meta legal continua sendo 31/12/2033. os decretos de 2023 mudaram regras de comprovacao e regionalizacao, nao a data. a lei so permite estender o prazo, em casos especificos, ate 2040. ✕falso falso"
+    "searchTokens": "232 decl-232 flavio bolsonaro flavio programas sociais por causa do governo lula, a meta do saneamento \"ja foi para depois de 2050\" por causa do governo lula, a meta do saneamento \"ja foi para depois de 2050\" a meta legal continua sendo 31/12/2033. os decretos de 2023 mudaram regras de comprovacao e regionalizacao, nao a data. a lei so permite estender o prazo, em casos especificos, ate 2040. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-233",
@@ -24439,7 +24671,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "233 decl-233 luiz inacio lula da silva lula trajetoria, votos e eleicao um ministro do meio ambiente de bolsonaro \"dizia que era preciso abrir a porteira, passar por cima de tudo\" um ministro do meio ambiente de bolsonaro \"dizia que era preciso abrir a porteira, passar por cima de tudo\" na reuniao ministerial de 22/04/2020, divulgada pelo stf, ricardo salles defendeu aproveitar o foco na covid para \"ir passando a boiada e mudando todo o regramento\". verdadeiro verdadeiro"
+    "searchTokens": "233 decl-233 luiz inacio lula da silva lula trajetoria, votos e eleicao um ministro do meio ambiente de bolsonaro \"dizia que era preciso abrir a porteira, passar por cima de tudo\" um ministro do meio ambiente de bolsonaro \"dizia que era preciso abrir a porteira, passar por cima de tudo\" na reuniao ministerial de 22/04/2020, divulgada pelo stf, ricardo salles defendeu aproveitar o foco na covid para \"ir passando a boiada e mudando todo o regramento\". verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-234",
@@ -24525,7 +24758,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "234 decl-234 luiz inacio lula da silva lula trajetoria, votos e eleicao o governo bolsonaro \"anulou o fundo amazonia\", e o governo lula o fez voltar a funcionar. o governo bolsonaro \"anulou o fundo amazonia\", e o governo lula o fez voltar a funcionar. em 2019, o governo extinguiu os comites do fundo, que parou de aprovar projetos. o stf mandou reativa-lo em 03/11/2022. um decreto de lula de 01/01/2023 recompos o comite, e o fundo aprovou r$ 1,3 bilhao em 2023. verdadeiro verdadeiro"
+    "searchTokens": "234 decl-234 luiz inacio lula da silva lula trajetoria, votos e eleicao o governo bolsonaro \"anulou o fundo amazonia\", e o governo lula o fez voltar a funcionar. o governo bolsonaro \"anulou o fundo amazonia\", e o governo lula o fez voltar a funcionar. em 2019, o governo extinguiu os comites do fundo, que parou de aprovar projetos. o stf mandou reativa-lo em 03/11/2022. um decreto de lula de 01/01/2023 recompos o comite, e o fundo aprovou r$ 1,3 bilhao em 2023. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-235",
@@ -24623,7 +24857,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "235 decl-235 luiz inacio lula da silva lula programas sociais quando assumiu, o nordeste era a regiao \"mais pobre\", \"mais analfabeta\", com mais evasao escolar e menos universidades, doutores e mestres. quando assumiu, o nordeste era a regiao \"mais pobre\", \"mais analfabeta\", com mais evasao escolar e menos universidades, doutores e mestres. pobreza e analfabetismo conferem: a pnad 2003 do ibge mostra o nordeste com a maior fatia de domicilios com renda de ate 1 salario minimo (25,9%, contra 12,9% no pais) e analfabetismo de 8,1% entre 10 e 14 anos, contra 0,8% a 1,3% no sul, sudeste e centro-oeste. mas a desnutricao infantil era maior no norte urbano (6,7% das criancas com menos de 5 anos com deficit de peso, contra 5,4% no nordeste, na pof 2002-2003), e o norte e o centro-oeste tinham menos pesquisadores no cnpq em 2002 (2.640 e 4.038, contra 9.818 no nordeste). impreciso enganoso"
+    "searchTokens": "235 decl-235 luiz inacio lula da silva lula programas sociais quando assumiu, o nordeste era a regiao \"mais pobre\", \"mais analfabeta\", com mais evasao escolar e menos universidades, doutores e mestres. quando assumiu, o nordeste era a regiao \"mais pobre\", \"mais analfabeta\", com mais evasao escolar e menos universidades, doutores e mestres. pobreza e analfabetismo conferem: a pnad 2003 do ibge mostra o nordeste com a maior fatia de domicilios com renda de ate 1 salario minimo (25,9%, contra 12,9% no pais) e analfabetismo de 8,1% entre 10 e 14 anos, contra 0,8% a 1,3% no sul, sudeste e centro-oeste. mas a desnutricao infantil era maior no norte urbano (6,7% das criancas com menos de 5 anos com deficit de peso, contra 5,4% no nordeste, na pof 2002-2003), e o norte e o centro-oeste tinham menos pesquisadores no cnpq em 2002 (2.640 e 4.038, contra 9.818 no nordeste). impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-236",
@@ -24709,7 +24944,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "236 decl-236 luiz inacio lula da silva lula economia e contas publicas a transposicao do sao francisco \"e hoje a maior obra hidrica em funcionamento no mundo\" a transposicao do sao francisco \"e hoje a maior obra hidrica em funcionamento no mundo\" o proprio ministerio da integracao chama o projeto sul–norte, da china, de \"o maior sistema de transferencia hidrica do planeta\". a transposicao e a maior obra hidrica do brasil. ✕falso falso"
+    "searchTokens": "236 decl-236 luiz inacio lula da silva lula economia e contas publicas a transposicao do sao francisco \"e hoje a maior obra hidrica em funcionamento no mundo\" a transposicao do sao francisco \"e hoje a maior obra hidrica em funcionamento no mundo\" o proprio ministerio da integracao chama o projeto sul–norte, da china, de \"o maior sistema de transferencia hidrica do planeta\". a transposicao e a maior obra hidrica do brasil. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-237",
@@ -24795,7 +25031,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "237 decl-237 luiz inacio lula da silva lula economia e contas publicas a transposicao tem \"quase 1.700 quilometros de canal\" e \"15.000 quilometros de adutoras\" a transposicao tem \"quase 1.700 quilometros de canal\" e \"15.000 quilometros de adutoras\" os dois eixos somam 477 km de canais: 260 km no norte e 217 km no leste. com os ramais, a soma passa pouco de 900 km. nao ha dado oficial de 15 mil km de adutoras. ✕falso falso"
+    "searchTokens": "237 decl-237 luiz inacio lula da silva lula economia e contas publicas a transposicao tem \"quase 1.700 quilometros de canal\" e \"15.000 quilometros de adutoras\" a transposicao tem \"quase 1.700 quilometros de canal\" e \"15.000 quilometros de adutoras\" os dois eixos somam 477 km de canais: 260 km no norte e 217 km no leste. com os ramais, a soma passa pouco de 900 km. nao ha dado oficial de 15 mil km de adutoras. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-238",
@@ -24881,7 +25118,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "238 decl-238 luiz inacio lula da silva lula educacao \"levamos supercomputador para natal, levamos supercomputador quantico para paraiba\" \"levamos supercomputador para natal, levamos supercomputador quantico para paraiba\" os dois existem so como projeto em implantacao. o supercomputador de ia para macaiba, na grande natal, foi anunciado em 20/08/2026 e ainda estava em contratacao. o centro quantico de joao pessoa previa montar dois computadores ate outubro de 2026. impreciso enganoso"
+    "searchTokens": "238 decl-238 luiz inacio lula da silva lula educacao \"levamos supercomputador para natal, levamos supercomputador quantico para paraiba\" \"levamos supercomputador para natal, levamos supercomputador quantico para paraiba\" os dois existem so como projeto em implantacao. o supercomputador de ia para macaiba, na grande natal, foi anunciado em 20/08/2026 e ainda estava em contratacao. o centro quantico de joao pessoa previa montar dois computadores ate outubro de 2026. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-239",
@@ -24897,7 +25135,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "falso",
     "quote": "No vídeo em que imita alguém sem ar, Bolsonaro criticava a orientação de esperar a falta de ar para ir ao hospital.",
     "theFact": "Afirmação apurada: No vídeo em que imita alguém sem ar, Bolsonaro criticava a orientação de esperar a falta de ar para ir ao hospital.. Na live de 18/03/2021, Bolsonaro imitou uma pessoa sem ar ao criticar a orientação dada por Mandetta no início da pandemia: \"quando você estiver lá… com falta de ar, aí você vai para o hospital\".",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em saúde e análise de relatórios probatórios.",
@@ -24975,7 +25213,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "239 decl-239 flavio bolsonaro flavio saude no video em que imita alguem sem ar, bolsonaro criticava a orientacao de esperar a falta de ar para ir ao hospital. no video em que imita alguem sem ar, bolsonaro criticava a orientacao de esperar a falta de ar para ir ao hospital. na live de 18/03/2021, bolsonaro imitou uma pessoa sem ar ao criticar a orientacao dada por mandetta no inicio da pandemia: \"quando voce estiver la… com falta de ar, ai voce vai para o hospital\". verdadeiro verdadeiro"
+    "searchTokens": "239 decl-239 flavio bolsonaro flavio saude no video em que imita alguem sem ar, bolsonaro criticava a orientacao de esperar a falta de ar para ir ao hospital. no video em que imita alguem sem ar, bolsonaro criticava a orientacao de esperar a falta de ar para ir ao hospital. na live de 18/03/2021, bolsonaro imitou uma pessoa sem ar ao criticar a orientacao dada por mandetta no inicio da pandemia: \"quando voce estiver la… com falta de ar, ai voce vai para o hospital\". verdadeiro verdadeiro",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-240",
@@ -25056,7 +25295,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "240 decl-240 flavio bolsonaro flavio seguranca publica os estados do nordeste, governados pelo pt e aliados, \"sao os estados mais violentos do brasil\" os estados do nordeste, governados pelo pt e aliados, \"sao os estados mais violentos do brasil\" em 2024, quatro das cinco maiores taxas de mortes violentas foram do nordeste: bahia (40,6 por 100 mil), ceara (37,5), pernambuco (36,2) e alagoas (35,4). o primeiro foi o amapa (45,1). o nordeste teve a maior taxa entre as regioes, 33,8. pernambuco e governado por raquel lyra, que nao e do pt. verdadeiro verdadeiro"
+    "searchTokens": "240 decl-240 flavio bolsonaro flavio seguranca publica os estados do nordeste, governados pelo pt e aliados, \"sao os estados mais violentos do brasil\" os estados do nordeste, governados pelo pt e aliados, \"sao os estados mais violentos do brasil\" em 2024, quatro das cinco maiores taxas de mortes violentas foram do nordeste: bahia (40,6 por 100 mil), ceara (37,5), pernambuco (36,2) e alagoas (35,4). o primeiro foi o amapa (45,1). o nordeste teve a maior taxa entre as regioes, 33,8. pernambuco e governado por raquel lyra, que nao e do pt. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-241",
@@ -25147,7 +25387,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "241 decl-241 luiz inacio lula da silva lula economia e contas publicas \"levamos industria automobilistica\" para pernambuco, bahia e ceara. \"levamos industria automobilistica\" para pernambuco, bahia e ceara. a fabrica da jeep em goiana (pe) foi inaugurada por dilma em 2015, com r$ 3,27 bilhoes do bndes. a byd abriu a fabrica de camacari (ba) em 09/10/2025, e o polo automotivo de horizonte (ce) entrou em operacao em 03/12/2025, ambos com lula presente. verdadeiro verdadeiro"
+    "searchTokens": "241 decl-241 luiz inacio lula da silva lula economia e contas publicas \"levamos industria automobilistica\" para pernambuco, bahia e ceara. \"levamos industria automobilistica\" para pernambuco, bahia e ceara. a fabrica da jeep em goiana (pe) foi inaugurada por dilma em 2015, com r$ 3,27 bilhoes do bndes. a byd abriu a fabrica de camacari (ba) em 09/10/2025, e o polo automotivo de horizonte (ce) entrou em operacao em 03/12/2025, ambos com lula presente. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-242",
@@ -25222,7 +25463,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "242 decl-242 luiz inacio lula da silva lula saude \"nos fizemos 14 novos hospitais\" no nordeste. \"nos fizemos 14 novos hospitais\" no nordeste. nao ha contagem publica oficial de hospitais construidos no nordeste nos governos lula que confirme ou desminta o numero. nao verificavel enganoso"
+    "searchTokens": "242 decl-242 luiz inacio lula da silva lula saude \"nos fizemos 14 novos hospitais\" no nordeste. \"nos fizemos 14 novos hospitais\" no nordeste. nao ha contagem publica oficial de hospitais construidos no nordeste nos governos lula que confirme ou desminta o numero. nao verificavel enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-243",
@@ -25303,7 +25545,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "243 decl-243 luiz inacio lula da silva lula educacao \"levamos o ita para o ceara\", que e \"o estado que mais aprova jovens\" no ita. \"levamos o ita para o ceara\", que e \"o estado que mais aprova jovens\" no ita. o campus de fortaleza esta em obras: o alojamento foi inaugurado em abril de 2026, e as turmas comecam em 2027. o mec nao publica aprovados por estado; informa que cerca de 40% dos aprovados de 2026 fizeram a prova no nordeste. impreciso enganoso"
+    "searchTokens": "243 decl-243 luiz inacio lula da silva lula educacao \"levamos o ita para o ceara\", que e \"o estado que mais aprova jovens\" no ita. \"levamos o ita para o ceara\", que e \"o estado que mais aprova jovens\" no ita. o campus de fortaleza esta em obras: o alojamento foi inaugurado em abril de 2026, e as turmas comecam em 2027. o mec nao publica aprovados por estado; informa que cerca de 40% dos aprovados de 2026 fizeram a prova no nordeste. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-244",
@@ -25394,7 +25637,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "244 decl-244 luiz inacio lula da silva lula educacao \"nos fizemos 40 novos institutos federais\" no nordeste. \"nos fizemos 40 novos institutos federais\" no nordeste. em 12/03/2024, o governo anunciou 38 novos campi de institutos federais no nordeste, de 100 no pais, e 40 por 38 e diferenca de arredondamento. mas eles nao estao prontos: em 08/05/2026, o governo ainda contava 111 novas unidades \"em implementacao\" no pais. impreciso enganoso"
+    "searchTokens": "244 decl-244 luiz inacio lula da silva lula educacao \"nos fizemos 40 novos institutos federais\" no nordeste. \"nos fizemos 40 novos institutos federais\" no nordeste. em 12/03/2024, o governo anunciou 38 novos campi de institutos federais no nordeste, de 100 no pais, e 40 por 38 e diferenca de arredondamento. mas eles nao estao prontos: em 08/05/2026, o governo ainda contava 111 novas unidades \"em implementacao\" no pais. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-245",
@@ -25498,7 +25742,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "245 decl-245 flavio bolsonaro flavio economia e contas publicas lula nao entregou a transposicao, e quem \"concluiu as obras e fez finalmente chegar a agua\" foi bolsonaro. lula nao entregou a transposicao, e quem \"concluiu as obras e fez finalmente chegar a agua\" foi bolsonaro. os prazos dados nos governos lula e dilma nao foram cumpridos: a previsao era 2012, depois 2015. bolsonaro levou a agua do eixo norte ao ceara em 26/06/2020. mas a agua do eixo leste ja tinha chegado a paraiba em 10/03/2017, no governo temer, e a obra comecou em 2007, no governo lula. impreciso enganoso"
+    "searchTokens": "245 decl-245 flavio bolsonaro flavio economia e contas publicas lula nao entregou a transposicao, e quem \"concluiu as obras e fez finalmente chegar a agua\" foi bolsonaro. lula nao entregou a transposicao, e quem \"concluiu as obras e fez finalmente chegar a agua\" foi bolsonaro. os prazos dados nos governos lula e dilma nao foram cumpridos: a previsao era 2012, depois 2015. bolsonaro levou a agua do eixo norte ao ceara em 26/06/2020. mas a agua do eixo leste ja tinha chegado a paraiba em 10/03/2017, no governo temer, e a obra comecou em 2007, no governo lula. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-246",
@@ -25514,7 +25759,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-fake",
     "verdictBadge": "FALSO",
-    "normalizedVerdict": "falso",
+    "normalizedVerdict": "enganoso",
     "quote": "No governo Lula, o Bolsa Família era em média R$ 190, e Bolsonaro \"passou para no mínimo R$ 600\"",
     "theFact": "Afirmação apurada: No governo Lula, o Bolsa Família era em média R$ 190, e Bolsonaro \"passou para no mínimo R$ 600\". A média de R$ 190 é do governo Bolsonaro, não do governo Lula. A parte dos R$ 600 confere, mas foi temporária: o governo Bolsonaro pagou o mínimo de R$ 600 de agosto a dezembro de 2022, com piso permanente de R$ 400, e o piso permanente de R$ 600 veio com a Lei 14.601/2023, do governo Lula.",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em programas sociais e análise de relatórios probatórios.",
@@ -25597,7 +25842,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "246 decl-246 flavio bolsonaro flavio programas sociais no governo lula, o bolsa familia era em media r$ 190, e bolsonaro \"passou para no minimo r$ 600\" no governo lula, o bolsa familia era em media r$ 190, e bolsonaro \"passou para no minimo r$ 600\" a media de r$ 190 e do governo bolsonaro, nao do governo lula. a parte dos r$ 600 confere, mas foi temporaria: o governo bolsonaro pagou o minimo de r$ 600 de agosto a dezembro de 2022, com piso permanente de r$ 400, e o piso permanente de r$ 600 veio com a lei 14.601/2023, do governo lula. ✕falso falso"
+    "searchTokens": "246 decl-246 flavio bolsonaro flavio programas sociais no governo lula, o bolsa familia era em media r$ 190, e bolsonaro \"passou para no minimo r$ 600\" no governo lula, o bolsa familia era em media r$ 190, e bolsonaro \"passou para no minimo r$ 600\" a media de r$ 190 e do governo bolsonaro, nao do governo lula. a parte dos r$ 600 confere, mas foi temporaria: o governo bolsonaro pagou o minimo de r$ 600 de agosto a dezembro de 2022, com piso permanente de r$ 400, e o piso permanente de r$ 600 veio com a lei 14.601/2023, do governo lula. ✕falso falso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-247",
@@ -25685,7 +25931,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "247 decl-247 luiz inacio lula da silva lula trajetoria, votos e eleicao flavio foi \"o unico deputado estadual do rio de janeiro a votar contra o aumento da licenca-maternidade\" flavio foi \"o unico deputado estadual do rio de janeiro a votar contra o aumento da licenca-maternidade\" em 2009, a alerj aprovou a ampliacao da licenca-maternidade por 45 votos a 1, e o unico voto contrario foi de flavio. ele confirmou o voto no debate, as▶0:52:54. verdadeiro verdadeiro"
+    "searchTokens": "247 decl-247 luiz inacio lula da silva lula trajetoria, votos e eleicao flavio foi \"o unico deputado estadual do rio de janeiro a votar contra o aumento da licenca-maternidade\" flavio foi \"o unico deputado estadual do rio de janeiro a votar contra o aumento da licenca-maternidade\" em 2009, a alerj aprovou a ampliacao da licenca-maternidade por 45 votos a 1, e o unico voto contrario foi de flavio. ele confirmou o voto no debate, as▶0:52:54. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-248",
@@ -25773,7 +26020,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "248 decl-248 luiz inacio lula da silva lula trajetoria, votos e eleicao flavio chamou o bolsa familia de \"bolsa farelo\" flavio chamou o bolsa familia de \"bolsa farelo\" em junho de 2013, como deputado estadual, flavio escreveu no x que o pt \"perpetua a pobreza com o bolsa-farelo\". em 2011, usou o termo para o renda melhor, programa do rio que complementava o bolsa familia. os posts foram apagados. verdadeiro verdadeiro"
+    "searchTokens": "248 decl-248 luiz inacio lula da silva lula trajetoria, votos e eleicao flavio chamou o bolsa familia de \"bolsa farelo\" flavio chamou o bolsa familia de \"bolsa farelo\" em junho de 2013, como deputado estadual, flavio escreveu no x que o pt \"perpetua a pobreza com o bolsa-farelo\". em 2011, usou o termo para o renda melhor, programa do rio que complementava o bolsa familia. os posts foram apagados. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-249",
@@ -25854,7 +26102,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "249 decl-249 luiz inacio lula da silva lula trajetoria, votos e eleicao perdeu um dedo \"com 17 anos\", trabalhando a noite. perdeu um dedo \"com 17 anos\", trabalhando a noite. lula perdeu o dedo minimo da mao esquerda num acidente de trabalho. pela biografia publicada pelo senado na posse, em 2002, ele tinha 19 anos, nao 17; a idade e um detalhe. verdadeiro verdadeiro"
+    "searchTokens": "249 decl-249 luiz inacio lula da silva lula trajetoria, votos e eleicao perdeu um dedo \"com 17 anos\", trabalhando a noite. perdeu um dedo \"com 17 anos\", trabalhando a noite. lula perdeu o dedo minimo da mao esquerda num acidente de trabalho. pela biografia publicada pelo senado na posse, em 2002, ele tinha 19 anos, nao 17; a idade e um detalhe. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-250",
@@ -25935,7 +26184,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "250 decl-250 luiz inacio lula da silva lula trajetoria, votos e eleicao o primeiro emprego de flavio \"foi um emprego falso\", com o pai, em brasilia. o primeiro emprego de flavio \"foi um emprego falso\", com o pai, em brasilia. nao ha registro de flavio nomeado no gabinete de jair bolsonaro na camara, em brasilia. a ficha oficial da alerj lista como primeiras atividades estagios no ime (1998) e na defensoria publica do rio (2000–2001), no rio, e depois o mandato de deputado estadual, a partir de 2003. ✕falso falso"
+    "searchTokens": "250 decl-250 luiz inacio lula da silva lula trajetoria, votos e eleicao o primeiro emprego de flavio \"foi um emprego falso\", com o pai, em brasilia. o primeiro emprego de flavio \"foi um emprego falso\", com o pai, em brasilia. nao ha registro de flavio nomeado no gabinete de jair bolsonaro na camara, em brasilia. a ficha oficial da alerj lista como primeiras atividades estagios no ime (1998) e na defensoria publica do rio (2000–2001), no rio, e depois o mandato de deputado estadual, a partir de 2003. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-251",
@@ -26016,7 +26266,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "251 decl-251 luiz inacio lula da silva lula programas sociais \"milhoes de trabalhadores se acidentam\" por irresponsabilidade patronal. \"milhoes de trabalhadores se acidentam\" por irresponsabilidade patronal. em 2025, foram registrados 806.011 acidentes de trabalho, recorde da serie, e 3.644 mortes, segundo a inspecao do trabalho. milhoes so somando varios anos: 6,4 milhoes de 2016 a 2025. os numeros contam so os acidentes comunicados ao inss. \"irresponsabilidade patronal\" e opiniao. impreciso enganoso"
+    "searchTokens": "251 decl-251 luiz inacio lula da silva lula programas sociais \"milhoes de trabalhadores se acidentam\" por irresponsabilidade patronal. \"milhoes de trabalhadores se acidentam\" por irresponsabilidade patronal. em 2025, foram registrados 806.011 acidentes de trabalho, recorde da serie, e 3.644 mortes, segundo a inspecao do trabalho. milhoes so somando varios anos: 6,4 milhoes de 2016 a 2025. os numeros contam so os acidentes comunicados ao inss. \"irresponsabilidade patronal\" e opiniao. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-252",
@@ -26097,7 +26348,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "252 decl-252 flavio bolsonaro flavio programas sociais lula deixou o bolsa familia sem reajuste e, perto da eleicao, deu \"r$ 3 por dia\" lula deixou o bolsa familia sem reajuste e, perto da eleicao, deu \"r$ 3 por dia\" o piso de r$ 600, fixado em junho de 2023, so foi corrigido pelo decreto 13.120, de 17/09/2026, para r$ 691 a partir de outubro. sao r$ 91 por mes, cerca de r$ 3 por dia. verdadeiro verdadeiro"
+    "searchTokens": "252 decl-252 flavio bolsonaro flavio programas sociais lula deixou o bolsa familia sem reajuste e, perto da eleicao, deu \"r$ 3 por dia\" lula deixou o bolsa familia sem reajuste e, perto da eleicao, deu \"r$ 3 por dia\" o piso de r$ 600, fixado em junho de 2023, so foi corrigido pelo decreto 13.120, de 17/09/2026, para r$ 691 a partir de outubro. sao r$ 91 por mes, cerca de r$ 3 por dia. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-253",
@@ -26178,7 +26430,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "253 decl-253 flavio bolsonaro flavio seguranca publica \"recorde de mulheres assassinadas\" no governo lula, e a quantidade de mulheres espancadas \"so aumenta\" \"recorde de mulheres assassinadas\" no governo lula, e a quantidade de mulheres espancadas \"so aumenta\" os feminicidios chegaram a 1.571 em 2025, recorde da serie. os registros de lesao corporal em violencia domestica contra mulheres foram 286.270 em 2025, o maior numero desde pelo menos 2018. verdadeiro verdadeiro"
+    "searchTokens": "253 decl-253 flavio bolsonaro flavio seguranca publica \"recorde de mulheres assassinadas\" no governo lula, e a quantidade de mulheres espancadas \"so aumenta\" \"recorde de mulheres assassinadas\" no governo lula, e a quantidade de mulheres espancadas \"so aumenta\" os feminicidios chegaram a 1.571 em 2025, recorde da serie. os registros de lesao corporal em violencia domestica contra mulheres foram 286.270 em 2025, o maior numero desde pelo menos 2018. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-254",
@@ -26259,7 +26512,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "254 decl-254 flavio bolsonaro flavio economia e contas publicas \"sao mais de 80 milhoes de pessoas\" com contas atrasadas. \"sao mais de 80 milhoes de pessoas\" com contas atrasadas. em maio de 2026, havia 83,5 milhoes de brasileiros negativados, o maior numero da serie da serasa, segundo nota do ministerio da fazenda enviada a camara. verdadeiro verdadeiro"
+    "searchTokens": "254 decl-254 flavio bolsonaro flavio economia e contas publicas \"sao mais de 80 milhoes de pessoas\" com contas atrasadas. \"sao mais de 80 milhoes de pessoas\" com contas atrasadas. em maio de 2026, havia 83,5 milhoes de brasileiros negativados, o maior numero da serie da serasa, segundo nota do ministerio da fazenda enviada a camara. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-255",
@@ -26275,7 +26529,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "Tarcísio e Ricardo Nunes \"acabaram com a Cracolândia\"",
     "theFact": "Afirmação apurada: Tarcísio e Ricardo Nunes \"acabaram com a Cracolândia\". A Prefeitura de São Paulo registra o fim da concentração da Rua dos Protestantes, a principal cena aberta de uso de drogas, em 10/05/2025, após ação conjunta com o governo do estado.",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em segurança pública e análise de relatórios probatórios.",
@@ -26347,7 +26601,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "255 decl-255 flavio bolsonaro flavio seguranca publica tarcisio e ricardo nunes \"acabaram com a cracolandia\" tarcisio e ricardo nunes \"acabaram com a cracolandia\" a prefeitura de sao paulo registra o fim da concentracao da rua dos protestantes, a principal cena aberta de uso de drogas, em 10/05/2025, apos acao conjunta com o governo do estado. verdadeiro verdadeiro"
+    "searchTokens": "255 decl-255 flavio bolsonaro flavio seguranca publica tarcisio e ricardo nunes \"acabaram com a cracolandia\" tarcisio e ricardo nunes \"acabaram com a cracolandia\" a prefeitura de sao paulo registra o fim da concentracao da rua dos protestantes, a principal cena aberta de uso de drogas, em 10/05/2025, apos acao conjunta com o governo do estado. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-256",
@@ -26428,7 +26683,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "256 decl-256 luiz inacio lula da silva lula educacao o brasil so teve a primeira universidade \"420 anos depois da descoberta\" o brasil so teve a primeira universidade \"420 anos depois da descoberta\" a universidade do rio de janeiro, a primeira criada pelo governo federal, foi instituida pelo decreto 14.343, de 07/09/1920, 420 anos depois de 1500. verdadeiro verdadeiro"
+    "searchTokens": "256 decl-256 luiz inacio lula da silva lula educacao o brasil so teve a primeira universidade \"420 anos depois da descoberta\" o brasil so teve a primeira universidade \"420 anos depois da descoberta\" a universidade do rio de janeiro, a primeira criada pelo governo federal, foi instituida pelo decreto 14.343, de 07/09/1920, 420 anos depois de 1500. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-257",
@@ -26509,7 +26765,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "257 decl-257 flavio bolsonaro flavio trajetoria, votos e eleicao o governo bolsonaro sancionou a lei sansao, que aumentou as penas de maus-tratos a animais. o governo bolsonaro sancionou a lei sansao, que aumentou as penas de maus-tratos a animais. a lei 14.064, sancionada por jair bolsonaro em 29/09/2020, fixou pena de 2 a 5 anos de reclusao para maus-tratos a caes e gatos. verdadeiro verdadeiro"
+    "searchTokens": "257 decl-257 flavio bolsonaro flavio trajetoria, votos e eleicao o governo bolsonaro sancionou a lei sansao, que aumentou as penas de maus-tratos a animais. o governo bolsonaro sancionou a lei sansao, que aumentou as penas de maus-tratos a animais. a lei 14.064, sancionada por jair bolsonaro em 29/09/2020, fixou pena de 2 a 5 anos de reclusao para maus-tratos a caes e gatos. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-258",
@@ -26595,7 +26852,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "258 decl-258 flavio bolsonaro flavio economia e contas publicas o governo lula esta deixando uma divida de r$ 11 trilhoes. o governo lula esta deixando uma divida de r$ 11 trilhoes. a divida bruta do governo geral chegou a r$ 11,05 trilhoes em ago/2026, 82,9% do pib, o maior valor em reais da serie do banco central. verdadeiro verdadeiro"
+    "searchTokens": "258 decl-258 flavio bolsonaro flavio economia e contas publicas o governo lula esta deixando uma divida de r$ 11 trilhoes. o governo lula esta deixando uma divida de r$ 11 trilhoes. a divida bruta do governo geral chegou a r$ 11,05 trilhoes em ago/2026, 82,9% do pib, o maior valor em reais da serie do banco central. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-259",
@@ -26676,7 +26934,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "259 decl-259 flavio bolsonaro flavio economia e contas publicas a taxa de juro oficial \"esta em torno de 14%\" a taxa de juro oficial \"esta em torno de 14%\" a meta da selic esta em 13,75% ao ano. verdadeiro verdadeiro"
+    "searchTokens": "259 decl-259 flavio bolsonaro flavio economia e contas publicas a taxa de juro oficial \"esta em torno de 14%\" a taxa de juro oficial \"esta em torno de 14%\" a meta da selic esta em 13,75% ao ano. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-260",
@@ -26757,7 +27016,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "260 decl-260 flavio bolsonaro flavio economia e contas publicas o banco central independente e um legado de bolsonaro. o banco central independente e um legado de bolsonaro. a lei complementar 179, que deu ao presidente e aos diretores do banco central mandatos de quatro anos fora do ciclo do presidente da republica, foi sancionada por bolsonaro em 24/02/2021. verdadeiro verdadeiro"
+    "searchTokens": "260 decl-260 flavio bolsonaro flavio economia e contas publicas o banco central independente e um legado de bolsonaro. o banco central independente e um legado de bolsonaro. a lei complementar 179, que deu ao presidente e aos diretores do banco central mandatos de quatro anos fora do ciclo do presidente da republica, foi sancionada por bolsonaro em 24/02/2021. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-261",
@@ -26773,7 +27033,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "Em outubro de 2022, a previsão, se Bolsonaro continuasse, era de juro \"em torno de 7%\" hoje.",
     "theFact": "Afirmação apurada: Em outubro de 2022, a previsão, se Bolsonaro continuasse, era de juro \"em torno de 7%\" hoje.. No boletim Focus de outubro de 2022, a mediana do mercado para a Selic no fim de 2026 foi de 7,5%, e subiu a 7,75% na última semana do mês. A previsão foi feita antes do 2º turno, sem depender de quem vencesse.",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em economia e contas públicas e análise de relatórios probatórios.",
@@ -26845,7 +27105,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "261 decl-261 flavio bolsonaro flavio economia e contas publicas em outubro de 2022, a previsao, se bolsonaro continuasse, era de juro \"em torno de 7%\" hoje. em outubro de 2022, a previsao, se bolsonaro continuasse, era de juro \"em torno de 7%\" hoje. no boletim focus de outubro de 2022, a mediana do mercado para a selic no fim de 2026 foi de 7,5%, e subiu a 7,75% na ultima semana do mes. a previsao foi feita antes do 2º turno, sem depender de quem vencesse. verdadeiro verdadeiro"
+    "searchTokens": "261 decl-261 flavio bolsonaro flavio economia e contas publicas em outubro de 2022, a previsao, se bolsonaro continuasse, era de juro \"em torno de 7%\" hoje. em outubro de 2022, a previsao, se bolsonaro continuasse, era de juro \"em torno de 7%\" hoje. no boletim focus de outubro de 2022, a mediana do mercado para a selic no fim de 2026 foi de 7,5%, e subiu a 7,75% na ultima semana do mes. a previsao foi feita antes do 2º turno, sem depender de quem vencesse. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-262",
@@ -26931,7 +27192,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "262 decl-262 flavio bolsonaro flavio economia e contas publicas os 7 pontos de diferenca na divida de r$ 11 trilhoes custam \"quase um trilhao de reais\" por ano. os 7 pontos de diferenca na divida de r$ 11 trilhoes custam \"quase um trilhao de reais\" por ano. a conta dele da r$ 774 bilhoes por ano (7% de r$ 11,05 trilhoes). com a diferenca entre a selic de 13,75% e a previsao de 7,75%, da r$ 663 bilhoes. impreciso enganoso"
+    "searchTokens": "262 decl-262 flavio bolsonaro flavio economia e contas publicas os 7 pontos de diferenca na divida de r$ 11 trilhoes custam \"quase um trilhao de reais\" por ano. os 7 pontos de diferenca na divida de r$ 11 trilhoes custam \"quase um trilhao de reais\" por ano. a conta dele da r$ 774 bilhoes por ano (7% de r$ 11,05 trilhoes). com a diferenca entre a selic de 13,75% e a previsao de 7,75%, da r$ 663 bilhoes. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-263",
@@ -27012,7 +27274,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "263 decl-263 flavio bolsonaro flavio economia e contas publicas quando ele passou ao segundo turno na frente, \"a taxa de juro futuro ja caiu 2%\" quando ele passou ao segundo turno na frente, \"a taxa de juro futuro ja caiu 2%\" pelos dados do tesouro direto, os prefixados longos cairam de 1,1 a 1,4 ponto entre 2 e 5/10. a queda e real; o tamanho, nao. impreciso enganoso"
+    "searchTokens": "263 decl-263 flavio bolsonaro flavio economia e contas publicas quando ele passou ao segundo turno na frente, \"a taxa de juro futuro ja caiu 2%\" quando ele passou ao segundo turno na frente, \"a taxa de juro futuro ja caiu 2%\" pelos dados do tesouro direto, os prefixados longos cairam de 1,1 a 1,4 ponto entre 2 e 5/10. a queda e real; o tamanho, nao. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-264",
@@ -27098,7 +27361,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "264 decl-264 luiz inacio lula da silva lula economia e contas publicas ja mandou ao congresso a compra de dividas das pessoas, em leilao com os bancos, com desagio de 90% a 95%. ja mandou ao congresso a compra de dividas das pessoas, em leilao com os bancos, com desagio de 90% a 95%. a mp 1.393, de 25/09/2026, autoriza a uniao a comprar carteiras de dividas atrasadas em procedimento competitivo, com desagio minimo de 90%. a mp vai ao congresso, nao so ao senado. as compras ainda nao comecaram: em 22/10 a fazenda abriu o chamamento dos credores. verdadeiro verdadeiro"
+    "searchTokens": "264 decl-264 luiz inacio lula da silva lula economia e contas publicas ja mandou ao congresso a compra de dividas das pessoas, em leilao com os bancos, com desagio de 90% a 95%. ja mandou ao congresso a compra de dividas das pessoas, em leilao com os bancos, com desagio de 90% a 95%. a mp 1.393, de 25/09/2026, autoriza a uniao a comprar carteiras de dividas atrasadas em procedimento competitivo, com desagio minimo de 90%. a mp vai ao congresso, nao so ao senado. as compras ainda nao comecaram: em 22/10 a fazenda abriu o chamamento dos credores. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-265",
@@ -27189,7 +27453,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "265 decl-265 luiz inacio lula da silva lula economia e contas publicas antes de ontem, perdoou \"quase 15 bilhoes\" em dividas de 4,5 milhoes de meis com o governo. antes de ontem, perdoou \"quase 15 bilhoes\" em dividas de 4,5 milhoes de meis com o governo. a lei complementar 238, de 21/10/2026, perdoa as dividas dos meis com a uniao constituidas ate 13/10/2026. o governo estimou r$ 12,6 bilhoes de 3,6 milhoes de meis, menos que o citado. o perdao depende de pedido e de pagamentos em dia depois dele. impreciso enganoso"
+    "searchTokens": "265 decl-265 luiz inacio lula da silva lula economia e contas publicas antes de ontem, perdoou \"quase 15 bilhoes\" em dividas de 4,5 milhoes de meis com o governo. antes de ontem, perdoou \"quase 15 bilhoes\" em dividas de 4,5 milhoes de meis com o governo. a lei complementar 238, de 21/10/2026, perdoa as dividas dos meis com a uniao constituidas ate 13/10/2026. o governo estimou r$ 12,6 bilhoes de 3,6 milhoes de meis, menos que o citado. o perdao depende de pedido e de pagamentos em dia depois dele. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-266",
@@ -27275,7 +27540,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "266 decl-266 luiz inacio lula da silva lula economia e contas publicas o mei passou a poder ter dois empregados, e o teto foi de r$ 81 mil para r$ 110 mil e r$ 140 mil em 2028. o mei passou a poder ter dois empregados, e o teto foi de r$ 81 mil para r$ 110 mil e r$ 140 mil em 2028. a lei complementar 238/2026 permite ate dois empregados e eleva o limite anual de r$ 81 mil para r$ 110 mil em 2027 e r$ 140 mil a partir de 2028. verdadeiro verdadeiro"
+    "searchTokens": "266 decl-266 luiz inacio lula da silva lula economia e contas publicas o mei passou a poder ter dois empregados, e o teto foi de r$ 81 mil para r$ 110 mil e r$ 140 mil em 2028. o mei passou a poder ter dois empregados, e o teto foi de r$ 81 mil para r$ 110 mil e r$ 140 mil em 2028. a lei complementar 238/2026 permite ate dois empregados e eleva o limite anual de r$ 81 mil para r$ 110 mil em 2027 e r$ 140 mil a partir de 2028. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-267",
@@ -27363,7 +27629,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "267 decl-267 luiz inacio lula da silva lula economia e contas publicas herdou a taxa de juro \"com 13%\", e ela \"esta 13,75%\" com o banco central independente. herdou a taxa de juro \"com 13%\", e ela \"esta 13,75%\" com o banco central independente. a selic que lula herdou em 1º/1/2023 era de 13,75%, a mesma de hoje. ela subiu ate 15% em 2025 e voltou a 13,75% em setembro de 2026. o numero herdado esta errado, e a taxa nao subiu em relacao ao inicio do governo. impreciso enganoso"
+    "searchTokens": "267 decl-267 luiz inacio lula da silva lula economia e contas publicas herdou a taxa de juro \"com 13%\", e ela \"esta 13,75%\" com o banco central independente. herdou a taxa de juro \"com 13%\", e ela \"esta 13,75%\" com o banco central independente. a selic que lula herdou em 1º/1/2023 era de 13,75%, a mesma de hoje. ela subiu ate 15% em 2025 e voltou a 13,75% em setembro de 2026. o numero herdado esta errado, e a taxa nao subiu em relacao ao inicio do governo. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-268",
@@ -27451,7 +27718,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "268 decl-268 luiz inacio lula da silva lula economia e contas publicas manteve o mesmo presidente do banco central por oito anos, e fhc trocou quatro vezes. manteve o mesmo presidente do banco central por oito anos, e fhc trocou quatro vezes. henrique meirelles presidiu o bc de 02/01/2003 a 01/01/2011. com fhc, o bc passou de gustavo franco (interino) a persio arida (jan/1995), gustavo loyola (jun/1995), gustavo franco (ago/1997) e arminio fraga (mar/1999): quatro trocas. verdadeiro verdadeiro"
+    "searchTokens": "268 decl-268 luiz inacio lula da silva lula economia e contas publicas manteve o mesmo presidente do banco central por oito anos, e fhc trocou quatro vezes. manteve o mesmo presidente do banco central por oito anos, e fhc trocou quatro vezes. henrique meirelles presidiu o bc de 02/01/2003 a 01/01/2011. com fhc, o bc passou de gustavo franco (interino) a persio arida (jan/1995), gustavo loyola (jun/1995), gustavo franco (ago/1997) e arminio fraga (mar/1999): quatro trocas. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-269",
@@ -27537,7 +27805,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "269 decl-269 luiz inacio lula da silva lula economia e contas publicas o salario minimo cresceu no governo dele. o salario minimo cresceu no governo dele. o minimo passou de r$ 1.302 em jan/2023 para r$ 1.621 em 2026. a lei 14.663/2023 manda reajusta-lo pela inflacao (inpc) mais o crescimento do pib de dois anos antes. verdadeiro verdadeiro"
+    "searchTokens": "269 decl-269 luiz inacio lula da silva lula economia e contas publicas o salario minimo cresceu no governo dele. o salario minimo cresceu no governo dele. o minimo passou de r$ 1.302 em jan/2023 para r$ 1.621 em 2026. a lei 14.663/2023 manda reajusta-lo pela inflacao (inpc) mais o crescimento do pib de dois anos antes. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-270",
@@ -27631,7 +27900,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "270 decl-270 luiz inacio lula da silva lula economia e contas publicas a economia nao crescia acima de 3% desde que ele deixou a presidencia, em 2010, e voltou a crescer. a economia nao crescia acima de 3% desde que ele deixou a presidencia, em 2010, e voltou a crescer. o pib cresceu 3,2% em 2023 e 3,4% em 2024, mas tambem cresceu 4,0% em 2011, no governo dilma, e 4,8% em 2021, no governo bolsonaro. ✕falso falso"
+    "searchTokens": "270 decl-270 luiz inacio lula da silva lula economia e contas publicas a economia nao crescia acima de 3% desde que ele deixou a presidencia, em 2010, e voltou a crescer. a economia nao crescia acima de 3% desde que ele deixou a presidencia, em 2010, e voltou a crescer. o pib cresceu 3,2% em 2023 e 3,4% em 2024, mas tambem cresceu 4,0% em 2011, no governo dilma, e 4,8% em 2021, no governo bolsonaro. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-271",
@@ -27712,7 +27982,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "271 decl-271 luiz inacio lula da silva lula saude o escolhido de flavio para a saude disse publicamente que \"nao vai colocar nenhum dinheiro no sus\" o escolhido de flavio para a saude disse publicamente que \"nao vai colocar nenhum dinheiro no sus\" claudio lottenberg disse em 2019, num debate da fundacao fhc: \"eu nao colocaria nada mais, a nao ser que a gente esgotasse ou pelo menos evoluisse na forma de alocar os recursos que nos ja dispomos\". ele falou em nao por dinheiro a mais antes de melhorar a gestao, nao em deixar o sus sem nenhum dinheiro. ✕falso falso"
+    "searchTokens": "271 decl-271 luiz inacio lula da silva lula saude o escolhido de flavio para a saude disse publicamente que \"nao vai colocar nenhum dinheiro no sus\" o escolhido de flavio para a saude disse publicamente que \"nao vai colocar nenhum dinheiro no sus\" claudio lottenberg disse em 2019, num debate da fundacao fhc: \"eu nao colocaria nada mais, a nao ser que a gente esgotasse ou pelo menos evoluisse na forma de alocar os recursos que nos ja dispomos\". ele falou em nao por dinheiro a mais antes de melhorar a gestao, nao em deixar o sus sem nenhum dinheiro. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-272",
@@ -27793,7 +28064,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "272 decl-272 luiz inacio lula da silva lula saude bolsonaro \"optou\" por deixar morrer 716 mil pessoas na covid em vez de seguir os cientistas. bolsonaro \"optou\" por deixar morrer 716 mil pessoas na covid em vez de seguir os cientistas. o numero confere: o total oficial de mortes por covid era de 715.295 em mar/2025, e as mortes a partir de 2023 cabem no arredondamento. mas a frase apresenta como fato que bolsonaro escolheu deixar essas pessoas morrerem, o que nenhuma fonte oficial registra. impreciso enganoso"
+    "searchTokens": "272 decl-272 luiz inacio lula da silva lula saude bolsonaro \"optou\" por deixar morrer 716 mil pessoas na covid em vez de seguir os cientistas. bolsonaro \"optou\" por deixar morrer 716 mil pessoas na covid em vez de seguir os cientistas. o numero confere: o total oficial de mortes por covid era de 715.295 em mar/2025, e as mortes a partir de 2023 cabem no arredondamento. mas a frase apresenta como fato que bolsonaro escolheu deixar essas pessoas morrerem, o que nenhuma fonte oficial registra. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-273",
@@ -27874,7 +28146,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "273 decl-273 flavio bolsonaro flavio economia e contas publicas lula criou ou aumentou \"mais de 30\" impostos. lula criou ou aumentou \"mais de 30\" impostos. nao ha contagem oficial de impostos criados ou aumentados desde 2023. o estudo da consultoria do senado lista 16 atos que elevaram a arrecadacao de janeiro de 2023 a junho de 2025, e um mesmo ato pode mexer em varios tributos: o total muda conforme se contem leis ou tributos. nao verificavel enganoso"
+    "searchTokens": "273 decl-273 flavio bolsonaro flavio economia e contas publicas lula criou ou aumentou \"mais de 30\" impostos. lula criou ou aumentou \"mais de 30\" impostos. nao ha contagem oficial de impostos criados ou aumentados desde 2023. o estudo da consultoria do senado lista 16 atos que elevaram a arrecadacao de janeiro de 2023 a junho de 2025, e um mesmo ato pode mexer em varios tributos: o total muda conforme se contem leis ou tributos. nao verificavel enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-274",
@@ -27955,7 +28228,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "274 decl-274 luiz inacio lula da silva lula saude no governo bolsonaro, quem tomasse vacina \"ia virar gay, ia virar jacare\" no governo bolsonaro, quem tomasse vacina \"ia virar gay, ia virar jacare\" o \"jacare\" e de bolsonaro: em 18/12/2020, em porto seguro, ele disse sobre o contrato da pfizer \"se voce virar um jacare o problema e de voce\". ele nao falou em \"virar gay\"; disse que, \"se um homem comecar a falar fino\", a pfizer nao teria \"nada a ver com isso\". \"virar gay\" e a leitura de lula dessa frase. impreciso enganoso"
+    "searchTokens": "274 decl-274 luiz inacio lula da silva lula saude no governo bolsonaro, quem tomasse vacina \"ia virar gay, ia virar jacare\" no governo bolsonaro, quem tomasse vacina \"ia virar gay, ia virar jacare\" o \"jacare\" e de bolsonaro: em 18/12/2020, em porto seguro, ele disse sobre o contrato da pfizer \"se voce virar um jacare o problema e de voce\". ele nao falou em \"virar gay\"; disse que, \"se um homem comecar a falar fino\", a pfizer nao teria \"nada a ver com isso\". \"virar gay\" e a leitura de lula dessa frase. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-275",
@@ -28036,7 +28310,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "275 decl-275 luiz inacio lula da silva lula saude com outra conduta, poderia ter salvado \"pelo menos metade das pessoas que morreram\" de covid. com outra conduta, poderia ter salvado \"pelo menos metade das pessoas que morreram\" de covid. e uma estimativa contrafactual. as estimativas levadas a cpi sao compativeis com essa fracao, mas nao a provam. nao verificavel enganoso"
+    "searchTokens": "275 decl-275 luiz inacio lula da silva lula saude com outra conduta, poderia ter salvado \"pelo menos metade das pessoas que morreram\" de covid. com outra conduta, poderia ter salvado \"pelo menos metade das pessoas que morreram\" de covid. e uma estimativa contrafactual. as estimativas levadas a cpi sao compativeis com essa fracao, mas nao a provam. nao verificavel enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-276",
@@ -28117,7 +28392,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "276 decl-276 luiz inacio lula da silva lula saude bolsonaro preferiu \"debochar e imitar as pessoas sufocando\" bolsonaro preferiu \"debochar e imitar as pessoas sufocando\" na live de 18/03/2021, bolsonaro imitou uma pessoa com falta de ar ao criticar a orientacao de mandetta de ir ao hospital so com falta de ar. verdadeiro verdadeiro"
+    "searchTokens": "276 decl-276 luiz inacio lula da silva lula saude bolsonaro preferiu \"debochar e imitar as pessoas sufocando\" bolsonaro preferiu \"debochar e imitar as pessoas sufocando\" na live de 18/03/2021, bolsonaro imitou uma pessoa com falta de ar ao criticar a orientacao de mandetta de ir ao hospital so com falta de ar. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-277",
@@ -28198,7 +28474,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "277 decl-277 luiz inacio lula da silva lula saude o escolhido de flavio para a saude \"disse que vai privatizar o sus\" e \"vai cobrar o sus\" o escolhido de flavio para a saude \"disse que vai privatizar o sus\" e \"vai cobrar o sus\" nao ha registro de claudio lottenberg nem de flavio dizendo que vai privatizar ou cobrar pelo sus. a fala publica de lottenberg e de 2019: nao poria dinheiro a mais antes de melhorar a gestao (ver▶1:08:38). ✕falso falso"
+    "searchTokens": "277 decl-277 luiz inacio lula da silva lula saude o escolhido de flavio para a saude \"disse que vai privatizar o sus\" e \"vai cobrar o sus\" o escolhido de flavio para a saude \"disse que vai privatizar o sus\" e \"vai cobrar o sus\" nao ha registro de claudio lottenberg nem de flavio dizendo que vai privatizar ou cobrar pelo sus. a fala publica de lottenberg e de 2019: nao poria dinheiro a mais antes de melhorar a gestao (ver▶1:08:38). ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-278",
@@ -28284,7 +28561,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "278 decl-278 flavio bolsonaro flavio saude bolsonaro foi esfaqueado por um ex-filiado do psol e salvo na santa casa de juiz de fora. bolsonaro foi esfaqueado por um ex-filiado do psol e salvo na santa casa de juiz de fora. o ministerio da saude registra que a santa casa de juiz de fora prestou o primeiro atendimento a bolsonaro em 2018. adelio bispo foi filiado ao psol de 06/05/2007 a 29/12/2014, segundo o registro do tse. verdadeiro verdadeiro"
+    "searchTokens": "278 decl-278 flavio bolsonaro flavio saude bolsonaro foi esfaqueado por um ex-filiado do psol e salvo na santa casa de juiz de fora. bolsonaro foi esfaqueado por um ex-filiado do psol e salvo na santa casa de juiz de fora. o ministerio da saude registra que a santa casa de juiz de fora prestou o primeiro atendimento a bolsonaro em 2018. adelio bispo foi filiado ao psol de 06/05/2007 a 29/12/2014, segundo o registro do tse. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-279",
@@ -28383,7 +28661,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "279 decl-279 flavio bolsonaro flavio saude a espera por cirurgia de cancer de tireoide \"ultrapassou os 700 dias\" a espera por cirurgia de cancer de tireoide \"ultrapassou os 700 dias\" na auditoria do tcu sobre o agora tem especialistas, a mediana de espera pela tireoidectomia total em oncologia foi de 719 dias em 2025. a base de dados cobre so parte das cirurgias do sus. verdadeiro verdadeiro"
+    "searchTokens": "279 decl-279 flavio bolsonaro flavio saude a espera por cirurgia de cancer de tireoide \"ultrapassou os 700 dias\" a espera por cirurgia de cancer de tireoide \"ultrapassou os 700 dias\" na auditoria do tcu sobre o agora tem especialistas, a mediana de espera pela tireoidectomia total em oncologia foi de 719 dias em 2025. a base de dados cobre so parte das cirurgias do sus. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-280",
@@ -28464,7 +28743,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "280 decl-280 flavio bolsonaro flavio saude fez uma emenda para aparelhos que conservam rins para transplante. fez uma emenda para aparelhos que conservam rins para transplante. nao encontramos no portal da transparencia emenda de flavio para maquinas de perfusao renal. nao verificavel enganoso"
+    "searchTokens": "280 decl-280 flavio bolsonaro flavio saude fez uma emenda para aparelhos que conservam rins para transplante. fez uma emenda para aparelhos que conservam rins para transplante. nao encontramos no portal da transparencia emenda de flavio para maquinas de perfusao renal. nao verificavel enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-281",
@@ -28545,7 +28825,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "281 decl-281 flavio bolsonaro flavio saude a caixa e credora das santas casas, e lula \"nao fez nada\" para ajudar a reduzir essa divida. a caixa e credora das santas casas, e lula \"nao fez nada\" para ajudar a reduzir essa divida. a caixa tem r$ 5,1 bilhoes emprestados a mais de 560 hospitais pela linha caixa hospitais. em 14/08/2025, o governo anunciou renegociacao dessas dividas em ate 150 meses, com parcelas menores, e alongamento de contratos em ate 120 meses. ✕falso falso"
+    "searchTokens": "281 decl-281 flavio bolsonaro flavio saude a caixa e credora das santas casas, e lula \"nao fez nada\" para ajudar a reduzir essa divida. a caixa e credora das santas casas, e lula \"nao fez nada\" para ajudar a reduzir essa divida. a caixa tem r$ 5,1 bilhoes emprestados a mais de 560 hospitais pela linha caixa hospitais. em 14/08/2025, o governo anunciou renegociacao dessas dividas em ate 150 meses, com parcelas menores, e alongamento de contratos em ate 120 meses. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-282",
@@ -28646,7 +28927,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "282 decl-282 flavio bolsonaro flavio saude a tabela sus paga r$ 10 por consulta e r$ 443 por parto, e lula nao a atualizou. a tabela sus paga r$ 10 por consulta e r$ 443 por parto, e lula nao a atualizou. os valores conferem: na tabela federal, a consulta medica especializada vale r$ 10,00 e o parto normal, r$ 443,40, dos quais r$ 175,80 sao do servico profissional. mas lula atualizou parte da tabela: sancionou a lei 14.820/2024, que manda revisar os valores todo dezembro, e a portaria gm/ms 6.465/2024 alterou procedimentos da tabela, com r$ 700,6 milhoes a mais. a consulta e o parto nao estavam entre eles. impreciso enganoso"
+    "searchTokens": "282 decl-282 flavio bolsonaro flavio saude a tabela sus paga r$ 10 por consulta e r$ 443 por parto, e lula nao a atualizou. a tabela sus paga r$ 10 por consulta e r$ 443 por parto, e lula nao a atualizou. os valores conferem: na tabela federal, a consulta medica especializada vale r$ 10,00 e o parto normal, r$ 443,40, dos quais r$ 175,80 sao do servico profissional. mas lula atualizou parte da tabela: sancionou a lei 14.820/2024, que manda revisar os valores todo dezembro, e a portaria gm/ms 6.465/2024 alterou procedimentos da tabela, com r$ 700,6 milhoes a mais. a consulta e o parto nao estavam entre eles. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-283",
@@ -28727,7 +29009,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "283 decl-283 flavio bolsonaro flavio saude \"cada vez e menor o percentual que o governo federal coloca\" na saude. \"cada vez e menor o percentual que o governo federal coloca\" na saude. a fatia da uniao no gasto publico com saude caiu de 44,2% em 2010 para 37,5% em 2022, segundo o ipea, mas essa queda e anterior ao governo atual. nao ha serie oficial consolidada da fatia federal para 2023 a 2026. nao verificavel enganoso"
+    "searchTokens": "283 decl-283 flavio bolsonaro flavio saude \"cada vez e menor o percentual que o governo federal coloca\" na saude. \"cada vez e menor o percentual que o governo federal coloca\" na saude. a fatia da uniao no gasto publico com saude caiu de 44,2% em 2010 para 37,5% em 2022, segundo o ipea, mas essa queda e anterior ao governo atual. nao ha serie oficial consolidada da fatia federal para 2023 a 2026. nao verificavel enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-284",
@@ -28808,7 +29091,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "284 decl-284 flavio bolsonaro flavio saude tarcisio criou a tabela sus paulista e reduziu as filas. tarcisio criou a tabela sus paulista e reduziu as filas. a tabela paga a hospitais filantropicos ate cinco vezes o valor federal; no primeiro ano, foram r$ 4,3 bilhoes do tesouro estadual. a secretaria da saude diz que ela ajudou a reduzir filas. verdadeiro verdadeiro"
+    "searchTokens": "284 decl-284 flavio bolsonaro flavio saude tarcisio criou a tabela sus paulista e reduziu as filas. tarcisio criou a tabela sus paulista e reduziu as filas. a tabela paga a hospitais filantropicos ate cinco vezes o valor federal; no primeiro ano, foram r$ 4,3 bilhoes do tesouro estadual. a secretaria da saude diz que ela ajudou a reduzir filas. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-285",
@@ -28824,7 +29108,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "Lula disse a frase \"se a comida está cara, não compra\"",
     "theFact": "Afirmação apurada: Lula disse a frase \"se a comida está cara, não compra\". Em 06/02/2025, em entrevista a rádios da Bahia, Lula disse, sobre o preço dos alimentos: \"Se você vai ao supermercado em Salvador e você desconfia que tal produto está caro, você não compra\".",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em economia e contas públicas e análise de relatórios probatórios.",
@@ -28896,7 +29180,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "285 decl-285 flavio bolsonaro flavio economia e contas publicas lula disse a frase \"se a comida esta cara, nao compra\" lula disse a frase \"se a comida esta cara, nao compra\" em 06/02/2025, em entrevista a radios da bahia, lula disse, sobre o preco dos alimentos: \"se voce vai ao supermercado em salvador e voce desconfia que tal produto esta caro, voce nao compra\". verdadeiro verdadeiro"
+    "searchTokens": "285 decl-285 flavio bolsonaro flavio economia e contas publicas lula disse a frase \"se a comida esta cara, nao compra\" lula disse a frase \"se a comida esta cara, nao compra\" em 06/02/2025, em entrevista a radios da bahia, lula disse, sobre o preco dos alimentos: \"se voce vai ao supermercado em salvador e voce desconfia que tal produto esta caro, voce nao compra\". verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-286",
@@ -28982,7 +29267,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "286 decl-286 luiz inacio lula da silva lula economia e contas publicas criou o primeiro desenrola \"desde o primeiro mes de mandato\", depois o segundo, e agora cria o terceiro. criou o primeiro desenrola \"desde o primeiro mes de mandato\", depois o segundo, e agora cria o terceiro. os tres programas existem. o primeiro desenrola foi criado pela mp 1.176, de 05/06/2023, no sexto mes do mandato; o novo desenrola comecou em maio de 2026, e o desenrola 3.0 e da mp 1.393, de 25/09/2026. verdadeiro verdadeiro"
+    "searchTokens": "286 decl-286 luiz inacio lula da silva lula economia e contas publicas criou o primeiro desenrola \"desde o primeiro mes de mandato\", depois o segundo, e agora cria o terceiro. criou o primeiro desenrola \"desde o primeiro mes de mandato\", depois o segundo, e agora cria o terceiro. os tres programas existem. o primeiro desenrola foi criado pela mp 1.176, de 05/06/2023, no sexto mes do mandato; o novo desenrola comecou em maio de 2026, e o desenrola 3.0 e da mp 1.393, de 25/09/2026. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-287",
@@ -29076,7 +29362,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "287 decl-287 flavio bolsonaro flavio economia e contas publicas \"sao mais de 80 milhoes de brasileiros\" com contas atrasadas. \"sao mais de 80 milhoes de brasileiros\" com contas atrasadas. repete a fala de▶0:57:52. em maio de 2026, havia 83,5 milhoes de brasileiros negativados, o maior numero da serie da serasa, segundo nota do ministerio da fazenda enviada a camara. verdadeiro verdadeiro"
+    "searchTokens": "287 decl-287 flavio bolsonaro flavio economia e contas publicas \"sao mais de 80 milhoes de brasileiros\" com contas atrasadas. \"sao mais de 80 milhoes de brasileiros\" com contas atrasadas. repete a fala de▶0:57:52. em maio de 2026, havia 83,5 milhoes de brasileiros negativados, o maior numero da serie da serasa, segundo nota do ministerio da fazenda enviada a camara. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-288",
@@ -29157,7 +29444,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "288 decl-288 flavio bolsonaro flavio economia e contas publicas a caixa tem \"mais de 11 milhoes de contratos imobiliarios\", com \"mais de 30 milhoes de pessoas atingidas\" a caixa tem \"mais de 11 milhoes de contratos imobiliarios\", com \"mais de 30 milhoes de pessoas atingidas\" a caixa divulga o saldo da carteira habitacional (r$ 1,005 trilhao no 2º trimestre de 2026), mas nao o numero de contratos nem de pessoas. nao verificavel enganoso"
+    "searchTokens": "288 decl-288 flavio bolsonaro flavio economia e contas publicas a caixa tem \"mais de 11 milhoes de contratos imobiliarios\", com \"mais de 30 milhoes de pessoas atingidas\" a caixa tem \"mais de 11 milhoes de contratos imobiliarios\", com \"mais de 30 milhoes de pessoas atingidas\" a caixa divulga o saldo da carteira habitacional (r$ 1,005 trilhao no 2º trimestre de 2026), mas nao o numero de contratos nem de pessoas. nao verificavel enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-289",
@@ -29238,7 +29526,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "289 decl-289 flavio bolsonaro flavio economia e contas publicas lula \"gastou mais de 405 bilhoes\" de reais \"para tentar se reeleger\" lula \"gastou mais de 405 bilhoes\" de reais \"para tentar se reeleger\" o numero mais proximo e o do gastometro, do estadao: r$ 354 bi em medidas do terceiro mandato, somando linhas de credito, subsidios, renuncias de receita e gastos fora do orcamento, abaixo dos r$ 400 bi citados. credito e dinheiro emprestado, que nem sempre e usado por inteiro, e nao e gasto. \"para tentar se reeleger\" e opiniao. impreciso enganoso"
+    "searchTokens": "289 decl-289 flavio bolsonaro flavio economia e contas publicas lula \"gastou mais de 405 bilhoes\" de reais \"para tentar se reeleger\" lula \"gastou mais de 405 bilhoes\" de reais \"para tentar se reeleger\" o numero mais proximo e o do gastometro, do estadao: r$ 354 bi em medidas do terceiro mandato, somando linhas de credito, subsidios, renuncias de receita e gastos fora do orcamento, abaixo dos r$ 400 bi citados. credito e dinheiro emprestado, que nem sempre e usado por inteiro, e nao e gasto. \"para tentar se reeleger\" e opiniao. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-290",
@@ -29331,7 +29620,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "290 decl-290 luiz inacio lula da silva lula economia e contas publicas no primeiro desenrola atendeu 15 milhoes de pessoas, e no segundo, \"quase 16 milhoes\" no primeiro desenrola atendeu 15 milhoes de pessoas, e no segundo, \"quase 16 milhoes\" o primeiro desenrola renegociou r$ 53 bilhoes de cerca de 15 milhoes de pessoas. o novo desenrola, de maio a agosto de 2026, renegociou cerca de 5 milhoes de dividas, e a fazenda contava outros 5 milhoes de pessoas que tiraram o nome do cadastro de inadimplentes por dividas de ate r$ 100; a meta era 10 milhoes, nao 16. impreciso enganoso"
+    "searchTokens": "290 decl-290 luiz inacio lula da silva lula economia e contas publicas no primeiro desenrola atendeu 15 milhoes de pessoas, e no segundo, \"quase 16 milhoes\" no primeiro desenrola atendeu 15 milhoes de pessoas, e no segundo, \"quase 16 milhoes\" o primeiro desenrola renegociou r$ 53 bilhoes de cerca de 15 milhoes de pessoas. o novo desenrola, de maio a agosto de 2026, renegociou cerca de 5 milhoes de dividas, e a fazenda contava outros 5 milhoes de pessoas que tiraram o nome do cadastro de inadimplentes por dividas de ate r$ 100; a meta era 10 milhoes, nao 16. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-291",
@@ -29417,7 +29707,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "291 decl-291 luiz inacio lula da silva lula economia e contas publicas ja mandou a mp e vai fazer \"um leilao este mes\" que pode chegar a \"mais de 150 bilhoes\" para comprar dividas. ja mandou a mp e vai fazer \"um leilao este mes\" que pode chegar a \"mais de 150 bilhoes\" para comprar dividas. a mp 1.393 foi enviada, e a meta do governo e renegociar r$ 150 bilhoes em dividas, com gasto da uniao limitado a r$ 15 bilhoes. mas nao ha leilao marcado para outubro: em 22/10 a fazenda abriu so o chamamento para estruturar o leilao, com dados dos credores ate 30/10, sem garantia de compra. impreciso enganoso"
+    "searchTokens": "291 decl-291 luiz inacio lula da silva lula economia e contas publicas ja mandou a mp e vai fazer \"um leilao este mes\" que pode chegar a \"mais de 150 bilhoes\" para comprar dividas. ja mandou a mp e vai fazer \"um leilao este mes\" que pode chegar a \"mais de 150 bilhoes\" para comprar dividas. a mp 1.393 foi enviada, e a meta do governo e renegociar r$ 150 bilhoes em dividas, com gasto da uniao limitado a r$ 15 bilhoes. mas nao ha leilao marcado para outubro: em 22/10 a fazenda abriu so o chamamento para estruturar o leilao, com dados dos credores ate 30/10, sem garantia de compra. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-292",
@@ -29498,7 +29789,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "292 decl-292 luiz inacio lula da silva lula economia e contas publicas o brasil tem \"17,5 milhoes\" de meis. o brasil tem \"17,5 milhoes\" de meis. o ministerio da fazenda informou em outubro de 2026 que ha 17,6 milhoes de microempreendedores individuais cadastrados. verdadeiro verdadeiro"
+    "searchTokens": "292 decl-292 luiz inacio lula da silva lula economia e contas publicas o brasil tem \"17,5 milhoes\" de meis. o brasil tem \"17,5 milhoes\" de meis. o ministerio da fazenda informou em outubro de 2026 que ha 17,6 milhoes de microempreendedores individuais cadastrados. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-293",
@@ -29579,7 +29871,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "293 decl-293 luiz inacio lula da silva lula economia e contas publicas fez a lei geral da pequena e media empresa. fez a lei geral da pequena e media empresa. a lei complementar 123, de 2006, a lei geral da micro e pequena empresa, foi sancionada por lula. verdadeiro verdadeiro"
+    "searchTokens": "293 decl-293 luiz inacio lula da silva lula economia e contas publicas fez a lei geral da pequena e media empresa. fez a lei geral da pequena e media empresa. a lei complementar 123, de 2006, a lei geral da micro e pequena empresa, foi sancionada por lula. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-294",
@@ -29670,7 +29963,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "294 decl-294 luiz inacio lula da silva lula economia e contas publicas \"nessa semana\", anunciou o perdao de quase r$ 15 bilhoes em dividas de 4 milhoes de meis. \"nessa semana\", anunciou o perdao de quase r$ 15 bilhoes em dividas de 4 milhoes de meis. repete a fala de▶1:05:56. a lei complementar 238, de 21/10/2026, perdoa as dividas dos meis com a uniao constituidas ate 13/10/2026. o governo estimou r$ 12,6 bilhoes de 3,6 milhoes de meis, menos que o citado. o perdao depende de pedido e de pagamentos em dia depois dele. impreciso enganoso"
+    "searchTokens": "294 decl-294 luiz inacio lula da silva lula economia e contas publicas \"nessa semana\", anunciou o perdao de quase r$ 15 bilhoes em dividas de 4 milhoes de meis. \"nessa semana\", anunciou o perdao de quase r$ 15 bilhoes em dividas de 4 milhoes de meis. repete a fala de▶1:05:56. a lei complementar 238, de 21/10/2026, perdoa as dividas dos meis com a uniao constituidas ate 13/10/2026. o governo estimou r$ 12,6 bilhoes de 3,6 milhoes de meis, menos que o citado. o perdao depende de pedido e de pagamentos em dia depois dele. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-295",
@@ -29751,7 +30045,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "295 decl-295 luiz inacio lula da silva lula economia e contas publicas teve \"a coragem de acabar com as bets\" teve \"a coragem de acabar com as bets\" a mp 1.394, de 25/09/2026, proibiu as apostas de quota fixa, esportivas e jogos online, e os sites sairam do ar a partir de 06/10. verdadeiro verdadeiro"
+    "searchTokens": "295 decl-295 luiz inacio lula da silva lula economia e contas publicas teve \"a coragem de acabar com as bets\" teve \"a coragem de acabar com as bets\" a mp 1.394, de 25/09/2026, proibiu as apostas de quota fixa, esportivas e jogos online, e os sites sairam do ar a partir de 06/10. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-296",
@@ -29832,7 +30127,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "296 decl-296 flavio bolsonaro flavio educacao lula \"zerou o orcamento federal para ensino integral\" lula \"zerou o orcamento federal para ensino integral\" a emenda constitucional 135/2024 tirou o fomento ao tempo integral do orcamento discricionario do mec e o passou ao fundeb, em transferencias obrigatorias a partir de 2026. a verba propria do programa saiu do orcamento, mas o financiamento continua por outro canal. impreciso enganoso"
+    "searchTokens": "296 decl-296 flavio bolsonaro flavio educacao lula \"zerou o orcamento federal para ensino integral\" lula \"zerou o orcamento federal para ensino integral\" a emenda constitucional 135/2024 tirou o fomento ao tempo integral do orcamento discricionario do mec e o passou ao fundeb, em transferencias obrigatorias a partir de 2026. a verba propria do programa saiu do orcamento, mas o financiamento continua por outro canal. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-297",
@@ -29848,7 +30144,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "Lula \"é o pai do cassino online\": criou, liberou e cancelou perto da eleição.",
     "theFact": "Afirmação apurada: Lula \"é o pai do cassino online\": criou, liberou e cancelou perto da eleição.. A Lei 14.790/2023, sancionada por Lula, incluiu os jogos online, como o \"tigrinho\", nas apostas de quota fixa. A MP 1.394 as proibiu em 25/09/2026, nove dias antes do 1º turno. \"Pai do tigrinho\" é opinião.",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em economia e contas públicas e análise de relatórios probatórios.",
@@ -29931,7 +30227,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "297 decl-297 flavio bolsonaro flavio economia e contas publicas lula \"e o pai do cassino online\": criou, liberou e cancelou perto da eleicao. lula \"e o pai do cassino online\": criou, liberou e cancelou perto da eleicao. a lei 14.790/2023, sancionada por lula, incluiu os jogos online, como o \"tigrinho\", nas apostas de quota fixa. a mp 1.394 as proibiu em 25/09/2026, nove dias antes do 1º turno. \"pai do tigrinho\" e opiniao. verdadeiro verdadeiro"
+    "searchTokens": "297 decl-297 flavio bolsonaro flavio economia e contas publicas lula \"e o pai do cassino online\": criou, liberou e cancelou perto da eleicao. lula \"e o pai do cassino online\": criou, liberou e cancelou perto da eleicao. a lei 14.790/2023, sancionada por lula, incluiu os jogos online, como o \"tigrinho\", nas apostas de quota fixa. a mp 1.394 as proibiu em 25/09/2026, nove dias antes do 1º turno. \"pai do tigrinho\" e opiniao. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-298",
@@ -30030,7 +30327,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "298 decl-298 luiz inacio lula da silva lula economia e contas publicas \"o tigrinho foi criado por voces em 2022\", pelo pai de flavio. \"o tigrinho foi criado por voces em 2022\", pelo pai de flavio. a lei 13.756/2018, sancionada por temer, autorizou as apostas esportivas de quota fixa, e o governo bolsonaro nao as regulamentou. os jogos online, como o \"tigrinho\", entraram na lei com a lei 14.790/2023, sancionada por lula. ✕falso falso"
+    "searchTokens": "298 decl-298 luiz inacio lula da silva lula economia e contas publicas \"o tigrinho foi criado por voces em 2022\", pelo pai de flavio. \"o tigrinho foi criado por voces em 2022\", pelo pai de flavio. a lei 13.756/2018, sancionada por temer, autorizou as apostas esportivas de quota fixa, e o governo bolsonaro nao as regulamentou. os jogos online, como o \"tigrinho\", entraram na lei com a lei 14.790/2023, sancionada por lula. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-299",
@@ -30111,7 +30409,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "299 decl-299 luiz inacio lula da silva lula educacao encontrou \"5.600 creches paralisadas e escolas\", de tempo integral, e institutos federais. encontrou \"5.600 creches paralisadas e escolas\", de tempo integral, e institutos federais. o pacto nacional pela retomada de obras, de 2023, preve retomar e concluir 5.641 obras de educacao basica e profissionalizante paralisadas, inacabadas ou atrasadas, entre creches, escolas e quadras. verdadeiro verdadeiro"
+    "searchTokens": "299 decl-299 luiz inacio lula da silva lula educacao encontrou \"5.600 creches paralisadas e escolas\", de tempo integral, e institutos federais. encontrou \"5.600 creches paralisadas e escolas\", de tempo integral, e institutos federais. o pacto nacional pela retomada de obras, de 2023, preve retomar e concluir 5.641 obras de educacao basica e profissionalizante paralisadas, inacabadas ou atrasadas, entre creches, escolas e quadras. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-300",
@@ -30192,7 +30491,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "300 decl-300 luiz inacio lula da silva lula educacao o governo bolsonaro inventou a escola civico-militar \"e nao fez\" o governo bolsonaro inventou a escola civico-militar \"e nao fez\" o programa de escolas civico-militares, criado em 2019, tinha 202 escolas e cerca de 120 mil alunos em dezembro de 2022, segundo o mec. ✕falso falso"
+    "searchTokens": "300 decl-300 luiz inacio lula da silva lula educacao o governo bolsonaro inventou a escola civico-militar \"e nao fez\" o governo bolsonaro inventou a escola civico-militar \"e nao fez\" o programa de escolas civico-militares, criado em 2019, tinha 202 escolas e cerca de 120 mil alunos em dezembro de 2022, segundo o mec. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-301",
@@ -30273,7 +30573,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "301 decl-301 luiz inacio lula da silva lula educacao com o pe-de-meia, \"66% das criancas\" nao desistiram da escola. com o pe-de-meia, \"66% das criancas\" nao desistiram da escola. o mec registra queda do abandono no ensino medio publico de 6,4% em 2022 para 3,6% em 2025, uma reducao de 44%, nao de 66%. impreciso enganoso"
+    "searchTokens": "301 decl-301 luiz inacio lula da silva lula educacao com o pe-de-meia, \"66% das criancas\" nao desistiram da escola. com o pe-de-meia, \"66% das criancas\" nao desistiram da escola. o mec registra queda do abandono no ensino medio publico de 6,4% em 2022 para 3,6% em 2025, uma reducao de 44%, nao de 66%. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-302",
@@ -30354,7 +30655,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "302 decl-302 flavio bolsonaro flavio educacao no governo bolsonaro, \"anistiamos quase 99% das dividas\" do fies. no governo bolsonaro, \"anistiamos quase 99% das dividas\" do fies. a lei 14.375/2022, de conversao da mp 1.090/2021, permitiu desconto de ate 99% nas dividas atrasadas do fies, mas so para inscritos no cadunico; para os demais, o desconto ia ate 77%. os 99% sao o desconto maximo de um grupo, nao o perdao de quase todas as dividas. impreciso enganoso"
+    "searchTokens": "302 decl-302 flavio bolsonaro flavio educacao no governo bolsonaro, \"anistiamos quase 99% das dividas\" do fies. no governo bolsonaro, \"anistiamos quase 99% das dividas\" do fies. a lei 14.375/2022, de conversao da mp 1.090/2021, permitiu desconto de ate 99% nas dividas atrasadas do fies, mas so para inscritos no cadunico; para os demais, o desconto ia ate 77%. os 99% sao o desconto maximo de um grupo, nao o perdao de quase todas as dividas. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-303",
@@ -30370,7 +30672,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "O governo Bolsonaro deu \"o maior reajuste da história para os professores, 33%\"",
     "theFact": "Afirmação apurada: O governo Bolsonaro deu \"o maior reajuste da história para os professores, 33%\". Em 2022, o piso dos professores subiu 33,24%, de R$ 2.886 para R$ 3.845, o maior reajuste desde a criação do piso, em 2008.",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em educação e análise de relatórios probatórios.",
@@ -30447,7 +30749,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "303 decl-303 flavio bolsonaro flavio educacao o governo bolsonaro deu \"o maior reajuste da historia para os professores, 33%\" o governo bolsonaro deu \"o maior reajuste da historia para os professores, 33%\" em 2022, o piso dos professores subiu 33,24%, de r$ 2.886 para r$ 3.845, o maior reajuste desde a criacao do piso, em 2008. verdadeiro verdadeiro"
+    "searchTokens": "303 decl-303 flavio bolsonaro flavio educacao o governo bolsonaro deu \"o maior reajuste da historia para os professores, 33%\" o governo bolsonaro deu \"o maior reajuste da historia para os professores, 33%\" em 2022, o piso dos professores subiu 33,24%, de r$ 2.886 para r$ 3.845, o maior reajuste desde a criacao do piso, em 2008. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-304",
@@ -30528,7 +30831,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "304 decl-304 flavio bolsonaro flavio educacao \"mais de 1 milhao de criancas\" nao tem vaga em creche. \"mais de 1 milhao de criancas\" nao tem vaga em creche. o levantamento do mec de 2025 registrou 826.371 pedidos de vaga em creche nao atendidos, mas so 2.181 municipios informaram numeros. nao ha total nacional. nao verificavel enganoso"
+    "searchTokens": "304 decl-304 flavio bolsonaro flavio educacao \"mais de 1 milhao de criancas\" nao tem vaga em creche. \"mais de 1 milhao de criancas\" nao tem vaga em creche. o levantamento do mec de 2025 registrou 826.371 pedidos de vaga em creche nao atendidos, mas so 2.181 municipios informaram numeros. nao ha total nacional. nao verificavel enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-305",
@@ -30614,7 +30918,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "305 decl-305 flavio bolsonaro flavio educacao o governo bolsonaro resgatou os jogos escolares brasileiros, e o atual governo \"minguou de novo\" o governo bolsonaro resgatou os jogos escolares brasileiros, e o atual governo \"minguou de novo\" os jogos escolares voltaram em 2021, apos 17 anos, no governo bolsonaro. mas a edicao de 2023, ja no governo lula, foi a maior da historia, com 6.714 inscritos, e os jogos seguem anuais. ✕falso falso"
+    "searchTokens": "305 decl-305 flavio bolsonaro flavio educacao o governo bolsonaro resgatou os jogos escolares brasileiros, e o atual governo \"minguou de novo\" o governo bolsonaro resgatou os jogos escolares brasileiros, e o atual governo \"minguou de novo\" os jogos escolares voltaram em 2021, apos 17 anos, no governo bolsonaro. mas a edicao de 2023, ja no governo lula, foi a maior da historia, com 6.714 inscritos, e os jogos seguem anuais. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-306",
@@ -30695,7 +31000,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "306 decl-306 flavio bolsonaro flavio educacao com o atual governo, \"a nota do pisa no brasil e uma das piores da historia\" com o atual governo, \"a nota do pisa no brasil e uma das piores da historia\" no pisa 2025, o brasil teve 377 pontos em matematica, abaixo de 2022 (379); 408 em leitura (410 em 2022); e 409 em ciencias, acima de 2018. o inep poe o brasil entre os paises que mais avancaram desde 2006 nas tres areas. impreciso enganoso"
+    "searchTokens": "306 decl-306 flavio bolsonaro flavio educacao com o atual governo, \"a nota do pisa no brasil e uma das piores da historia\" com o atual governo, \"a nota do pisa no brasil e uma das piores da historia\" no pisa 2025, o brasil teve 377 pontos em matematica, abaixo de 2022 (379); 408 em leitura (410 em 2022); e 409 em ciencias, acima de 2018. o inep poe o brasil entre os paises que mais avancaram desde 2006 nas tres areas. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-307",
@@ -30788,7 +31094,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "307 decl-307 flavio bolsonaro flavio seguranca publica lula se colocou a favor de manter as saidinhas, e o sargento dias, da pm de minas, foi assassinado por um preso que nao voltou da saidinha. lula se colocou a favor de manter as saidinhas, e o sargento dias, da pm de minas, foi assassinado por um preso que nao voltou da saidinha. o sargento roger dias da cunha foi baleado em belo horizonte em 05/01/2024 por welbert de souza fagundes, condenado que estava na saida temporaria de natal e nao voltou. em abril de 2024, lula vetou o fim da saidinha para visita a familia na lei 14.843/2024, e o congresso derrubou o veto em 28/05/2024. verdadeiro verdadeiro"
+    "searchTokens": "307 decl-307 flavio bolsonaro flavio seguranca publica lula se colocou a favor de manter as saidinhas, e o sargento dias, da pm de minas, foi assassinado por um preso que nao voltou da saidinha. lula se colocou a favor de manter as saidinhas, e o sargento dias, da pm de minas, foi assassinado por um preso que nao voltou da saidinha. o sargento roger dias da cunha foi baleado em belo horizonte em 05/01/2024 por welbert de souza fagundes, condenado que estava na saida temporaria de natal e nao voltou. em abril de 2024, lula vetou o fim da saidinha para visita a familia na lei 14.843/2024, e o congresso derrubou o veto em 28/05/2024. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-308",
@@ -30869,7 +31176,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "308 decl-308 luiz inacio lula da silva lula seguranca publica um senador (flavio) evitou que o policial acusado de matar a menina ana clara, de 5 anos, fosse julgado no dia 21. um senador (flavio) evitou que o policial acusado de matar a menina ana clara, de 5 anos, fosse julgado no dia 21. o juri do cabo bruno dias delaroli, marcado para 21/10/2026, foi transferido para 05/05/2027 pela juiza da 3ª vara criminal de niteroi, convocada para uma sessao do tj-rj no mesmo dia e hora; a mudanca nao partiu da defesa. flavio entrou na defesa em abril de 2024 e tentou no stj evitar o juri, sem sucesso: a decisao de levar o policial a juri ficou definitiva em agosto de 2025. ✕falso falso"
+    "searchTokens": "308 decl-308 luiz inacio lula da silva lula seguranca publica um senador (flavio) evitou que o policial acusado de matar a menina ana clara, de 5 anos, fosse julgado no dia 21. um senador (flavio) evitou que o policial acusado de matar a menina ana clara, de 5 anos, fosse julgado no dia 21. o juri do cabo bruno dias delaroli, marcado para 21/10/2026, foi transferido para 05/05/2027 pela juiza da 3ª vara criminal de niteroi, convocada para uma sessao do tj-rj no mesmo dia e hora; a mudanca nao partiu da defesa. flavio entrou na defesa em abril de 2024 e tentou no stj evitar o juri, sem sucesso: a decisao de levar o policial a juri ficou definitiva em agosto de 2025. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-309",
@@ -30885,7 +31193,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-warn",
     "verdictBadge": "ENGANOSO",
-    "normalizedVerdict": "enganoso",
+    "normalizedVerdict": "falso",
     "quote": "Ana Clara morreu numa \"troca de tiros numa comunidade conflagrada\", e o policial \"sequer foi julgado ainda\"",
     "theFact": "Afirmação apurada: Ana Clara morreu numa \"troca de tiros numa comunidade conflagrada\", e o policial \"sequer foi julgado ainda\". O policial ainda não foi julgado: o júri está marcado para 05/05/2027. A troca de tiros é a versão dos PMs; a denúncia do MP-RJ diz que não houve confronto, a perícia achou só estojos de fuzil 7,62 e moradores negaram tiroteio. Quem decide é o júri.",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em segurança pública e análise de relatórios probatórios.",
@@ -30957,7 +31265,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "309 decl-309 flavio bolsonaro flavio seguranca publica ana clara morreu numa \"troca de tiros numa comunidade conflagrada\", e o policial \"sequer foi julgado ainda\" ana clara morreu numa \"troca de tiros numa comunidade conflagrada\", e o policial \"sequer foi julgado ainda\" o policial ainda nao foi julgado: o juri esta marcado para 05/05/2027. a troca de tiros e a versao dos pms; a denuncia do mp-rj diz que nao houve confronto, a pericia achou so estojos de fuzil 7,62 e moradores negaram tiroteio. quem decide e o juri. nao verificavel enganoso"
+    "searchTokens": "309 decl-309 flavio bolsonaro flavio seguranca publica ana clara morreu numa \"troca de tiros numa comunidade conflagrada\", e o policial \"sequer foi julgado ainda\" ana clara morreu numa \"troca de tiros numa comunidade conflagrada\", e o policial \"sequer foi julgado ainda\" o policial ainda nao foi julgado: o juri esta marcado para 05/05/2027. a troca de tiros e a versao dos pms; a denuncia do mp-rj diz que nao houve confronto, a pericia achou so estojos de fuzil 7,62 e moradores negaram tiroteio. quem decide e o juri. nao verificavel enganoso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-310",
@@ -31043,7 +31352,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "310 decl-310 flavio bolsonaro flavio seguranca publica com a lei antifaccao, os chefes das faccoes \"vao poder pegar ate 80 anos de cadeia\" e cumprir a pena quase integralmente. com a lei antifaccao, os chefes das faccoes \"vao poder pegar ate 80 anos de cadeia\" e cumprir a pena quase integralmente. a lei 15.358/2026 pune o dominio social estruturado com 20 a 40 anos de reclusao, aumentados de 2/3 ao dobro para quem comanda a faccao: a pena chega a 80 anos. mas o codigo penal limita o cumprimento a 40 anos (art. 75), e a lei nao mudou esse limite; o lider so progride de regime depois de cumprir 75% da pena, sem livramento condicional. impreciso enganoso"
+    "searchTokens": "310 decl-310 flavio bolsonaro flavio seguranca publica com a lei antifaccao, os chefes das faccoes \"vao poder pegar ate 80 anos de cadeia\" e cumprir a pena quase integralmente. com a lei antifaccao, os chefes das faccoes \"vao poder pegar ate 80 anos de cadeia\" e cumprir a pena quase integralmente. a lei 15.358/2026 pune o dominio social estruturado com 20 a 40 anos de reclusao, aumentados de 2/3 ao dobro para quem comanda a faccao: a pena chega a 80 anos. mas o codigo penal limita o cumprimento a 40 anos (art. 75), e a lei nao mudou esse limite; o lider so progride de regime depois de cumprir 75% da pena, sem livramento condicional. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-311",
@@ -31136,7 +31446,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "311 decl-311 flavio bolsonaro flavio seguranca publica o atual governo \"fala que o ladrao de celular nao tem que ser preso porque e so pra roubar uma cervejinha\" o atual governo \"fala que o ladrao de celular nao tem que ser preso porque e so pra roubar uma cervejinha\" nao ha registro de lula ou do governo dizendo isso. a frase vem de um video editado de uma entrevista de lula de 25/08/2017. sobre roubo de celular, ele disse: \"para que ele rouba celular? para vender, para ganhar um dinheirinho\", e atribuiu a violencia a \"desesperanca\". a cerveja e de outro trecho, sobre as torcidas do santa cruz e do sport, que \"depois vao para o bar tomar cerveja juntos\". em 15/10/2022, o tse mandou remover publicacoes com o video editado, numa acao em que a coligacao de lula apontava um post de flavio com essa alegacao. ✕falso falso"
+    "searchTokens": "311 decl-311 flavio bolsonaro flavio seguranca publica o atual governo \"fala que o ladrao de celular nao tem que ser preso porque e so pra roubar uma cervejinha\" o atual governo \"fala que o ladrao de celular nao tem que ser preso porque e so pra roubar uma cervejinha\" nao ha registro de lula ou do governo dizendo isso. a frase vem de um video editado de uma entrevista de lula de 25/08/2017. sobre roubo de celular, ele disse: \"para que ele rouba celular? para vender, para ganhar um dinheirinho\", e atribuiu a violencia a \"desesperanca\". a cerveja e de outro trecho, sobre as torcidas do santa cruz e do sport, que \"depois vao para o bar tomar cerveja juntos\". em 15/10/2022, o tse mandou remover publicacoes com o video editado, numa acao em que a coligacao de lula apontava um post de flavio com essa alegacao. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-312",
@@ -31222,7 +31533,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "312 decl-312 luiz inacio lula da silva lula seguranca publica flavio discursou na alerj defendendo miliciano, deu condecoracao a miliciano e empregou a mae e a irma \"do chefe do gabinete do odio\" flavio discursou na alerj defendendo miliciano, deu condecoracao a miliciano e empregou a mae e a irma \"do chefe do gabinete do odio\" o discurso existe: na alerj, flavio disse que nao se podia \"estigmatizar as milicias\". ele deu mocao de louvor (2003) e a medalha tiradentes (2005) ao pm adriano da nobrega, depois apontado pelo mp-rj como chefe do escritorio do crime, e empregou no gabinete a mae e a mulher dele ate 13/11/2018. erros: era a mulher, nao a irma, e adriano chefiava o escritorio do crime, nao o \"gabinete do odio\". impreciso enganoso"
+    "searchTokens": "312 decl-312 luiz inacio lula da silva lula seguranca publica flavio discursou na alerj defendendo miliciano, deu condecoracao a miliciano e empregou a mae e a irma \"do chefe do gabinete do odio\" flavio discursou na alerj defendendo miliciano, deu condecoracao a miliciano e empregou a mae e a irma \"do chefe do gabinete do odio\" o discurso existe: na alerj, flavio disse que nao se podia \"estigmatizar as milicias\". ele deu mocao de louvor (2003) e a medalha tiradentes (2005) ao pm adriano da nobrega, depois apontado pelo mp-rj como chefe do escritorio do crime, e empregou no gabinete a mae e a mulher dele ate 13/11/2018. erros: era a mulher, nao a irma, e adriano chefiava o escritorio do crime, nao o \"gabinete do odio\". impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-313",
@@ -31326,7 +31638,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "313 decl-313 flavio bolsonaro flavio programas sociais \"eu vou criar a casa da mulher brasileira\", onde a mulher agredida vai ser acolhida. \"eu vou criar a casa da mulher brasileira\", onde a mulher agredida vai ser acolhida. a casa da mulher brasileira ja existe: foi criada pelo decreto 8.086/2013, do governo dilma, e mantida pelo governo bolsonaro, que renomeou o programa em 2019. em agosto de 2026, o ministerio das mulheres contava 13 unidades em funcionamento, e outras estao em obras. ✕falso falso"
+    "searchTokens": "313 decl-313 flavio bolsonaro flavio programas sociais \"eu vou criar a casa da mulher brasileira\", onde a mulher agredida vai ser acolhida. \"eu vou criar a casa da mulher brasileira\", onde a mulher agredida vai ser acolhida. a casa da mulher brasileira ja existe: foi criada pelo decreto 8.086/2013, do governo dilma, e mantida pelo governo bolsonaro, que renomeou o programa em 2019. em agosto de 2026, o ministerio das mulheres contava 13 unidades em funcionamento, e outras estao em obras. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-314",
@@ -31412,7 +31725,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "314 decl-314 luiz inacio lula da silva lula corrupcao e investigacoes richarlison pagou r$ 10 milhoes por uma ilha em angra, esperou mais de um ano na spu, e o advogado amigo de flavio, que \"tinha indicado o diretor da spu\", um coronel, conseguiu o titulo em uma semana. richarlison pagou r$ 10 milhoes por uma ilha em angra, esperou mais de um ano na spu, e o advogado amigo de flavio, que \"tinha indicado o diretor da spu\", um coronel, conseguiu o titulo em uma semana. richarlison diz ter investido r$ 10 milhoes em 2020 nos direitos de ocupacao de uma casa na ilha comprida, terreno da uniao; o pedido de regularizacao dele, de setembro de 2021, ficou cerca de dez meses sem resposta. o entao secretario do patrimonio da uniao, coronel paulo da silva medeiros, cedeu a ocupacao a empresa de willer tomaz no mesmo dia do pedido, em julho de 2022. nao ha registro de que willer tenha indicado o secretario. impreciso enganoso"
+    "searchTokens": "314 decl-314 luiz inacio lula da silva lula corrupcao e investigacoes richarlison pagou r$ 10 milhoes por uma ilha em angra, esperou mais de um ano na spu, e o advogado amigo de flavio, que \"tinha indicado o diretor da spu\", um coronel, conseguiu o titulo em uma semana. richarlison pagou r$ 10 milhoes por uma ilha em angra, esperou mais de um ano na spu, e o advogado amigo de flavio, que \"tinha indicado o diretor da spu\", um coronel, conseguiu o titulo em uma semana. richarlison diz ter investido r$ 10 milhoes em 2020 nos direitos de ocupacao de uma casa na ilha comprida, terreno da uniao; o pedido de regularizacao dele, de setembro de 2021, ficou cerca de dez meses sem resposta. o entao secretario do patrimonio da uniao, coronel paulo da silva medeiros, cedeu a ocupacao a empresa de willer tomaz no mesmo dia do pedido, em julho de 2022. nao ha registro de que willer tenha indicado o secretario. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-315",
@@ -31498,7 +31812,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "315 decl-315 flavio bolsonaro flavio corrupcao e investigacoes a justica ja decidiu o caso da ilha, com transito em julgado, e ela \"nunca foi do richarlison\" a justica ja decidiu o caso da ilha, com transito em julgado, e ela \"nunca foi do richarlison\" a ilha e da uniao; o que se disputa sao os direitos de ocupacao. o stj manteve em 2025 uma decisao favoravel a empresa de willer tomaz, e a acao foi arquivada em 23/01/2026. a pf passou a apurar o caso em 23/10/2026. verdadeiro verdadeiro"
+    "searchTokens": "315 decl-315 flavio bolsonaro flavio corrupcao e investigacoes a justica ja decidiu o caso da ilha, com transito em julgado, e ela \"nunca foi do richarlison\" a justica ja decidiu o caso da ilha, com transito em julgado, e ela \"nunca foi do richarlison\" a ilha e da uniao; o que se disputa sao os direitos de ocupacao. o stj manteve em 2025 uma decisao favoravel a empresa de willer tomaz, e a acao foi arquivada em 23/01/2026. a pf passou a apurar o caso em 23/10/2026. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-316",
@@ -31514,7 +31829,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "O sócio de Willer Tomaz é Eugênio Aragão, ex-ministro de Dilma e advogado de Lula.",
     "theFact": "Afirmação apurada: O sócio de Willer Tomaz é Eugênio Aragão, ex-ministro de Dilma e advogado de Lula.. Willer e Aragão são sócios da Aragão & Tomaz Advogados Associados desde 2018; Aragão disse ter comunicado a saída em 05/10/2026, ainda não formalizada. Ele foi ministro da Justiça de Dilma em 2016 e advogou para a coligação de Lula no TSE em 2022.",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em corrupção e investigações e análise de relatórios probatórios.",
@@ -31591,7 +31906,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "316 decl-316 flavio bolsonaro flavio corrupcao e investigacoes o socio de willer tomaz e eugenio aragao, ex-ministro de dilma e advogado de lula. o socio de willer tomaz e eugenio aragao, ex-ministro de dilma e advogado de lula. willer e aragao sao socios da aragao & tomaz advogados associados desde 2018; aragao disse ter comunicado a saida em 05/10/2026, ainda nao formalizada. ele foi ministro da justica de dilma em 2016 e advogou para a coligacao de lula no tse em 2022. verdadeiro verdadeiro"
+    "searchTokens": "316 decl-316 flavio bolsonaro flavio corrupcao e investigacoes o socio de willer tomaz e eugenio aragao, ex-ministro de dilma e advogado de lula. o socio de willer tomaz e eugenio aragao, ex-ministro de dilma e advogado de lula. willer e aragao sao socios da aragao & tomaz advogados associados desde 2018; aragao disse ter comunicado a saida em 05/10/2026, ainda nao formalizada. ele foi ministro da justica de dilma em 2016 e advogou para a coligacao de lula no tse em 2022. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-317",
@@ -31677,7 +31993,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "317 decl-317 flavio bolsonaro flavio corrupcao e investigacoes richarlison \"comprou a sua ilha de um invasor de terra, comprou do mst\" richarlison \"comprou a sua ilha de um invasor de terra, comprou do mst\" richarlison pagou a antigos posseiros da casa, que willer tomaz chama de pessoas sem legitimidade para vender. nao ha registro de ligacao desses vendedores com o mst. ✕falso falso"
+    "searchTokens": "317 decl-317 flavio bolsonaro flavio corrupcao e investigacoes richarlison \"comprou a sua ilha de um invasor de terra, comprou do mst\" richarlison \"comprou a sua ilha de um invasor de terra, comprou do mst\" richarlison pagou a antigos posseiros da casa, que willer tomaz chama de pessoas sem legitimidade para vender. nao ha registro de ligacao desses vendedores com o mst. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-318",
@@ -31758,7 +32075,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "318 decl-318 flavio bolsonaro flavio corrupcao e investigacoes lula ganhou de vorcaro um uisque de r$ 500 mil. lula ganhou de vorcaro um uisque de r$ 500 mil. mensagens do celular de vorcaro, apreendido pela pf, mostram que em 29/10/2024 ele encomendou um macallan 1945 de cerca de € 80 mil (r$ 495 mil) dizendo \"preciso dar pro lula\"; em janeiro de 2025, o advogado walfrido warde escreveu que lula \"agradeceu mais uma vez o whisky\". lula disse nao saber se ganhou: \"se ele me deu uisque, ja bebi\". verdadeiro verdadeiro"
+    "searchTokens": "318 decl-318 flavio bolsonaro flavio corrupcao e investigacoes lula ganhou de vorcaro um uisque de r$ 500 mil. lula ganhou de vorcaro um uisque de r$ 500 mil. mensagens do celular de vorcaro, apreendido pela pf, mostram que em 29/10/2024 ele encomendou um macallan 1945 de cerca de € 80 mil (r$ 495 mil) dizendo \"preciso dar pro lula\"; em janeiro de 2025, o advogado walfrido warde escreveu que lula \"agradeceu mais uma vez o whisky\". lula disse nao saber se ganhou: \"se ele me deu uisque, ja bebi\". verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-319",
@@ -31839,7 +32157,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "319 decl-319 luiz inacio lula da silva lula corrupcao e investigacoes flavio criou o banqueiro vorcaro, e lula \"fez ele prisioneiro\" flavio criou o banqueiro vorcaro, e lula \"fez ele prisioneiro\" quem mandou prender vorcaro foi a justica, a pedido da pf: a preventiva em vigor foi decretada pelo ministro andre mendonca, do stf, em 04/03/2026. \"criou um banqueiro\" e caracterizacao; vorcaro passou a controlar o banco com aval do bc em 2019, no governo bolsonaro. ✕falso falso"
+    "searchTokens": "319 decl-319 luiz inacio lula da silva lula corrupcao e investigacoes flavio criou o banqueiro vorcaro, e lula \"fez ele prisioneiro\" flavio criou o banqueiro vorcaro, e lula \"fez ele prisioneiro\" quem mandou prender vorcaro foi a justica, a pedido da pf: a preventiva em vigor foi decretada pelo ministro andre mendonca, do stf, em 04/03/2026. \"criou um banqueiro\" e caracterizacao; vorcaro passou a controlar o banco com aval do bc em 2019, no governo bolsonaro. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-320",
@@ -31942,7 +32261,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "320 decl-320 flavio bolsonaro flavio seguranca publica o fim da marcacao das balas veio de uma emenda de deputado na camara, \"nao tem nada a ver\" com ele, senador, e \"sequer foi aprovado\" o fim da marcacao das balas veio de uma emenda de deputado na camara, \"nao tem nada a ver\" com ele, senador, e \"sequer foi aprovado\" o texto original do governo bolsonaro (pl 3.723/2019) nao tirava a marcacao das municoes; a revogacao entrou no substitutivo do relator, deputado alexandre leite. mas a camara aprovou esse texto em 5/11/2019, por 283 a 140, e ele espera o senado desde entao, sem virar lei. na ccj do senado, em 9/3/2022, flavio defendeu votar logo o projeto (ver0:34:11 do debate da band). impreciso enganoso"
+    "searchTokens": "320 decl-320 flavio bolsonaro flavio seguranca publica o fim da marcacao das balas veio de uma emenda de deputado na camara, \"nao tem nada a ver\" com ele, senador, e \"sequer foi aprovado\" o fim da marcacao das balas veio de uma emenda de deputado na camara, \"nao tem nada a ver\" com ele, senador, e \"sequer foi aprovado\" o texto original do governo bolsonaro (pl 3.723/2019) nao tirava a marcacao das municoes; a revogacao entrou no substitutivo do relator, deputado alexandre leite. mas a camara aprovou esse texto em 5/11/2019, por 283 a 140, e ele espera o senado desde entao, sem virar lei. na ccj do senado, em 9/3/2022, flavio defendeu votar logo o projeto (ver0:34:11 do debate da band). impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-321",
@@ -32023,7 +32343,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "321 decl-321 flavio bolsonaro flavio programas sociais uma dose de r$ 50 mil do uisque \"da para pagar 70 bolsa familia\" uma dose de r$ 50 mil do uisque \"da para pagar 70 bolsa familia\" o beneficio medio do bolsa familia era de r$ 697,77 por familia em janeiro de 2026: r$ 50 mil pagam cerca de 72 beneficios. verdadeiro verdadeiro"
+    "searchTokens": "321 decl-321 flavio bolsonaro flavio programas sociais uma dose de r$ 50 mil do uisque \"da para pagar 70 bolsa familia\" uma dose de r$ 50 mil do uisque \"da para pagar 70 bolsa familia\" o beneficio medio do bolsa familia era de r$ 697,77 por familia em janeiro de 2026: r$ 50 mil pagam cerca de 72 beneficios. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-322",
@@ -32104,7 +32425,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "322 decl-322 luiz inacio lula da silva lula corrupcao e investigacoes em julho de 2020, no dia em que morreram 1.100 pessoas de covid, flavio estava num barco em brasilia negociando a vacina covaxin com dois empresarios, com o amigo \"santinho\", socio da kopenhagen. em julho de 2020, no dia em que morreram 1.100 pessoas de covid, flavio estava num barco em brasilia negociando a vacina covaxin com dois empresarios, com o amigo \"santinho\", socio da kopenhagen. segundo a revista piaui, em 17/07/2020 flavio passou a tarde numa lancha no lago paranoa num passeio pago por danilo trento e francisco maximiano, da precisa medicamentos, que queriam vender a covaxin ao governo; foi com alexandre santini, socio dele na franquia da kopenhagen, e o pais registrou 1.110 mortes naquele dia. a reportagem nao descreve negociacao a bordo, e so trento estava na lancha. impreciso enganoso"
+    "searchTokens": "322 decl-322 luiz inacio lula da silva lula corrupcao e investigacoes em julho de 2020, no dia em que morreram 1.100 pessoas de covid, flavio estava num barco em brasilia negociando a vacina covaxin com dois empresarios, com o amigo \"santinho\", socio da kopenhagen. em julho de 2020, no dia em que morreram 1.100 pessoas de covid, flavio estava num barco em brasilia negociando a vacina covaxin com dois empresarios, com o amigo \"santinho\", socio da kopenhagen. segundo a revista piaui, em 17/07/2020 flavio passou a tarde numa lancha no lago paranoa num passeio pago por danilo trento e francisco maximiano, da precisa medicamentos, que queriam vender a covaxin ao governo; foi com alexandre santini, socio dele na franquia da kopenhagen, e o pais registrou 1.110 mortes naquele dia. a reportagem nao descreve negociacao a bordo, e so trento estava na lancha. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-323",
@@ -32190,7 +32512,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "323 decl-323 luiz inacio lula da silva lula corrupcao e investigacoes flavio pegou r$ 134 milhoes de vorcaro, \"que ate agora nao apareceram\" flavio pegou r$ 134 milhoes de vorcaro, \"que ate agora nao apareceram\" r$ 134 milhoes (us$ 24 milhoes) foi o valor que flavio negociou com vorcaro para o filme dark horse, nao o que foi pago: o repassado chegou a pelo menos us$ 12,3 milhoes (r$ 61 milhoes). a pf registrou que sairam do pais mais de us$ 12 milhoes e voltaram us$ 2,8 milhoes, e pediu pericia. ✕falso falso"
+    "searchTokens": "323 decl-323 luiz inacio lula da silva lula corrupcao e investigacoes flavio pegou r$ 134 milhoes de vorcaro, \"que ate agora nao apareceram\" flavio pegou r$ 134 milhoes de vorcaro, \"que ate agora nao apareceram\" r$ 134 milhoes (us$ 24 milhoes) foi o valor que flavio negociou com vorcaro para o filme dark horse, nao o que foi pago: o repassado chegou a pelo menos us$ 12,3 milhoes (r$ 61 milhoes). a pf registrou que sairam do pais mais de us$ 12 milhoes e voltaram us$ 2,8 milhoes, e pediu pericia. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-324",
@@ -32206,7 +32529,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-warn",
     "verdictBadge": "ENGANOSO",
-    "normalizedVerdict": "enganoso",
+    "normalizedVerdict": "falso",
     "quote": "Um relatório da PF diz que o filme Dark Horse não tem dinheiro público, que não houve contrapartida por ele ser senador e que o dinheiro passou todo pelo Banco Central.",
     "theFact": "Afirmação apurada: Um relatório da PF diz que o filme Dark Horse não tem dinheiro público, que não houve contrapartida por ele ser senador e que o dinheiro passou todo pelo Banco Central.. Quem concluiu que o filme não usou dinheiro público foi uma perícia contratada pela produtora, e \"sem contrapartida\" é frase do próprio Flávio. Os relatórios da PF de setembro e outubro de 2026 não dizem isso: falta esclarecer \"a origem, o trânsito, a destinação e os beneficiários finais\" do dinheiro, há \"divergência contábil severa\" entre o que saiu e o que voltou, e a PF pediu mais 90 dias de inquérito.",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em corrupção e investigações e análise de relatórios probatórios.",
@@ -32283,7 +32606,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "324 decl-324 flavio bolsonaro flavio corrupcao e investigacoes um relatorio da pf diz que o filme dark horse nao tem dinheiro publico, que nao houve contrapartida por ele ser senador e que o dinheiro passou todo pelo banco central. um relatorio da pf diz que o filme dark horse nao tem dinheiro publico, que nao houve contrapartida por ele ser senador e que o dinheiro passou todo pelo banco central. quem concluiu que o filme nao usou dinheiro publico foi uma pericia contratada pela produtora, e \"sem contrapartida\" e frase do proprio flavio. os relatorios da pf de setembro e outubro de 2026 nao dizem isso: falta esclarecer \"a origem, o transito, a destinacao e os beneficiarios finais\" do dinheiro, ha \"divergencia contabil severa\" entre o que saiu e o que voltou, e a pf pediu mais 90 dias de inquerito. impreciso enganoso"
+    "searchTokens": "324 decl-324 flavio bolsonaro flavio corrupcao e investigacoes um relatorio da pf diz que o filme dark horse nao tem dinheiro publico, que nao houve contrapartida por ele ser senador e que o dinheiro passou todo pelo banco central. um relatorio da pf diz que o filme dark horse nao tem dinheiro publico, que nao houve contrapartida por ele ser senador e que o dinheiro passou todo pelo banco central. quem concluiu que o filme nao usou dinheiro publico foi uma pericia contratada pela produtora, e \"sem contrapartida\" e frase do proprio flavio. os relatorios da pf de setembro e outubro de 2026 nao dizem isso: falta esclarecer \"a origem, o transito, a destinacao e os beneficiarios finais\" do dinheiro, ha \"divergencia contabil severa\" entre o que saiu e o que voltou, e a pf pediu mais 90 dias de inquerito. impreciso enganoso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-325",
@@ -32374,7 +32698,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "325 decl-325 flavio bolsonaro flavio corrupcao e investigacoes lula recebeu r$ 30 milhoes \"por fora\", que, \"segundo o audio\", foram para o instituto lula fazer o filme dele. lula recebeu r$ 30 milhoes \"por fora\", que, \"segundo o audio\", foram para o instituto lula fazer o filme dele. flavio cita o audio de vorcaro. o audio existe, e a defesa confirmou a voz em 12/10; o relato publicado cita r$ 30 mi por fora e repasse ao instituto lula. pf e pgr dizem que o tema nao esta em delacao. verdadeiro verdadeiro"
+    "searchTokens": "325 decl-325 flavio bolsonaro flavio corrupcao e investigacoes lula recebeu r$ 30 milhoes \"por fora\", que, \"segundo o audio\", foram para o instituto lula fazer o filme dele. lula recebeu r$ 30 milhoes \"por fora\", que, \"segundo o audio\", foram para o instituto lula fazer o filme dele. flavio cita o audio de vorcaro. o audio existe, e a defesa confirmou a voz em 12/10; o relato publicado cita r$ 30 mi por fora e repasse ao instituto lula. pf e pgr dizem que o tema nao esta em delacao. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-326",
@@ -32460,7 +32785,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "326 decl-326 flavio bolsonaro flavio corrupcao e investigacoes segundo a veja, um assessor de padilha articulou o investimento de fundos de pensao da caixa, do bb e dos correios no master, com ato do governo, r$ 10 bilhoes e propina de 10%, r$ 1 bilhao. segundo a veja, um assessor de padilha articulou o investimento de fundos de pensao da caixa, do bb e dos correios no master, com ato do governo, r$ 10 bilhoes e propina de 10%, r$ 1 bilhao. a reportagem existe: a veja publicou em outubro de 2026 o relato de vorcaro, numa proposta de delacao rejeitada pela pgr por falta de provas, de que olavo noleto, braco-direito de padilha, e um operador cobraram 10% para abrir os fundos funcef, previ, petros e postalis, com meta de r$ 10 bilhoes. o ato citado e a inclusao do master na lista da previdencia, em 29/04/2024. os fundos nao chegaram a investir, e padilha e noleto negam. verdadeiro verdadeiro"
+    "searchTokens": "326 decl-326 flavio bolsonaro flavio corrupcao e investigacoes segundo a veja, um assessor de padilha articulou o investimento de fundos de pensao da caixa, do bb e dos correios no master, com ato do governo, r$ 10 bilhoes e propina de 10%, r$ 1 bilhao. segundo a veja, um assessor de padilha articulou o investimento de fundos de pensao da caixa, do bb e dos correios no master, com ato do governo, r$ 10 bilhoes e propina de 10%, r$ 1 bilhao. a reportagem existe: a veja publicou em outubro de 2026 o relato de vorcaro, numa proposta de delacao rejeitada pela pgr por falta de provas, de que olavo noleto, braco-direito de padilha, e um operador cobraram 10% para abrir os fundos funcef, previ, petros e postalis, com meta de r$ 10 bilhoes. o ato citado e a inclusao do master na lista da previdencia, em 29/04/2024. os fundos nao chegaram a investir, e padilha e noleto negam. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-327",
@@ -32546,7 +32872,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "327 decl-327 flavio bolsonaro flavio corrupcao e investigacoes lulinha deu como endereco, na procuracao dos sigilos, um imovel em sao paulo que pode valer r$ 15 milhoes, cujo dono e jonas suassuna, o mesmo do sitio de atibaia, e e socio dele. lulinha deu como endereco, na procuracao dos sigilos, um imovel em sao paulo que pode valer r$ 15 milhoes, cujo dono e jonas suassuna, o mesmo do sitio de atibaia, e e socio dele. a procuracao cita o apartamento da avenida juriti, em sao paulo, comprado por jonas suassuna em 2009. suassuna era dono no papel de parte do sitio de atibaia, e unidades no predio sao anunciadas por r$ 10 a 16 milhoes. os dois foram socios na gamecorp; nao ha registro de sociedade ativa hoje. verdadeiro verdadeiro"
+    "searchTokens": "327 decl-327 flavio bolsonaro flavio corrupcao e investigacoes lulinha deu como endereco, na procuracao dos sigilos, um imovel em sao paulo que pode valer r$ 15 milhoes, cujo dono e jonas suassuna, o mesmo do sitio de atibaia, e e socio dele. lulinha deu como endereco, na procuracao dos sigilos, um imovel em sao paulo que pode valer r$ 15 milhoes, cujo dono e jonas suassuna, o mesmo do sitio de atibaia, e e socio dele. a procuracao cita o apartamento da avenida juriti, em sao paulo, comprado por jonas suassuna em 2009. suassuna era dono no papel de parte do sitio de atibaia, e unidades no predio sao anunciadas por r$ 10 a 16 milhoes. os dois foram socios na gamecorp; nao ha registro de sociedade ativa hoje. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-328",
@@ -32632,7 +32959,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "328 decl-328 luiz inacio lula da silva lula trajetoria, votos e eleicao ontem a equipe de lula entregou toda a papelada no tse; a turma de flavio nao apareceu e, quando apareceu, disse que so entregaria depois de ver o material de lula. ontem a equipe de lula entregou toda a papelada no tse; a turma de flavio nao apareceu e, quando apareceu, disse que so entregaria depois de ver o material de lula. em 22/10, camilo santana e guilherme boulos entregaram ao tse as procuracoes de lula, da familia e do instituto. mas a equipe de flavio apareceu: as duas campanhas assinaram juntas, com o ministro andre mendonca, o termo de abertura dos sigilos, e deltan dallagnol foi ao tribunal para analisar o material. a advogada de flavio disse que so mostraria os dados dele depois de ver os de lula. ✕falso falso"
+    "searchTokens": "328 decl-328 luiz inacio lula da silva lula trajetoria, votos e eleicao ontem a equipe de lula entregou toda a papelada no tse; a turma de flavio nao apareceu e, quando apareceu, disse que so entregaria depois de ver o material de lula. ontem a equipe de lula entregou toda a papelada no tse; a turma de flavio nao apareceu e, quando apareceu, disse que so entregaria depois de ver o material de lula. em 22/10, camilo santana e guilherme boulos entregaram ao tse as procuracoes de lula, da familia e do instituto. mas a equipe de flavio apareceu: as duas campanhas assinaram juntas, com o ministro andre mendonca, o termo de abertura dos sigilos, e deltan dallagnol foi ao tribunal para analisar o material. a advogada de flavio disse que so mostraria os dados dele depois de ver os de lula. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-329",
@@ -32713,7 +33041,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "329 decl-329 flavio bolsonaro flavio trajetoria, votos e eleicao lula \"foi condenado por ocultacao de patrimonio\" lula \"foi condenado por ocultacao de patrimonio\" lula foi condenado por corrupcao e lavagem de dinheiro, crime que inclui ocultar bens, nos casos do triplex e do sitio. mas o stf anulou as condenacoes em 2021. impreciso enganoso"
+    "searchTokens": "329 decl-329 flavio bolsonaro flavio trajetoria, votos e eleicao lula \"foi condenado por ocultacao de patrimonio\" lula \"foi condenado por ocultacao de patrimonio\" lula foi condenado por corrupcao e lavagem de dinheiro, crime que inclui ocultar bens, nos casos do triplex e do sitio. mas o stf anulou as condenacoes em 2021. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-330",
@@ -32799,7 +33128,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "330 decl-330 luiz inacio lula da silva lula corrupcao e investigacoes com o mesmo salario de r$ 46 mil, flavio comprou uma casa de r$ 10 milhoes. com o mesmo salario de r$ 46 mil, flavio comprou uma casa de r$ 10 milhoes. presidente e senador recebem r$ 46.366,19. mas a casa de flavio custou cerca de r$ 6 milhoes, com r$ 3,1 milhoes financiados pelo brb. impreciso enganoso"
+    "searchTokens": "330 decl-330 luiz inacio lula da silva lula corrupcao e investigacoes com o mesmo salario de r$ 46 mil, flavio comprou uma casa de r$ 10 milhoes. com o mesmo salario de r$ 46 mil, flavio comprou uma casa de r$ 10 milhoes. presidente e senador recebem r$ 46.366,19. mas a casa de flavio custou cerca de r$ 6 milhoes, com r$ 3,1 milhoes financiados pelo brb. impreciso enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-331",
@@ -32880,7 +33210,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "331 decl-331 flavio bolsonaro flavio trajetoria, votos e eleicao lula prometeu acabar com o \"sigilo de 100 anos\" e nao acabou. lula prometeu acabar com o \"sigilo de 100 anos\" e nao acabou. em 2022, lula prometeu acabar com o sigilo de 100 anos. o dispositivo da lei de acesso a informacao que restringe dados pessoais por ate 100 anos continua em uso: em 2026, a fab o usou para negar itinerarios do aviao de vorcaro, com prazo de 15 anos. verdadeiro verdadeiro"
+    "searchTokens": "331 decl-331 flavio bolsonaro flavio trajetoria, votos e eleicao lula prometeu acabar com o \"sigilo de 100 anos\" e nao acabou. lula prometeu acabar com o \"sigilo de 100 anos\" e nao acabou. em 2022, lula prometeu acabar com o sigilo de 100 anos. o dispositivo da lei de acesso a informacao que restringe dados pessoais por ate 100 anos continua em uso: em 2026, a fab o usou para negar itinerarios do aviao de vorcaro, com prazo de 15 anos. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-332",
@@ -32961,7 +33292,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "332 decl-332 flavio bolsonaro flavio trajetoria, votos e eleicao lula \"prometeu que nao ia indicar seus amigos pro supremo e indicou\" lula \"prometeu que nao ia indicar seus amigos pro supremo e indicou\" em 2022, lula disse ser contra \"colocar amigo\" na suprema corte e que a escolha deveria ser \"por competencia\" e \"nao por amizade\". em 2023, indicou cristiano zanin, seu advogado na lava jato, aprovado pelo senado em 21/6/2023. verdadeiro verdadeiro"
+    "searchTokens": "332 decl-332 flavio bolsonaro flavio trajetoria, votos e eleicao lula \"prometeu que nao ia indicar seus amigos pro supremo e indicou\" lula \"prometeu que nao ia indicar seus amigos pro supremo e indicou\" em 2022, lula disse ser contra \"colocar amigo\" na suprema corte e que a escolha deveria ser \"por competencia\" e \"nao por amizade\". em 2023, indicou cristiano zanin, seu advogado na lava jato, aprovado pelo senado em 21/6/2023. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-333",
@@ -33047,7 +33379,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "333 decl-333 flavio bolsonaro flavio corrupcao e investigacoes lulinha mora na espanha, no mesmo bairro de vini jr. lulinha mora na espanha, no mesmo bairro de vini jr. lulinha mora em la moraleja, area de alto padrao de madri, desde 2025; a casa de vinicius junior fica no mesmo bairro. verdadeiro verdadeiro"
+    "searchTokens": "333 decl-333 flavio bolsonaro flavio corrupcao e investigacoes lulinha mora na espanha, no mesmo bairro de vini jr. lulinha mora na espanha, no mesmo bairro de vini jr. lulinha mora em la moraleja, area de alto padrao de madri, desde 2025; a casa de vinicius junior fica no mesmo bairro. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-334",
@@ -33128,7 +33461,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "334 decl-334 flavio bolsonaro flavio corrupcao e investigacoes \"quem ta sustentando lulinha e a roberta\" luchsinger. \"quem ta sustentando lulinha e a roberta\" luchsinger. uma cpmi do congresso apura pagamentos ligados a roberta luchsinger, como r$ 300 mil a uma empresa dela com a mencao \"o filho do rapaz\", mas nao ha registro publico de que ela sustente lulinha. nao verificavel enganoso"
+    "searchTokens": "334 decl-334 flavio bolsonaro flavio corrupcao e investigacoes \"quem ta sustentando lulinha e a roberta\" luchsinger. \"quem ta sustentando lulinha e a roberta\" luchsinger. uma cpmi do congresso apura pagamentos ligados a roberta luchsinger, como r$ 300 mil a uma empresa dela com a mencao \"o filho do rapaz\", mas nao ha registro publico de que ela sustente lulinha. nao verificavel enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-335",
@@ -33221,7 +33555,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "335 decl-335 flavio bolsonaro flavio corrupcao e investigacoes lula chamou roberta luchsinger de \"pilantra\" varias vezes e disse que nao a conhecia. lula chamou roberta luchsinger de \"pilantra\" varias vezes e disse que nao a conhecia. em 27/08/2026, em entrevista a tv globo, lula disse \"eu nao conheco essa moca, nunca vi essa moca na minha vida\" e a chamou de \"pilantra\". repetiu o termo em outubro, no flow podcast: \"ela e uma pilantra muito grande\". fotos publicadas por roberta mostram os dois juntos em 2022 e 2023. verdadeiro verdadeiro"
+    "searchTokens": "335 decl-335 flavio bolsonaro flavio corrupcao e investigacoes lula chamou roberta luchsinger de \"pilantra\" varias vezes e disse que nao a conhecia. lula chamou roberta luchsinger de \"pilantra\" varias vezes e disse que nao a conhecia. em 27/08/2026, em entrevista a tv globo, lula disse \"eu nao conheco essa moca, nunca vi essa moca na minha vida\" e a chamou de \"pilantra\". repetiu o termo em outubro, no flow podcast: \"ela e uma pilantra muito grande\". fotos publicadas por roberta mostram os dois juntos em 2022 e 2023. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-336",
@@ -33307,7 +33642,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "336 decl-336 flavio bolsonaro flavio corrupcao e investigacoes o governo pos sigilo nas entradas de roberta luchsinger no alvorada e nos voos do aviao do master. o governo pos sigilo nas entradas de roberta luchsinger no alvorada e nos voos do aviao do master. em setembro de 2026, o gsi negou acesso aos registros de entrada de roberta luchsinger no alvorada de 2023 a 2026, alegando seguranca e vida privada. em outubro, a aeronautica negou os itinerarios do jato de vorcaro, com restricao de 15 anos. \"para esconder\" e interpretacao de flavio. verdadeiro verdadeiro"
+    "searchTokens": "336 decl-336 flavio bolsonaro flavio corrupcao e investigacoes o governo pos sigilo nas entradas de roberta luchsinger no alvorada e nos voos do aviao do master. o governo pos sigilo nas entradas de roberta luchsinger no alvorada e nos voos do aviao do master. em setembro de 2026, o gsi negou acesso aos registros de entrada de roberta luchsinger no alvorada de 2023 a 2026, alegando seguranca e vida privada. em outubro, a aeronautica negou os itinerarios do jato de vorcaro, com restricao de 15 anos. \"para esconder\" e interpretacao de flavio. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-337",
@@ -33393,7 +33729,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "337 decl-337 luiz inacio lula da silva lula trajetoria, votos e eleicao bolsonaro gastou no cartao corporativo \"quase 30% a mais\" do que lula. bolsonaro gastou no cartao corporativo \"quase 30% a mais\" do que lula. nos dados da casa civil para o cartao da secretaria de administracao da presidencia, com os mesmos cinco tipos de despesa (alimentacao, hospedagem, transporte, limpeza), bolsonaro gastou r$ 30,6 milhoes em 2019–2022 e lula, r$ 30,4 milhoes de 2023 a agosto de 2026. por ano, lula gasta mais: r$ 8,3 milhoes contra r$ 7,7 milhoes. ✕falso falso"
+    "searchTokens": "337 decl-337 luiz inacio lula da silva lula trajetoria, votos e eleicao bolsonaro gastou no cartao corporativo \"quase 30% a mais\" do que lula. bolsonaro gastou no cartao corporativo \"quase 30% a mais\" do que lula. nos dados da casa civil para o cartao da secretaria de administracao da presidencia, com os mesmos cinco tipos de despesa (alimentacao, hospedagem, transporte, limpeza), bolsonaro gastou r$ 30,6 milhoes em 2019–2022 e lula, r$ 30,4 milhoes de 2023 a agosto de 2026. por ano, lula gasta mais: r$ 8,3 milhoes contra r$ 7,7 milhoes. ✕falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-338",
@@ -33409,7 +33746,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-true",
     "verdictBadge": "VERDADEIRO",
-    "normalizedVerdict": "verdadeiro",
+    "normalizedVerdict": "enganoso",
     "quote": "\"Eu nunca fui investigado por causa de envolvimento com milícia\"",
     "theFact": "Afirmação apurada: \"Eu nunca fui investigado por causa de envolvimento com milícia\". Flávio foi investigado e denunciado pelo MP-RJ no caso da rachadinha, por peculato, lavagem, ocultação de bens e organização criminosa; o STF anulou as provas em 2021. Não há registro de investigação dele por milícia: a denúncia de 19/03/2026 contra o grupo de Adriano da Nóbrega não o inclui.",
     "whyDiverge": "Verificação realizada por Verifique a Verdade no debate da TV Globo com foco temático em trajetória, votos e eleição e análise de relatórios probatórios.",
@@ -33486,7 +33823,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "338 decl-338 flavio bolsonaro flavio trajetoria, votos e eleicao \"eu nunca fui investigado por causa de envolvimento com milicia\" \"eu nunca fui investigado por causa de envolvimento com milicia\" flavio foi investigado e denunciado pelo mp-rj no caso da rachadinha, por peculato, lavagem, ocultacao de bens e organizacao criminosa; o stf anulou as provas em 2021. nao ha registro de investigacao dele por milicia: a denuncia de 19/03/2026 contra o grupo de adriano da nobrega nao o inclui. verdadeiro verdadeiro"
+    "searchTokens": "338 decl-338 flavio bolsonaro flavio trajetoria, votos e eleicao \"eu nunca fui investigado por causa de envolvimento com milicia\" \"eu nunca fui investigado por causa de envolvimento com milicia\" flavio foi investigado e denunciado pelo mp-rj no caso da rachadinha, por peculato, lavagem, ocultacao de bens e organizacao criminosa; o stf anulou as provas em 2021. nao ha registro de investigacao dele por milicia: a denuncia de 19/03/2026 contra o grupo de adriano da nobrega nao o inclui. verdadeiro verdadeiro",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-339",
@@ -33567,7 +33905,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "339 decl-339 flavio bolsonaro flavio economia e contas publicas os brasileiros estao \"devendo mais\" no atual governo. os brasileiros estao \"devendo mais\" no atual governo. o endividamento das familias com o sistema financeiro passou de 49,1% da renda anual em dezembro de 2022 para 49,9% em julho de 2026, segundo o banco central. atribuir a alta ao governo e avaliacao. verdadeiro verdadeiro"
+    "searchTokens": "339 decl-339 flavio bolsonaro flavio economia e contas publicas os brasileiros estao \"devendo mais\" no atual governo. os brasileiros estao \"devendo mais\" no atual governo. o endividamento das familias com o sistema financeiro passou de 49,1% da renda anual em dezembro de 2022 para 49,9% em julho de 2026, segundo o banco central. atribuir a alta ao governo e avaliacao. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-340",
@@ -33642,7 +33981,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "340 decl-340 flavio bolsonaro flavio geral o brasil tem 11500 obras paralisadas atualmente. o brasil tem 11500 obras paralisadas atualmente. sim, os relatorios mais recentes do tribunal de contas da uniao (tcu) indicam que o numero de obras publicas paradas no pais gira em torno de 11,5 mil a quase 12 mil contratos. no entanto, atribuir a responsabilidade exclusivamente ao governo federal e incorreto: a maioria esmagadora dessas intervencoes e executada por municipios e estados via convenios, e as causas vao desde falhas tecnicas e abandono de empresas ate burocracias de licenciamento e repasses orcamentarios. parcial enganoso"
+    "searchTokens": "340 decl-340 flavio bolsonaro flavio geral o brasil tem 11500 obras paralisadas atualmente. o brasil tem 11500 obras paralisadas atualmente. sim, os relatorios mais recentes do tribunal de contas da uniao (tcu) indicam que o numero de obras publicas paradas no pais gira em torno de 11,5 mil a quase 12 mil contratos. no entanto, atribuir a responsabilidade exclusivamente ao governo federal e incorreto: a maioria esmagadora dessas intervencoes e executada por municipios e estados via convenios, e as causas vao desde falhas tecnicas e abandono de empresas ate burocracias de licenciamento e repasses orcamentarios. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-341",
@@ -33717,7 +34057,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "341 decl-341 flavio bolsonaro flavio geral sou a favor da tarifa zero aos finais de semana. sou a favor da tarifa zero aos finais de semana. flavio bolsonaro (pl) criticou e se opos a proposta do presidente luiz inacio lula da silva (pt) de implementar a tarifa zero no transporte publico aos fins de semana. falso falso"
+    "searchTokens": "341 decl-341 flavio bolsonaro flavio geral sou a favor da tarifa zero aos finais de semana. sou a favor da tarifa zero aos finais de semana. flavio bolsonaro (pl) criticou e se opos a proposta do presidente luiz inacio lula da silva (pt) de implementar a tarifa zero no transporte publico aos fins de semana. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-342",
@@ -33792,7 +34133,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "342 decl-342 flavio bolsonaro flavio geral o brasileiro perdeu poder de compra nos ultimos 4 anos. o brasileiro perdeu poder de compra nos ultimos 4 anos. nao, o brasileiro nao perdeu poder de compra nos ultimos quatro anos (2022-2026): o rendimento medio real do trabalho subiu de cerca de r$ 3.100-3.300 em 2022 para cerca de r$ 3.777 em meados de 2026 (pnad continua/ibge), o salario minimo avancou de r$ 1.212 para r$ 1.621 com ganhos reais acima da inflacao, e o minimo compra mais cestas basicas hoje do que em 2022 (ex.: 1,8 vs. 1,62 em sao paulo), enquanto a inflacao (ipca) desacelerou apos os picos de 2021-2022, embora o poder de compra de alimentos ainda esteja abaixo dos niveis pre-pandemia em algumas medicoes. falso falso"
+    "searchTokens": "342 decl-342 flavio bolsonaro flavio geral o brasileiro perdeu poder de compra nos ultimos 4 anos. o brasileiro perdeu poder de compra nos ultimos 4 anos. nao, o brasileiro nao perdeu poder de compra nos ultimos quatro anos (2022-2026): o rendimento medio real do trabalho subiu de cerca de r$ 3.100-3.300 em 2022 para cerca de r$ 3.777 em meados de 2026 (pnad continua/ibge), o salario minimo avancou de r$ 1.212 para r$ 1.621 com ganhos reais acima da inflacao, e o minimo compra mais cestas basicas hoje do que em 2022 (ex.: 1,8 vs. 1,62 em sao paulo), enquanto a inflacao (ipca) desacelerou apos os picos de 2021-2022, embora o poder de compra de alimentos ainda esteja abaixo dos niveis pre-pandemia em algumas medicoes. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-343",
@@ -33867,7 +34209,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "343 decl-343 luiz inacio lula da silva lula geral flavio bolsonaro pediu que trump taxasse o brasil. flavio bolsonaro pediu que trump taxasse o brasil. flavio bolsonaro (pl) afirmou ter pedido pessoalmente ao governo de donald trump que nao impusesse tarifas sobre produtos e empresas do brasil. falso falso"
+    "searchTokens": "343 decl-343 luiz inacio lula da silva lula geral flavio bolsonaro pediu que trump taxasse o brasil. flavio bolsonaro pediu que trump taxasse o brasil. flavio bolsonaro (pl) afirmou ter pedido pessoalmente ao governo de donald trump que nao impusesse tarifas sobre produtos e empresas do brasil. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-344",
@@ -33942,7 +34285,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "344 decl-344 flavio bolsonaro flavio geral lula chamou o agro negocio de fascista. lula chamou o agro negocio de fascista. em entrevista ao jornal nacional, em 25/08/2022, lula utilizou a expressao 'agronegocio fascista e direitista' para se referir ao agro que nao defende preservacao ambiental mesmo que em seu governo, no plano safra 2024/2025, lula tenha destinado impressionantes r$ 476 bilhoes ao setor, somando os recursos para grandes produtores e agricultura familiar — o maior montante ja registrado na historia do programa. parcial enganoso"
+    "searchTokens": "344 decl-344 flavio bolsonaro flavio geral lula chamou o agro negocio de fascista. lula chamou o agro negocio de fascista. em entrevista ao jornal nacional, em 25/08/2022, lula utilizou a expressao 'agronegocio fascista e direitista' para se referir ao agro que nao defende preservacao ambiental mesmo que em seu governo, no plano safra 2024/2025, lula tenha destinado impressionantes r$ 476 bilhoes ao setor, somando os recursos para grandes produtores e agricultura familiar — o maior montante ja registrado na historia do programa. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-345",
@@ -34017,7 +34361,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "345 decl-345 flavio bolsonaro flavio geral mba em empreendedorismo e desenvolvimento de novos negocios. mba em empreendedorismo e desenvolvimento de novos negocios. em agosto de 2026, divulgou publicamente seu certificado. ressalva: uma informacao anterior sobre suposta pos-graduacao em ciencias politicas pela ufrj foi desmentida pela universidade. trata-se de outra formacao, nao do mba mencionado no debate. verdadeiro verdadeiro"
+    "searchTokens": "345 decl-345 flavio bolsonaro flavio geral mba em empreendedorismo e desenvolvimento de novos negocios. mba em empreendedorismo e desenvolvimento de novos negocios. em agosto de 2026, divulgou publicamente seu certificado. ressalva: uma informacao anterior sobre suposta pos-graduacao em ciencias politicas pela ufrj foi desmentida pela universidade. trata-se de outra formacao, nao do mba mencionado no debate. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-346",
@@ -34092,7 +34437,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "346 decl-346 flavio bolsonaro flavio geral o lula gastou 400 bilhoes para se reeleger. o lula gastou 400 bilhoes para se reeleger. o valor correto foi de 269bi. falso falso"
+    "searchTokens": "346 decl-346 flavio bolsonaro flavio geral o lula gastou 400 bilhoes para se reeleger. o lula gastou 400 bilhoes para se reeleger. o valor correto foi de 269bi. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-347",
@@ -34167,7 +34513,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "347 decl-347 flavio bolsonaro flavio geral a esquerda governou a argentina por 20 anos. a esquerda governou a argentina por 20 anos. a afirmacao de que a esquerda governou a argentina por 20 anos ignora o mandato de mauricio macri, presidente de centro-direita. na historia recente do pais (no recorte de 2003 a 2023), o espectro politico de centro-esquerda, representado pelo kirchnerismo e pelo peronismo, esteve no poder por 16 anos, e nao de forma ininterrupta. falso falso"
+    "searchTokens": "347 decl-347 flavio bolsonaro flavio geral a esquerda governou a argentina por 20 anos. a esquerda governou a argentina por 20 anos. a afirmacao de que a esquerda governou a argentina por 20 anos ignora o mandato de mauricio macri, presidente de centro-direita. na historia recente do pais (no recorte de 2003 a 2023), o espectro politico de centro-esquerda, representado pelo kirchnerismo e pelo peronismo, esteve no poder por 16 anos, e nao de forma ininterrupta. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-348",
@@ -34249,7 +34596,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "348 decl-348 flavio bolsonaro flavio geral o governo lula virou as costas para as tragedias de 2024 do rio grande do sul. o governo lula virou as costas para as tragedias de 2024 do rio grande do sul. a afirmacao e falsa: diante das enchentes historicas que atingiram o rio grande do sul em maio de 2024, o governo federal executou uma das maiores mobilizacoes orcamentarias e logisticas de resposta a desastres da historia do pais. a atuacao incluiu a criacao de uma secretaria extraordinaria para apoiar o estado, o envio imediato das forcas armadas e da forca nacional do sus para resgates, a suspensao do pagamento e abatimento dos juros da divida do estado com a uniao, alem da liberacao de pacotes que ultrapassaram r$ 100 bilhoes entre socorro a fundo perdido, credito subsidiado a empresas e produtores e programas diretos como o auxilio reconstrucao (r$ 5,1 mil para mais de 430 mil familias) e o minha casa, minha vida para desabrigados. embora tenham ocorrido gargalos burocraticos e cobrancas de empresarios e prefeituras quanto ao ritmo de chegada de certos financiamentos e obras estruturais, os dados oficiais demonstram que a uniao nao omitiu apoio nem virou as costas a populacao gaucha. falso falso"
+    "searchTokens": "348 decl-348 flavio bolsonaro flavio geral o governo lula virou as costas para as tragedias de 2024 do rio grande do sul. o governo lula virou as costas para as tragedias de 2024 do rio grande do sul. a afirmacao e falsa: diante das enchentes historicas que atingiram o rio grande do sul em maio de 2024, o governo federal executou uma das maiores mobilizacoes orcamentarias e logisticas de resposta a desastres da historia do pais. a atuacao incluiu a criacao de uma secretaria extraordinaria para apoiar o estado, o envio imediato das forcas armadas e da forca nacional do sus para resgates, a suspensao do pagamento e abatimento dos juros da divida do estado com a uniao, alem da liberacao de pacotes que ultrapassaram r$ 100 bilhoes entre socorro a fundo perdido, credito subsidiado a empresas e produtores e programas diretos como o auxilio reconstrucao (r$ 5,1 mil para mais de 430 mil familias) e o minha casa, minha vida para desabrigados. embora tenham ocorrido gargalos burocraticos e cobrancas de empresarios e prefeituras quanto ao ritmo de chegada de certos financiamentos e obras estruturais, os dados oficiais demonstram que a uniao nao omitiu apoio nem virou as costas a populacao gaucha. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-349",
@@ -34324,7 +34672,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "349 decl-349 flavio bolsonaro flavio geral lula esta morando no palacio de luxo. lula esta morando no palacio de luxo. o presidente luiz inacio lula da silva reside no palacio da alvorada, que e a residencia oficial dos chefes de estado do brasil. o alvorada e um patrimonio publico e historico da uniao, inaugurado em 1958 durante o governo de juscelino kubitschek. ele nao pertence a nenhum presidente em carater pessoal: trata-se do mesmo local onde moraram praticamente todos os ex-presidentes da republica, incluindo jair bolsonaro, que viveu no palacio com sua familia de 2019 a 2022 durante todo o seu mandato. falso falso"
+    "searchTokens": "349 decl-349 flavio bolsonaro flavio geral lula esta morando no palacio de luxo. lula esta morando no palacio de luxo. o presidente luiz inacio lula da silva reside no palacio da alvorada, que e a residencia oficial dos chefes de estado do brasil. o alvorada e um patrimonio publico e historico da uniao, inaugurado em 1958 durante o governo de juscelino kubitschek. ele nao pertence a nenhum presidente em carater pessoal: trata-se do mesmo local onde moraram praticamente todos os ex-presidentes da republica, incluindo jair bolsonaro, que viveu no palacio com sua familia de 2019 a 2022 durante todo o seu mandato. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-350",
@@ -34399,7 +34748,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "350 decl-350 flavio bolsonaro flavio geral a transamazonica nao e asfaltada por conta de interferencias de orgaos ambientais. a transamazonica nao e asfaltada por conta de interferencias de orgaos ambientais. nao, a atuacao dos orgaos ambientais nao e o unico e nem o principal motivo pelo qual a rodovia transamazonica (br-230) nao e totalmente asfaltada. a falta de pavimentacao completa decorre de uma combinacao complexa de desafios tecnicos, geograficos, financeiros e de planejamento, que persistem desde a sua construcao na decada de 1970. parcial enganoso"
+    "searchTokens": "350 decl-350 flavio bolsonaro flavio geral a transamazonica nao e asfaltada por conta de interferencias de orgaos ambientais. a transamazonica nao e asfaltada por conta de interferencias de orgaos ambientais. nao, a atuacao dos orgaos ambientais nao e o unico e nem o principal motivo pelo qual a rodovia transamazonica (br-230) nao e totalmente asfaltada. a falta de pavimentacao completa decorre de uma combinacao complexa de desafios tecnicos, geograficos, financeiros e de planejamento, que persistem desde a sua construcao na decada de 1970. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-351",
@@ -34474,7 +34824,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "351 decl-351 flavio bolsonaro flavio geral eu vou ampliar a zona franca de manaus. eu vou ampliar a zona franca de manaus. durante a votacao da reforma tributaria em 2023, flavio apresentou emendas para limitar as vantagens constitucionais concedidas a regiao amazonica — alegando na ocasiao o risco de \"migracao predatoria\" de empresas do restante do pais para manaus gerando desemprego em outros estados —, alem de ter apoiado publicamente as medidas do governo jair bolsonaro (como os decretos que cortaram o ipi nacional em ate 35%, decisao que desidratava os incentivos da zfm e que acabou travada pelo stf). fontes: amazonas atual – contrario a zfm, flavio bolsonaro diz em manaus que a zona franca e 'sagrada' | revista forum – flavio pediu retirada de beneficios da zona franca e agora chama modelo de sagrado | rios de noticias - em manaus, flavio promete atrair investimentos e fortalecer zfm. parcial enganoso"
+    "searchTokens": "351 decl-351 flavio bolsonaro flavio geral eu vou ampliar a zona franca de manaus. eu vou ampliar a zona franca de manaus. durante a votacao da reforma tributaria em 2023, flavio apresentou emendas para limitar as vantagens constitucionais concedidas a regiao amazonica — alegando na ocasiao o risco de \"migracao predatoria\" de empresas do restante do pais para manaus gerando desemprego em outros estados —, alem de ter apoiado publicamente as medidas do governo jair bolsonaro (como os decretos que cortaram o ipi nacional em ate 35%, decisao que desidratava os incentivos da zfm e que acabou travada pelo stf). fontes: amazonas atual – contrario a zfm, flavio bolsonaro diz em manaus que a zona franca e 'sagrada' | revista forum – flavio pediu retirada de beneficios da zona franca e agora chama modelo de sagrado | rios de noticias - em manaus, flavio promete atrair investimentos e fortalecer zfm. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-352",
@@ -34549,7 +34900,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "352 decl-352 luiz inacio lula da silva lula geral a economia verde pode trazer mais dinheiro que criar gado ou plantar cafe. a economia verde pode trazer mais dinheiro que criar gado ou plantar cafe. sim, a economia verde ja consegue superar o faturamento da pecuaria convencional e das culturas tradicionais em varios cenarios rurais do brasil. a grande mudanca esta no fato de que atividades sustentaveis deixaram de ser apenas 'preservacao' e se transformaram em negocios de alto rendimento. verdadeiro verdadeiro"
+    "searchTokens": "352 decl-352 luiz inacio lula da silva lula geral a economia verde pode trazer mais dinheiro que criar gado ou plantar cafe. a economia verde pode trazer mais dinheiro que criar gado ou plantar cafe. sim, a economia verde ja consegue superar o faturamento da pecuaria convencional e das culturas tradicionais em varios cenarios rurais do brasil. a grande mudanca esta no fato de que atividades sustentaveis deixaram de ser apenas 'preservacao' e se transformaram em negocios de alto rendimento. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-353",
@@ -34624,7 +34976,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "353 decl-353 luiz inacio lula da silva lula geral a transposicao do rio sao francisco e a maior obra de infraestrutura hidrica do mundo. a transposicao do rio sao francisco e a maior obra de infraestrutura hidrica do mundo. a transposicao do rio sao francisco (projeto de integracao do rio sao francisco - pisf) e considerada a maior obra de infraestrutura hidrica do brasil e uma das maiores do mundo, mas nao e a maior obra de engenharia do planeta em termos globais. parcial enganoso"
+    "searchTokens": "353 decl-353 luiz inacio lula da silva lula geral a transposicao do rio sao francisco e a maior obra de infraestrutura hidrica do mundo. a transposicao do rio sao francisco e a maior obra de infraestrutura hidrica do mundo. a transposicao do rio sao francisco (projeto de integracao do rio sao francisco - pisf) e considerada a maior obra de infraestrutura hidrica do brasil e uma das maiores do mundo, mas nao e a maior obra de engenharia do planeta em termos globais. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-354",
@@ -34699,7 +35052,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "354 decl-354 luiz inacio lula da silva lula geral ministro de meio ambiente dos bolsonaro dizia que ia abrir a porteira… ministro de meio ambiente dos bolsonaro dizia que ia abrir a porteira… o ex-ministro do meio ambiente era ricardo salles, que ficou conhecido pela frase 'ir passando a boiada' dita em uma reuniao ministerial em 22 de abril de 2020. na reuniao gravada e divulgada por decisao do supremo tribunal federal (stf), ele defendeu aproveitar o foco da imprensa na pandemia de covid-19 para 'ir passando a boiada e mudando todo o regramento e simplificando normas' ambientais. verdadeiro verdadeiro"
+    "searchTokens": "354 decl-354 luiz inacio lula da silva lula geral ministro de meio ambiente dos bolsonaro dizia que ia abrir a porteira… ministro de meio ambiente dos bolsonaro dizia que ia abrir a porteira… o ex-ministro do meio ambiente era ricardo salles, que ficou conhecido pela frase 'ir passando a boiada' dita em uma reuniao ministerial em 22 de abril de 2020. na reuniao gravada e divulgada por decisao do supremo tribunal federal (stf), ele defendeu aproveitar o foco da imprensa na pandemia de covid-19 para 'ir passando a boiada e mudando todo o regramento e simplificando normas' ambientais. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-355",
@@ -34774,7 +35128,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "355 decl-355 luiz inacio lula da silva lula geral o ceara e o estado que mais aprova para o ita. o ceara e o estado que mais aprova para o ita. sim, o ceara e um dos maiores destaques e frequentemente lidera ou concentra a maior proporcao de aprovados no vestibular do instituto tecnologico de aeronautica (ita). verdadeiro verdadeiro"
+    "searchTokens": "355 decl-355 luiz inacio lula da silva lula geral o ceara e o estado que mais aprova para o ita. o ceara e o estado que mais aprova para o ita. sim, o ceara e um dos maiores destaques e frequentemente lidera ou concentra a maior proporcao de aprovados no vestibular do instituto tecnologico de aeronautica (ita). verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-356",
@@ -34849,7 +35204,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "356 decl-356 luiz inacio lula da silva lula geral levou super computador para o rio grande do norte. levou super computador para o rio grande do norte. lula possibilitou a implantacao de supercomputador de r$ 1 bilhao no rn para processamento de dados e ia. verdadeiro verdadeiro"
+    "searchTokens": "356 decl-356 luiz inacio lula da silva lula geral levou super computador para o rio grande do norte. levou super computador para o rio grande do norte. lula possibilitou a implantacao de supercomputador de r$ 1 bilhao no rn para processamento de dados e ia. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-357",
@@ -34924,7 +35280,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "357 decl-357 luiz inacio lula da silva lula geral eu brought a industria automobilistica para o nordeste. eu brought a industria automobilistica para o nordeste. as gestoes do pt foram decisivas para consolidar, expandir e renovar esse parque industrial: em 2010, o governo lula articulou com o entao governador eduardo campos a atracao do complexo da fiat/jeep (atual stellantis) em goiana (pernambuco), prorrogou incentivos fiscais do setor e, mais recentemente no terceiro mandato, participou ativamente das negociacoes para atrair a chinesa byd para assumir e eletrificar a antiga planta desativada pela ford na bahia. verdadeiro verdadeiro"
+    "searchTokens": "357 decl-357 luiz inacio lula da silva lula geral eu brought a industria automobilistica para o nordeste. eu brought a industria automobilistica para o nordeste. as gestoes do pt foram decisivas para consolidar, expandir e renovar esse parque industrial: em 2010, o governo lula articulou com o entao governador eduardo campos a atracao do complexo da fiat/jeep (atual stellantis) em goiana (pernambuco), prorrogou incentivos fiscais do setor e, mais recentemente no terceiro mandato, participou ativamente das negociacoes para atrair a chinesa byd para assumir e eletrificar a antiga planta desativada pela ford na bahia. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-358",
@@ -34999,7 +35356,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "358 decl-358 flavio bolsonaro flavio geral lula levou o comando vermelho para o nordeste. lula levou o comando vermelho para o nordeste. a afirmacao e falsa: a interiorizacao e a chegada do comando vermelho (cv) ao nordeste decorrem da dinamica propria do crime organizado e da disputa internacional por rotas de narcotrafico, e nao de qualquer acao ou politica de luiz inacio lula da silva. conforme pesquisas do forum brasileiro de seguranca publica (fbsp) e do atlas da violencia, a nacionalizacao das faccoes sudestinas acelerou-se a partir de 2016 — periodo em que o pt ja nao estava no governo federal —, impulsionada pelo rompimento da alianca historica entre o cv e o primeiro comando da capital (pcc), pela transferencia de liderancas carcerarias entre presidios estaduais e pela busca estrategica pelo controle de portos nordestinos (como salvador, fortaleza e suape) para envio de cocaina a europa e a africa. o avanco da faccao no nordeste ocorreu por meio de cooptacao, aliancas ou confrontos sangrentos com bandos locais (como o comando da paz e o bonde do maluco na bahia), constituindo um fenomeno estrutural de seguranca publica amplamente documentado por especialistas. * fontes: forum brasileiro de seguranca publica – a internacionalizacao e expansao do comando vermelho | agencia brasil / ipea – atlas da violencia e a dinamica das faccoes nos estados | g1 – como o crime organizado avancou pelo territorio nacional. falso falso"
+    "searchTokens": "358 decl-358 flavio bolsonaro flavio geral lula levou o comando vermelho para o nordeste. lula levou o comando vermelho para o nordeste. a afirmacao e falsa: a interiorizacao e a chegada do comando vermelho (cv) ao nordeste decorrem da dinamica propria do crime organizado e da disputa internacional por rotas de narcotrafico, e nao de qualquer acao ou politica de luiz inacio lula da silva. conforme pesquisas do forum brasileiro de seguranca publica (fbsp) e do atlas da violencia, a nacionalizacao das faccoes sudestinas acelerou-se a partir de 2016 — periodo em que o pt ja nao estava no governo federal —, impulsionada pelo rompimento da alianca historica entre o cv e o primeiro comando da capital (pcc), pela transferencia de liderancas carcerarias entre presidios estaduais e pela busca estrategica pelo controle de portos nordestinos (como salvador, fortaleza e suape) para envio de cocaina a europa e a africa. o avanco da faccao no nordeste ocorreu por meio de cooptacao, aliancas ou confrontos sangrentos com bandos locais (como o comando da paz e o bonde do maluco na bahia), constituindo um fenomeno estrutural de seguranca publica amplamente documentado por especialistas. * fontes: forum brasileiro de seguranca publica – a internacionalizacao e expansao do comando vermelho | agencia brasil / ipea – atlas da violencia e a dinamica das faccoes nos estados | g1 – como o crime organizado avancou pelo territorio nacional. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-359",
@@ -35074,7 +35432,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "359 decl-359 flavio bolsonaro flavio geral o pt entregou nem 30% do que prometeu ao rio grande do sul. o pt entregou nem 30% do que prometeu ao rio grande do sul. o percentual nao pode ser confirmado sem identificar quais promessas foram contabilizadas e quais entregas foram consideradas. o tcu registrou r$ 42,7 bilhoes em creditos extraordinarios autorizados para a recuperacao do rio grande do sul e r$ 26,1 bilhoes pagos ate julho de 2024. esses numeros, porem, nao permitem concluir qual proporcao de todas as promessas foi cumprida. anuncios, recursos autorizados, pagamentos e obras concluidas sao indicadores diferentes. parcial enganoso"
+    "searchTokens": "359 decl-359 flavio bolsonaro flavio geral o pt entregou nem 30% do que prometeu ao rio grande do sul. o pt entregou nem 30% do que prometeu ao rio grande do sul. o percentual nao pode ser confirmado sem identificar quais promessas foram contabilizadas e quais entregas foram consideradas. o tcu registrou r$ 42,7 bilhoes em creditos extraordinarios autorizados para a recuperacao do rio grande do sul e r$ 26,1 bilhoes pagos ate julho de 2024. esses numeros, porem, nao permitem concluir qual proporcao de todas as promessas foi cumprida. anuncios, recursos autorizados, pagamentos e obras concluidas sao indicadores diferentes. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-360",
@@ -35162,7 +35521,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "360 decl-360 flavio bolsonaro flavio geral bolsonaro entregou a transposicao do rio sao francisco. bolsonaro entregou a transposicao do rio sao francisco. nao se tratou de uma obra concebida ou majoritariamente executada por sua gestao: iniciada em 2007 no governo lula, a transposicao ja acumulava mais de 90% de execucao fisica antes de bolsonaro assumir o planalto — atravessando as gestoes dilma rousseff e michel temer (que inaugurou o eixo leste em 2017). alem disso, a sua gestao executou cerca de 5% a 7% do volume total das obras basicas, e o empreendimento integral continuou em andamento apos 2022 por meio de ramais secundarios e canais complementares (como os ramais do apodi e do salgado). fontes: g1 – fato ou fake: checagens sobre a transposicao do rio sao francisco | cnn brasil – dados da execucao e eixos da transposicao | correio do povo – governo federal anuncia conclusao do eixo principal da transposicao. parcial enganoso"
+    "searchTokens": "360 decl-360 flavio bolsonaro flavio geral bolsonaro entregou a transposicao do rio sao francisco. bolsonaro entregou a transposicao do rio sao francisco. nao se tratou de uma obra concebida ou majoritariamente executada por sua gestao: iniciada em 2007 no governo lula, a transposicao ja acumulava mais de 90% de execucao fisica antes de bolsonaro assumir o planalto — atravessando as gestoes dilma rousseff e michel temer (que inaugurou o eixo leste em 2017). alem disso, a sua gestao executou cerca de 5% a 7% do volume total das obras basicas, e o empreendimento integral continuou em andamento apos 2022 por meio de ramais secundarios e canais complementares (como os ramais do apodi e do salgado). fontes: g1 – fato ou fake: checagens sobre a transposicao do rio sao francisco | cnn brasil – dados da execucao e eixos da transposicao | correio do povo – governo federal anuncia conclusao do eixo principal da transposicao. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-361",
@@ -35244,7 +35604,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "361 decl-361 flavio bolsonaro flavio geral e favoravel ao bolsa familia e que jair bolsonaro aumentou o valor do bolsa familia. e favoravel ao bolsa familia e que jair bolsonaro aumentou o valor do bolsa familia. antes de ampliar bolsa familia, bolsonaro defendeu explicitamente o fim do beneficio. parcial enganoso"
+    "searchTokens": "361 decl-361 flavio bolsonaro flavio geral e favoravel ao bolsa familia e que jair bolsonaro aumentou o valor do bolsa familia. e favoravel ao bolsa familia e que jair bolsonaro aumentou o valor do bolsa familia. antes de ampliar bolsa familia, bolsonaro defendeu explicitamente o fim do beneficio. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-362",
@@ -35326,7 +35687,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "362 decl-362 luiz inacio lula da silva lula geral flavio bolsonaro votou contra o aumento da licenca e auxilio maternidade. flavio bolsonaro votou contra o aumento da licenca e auxilio maternidade. a afirmacao e verdadeira: em abril de 2009, quando exercia o mandato de deputado estadual no rio de janeiro, flavio bolsonaro foi o unico parlamentar da assembleia legislativa do estado do rio de janeiro (alerj) a votar contra a proposta de emenda constitucional (promulgada como emenda constitucional estadual nº 41/2009) que ampliou a licenca-maternidade das servidoras publicas estaduais de 120 para 180 dias (quatro para seis meses). verdadeiro verdadeiro"
+    "searchTokens": "362 decl-362 luiz inacio lula da silva lula geral flavio bolsonaro votou contra o aumento da licenca e auxilio maternidade. flavio bolsonaro votou contra o aumento da licenca e auxilio maternidade. a afirmacao e verdadeira: em abril de 2009, quando exercia o mandato de deputado estadual no rio de janeiro, flavio bolsonaro foi o unico parlamentar da assembleia legislativa do estado do rio de janeiro (alerj) a votar contra a proposta de emenda constitucional (promulgada como emenda constitucional estadual nº 41/2009) que ampliou a licenca-maternidade das servidoras publicas estaduais de 120 para 180 dias (quatro para seis meses). verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-363",
@@ -35408,7 +35770,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "363 decl-363 luiz inacio lula da silva lula geral flavio bolsonaro chamou o bolsa familia de bolsa farelo. flavio bolsonaro chamou o bolsa familia de bolsa farelo. a afirmacao e verdadeira: em publicacoes antigas no x (antigo twitter) — resgatadas por levantamento do jornal o estado de s. paulo —, flavio bolsonaro utilizou expressamente o termo \"bolsa-farelo\" ao atacar o programa de transferencia de renda, acusando o pt de perpetuar a pobreza e usar o beneficio com finalidade eleitoreira. os registros mostram que, em junho de 2013, o entao deputado estadual escreveu que o governo petista \"perpetua a pobreza com o bolsa-farelo\"; essas postagens foram apagadas do perfil do senador as vesperas do segundo turno da disputa presidencial de 2026, momento em que sua campanha passou a garantir a manutencao e o fortalecimento do beneficio social. verdadeiro verdadeiro"
+    "searchTokens": "363 decl-363 luiz inacio lula da silva lula geral flavio bolsonaro chamou o bolsa familia de bolsa farelo. flavio bolsonaro chamou o bolsa familia de bolsa farelo. a afirmacao e verdadeira: em publicacoes antigas no x (antigo twitter) — resgatadas por levantamento do jornal o estado de s. paulo —, flavio bolsonaro utilizou expressamente o termo \"bolsa-farelo\" ao atacar o programa de transferencia de renda, acusando o pt de perpetuar a pobreza e usar o beneficio com finalidade eleitoreira. os registros mostram que, em junho de 2013, o entao deputado estadual escreveu que o governo petista \"perpetua a pobreza com o bolsa-farelo\"; essas postagens foram apagadas do perfil do senador as vesperas do segundo turno da disputa presidencial de 2026, momento em que sua campanha passou a garantir a manutencao e o fortalecimento do beneficio social. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-364",
@@ -35483,7 +35846,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "364 decl-364 flavio bolsonaro flavio geral foi o bolsonaro que elevou o bolsa familia a 600 reais. foi o bolsonaro que elevou o bolsa familia a 600 reais. a frase omite um detalhe importante: o beneficio de r$ 600 era temporario. durante o governo bolsonaro, o bolsa familia foi substituido pelo auxilio brasil, e a lei nº 14.342/2022 estabeleceu um beneficio extraordinario que garantia o pagamento minimo de r$ 400 por familia. o aumento para r$ 600 ocorreu por meio da emenda constitucional nº 123, aprovada pelo congresso em julho de 2022, que acrescentou r$ 200 ao valor do beneficio. esse adicional, porem, tinha prazo determinado: vigorou apenas de agosto a dezembro de 2022, coincidindo com o periodo da campanha eleitoral daquele ano. parcial enganoso"
+    "searchTokens": "364 decl-364 flavio bolsonaro flavio geral foi o bolsonaro que elevou o bolsa familia a 600 reais. foi o bolsonaro que elevou o bolsa familia a 600 reais. a frase omite um detalhe importante: o beneficio de r$ 600 era temporario. durante o governo bolsonaro, o bolsa familia foi substituido pelo auxilio brasil, e a lei nº 14.342/2022 estabeleceu um beneficio extraordinario que garantia o pagamento minimo de r$ 400 por familia. o aumento para r$ 600 ocorreu por meio da emenda constitucional nº 123, aprovada pelo congresso em julho de 2022, que acrescentou r$ 200 ao valor do beneficio. esse adicional, porem, tinha prazo determinado: vigorou apenas de agosto a dezembro de 2022, coincidindo com o periodo da campanha eleitoral daquele ano. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-365",
@@ -35558,7 +35922,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "365 decl-365 luiz inacio lula da silva lula geral o primeiro emprego do flavio. bolsonaro foi funcionario fantasma? o primeiro emprego do flavio. bolsonaro foi funcionario fantasma? o primeiro emprego de flavio bolsonaro foi como assistente tecnico na lideranca do partido progressista brasileiro (ppb) na camara dos deputados, em brasilia, cargo que gerou acusacoes e indicios de que ele atuou como funcionario fantasma. parcial enganoso"
+    "searchTokens": "365 decl-365 luiz inacio lula da silva lula geral o primeiro emprego do flavio. bolsonaro foi funcionario fantasma? o primeiro emprego do flavio. bolsonaro foi funcionario fantasma? o primeiro emprego de flavio bolsonaro foi como assistente tecnico na lideranca do partido progressista brasileiro (ppb) na camara dos deputados, em brasilia, cargo que gerou acusacoes e indicios de que ele atuou como funcionario fantasma. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-366",
@@ -35633,7 +35998,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "366 decl-366 flavio bolsonaro flavio geral moradores de rua dobraram durante o governo do lula. moradores de rua dobraram durante o governo do lula. a afirmacao e parcialmente verdadeira (com contexto metodologico essencial): os numeros brutos do cadastro unico (cadunico) de fato quase dobraram ao longo do terceiro mandato de lula, saltando de 198,7 mil pessoas em dezembro de 2022 para cerca de 392,4 mil em 2026 (uma alta de 97,4%). contudo, especialistas do ipea, pesquisadores de assistencia social e o ministerio do desenvolvimento e assistencia social (mds) apontam que essa explosao nas estatisticas nao significa necessariamente que a populacao fisica nas ruas duplicou de forma repentina, mas reflete em grande parte a busca ativa municipal, a superacao de subnotificacoes dos anos anteriores e a inclusao de incentivos diretos de cadastramento, como a priorizacao dessa populacao no bolsa familia e no plano ruas visiveis a partir de 2023. o aumento real existe e vem numa curva ascendente continua ha mais de uma decada (impulsionada por desemprego, crise habitacional e desestruturacao familiar), mas a taxa de quase 100% de alta expressa principalmente a maior visibilidade cadastral desse publico nas bases de dados governamentais. parcial enganoso"
+    "searchTokens": "366 decl-366 flavio bolsonaro flavio geral moradores de rua dobraram durante o governo do lula. moradores de rua dobraram durante o governo do lula. a afirmacao e parcialmente verdadeira (com contexto metodologico essencial): os numeros brutos do cadastro unico (cadunico) de fato quase dobraram ao longo do terceiro mandato de lula, saltando de 198,7 mil pessoas em dezembro de 2022 para cerca de 392,4 mil em 2026 (uma alta de 97,4%). contudo, especialistas do ipea, pesquisadores de assistencia social e o ministerio do desenvolvimento e assistencia social (mds) apontam que essa explosao nas estatisticas nao significa necessariamente que a populacao fisica nas ruas duplicou de forma repentina, mas reflete em grande parte a busca ativa municipal, a superacao de subnotificacoes dos anos anteriores e a inclusao de incentivos diretos de cadastramento, como a priorizacao dessa populacao no bolsa familia e no plano ruas visiveis a partir de 2023. o aumento real existe e vem numa curva ascendente continua ha mais de uma decada (impulsionada por desemprego, crise habitacional e desestruturacao familiar), mas a taxa de quase 100% de alta expressa principalmente a maior visibilidade cadastral desse publico nas bases de dados governamentais. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-367",
@@ -35708,7 +36074,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "367 decl-367 flavio bolsonaro flavio geral sao paulo acabou com a cracolandia e tratou a saude dos moradores de rua. sao paulo acabou com a cracolandia e tratou a saude dos moradores de rua. a afirmacao e falsa: a cracolandia em sao paulo nao acabou, nem houve uma resolucao estrutural no tratamento de saude dessa populacao. dados de monitoramento da prefeitura de sao paulo, do laboratorio de estudos sobre espaco publico e direito a cidade (labcidade/usp) e de relatorios do ministerio publico de sao paulo (mpsp) apontam que as acoes policiais e urbanisticas dos ultimos anos resultaram na dispersao territorial do fluxo de usuarios — que antes se concentrava em pontos como a praca princesa isabel e a rua helvetia — em dezenas de pequenos agrupamentos ('minicracolandias') espalhados por bairros centrais como santa cecilia, campos eliseos e bom retiro. embora o poder publico estadual e municipal tenha ampliado vagas em comunidades terapeuticas, inaugurado unidades do hub de cuidados em crack e outras drogas e reforcado abordagens de saude mental (caps e consultorios na rua), especialistas da fiocruz e da usp destacam que a adesao continuada e a reabilitacao em saude permanecem em niveis criticamente baixos, marcadas pela baixa resolutividade clinica, recaidas frequentes e forte resistencia dos usuarios a intervencoes de perfil compulsorio ou asilar. fontes: labcidade/usp – mapeamento da dispersao e dinamica das cenas de uso no centro de sp | ministerio publico do estado de sao paulo – atuacao e relatorios sobre a politica de drogas na cracolandia | fiocruz – pesquisas sobre atencao psicossocial e vulnerabilidade nas cenas abertas de drogas. falso falso"
+    "searchTokens": "367 decl-367 flavio bolsonaro flavio geral sao paulo acabou com a cracolandia e tratou a saude dos moradores de rua. sao paulo acabou com a cracolandia e tratou a saude dos moradores de rua. a afirmacao e falsa: a cracolandia em sao paulo nao acabou, nem houve uma resolucao estrutural no tratamento de saude dessa populacao. dados de monitoramento da prefeitura de sao paulo, do laboratorio de estudos sobre espaco publico e direito a cidade (labcidade/usp) e de relatorios do ministerio publico de sao paulo (mpsp) apontam que as acoes policiais e urbanisticas dos ultimos anos resultaram na dispersao territorial do fluxo de usuarios — que antes se concentrava em pontos como a praca princesa isabel e a rua helvetia — em dezenas de pequenos agrupamentos ('minicracolandias') espalhados por bairros centrais como santa cecilia, campos eliseos e bom retiro. embora o poder publico estadual e municipal tenha ampliado vagas em comunidades terapeuticas, inaugurado unidades do hub de cuidados em crack e outras drogas e reforcado abordagens de saude mental (caps e consultorios na rua), especialistas da fiocruz e da usp destacam que a adesao continuada e a reabilitacao em saude permanecem em niveis criticamente baixos, marcadas pela baixa resolutividade clinica, recaidas frequentes e forte resistencia dos usuarios a intervencoes de perfil compulsorio ou asilar. fontes: labcidade/usp – mapeamento da dispersao e dinamica das cenas de uso no centro de sp | ministerio publico do estado de sao paulo – atuacao e relatorios sobre a politica de drogas na cracolandia | fiocruz – pesquisas sobre atencao psicossocial e vulnerabilidade nas cenas abertas de drogas. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-368",
@@ -35783,7 +36150,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "368 decl-368 flavio bolsonaro flavio geral esta tudo mais caro no governo do pt. esta tudo mais caro no governo do pt. salario minimo comprava 1,8 cesta basica durante o governo jair bolsonaro (2019-2022) e passou a comprar 2,2 cestas basicas no atual governo lula, segundo declaracoes do proprio presidente em debate eleitoral, com base em dados do departamento intersindical de estatistica e estudos socioeconomicos (dieese). os precos subiram (~19% desde 2023), mas bem menos que no mandato anterior (~27%) e menos que a renda: o salario minimo real subiu ~11% e o rendimento medio ~13%, entao o poder de compra medio aumentou. falso falso"
+    "searchTokens": "368 decl-368 flavio bolsonaro flavio geral esta tudo mais caro no governo do pt. esta tudo mais caro no governo do pt. salario minimo comprava 1,8 cesta basica durante o governo jair bolsonaro (2019-2022) e passou a comprar 2,2 cestas basicas no atual governo lula, segundo declaracoes do proprio presidente em debate eleitoral, com base em dados do departamento intersindical de estatistica e estudos socioeconomicos (dieese). os precos subiram (~19% desde 2023), mas bem menos que no mandato anterior (~27%) e menos que a renda: o salario minimo real subiu ~11% e o rendimento medio ~13%, entao o poder de compra medio aumentou. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-369",
@@ -35858,7 +36226,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "369 decl-369 flavio bolsonaro flavio geral quer expandir legislacao para cuidar de animais silvestres. quer expandir legislacao para cuidar de animais silvestres. sua atuacao legislativa no congresso nacional e historicamente marcada por posicoes vistas por ambientalistas e biologos como contrarias a protecao da vida silvestre: o senador votou e atuou a favor de projetos da bancada ruralista que flexibilizam o licenciamento ambiental, apoiou medidas que enfraquecem a fiscalizacao de orgaos como o ibama e o icmbio, e assinou propostas polemicas voltadas a facilitacao da caca esportiva e de controle de fauna silvestre (como a caca ao javali e a regulamentacao de armas para atiradores/cacadores - cacs), alem de ter defendido no passado pautas controversas como a liberacao de cassinos em resorts integrados que afetariam areas costeiras e de preservacao marinha. falso falso"
+    "searchTokens": "369 decl-369 flavio bolsonaro flavio geral quer expandir legislacao para cuidar de animais silvestres. quer expandir legislacao para cuidar de animais silvestres. sua atuacao legislativa no congresso nacional e historicamente marcada por posicoes vistas por ambientalistas e biologos como contrarias a protecao da vida silvestre: o senador votou e atuou a favor de projetos da bancada ruralista que flexibilizam o licenciamento ambiental, apoiou medidas que enfraquecem a fiscalizacao de orgaos como o ibama e o icmbio, e assinou propostas polemicas voltadas a facilitacao da caca esportiva e de controle de fauna silvestre (como a caca ao javali e a regulamentacao de armas para atiradores/cacadores - cacs), alem de ter defendido no passado pautas controversas como a liberacao de cassinos em resorts integrados que afetariam areas costeiras e de preservacao marinha. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-370",
@@ -35874,7 +36243,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-fake",
     "verdictBadge": "FALSO",
-    "normalizedVerdict": "falso",
+    "normalizedVerdict": "enganoso",
     "quote": "Em outubro de 2022, a previsão era que o Bolsonaro, caso eleito, tivesse taxa de juros de 7%.",
     "theFact": "Afirmação apurada: Em outubro de 2022, a previsão era que o Bolsonaro, caso eleito, tivesse taxa de juros de 7%.. A afirmação é falsa: em outubro de 2022 (às vésperas do segundo turno), nenhuma projeção de consenso do mercado financeiro ou do Banco Central apontava que a taxa básica de juros (Selic) cairia para 7% em caso de vitória de Jair Bolsonaro. De acordo com os relatórios semanais do Boletim Focus do Banco Central daquele mês — que consolidam as estimativas de mais de 100 instituições financeiras e analistas —, a taxa Selic estava fixada em 13,75% ao ano e a mediana das projeções indicava que os juros terminariam o ano de 2023 em torno de 11,25% a 11,75%, projetando quedas graduais para patamares entre 8,0% e 8,5% apenas para o final de 2024 e 2025. Embora integrantes da campanha e o então ministro Paulo Guedes ventilassem narrativas de que a continuidade da agenda de reformas e a privatização de estatais pudessem acelerar o ciclo de cortes nos anos seguintes, o mercado jamais precificou formalmente juros nominais a 7% para o mandato subsequente, sobretudo diante da persistência da inflação global e das pressões fiscais já contratadas para 2023 (como a manutenção do Auxílio Brasil a R$ 600 fora do teto). Fontes: Banco Central do Brasil – Relatório de Mercado Focus (Séries Históricas de Outubro de 2022) | Valor Econômico – Projeções macroeconômicas e Selic no cenário eleitoral de 2022 | InfoMoney – Expectativas do mercado financeiro para juros e inflação pós-eleições 2022.",
     "whyDiverge": "Verificação realizada por Verifique os Fatos no debate da TV Globo com foco temático em geral e análise de relatórios probatórios.",
@@ -35946,7 +36315,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "370 decl-370 flavio bolsonaro flavio geral em outubro de 2022, a previsao era que o bolsonaro, caso eleito, tivesse taxa de juros de 7%. em outubro de 2022, a previsao era que o bolsonaro, caso eleito, tivesse taxa de juros de 7%. a afirmacao e falsa: em outubro de 2022 (as vesperas do segundo turno), nenhuma projecao de consenso do mercado financeiro ou do banco central apontava que a taxa basica de juros (selic) cairia para 7% em caso de vitoria de jair bolsonaro. de acordo com os relatorios semanais do boletim focus do banco central daquele mes — que consolidam as estimativas de mais de 100 instituicoes financeiras e analistas —, a taxa selic estava fixada em 13,75% ao ano e a mediana das projecoes indicava que os juros terminariam o ano de 2023 em torno de 11,25% a 11,75%, projetando quedas graduais para patamares entre 8,0% e 8,5% apenas para o final de 2024 e 2025. embora integrantes da campanha e o entao ministro paulo guedes ventilassem narrativas de que a continuidade da agenda de reformas e a privatizacao de estatais pudessem acelerar o ciclo de cortes nos anos seguintes, o mercado jamais precificou formalmente juros nominais a 7% para o mandato subsequente, sobretudo diante da persistencia da inflacao global e das pressoes fiscais ja contratadas para 2023 (como a manutencao do auxilio brasil a r$ 600 fora do teto). fontes: banco central do brasil – relatorio de mercado focus (series historicas de outubro de 2022) | valor economico – projecoes macroeconomicas e selic no cenario eleitoral de 2022 | infomoney – expectativas do mercado financeiro para juros e inflacao pos-eleicoes 2022. falso falso"
+    "searchTokens": "370 decl-370 flavio bolsonaro flavio geral em outubro de 2022, a previsao era que o bolsonaro, caso eleito, tivesse taxa de juros de 7%. em outubro de 2022, a previsao era que o bolsonaro, caso eleito, tivesse taxa de juros de 7%. a afirmacao e falsa: em outubro de 2022 (as vesperas do segundo turno), nenhuma projecao de consenso do mercado financeiro ou do banco central apontava que a taxa basica de juros (selic) cairia para 7% em caso de vitoria de jair bolsonaro. de acordo com os relatorios semanais do boletim focus do banco central daquele mes — que consolidam as estimativas de mais de 100 instituicoes financeiras e analistas —, a taxa selic estava fixada em 13,75% ao ano e a mediana das projecoes indicava que os juros terminariam o ano de 2023 em torno de 11,25% a 11,75%, projetando quedas graduais para patamares entre 8,0% e 8,5% apenas para o final de 2024 e 2025. embora integrantes da campanha e o entao ministro paulo guedes ventilassem narrativas de que a continuidade da agenda de reformas e a privatizacao de estatais pudessem acelerar o ciclo de cortes nos anos seguintes, o mercado jamais precificou formalmente juros nominais a 7% para o mandato subsequente, sobretudo diante da persistencia da inflacao global e das pressoes fiscais ja contratadas para 2023 (como a manutencao do auxilio brasil a r$ 600 fora do teto). fontes: banco central do brasil – relatorio de mercado focus (series historicas de outubro de 2022) | valor economico – projecoes macroeconomicas e selic no cenario eleitoral de 2022 | infomoney – expectativas do mercado financeiro para juros e inflacao pos-eleicoes 2022. falso falso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-371",
@@ -36021,7 +36391,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "371 decl-371 flavio bolsonaro flavio geral a projecao da taxa de juros ea de 7% caso jair bolsonaro continuasse no poder. a projecao da taxa de juros ea de 7% caso jair bolsonaro continuasse no poder. nao ha registro de que a previsao oficial da taxa selic em outubro de 2022 fosse de 7% caso jair bolsonaro continuasse no poder. e a taxa de juros do pais depende de uma serie de fatores externos fora do controle do governo. falso falso"
+    "searchTokens": "371 decl-371 flavio bolsonaro flavio geral a projecao da taxa de juros ea de 7% caso jair bolsonaro continuasse no poder. a projecao da taxa de juros ea de 7% caso jair bolsonaro continuasse no poder. nao ha registro de que a previsao oficial da taxa selic em outubro de 2022 fosse de 7% caso jair bolsonaro continuasse no poder. e a taxa de juros do pais depende de uma serie de fatores externos fora do controle do governo. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-372",
@@ -36096,7 +36467,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "372 decl-372 flavio bolsonaro flavio geral o cadunico (cadastro unico) e um beneficio social. o cadunico (cadastro unico) e um beneficio social. nao, o cadunico (cadastro unico) nao e um beneficio social em si. ele funciona como um instrumento de registro e coleta de dados criado pelo governo federal para identificar e mapear as familias de baixa renda que vivem no pais. na pratica, o cadunico atua como a porta de entrada para diversos programas e politicas publicas. estar inscrito nao significa receber um valor financeiro automaticamente, mas e o requisito fundamental e obrigatorio para poder solicitar e ter acesso a esses auxilios. parcial enganoso"
+    "searchTokens": "372 decl-372 flavio bolsonaro flavio geral o cadunico (cadastro unico) e um beneficio social. o cadunico (cadastro unico) e um beneficio social. nao, o cadunico (cadastro unico) nao e um beneficio social em si. ele funciona como um instrumento de registro e coleta de dados criado pelo governo federal para identificar e mapear as familias de baixa renda que vivem no pais. na pratica, o cadunico atua como a porta de entrada para diversos programas e politicas publicas. estar inscrito nao significa receber um valor financeiro automaticamente, mas e o requisito fundamental e obrigatorio para poder solicitar e ter acesso a esses auxilios. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-373",
@@ -36171,7 +36543,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "373 decl-373 luiz inacio lula da silva lula geral o pt herdou taxa de juros de 13% do governo bolsonaro. o pt herdou taxa de juros de 13% do governo bolsonaro. a afirmacao e verdadeira: em 1º de janeiro de 2023, quando luiz inacio lula da silva assumiu o terceiro mandato, a taxa basica de juros (selic) estava fixada em 13,75% ao ano. esse patamar havia sido definido pelo comite de politica monetaria (copom) do banco central ainda em agosto de 2022, durante a gestao de jair bolsonaro, com o objetivo de conter a forte escalada inflacionaria decorrente do pos-pandemia e das tensoes geopoliticas globais, permanecendo congelado nesse nivel ate o inicio do ciclo de cortes em agosto de 2023. fontes: banco central do brasil – historico das taxas de juros (copom) | g1 – copom mantem taxa selic em 13,75% ao ano na transicao de governo. verdadeiro verdadeiro"
+    "searchTokens": "373 decl-373 luiz inacio lula da silva lula geral o pt herdou taxa de juros de 13% do governo bolsonaro. o pt herdou taxa de juros de 13% do governo bolsonaro. a afirmacao e verdadeira: em 1º de janeiro de 2023, quando luiz inacio lula da silva assumiu o terceiro mandato, a taxa basica de juros (selic) estava fixada em 13,75% ao ano. esse patamar havia sido definido pelo comite de politica monetaria (copom) do banco central ainda em agosto de 2022, durante a gestao de jair bolsonaro, com o objetivo de conter a forte escalada inflacionaria decorrente do pos-pandemia e das tensoes geopoliticas globais, permanecendo congelado nesse nivel ate o inicio do ciclo de cortes em agosto de 2023. fontes: banco central do brasil – historico das taxas de juros (copom) | g1 – copom mantem taxa selic em 13,75% ao ano na transicao de governo. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-374",
@@ -36246,7 +36619,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "374 decl-374 luiz inacio lula da silva lula geral perdoamos a divida dos mei e aumentamos o numero de funcionarios. perdoamos a divida dos mei e aumentamos o numero de funcionarios. o presidente luiz inacio lula da silva sancionou em 21 de outubro de 2026 a lei complementar nº 238/2026 (parte do pacote prospera mei), que traz mudancas importantes para os microempreendedores individuais, incluindo perdao de dividas. verdadeiro verdadeiro"
+    "searchTokens": "374 decl-374 luiz inacio lula da silva lula geral perdoamos a divida dos mei e aumentamos o numero de funcionarios. perdoamos a divida dos mei e aumentamos o numero de funcionarios. o presidente luiz inacio lula da silva sancionou em 21 de outubro de 2026 a lei complementar nº 238/2026 (parte do pacote prospera mei), que traz mudancas importantes para os microempreendedores individuais, incluindo perdao de dividas. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-375",
@@ -36321,7 +36695,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "375 decl-375 luiz inacio lula da silva lula geral ninguem nunca fez mais credito do que o pt fez. ninguem nunca fez mais credito do que o pt fez. a afirmacao e verdadeira: os governos petistas lideraram a maior expansao de credito da historia do brasil, tanto em volume financeiro quanto em proporcao da economia. segundo dados da serie historica do banco central, as operacoes de credito total saltaram de cerca de 24% do pib em 2003 para mais de 53% do pib em 2014, impulsionadas pela criacao do credito consignado, pelo uso intensivo de bancos publicos (bndes, caixa e banco do brasil) para financiar empresas e habitacao (minha casa, minha vida), e pelo fortalecimento do credito rural (plano safra) e estudantil (fies), patamar estrutural de democratizacao financeira jamais igualado por outras gestoes no pais. verdadeiro verdadeiro"
+    "searchTokens": "375 decl-375 luiz inacio lula da silva lula geral ninguem nunca fez mais credito do que o pt fez. ninguem nunca fez mais credito do que o pt fez. a afirmacao e verdadeira: os governos petistas lideraram a maior expansao de credito da historia do brasil, tanto em volume financeiro quanto em proporcao da economia. segundo dados da serie historica do banco central, as operacoes de credito total saltaram de cerca de 24% do pib em 2003 para mais de 53% do pib em 2014, impulsionadas pela criacao do credito consignado, pelo uso intensivo de bancos publicos (bndes, caixa e banco do brasil) para financiar empresas e habitacao (minha casa, minha vida), e pelo fortalecimento do credito rural (plano safra) e estudantil (fies), patamar estrutural de democratizacao financeira jamais igualado por outras gestoes no pais. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-376",
@@ -36396,7 +36771,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "376 decl-376 luiz inacio lula da silva lula geral planeja comprar a divida de pessoas fisicas. planeja comprar a divida de pessoas fisicas. sim. o presidente luiz inacio lula da silva anunciou formalmente uma medida nesse sentido por meio da fase desenrola 3.0, voltada para que o governo passe a comprar diretamente carteiras de dividas de pessoas fisicas e meis junto ao sistema bancario. verdadeiro verdadeiro"
+    "searchTokens": "376 decl-376 luiz inacio lula da silva lula geral planeja comprar a divida de pessoas fisicas. planeja comprar a divida de pessoas fisicas. sim. o presidente luiz inacio lula da silva anunciou formalmente uma medida nesse sentido por meio da fase desenrola 3.0, voltada para que o governo passe a comprar diretamente carteiras de dividas de pessoas fisicas e meis junto ao sistema bancario. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-377",
@@ -36471,7 +36847,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "377 decl-377 flavio bolsonaro flavio geral o lula criou ou aumentou mais de 30 impostos no ultimo mandato. o lula criou ou aumentou mais de 30 impostos no ultimo mandato. a afirmacao e exagerada e enganosa do ponto de vista tributario formal, embora tenha base no avanco da arrecadacao: o governo lula nao criou 30 tributos novos — o sistema tributario brasileiro possui cerca de uma duzia de tributos federais principais previstos na constituicao —, mas implementou mais de 20 medidas arrecadatorias focadas em recompor receitas fiscais. entre elas destacam-se o fim da isencao de compras internacionais ate us$ 50 ('taxa das blusinhas'), a tributacao de fundos exclusivos (super-ricos) e offshores, a volta da reoneracao de combustiveis (pis/cofins), mudancas no carf, limitacao de beneficios do icms em subvencoes e a taxacao de apostas esportivas (bets); criticos somam reoneracoes, alteracoes de aliquotas setoriais e portarias para inflar a conta acima de 30 'aumentos', mas analistas da fgv e do ipea apontam que a maior parte foi corte de desoneracoes e fechamento de brechas fiscais previas. falso falso"
+    "searchTokens": "377 decl-377 flavio bolsonaro flavio geral o lula criou ou aumentou mais de 30 impostos no ultimo mandato. o lula criou ou aumentou mais de 30 impostos no ultimo mandato. a afirmacao e exagerada e enganosa do ponto de vista tributario formal, embora tenha base no avanco da arrecadacao: o governo lula nao criou 30 tributos novos — o sistema tributario brasileiro possui cerca de uma duzia de tributos federais principais previstos na constituicao —, mas implementou mais de 20 medidas arrecadatorias focadas em recompor receitas fiscais. entre elas destacam-se o fim da isencao de compras internacionais ate us$ 50 ('taxa das blusinhas'), a tributacao de fundos exclusivos (super-ricos) e offshores, a volta da reoneracao de combustiveis (pis/cofins), mudancas no carf, limitacao de beneficios do icms em subvencoes e a taxacao de apostas esportivas (bets); criticos somam reoneracoes, alteracoes de aliquotas setoriais e portarias para inflar a conta acima de 30 'aumentos', mas analistas da fgv e do ipea apontam que a maior parte foi corte de desoneracoes e fechamento de brechas fiscais previas. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-378",
@@ -36546,7 +36923,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "378 decl-378 luiz inacio lula da silva lula geral o bolsonaro debochou e imitou pessoas sufocando por causa da covid. o bolsonaro debochou e imitou pessoas sufocando por causa da covid. a afirmacao e verdadeira: durante transmissoes ao vivo oficiais nas redes sociais em marco e maio de 2021 — no auge da pandemia de covid-19 —, jair bolsonaro imitou repetidamente pessoas com falta de ar e sufocando ao ironizar as orientacoes medicas e sanitarias de isolamento recomendadas pelo ex-ministro da saude luiz henrique mandetta. nas ocasioes, ele puxou o ar pela boca com dificuldade e debochou: 'fica em casa e, quando estiver sentindo falta de ar [faz a encenacao ofegante], vai para o hospital fazer o que se nao tem remedio?' — episodios que foram amplamente registrados em video, incluidos no relatorio final da cpi da pandemia no senado e resgatados nacionalmente durante as sabatinas eleitorais de 2022. fontes: g1 – bolsonaro imitou paciente com falta de ar durante transmissoes ao vivo em 2021 | estado de minas – bolsonaro imita pessoa com falta de ar durante live nas redes | senado federal – relatorio final da cpi da pandemia. verdadeiro verdadeiro"
+    "searchTokens": "378 decl-378 luiz inacio lula da silva lula geral o bolsonaro debochou e imitou pessoas sufocando por causa da covid. o bolsonaro debochou e imitou pessoas sufocando por causa da covid. a afirmacao e verdadeira: durante transmissoes ao vivo oficiais nas redes sociais em marco e maio de 2021 — no auge da pandemia de covid-19 —, jair bolsonaro imitou repetidamente pessoas com falta de ar e sufocando ao ironizar as orientacoes medicas e sanitarias de isolamento recomendadas pelo ex-ministro da saude luiz henrique mandetta. nas ocasioes, ele puxou o ar pela boca com dificuldade e debochou: 'fica em casa e, quando estiver sentindo falta de ar [faz a encenacao ofegante], vai para o hospital fazer o que se nao tem remedio?' — episodios que foram amplamente registrados em video, incluidos no relatorio final da cpi da pandemia no senado e resgatados nacionalmente durante as sabatinas eleitorais de 2022. fontes: g1 – bolsonaro imitou paciente com falta de ar durante transmissoes ao vivo em 2021 | estado de minas – bolsonaro imita pessoa com falta de ar durante live nas redes | senado federal – relatorio final da cpi da pandemia. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-379",
@@ -36621,7 +36999,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "379 decl-379 flavio bolsonaro flavio geral lula nao fez nada para ajudar a divida das santas casas. lula nao fez nada para ajudar a divida das santas casas. a afirmacao e falsa: o governo lula adotou medidas legislativas e financeiras de socorro as santas casas e hospitais filantropicos, como a liberacao de cerca de r$ 2 bilhoes em auxilios emergenciais pelo ministerio da saude em 2023 e a sancao da lei que prorrogou o uso de recursos do fgts ate 2030 para linhas de credito especiais, liberando mais de r$ 2 bilhoes para refinanciar e alongar debitos com prazos estendidos e juros reduzidos; contudo, entidades como a confederacao das santas casas (cmb) ressalvam que o socorro e paliativo e nao extingue a crise estrutural, mantendo o setor com endividamento bilionario devido a defasagem historica da tabela de procedimentos do sus. fontes: metropoles – lula sanciona lei para uso do fgts em credito a santas casas | jota – santas casas e hospitais filantropicos buscam renegociacao de divida | ministerio da saude – repasses emergenciais a entidades filantropicas e santas casas. falso falso"
+    "searchTokens": "379 decl-379 flavio bolsonaro flavio geral lula nao fez nada para ajudar a divida das santas casas. lula nao fez nada para ajudar a divida das santas casas. a afirmacao e falsa: o governo lula adotou medidas legislativas e financeiras de socorro as santas casas e hospitais filantropicos, como a liberacao de cerca de r$ 2 bilhoes em auxilios emergenciais pelo ministerio da saude em 2023 e a sancao da lei que prorrogou o uso de recursos do fgts ate 2030 para linhas de credito especiais, liberando mais de r$ 2 bilhoes para refinanciar e alongar debitos com prazos estendidos e juros reduzidos; contudo, entidades como a confederacao das santas casas (cmb) ressalvam que o socorro e paliativo e nao extingue a crise estrutural, mantendo o setor com endividamento bilionario devido a defasagem historica da tabela de procedimentos do sus. fontes: metropoles – lula sanciona lei para uso do fgts em credito a santas casas | jota – santas casas e hospitais filantropicos buscam renegociacao de divida | ministerio da saude – repasses emergenciais a entidades filantropicas e santas casas. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-380",
@@ -36696,7 +37075,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "380 decl-380 flavio bolsonaro flavio geral meu pai foi salvo de uma facada gracas ao sus. meu pai foi salvo de uma facada gracas ao sus. a santa casa e uma instituicao privada, filantropica e sem fins lucrativos, e nao um hospital publico estatal. porem a santa casa atende demandas do sus. parcial enganoso"
+    "searchTokens": "380 decl-380 flavio bolsonaro flavio geral meu pai foi salvo de uma facada gracas ao sus. meu pai foi salvo de uma facada gracas ao sus. a santa casa e uma instituicao privada, filantropica e sem fins lucrativos, e nao um hospital publico estatal. porem a santa casa atende demandas do sus. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-381",
@@ -36771,7 +37151,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "381 decl-381 flavio bolsonaro flavio geral tarcisio reduziu as filas do sus em sao paulo. tarcisio reduziu as filas do sus em sao paulo. a afirmacao e parcialmente verdadeira (com resultados mistos): a gestao de tarcisio de freitas em sao paulo realizou mutiroes e criou a \"tabela sus paulista\" — que remunera procedimentos acima da tabela federal para hospitais filantropicos —, atingindo recordes na realizacao de cirurgias eletivas (mais de 1,2 milhao ao ano) e reduzindo a espera cirurgica em varias regioes; por outro lado, levantamentos oficiais via lai obtidos pela imprensa apontam que a fila de exames diagnosticos e consultas especializadas cresceu na rede estadual (superando 2,2 milhoes de pessoas a espera, alta de 14,6%), refletindo a alta demanda reprimida do pos-pandemia e a migracao de usuarios de convenios medicos para o sistema publico. fontes: g1 – fila para exames na rede estadual de saude de sp cresce na gestao tarcisio | secretaria de estado da saude de sp – balancos do mutirao de cirurgias e tabela sus paulista. parcial enganoso"
+    "searchTokens": "381 decl-381 flavio bolsonaro flavio geral tarcisio reduziu as filas do sus em sao paulo. tarcisio reduziu as filas do sus em sao paulo. a afirmacao e parcialmente verdadeira (com resultados mistos): a gestao de tarcisio de freitas em sao paulo realizou mutiroes e criou a \"tabela sus paulista\" — que remunera procedimentos acima da tabela federal para hospitais filantropicos —, atingindo recordes na realizacao de cirurgias eletivas (mais de 1,2 milhao ao ano) e reduzindo a espera cirurgica em varias regioes; por outro lado, levantamentos oficiais via lai obtidos pela imprensa apontam que a fila de exames diagnosticos e consultas especializadas cresceu na rede estadual (superando 2,2 milhoes de pessoas a espera, alta de 14,6%), refletindo a alta demanda reprimida do pos-pandemia e a migracao de usuarios de convenios medicos para o sistema publico. fontes: g1 – fila para exames na rede estadual de saude de sp cresce na gestao tarcisio | secretaria de estado da saude de sp – balancos do mutirao de cirurgias e tabela sus paulista. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-382",
@@ -36846,7 +37227,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "382 decl-382 flavio bolsonaro flavio geral lula disse 'se ta caro nao compra!'. lula disse 'se ta caro nao compra!'. parcialmente verdadeiro. durante uma entrevista a radios, lula afirmou que 'se voce vai no supermercado e desconfia que tal produto esta caro, voce nao compra', argumentando que, sem vendas, os comerciantes seriam forcados a baixar os precos ou o produto iria estragar. parcial enganoso"
+    "searchTokens": "382 decl-382 flavio bolsonaro flavio geral lula disse 'se ta caro nao compra!'. lula disse 'se ta caro nao compra!'. parcialmente verdadeiro. durante uma entrevista a radios, lula afirmou que 'se voce vai no supermercado e desconfia que tal produto esta caro, voce nao compra', argumentando que, sem vendas, os comerciantes seriam forcados a baixar os precos ou o produto iria estragar. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-383",
@@ -36921,7 +37303,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "383 decl-383 luiz inacio lula da silva lula geral pt fez dois desenrolas e atendeu milhoes de brasileiros. pt fez dois desenrolas e atendeu milhoes de brasileiros. a afirmacao e verdadeira: o governo lula lancou o primeiro desenrola brasil em 2023, que beneficiou cerca de 15 milhoes de pessoas (entre dividas quitadas, desnegativacoes de ate r$ 100 e renegociacoes com desconto), e ampliou a iniciativa com novas edicoes e fases (desenrola 2.0 / pequenos negocios / fies), atingindo mais milhoes de pessoas fisicas, estudantes e microempreendedores. verdadeiro verdadeiro"
+    "searchTokens": "383 decl-383 luiz inacio lula da silva lula geral pt fez dois desenrolas e atendeu milhoes de brasileiros. pt fez dois desenrolas e atendeu milhoes de brasileiros. a afirmacao e verdadeira: o governo lula lancou o primeiro desenrola brasil em 2023, que beneficiou cerca de 15 milhoes de pessoas (entre dividas quitadas, desnegativacoes de ate r$ 100 e renegociacoes com desconto), e ampliou a iniciativa com novas edicoes e fases (desenrola 2.0 / pequenos negocios / fies), atingindo mais milhoes de pessoas fisicas, estudantes e microempreendedores. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-384",
@@ -36996,7 +37379,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "384 decl-384 luiz inacio lula da silva lula geral o pt anunciou o perdao de 15 bilhoes de dividas para meis. o pt anunciou o perdao de 15 bilhoes de dividas para meis. verdadeira, com ressalvas. a lei geral da micro e pequena empresa foi instituida pela lei complementar nº 123/2006, sancionada por lula. o mei foi criado pela lei complementar nº 128/2008, tambem sancionada durante seu governo. as medidas foram aprovadas com participacao do congresso nacional; portanto, atribui-las exclusivamente ao presidente simplifica o processo legislativo. parcial enganoso"
+    "searchTokens": "384 decl-384 luiz inacio lula da silva lula geral o pt anunciou o perdao de 15 bilhoes de dividas para meis. o pt anunciou o perdao de 15 bilhoes de dividas para meis. verdadeira, com ressalvas. a lei geral da micro e pequena empresa foi instituida pela lei complementar nº 123/2006, sancionada por lula. o mei foi criado pela lei complementar nº 128/2008, tambem sancionada durante seu governo. as medidas foram aprovadas com participacao do congresso nacional; portanto, atribui-las exclusivamente ao presidente simplifica o processo legislativo. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-385",
@@ -37078,7 +37462,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "385 decl-385 luiz inacio lula da silva lula geral fizemos a lei geral da pequena e media empresa. fizemos a lei geral da pequena e media empresa. a afirmacao e verdadeira. a lei complementar nº 123, que instituiu o estatuto nacional da microempresa e da empresa de pequeno porte (conhecida como lei geral da micro e pequena empresa), foi sancionada por luiz inacio lula da silva em 14 de dezembro de 2006, durante o seu primeiro mandato. verdadeiro verdadeiro"
+    "searchTokens": "385 decl-385 luiz inacio lula da silva lula geral fizemos a lei geral da pequena e media empresa. fizemos a lei geral da pequena e media empresa. a afirmacao e verdadeira. a lei complementar nº 123, que instituiu o estatuto nacional da microempresa e da empresa de pequeno porte (conhecida como lei geral da micro e pequena empresa), foi sancionada por luiz inacio lula da silva em 14 de dezembro de 2006, durante o seu primeiro mandato. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-386",
@@ -37153,7 +37538,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "386 decl-386 luiz inacio lula da silva lula geral o flavio bolsonaro e contra acabar com as bets. o flavio bolsonaro e contra acabar com as bets. a afirmacao e parcialmente verdadeira (com distincao de modalidades): flavio bolsonaro se posicionou contra a proibicao total das apostas esportivas (as bets de futebol), alegando respeito a seguranca juridica e a regras vigentes, mas defendeu proibir terminantemente os cassinos online (como o 'jogo do tigrinho'), apontando-os como causadores do endividamento das familias. parcial enganoso"
+    "searchTokens": "386 decl-386 luiz inacio lula da silva lula geral o flavio bolsonaro e contra acabar com as bets. o flavio bolsonaro e contra acabar com as bets. a afirmacao e parcialmente verdadeira (com distincao de modalidades): flavio bolsonaro se posicionou contra a proibicao total das apostas esportivas (as bets de futebol), alegando respeito a seguranca juridica e a regras vigentes, mas defendeu proibir terminantemente os cassinos online (como o 'jogo do tigrinho'), apontando-os como causadores do endividamento das familias. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-387",
@@ -37241,7 +37627,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "387 decl-387 luiz inacio lula da silva lula geral o governo bolsonaro aprovou o jogo do tigrinho. o governo bolsonaro aprovou o jogo do tigrinho. a afirmacao e falsa: o jogo do tigrinho (cassino online) nao foi aprovado pelo governo bolsonaro. as apostas esportivas foram legalizadas em 2018 por michel temer, com prazo de regulamentacao que expirou sem acao sob bolsonaro. falso falso"
+    "searchTokens": "387 decl-387 luiz inacio lula da silva lula geral o governo bolsonaro aprovou o jogo do tigrinho. o governo bolsonaro aprovou o jogo do tigrinho. a afirmacao e falsa: o jogo do tigrinho (cassino online) nao foi aprovado pelo governo bolsonaro. as apostas esportivas foram legalizadas em 2018 por michel temer, com prazo de regulamentacao que expirou sem acao sob bolsonaro. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-388",
@@ -37316,7 +37703,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "388 decl-388 flavio bolsonaro flavio geral o lula zerou o orcamento federal para o ensino integral. o lula zerou o orcamento federal para o ensino integral. o governo transferiu o custeio da politica de escolas em tempo integral para dentro do fundeb (fundo de manutencao e desenvolvimento da educacao basica), mantendo-o dentro da area da educacao. falso falso"
+    "searchTokens": "388 decl-388 flavio bolsonaro flavio geral o lula zerou o orcamento federal para o ensino integral. o lula zerou o orcamento federal para o ensino integral. o governo transferiu o custeio da politica de escolas em tempo integral para dentro do fundeb (fundo de manutencao e desenvolvimento da educacao basica), mantendo-o dentro da area da educacao. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-389",
@@ -37332,7 +37720,7 @@ const ALL_DECLARATIONS = [
     "blockTime": "Debate TV Globo • 23/10/2026",
     "stampClass": "stamp-fake",
     "verdictBadge": "FALSO",
-    "normalizedVerdict": "falso",
+    "normalizedVerdict": "enganoso",
     "quote": "Lula é o pai do Tigrinho.",
     "theFact": "Afirmação apurada: Lula é o pai do Tigrinho.. As apostas esportivas e de quota fixa (as chamadas bets) foram legalizadas no Brasil em dezembro de 2018, por meio da Lei nº 13.756/2018, sancionada pelo então presidente Michel Temer.",
     "whyDiverge": "Verificação realizada por Verifique os Fatos no debate da TV Globo com foco temático em geral e análise de relatórios probatórios.",
@@ -37404,7 +37792,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "389 decl-389 flavio bolsonaro flavio geral lula e o pai do tigrinho. lula e o pai do tigrinho. as apostas esportivas e de quota fixa (as chamadas bets) foram legalizadas no brasil em dezembro de 2018, por meio da lei nº 13.756/2018, sancionada pelo entao presidente michel temer. falso falso"
+    "searchTokens": "389 decl-389 flavio bolsonaro flavio geral lula e o pai do tigrinho. lula e o pai do tigrinho. as apostas esportivas e de quota fixa (as chamadas bets) foram legalizadas no brasil em dezembro de 2018, por meio da lei nº 13.756/2018, sancionada pelo entao presidente michel temer. falso falso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-390",
@@ -37479,7 +37868,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "390 decl-390 luiz inacio lula da silva lula geral o governo bolsonaro deixou 5 mil creches e escolas paralisadas. o governo bolsonaro deixou 5 mil creches e escolas paralisadas. a afirmacao e exagerada: dados do ministerio da educacao (mec) e do fnde registraram cerca de 3,6 mil obras da educacao basica paralisadas ou inacabadas ao fim de 2022 (e nao 5 mil). a cifra de 5 mil infla o dado somando quadras e reformas, e auditorias do tcu mostram que boa parte dos entraves vinha se arrastando desde gestoes anteriores por abandono de empreiteiras. parcial enganoso"
+    "searchTokens": "390 decl-390 luiz inacio lula da silva lula geral o governo bolsonaro deixou 5 mil creches e escolas paralisadas. o governo bolsonaro deixou 5 mil creches e escolas paralisadas. a afirmacao e exagerada: dados do ministerio da educacao (mec) e do fnde registraram cerca de 3,6 mil obras da educacao basica paralisadas ou inacabadas ao fim de 2022 (e nao 5 mil). a cifra de 5 mil infla o dado somando quadras e reformas, e auditorias do tcu mostram que boa parte dos entraves vinha se arrastando desde gestoes anteriores por abandono de empreiteiras. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-391",
@@ -37554,7 +37944,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "391 decl-391 flavio bolsonaro flavio geral o governo bolsonaro anistiou 99% das dividas do fies. o governo bolsonaro anistiou 99% das dividas do fies. a afirmacao e parcial (com distorcao de escopo): bolsonaro sancionou a lei 14.375/2022, que permitiu descontos de ate 99% no saldo devedor, mas nao houve anistia geral de 99% das dividas. o abatimento maximo valeu apenas para inadimplentes ha mais de 360 dias inscritos no cadunico ou auxilio brasil; os demais tiveram descontos menores (de 12% a 77%). parcial enganoso"
+    "searchTokens": "391 decl-391 flavio bolsonaro flavio geral o governo bolsonaro anistiou 99% das dividas do fies. o governo bolsonaro anistiou 99% das dividas do fies. a afirmacao e parcial (com distorcao de escopo): bolsonaro sancionou a lei 14.375/2022, que permitiu descontos de ate 99% no saldo devedor, mas nao houve anistia geral de 99% das dividas. o abatimento maximo valeu apenas para inadimplentes ha mais de 360 dias inscritos no cadunico ou auxilio brasil; os demais tiveram descontos menores (de 12% a 77%). parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-392",
@@ -37629,7 +38020,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "392 decl-392 luiz inacio lula da silva lula geral encontramos 5600 escolas paralisadas. encontramos 5600 escolas paralisadas. verdadeiro. o levantamento inicial do pacto nacional mapeou exatamente 5.642 obras de educacao basica financiadas pelo fundo nacional de desenvolvimento da educacao (fnde) que estavam travadas em 2022. verdadeiro verdadeiro"
+    "searchTokens": "392 decl-392 luiz inacio lula da silva lula geral encontramos 5600 escolas paralisadas. encontramos 5600 escolas paralisadas. verdadeiro. o levantamento inicial do pacto nacional mapeou exatamente 5.642 obras de educacao basica financiadas pelo fundo nacional de desenvolvimento da educacao (fnde) que estavam travadas em 2022. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-393",
@@ -37704,7 +38096,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "393 decl-393 flavio bolsonaro flavio geral a nota do pisa e uma das piores por conta do governo lula. a nota do pisa e uma das piores por conta do governo lula. a afirmacao e falsa: o baixo desempenho no pisa e um problema historico e estrutural do brasil desde o inicio da avaliacao em 2000, e nao exclusividade de um governo. os testes avaliam alunos de 15 anos — reflexo de toda a trajetoria na educacao basica —, com notas estagnadas sob fhc, lula, dilma, temer e bolsonaro, mantendo o pais historicamente no terco inferior do ranking da ocde. falso falso"
+    "searchTokens": "393 decl-393 flavio bolsonaro flavio geral a nota do pisa e uma das piores por conta do governo lula. a nota do pisa e uma das piores por conta do governo lula. a afirmacao e falsa: o baixo desempenho no pisa e um problema historico e estrutural do brasil desde o inicio da avaliacao em 2000, e nao exclusividade de um governo. os testes avaliam alunos de 15 anos — reflexo de toda a trajetoria na educacao basica —, com notas estagnadas sob fhc, lula, dilma, temer e bolsonaro, mantendo o pais historicamente no terco inferior do ranking da ocde. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-394",
@@ -37779,7 +38172,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "394 decl-394 flavio bolsonaro flavio geral o governo do pt acabou com os jebs (jogos escolares brasileiros). o governo do pt acabou com os jebs (jogos escolares brasileiros). enganosa. os jogos escolares brasileiros tradicionais deixaram de ser realizados apos 2004, durante o primeiro governo lula, mas a interrupcao se estendeu por diferentes governos e ocorreu em meio a mudancas no formato das competicoes escolares nacionais. outras competicoes ocuparam esse espaco nesse periodo. os jebs foram retomados em 2021, durante o governo bolsonaro. assim, dizer que “o pt acabou com os jebs” simplifica a historia e atribui exclusivamente a um partido uma interrupcao de 17 anos. parcial enganoso"
+    "searchTokens": "394 decl-394 flavio bolsonaro flavio geral o governo do pt acabou com os jebs (jogos escolares brasileiros). o governo do pt acabou com os jebs (jogos escolares brasileiros). enganosa. os jogos escolares brasileiros tradicionais deixaram de ser realizados apos 2004, durante o primeiro governo lula, mas a interrupcao se estendeu por diferentes governos e ocorreu em meio a mudancas no formato das competicoes escolares nacionais. outras competicoes ocuparam esse espaco nesse periodo. os jebs foram retomados em 2021, durante o governo bolsonaro. assim, dizer que “o pt acabou com os jebs” simplifica a historia e atribui exclusivamente a um partido uma interrupcao de 17 anos. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-395",
@@ -37854,7 +38248,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "395 decl-395 flavio bolsonaro flavio geral declarou solidariedade para ana clara na plateia. declarou solidariedade para ana clara na plateia. porem ana clara foi a vitima e nao estava presente. falso falso"
+    "searchTokens": "395 decl-395 flavio bolsonaro flavio geral declarou solidariedade para ana clara na plateia. declarou solidariedade para ana clara na plateia. porem ana clara foi a vitima e nao estava presente. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-396",
@@ -37929,7 +38324,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "396 decl-396 flavio bolsonaro flavio geral o lula e a favor da saidinha dos presos. o lula e a favor da saidinha dos presos. o presidente luiz inacio lula da silva defende a manutencao das saidas temporarias ('saidinhas') para detentos que possuem bom comportamento e cumprem penas por crimes nao graves. parcial enganoso"
+    "searchTokens": "396 decl-396 flavio bolsonaro flavio geral o lula e a favor da saidinha dos presos. o lula e a favor da saidinha dos presos. o presidente luiz inacio lula da silva defende a manutencao das saidas temporarias ('saidinhas') para detentos que possuem bom comportamento e cumprem penas por crimes nao graves. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-397",
@@ -38004,7 +38400,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "397 decl-397 flavio bolsonaro flavio geral o lula e contra a reducao da maioridade penal. o lula e contra a reducao da maioridade penal. a afirmacao e desatualizada: historicamente, lula e o pt sempre se opuseram a reducao da maioridade penal. contudo, em sabatina recente em outubro de 2026, lula mudou de posicao e declarou ser a favor de reduzir a maioridade para 16 anos exclusivamente em casos de crimes hediondos (como estupro e latrocinio), defendendo que o debate ocorra em texto separado da pec da seguranca. parcial enganoso"
+    "searchTokens": "397 decl-397 flavio bolsonaro flavio geral o lula e contra a reducao da maioridade penal. o lula e contra a reducao da maioridade penal. a afirmacao e desatualizada: historicamente, lula e o pt sempre se opuseram a reducao da maioridade penal. contudo, em sabatina recente em outubro de 2026, lula mudou de posicao e declarou ser a favor de reduzir a maioridade para 16 anos exclusivamente em casos de crimes hediondos (como estupro e latrocinio), defendendo que o debate ocorra em texto separado da pec da seguranca. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-398",
@@ -38079,7 +38476,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "398 decl-398 luiz inacio lula da silva lula geral flavio bolsonaro advogou em favor de um policial que atirou e matou uma crianca de 5 anos. flavio bolsonaro advogou em favor de um policial que atirou e matou uma crianca de 5 anos. verdadeira, com ressalvas. flavio bolsonaro integrou a defesa do policial militar bruno dias delaroli, acusado pelo ministerio publico do rio de janeiro de matar ana clara gomes machado, de cinco anos, com um disparo de fuzil em niteroi, em 2021. em 2024, flavio assinou um recurso contra a decisao de levar o caso a juri popular, mas o stj rejeitou o pedido. a afirmacao de que ele defendeu juridicamente o policial e comprovada. parcial enganoso"
+    "searchTokens": "398 decl-398 luiz inacio lula da silva lula geral flavio bolsonaro advogou em favor de um policial que atirou e matou uma crianca de 5 anos. flavio bolsonaro advogou em favor de um policial que atirou e matou uma crianca de 5 anos. verdadeira, com ressalvas. flavio bolsonaro integrou a defesa do policial militar bruno dias delaroli, acusado pelo ministerio publico do rio de janeiro de matar ana clara gomes machado, de cinco anos, com um disparo de fuzil em niteroi, em 2021. em 2024, flavio assinou um recurso contra a decisao de levar o caso a juri popular, mas o stj rejeitou o pedido. a afirmacao de que ele defendeu juridicamente o policial e comprovada. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-399",
@@ -38154,7 +38552,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "399 decl-399 flavio bolsonaro flavio geral vai aumentar a pena para ladroes de celular para 8 anos. vai aumentar a pena para ladroes de celular para 8 anos. a pena para roubo de celular ja e de 8 anos. a pena base sao 6 anos + 1/3 de fracao minima. parcial enganoso"
+    "searchTokens": "399 decl-399 flavio bolsonaro flavio geral vai aumentar a pena para ladroes de celular para 8 anos. vai aumentar a pena para ladroes de celular para 8 anos. a pena para roubo de celular ja e de 8 anos. a pena base sao 6 anos + 1/3 de fracao minima. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-400",
@@ -38236,7 +38635,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "400 decl-400 flavio bolsonaro flavio geral lula defendeu ladroes que roubam celulares e compram 'cervejinha'. lula defendeu ladroes que roubam celulares e compram 'cervejinha'. a alegacao ja foi desmentida pelo estadao verifica em mais de uma ocasiao (veja aqui e aqui). a peca desinformativa surgiu de uma antiga entrevista do petista, que foi editada para parecer que lula defendeu o roubo de celular para ladroes tomarem uma “cervejinha”. na entrevista original, ele nao fala nada disso. https://www.estadao.com.br/estadao-verifica/deputados-impulsionaram-anuncios-com-boato-falso-sobre-lula-e-roubo-de-celular/?srsltid=aycx9vjujhgxis5wxbgnfetgkqpsngkzvy0ocptu9fslua_6fuje8ume. falso falso"
+    "searchTokens": "400 decl-400 flavio bolsonaro flavio geral lula defendeu ladroes que roubam celulares e compram 'cervejinha'. lula defendeu ladroes que roubam celulares e compram 'cervejinha'. a alegacao ja foi desmentida pelo estadao verifica em mais de uma ocasiao (veja aqui e aqui). a peca desinformativa surgiu de uma antiga entrevista do petista, que foi editada para parecer que lula defendeu o roubo de celular para ladroes tomarem uma “cervejinha”. na entrevista original, ele nao fala nada disso. https://www.estadao.com.br/estadao-verifica/deputados-impulsionaram-anuncios-com-boato-falso-sobre-lula-e-roubo-de-celular/?srsltid=aycx9vjujhgxis5wxbgnfetgkqpsngkzvy0ocptu9fslua_6fuje8ume. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-401",
@@ -38311,7 +38711,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "401 decl-401 flavio bolsonaro flavio geral o ex-pm nao matou ana clara. o ex-pm nao matou ana clara. a afirmacao e imprecisa juridicamente: o ex-pm foi apontado pela policia civil e denunciado pelo ministerio publico como autor dos tiros de fuzil que mataram a menina ana clara (5 anos) em 2021, sendo pronunciado para ir a juri popular por homicidio qualificado, mas o julgamento ainda nao ocorreu para determinar sua culpa ou absolvicao: https://g1.globo.com/rj/rio-de-janeiro/noticia/2021/02/03/policial-preso-por-morte-de-menina-de-5-anos-em-niteroi-foi-indiciado-por-homicidio-qualificado.ghtml. parcial enganoso"
+    "searchTokens": "401 decl-401 flavio bolsonaro flavio geral o ex-pm nao matou ana clara. o ex-pm nao matou ana clara. a afirmacao e imprecisa juridicamente: o ex-pm foi apontado pela policia civil e denunciado pelo ministerio publico como autor dos tiros de fuzil que mataram a menina ana clara (5 anos) em 2021, sendo pronunciado para ir a juri popular por homicidio qualificado, mas o julgamento ainda nao ocorreu para determinar sua culpa ou absolvicao: https://g1.globo.com/rj/rio-de-janeiro/noticia/2021/02/03/policial-preso-por-morte-de-menina-de-5-anos-em-niteroi-foi-indiciado-por-homicidio-qualificado.ghtml. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-402",
@@ -38399,7 +38800,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "402 decl-402 flavio bolsonaro flavio geral vai criar a casa da mulher brasileira. vai criar a casa da mulher brasileira. este programa ja existe desde 2015, tendo sido implementado originalmente no governo dilma rousseff, e reune em um mesmo espaco servicos especializados para mulheres vitimas de violencia. falso falso"
+    "searchTokens": "402 decl-402 flavio bolsonaro flavio geral vai criar a casa da mulher brasileira. vai criar a casa da mulher brasileira. este programa ja existe desde 2015, tendo sido implementado originalmente no governo dilma rousseff, e reune em um mesmo espaco servicos especializados para mulheres vitimas de violencia. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-403",
@@ -38474,7 +38876,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "403 decl-403 luiz inacio lula da silva lula geral amigo de flavio roubou a ilha do jogador richarlison. amigo de flavio roubou a ilha do jogador richarlison. parcialmente verdade, ha uma disputa judicial em andamento para a apuracao dos fatos. o processo de posse que geralmente demora muito tempo foi feito em menos de uma semana para willer tomaz. referencias: https://g1.globo.com/politica/noticia/2026/10/21/entenda-polemica-entre-richarlison-flavio-bolsonaro-e-willer-tomaz-ilha-em-angra.ghtml. parcial enganoso"
+    "searchTokens": "403 decl-403 luiz inacio lula da silva lula geral amigo de flavio roubou a ilha do jogador richarlison. amigo de flavio roubou a ilha do jogador richarlison. parcialmente verdade, ha uma disputa judicial em andamento para a apuracao dos fatos. o processo de posse que geralmente demora muito tempo foi feito em menos de uma semana para willer tomaz. referencias: https://g1.globo.com/politica/noticia/2026/10/21/entenda-polemica-entre-richarlison-flavio-bolsonaro-e-willer-tomaz-ilha-em-angra.ghtml. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-404",
@@ -38549,7 +38952,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "404 decl-404 flavio bolsonaro flavio geral lula disse que vai acabar com a policia. lula disse que vai acabar com a policia. ato falho - o governo de lula nao defende o fim das forcas policiais, mas sim a integracao das policias por meio de propostas como a pec da seguranca publica (que busca ampliar a atuacao conjunta da uniao, policia federal, policia rodoviaria federal e policia penal) e o estimulo a mecanismos de controle e transparencia, como o uso de cameras corporais - https://noticias.uol.com.br/confere/ultimas-noticias/2023/01/20/flavio-dino-extincao-policia-militar-checagem.htm. o presidente luiz inacio lula da silva cometeu um ato falho (se atrapalhou) durante o debate da tv globo contra o senador flavio bolsonaro, realizado na noite de 23 de outubro de 2026. ao defender as suas propostas de seguranca publica, o petista disse textualmente a frase: 'voce vai ver o que e um governo acabar, sabe, com a policia e deixar o territorio livre'. no entanto, a analise do contexto e do restante da fala mostra que a intencao de lula era prometer acabar com o crime organizado, e nao com a instituicao policial. parcial enganoso"
+    "searchTokens": "404 decl-404 flavio bolsonaro flavio geral lula disse que vai acabar com a policia. lula disse que vai acabar com a policia. ato falho - o governo de lula nao defende o fim das forcas policiais, mas sim a integracao das policias por meio de propostas como a pec da seguranca publica (que busca ampliar a atuacao conjunta da uniao, policia federal, policia rodoviaria federal e policia penal) e o estimulo a mecanismos de controle e transparencia, como o uso de cameras corporais - https://noticias.uol.com.br/confere/ultimas-noticias/2023/01/20/flavio-dino-extincao-policia-militar-checagem.htm. o presidente luiz inacio lula da silva cometeu um ato falho (se atrapalhou) durante o debate da tv globo contra o senador flavio bolsonaro, realizado na noite de 23 de outubro de 2026. ao defender as suas propostas de seguranca publica, o petista disse textualmente a frase: 'voce vai ver o que e um governo acabar, sabe, com a policia e deixar o territorio livre'. no entanto, a analise do contexto e do restante da fala mostra que a intencao de lula era prometer acabar com o crime organizado, e nao com a instituicao policial. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-405",
@@ -38624,7 +39028,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "405 decl-405 flavio bolsonaro flavio geral o coronel do spu nao foi indicado por mim. o coronel do spu nao foi indicado por mim. a afirmacao e falsa: o coronel do exercito paulo da silva medeiros, que chefiou a superintendencia do patrimonio da uniao no rio de janeiro (spu-rj) a partir de 2019 e durante as decisoes sobre o imovel em angra dos reis, foi alcado ao cargo por apadrinhamento e indicacao politica direta de flavio bolsonaro: https://revistaforum.com.br/politica/mansao-em-angra-favorecimento-willer-tomaz-flavio-bolsonaro/. falso falso"
+    "searchTokens": "405 decl-405 flavio bolsonaro flavio geral o coronel do spu nao foi indicado por mim. o coronel do spu nao foi indicado por mim. a afirmacao e falsa: o coronel do exercito paulo da silva medeiros, que chefiou a superintendencia do patrimonio da uniao no rio de janeiro (spu-rj) a partir de 2019 e durante as decisoes sobre o imovel em angra dos reis, foi alcado ao cargo por apadrinhamento e indicacao politica direta de flavio bolsonaro: https://revistaforum.com.br/politica/mansao-em-angra-favorecimento-willer-tomaz-flavio-bolsonaro/. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-406",
@@ -38699,7 +39104,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "406 decl-406 flavio bolsonaro flavio geral lula recebeu garrafa de uisque de 500 mil reais. lula recebeu garrafa de uisque de 500 mil reais. ha mensagens liberadas pela policia federal de uma encomenda do daniel vorcaro, mas nao ha provas que o presente foi entregue. https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/22/uisque-que-vorcaro-teria-dado-a-lula-custou-r-500-mil-apontam-mensagens.ghtm. parcial enganoso"
+    "searchTokens": "406 decl-406 flavio bolsonaro flavio geral lula recebeu garrafa de uisque de 500 mil reais. lula recebeu garrafa de uisque de 500 mil reais. ha mensagens liberadas pela policia federal de uma encomenda do daniel vorcaro, mas nao ha provas que o presente foi entregue. https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/22/uisque-que-vorcaro-teria-dado-a-lula-custou-r-500-mil-apontam-mensagens.ghtm. parcial enganoso",
+    "majorityVerdict": "enganoso"
   },
   {
     "id": "DECL-407",
@@ -38774,7 +39180,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "407 decl-407 luiz inacio lula da silva lula geral flavio quer remover a numeracao dos lotes das municoes. flavio quer remover a numeracao dos lotes das municoes. verdadeiro, o projeto e apoiado oficialmente pelo flavio bolsonaro - https://oglobo.globo.com/brasil/noticia/2026/10/22/especialistas-veem-riscos-a-investigacao-com-retirada-da-marcacao-de-municoes-sugerida-em-projeto-de-flavio-bolsonaro.ghtml. verdadeiro verdadeiro"
+    "searchTokens": "407 decl-407 luiz inacio lula da silva lula geral flavio quer remover a numeracao dos lotes das municoes. flavio quer remover a numeracao dos lotes das municoes. verdadeiro, o projeto e apoiado oficialmente pelo flavio bolsonaro - https://oglobo.globo.com/brasil/noticia/2026/10/22/especialistas-veem-riscos-a-investigacao-com-retirada-da-marcacao-de-municoes-sugerida-em-projeto-de-flavio-bolsonaro.ghtml. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-408",
@@ -38856,7 +39263,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "408 decl-408 flavio bolsonaro flavio geral policia federal disse que nao teve dinheiro publico no filme dark horse. policia federal disse que nao teve dinheiro publico no filme dark horse. investigacao identificou que empresa de fabiano zettel, ex-pastor e braco-direito de vorcaro, mandou r$ 12 milhoes para a entre investimentos na vespera da primeira remessa aos eua para pagar o filme sobre jair bolsonaro. parte do dinheiro que daniel vorcaro enviou para os estados unidos para bancar o filme “dark horse”, a cinebiografia do ex-presidente jair bolsonaro, saiu de uma empresa de fabiano zettel ligada diretamente a fraude do banco master. a conclusao e da policia federal, em um despacho de 15 de outubro de 2026, obtido pelo intercept brasil. - https://www.intercept.com.br/2026/10/23/documento-pf-flavio-dinheiro-ilegal-vorcaro-dark-horse/. falso falso"
+    "searchTokens": "408 decl-408 flavio bolsonaro flavio geral policia federal disse que nao teve dinheiro publico no filme dark horse. policia federal disse que nao teve dinheiro publico no filme dark horse. investigacao identificou que empresa de fabiano zettel, ex-pastor e braco-direito de vorcaro, mandou r$ 12 milhoes para a entre investimentos na vespera da primeira remessa aos eua para pagar o filme sobre jair bolsonaro. parte do dinheiro que daniel vorcaro enviou para os estados unidos para bancar o filme “dark horse”, a cinebiografia do ex-presidente jair bolsonaro, saiu de uma empresa de fabiano zettel ligada diretamente a fraude do banco master. a conclusao e da policia federal, em um despacho de 15 de outubro de 2026, obtido pelo intercept brasil. - https://www.intercept.com.br/2026/10/23/documento-pf-flavio-dinheiro-ilegal-vorcaro-dark-horse/. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-409",
@@ -38931,7 +39339,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "409 decl-409 flavio bolsonaro flavio geral lula recebeu 30 milhoes para filme “por fora” lula recebeu 30 milhoes para filme “por fora” falso, os proprios advogados de daniel vorcaro negaram a afirmacao - https://www.cnnbrasil.com.br/eleicoes/vorcaro-cita-r-30-milhoes-a-filme-de-lula-o-que-sabemos-ate-agora/. falso falso"
+    "searchTokens": "409 decl-409 flavio bolsonaro flavio geral lula recebeu 30 milhoes para filme “por fora” lula recebeu 30 milhoes para filme “por fora” falso, os proprios advogados de daniel vorcaro negaram a afirmacao - https://www.cnnbrasil.com.br/eleicoes/vorcaro-cita-r-30-milhoes-a-filme-de-lula-o-que-sabemos-ate-agora/. falso falso",
+    "majorityVerdict": "falso"
   },
   {
     "id": "DECL-410",
@@ -39006,7 +39415,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "410 decl-410 luiz inacio lula da silva lula geral enquanto morriam milhares de pessoas bolsonaro estava fazendo festa em um barco. enquanto morriam milhares de pessoas bolsonaro estava fazendo festa em um barco. o episodio refere-se a uma investigacao jornalistica detalhada sobre um passeio de barco no lago paranoa (brasilia) em 17 de julho de 2020, no auge da pandemia de covid-19, quando o pais registrava mais de mil mortes diarias pela doenca (1.299 mortes registradas pelo consorcio de imprensa na vespera e 1.110 no proprio dia) - https://piaui.uol.com.br/web/flavio-bolsonaro-churrasco-lancha-vacina/. verdadeiro verdadeiro"
+    "searchTokens": "410 decl-410 luiz inacio lula da silva lula geral enquanto morriam milhares de pessoas bolsonaro estava fazendo festa em um barco. enquanto morriam milhares de pessoas bolsonaro estava fazendo festa em um barco. o episodio refere-se a uma investigacao jornalistica detalhada sobre um passeio de barco no lago paranoa (brasilia) em 17 de julho de 2020, no auge da pandemia de covid-19, quando o pais registrava mais de mil mortes diarias pela doenca (1.299 mortes registradas pelo consorcio de imprensa na vespera e 1.110 no proprio dia) - https://piaui.uol.com.br/web/flavio-bolsonaro-churrasco-lancha-vacina/. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-411",
@@ -39081,7 +39491,8 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "411 decl-411 flavio bolsonaro flavio geral lulinha vive no mesmo bairro que jogadores famosos. lulinha vive no mesmo bairro que jogadores famosos. verdadeiro, fabio luis lula da silva, o lulinha, mora no bairro de la moraleja, uma area residencial de alto padrao no municipio de alcobendas, na regiao metropolitana de madri, na espanha. verdadeiro verdadeiro"
+    "searchTokens": "411 decl-411 flavio bolsonaro flavio geral lulinha vive no mesmo bairro que jogadores famosos. lulinha vive no mesmo bairro que jogadores famosos. verdadeiro, fabio luis lula da silva, o lulinha, mora no bairro de la moraleja, uma area residencial de alto padrao no municipio de alcobendas, na regiao metropolitana de madri, na espanha. verdadeiro verdadeiro",
+    "majorityVerdict": "verdadeiro"
   },
   {
     "id": "DECL-412",
@@ -39162,6 +39573,7 @@ const ALL_DECLARATIONS = [
         }
       ]
     },
-    "searchTokens": "412 decl-412 luiz inacio lula da silva lula painel geral multichecagem placar geral: flavio (86 falas: 36 v, 28 impreciso, 13 f, 1 enganoso, 3 divergentes, 5 sem dados); lula (66 falas: 25 v, 23 impreciso, 11 f, 2 divergentes, 5 sem dados). 152 falas monitoradas por 6 agencias de checagem parceiras. plataforma agregadora que consolida vereditos de agencias independentes e aponta concordancias e divergencias entre checadores. agregado multiagencia enganoso"
+    "searchTokens": "412 decl-412 luiz inacio lula da silva lula painel geral multichecagem placar geral: flavio (86 falas: 36 v, 28 impreciso, 13 f, 1 enganoso, 3 divergentes, 5 sem dados); lula (66 falas: 25 v, 23 impreciso, 11 f, 2 divergentes, 5 sem dados). 152 falas monitoradas por 6 agencias de checagem parceiras. plataforma agregadora que consolida vereditos de agencias independentes e aponta concordancias e divergencias entre checadores. agregado multiagencia enganoso",
+    "majorityVerdict": "enganoso"
   }
 ];

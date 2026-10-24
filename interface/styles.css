@@ -555,6 +555,322 @@ body.night-mode .ai-disclaimer-text {
 }
 
 /* ==========================================================================
+   PLACAR CONSOLIDADO DOS CANDIDATOS (CRITÉRIO DA MAIORIA)
+   ========================================================================== */
+
+.debate-scoreboard-section {
+  margin-top: 26px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-hairline);
+}
+
+.scoreboard-header-bar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.scoreboard-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.scoreboard-kicker {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--text-ink-muted);
+}
+
+.scoreboard-heading {
+  font-family: var(--font-serif, 'Literata', Georgia, serif);
+  font-size: clamp(1.2rem, 2.4vw, 1.55rem);
+  font-weight: 800;
+  color: var(--text-ink);
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+
+.scoreboard-note {
+  font-family: var(--font-sans, 'Plus Jakarta Sans', sans-serif);
+  font-size: 0.82rem;
+  color: var(--text-ink-muted);
+  max-width: 460px;
+}
+
+.scoreboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.candidate-score-card {
+  background-color: var(--bg-paper-alt, #faf7f0);
+  border: 1px solid var(--border-hairline);
+  border-radius: 6px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.candidate-score-card:hover {
+  border-color: var(--border-dark, #292524);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+body.night-mode .candidate-score-card {
+  background-color: rgba(255, 255, 255, 0.025);
+  border-color: rgba(242, 237, 228, 0.14);
+}
+
+body.night-mode .candidate-score-card:hover {
+  border-color: rgba(242, 237, 228, 0.35);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+.candidate-score-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.score-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border-hairline);
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.avatar-flavio {
+  border-color: #2563eb;
+}
+
+.avatar-lula {
+  border-color: #dc2626;
+}
+
+body.night-mode .avatar-flavio {
+  border-color: #60a5fa;
+}
+
+body.night-mode .avatar-lula {
+  border-color: #f87171;
+}
+
+.score-candidate-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+  flex: 1;
+}
+
+.candidate-party-tag {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  padding: 1px 6px;
+  border-radius: 2px;
+  align-self: flex-start;
+  line-height: 1.4;
+}
+
+.candidate-party-tag.tag-blue {
+  background-color: #1e40af;
+  color: #ffffff;
+}
+
+.candidate-party-tag.tag-red {
+  background-color: #991b1b;
+  color: #ffffff;
+}
+
+body.night-mode .candidate-party-tag.tag-blue {
+  background-color: rgba(59, 130, 246, 0.3);
+  color: #93c5fd;
+  border: 1px solid rgba(59, 130, 246, 0.4);
+}
+
+body.night-mode .candidate-party-tag.tag-red {
+  background-color: rgba(239, 68, 68, 0.3);
+  color: #fca5a5;
+  border: 1px solid rgba(239, 68, 68, 0.4);
+}
+
+.candidate-score-name {
+  font-family: var(--font-serif, 'Literata', Georgia, serif);
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  font-weight: 800;
+  margin: 0;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.candidate-score-name.name-flavio {
+  color: #1d4ed8;
+}
+
+.candidate-score-name.name-lula {
+  color: #b91c1c;
+}
+
+body.night-mode .candidate-score-name.name-flavio {
+  color: #60a5fa;
+}
+
+body.night-mode .candidate-score-name.name-lula {
+  color: #f87171;
+}
+
+.candidate-total-speech {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 0.74rem;
+  color: var(--text-ink-muted);
+}
+
+/* Barra Multi-Segmentada Proporcional */
+.score-bar-track {
+  width: 100%;
+  height: 20px;
+  background-color: #e6e1d7;
+  border-radius: 4px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+body.night-mode .score-bar-track {
+  background-color: rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.score-bar-segment {
+  height: 100%;
+  transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.score-bar-segment.segment-true {
+  background-color: #16a34a;
+}
+
+.score-bar-segment.segment-fake {
+  background-color: #dc2626;
+}
+
+.score-bar-segment.segment-warn {
+  background-color: #d97706;
+}
+
+body.night-mode .score-bar-segment.segment-true {
+  background-color: #22c55e;
+}
+
+body.night-mode .score-bar-segment.segment-fake {
+  background-color: #ef4444;
+}
+
+body.night-mode .score-bar-segment.segment-warn {
+  background-color: #f59e0b;
+}
+
+/* Legenda / Métricas Detalhadas */
+.score-metrics-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding-top: 2px;
+}
+
+.score-metric-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: transparent;
+  border: 1px solid transparent;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  font-family: var(--font-sans, 'Plus Jakarta Sans', sans-serif);
+  font-size: 0.82rem;
+  padding: 5px 8px;
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.score-metric-item:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+body.night-mode .score-metric-item:hover {
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+.score-metric-item:focus-visible {
+  outline: 2px solid var(--stamp-red, #dc2626);
+  outline-offset: 1px;
+}
+
+.metric-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.metric-dot.dot-true {
+  background-color: #16a34a;
+}
+
+.metric-dot.dot-fake {
+  background-color: #dc2626;
+}
+
+.metric-dot.dot-warn {
+  background-color: #d97706;
+}
+
+body.night-mode .metric-dot.dot-true {
+  background-color: #22c55e;
+}
+
+body.night-mode .metric-dot.dot-fake {
+  background-color: #ef4444;
+}
+
+body.night-mode .metric-dot.dot-warn {
+  background-color: #f59e0b;
+}
+
+.metric-count {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: var(--text-ink);
+}
+
+.metric-label {
+  color: var(--text-ink-secondary);
+  font-weight: 500;
+}
+
+
+/* ==========================================================================
    LAYOUT PRINCIPAL
    ========================================================================== */
 

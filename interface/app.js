@@ -577,6 +577,14 @@ function applyFilters() {
   currentPage = 1; // Reseta sempre para a primeira página ao filtrar
   updateCounter(activeDeclarations.length, MASTER_CASES.length);
 
+  // Sincroniza classes visuais dos pills de candidato e veredito
+  document.querySelectorAll("#candidate-filters .filter-pill").forEach(btn => {
+    btn.classList.toggle("active", btn.getAttribute("data-candidate") === filterCandidate);
+  });
+  document.querySelectorAll("#verdict-filters .filter-pill").forEach(btn => {
+    btn.classList.toggle("active", btn.getAttribute("data-verdict") === filterVerdict);
+  });
+
   // Mantém seleção se ainda existir nos resultados, senão seleciona a primeira
   const stillExists = activeDeclarations.some(c => c.id === selectedDeclarationId);
   if (!stillExists) {
@@ -744,6 +752,41 @@ function setupThemeToggle() {
 
 document.addEventListener("DOMContentLoaded", () => {
   setupSearchAndFilters();
+  
+  // Interatividade do Placar Consolidado do Debate
+  document.querySelectorAll(".score-metric-item").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const cand = btn.getAttribute("data-candidate");
+      const verd = btn.getAttribute("data-verdict");
+      if (cand) filterCandidate = cand;
+      if (verd) filterVerdict = verd;
+      applyFilters();
+
+      const searchSec = document.querySelector(".search-filter-section");
+      if (searchSec) {
+        searchSec.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  });
+
+  document.querySelectorAll(".candidate-score-card").forEach(card => {
+    card.addEventListener("click", (e) => {
+      if (e.target.closest(".score-metric-item")) return;
+      const cand = card.getAttribute("data-candidate");
+      if (cand) {
+        filterCandidate = cand;
+        filterVerdict = "all";
+        applyFilters();
+
+        const searchSec = document.querySelector(".search-filter-section");
+        if (searchSec) {
+          searchSec.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      }
+    });
+  });
+
   setupThemeToggle();
   applyFilters();
 });
