@@ -4,9 +4,8 @@
   "description": "Dossiê de Auditoria Factual Comparada e Análise de Viés Editorial (Debate Presidencial TV Globo 2026)",
   "private": true,
   "scripts": {
-    "build": "node -e \"console.log('Vercel build: static assets and API functions ready.')\"",
-    "start": "python interface/server.py",
-    "dev": "python interface/server.py",
+    "start": "python scripts/local_server.py",
+    "dev": "python scripts/local_server.py",
     "test:api": "node -e \"require('./api/index.js')({method:'GET'},{setHeader:()=>{},status:c=>({json:d=>console.log('OK',Object.keys(d))})})\""
   },
   "keywords": [

@@ -1,28 +1,16 @@
 {
   "version": 2,
-  "framework": null,
   "cleanUrls": true,
   "functions": {
     "api/*.js": {
-      "includeFiles": "interface/*.json",
+      "includeFiles": "*.json",
       "memory": 1024,
       "maxDuration": 10
     }
   },
   "rewrites": [
-    { "source": "/metodologia", "destination": "/interface/metodologia.html" },
-    { "source": "/metodologia.html", "destination": "/interface/metodologia.html" },
-    { "source": "/", "destination": "/interface/index.html" },
-    { "source": "/index.html", "destination": "/interface/index.html" },
-    { "source": "/styles.css", "destination": "/interface/styles.css" },
-    { "source": "/app.js", "destination": "/interface/app.js" },
-    { "source": "/declarations_data.js", "destination": "/interface/declarations_data.js" },
-    { "source": "/declarations.json", "destination": "/interface/declarations.json" },
-    { "source": "/api_data.json", "destination": "/interface/api_data.json" },
-    { "source": "/lula.webp", "destination": "/interface/lula.webp" },
-    { "source": "/flavio.webp", "destination": "/interface/flavio.webp" },
-    { "source": "/docs/screenshots/(.*)", "destination": "/docs/screenshots/$1" },
-    { "source": "/interface/(.*)", "destination": "/interface/$1" }
+    { "source": "/metodologia", "destination": "/metodologia.html" },
+    { "source": "/interface/(.*)", "destination": "/$1" }
   ],
   "headers": [
     {

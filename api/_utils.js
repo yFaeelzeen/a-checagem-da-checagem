@@ -7,8 +7,8 @@ let cachedDeclarations = null;
 function getApiData() {
   if (cachedApiData) return cachedApiData;
   const possiblePaths = [
-    path.join(__dirname, '..', 'interface', 'api_data.json'),
-    path.join(process.cwd(), 'interface', 'api_data.json'),
+    path.join(__dirname, '..', 'api_data.json'),
+    path.join(process.cwd(), 'api_data.json'),
     path.join(__dirname, 'api_data.json')
   ];
 
@@ -28,8 +28,8 @@ function getApiData() {
 function getDeclarationsData() {
   if (cachedDeclarations) return cachedDeclarations;
   const possiblePaths = [
-    path.join(__dirname, '..', 'interface', 'declarations.json'),
-    path.join(process.cwd(), 'interface', 'declarations.json'),
+    path.join(__dirname, '..', 'declarations.json'),
+    path.join(process.cwd(), 'declarations.json'),
     path.join(__dirname, 'declarations.json')
   ];
 

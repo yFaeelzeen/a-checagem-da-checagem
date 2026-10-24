@@ -51,17 +51,15 @@ Dossiê exaustivo de metodologia forense, investigação dos mecanismos de viés
 
 ```text
 a-checagem-da-checagem/
-├── interface/             # Frontend e aplicação web do dossiê
-│   ├── index.html         # Painel principal com catálogo, busca, filtros e cards
-│   ├── metodologia.html   # Dossiê metodológico integral e console interativo da API
-│   ├── app.js             # Lógica reativa: busca, filtros, paginação e gaveta de fontes
-│   ├── styles.css         # Identidade visual inspirada em gazeta jornalística
-│   ├── declarations_data.js # Catálogo completo de 412 declarações em JS estático
-│   ├── declarations.json  # Catálogo normalizado em JSON (2.6 MB)
-│   ├── api_data.json      # Metadados, escopo, pipeline e perfil das agências
-│   ├── lula.webp          # Foto oficial TSE
-│   ├── flavio.webp        # Foto oficial TSE
-│   └── server.py          # Servidor HTTP e API REST nativa em Python
+├── index.html             # Painel principal com catálogo, busca, filtros e cards
+├── metodologia.html       # Dossiê metodológico integral e console interativo da API
+├── app.js                 # Lógica reativa: busca, filtros, paginação e gaveta de fontes
+├── styles.css             # Identidade visual inspirada em gazeta jornalística
+├── declarations_data.js   # Catálogo completo de 412 declarações em JS estático
+├── declarations.json      # Catálogo normalizado em JSON (2.6 MB)
+├── api_data.json          # Metadados, escopo, pipeline e perfil das agências
+├── lula.webp              # Foto oficial TSE
+├── flavio.webp            # Foto oficial TSE
 │
 ├── api/                   # Vercel Serverless Functions (Node.js)
 │   ├── _utils.js          # Utilitários de carregamento de dados e cabeçalhos CORS
@@ -172,22 +170,20 @@ git push -u origin main
 
 ## 💻 Como Executar Localmente
 
-### Opção A: Servidor Nativo Python (com API REST Completa)
-Zero dependências externas obrigatórias. Utiliza a biblioteca padrão do Python:
+### Opção A: Servidor Local (Node.js ou Python)
+Sem dependências externas:
 
 ```bash
-cd C:\Users\RAFAE\Downloads\a-checagem-da-checagem
-python interface/server.py
+# Via npm/npx
+npx serve .
+
+# Ou via Python local
+python scripts/local_server.py
 ```
 Acesse no navegador:
-- Interface Principal: **http://localhost:8080**
+- Interface Principal: **http://localhost:8080** (ou porta indicada pelo `serve`)
 - Metodologia e API: **http://localhost:8080/metodologia.html**
 - Endpoint da API: **http://localhost:8080/api**
-
-### Opção B: Servidor Estático Simples
-```bash
-python -m http.server 8080 --directory interface
-```
 
 ---
 

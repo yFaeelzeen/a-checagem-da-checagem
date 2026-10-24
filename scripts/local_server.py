@@ -7,7 +7,7 @@ import socketserver
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-DIRECTORY = os.path.dirname(os.path.abspath(__file__))
+DIRECTORY = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API_DATA_PATH = os.path.join(DIRECTORY, "api_data.json")
 DECLARATIONS_DATA_PATH = os.path.join(DIRECTORY, "declarations.json")
 PORT = 8080
