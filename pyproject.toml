@@ -1,0 +1,7 @@
+[project]
+name = "a-checagem-da-checagem"
+version = "1.0.0"
+description = "A Checagem da Checagem — Debate Presidencial 2026"
+
+[tool.vercel]
+entrypoint = "index.py"
