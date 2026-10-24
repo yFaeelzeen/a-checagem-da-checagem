@@ -153,9 +153,9 @@
     <section class="search-filter-section" aria-label="Pesquisa e filtros de declarações">
       <div class="search-bar-row">
         <div class="search-input-wrap">
-          <span class="search-icon">🔍</span>
+          <span class="search-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></span>
           <input type="text" id="declaration-search-input" class="search-input" placeholder="Pesquise por qualquer palavra-chave (ex: 'milícia', 'obras', 'tcu', 'salário', 'bolsa família', 'corrupção', 'richarlison')..." autocomplete="off" spellcheck="false">
-          <button id="search-clear-btn" class="search-clear-btn" title="Limpar pesquisa">✕</button>
+          <button id="search-clear-btn" class="search-clear-btn" title="Limpar pesquisa" aria-label="Limpar pesquisa"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
         </div>
         <div class="search-stats-badge" id="search-results-counter">
           <span class="counter-num" id="visible-count">412</span> de 412 declarações
@@ -168,8 +168,8 @@
           <span class="filter-group-label">CANDIDATO:</span>
           <div class="filter-pills" id="candidate-filters">
             <button class="filter-pill active" data-candidate="all">Todos os Candidatos</button>
-            <button class="filter-pill pill-lula" data-candidate="lula">🔴 Lula (PT)</button>
-            <button class="filter-pill pill-flavio" data-candidate="flavio">🔵 Flávio Bolsonaro (PL)</button>
+            <button class="filter-pill pill-lula" data-candidate="lula"><span class="pill-dot dot-lula" aria-hidden="true"></span><span>Lula (PT)</span></button>
+            <button class="filter-pill pill-flavio" data-candidate="flavio"><span class="pill-dot dot-flavio" aria-hidden="true"></span><span>Flávio Bolsonaro (PL)</span></button>
           </div>
         </div>
 
@@ -178,9 +178,9 @@
           <span class="filter-group-label">CLASSIFICAÇÃO:</span>
           <div class="filter-pills" id="verdict-filters">
             <button class="filter-pill active" data-verdict="all">Todos os Vereditos</button>
-            <button class="filter-pill pill-true" data-verdict="verdadeiro">🟢 Verdadeiro</button>
-            <button class="filter-pill pill-fake" data-verdict="falso">🔴 Falso</button>
-            <button class="filter-pill pill-warn" data-verdict="enganoso">🟡 Enganoso / Impreciso</button>
+            <button class="filter-pill pill-true" data-verdict="verdadeiro"><svg class="verdict-pill-icon icon-true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Verdadeiro</span></button>
+            <button class="filter-pill pill-fake" data-verdict="falso"><svg class="verdict-pill-icon icon-fake" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><span>Falso</span></button>
+            <button class="filter-pill pill-warn" data-verdict="enganoso"><svg class="verdict-pill-icon icon-warn" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg><span>Enganoso / Impreciso</span></button>
           </div>
         </div>
       </div>
@@ -197,8 +197,8 @@
         <div class="selector-controls-bar">
           <!-- Comutador de Modo: Grade vs Lista -->
           <div class="view-mode-toggle" role="group" aria-label="Modo de visualização">
-            <button class="btn-view-mode active" id="btn-view-grid" title="Visualização em Grade">🗂 Grade</button>
-            <button class="btn-view-mode" id="btn-view-list" title="Visualização em Lista Compacta">☰ Lista</button>
+            <button class="btn-view-mode active" id="btn-view-grid" title="Visualização em Grade"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg><span>Grade</span></button>
+            <button class="btn-view-mode" id="btn-view-list" title="Visualização em Lista Compacta"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg><span>Lista</span></button>
           </div>
           <!-- Mini Paginação Topo -->
           <div class="mini-pagination">
@@ -250,7 +250,7 @@
           <!-- Botão de Acesso à Metodologia Completa e API REST (Nova Página) -->
           <div class="methodology-actions-strip">
             <a href="metodologia.html" target="_blank" rel="noopener noreferrer" class="btn-open-methodology">
-              <span class="btn-icon">📖</span>
+              <span class="btn-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg></span>
               <span class="btn-text-wrap">
                 <strong>ABRIR METODOLOGIA INTEGRAL & DOCUMENTAÇÃO DA API (NOVA PÁGINA) ↗</strong>
                 <span class="btn-subtext">Dossiê exaustivo: como foi feito, anatomia do viés nos independentes, benefício da dúvida, scorecards e console interativo da API</span>

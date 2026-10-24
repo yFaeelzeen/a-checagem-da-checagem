@@ -2529,3 +2529,133 @@ body.night-mode .source-external-link:hover {
   width: 100%;
   margin-bottom: 8px;
 }
+
+/* ==========================================================================
+   ÍCONES VETORIAIS ESTILIZADOS (SUBSTITUIÇÃO DE EMOJIS)
+   ========================================================================== */
+
+/* Barra de Busca */
+.search-icon svg {
+  display: block;
+  stroke: var(--text-ink-muted);
+}
+
+.search-clear-btn svg {
+  display: block;
+  stroke: var(--text-ink-muted);
+  transition: stroke 0.15s ease;
+}
+
+.search-clear-btn:hover svg {
+  stroke: var(--text-ink);
+}
+
+/* Indicadores de Candidato nos Filtros */
+.filter-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.pill-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.filter-pill:hover .pill-dot {
+  transform: scale(1.2);
+}
+
+.dot-lula {
+  background-color: #dc2626;
+  box-shadow: 0 0 0 1px rgba(220, 38, 38, 0.2);
+}
+
+.dot-flavio {
+  background-color: #2563eb;
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.2);
+}
+
+.filter-pill.active .pill-dot {
+  background-color: #ffffff;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+/* Ícones de Veredito nos Filtros */
+.verdict-pill-icon {
+  flex-shrink: 0;
+  transition: transform 0.15s ease, stroke 0.15s ease;
+}
+
+.filter-pill:hover .verdict-pill-icon {
+  transform: scale(1.15);
+}
+
+.verdict-pill-icon.icon-true {
+  stroke: #16a34a;
+}
+
+.verdict-pill-icon.icon-fake {
+  stroke: #dc2626;
+}
+
+.verdict-pill-icon.icon-warn {
+  stroke: #d97706;
+}
+
+body.night-mode .verdict-pill-icon.icon-true {
+  stroke: #22c55e;
+}
+
+body.night-mode .verdict-pill-icon.icon-fake {
+  stroke: #ef4444;
+}
+
+body.night-mode .verdict-pill-icon.icon-warn {
+  stroke: #f59e0b;
+}
+
+.filter-pill.active .verdict-pill-icon {
+  stroke: #ffffff;
+}
+
+/* Botões de Modo Grade / Lista */
+.btn-view-mode {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-view-mode svg {
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+/* Botão de Metodologia */
+.btn-icon svg {
+  display: block;
+  stroke: currentColor;
+}
+
+/* Auditoria de Viés & Gaveta de Fontes */
+.bias-audit-tag {
+  display: inline-flex;
+  align-items: center;
+}
+
+.question-kicker,
+.evidence-kicker {
+  display: flex;
+  align-items: center;
+}
+
+.btn-sources-icon svg,
+.bias-audit-tag svg,
+.question-kicker svg,
+.evidence-kicker svg {
+  flex-shrink: 0;
+}

@@ -273,7 +273,7 @@ function renderSourcesDrawer(drawerId, sources, contextLabel) {
   return `
     <div class="sources-drawer-wrapper">
       <button type="button" class="btn-sources-toggle" data-drawer-id="${drawerId}" aria-expanded="false">
-        <span class="btn-sources-icon">📎</span>
+        <span class="btn-sources-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"></path></svg></span>
         <span class="btn-sources-label">${contextLabel || 'Fontes Documentais Consultadas'} (${sources.length})</span>
         <span class="btn-sources-caret">▼</span>
       </button>
@@ -369,7 +369,7 @@ function renderDossierCase(c) {
     if (!v) return "enganoso";
     const vl = v.toLowerCase();
     if (["verdadeiro", "fato", "#fato", "parcialmente verdadeiro"].some(x => vl.includes(x))) return "verdadeiro";
-    if (["falso", "fake", "#fake", "insustentavel", "insustentável", "✕falso"].some(x => vl.includes(x))) return "falso";
+    if (["falso", "fake", "#fake", "insustentavel", "insustentável", "falso"].some(x => vl.includes(x))) return "falso";
     return "enganoso";
   };
 
@@ -452,17 +452,17 @@ function renderDossierCase(c) {
         ${hasDivergence ? `
           <div class="bias-audit-box">
             <div class="bias-audit-header">
-              <span class="bias-audit-tag">⚡ AUDITORIA DE DIVERGÊNCIA EDITORIAL</span>
+              <span class="bias-audit-tag"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px; margin-right:4px;" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span>AUDITORIA DE DIVERGÊNCIA EDITORIAL</span></span>
               <span class="bias-audit-badge">Divergência: [${item.verdict.toUpperCase()}] vs Imprensa</span>
             </div>
             
             <div class="bias-audit-question-box">
-              <div class="question-kicker">🤔 QUESTÃO DIRETA AO LEITOR:</div>
+              <div class="question-kicker"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px; margin-right:5px;" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg><span>QUESTÃO DIRETA AO LEITOR:</span></div>
               <p class="question-body">${firmQuestion}</p>
             </div>
 
             <div class="bias-audit-evidence-box">
-              <div class="evidence-kicker">🔍 EVIDÊNCIA DO CONTRASTE & PULSO FIRME:</div>
+              <div class="evidence-kicker"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px; margin-right:5px;" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg><span>EVIDÊNCIA DO CONTRASTE & PULSO FIRME:</span></div>
               <p class="evidence-body">${firmEvidence}</p>
               ${c.sources && c.sources.length > 0 ? renderSourcesDrawer(`drawer-bias-${item.outlet.replace(/[^a-zA-Z0-9]/g, '')}-${c.id}`, c.sources, 'Ver Fontes e Documentos desta Auditoria') : ''}
             </div>
