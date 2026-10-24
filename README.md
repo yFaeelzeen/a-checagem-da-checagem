@@ -10,6 +10,25 @@ O projeto conta com uma **Aplicação Web Interativa**, um **Console de Auditori
 
 ---
 
+## 📸 Demonstração Visual da Interface
+
+### 1. Painel Principal & Placar Consolidado dos Candidatos
+Aviso de transparência de IA no topo, botão de acesso direto ao repositório GitHub, identificação cromática partidária (Flávio em azul e Lula em vermelho) e placar geral apurado pelo critério da maioria das checagens.
+
+![Painel Principal e Placar Consolidado](docs/screenshots/01_visao_geral_e_placar.png)
+
+### 2. Busca por Palavra-Chave, Filtros e Baralho Paginado
+Busca rápida com normalização semântica, filtros combinados de candidato e veredito, paginação compacta de 8 cards por página e gaveta retrátil de fontes oficiais.
+
+![Catálogo Completo e Filtros de Declarações](docs/screenshots/02_catalogo_e_filtros.png)
+
+### 3. Metodologia Integral & Console Interativo da API REST
+Dossiê exaustivo de metodologia forense, investigação dos mecanismos de viés editorial sob o benefício da dúvida e playground interativo para disparo de requisições em tempo real à API REST.
+
+![Metodologia e Console Interativo da API](docs/screenshots/03_metodologia_e_api.png)
+
+---
+
 ## 🚀 Funcionalidades da Interface Web
 
 - **Catálogo Completo de Declarações (412 registros):** Cobertura de todas as falas apuradas no debate com paginação balanceada (8 cards por página).
@@ -99,6 +118,7 @@ a-checagem-da-checagem/
 │   ├── relatorio_portais.md               # Diagnóstico dos grandes portais de imprensa
 │   └── relatorio_verifiqueaverdade.md     # Relatório da preservação integral do site
 │
+├── docs/screenshots/      # Capturas de tela demonstrativas em alta resolução
 ├── scripts/               # Pipelines reprodutíveis em Python
 ├── vercel.json            # Configuração de deploy, rotas e serverless na Vercel
 ├── package.json           # Manifesto do projeto e scripts de execução
