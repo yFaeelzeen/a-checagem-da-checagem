@@ -317,7 +317,13 @@ body.night-mode {
 html, body {
   overflow-x: hidden;
   max-width: 100vw;
+  width: 100%;
   -webkit-text-size-adjust: 100%;
+}
+
+img, svg, video {
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -2710,577 +2716,865 @@ body.night-mode .verdict-pill-icon.icon-warn {
 }
 
 
+
+
 /* ==========================================================================
-   SISTEMA DE RESPONSIVIDADE E ADAPTAÇÃO MOBILE (TABLETS & SMARTPHONES)
+   SISTEMA DE RESPONSIVIDADE TOTAL E ADAPTAÇÃO MOBILE (TABLETS & SMARTPHONES)
+   Garantia estrita de zero overflow horizontal e ergonomia tátil completa
    ========================================================================== */
 
 @media (max-width: 768px) {
-  /* Container e Espaçamentos Gerais */
-  .gazette-container {
-    padding: 0 14px;
-    max-width: 100%;
+  /* 1. Estrutura e Containers */
+  html, body {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+    width: 100% !important;
   }
 
-  /* Faixa de Aviso IA */
+  .gazette-container {
+    padding: 0 12px !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .docket-layout {
+    padding: 16px 12px 40px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* 2. Faixa de Transparência IA */
   .ai-disclaimer-strip {
-    padding: 8px 10px;
-    font-size: 0.68rem;
+    padding: 8px 10px !important;
+    font-size: 0.68rem !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .ai-disclaimer-inner {
-    flex-direction: row;
-    justify-content: center;
-    gap: 6px;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 6px !important;
+    text-align: center !important;
   }
 
-  /* Faixa do Topo (Dossiê Independente) */
+  .ai-disclaimer-text {
+    font-size: 0.68rem !important;
+    line-height: 1.3 !important;
+  }
+
+  /* 3. Faixa de Edição Superior (Dossiê Independente) */
   .gazette-top-strip {
-    padding: 10px 0;
+    padding: 8px 0 !important;
+    width: 100% !important;
   }
 
   .strip-flex {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 6px;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 5px !important;
+    width: 100% !important;
   }
 
   .edition-tag {
-    font-size: 0.68rem;
-    padding: 2px 6px;
+    font-size: 0.66rem !important;
+    padding: 2px 6px !important;
+    display: inline-block !important;
   }
 
   .edition-center,
   .edition-status {
-    font-size: 0.68rem;
-    text-align: center;
-    line-height: 1.35;
+    font-size: 0.66rem !important;
+    line-height: 1.35 !important;
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+    word-break: break-word !important;
   }
 
-  /* Cabeçalho Principal (Masthead) */
+  /* 4. Cabeçalho Principal (Masthead) */
   .masthead {
-    padding: 18px 0 14px;
+    padding: 16px 0 14px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .masthead-main {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 16px;
-    padding-bottom: 16px;
-    margin-bottom: 14px;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 14px !important;
+    padding-bottom: 14px !important;
+    margin-bottom: 14px !important;
+    width: 100% !important;
+  }
+
+  .masthead-brand {
+    width: 100% !important;
   }
 
   .newspaper-title {
-    font-size: clamp(1.75rem, 7.5vw, 2.45rem);
-    letter-spacing: -0.02em;
-    line-height: 1.15;
-    word-break: break-word;
-    margin-bottom: 6px;
+    font-size: clamp(1.6rem, 7vw, 2.3rem) !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.02em !important;
+    word-break: break-word !important;
+    margin-bottom: 6px !important;
   }
 
   .title-struck {
-    display: inline;
+    display: inline !important;
   }
 
   .title-quoted {
-    display: inline;
-    white-space: normal;
+    display: inline !important;
+    white-space: normal !important;
   }
 
   .newspaper-deck {
-    font-size: 0.95rem;
-    line-height: 1.45;
-    max-width: 100%;
-    margin-top: 6px;
+    font-size: 0.94rem !important;
+    line-height: 1.45 !important;
+    max-width: 100% !important;
+    margin-top: 6px !important;
   }
 
   .masthead-actions {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: center;
-    justify-content: stretch;
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 8px !important;
   }
 
   .github-repo-btn,
   .theme-toggle-btn {
-    flex: 1 1 0;
-    min-height: 44px;
-    padding: 10px 8px;
-    font-size: 0.72rem;
-    justify-content: center;
-    text-align: center;
+    width: 100% !important;
+    min-height: 44px !important;
+    padding: 10px 8px !important;
+    font-size: 0.70rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
   }
 
-  /* Resumo Editorial Lead */
+  /* 5. Resumo Editorial Lead */
   .gazette-editorial-lead {
-    padding: 12px 0 16px;
+    padding: 10px 0 16px !important;
+    width: 100% !important;
   }
 
   .gazette-editorial-lead p {
-    font-size: 0.94rem;
-    line-height: 1.5;
+    font-size: 0.92rem !important;
+    line-height: 1.5 !important;
+    word-break: break-word !important;
   }
 
-  /* Placar Consolidado do Debate */
+  /* 6. Placar Geral dos Candidatos */
   .debate-scoreboard-section {
-    margin-bottom: 24px;
+    margin-bottom: 20px !important;
+    width: 100% !important;
   }
 
   .scoreboard-header-bar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-    margin-bottom: 14px;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 4px !important;
+    margin-bottom: 12px !important;
+    width: 100% !important;
   }
 
   .scoreboard-kicker {
-    font-size: 0.68rem;
+    font-size: 0.66rem !important;
   }
 
   .scoreboard-heading {
-    font-size: 1.32rem;
-    line-height: 1.2;
+    font-size: 1.25rem !important;
+    line-height: 1.2 !important;
   }
 
   .scoreboard-note {
-    font-size: 0.78rem;
-    line-height: 1.35;
-    max-width: 100%;
+    font-size: 0.76rem !important;
+    line-height: 1.35 !important;
+    width: 100% !important;
+    word-break: break-word !important;
   }
 
   .scoreboard-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 12px !important;
   }
 
   .candidate-score-card {
-    padding: 14px 12px;
-    border-radius: 6px;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding: 12px !important;
+    box-sizing: border-box !important;
   }
 
   .candidate-score-header {
-    gap: 12px;
-    margin-bottom: 12px;
+    gap: 10px !important;
+    margin-bottom: 10px !important;
   }
 
   .score-avatar {
-    width: 48px;
-    height: 48px;
+    width: 46px !important;
+    height: 46px !important;
+    flex-shrink: 0 !important;
   }
 
   .candidate-score-name {
-    font-size: 1.12rem;
+    font-size: 1.08rem !important;
+    line-height: 1.2 !important;
   }
 
   .candidate-total-speech {
-    font-size: 0.74rem;
+    font-size: 0.72rem !important;
   }
 
   .score-bar-track {
-    height: 12px;
-    margin-bottom: 10px;
-    border-radius: 4px;
+    height: 12px !important;
+    margin-bottom: 10px !important;
+    border-radius: 4px !important;
+    width: 100% !important;
   }
 
   .score-metrics-row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 4px;
-    padding-top: 0;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 4px !important;
+    width: 100% !important;
+    padding-top: 0 !important;
   }
 
   .score-metric-item {
-    min-height: 44px;
-    padding: 6px 2px;
-    font-size: 0.70rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2px;
-    text-align: center;
-    border-radius: 4px;
+    width: 100% !important;
+    min-width: 0 !important;
+    min-height: 44px !important;
+    padding: 4px 2px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 2px !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
   }
 
   .score-metric-item .metric-count {
-    font-size: 0.95rem;
-    font-weight: 800;
+    font-size: 0.92rem !important;
+    font-weight: 800 !important;
   }
 
   .score-metric-item .metric-label {
-    font-size: 0.68rem;
-    line-height: 1.2;
-    text-align: center;
+    font-size: 0.64rem !important;
+    line-height: 1.1 !important;
+    text-align: center !important;
   }
 
-  /* Barra de Pesquisa e Filtros */
+  /* 7. Pesquisa e Filtros */
   .search-filter-section {
-    padding: 14px 12px;
-    margin-bottom: 18px;
-    border-radius: 6px;
+    padding: 12px 10px !important;
+    margin-bottom: 18px !important;
+    border-radius: 6px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .search-bar-row {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 10px;
-    margin-bottom: 12px;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+    margin-bottom: 10px !important;
+    width: 100% !important;
   }
 
   .search-input-wrap {
-    width: 100%;
+    width: 100% !important;
   }
 
   .search-input {
-    width: 100%;
-    font-size: 0.90rem;
-    padding: 12px 36px 12px 38px;
-    min-height: 44px;
+    width: 100% !important;
+    font-size: 0.88rem !important;
+    padding: 10px 32px 10px 36px !important;
+    min-height: 44px !important;
+    box-sizing: border-box !important;
   }
 
   .search-stats-badge {
-    width: 100%;
-    text-align: center;
-    padding: 8px 12px;
-    font-size: 0.76rem;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 6px 10px !important;
+    font-size: 0.74rem !important;
+    box-sizing: border-box !important;
   }
 
   .filter-controls-row {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 12px;
-    padding-top: 10px;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 10px !important;
+    padding-top: 10px !important;
+    width: 100% !important;
   }
 
   .filter-group {
-    width: 100%;
+    width: 100% !important;
   }
 
   .filter-group-label {
-    font-size: 0.70rem;
-    margin-bottom: 6px;
+    font-size: 0.68rem !important;
+    margin-bottom: 6px !important;
+    display: block !important;
   }
 
   .filter-pills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    width: 100%;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 6px !important;
+    width: 100% !important;
   }
 
   .filter-pill {
-    min-height: 44px;
-    font-size: 0.74rem;
-    padding: 8px 10px;
-    justify-content: center;
-    text-align: center;
-    flex: 1 1 calc(50% - 6px);
+    flex: 1 1 calc(50% - 6px) !important;
+    min-height: 44px !important;
+    font-size: 0.72rem !important;
+    padding: 6px 8px !important;
+    justify-content: center !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
   }
 
-  /* Índice de Declarações (Seletor) */
-  .docket-layout {
-    padding: 16px 0 40px;
-  }
-
+  /* 8. Índice de Declarações (Seletor) */
   .docket-selector {
-    padding: 14px 12px;
-    margin-bottom: 20px;
-    border-radius: 6px;
+    padding: 12px 10px !important;
+    margin-bottom: 18px !important;
+    border-radius: 6px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .selector-header {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 10px;
-    margin-bottom: 12px;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+    margin-bottom: 10px !important;
+    width: 100% !important;
   }
 
   .selector-title {
-    font-size: 0.78rem;
+    font-size: 0.76rem !important;
   }
 
   .selector-hint {
-    font-size: 0.74rem;
-    line-height: 1.35;
+    font-size: 0.72rem !important;
+    line-height: 1.3 !important;
+    word-break: break-word !important;
   }
 
   .selector-controls-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    gap: 6px;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 6px !important;
   }
 
   .btn-view-mode {
-    min-height: 44px;
-    padding: 8px 10px;
-    font-size: 0.72rem;
+    min-height: 44px !important;
+    padding: 8px 10px !important;
+    font-size: 0.70rem !important;
   }
 
   .mini-pagination {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    font-size: 0.74rem;
+    display: flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    font-size: 0.72rem !important;
   }
 
   .btn-page-nav {
-    min-height: 44px;
-    min-width: 44px;
-    padding: 8px 10px;
-    font-size: 0.74rem;
+    min-height: 44px !important;
+    min-width: 44px !important;
+    padding: 8px 10px !important;
+    font-size: 0.72rem !important;
   }
 
   .case-tabs-strip {
-    grid-template-columns: 1fr;
-    gap: 8px;
-    margin-bottom: 12px;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 8px !important;
+    margin-bottom: 12px !important;
   }
 
   .tab-case-btn {
-    height: auto;
-    min-height: 84px;
-    padding: 12px;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    height: auto !important;
+    min-height: 76px !important;
+    padding: 10px 12px !important;
+  }
+
+  .tab-meta-row {
+    width: 100% !important;
   }
 
   .tab-case-headline {
-    font-size: 0.88rem;
-    line-height: 1.35;
+    font-size: 0.86rem !important;
+    line-height: 1.35 !important;
+    width: 100% !important;
+    word-break: break-word !important;
   }
 
   .pagination-footer-bar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 4px;
-    padding-top: 10px;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 4px !important;
+    padding-top: 10px !important;
+    width: 100% !important;
   }
 
   .pagination-footer-bar button {
-    min-width: 44px;
-    min-height: 44px;
-    font-size: 0.76rem;
+    min-width: 40px !important;
+    min-height: 44px !important;
+    font-size: 0.74rem !important;
+    padding: 6px 8px !important;
   }
 
-  
-  /* Fact Summary Banner no Dossiê */
-  .fact-summary-banner {
-    flex-direction: column;
-    padding: 14px 12px;
-    gap: 12px;
-  }
-  .fact-summary-main {
-    width: 100%;
-    flex: 1 1 100%;
-    min-width: 0;
-  }
-  .fact-text {
-    font-size: 0.94rem;
-    line-height: 1.5;
-  }
-  .fact-scoreboard-box {
-    width: 100%;
-  }
-  .scoreboard-pills-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    width: 100%;
-  }
-  .score-pill {
-    font-size: 0.74rem;
-    padding: 6px 8px;
-    flex: 1 1 auto;
-    text-align: center;
-  }
-
-  /* Dossiê do Caso Ativo */
+  /* 9. Dossiê do Caso Ativo */
   .case-dossier {
-    padding: 16px 12px;
-    margin-bottom: 24px;
-    box-shadow: 2px 2px 0px var(--border-rule);
-    border-radius: 6px;
+    padding: 14px 10px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 2px 2px 0px var(--border-rule) !important;
+    border-radius: 6px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .dossier-headline-block {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 12px;
-    padding-bottom: 14px;
-    margin-bottom: 16px;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 10px !important;
+    padding-bottom: 12px !important;
+    margin-bottom: 14px !important;
+    width: 100% !important;
   }
 
   .speaker-profile-box {
-    gap: 12px;
+    gap: 10px !important;
+    width: 100% !important;
   }
 
   .candidate-avatar {
-    width: 48px;
-    height: 48px;
+    width: 44px !important;
+    height: 44px !important;
+    flex-shrink: 0 !important;
   }
 
   .dossier-speaker-title {
-    font-size: 1.15rem;
+    font-size: 1.08rem !important;
   }
 
   .dossier-topic-badge {
-    font-size: 0.74rem;
+    font-size: 0.72rem !important;
+    word-break: break-word !important;
   }
 
   .dossier-speech-quote {
-    font-size: 0.96rem;
-    line-height: 1.45;
-    padding: 12px 14px;
-    margin-bottom: 16px;
+    font-size: 0.94rem !important;
+    line-height: 1.45 !important;
+    padding: 10px 12px !important;
+    margin-bottom: 14px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    word-break: break-word !important;
   }
 
   .dossier-fact-box {
-    padding: 12px 14px;
-    font-size: 0.90rem;
-    line-height: 1.5;
-    margin-bottom: 18px;
+    padding: 10px 12px !important;
+    font-size: 0.88rem !important;
+    line-height: 1.45 !important;
+    margin-bottom: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    word-break: break-word !important;
   }
 
   .dossier-summary-verdict {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 10px;
-    padding: 12px;
-    text-align: center;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+    padding: 10px !important;
+    text-align: center !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .summary-verdict-stamp {
-    font-size: 0.86rem;
-    padding: 6px 12px;
-    text-align: center;
-    width: 100%;
+    font-size: 0.82rem !important;
+    padding: 6px 10px !important;
+    text-align: center !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
+  /* Fact Summary Banner */
+  .fact-summary-banner {
+    flex-direction: column !important;
+    padding: 12px 10px !important;
+    gap: 10px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .fact-summary-main {
+    width: 100% !important;
+    flex: 1 1 100% !important;
+    min-width: 0 !important;
+  }
+
+  .fact-text {
+    font-size: 0.90rem !important;
+    line-height: 1.45 !important;
+    word-break: break-word !important;
+  }
+
+  .fact-scoreboard-box {
+    width: 100% !important;
+  }
+
+  .scoreboard-pills-list {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 6px !important;
+    width: 100% !important;
+  }
+
+  .score-pill {
+    width: 100% !important;
+    font-size: 0.72rem !important;
+    padding: 6px 8px !important;
+    text-align: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Confronto em Duas Colunas */
   .comparison-duel-layout {
-    grid-template-columns: 1fr;
-    gap: 18px;
-    padding-top: 16px;
-    margin-bottom: 18px;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
+    padding-top: 14px !important;
+    margin-bottom: 16px !important;
+    width: 100% !important;
   }
 
   .duel-column {
-    width: 100%;
-    gap: 12px;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    gap: 10px !important;
+    box-sizing: border-box !important;
   }
 
   .column-entity-title {
-    font-size: 1.18rem;
+    font-size: 1.12rem !important;
   }
 
   .column-meta-count {
-    font-size: 0.72rem;
+    font-size: 0.70rem !important;
   }
 
   .factcheck-article-item {
-    padding-bottom: 12px;
+    padding-bottom: 10px !important;
+    width: 100% !important;
+    word-break: break-word !important;
   }
 
   .article-item-top {
-    flex-wrap: wrap;
-    gap: 6px;
+    flex-wrap: wrap !important;
+    gap: 6px !important;
+    width: 100% !important;
   }
 
   .outlet-name {
-    font-size: 0.98rem;
+    font-size: 0.95rem !important;
   }
 
   .editorial-stamp {
-    font-size: 0.74rem;
-    padding: 2px 6px;
+    font-size: 0.70rem !important;
+    padding: 2px 6px !important;
   }
 
   .article-quote {
-    font-size: 0.86rem;
-    line-height: 1.4;
+    font-size: 0.84rem !important;
+    line-height: 1.35 !important;
+    word-break: break-word !important;
   }
 
   .article-analysis {
-    font-size: 0.86rem;
-    line-height: 1.45;
+    font-size: 0.84rem !important;
+    line-height: 1.4 !important;
+    word-break: break-word !important;
   }
 
   /* Caixa de Auditoria de Viés & Gaveta de Fontes */
   .bias-audit-box {
-    padding: 12px 12px;
-    margin-top: 12px;
+    padding: 10px 10px !important;
+    margin-top: 10px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .audit-divergence-badge {
+    width: 100% !important;
+    font-size: 0.72rem !important;
+    box-sizing: border-box !important;
+    word-break: break-word !important;
+  }
+
+  .audit-question-title {
+    font-size: 0.88rem !important;
+    word-break: break-word !important;
+  }
+
+  .audit-evidence-contrast {
+    font-size: 0.82rem !important;
+    line-height: 1.4 !important;
+    word-break: break-word !important;
   }
 
   .btn-sources-toggle {
-    min-height: 44px;
-    padding: 10px 12px;
-    font-size: 0.78rem;
-    width: 100%;
+    min-height: 44px !important;
+    padding: 8px 10px !important;
+    font-size: 0.74rem !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .sources-drawer-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .source-drawer-item {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 8px;
-    padding: 10px 10px;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 6px !important;
+    padding: 8px 10px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .source-num-badge {
-    align-self: flex-start;
+    align-self: flex-start !important;
+  }
+
+  .source-doc-title {
+    font-size: 0.80rem !important;
+    word-break: break-word !important;
   }
 
   .source-doc-url {
-    max-width: 100%;
-    word-break: break-all;
-    white-space: normal;
+    max-width: 100% !important;
+    word-break: break-all !important;
+    white-space: normal !important;
+    font-size: 0.66rem !important;
   }
 
   .source-external-link {
-    min-height: 44px;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    font-size: 0.76rem;
+    min-height: 44px !important;
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center !important;
+    font-size: 0.74rem !important;
+    box-sizing: border-box !important;
   }
 
-  /* Estrutura Editorial / Explicação de Divergências */
+  /* 10. Estrutura Editorial */
   .editorial-framework {
-    padding: 16px 12px;
+    padding: 14px 10px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .framework-columns {
-    grid-template-columns: 1fr;
-    gap: 16px;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 14px !important;
   }
 
   .framework-card {
-    padding: 16px 14px;
+    padding: 14px 12px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    word-break: break-word !important;
   }
 
   .framework-heading {
-    font-size: 1.18rem;
+    font-size: 1.12rem !important;
+  }
+  /* 11. Rodapé e Painel de Transparência */
+  .gazette-footer {
+    padding: 24px 0 36px !important;
+    width: 100% !important;
+  }
+
+  .transparency-panel {
+    padding: 16px 12px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .transparency-tag {
+    font-size: 0.66rem !important;
+    word-break: break-word !important;
+  }
+
+  .transparency-title {
+    font-size: 1.25rem !important;
+    line-height: 1.2 !important;
+    word-break: break-word !important;
+  }
+
+  .transparency-subtitle {
+    font-size: 0.90rem !important;
+    line-height: 1.45 !important;
+    word-break: break-word !important;
+  }
+
+  .methodology-actions-strip {
+    margin-top: 16px !important;
+    width: 100% !important;
+  }
+
+  .btn-open-methodology {
+    padding: 14px 12px !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .btn-open-methodology strong {
+    font-size: 0.86rem !important;
+    line-height: 1.3 !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+    display: block !important;
+  }
+
+  .btn-open-methodology .btn-subtext {
+    font-size: 0.78rem !important;
+    line-height: 1.35 !important;
+    word-break: break-word !important;
+  }
+
+  .methodology-api-quicklinks {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 6px !important;
+    width: 100% !important;
+  }
+
+  .api-quick-label {
+    width: 100% !important;
+    font-size: 0.70rem !important;
+    margin-bottom: 2px !important;
+  }
+
+  .api-quick-pill {
+    padding: 6px 10px !important;
+    font-size: 0.72rem !important;
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .transparency-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+  }
+
+  .transparency-col {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    word-break: break-word !important;
+  }
+
+  .col-title {
+    font-size: 1.10rem !important;
+  }
+
+  .col-desc {
+    font-size: 0.86rem !important;
+    line-height: 1.45 !important;
+    word-break: break-word !important;
+  }
+
+  .repo-map-strip {
+    padding: 14px 10px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .map-strip-title {
+    font-size: 0.70rem !important;
+    margin-bottom: 8px !important;
+    display: block !important;
+  }
+
+  .map-pills {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 6px !important;
+    width: 100% !important;
+  }
+
+  .map-pill {
+    white-space: normal !important;
+    word-break: break-word !important;
+    font-size: 0.70rem !important;
+    padding: 4px 8px !important;
+    flex: 1 1 calc(50% - 6px) !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .footer-bottom-bar {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    text-align: center !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+
+  .footer-bottom-left,
+  .footer-bottom-right {
+    font-size: 0.74rem !important;
+    line-height: 1.4 !important;
+    word-break: break-word !important;
   }
 }
 
-@media (max-width: 420px) {
-  .newspaper-title {
-    font-size: 1.65rem;
-  }
-
-  .filter-pill {
-    flex: 1 1 100%;
-  }
-
-  .score-metrics-row {
-    grid-template-columns: 1fr;
-    gap: 6px;
-  }
-
-  .score-metric-item {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 8px 12px;
-  }
 }
