@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "framework": null,
   "cleanUrls": true,
   "functions": {
     "api/*.js": {
@@ -20,6 +21,7 @@
     { "source": "/api_data.json", "destination": "/interface/api_data.json" },
     { "source": "/lula.webp", "destination": "/interface/lula.webp" },
     { "source": "/flavio.webp", "destination": "/interface/flavio.webp" },
+    { "source": "/docs/screenshots/(.*)", "destination": "/docs/screenshots/$1" },
     { "source": "/interface/(.*)", "destination": "/interface/$1" }
   ],
   "headers": [
