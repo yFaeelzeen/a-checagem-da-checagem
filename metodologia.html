@@ -402,6 +402,87 @@
       word-break: break-word;
       line-height: 1.5;
     }
+  
+    /* Responsividade Mobile para Metodologia */
+    @media (max-width: 768px) {
+      .method-top-bar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+      }
+      .back-docket-link, .github-repo-btn, .theme-toggle {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 14px;
+      }
+      .method-title {
+        font-size: clamp(1.6rem, 6vw, 2.2rem) !important;
+        line-height: 1.2 !important;
+      }
+      .method-meta-chips {
+        flex-direction: column;
+        gap: 6px;
+      }
+      .method-chip {
+        width: 100%;
+        text-align: center;
+        padding: 6px 10px;
+      }
+      .pipeline-grid {
+        grid-template-columns: 1fr !important;
+        gap: 14px !important;
+      }
+      .pipeline-card {
+        padding: 16px 14px;
+      }
+      .method-nav-sticky {
+        position: static;
+        overflow-x: auto;
+        padding: 8px 0;
+      }
+      .method-nav-links {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 8px;
+        padding-bottom: 6px;
+      }
+      .nav-step-link {
+        white-space: nowrap;
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 12px;
+      }
+      .method-table-wrap {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        margin-bottom: 16px;
+      }
+      .api-explorer {
+        padding: 16px 12px;
+      }
+      .api-endpoint-selector {
+        flex-direction: column;
+        gap: 8px;
+      }
+      .api-endpoint-btn {
+        width: 100%;
+        min-height: 44px;
+      }
+      .api-response-actions {
+        flex-direction: column;
+        gap: 8px;
+      }
+      .btn-copy-code {
+        width: 100%;
+        min-height: 44px;
+        justify-content: center;
+      }
+    }
+
   </style>
 </head>
 <body>
