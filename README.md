@@ -64,6 +64,16 @@ Layout 100% fluido em viewports estreitos (390px), barra de navegação rápida 
 
 ![Versão Mobile - Topo e Placar](docs/screenshots/05_mobile_topo.png)
 
+### 5. Identidade Visual & Ícones Oficiais
+
+O projeto adota uma iconografia visual autoral inspirada em investigações editoriais e numismática forense:
+
+| Aplicação | Ícone Oficial | Conceito & Metáfora Visual | Arquivo |
+| :--- | :--- | :--- | :--- |
+| **Projeto Principal (Web App)** | **Balança Editorial** | Balança geométrica em equilíbrio sustentando dossiês com iluminação azul e vermelha, simbolizando o confronto neutro de checagens. | [docs/icons/icon_editorial_duel_balance.jpg](docs/icons/icon_editorial_duel_balance.jpg) |
+| **Metodologia & API REST** | **Lupa Forense** | Lupa investigativa chanfrada em titânio com checkmark factual de auditoria científica, servindo como marca de inspeção e endpoints de dados. | [docs/icons/icon_brand_forensic_loupe.jpg](docs/icons/icon_brand_forensic_loupe.jpg) |
+| **Integridade Criptográfica** | **Selo do Dossiê** | Pasta tátil de dossiê em relevo encimada por selo hexagonal metálico e circuito seguro para atestar hashes SHA-256 públicos. | [docs/icons/icon_forensic_dossier_seal.jpg](docs/icons/icon_forensic_dossier_seal.jpg) |
+
 ---
 
 ## Arquitetura & Stack Tecnológica
@@ -130,6 +140,10 @@ a-checagem-da-checagem/
 │   ├── local_server.py        # Servidor HTTP local com suporte a rotas estáticas e API
 │   └── verify_hashes.py       # Validador de assinaturas criptográficas SHA-256
 │
+├── docs/icons/                # Identidade visual e ícones oficiais de alta resolução
+│   ├── icon_editorial_duel_balance.jpg  # Marca oficial do Projeto Principal (Web App)
+│   ├── icon_brand_forensic_loupe.jpg    # Símbolo oficial da Metodologia & API REST
+│   └── icon_forensic_dossier_seal.jpg   # Selo criptográfico do acervo e integridade SHA-256
 ├── docs/screenshots/          # Evidências e capturas de tela do projeto em alta resolução
 ├── vercel.json                # Configuração de rotas de borda e cache-control da Vercel
 ├── package.json               # Manifesto do projeto e dependências de desenvolvimento
