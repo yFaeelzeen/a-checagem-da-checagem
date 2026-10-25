@@ -1,3 +1,79 @@
+
+// ==========================================================================
+// CONTROLE DE NAVEGAÇÃO DINÂMICA MOBILE (DOSSIÊ vs ÍNDICE DE CASOS)
+// ==========================================================================
+let currentMobileView = "dossier";
+
+function setMobileView(view, shouldScroll = true) {
+  const isMobile = window.innerWidth <= 768;
+  currentMobileView = view;
+  
+  const btnDossier = document.getElementById("tab-btn-dossier");
+  const btnIndex = document.getElementById("tab-btn-index");
+  const searchSec = document.querySelector(".search-filter-section");
+  const selectorSec = document.querySelector(".docket-selector");
+  const dossierSec = document.getElementById("active-case-dossier");
+  const frameworkSec = document.getElementById("case-framework");
+
+  if (!isMobile) {
+    if (searchSec) searchSec.style.display = "";
+    if (selectorSec) selectorSec.style.display = "";
+    if (dossierSec) dossierSec.style.display = "";
+    if (frameworkSec) frameworkSec.style.display = "";
+    return;
+  }
+
+  if (view === "dossier") {
+    btnDossier?.classList.add("active");
+    btnDossier?.setAttribute("aria-selected", "true");
+    btnIndex?.classList.remove("active");
+    btnIndex?.setAttribute("aria-selected", "false");
+
+    if (searchSec) searchSec.style.display = "none";
+    if (selectorSec) selectorSec.style.display = "none";
+    if (dossierSec) dossierSec.style.display = "block";
+    if (frameworkSec) frameworkSec.style.display = "block";
+
+    if (shouldScroll) {
+      document.querySelector(".mobile-view-tabs")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  } else {
+    btnIndex?.classList.add("active");
+    btnIndex?.setAttribute("aria-selected", "true");
+    btnDossier?.classList.remove("active");
+    btnDossier?.setAttribute("aria-selected", "false");
+
+    if (searchSec) searchSec.style.display = "block";
+    if (selectorSec) selectorSec.style.display = "block";
+    if (dossierSec) dossierSec.style.display = "none";
+    if (frameworkSec) frameworkSec.style.display = "none";
+
+    if (shouldScroll) {
+      document.querySelector(".mobile-view-tabs")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+}
+
+function setupMobileNavigation() {
+  const btnDossier = document.getElementById("tab-btn-dossier");
+  const btnIndex = document.getElementById("tab-btn-index");
+
+  if (btnDossier) {
+    btnDossier.addEventListener("click", () => setMobileView("dossier"));
+  }
+  if (btnIndex) {
+    btnIndex.addEventListener("click", () => setMobileView("index"));
+  }
+
+  window.addEventListener("resize", () => {
+    setMobileView(currentMobileView, false);
+  });
+
+  if (window.innerWidth <= 768) {
+    setMobileView("dossier", false);
+  }
+}
+
 // ==========================================================================
 // A CHECAGEM DA CHECAGEM — APLICAÇÃO PRINCIPAL COM BUSCA, PAGINAÇÃO & MODOS
 // Suporte a TODAS as 412 Declarações do Debate Presidencial 2026
@@ -144,7 +220,7 @@ function renderCaseTabs() {
           if (target) {
             renderDossierCase(target);
             if (window.innerWidth <= 768) {
-              document.getElementById("active-case-dossier")?.scrollIntoView({ behavior: "smooth", block: "start" });
+              setMobileView("dossier", true);
             }
           }
         }
@@ -185,7 +261,7 @@ function renderCaseTabs() {
           if (target) {
             renderDossierCase(target);
             if (window.innerWidth <= 768) {
-              document.getElementById("active-case-dossier")?.scrollIntoView({ behavior: "smooth", block: "start" });
+              setMobileView("dossier", true);
             }
           }
         }
@@ -551,9 +627,15 @@ function renderDossierCase(c) {
       </div>
     </div>
 
-    <!-- 3. O Duelo em Duas Colunas da Gazeta -->
+    <!-- 3. O Duelo em Duas Colunas da Gazeta com Alternador de Perspectiva Mobile -->
+    <div class="duel-perspective-toggle" role="tablist" aria-label="Perspectiva editorial das agências">
+      <button type="button" class="btn-perspective-tab active" data-perspective="all">Todas as Checagens (${pressList.length + indepList.length})</button>
+      <button type="button" class="btn-perspective-tab" data-perspective="press">Grande Imprensa (${pressList.length})</button>
+      <button type="button" class="btn-perspective-tab" data-perspective="indep">Independentes (${indepList.length})</button>
+    </div>
+
     <div class="comparison-duel-layout">
-      <div class="duel-column">
+      <div class="duel-column duel-press-col">
         <div class="duel-column-header">
           <h3 class="column-entity-title">A Grande Imprensa</h3>
           <span class="column-meta-count">${pressList.length} checagens auditadas</span>
@@ -563,7 +645,7 @@ function renderDossierCase(c) {
         </div>
       </div>
 
-      <div class="duel-column">
+      <div class="duel-column duel-indep-col">
         <div class="duel-column-header">
           <h3 class="column-entity-title">Checadores Independentes</h3>
           <span class="column-meta-count">${indepList.length} checagens auditadas</span>
@@ -593,6 +675,30 @@ function renderDossierCase(c) {
       </div>
     </div>
   `;
+
+  
+  // Eventos do seletor de perspectiva editorial (mobile)
+  const perspectiveBtns = dossier.querySelectorAll(".btn-perspective-tab");
+  const pressCol = dossier.querySelector(".duel-press-col");
+  const indepCol = dossier.querySelector(".duel-indep-col");
+
+  perspectiveBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      perspectiveBtns.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      const p = btn.getAttribute("data-perspective");
+      if (p === "press") {
+        if (pressCol) pressCol.style.display = "flex";
+        if (indepCol) indepCol.style.display = "none";
+      } else if (p === "indep") {
+        if (pressCol) pressCol.style.display = "none";
+        if (indepCol) indepCol.style.display = "flex";
+      } else {
+        if (pressCol) pressCol.style.display = "flex";
+        if (indepCol) indepCol.style.display = "flex";
+      }
+    });
+  });
 
   // Eventos de navegação rápida do dossiê
   const dPrev = document.getElementById("dossier-nav-prev");
@@ -627,7 +733,11 @@ function renderDossierCase(c) {
 
   if (dIndex) {
     dIndex.addEventListener("click", () => {
-      document.querySelector(".docket-selector")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (window.innerWidth <= 768) {
+        setMobileView("index", true);
+      } else {
+        document.querySelector(".docket-selector")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
     });
   }
 }
@@ -849,5 +959,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   setupThemeToggle();
+  setupMobileNavigation();
   applyFilters();
 });

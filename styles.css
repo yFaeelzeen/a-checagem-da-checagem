@@ -3791,3 +3791,144 @@ input:focus-visible {
   }
 }
 
+
+
+/* ==========================================================================
+   COMUTADORES E NAVEGAÇÃO DINÂMICA MOBILE (ESPECÍFICOS)
+   ========================================================================== */
+.mobile-view-tabs {
+  display: none;
+}
+
+.duel-perspective-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* --------------------------------------------------------------------------
+     NOVA ARQUITETURA MOBILE DINÂMICA & RESPIRO AMPLO
+     -------------------------------------------------------------------------- */
+  .gazette-container {
+    padding: 0 20px !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .docket-layout {
+    padding: 16px 20px 48px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Cartões com cantos arredondados amigáveis e acolchoamento interno confortável */
+  .candidate-score-card,
+  .search-filter-section,
+  .docket-selector,
+  .case-dossier,
+  .transparency-panel {
+    border-radius: 12px !important;
+    padding: 18px 16px !important;
+    margin-bottom: 22px !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04) !important;
+  }
+
+  /* Barra de Navegação Dinâmica: Dossiê vs Índice de Casos */
+  .mobile-view-tabs {
+    display: flex !important;
+    gap: 8px !important;
+    width: 100% !important;
+    margin-bottom: 18px !important;
+    padding: 4px !important;
+    background: var(--bg-paper-alt) !important;
+    border: 1px solid var(--border-rule) !important;
+    border-radius: 8px !important;
+    box-sizing: border-box !important;
+  }
+
+  .btn-mobile-tab {
+    flex: 1 1 50% !important;
+    min-height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    padding: 8px 12px !important;
+    font-family: var(--font-mono) !important;
+    font-size: 0.74rem !important;
+    font-weight: 700 !important;
+    border-radius: 6px !important;
+    border: 1px solid transparent !important;
+    background: transparent !important;
+    color: var(--text-ink-muted) !important;
+    cursor: pointer !important;
+    transition: all 0.15s ease !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .btn-mobile-tab.active {
+    background: var(--bg-card) !important;
+    color: var(--text-ink) !important;
+    border-color: var(--border-rule) !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08) !important;
+    font-weight: 800 !important;
+  }
+
+  /* Alternador de Perspectiva Editorial do Duelo (Mobile) */
+  .duel-perspective-toggle {
+    display: flex !important;
+    gap: 6px !important;
+    width: 100% !important;
+    margin-bottom: 16px !important;
+    padding: 3px !important;
+    background: var(--bg-paper-alt) !important;
+    border: 1px solid var(--border-hairline) !important;
+    border-radius: 6px !important;
+    box-sizing: border-box !important;
+  }
+
+  .btn-perspective-tab {
+    flex: 1 1 33.33% !important;
+    min-height: 40px !important;
+    padding: 6px 4px !important;
+    font-family: var(--font-mono) !important;
+    font-size: 0.66rem !important;
+    font-weight: 700 !important;
+    border-radius: 4px !important;
+    border: 1px solid transparent !important;
+    background: transparent !important;
+    color: var(--text-ink-muted) !important;
+    cursor: pointer !important;
+    text-align: center !important;
+    transition: all 0.15s ease !important;
+    box-sizing: border-box !important;
+  }
+
+  .btn-perspective-tab.active {
+    background: var(--bg-card) !important;
+    color: var(--text-ink) !important;
+    border-color: var(--border-rule) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06) !important;
+    font-weight: 800 !important;
+  }
+
+  /* Refinamento dos artigos no duelo */
+  .factcheck-article-item {
+    border-radius: 8px !important;
+    padding: 14px !important;
+    margin-bottom: 12px !important;
+    border: 1px solid var(--border-hairline) !important;
+    background: var(--bg-paper) !important;
+  }
+
+  /* Acolchoamento aprimorado no dossiê */
+  .transcript-statement-box,
+  .fact-summary-banner,
+  .auditor-memo-box {
+    border-radius: 8px !important;
+    padding: 14px 14px !important;
+    margin-bottom: 16px !important;
+  }
+
+}
