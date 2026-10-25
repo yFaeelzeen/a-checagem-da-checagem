@@ -1,0 +1,163 @@
+[
+  {
+    "id": "fof",
+    "group": "newsrooms",
+    "abbreviation": "FoF",
+    "name": "Fato ou Fake",
+    "description": "g1 / Grupo Globo"
+  },
+  {
+    "id": "lupa",
+    "group": "newsrooms",
+    "abbreviation": "Lupa",
+    "name": "Lupa / Folha",
+    "description": "parceria"
+  },
+  {
+    "id": "af",
+    "group": "newsrooms",
+    "abbreviation": "AF",
+    "name": "Aos Fatos",
+    "description": "site próprio"
+  },
+  {
+    "id": "terra",
+    "group": "newsrooms",
+    "abbreviation": "Terra",
+    "name": "Terra",
+    "description": "com Aos Fatos"
+  },
+  {
+    "id": "est",
+    "group": "newsrooms",
+    "abbreviation": "Estad",
+    "name": "Estadão Verifica",
+    "description": "versão de 24/10, 15h34"
+  },
+  {
+    "id": "uol",
+    "group": "newsrooms",
+    "abbreviation": "UOL",
+    "name": "UOL Confere",
+    "description": "UOL"
+  },
+  {
+    "id": "icl",
+    "group": "newsrooms",
+    "abbreviation": "ICL",
+    "name": "ICL Notícias",
+    "description": "ao vivo"
+  },
+  {
+    "id": "rf",
+    "group": "newsrooms",
+    "abbreviation": "Fórum",
+    "name": "Revista Fórum",
+    "description": "Contra Fake · IA com revisão"
+  },
+  {
+    "id": "bp",
+    "group": "newsrooms",
+    "abbreviation": "BP",
+    "name": "Brasil Paralelo",
+    "description": "Checagem BP"
+  },
+  {
+    "id": "cje",
+    "group": "academic",
+    "abbreviation": "CJE",
+    "name": "CJE · ECA-USP",
+    "description": "ao vivo no YouTube"
+  },
+  {
+    "id": "rncd",
+    "group": "academic",
+    "abbreviation": "RNCD",
+    "name": "Fenaj / RNCD",
+    "description": "rede de entidades · ao vivo"
+  },
+  {
+    "id": "dbm",
+    "group": "academic",
+    "abbreviation": "Dbm",
+    "name": "debatômetro",
+    "description": "FESPSP + FIA · automático"
+  },
+  {
+    "id": "vf",
+    "group": "independent",
+    "abbreviation": "VF",
+    "name": "Verifique os Fatos",
+    "description": "projeto comunitário"
+  },
+  {
+    "id": "va",
+    "group": "independent",
+    "abbreviation": "VV",
+    "name": "Verifique a Verdade",
+    "description": "projeto independente"
+  },
+  {
+    "id": "fa",
+    "group": "independent",
+    "abbreviation": "IA-FA",
+    "name": "Análise via IA de Filipe Astini",
+    "description": "planilha"
+  },
+  {
+    "id": "cav",
+    "group": "independent",
+    "abbreviation": "CaV",
+    "name": "checagemaovivo.org",
+    "description": "IA · placar completo do site; na tabela, só a amostra visível",
+    "reportedTotals": {
+      "flavio": {
+        "true": 8,
+        "partial": 37,
+        "false": 54,
+        "unsupported": 4
+      },
+      "lula": {
+        "true": 58,
+        "partial": 5,
+        "false": 0,
+        "unsupported": 0
+      }
+    }
+  },
+  {
+    "id": "rp",
+    "group": "independent",
+    "abbreviation": "RP",
+    "name": "Ranking dos Políticos",
+    "description": "137 falas"
+  },
+  {
+    "id": "dc",
+    "group": "independent",
+    "abbreviation": "DC",
+    "name": "debates.cc",
+    "description": "IA · checagem ao vivo"
+  },
+  {
+    "id": "quemmentiu",
+    "group": "aggregate",
+    "abbreviation": "",
+    "name": "quemmentiu?",
+    "description": "placar automatizado, sem caráter oficial",
+    "reportedTotals": {
+      "flavio": {
+        "true": 16,
+        "partial": 50,
+        "false": 57,
+        "unsupported": 4
+      },
+      "lula": {
+        "true": 63,
+        "partial": 14,
+        "false": 5,
+        "unsupported": 1
+      }
+    }
+  }
+]
