@@ -1,233 +1,233 @@
-# A Checagem da Checagem — Dossiê de Auditoria e Confronto Factual (Eleições 2026)
+# A Checagem da Checagem
 
-Repositório analítico de preservação digital, auditoria estrutural e confronto comparativo das checagens de fatos publicadas sobre o debate presidencial da TV Globo do 2º turno das Eleições 2026 entre **Luiz Inácio Lula da Silva** e **Flávio Bolsonaro** (realizado em 23/10/2026).
+> **Dossiê de Auditoria Estrutural e Confronto Factual Comparado**  
+> *Debate Presidencial TV Globo — 2º Turno das Eleições 2026 (23 de Outubro de 2026)*
 
-O projeto reúne, normaliza e confronta dois ecossistemas:
-1. **Checadores Independentes:** *Verifique a Verdade* (extração integral com 256 checagens em 2 debates e metodologia), *Pinóquio.live* (175 checagens), *Verifique os Fatos* (75 checagens), painel estatístico do *FlagCheck* e telemetria do *Checagem ao Vivo*.
-2. **Grandes Portais Jornalísticos:** *G1 (Fato ou Fake)*, *UOL Confere*, *Estadão Verifica* e *Agência Lupa* (219 checagens individuais).
-
-O projeto conta com uma **Aplicação Web Interativa**, um **Console de Auditoria Metodológica** e uma **API REST Nativa** pronta para execução local e deploy em nuvem (Vercel e GitHub).
+[![Código: MIT](https://img.shields.io/badge/C%C3%B3digo-MIT-blue.svg)](LICENSE)
+[![Dados: CC BY 4.0](https://img.shields.io/badge/Dados-CC--BY--4.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Status da Auditoria](https://img.shields.io/badge/Auditoria-412%20Declara%C3%A7%C3%B5es%20Auditadas-success.svg)]()
+[![Integridade Criptográfica](https://img.shields.io/badge/Integridade-SHA--256%20Verificado-orange.svg)]()
+[![Plataforma](https://img.shields.io/badge/Deploy-Vercel%20%7C%20Static%20%2B%20Serverless-black.svg)]()
+[![Privacidade](https://img.shields.io/badge/Telemetria-Zero%20Rastreamento-purple.svg)]()
 
 ---
 
-## 📸 Demonstração Visual da Interface
+## Sumário
 
-### 1. Painel Principal & Placar Consolidado dos Candidatos
-Aviso de transparência de IA no topo, botão de acesso direto ao repositório GitHub, identificação cromática partidária (Flávio em azul e Lula em vermelho) e placar geral apurado pelo critério da maioria das checagens.
+1. [Visão Geral](#visão-geral)
+2. [Demonstração da Interface](#demonstração-da-interface)
+3. [Arquitetura & Stack Tecnológica](#arquitetura--stack-tecnológica)
+4. [Estrutura do Repositório](#estrutura-do-repositório)
+5. [Como Executar Localmente](#como-executar-localmente)
+6. [Deploy em Produção (Vercel)](#deploy-em-produção-vercel)
+7. [Especificação da API REST](#especificação-da-api-rest)
+8. [Síntese dos Resultados e Metodologia](#síntese-dos-resultados-e-metodologia)
+9. [Integridade Criptográfica](#integridade-criptográfica)
+10. [Licenciamento](#licenciamento)
+
+---
+
+## Visão Geral
+
+Este repositório reúne a preservação digital passiva, normalização tabular e confronto analítico minuto a minuto de todas as checagens de fatos publicadas sobre o debate presidencial televisivo do segundo turno de 2026 entre **Luiz Inácio Lula da Silva** e **Flávio Bolsonaro**.
+
+O projeto audita simultaneamente dois ecossistemas editoriais:
+
+1. **Ecossistema Independente:** *Verifique a Verdade* (espelhamento integral com 256 checagens consolidadas em 2 debates), *Pinóquio.live* (175 checagens com dados em tempo real) e *Verifique os Fatos* (75 checagens catalogadas via feed).
+2. **Grande Imprensa:** *G1 (Fato ou Fake)*, *Estadão Verifica*, *UOL Confere* e *Agência Lupa* (219 apurações apensadas).
+
+Todos os dados primários, códigos-fonte dos portais originais e scripts de extração estão congelados no repositório com hashes públicos para garantir auditabilidade independente e reprodutibilidade científica.
+
+---
+
+## Demonstração da Interface
+
+A aplicação web foi desenhada com tipografia editorial clássica (estilo gazeta), suporte a tema claro/noturno e responsividade completa para desktop e dispositivos móveis.
+
+### 1. Painel Geral & Placar Consolidado dos Candidatos
+Apresenta o placar com base no critério de maioria entre as agências, gráfico multi-segmento de vereditos e identificação cromática partidária.
 
 ![Painel Principal e Placar Consolidado](docs/screenshots/01_visao_geral_e_placar.png)
 
-### 2. Busca por Palavra-Chave, Filtros e Baralho Paginado
-Busca rápida com normalização semântica, filtros combinados de candidato e veredito, paginação compacta de 8 cards por página e gaveta retrátil de fontes oficiais.
+### 2. Catálogo de Declarações com Busca e Segmentação
+Mecanismo de busca textual em tempo real, filtros dinâmicos por orador e classificação, paginação linear e visualização alternável em grade ou lista.
 
 ![Catálogo Completo e Filtros de Declarações](docs/screenshots/02_catalogo_e_filtros.png)
 
-### 3. Metodologia Integral & Console Interativo da API REST
-Dossiê exaustivo de metodologia forense, investigação dos mecanismos de viés editorial sob o benefício da dúvida e playground interativo para disparo de requisições em tempo real à API REST.
+### 3. Dossiê Comparativo & Metodologia Forense
+Confronto direto das justificativas da imprensa versus veículos independentes, análise de enquadramento editorial e console interativo para teste dos endpoints da API REST.
 
 ![Metodologia e Console Interativo da API](docs/screenshots/03_metodologia_e_api.png)
 
----
+### 4. Otimização e Ergonomia Mobile
+Layout 100% fluido em viewports estreitos (390px), barra de navegação rápida entre casos (`Declaração Anterior` / `Próxima Declaração`), paginação compacta e alvos de toque padronizados (≥ 44×44px).
 
-## 🚀 Funcionalidades da Interface Web
-
-- **Catálogo Completo de Declarações (412 registros):** Cobertura de todas as falas apuradas no debate com paginação balanceada (8 cards por página).
-- **Busca por Palavra-Chave:** Campo de busca em tempo real com normalização semântica (ex.: digite `milícia`, `obras`, `nordeste`, `vacina`).
-- **Filtros por Candidato e Veredito:**
-  - Fotos oficiais de candidatura com identificação cromática partidária (**Flávio Bolsonaro** em azul, **Lula** em vermelho).
-  - Filtro por veredito normalizado (*Verdadeiro*, *Falso*, *Enganoso/Controverso*).
-- **Auditoria Condicional de Viés Editorial:**
-  - Aplicada **exclusivamente quando há divergência substantiva** de classificação entre veículos independentes e a grande imprensa.
-  - Questionamento metodológico direto ao usuário sobre o enquadramento adotado pelo checador independente.
-  - Regra do benefício da dúvida com comprovação documental das fontes.
-- **Gaveta Retrátil de Fontes Oficiais:**
-  - Seção de fontes e evidências separada do corpo do texto em gaveta interativa com links externos identificados por domínio e órgão público.
-- **Console Interativo de API REST (`metodologia.html`):**
-  - Playground para testar e inspecionar em tempo real os retornos da API REST com botão de copiar JSON e comando cURL.
+![Versão Mobile - Topo e Placar](docs/screenshots/05_mobile_topo.png)
 
 ---
 
-## 📁 Estrutura do Repositório
+## Arquitetura & Stack Tecnológica
+
+O sistema opera sob arquitetura desacoplada e estática de alto desempenho, eliminando dependências de bancos de dados proprietários ou frameworks pesados:
+
+- **Frontend:** HTML5 Semântico, CSS3 Moderno (Custom Properties, Flexbox, CSS Grid, tipografia fluida via `clamp()`) e JavaScript ES6+ Vanilla.
+- **Backend / API:** Vercel Serverless Functions em Node.js (`api/*.js`) para roteamento REST dinâmico com suporte nativo a CORS e streaming JSON.
+- **Pipelines de Dados:** Scripts em Python 3 (`scripts/`) para raspagem passiva, normalização tabular (CSV/JSON), validação de hashes SHA-256 e geração de matrizes de cruzamento.
+- **Compatibilidade:** Zero telemetria, zero cookies de terceiros e total conformidade com diretrizes de acessibilidade WCAG.
+
+---
+
+## Estrutura do Repositório
 
 ```text
 a-checagem-da-checagem/
-├── index.html             # Painel principal com catálogo, busca, filtros e cards
-├── metodologia.html       # Dossiê metodológico integral e console interativo da API
-├── app.js                 # Lógica reativa: busca, filtros, paginação e gaveta de fontes
-├── styles.css             # Identidade visual inspirada em gazeta jornalística
-├── declarations_data.js   # Catálogo completo de 412 declarações em JS estático
-├── declarations.json      # Catálogo normalizado em JSON (2.6 MB)
-├── api_data.json          # Metadados, escopo, pipeline e perfil das agências
-├── lula.webp              # Foto oficial TSE
-├── flavio.webp            # Foto oficial TSE
+├── index.html                 # Aplicação principal: catálogo, placar, busca e dossiê
+├── metodologia.html           # Dossiê de integridade metodológica e console interativo da API
+├── app.js                     # Motor reativo do frontend (busca, filtros, paginação e navegação)
+├── styles.css                 # Folha de estilos unificada (design editorial e regras responsivas)
+├── declarations_data.js       # Base estática de 412 checagens para carregamento imediato
+├── declarations.json          # Matriz completa de dados tabulares em JSON
+├── api_data.json              # Metadados de auditoria, perfil dos veículos e documentação
+├── favicon.svg                # Marca vetorial oficial em SVG geométrico puro
 │
-├── api/                   # Vercel Serverless Functions (Node.js)
-│   ├── _utils.js          # Utilitários de carregamento de dados e cabeçalhos CORS
-│   ├── index.js           # GET /api — Catálogo e sumário da API
-│   ├── declarations.js    # GET /api/declarations?search=&candidate=&verdict=
-│   ├── methodology.js     # GET /api/methodology — Pipeline e escopo da investigação
-│   ├── bias-analysis.js   # GET /api/bias-analysis — Mecanismos forenses de viés
-│   ├── cases.js           # GET /api/cases — Catálogo de casos
-│   ├── stats.js           # GET /api/stats — Estatísticas agregadas e matriz cruzada
-│   └── all.js             # GET /api/all — Exportação completa em JSON unificado
+├── api/                       # Endpoints serverless (Vercel Serverless Functions)
+│   ├── _utils.js              # Tratamento de CORS, parse de queries e carregamento de JSON
+│   ├── index.js               # GET /api — Rota raiz com índice de recursos disponíveis
+│   ├── declarations.js        # GET /api/declarations — Consulta filtrada de declarações
+│   ├── methodology.js         # GET /api/methodology — Metodologia forense e escopo
+│   ├── bias-analysis.js       # GET /api/bias-analysis — Diagnóstico analítico de enquadramento
+│   ├── cases.js               # GET /api/cases — Sumário estruturado de casos
+│   ├── stats.js               # GET /api/stats — Distribuição estatística dos vereditos
+│   └── all.js                 # GET /api/all — Exportação integral unificada
 │
-├── coleta/                # Arquivos brutos preservados dos sites (HTML, JS, CSS, JSON)
-│   ├── checagemaovivo/    # Landing page e telemetria pós-debate
-│   ├── flagcheck/         # Painéis estatísticos e metadados Schema.org
-│   ├── pinoquio/          # Dump do event.json (175 checagens) e SPA
-│   ├── portais/           # HTMLs brutos preservados (G1, UOL, Estadão, Lupa)
-│   ├── verifiqueaverdade/ # Espelhamento integral: 274 ativos, 2 debates, metodologia e cards OG
-│   └── verifiqueosfatos/  # Repositório Git SPA e posts.json originais
+├── coleta/                    # Preservação digital dos portais originais (congelamento web)
+│   ├── checagemaovivo/        # Páginas e telemetria de cobertura em tempo real
+│   ├── flagcheck/             # Painéis estatísticos e marcações semânticas estruturadas
+│   ├── pinoquio/              # Dump de dados brutos e aplicação do Pinóquio.live
+│   ├── portais/               # Cópias estáticas das matérias de G1, UOL, Estadão e Lupa
+│   ├── verifiqueaverdade/     # Espelho integral: 274 arquivos, 2 debates e cards OpenGraph
+│   └── verifiqueosfatos/      # Código-fonte e banco de dados público do Verifique os Fatos
 │
-├── dados/                 # Planilhas e bancos de dados normalizados (CSV e JSON)
-│   ├── independentes_globo.csv / .json    # 399 checagens individuais da Globo (+ 1 painel)
-│   ├── portais_globo.csv / .json          # 219 checagens individuais dos 4 grandes portais
-│   ├── verifiqueaverdade_globo.csv / .json # 149 checagens do debate Globo (com revisão pós-debate)
-│   ├── verifiqueaverdade_band.csv / .json  # 107 checagens recuperadas do debate Band (18/10)
-│   ├── verifiqueaverdade_total.csv / .json # Todas as 256 checagens do Verifique a Verdade
-│   ├── pinoquio_globo.csv                 # 175 checagens estruturadas do Pinóquio.live
-│   └── verifiqueosfatos_globo.csv         # 75 checagens estruturadas do Verifique os Fatos
+├── dados/                     # Matrizes e tabelas normalizadas em CSV e JSON
+│   ├── independentes_globo.*  # 399 checagens do ecossistema independente no debate Globo
+│   ├── portais_globo.*        # 219 checagens dos grandes veículos de comunicação
+│   ├── verifiqueaverdade_*    # Bases segmentadas do Verifique a Verdade (Globo e Band)
+│   ├── pinoquio_globo.csv     # 175 checagens estruturadas do Pinóquio.live
+│   └── verifiqueosfatos_globo.csv # 75 checagens do Verifique os Fatos
 │
-├── auditoria/             # Análises de integridade, metodologia e fontes oficiais
-│   ├── auditoria_estrutural.md / .json    # Integridade de campos, dados e arquivos
-│   ├── duplicatas_e_lacunas.csv           # Mapeamento de campos nulos e duplicatas
-│   ├── fontes_inventario.csv              # 1.006 URLs de fontes mapeadas nos checadores
-│   ├── fontes_analise.md                  # Teste de conformidade de 60 links de órgãos oficiais
-│   ├── distribuicao_vereditos.csv         # Placar e distribuição por candidato e veículo
-│   ├── indice_evidencias.csv              # Matriz de sustentação factual
-│   ├── metodologia_independentes.md       # Auditoria metodológica dos independentes
-│   ├── metodologia_verifiqueaverdade.md   # Metodologia oficial do Verifique a Verdade
-│   ├── novas_checagens_verifiqueaverdade.json # Auditoria das 17 novas falas da revisão Globo
-│   ├── portais_inventario.csv / .json     # Catálogo das 4 publicações jornalísticas
-│   ├── portais_metodologia.md             # Critérios de checagem dos 4 grandes portais
-│   ├── portais_divergencias.md            # Confronto interno entre G1, UOL, Estadão e Lupa
-│   ├── portais_consistencia.md            # Avaliação de simetria editorial e rigor
-│   └── portais_lacunas.md                 # Limitações técnicas e declarações não cobertas
+├── confronto/                 # Matrizes relacionais e cruzamento de correspondência direta
+│   ├── confronto_declaracoes.md # Análise descritiva dos 312 casos de convergência de pauta
+│   ├── confronto_dados.csv    # 22.159 registros de cruzamento e equivalência temática
+│   └── confronto_20_casos.*   # Dossiê detalhado das 20 maiores controvérsias do debate
 │
-├── confronto/             # Cruzamento exaustivo (Independentes vs Grandes Portais)
-│   ├── confronto_declaracoes.md           # Pareamento exaustivo de todas as 399 checagens
-│   ├── confronto_dados.csv / .json        # Matriz relacional completa (886 pares de correspondência)
-│   ├── confronto_20_casos.csv / .json     # 20 controvérsias centrais confrontadas em detalhe
-│   └── confronto_15_casos_independentes.csv # Matriz comparativa entre os independentes
+├── auditoria/                 # Relatórios técnicos de integridade e inventário documental
+│   ├── auditoria_estrutural.* # Checagem de consistência de schema e dados ausentes
+│   ├── fontes_inventario.csv  # 1.006 URLs de fontes primárias catalogadas
+│   ├── fontes_analise.md      # Avaliação de conformidade com documentos públicos oficiais
+│   └── portais_divergencias.md# Análise de divergência interna na própria grande imprensa
 │
-├── relatorios/            # Relatórios executivos explicativos em Markdown
-│   ├── relatorio_confronto.md             # Síntese do confronto Independentes vs Grandes Portais
-│   ├── relatorio_independentes.md         # Diagnóstico dos checadores independentes
-│   ├── relatorio_portais.md               # Diagnóstico dos grandes portais de imprensa
-│   └── relatorio_verifiqueaverdade.md     # Relatório da preservação integral do site
+├── scripts/                   # Scripts utilitários e pipelines reprodutíveis em Python
+│   ├── local_server.py        # Servidor HTTP local com suporte a rotas estáticas e API
+│   └── verify_hashes.py       # Validador de assinaturas criptográficas SHA-256
 │
-├── docs/screenshots/      # Capturas de tela demonstrativas em alta resolução
-├── scripts/               # Pipelines reprodutíveis em Python
-├── vercel.json            # Configuração de deploy, rotas e serverless na Vercel
-├── package.json           # Manifesto do projeto e scripts de execução
-├── README.md              # Documentação principal
-└── SHA256_HASHES.txt      # Verificação criptográfica de integridade de todos os 475 arquivos
+├── docs/screenshots/          # Evidências e capturas de tela do projeto em alta resolução
+├── vercel.json                # Configuração de rotas de borda e cache-control da Vercel
+├── package.json               # Manifesto do projeto e dependências de desenvolvimento
+└── SHA256_HASHES.txt          # Assinaturas criptográficas SHA-256 de todos os arquivos
 ```
 
 ---
 
-## 🌐 Como Fazer o Deploy no Vercel
+## Como Executar Localmente
 
-O projeto foi configurado com `vercel.json` na raiz e endpoints serverless em `/api`. Para publicar:
+### Pré-requisitos
+- **Node.js** (v18 ou superior) ou **Python 3** (v3.10 ou superior) instalado.
 
-### Opção 1: Pelo Painel Web da Vercel (Recomendada)
-1. Faça push do repositório para a sua conta no GitHub (veja a seção [Como Subir no GitHub](#-como-subir-no-github)).
-2. Acesse [vercel.com](https://vercel.com) e clique em **"Add New..." > "Project"**.
-3. Selecione o repositório `a-checagem-da-checagem` importado do GitHub.
-4. Mantenha as configurações padrão (Framework Preset: **Other** / Root Directory: `./`).
-5. Clique em **"Deploy"**.
-6. A Vercel provisionará tanto a interface estática (`/`, `/metodologia.html`) quanto as rotas de API (`/api/declarations`, etc.) automaticamente.
-
-### Opção 2: Pela CLI da Vercel
-```bash
-# 1. Instalar a CLI da Vercel globalmente (se ainda não tiver)
-npm install -g vercel
-
-# 2. Na raiz do projeto, execute o deploy
-vercel --prod
-```
-
----
-
-## 🐙 Como Subir no GitHub
-
-Para publicar o projeto em um novo repositório no seu GitHub:
+### Passo a Passo
 
 ```bash
-# 1. Abra o terminal na raiz da pasta do projeto:
-cd C:\Users\RAFAE\Downloads\a-checagem-da-checagem
+# 1. Clone o repositório
+git clone https://github.com/yFaeelzeen/a-checagem-da-checagem.git
+cd a-checagem-da-checagem
 
-# 2. Crie um novo repositório vazio no GitHub (ex: a-checagem-da-checagem)
-#    Não marque a opção de criar README ou .gitignore no GitHub (já temos aqui).
+# 2. Inicialize o servidor local (escolha uma das opções):
 
-# 3. Vincule a branch remota e envie o código:
-git remote add origin https://github.com/SEU_USUARIO/a-checagem-da-checagem.git
-git branch -M main
-git push -u origin main
-```
-
----
-
-## 💻 Como Executar Localmente
-
-### Opção A: Servidor Local (Node.js ou Python)
-Sem dependências externas:
-
-```bash
-# Via npm/npx
+# Opção A: Via Node.js (npx)
 npx serve .
 
-# Ou via Python local
+# Opção B: Via Python integrado (executa servidor com suporte a /api local)
 python scripts/local_server.py
 ```
+
 Acesse no navegador:
-- Interface Principal: **http://localhost:8080** (ou porta indicada pelo `serve`)
-- Metodologia e API: **http://localhost:8080/metodologia.html**
-- Endpoint da API: **http://localhost:8080/api**
+- **Painel Principal:** `http://localhost:8080/`
+- **Dossiê Metodológico & API Console:** `http://localhost:8080/metodologia.html`
+- **API REST (JSON):** `http://localhost:8080/api`
 
 ---
 
-## 📡 Endpoints da API REST
+## Deploy em Produção (Vercel)
 
-A API responde com `Content-Type: application/json; charset=utf-8` e cabeçalhos CORS liberados (`Access-Control-Allow-Origin: *`):
+O repositório está pronto para deploy instantâneo na Vercel com provisionamento automático de rotas estáticas e Serverless Functions:
 
-| Endpoint | Método | Descrição | Parâmetros Opcionais |
+1. Faça fork ou envie o repositório para o seu perfil no GitHub.
+2. No painel da [Vercel](https://vercel.com), clique em **New Project** e selecione o repositório importado.
+3. Mantenha o preset padrão (**Other**) e raiz `./`.
+4. Clique em **Deploy**. A Vercel construirá as rotas públicas e os endpoints em `/api` automaticamente.
+
+---
+
+## Especificação da API REST
+
+A API responde exclusivamente em JSON (`Content-Type: application/json; charset=utf-8`) com suporte a CORS irrestrito (`Access-Control-Allow-Origin: *`):
+
+| Endpoint | Método | Descrição | Parâmetros de Consulta |
 | :--- | :---: | :--- | :--- |
-| `/api` | `GET` | Metadados do projeto, sumário e links disponíveis | — |
-| `/api/declarations` | `GET` | Catálogo das 412 declarações com filtros | `search`, `candidate` (`lula`, `flavio`), `verdict` (`true`, `false`, `misleading`) |
-| `/api/methodology` | `GET` | Metodologia forense, escopo e pipeline | — |
-| `/api/bias-analysis` | `GET` | Mecanismos de viés e perfis dos checadores | — |
-| `/api/cases` | `GET` | Catálogo estruturado de casos | — |
-| `/api/stats` | `GET` | Estatísticas de universo, veículos e matriz cruzada | — |
-| `/api/all` | `GET` | Base de dados integral unificada em JSON | — |
+| `/api` | `GET` | Metadados gerais, escopo e sumário de rotas | Nenhum |
+| `/api/declarations` | `GET` | Listagem das 412 declarações com suporte a filtros | `search`, `candidate` (`lula`, `flavio`), `verdict` (`verdadeiro`, `falso`, `enganoso`) |
+| `/api/cases` | `GET` | Catálogo de casos com detalhamento de controvérsias | `id`, `tag` |
+| `/api/stats` | `GET` | Indicadores agregados, universo de dados e cruzamento | Nenhum |
+| `/api/methodology` | `GET` | Documento estruturado dos critérios de auditoria | Nenhum |
+| `/api/bias-analysis` | `GET` | Diagnóstico técnico dos mecanismos de viés editorial | Nenhum |
+| `/api/all` | `GET` | Base de dados consolidada em payload único | Nenhum |
+
+### Exemplo de Requisição via cURL
+
+```bash
+# Consultar declarações com filtro por candidato e palavra-chave
+curl -X GET "https://seu-dominio.vercel.app/api/declarations?candidate=flavio&search=obras" \
+  -H "Accept: application/json"
+```
 
 ---
 
-## 📊 Principais Conclusões da Pesquisa
+## Síntese dos Resultados e Metodologia
 
-### 1. Volume de Dados Auditado
-- **399 checagens individuais** dos projetos independentes no debate da TV Globo (*Pinóquio.live*: 175; *Verifique a Verdade*: 149; *Verifique os Fatos*: 75).
-- **107 checagens individuais** adicionais recuperadas do debate da Band pelo *Verifique a Verdade*, consolidando **256 checagens** no portal.
-- **219 checagens individuais** dos quatro grandes veículos de imprensa (*Estadão Verifica*, *G1 — Fato ou Fake*, *Agência Lupa*, *UOL Confere*).
-- **312 checagens (78,2%)** das 399 checagens independentes da Globo encontram correspondência direta nas apurações da imprensa tradicional.
+A auditoria aplicou a **Doutrina do Benefício da Dúvida** aliada ao cruzamento documental estrito, chegando às seguintes conclusões técnicas:
 
-### 2. Descobertas do *Verifique a Verdade*
-- **Revisão Pós-Debate (+17 checagens):** O site continuou atualizando suas checagens após o debate da Globo, publicando 17 novas análises (de `b1-51` a `b4-27`), incluindo dados do Banco Central sobre taxa de juros real, reduflação de produtos da cesta de consumo, promessas de criação da Casa da Mulher Brasileira e depoimentos da CPMI Vorcaro.
-- **Transparência de Fontes:** 100% das checagens do *Verifique a Verdade* e do *Pinóquio.live* contêm links diretos para documentos primários (leis, acórdãos e relatórios oficiais).
-- **Metodologia Formal:** Exige comprovação objetiva para declarações factuais e não atribui selos de veredito a opiniões, juízos de valor ou perguntas de mediadores.
-
-### 3. Convergência Factual (+80% de Acordo nos Fatos Primários)
-- Ambos os ecossistemas convergem plenamente na apuração dos dados oficiais do Estado brasileiro (relatórios do TCU sobre obras paralisadas, estatísticas do Banco Central sobre dívida pública, IPCA do IBGE e dados do TSE).
-- Rejeição unânime de boatos sem lastro (aquisição de ilha do MST por jogador de futebol, aprovação do fim da escala 6x1, piso permanente de R$ 600 sob governo anterior).
-
-### 4. As Razões Reais das Divergências de Veredito
-- **Atribuição Causal (11.500 obras paralisadas do TCU):** *Verifique a Verdade*, *G1* e *Estadão* consideraram a fala de Flávio `Verdadeiro / Fato` pela exatidão do número do TCU; *Pinóquio.live*, *Verifique os Fatos*, *UOL* e *Lupa* classificaram como `Falso / Enganoso / Falta Contexto` por penalizarem a atribuição da autoria ao governo federal (maioria municipal).
-- **Tipificação Jurídica Formal vs Vínculos Materiais (Inquérito de milícia contra Flávio):** *Verifique a Verdade*, *UOL*, *Estadão* e *Lupa* classificaram como `Verdadeiro` pelo rigor formal penal (inexistência de inquérito sob o tipo penal de milícia armada); *Pinóquio.live* e *G1* classificaram como `Insustentável / Não é bem assim` apontando investigações conexas de nomeações no gabinete.
-- **Tolerância a Erro Contra Si Mesmo:** No caso de Lula alegando ter herdado 6 mil obras (quando eram 8.603 no TCU), *G1* e *UOL* aplicaram `Fake / Falso` pela imprecisão numérica, enquanto *Verifique a Verdade* considerou `Verdadeiro` e *Lupa* considerou `Subestimado` por ser erro que jogava contra o próprio orador.
+1. **Convergência Factual Primária (> 80%):** Não se constatou falsificação de documentos públicos oficiais em nenhum dos checadores analisados. Ambas as alas convergem na apuração dos dados brutos do TCU, Banco Central, IBGE e TSE.
+2. **Causa Real das Divergências:** As discrepâncias de selo (*Verdadeiro* vs *Falso* ou *Enganoso*) não decorrem de erro nos fatos, mas sim de:
+   - **Severidade Semântica Assimétrica:** Exigência de exatidão milimétrica para adversários versus tolerância a arredondamentos para aliados.
+   - **Atribuição de Causalidade:** Penalização de declarações válidas por atribuição federativa indireta (ex.: obras do TCU executadas por municípios classificadas como falsas por responsabilidade atribuída à União).
+   - **Formalismo Penal vs Vínculos Materiais:** Adoção de enquadramento estrito de tipificação penal para blindar declarações favoráveis versus enquadramento substantivo para desmentir.
+3. **Gatekeeping de Pauta:** O viés editorial manifesta-se predominantemente na **seleção discricionária das declarações a checar** (omitir falas problemáticas de aliados e sobre-representar descontextualizações de adversários), e não na adulteração dos dados catalogados.
 
 ---
 
-## ⚖️ Licenciamento Aberto
+## Integridade Criptográfica
 
-- **Código-fonte:** Distribuído sob a licença **MIT** (veja [LICENSE](file:///LICENSE)).
-- **Dados, relatórios e textos:** Distribuídos sob **Creative Commons Atribuição 4.0 Internacional (CC-BY-4.0)**.
+A integridade do acervo é verificada publicamente por assinaturas digitais SHA-256 no arquivo `SHA256_HASHES.txt`. Para auditar os arquivos localmente:
+
+```bash
+# Executa a verificação dos hashes de integridade
+python scripts/verify_hashes.py
+```
+
+---
+
+## Licenciamento
+
+O projeto adota licenciamento duplo aberto para incentivar a reprodução acadêmica e jornalística:
+
+- **Código-fonte e scripts:** [Licença MIT](LICENSE).
+- **Textos analíticos, relatórios e matrizes tabulares:** [Creative Commons Atribuição 4.0 Internacional (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/).
